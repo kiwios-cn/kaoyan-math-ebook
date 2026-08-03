@@ -1,12 +1,12 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-03T19:31:52+08:00",
+  "generatedAt": "2026-08-03T19:53:16+08:00",
   "stats": {
     "documents": 19,
-    "pages": 190,
+    "pages": 191,
     "renderDpi": 260,
-    "searchEntries": 190
+    "searchEntries": 191
   },
   "categories": [
     {
@@ -24,7 +24,7 @@
           "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
           "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
-          "pageCount": 7
+          "pageCount": 8
         },
         {
           "id": "doc-d3af775c5a55",
@@ -270,7 +270,7 @@
       "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
       "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
-      "pageCount": 7
+      "pageCount": 8
     },
     {
       "id": "doc-d3af775c5a55",
