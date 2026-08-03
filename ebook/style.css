@@ -265,19 +265,32 @@ input:focus {
 }
 
 .page-sheet {
+  position: relative;
   width: 100%;
   margin: 0;
+  aspect-ratio: 210 / 297;
+  contain: layout paint;
+  content-visibility: auto;
+  contain-intrinsic-size: 1080px 1528px;
+  border: 1px solid rgba(222, 216, 203, 0.9);
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(31, 30, 27, 0.15);
+  overflow: hidden;
 }
 
 .page-image {
   display: block;
   width: 100%;
-  aspect-ratio: 210 / 297;
-  height: auto;
-  border: 1px solid rgba(222, 216, 203, 0.9);
-  border-radius: 2px;
+  height: 100%;
+  object-fit: contain;
   background: #fff;
-  box-shadow: 0 18px 42px rgba(31, 30, 27, 0.15);
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+
+.page-image.is-loaded {
+  opacity: 1;
 }
 
 .page-nav-button {

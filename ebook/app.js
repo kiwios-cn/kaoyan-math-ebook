@@ -5,12 +5,17 @@ const categoryAccentMap = new Map(
   (manifest.categories || []).map((category) => [category.title, category.accent])
 );
 
+const PAGE_PRELOAD_RADIUS = 2;
+const PAGE_OBSERVER_MARGIN = "1800px 0px";
+
 const state = {
   activeDocId: null,
   activePage: 1,
   activeCategory: "全部",
   query: "",
   renderedDocId: null,
+  pageImageObserver: null,
+  warmedImageUrls: new Set(),
   scrollSyncTimer: null,
 };
 
@@ -78,6 +83,13 @@ function encodePageImagePath(documentItem, pageNumber) {
   const imagePageNumber = String(pageNumber).padStart(pageDigits, "0");
   const version = new URLSearchParams({ v: getPageAssetVersion() });
   return `${documentItem.pageImageBase}${imagePageNumber}.png?${version.toString()}`;
+}
+
+function getPrefetchPageRange(pageCount, centerPage, radius = PAGE_PRELOAD_RADIUS) {
+  const safeCenter = Math.min(Math.max(1, centerPage), pageCount);
+  const firstPage = Math.max(1, safeCenter - radius);
+  const lastPage = Math.min(pageCount, safeCenter + radius);
+  return Array.from({ length: lastPage - firstPage + 1 }, (_, index) => firstPage + index);
 }
 
 function updateHash() {
@@ -179,6 +191,7 @@ function openDocument(docId, pageNumber = 1) {
   elements.pageInput.max = String(documentItem.pageCount);
   elements.pageInput.value = String(state.activePage);
   renderPageStack(documentItem);
+  warmNearbyPageImages(documentItem, state.activePage);
   updatePageControls(documentItem);
   requestAnimationFrame(() => {
     scrollToPage(state.activePage, previousDocId === documentItem.id ? "smooth" : "auto");
@@ -193,6 +206,7 @@ function renderPageStack(documentItem) {
   if (state.renderedDocId === documentItem.id) {
     return;
   }
+  disconnectPageImageObserver();
   const fragment = document.createDocumentFragment();
   for (let pageNumber = 1; pageNumber <= documentItem.pageCount; pageNumber += 1) {
     const sheet = document.createElement("figure");
@@ -201,9 +215,9 @@ function renderPageStack(documentItem) {
 
     const image = document.createElement("img");
     image.className = "page-image";
-    image.loading = pageNumber === 1 ? "eager" : "lazy";
+    image.loading = "lazy";
     image.decoding = "async";
-    image.src = encodePageImagePath(documentItem, pageNumber);
+    image.dataset.src = encodePageImagePath(documentItem, pageNumber);
     image.alt = `${documentItem.chineseTitle || documentItem.title} 第 ${pageNumber} 页`;
 
     sheet.append(image);
@@ -213,6 +227,75 @@ function renderPageStack(documentItem) {
   state.renderedDocId = documentItem.id;
   elements.viewerWrap.scrollTop = 0;
   elements.viewerWrap.scrollLeft = 0;
+  observePageImages();
+}
+
+function disconnectPageImageObserver() {
+  if (state.pageImageObserver) {
+    state.pageImageObserver.disconnect();
+    state.pageImageObserver = null;
+  }
+}
+
+function observePageImages() {
+  const images = [...elements.pageStack.querySelectorAll(".page-image")];
+  if (!("IntersectionObserver" in window)) {
+    images.forEach((image) => requestPageImageLoad(image));
+    return;
+  }
+  state.pageImageObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+        requestPageImageLoad(entry.target);
+        state.pageImageObserver.unobserve(entry.target);
+      });
+    },
+    {
+      root: elements.viewerWrap,
+      rootMargin: PAGE_OBSERVER_MARGIN,
+      threshold: 0.01,
+    }
+  );
+  images.forEach((image) => state.pageImageObserver.observe(image));
+}
+
+function requestPageImageLoad(image, priority = "auto") {
+  if (!image || image.src) {
+    return;
+  }
+  if (priority === "high") {
+    image.loading = "eager";
+    if ("fetchPriority" in image) {
+      image.fetchPriority = "high";
+    }
+  }
+  image.addEventListener("load", () => image.classList.add("is-loaded"), { once: true });
+  image.src = image.dataset.src;
+}
+
+function warmNearbyPageImages(documentItem, centerPage) {
+  getPrefetchPageRange(documentItem.pageCount, centerPage).forEach((pageNumber) => {
+    const image = elements.pageStack.querySelector(`[data-page="${pageNumber}"] .page-image`);
+    if (!image) {
+      return;
+    }
+    requestPageImageLoad(image, "high");
+    decodePageImage(image);
+  });
+}
+
+function decodePageImage(image) {
+  const imageUrl = image.currentSrc || image.src || image.dataset.src;
+  if (!imageUrl || state.warmedImageUrls.has(imageUrl) || typeof image.decode !== "function") {
+    return;
+  }
+  state.warmedImageUrls.add(imageUrl);
+  image.decode().catch(() => {
+    state.warmedImageUrls.delete(imageUrl);
+  });
 }
 
 function scrollToPage(pageNumber, behavior = "auto") {
@@ -253,6 +336,7 @@ function syncPageFromScroll() {
   }
   if (currentPage !== state.activePage) {
     state.activePage = currentPage;
+    warmNearbyPageImages(documentItem, currentPage);
     updatePageControls(documentItem);
     updateHash();
   }
