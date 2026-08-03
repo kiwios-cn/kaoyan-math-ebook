@@ -1,0 +1,491 @@
+{
+  "title": "考研数学电子书",
+  "subtitle": "微积分 · 线性代数 · 概率论",
+  "generatedAt": "2026-08-03T18:37:57+08:00",
+  "stats": {
+    "documents": 19,
+    "pages": 195,
+    "searchEntries": 195
+  },
+  "categories": [
+    {
+      "id": "calculus",
+      "title": "微积分",
+      "accent": "#2563eb",
+      "documents": [
+        {
+          "id": "doc-881c0cac3960",
+          "title": "Limits and Continuity (函数的极限与连续)",
+          "englishTitle": "Limits and Continuity",
+          "chineseTitle": "函数的极限与连续",
+          "category": "微积分",
+          "path": "微积分/Limits and Continuity (函数的极限与连续).pdf",
+          "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
+          "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
+          "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
+          "pageCount": 9
+        },
+        {
+          "id": "doc-d3af775c5a55",
+          "title": "Sequence Limits (数列的极限)",
+          "englishTitle": "Sequence Limits",
+          "chineseTitle": "数列的极限",
+          "category": "微积分",
+          "path": "微积分/Sequence Limits (数列的极限).pdf",
+          "webPath": "../微积分/Sequence Limits (数列的极限).pdf",
+          "sourcePath": "typst/Sequence Limits (数列的极限).typ",
+          "pageImageBase": "./rendered-pages/doc-d3af775c5a55/page-",
+          "pageCount": 7
+        },
+        {
+          "id": "doc-f02190ce156c",
+          "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+          "englishTitle": "Differential Calculus Concepts and Computation",
+          "chineseTitle": "一元函数微分学的概念和计算",
+          "category": "微积分",
+          "path": "微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+          "webPath": "../微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+          "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
+          "pageImageBase": "./rendered-pages/doc-f02190ce156c/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-8d9ed00135c3",
+          "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+          "englishTitle": "Applications of Differential Calculus",
+          "chineseTitle": "一元函数微分学的应用",
+          "category": "微积分",
+          "path": "微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+          "webPath": "../微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+          "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
+          "pageImageBase": "./rendered-pages/doc-8d9ed00135c3/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-eabf82064524",
+          "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+          "englishTitle": "Integral Calculus Concepts Properties and Computation",
+          "chineseTitle": "一元函数积分学的概念性质和计算",
+          "category": "微积分",
+          "path": "微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+          "webPath": "../微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+          "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
+          "pageImageBase": "./rendered-pages/doc-eabf82064524/page-",
+          "pageCount": 6
+        },
+        {
+          "id": "doc-30e6a86d0f61",
+          "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+          "englishTitle": "Applications of Integral Calculus",
+          "chineseTitle": "一元函数积分学的应用",
+          "category": "微积分",
+          "path": "微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+          "webPath": "../微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+          "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
+          "pageImageBase": "./rendered-pages/doc-30e6a86d0f61/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-87b9b66a0f76",
+          "title": "Multivariable Differential Calculus (多元函数微分学)",
+          "englishTitle": "Multivariable Differential Calculus",
+          "chineseTitle": "多元函数微分学",
+          "category": "微积分",
+          "path": "微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+          "webPath": "../微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+          "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
+          "pageImageBase": "./rendered-pages/doc-87b9b66a0f76/page-",
+          "pageCount": 6
+        },
+        {
+          "id": "doc-b907693d8c25",
+          "title": "Double Integral Methods (二重积分计算方法)",
+          "englishTitle": "Double Integral Methods",
+          "chineseTitle": "二重积分计算方法",
+          "category": "微积分",
+          "path": "微积分/Double Integral Methods (二重积分计算方法).pdf",
+          "webPath": "../微积分/Double Integral Methods (二重积分计算方法).pdf",
+          "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
+          "pageImageBase": "./rendered-pages/doc-b907693d8c25/page-",
+          "pageCount": 14
+        },
+        {
+          "id": "doc-e798419636b7",
+          "title": "Triple Integral Methods (三重积分计算方法)",
+          "englishTitle": "Triple Integral Methods",
+          "chineseTitle": "三重积分计算方法",
+          "category": "微积分",
+          "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
+          "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
+          "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
+          "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
+          "pageCount": 14
+        },
+        {
+          "id": "doc-73ec94e14160",
+          "title": "Multivariable Integral Calculus (多元函数积分学)",
+          "englishTitle": "Multivariable Integral Calculus",
+          "chineseTitle": "多元函数积分学",
+          "category": "微积分",
+          "path": "微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+          "webPath": "../微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+          "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
+          "pageImageBase": "./rendered-pages/doc-73ec94e14160/page-",
+          "pageCount": 36
+        },
+        {
+          "id": "doc-2e19c43e8eca",
+          "title": "Ordinary Differential Equations (常微分方程)",
+          "englishTitle": "Ordinary Differential Equations",
+          "chineseTitle": "常微分方程",
+          "category": "微积分",
+          "path": "微积分/Ordinary Differential Equations (常微分方程).pdf",
+          "webPath": "../微积分/Ordinary Differential Equations (常微分方程).pdf",
+          "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
+          "pageImageBase": "./rendered-pages/doc-2e19c43e8eca/page-",
+          "pageCount": 18
+        },
+        {
+          "id": "doc-ed23c04b20bf",
+          "title": "Infinite Series (无穷级数)",
+          "englishTitle": "Infinite Series",
+          "chineseTitle": "无穷级数",
+          "category": "微积分",
+          "path": "微积分/Infinite Series (无穷级数).pdf",
+          "webPath": "../微积分/Infinite Series (无穷级数).pdf",
+          "sourcePath": "typst/Infinite Series (无穷级数).typ",
+          "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
+          "pageCount": 26
+        }
+      ]
+    },
+    {
+      "id": "linear-algebra",
+      "title": "线性代数",
+      "accent": "#d97706",
+      "documents": [
+        {
+          "id": "doc-2999b2188b1e",
+          "title": "Determinants (行列式)",
+          "englishTitle": "Determinants",
+          "chineseTitle": "行列式",
+          "category": "线性代数",
+          "path": "线性代数/Determinants (行列式).pdf",
+          "webPath": "../线性代数/Determinants (行列式).pdf",
+          "sourcePath": "typst/Determinants (行列式).typ",
+          "pageImageBase": "./rendered-pages/doc-2999b2188b1e/page-",
+          "pageCount": 9
+        },
+        {
+          "id": "doc-f8d85d8d3cbe",
+          "title": "Matrices (矩阵)",
+          "englishTitle": "Matrices",
+          "chineseTitle": "矩阵",
+          "category": "线性代数",
+          "path": "线性代数/Matrices (矩阵).pdf",
+          "webPath": "../线性代数/Matrices (矩阵).pdf",
+          "sourcePath": "typst/Matrices (矩阵).typ",
+          "pageImageBase": "./rendered-pages/doc-f8d85d8d3cbe/page-",
+          "pageCount": 7
+        },
+        {
+          "id": "doc-aedda68a99a2",
+          "title": "Vector Groups (向量组)",
+          "englishTitle": "Vector Groups",
+          "chineseTitle": "向量组",
+          "category": "线性代数",
+          "path": "线性代数/Vector Groups (向量组).pdf",
+          "webPath": "../线性代数/Vector Groups (向量组).pdf",
+          "sourcePath": "typst/Vector Groups (向量组).typ",
+          "pageImageBase": "./rendered-pages/doc-aedda68a99a2/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-715b679dcb8e",
+          "title": "Linear Equations (线性方程组)",
+          "englishTitle": "Linear Equations",
+          "chineseTitle": "线性方程组",
+          "category": "线性代数",
+          "path": "线性代数/Linear Equations (线性方程组).pdf",
+          "webPath": "../线性代数/Linear Equations (线性方程组).pdf",
+          "sourcePath": "typst/Linear Equations (线性方程组).typ",
+          "pageImageBase": "./rendered-pages/doc-715b679dcb8e/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-2dc2609d51d3",
+          "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+          "englishTitle": "Eigenvalues and Eigenvectors",
+          "chineseTitle": "特征值与特征向量",
+          "category": "线性代数",
+          "path": "线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+          "webPath": "../线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+          "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
+          "pageImageBase": "./rendered-pages/doc-2dc2609d51d3/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-ccaf3c879ab3",
+          "title": "Quadratic Forms (二次型)",
+          "englishTitle": "Quadratic Forms",
+          "chineseTitle": "二次型",
+          "category": "线性代数",
+          "path": "线性代数/Quadratic Forms (二次型).pdf",
+          "webPath": "../线性代数/Quadratic Forms (二次型).pdf",
+          "sourcePath": "typst/Quadratic Forms (二次型).typ",
+          "pageImageBase": "./rendered-pages/doc-ccaf3c879ab3/page-",
+          "pageCount": 4
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "title": "概率论",
+      "accent": "#059669",
+      "documents": [
+        {
+          "id": "doc-932e58f16185",
+          "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+          "englishTitle": "Probability and Mathematical Statistics",
+          "chineseTitle": "概率论与数理统计",
+          "category": "概率论",
+          "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+          "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+          "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
+          "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
+          "pageCount": 15
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-881c0cac3960",
+      "title": "Limits and Continuity (函数的极限与连续)",
+      "englishTitle": "Limits and Continuity",
+      "chineseTitle": "函数的极限与连续",
+      "category": "微积分",
+      "path": "微积分/Limits and Continuity (函数的极限与连续).pdf",
+      "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
+      "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
+      "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
+      "pageCount": 9
+    },
+    {
+      "id": "doc-d3af775c5a55",
+      "title": "Sequence Limits (数列的极限)",
+      "englishTitle": "Sequence Limits",
+      "chineseTitle": "数列的极限",
+      "category": "微积分",
+      "path": "微积分/Sequence Limits (数列的极限).pdf",
+      "webPath": "../微积分/Sequence Limits (数列的极限).pdf",
+      "sourcePath": "typst/Sequence Limits (数列的极限).typ",
+      "pageImageBase": "./rendered-pages/doc-d3af775c5a55/page-",
+      "pageCount": 7
+    },
+    {
+      "id": "doc-f02190ce156c",
+      "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+      "englishTitle": "Differential Calculus Concepts and Computation",
+      "chineseTitle": "一元函数微分学的概念和计算",
+      "category": "微积分",
+      "path": "微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+      "webPath": "../微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+      "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
+      "pageImageBase": "./rendered-pages/doc-f02190ce156c/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-8d9ed00135c3",
+      "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+      "englishTitle": "Applications of Differential Calculus",
+      "chineseTitle": "一元函数微分学的应用",
+      "category": "微积分",
+      "path": "微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+      "webPath": "../微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+      "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
+      "pageImageBase": "./rendered-pages/doc-8d9ed00135c3/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-eabf82064524",
+      "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+      "englishTitle": "Integral Calculus Concepts Properties and Computation",
+      "chineseTitle": "一元函数积分学的概念性质和计算",
+      "category": "微积分",
+      "path": "微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+      "webPath": "../微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+      "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
+      "pageImageBase": "./rendered-pages/doc-eabf82064524/page-",
+      "pageCount": 6
+    },
+    {
+      "id": "doc-30e6a86d0f61",
+      "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+      "englishTitle": "Applications of Integral Calculus",
+      "chineseTitle": "一元函数积分学的应用",
+      "category": "微积分",
+      "path": "微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+      "webPath": "../微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+      "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
+      "pageImageBase": "./rendered-pages/doc-30e6a86d0f61/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-87b9b66a0f76",
+      "title": "Multivariable Differential Calculus (多元函数微分学)",
+      "englishTitle": "Multivariable Differential Calculus",
+      "chineseTitle": "多元函数微分学",
+      "category": "微积分",
+      "path": "微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+      "webPath": "../微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+      "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
+      "pageImageBase": "./rendered-pages/doc-87b9b66a0f76/page-",
+      "pageCount": 6
+    },
+    {
+      "id": "doc-b907693d8c25",
+      "title": "Double Integral Methods (二重积分计算方法)",
+      "englishTitle": "Double Integral Methods",
+      "chineseTitle": "二重积分计算方法",
+      "category": "微积分",
+      "path": "微积分/Double Integral Methods (二重积分计算方法).pdf",
+      "webPath": "../微积分/Double Integral Methods (二重积分计算方法).pdf",
+      "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
+      "pageImageBase": "./rendered-pages/doc-b907693d8c25/page-",
+      "pageCount": 14
+    },
+    {
+      "id": "doc-e798419636b7",
+      "title": "Triple Integral Methods (三重积分计算方法)",
+      "englishTitle": "Triple Integral Methods",
+      "chineseTitle": "三重积分计算方法",
+      "category": "微积分",
+      "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
+      "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
+      "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
+      "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
+      "pageCount": 14
+    },
+    {
+      "id": "doc-73ec94e14160",
+      "title": "Multivariable Integral Calculus (多元函数积分学)",
+      "englishTitle": "Multivariable Integral Calculus",
+      "chineseTitle": "多元函数积分学",
+      "category": "微积分",
+      "path": "微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+      "webPath": "../微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+      "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
+      "pageImageBase": "./rendered-pages/doc-73ec94e14160/page-",
+      "pageCount": 36
+    },
+    {
+      "id": "doc-2e19c43e8eca",
+      "title": "Ordinary Differential Equations (常微分方程)",
+      "englishTitle": "Ordinary Differential Equations",
+      "chineseTitle": "常微分方程",
+      "category": "微积分",
+      "path": "微积分/Ordinary Differential Equations (常微分方程).pdf",
+      "webPath": "../微积分/Ordinary Differential Equations (常微分方程).pdf",
+      "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
+      "pageImageBase": "./rendered-pages/doc-2e19c43e8eca/page-",
+      "pageCount": 18
+    },
+    {
+      "id": "doc-ed23c04b20bf",
+      "title": "Infinite Series (无穷级数)",
+      "englishTitle": "Infinite Series",
+      "chineseTitle": "无穷级数",
+      "category": "微积分",
+      "path": "微积分/Infinite Series (无穷级数).pdf",
+      "webPath": "../微积分/Infinite Series (无穷级数).pdf",
+      "sourcePath": "typst/Infinite Series (无穷级数).typ",
+      "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
+      "pageCount": 26
+    },
+    {
+      "id": "doc-2999b2188b1e",
+      "title": "Determinants (行列式)",
+      "englishTitle": "Determinants",
+      "chineseTitle": "行列式",
+      "category": "线性代数",
+      "path": "线性代数/Determinants (行列式).pdf",
+      "webPath": "../线性代数/Determinants (行列式).pdf",
+      "sourcePath": "typst/Determinants (行列式).typ",
+      "pageImageBase": "./rendered-pages/doc-2999b2188b1e/page-",
+      "pageCount": 9
+    },
+    {
+      "id": "doc-f8d85d8d3cbe",
+      "title": "Matrices (矩阵)",
+      "englishTitle": "Matrices",
+      "chineseTitle": "矩阵",
+      "category": "线性代数",
+      "path": "线性代数/Matrices (矩阵).pdf",
+      "webPath": "../线性代数/Matrices (矩阵).pdf",
+      "sourcePath": "typst/Matrices (矩阵).typ",
+      "pageImageBase": "./rendered-pages/doc-f8d85d8d3cbe/page-",
+      "pageCount": 7
+    },
+    {
+      "id": "doc-aedda68a99a2",
+      "title": "Vector Groups (向量组)",
+      "englishTitle": "Vector Groups",
+      "chineseTitle": "向量组",
+      "category": "线性代数",
+      "path": "线性代数/Vector Groups (向量组).pdf",
+      "webPath": "../线性代数/Vector Groups (向量组).pdf",
+      "sourcePath": "typst/Vector Groups (向量组).typ",
+      "pageImageBase": "./rendered-pages/doc-aedda68a99a2/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-715b679dcb8e",
+      "title": "Linear Equations (线性方程组)",
+      "englishTitle": "Linear Equations",
+      "chineseTitle": "线性方程组",
+      "category": "线性代数",
+      "path": "线性代数/Linear Equations (线性方程组).pdf",
+      "webPath": "../线性代数/Linear Equations (线性方程组).pdf",
+      "sourcePath": "typst/Linear Equations (线性方程组).typ",
+      "pageImageBase": "./rendered-pages/doc-715b679dcb8e/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-2dc2609d51d3",
+      "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+      "englishTitle": "Eigenvalues and Eigenvectors",
+      "chineseTitle": "特征值与特征向量",
+      "category": "线性代数",
+      "path": "线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+      "webPath": "../线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+      "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
+      "pageImageBase": "./rendered-pages/doc-2dc2609d51d3/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-ccaf3c879ab3",
+      "title": "Quadratic Forms (二次型)",
+      "englishTitle": "Quadratic Forms",
+      "chineseTitle": "二次型",
+      "category": "线性代数",
+      "path": "线性代数/Quadratic Forms (二次型).pdf",
+      "webPath": "../线性代数/Quadratic Forms (二次型).pdf",
+      "sourcePath": "typst/Quadratic Forms (二次型).typ",
+      "pageImageBase": "./rendered-pages/doc-ccaf3c879ab3/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-932e58f16185",
+      "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+      "englishTitle": "Probability and Mathematical Statistics",
+      "chineseTitle": "概率论与数理统计",
+      "category": "概率论",
+      "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+      "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+      "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
+      "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
+      "pageCount": 15
+    }
+  ]
+}

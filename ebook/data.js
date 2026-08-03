@@ -1,0 +1,2444 @@
+/* 本文件由 scripts/build_index.py 自动生成，请勿手工修改。 */
+window.BOOK_MANIFEST = {
+  "title": "考研数学电子书",
+  "subtitle": "微积分 · 线性代数 · 概率论",
+  "generatedAt": "2026-08-03T18:37:57+08:00",
+  "stats": {
+    "documents": 19,
+    "pages": 195,
+    "searchEntries": 195
+  },
+  "categories": [
+    {
+      "id": "calculus",
+      "title": "微积分",
+      "accent": "#2563eb",
+      "documents": [
+        {
+          "id": "doc-881c0cac3960",
+          "title": "Limits and Continuity (函数的极限与连续)",
+          "englishTitle": "Limits and Continuity",
+          "chineseTitle": "函数的极限与连续",
+          "category": "微积分",
+          "path": "微积分/Limits and Continuity (函数的极限与连续).pdf",
+          "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
+          "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
+          "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
+          "pageCount": 9
+        },
+        {
+          "id": "doc-d3af775c5a55",
+          "title": "Sequence Limits (数列的极限)",
+          "englishTitle": "Sequence Limits",
+          "chineseTitle": "数列的极限",
+          "category": "微积分",
+          "path": "微积分/Sequence Limits (数列的极限).pdf",
+          "webPath": "../微积分/Sequence Limits (数列的极限).pdf",
+          "sourcePath": "typst/Sequence Limits (数列的极限).typ",
+          "pageImageBase": "./rendered-pages/doc-d3af775c5a55/page-",
+          "pageCount": 7
+        },
+        {
+          "id": "doc-f02190ce156c",
+          "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+          "englishTitle": "Differential Calculus Concepts and Computation",
+          "chineseTitle": "一元函数微分学的概念和计算",
+          "category": "微积分",
+          "path": "微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+          "webPath": "../微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+          "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
+          "pageImageBase": "./rendered-pages/doc-f02190ce156c/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-8d9ed00135c3",
+          "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+          "englishTitle": "Applications of Differential Calculus",
+          "chineseTitle": "一元函数微分学的应用",
+          "category": "微积分",
+          "path": "微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+          "webPath": "../微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+          "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
+          "pageImageBase": "./rendered-pages/doc-8d9ed00135c3/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-eabf82064524",
+          "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+          "englishTitle": "Integral Calculus Concepts Properties and Computation",
+          "chineseTitle": "一元函数积分学的概念性质和计算",
+          "category": "微积分",
+          "path": "微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+          "webPath": "../微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+          "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
+          "pageImageBase": "./rendered-pages/doc-eabf82064524/page-",
+          "pageCount": 6
+        },
+        {
+          "id": "doc-30e6a86d0f61",
+          "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+          "englishTitle": "Applications of Integral Calculus",
+          "chineseTitle": "一元函数积分学的应用",
+          "category": "微积分",
+          "path": "微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+          "webPath": "../微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+          "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
+          "pageImageBase": "./rendered-pages/doc-30e6a86d0f61/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-87b9b66a0f76",
+          "title": "Multivariable Differential Calculus (多元函数微分学)",
+          "englishTitle": "Multivariable Differential Calculus",
+          "chineseTitle": "多元函数微分学",
+          "category": "微积分",
+          "path": "微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+          "webPath": "../微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+          "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
+          "pageImageBase": "./rendered-pages/doc-87b9b66a0f76/page-",
+          "pageCount": 6
+        },
+        {
+          "id": "doc-b907693d8c25",
+          "title": "Double Integral Methods (二重积分计算方法)",
+          "englishTitle": "Double Integral Methods",
+          "chineseTitle": "二重积分计算方法",
+          "category": "微积分",
+          "path": "微积分/Double Integral Methods (二重积分计算方法).pdf",
+          "webPath": "../微积分/Double Integral Methods (二重积分计算方法).pdf",
+          "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
+          "pageImageBase": "./rendered-pages/doc-b907693d8c25/page-",
+          "pageCount": 14
+        },
+        {
+          "id": "doc-e798419636b7",
+          "title": "Triple Integral Methods (三重积分计算方法)",
+          "englishTitle": "Triple Integral Methods",
+          "chineseTitle": "三重积分计算方法",
+          "category": "微积分",
+          "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
+          "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
+          "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
+          "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
+          "pageCount": 14
+        },
+        {
+          "id": "doc-73ec94e14160",
+          "title": "Multivariable Integral Calculus (多元函数积分学)",
+          "englishTitle": "Multivariable Integral Calculus",
+          "chineseTitle": "多元函数积分学",
+          "category": "微积分",
+          "path": "微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+          "webPath": "../微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+          "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
+          "pageImageBase": "./rendered-pages/doc-73ec94e14160/page-",
+          "pageCount": 36
+        },
+        {
+          "id": "doc-2e19c43e8eca",
+          "title": "Ordinary Differential Equations (常微分方程)",
+          "englishTitle": "Ordinary Differential Equations",
+          "chineseTitle": "常微分方程",
+          "category": "微积分",
+          "path": "微积分/Ordinary Differential Equations (常微分方程).pdf",
+          "webPath": "../微积分/Ordinary Differential Equations (常微分方程).pdf",
+          "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
+          "pageImageBase": "./rendered-pages/doc-2e19c43e8eca/page-",
+          "pageCount": 18
+        },
+        {
+          "id": "doc-ed23c04b20bf",
+          "title": "Infinite Series (无穷级数)",
+          "englishTitle": "Infinite Series",
+          "chineseTitle": "无穷级数",
+          "category": "微积分",
+          "path": "微积分/Infinite Series (无穷级数).pdf",
+          "webPath": "../微积分/Infinite Series (无穷级数).pdf",
+          "sourcePath": "typst/Infinite Series (无穷级数).typ",
+          "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
+          "pageCount": 26
+        }
+      ]
+    },
+    {
+      "id": "linear-algebra",
+      "title": "线性代数",
+      "accent": "#d97706",
+      "documents": [
+        {
+          "id": "doc-2999b2188b1e",
+          "title": "Determinants (行列式)",
+          "englishTitle": "Determinants",
+          "chineseTitle": "行列式",
+          "category": "线性代数",
+          "path": "线性代数/Determinants (行列式).pdf",
+          "webPath": "../线性代数/Determinants (行列式).pdf",
+          "sourcePath": "typst/Determinants (行列式).typ",
+          "pageImageBase": "./rendered-pages/doc-2999b2188b1e/page-",
+          "pageCount": 9
+        },
+        {
+          "id": "doc-f8d85d8d3cbe",
+          "title": "Matrices (矩阵)",
+          "englishTitle": "Matrices",
+          "chineseTitle": "矩阵",
+          "category": "线性代数",
+          "path": "线性代数/Matrices (矩阵).pdf",
+          "webPath": "../线性代数/Matrices (矩阵).pdf",
+          "sourcePath": "typst/Matrices (矩阵).typ",
+          "pageImageBase": "./rendered-pages/doc-f8d85d8d3cbe/page-",
+          "pageCount": 7
+        },
+        {
+          "id": "doc-aedda68a99a2",
+          "title": "Vector Groups (向量组)",
+          "englishTitle": "Vector Groups",
+          "chineseTitle": "向量组",
+          "category": "线性代数",
+          "path": "线性代数/Vector Groups (向量组).pdf",
+          "webPath": "../线性代数/Vector Groups (向量组).pdf",
+          "sourcePath": "typst/Vector Groups (向量组).typ",
+          "pageImageBase": "./rendered-pages/doc-aedda68a99a2/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-715b679dcb8e",
+          "title": "Linear Equations (线性方程组)",
+          "englishTitle": "Linear Equations",
+          "chineseTitle": "线性方程组",
+          "category": "线性代数",
+          "path": "线性代数/Linear Equations (线性方程组).pdf",
+          "webPath": "../线性代数/Linear Equations (线性方程组).pdf",
+          "sourcePath": "typst/Linear Equations (线性方程组).typ",
+          "pageImageBase": "./rendered-pages/doc-715b679dcb8e/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-2dc2609d51d3",
+          "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+          "englishTitle": "Eigenvalues and Eigenvectors",
+          "chineseTitle": "特征值与特征向量",
+          "category": "线性代数",
+          "path": "线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+          "webPath": "../线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+          "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
+          "pageImageBase": "./rendered-pages/doc-2dc2609d51d3/page-",
+          "pageCount": 4
+        },
+        {
+          "id": "doc-ccaf3c879ab3",
+          "title": "Quadratic Forms (二次型)",
+          "englishTitle": "Quadratic Forms",
+          "chineseTitle": "二次型",
+          "category": "线性代数",
+          "path": "线性代数/Quadratic Forms (二次型).pdf",
+          "webPath": "../线性代数/Quadratic Forms (二次型).pdf",
+          "sourcePath": "typst/Quadratic Forms (二次型).typ",
+          "pageImageBase": "./rendered-pages/doc-ccaf3c879ab3/page-",
+          "pageCount": 4
+        }
+      ]
+    },
+    {
+      "id": "probability",
+      "title": "概率论",
+      "accent": "#059669",
+      "documents": [
+        {
+          "id": "doc-932e58f16185",
+          "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+          "englishTitle": "Probability and Mathematical Statistics",
+          "chineseTitle": "概率论与数理统计",
+          "category": "概率论",
+          "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+          "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+          "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
+          "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
+          "pageCount": 15
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-881c0cac3960",
+      "title": "Limits and Continuity (函数的极限与连续)",
+      "englishTitle": "Limits and Continuity",
+      "chineseTitle": "函数的极限与连续",
+      "category": "微积分",
+      "path": "微积分/Limits and Continuity (函数的极限与连续).pdf",
+      "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
+      "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
+      "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
+      "pageCount": 9
+    },
+    {
+      "id": "doc-d3af775c5a55",
+      "title": "Sequence Limits (数列的极限)",
+      "englishTitle": "Sequence Limits",
+      "chineseTitle": "数列的极限",
+      "category": "微积分",
+      "path": "微积分/Sequence Limits (数列的极限).pdf",
+      "webPath": "../微积分/Sequence Limits (数列的极限).pdf",
+      "sourcePath": "typst/Sequence Limits (数列的极限).typ",
+      "pageImageBase": "./rendered-pages/doc-d3af775c5a55/page-",
+      "pageCount": 7
+    },
+    {
+      "id": "doc-f02190ce156c",
+      "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+      "englishTitle": "Differential Calculus Concepts and Computation",
+      "chineseTitle": "一元函数微分学的概念和计算",
+      "category": "微积分",
+      "path": "微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+      "webPath": "../微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
+      "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
+      "pageImageBase": "./rendered-pages/doc-f02190ce156c/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-8d9ed00135c3",
+      "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+      "englishTitle": "Applications of Differential Calculus",
+      "chineseTitle": "一元函数微分学的应用",
+      "category": "微积分",
+      "path": "微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+      "webPath": "../微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
+      "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
+      "pageImageBase": "./rendered-pages/doc-8d9ed00135c3/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-eabf82064524",
+      "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+      "englishTitle": "Integral Calculus Concepts Properties and Computation",
+      "chineseTitle": "一元函数积分学的概念性质和计算",
+      "category": "微积分",
+      "path": "微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+      "webPath": "../微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
+      "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
+      "pageImageBase": "./rendered-pages/doc-eabf82064524/page-",
+      "pageCount": 6
+    },
+    {
+      "id": "doc-30e6a86d0f61",
+      "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+      "englishTitle": "Applications of Integral Calculus",
+      "chineseTitle": "一元函数积分学的应用",
+      "category": "微积分",
+      "path": "微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+      "webPath": "../微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
+      "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
+      "pageImageBase": "./rendered-pages/doc-30e6a86d0f61/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-87b9b66a0f76",
+      "title": "Multivariable Differential Calculus (多元函数微分学)",
+      "englishTitle": "Multivariable Differential Calculus",
+      "chineseTitle": "多元函数微分学",
+      "category": "微积分",
+      "path": "微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+      "webPath": "../微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
+      "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
+      "pageImageBase": "./rendered-pages/doc-87b9b66a0f76/page-",
+      "pageCount": 6
+    },
+    {
+      "id": "doc-b907693d8c25",
+      "title": "Double Integral Methods (二重积分计算方法)",
+      "englishTitle": "Double Integral Methods",
+      "chineseTitle": "二重积分计算方法",
+      "category": "微积分",
+      "path": "微积分/Double Integral Methods (二重积分计算方法).pdf",
+      "webPath": "../微积分/Double Integral Methods (二重积分计算方法).pdf",
+      "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
+      "pageImageBase": "./rendered-pages/doc-b907693d8c25/page-",
+      "pageCount": 14
+    },
+    {
+      "id": "doc-e798419636b7",
+      "title": "Triple Integral Methods (三重积分计算方法)",
+      "englishTitle": "Triple Integral Methods",
+      "chineseTitle": "三重积分计算方法",
+      "category": "微积分",
+      "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
+      "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
+      "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
+      "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
+      "pageCount": 14
+    },
+    {
+      "id": "doc-73ec94e14160",
+      "title": "Multivariable Integral Calculus (多元函数积分学)",
+      "englishTitle": "Multivariable Integral Calculus",
+      "chineseTitle": "多元函数积分学",
+      "category": "微积分",
+      "path": "微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+      "webPath": "../微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
+      "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
+      "pageImageBase": "./rendered-pages/doc-73ec94e14160/page-",
+      "pageCount": 36
+    },
+    {
+      "id": "doc-2e19c43e8eca",
+      "title": "Ordinary Differential Equations (常微分方程)",
+      "englishTitle": "Ordinary Differential Equations",
+      "chineseTitle": "常微分方程",
+      "category": "微积分",
+      "path": "微积分/Ordinary Differential Equations (常微分方程).pdf",
+      "webPath": "../微积分/Ordinary Differential Equations (常微分方程).pdf",
+      "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
+      "pageImageBase": "./rendered-pages/doc-2e19c43e8eca/page-",
+      "pageCount": 18
+    },
+    {
+      "id": "doc-ed23c04b20bf",
+      "title": "Infinite Series (无穷级数)",
+      "englishTitle": "Infinite Series",
+      "chineseTitle": "无穷级数",
+      "category": "微积分",
+      "path": "微积分/Infinite Series (无穷级数).pdf",
+      "webPath": "../微积分/Infinite Series (无穷级数).pdf",
+      "sourcePath": "typst/Infinite Series (无穷级数).typ",
+      "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
+      "pageCount": 26
+    },
+    {
+      "id": "doc-2999b2188b1e",
+      "title": "Determinants (行列式)",
+      "englishTitle": "Determinants",
+      "chineseTitle": "行列式",
+      "category": "线性代数",
+      "path": "线性代数/Determinants (行列式).pdf",
+      "webPath": "../线性代数/Determinants (行列式).pdf",
+      "sourcePath": "typst/Determinants (行列式).typ",
+      "pageImageBase": "./rendered-pages/doc-2999b2188b1e/page-",
+      "pageCount": 9
+    },
+    {
+      "id": "doc-f8d85d8d3cbe",
+      "title": "Matrices (矩阵)",
+      "englishTitle": "Matrices",
+      "chineseTitle": "矩阵",
+      "category": "线性代数",
+      "path": "线性代数/Matrices (矩阵).pdf",
+      "webPath": "../线性代数/Matrices (矩阵).pdf",
+      "sourcePath": "typst/Matrices (矩阵).typ",
+      "pageImageBase": "./rendered-pages/doc-f8d85d8d3cbe/page-",
+      "pageCount": 7
+    },
+    {
+      "id": "doc-aedda68a99a2",
+      "title": "Vector Groups (向量组)",
+      "englishTitle": "Vector Groups",
+      "chineseTitle": "向量组",
+      "category": "线性代数",
+      "path": "线性代数/Vector Groups (向量组).pdf",
+      "webPath": "../线性代数/Vector Groups (向量组).pdf",
+      "sourcePath": "typst/Vector Groups (向量组).typ",
+      "pageImageBase": "./rendered-pages/doc-aedda68a99a2/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-715b679dcb8e",
+      "title": "Linear Equations (线性方程组)",
+      "englishTitle": "Linear Equations",
+      "chineseTitle": "线性方程组",
+      "category": "线性代数",
+      "path": "线性代数/Linear Equations (线性方程组).pdf",
+      "webPath": "../线性代数/Linear Equations (线性方程组).pdf",
+      "sourcePath": "typst/Linear Equations (线性方程组).typ",
+      "pageImageBase": "./rendered-pages/doc-715b679dcb8e/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-2dc2609d51d3",
+      "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+      "englishTitle": "Eigenvalues and Eigenvectors",
+      "chineseTitle": "特征值与特征向量",
+      "category": "线性代数",
+      "path": "线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+      "webPath": "../线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
+      "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
+      "pageImageBase": "./rendered-pages/doc-2dc2609d51d3/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-ccaf3c879ab3",
+      "title": "Quadratic Forms (二次型)",
+      "englishTitle": "Quadratic Forms",
+      "chineseTitle": "二次型",
+      "category": "线性代数",
+      "path": "线性代数/Quadratic Forms (二次型).pdf",
+      "webPath": "../线性代数/Quadratic Forms (二次型).pdf",
+      "sourcePath": "typst/Quadratic Forms (二次型).typ",
+      "pageImageBase": "./rendered-pages/doc-ccaf3c879ab3/page-",
+      "pageCount": 4
+    },
+    {
+      "id": "doc-932e58f16185",
+      "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+      "englishTitle": "Probability and Mathematical Statistics",
+      "chineseTitle": "概率论与数理统计",
+      "category": "概率论",
+      "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+      "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
+      "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
+      "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
+      "pageCount": 15
+    }
+  ]
+};
+window.SEARCH_INDEX = [
+  {
+    "id": "doc-881c0cac3960-p1",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、函数极限的基本概念",
+    "snippet": "考研数学 · 函数的极限与连续 函数的极限与连续 函数极限 · 等价无穷小 · 连续性与间断点 考研数学复习资料 · Typst PDF 复习目标： 函数极限与连续是整个高等数学的入口。考研中常考三件事：会用定义判断极限结构，会用等 价无穷小、洛必达或泰勒展开计算极限，会用连续性处理零点、介值和间断点分类。 一、函数极限的基本概念 1. ...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 一、函数极限的基本概念 考研数学 · 函数的极限与连续 函数的极限与连续 函数极限 · 等价无穷小 · 连续性与间断点 考研数学复习资料 · Typst PDF 复习目标： 函数极限与连续是整个高等数学的入口。考研中常考三件事：会用定义判断极限结构，会用等 价无穷小、洛必达或泰勒展开计算极限，会用连续性处理零点、介值和间断点分类。 一、函数极限的基本概念 1. 极限的含义 设函数 𝑓(𝑥) 在 𝑥0 的某去心邻域内有定义。如果当 𝑥 无限接近 𝑥0 时，𝑓(𝑥) 无限接近常数 𝐴，则称 lim 𝑓(𝑥) = 𝐴 𝑥→𝑥0 这里要求 𝑥 接近 𝑥0 ，但不要求 𝑥 = 𝑥0 。因此函数在 𝑥0 是否有定义、函数值是否等于 𝐴，并不直接决定极限 是否存在。 2. 左右极限 函数在一点的极限存在，当且仅当左极限和右极限都存在且相等： lim 𝑓(𝑥) = lim+ 𝑓(𝑥) = 𝐴 𝑥→𝑥− 0 𝑥→𝑥0 若左右极限不相等，则 lim𝑥→𝑥0 𝑓(𝑥) 不存在。 易错点： 分段函数、含 |𝑥| 的函数和含取整函数的题，第一反应应当是分别考察左右极限。 3. 无穷小与无穷大 若 lim 𝑓(𝑥) = 0 则称 𝑓(𝑥) 是该过程下的无穷小。若 lim|𝑓(𝑥)| = ∞ 则称 𝑓(𝑥) 是该过程下的无穷大。无穷小的阶数比较常用： 关系 定义 含义 𝑓 = 𝑜(𝑔) 𝑓 高阶无穷小 𝑔 → 0，𝑓 比 𝑔 小得多 𝑓 同阶无穷小 𝑔 →𝑐 ≠0 二者衰减速度同阶 𝑓 ≃𝑔 𝑓 等价无穷小 𝑔 → 1，可在乘除结构中替换"
+  },
+  {
+    "id": "doc-881c0cac3960-p2",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "二、常用极限与等价无穷小",
+    "snippet": "考研数学 · 函数的极限与连续 二、常用极限与等价无穷小 1. 两个基本极限 sin 𝑥 lim =1 𝑥→0 𝑥 1 𝑥 lim (1 + ) = 𝑒 𝑥→∞ 𝑥 第二个极限常见变形为 𝑏 lim (1 + 𝑎𝑥) 𝑥 = 𝑒𝑎𝑏 𝑥→0 使用时先把底数化为 1 + 无穷小，再观察指数是否与无穷小互为倒数量级。 2. 常用等价无穷小 当...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 二、常用极限与等价无穷小 考研数学 · 函数的极限与连续 二、常用极限与等价无穷小 1. 两个基本极限 sin 𝑥 lim =1 𝑥→0 𝑥 1 𝑥 lim (1 + ) = 𝑒 𝑥→∞ 𝑥 第二个极限常见变形为 𝑏 lim (1 + 𝑎𝑥) 𝑥 = 𝑒𝑎𝑏 𝑥→0 使用时先把底数化为 1 + 无穷小，再观察指数是否与无穷小互为倒数量级。 2. 常用等价无穷小 当 𝑥 → 0 时： 表达式 等价形式 常见用途 sin 𝑥 𝑥 三角函数乘除结构 tan 𝑥 𝑥 含正切的小角极限 𝑥2 1 − cos 𝑥 2 根式、有理化、二阶小量 𝑥 𝑒 −1 𝑥 指数函数极限 ln(1 + 𝑥) 𝑥 对数函数极限 (1 + 𝑥)𝛼 − 1 𝛼𝑥 幂函数展开 易错点：等价无穷小通常只能在乘除结构中直接替换。若出现在加减结构中，先判断是否发生主项相消；一 旦相消，就要保留更高阶项。 3. 等价无穷小替换的原理 设在同一极限过程中，𝛼 与 𝛽 都是无穷小。若 𝛼≃𝛽 则定义为 𝛼 lim =1 𝛽 等价地，可以写成 𝛼 = 𝛽(1 + 𝜀), 𝜀→0 也等价于 𝛼 − 𝛽 = 𝑜(𝛽) 所以等价无穷小替换的本质不是“两个式子完全相等”，而是“二者相差的部分比主项更小”。在极限计算中，替 换是否成立，要看替换前后整个表达式的比值是否趋于 1。"
+  },
+  {
+    "id": "doc-881c0cac3960-p3",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "考研数学 · 函数的极限与连续",
+    "snippet": "考研数学 · 函数的极限与连续 核心判断： 若把原表达式 𝐹 (𝑥) 中的某部分替换后得到 𝐺(𝑥)，合法替换的本质要求是 𝐹 (𝑥) →1 𝐺(𝑥) 而不是仅仅要求被替换的局部两项等价。 乘除结构为什么可以替换 若 𝛼 ≃ 𝛽 ，则 𝛼 = 𝛽(1 + 𝜀), 𝜀→0 所以对乘积有 𝛼 ⋅ 𝐴 = 𝛽 ⋅ 𝐴 ⋅ (1 + 𝜀) 只要 ...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 考研数学 · 函数的极限与连续 考研数学 · 函数的极限与连续 核心判断： 若把原表达式 𝐹 (𝑥) 中的某部分替换后得到 𝐺(𝑥)，合法替换的本质要求是 𝐹 (𝑥) →1 𝐺(𝑥) 而不是仅仅要求被替换的局部两项等价。 乘除结构为什么可以替换 若 𝛼 ≃ 𝛽 ，则 𝛼 = 𝛽(1 + 𝜀), 𝜀→0 所以对乘积有 𝛼 ⋅ 𝐴 = 𝛽 ⋅ 𝐴 ⋅ (1 + 𝜀) 只要 𝐴 本身不破坏表达式定义，替换前后比值就是 𝛼𝐴 =1+𝜀→1 𝛽𝐴 因此在乘法、除法、整体因子中替换是安全的。例如 sin 𝑥 𝑥 lim = lim =1 𝑥→0 ln(1 + 𝑥) 𝑥→0 𝑥 这里 sin 𝑥 与 ln(1 + 𝑥) 分别处在乘除结构中，替换后整个分式的比值仍趋于 1。 加减结构为什么危险 加减结构危险，是因为主项可能相消。若 𝛼 = 𝛽 + 𝑜(𝛽) 虽然 𝛼 与 𝛽 等价，但 𝛼 − 𝛽 = 𝑜(𝛽) 恰好是一个更高阶的小量。此时如果直接把 𝛼 替换为 𝛽 ，会把真正决定极限的高阶项抹掉。 典型例子： sin 𝑥 ≃ 𝑥 但 sin 𝑥 − 𝑥 ≠ 𝑥 − 𝑥 = 0 实际上 𝑥3 sin 𝑥 − 𝑥 = − + 𝑜(𝑥3 ) 6 因此 sin 𝑥 − 𝑥 1 3 →− 𝑥 6 若在加减中直接替换成 𝑥 − 𝑥，会得到错误的 0。"
+  },
+  {
+    "id": "doc-881c0cac3960-p4",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "4. 常见错误类型",
+    "snippet": "考研数学 · 函数的极限与连续 加减结构什么时候也能替换 加减结构不是永远不能替换，而是需要检查替换误差是否比最终主项更小。 若 𝛼𝑖 = 𝛽𝑖 + 𝑟𝑖 , 𝑟𝑖 = 𝑜(𝛽𝑖 ) 则 ∑ 𝛼𝑖 = ∑ 𝛽𝑖 + ∑ 𝑟𝑖 要使 ∑ 𝛼𝑖 ≃ ∑ 𝛽𝑖 必须有 ∑ 𝑟𝑖 = 𝑜(∑ 𝛽𝑖 ) 也就是说，替换误差必须比替换后的总主项更小。...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 4. 常见错误类型 考研数学 · 函数的极限与连续 加减结构什么时候也能替换 加减结构不是永远不能替换，而是需要检查替换误差是否比最终主项更小。 若 𝛼𝑖 = 𝛽𝑖 + 𝑟𝑖 , 𝑟𝑖 = 𝑜(𝛽𝑖 ) 则 ∑ 𝛼𝑖 = ∑ 𝛽𝑖 + ∑ 𝑟𝑖 要使 ∑ 𝛼𝑖 ≃ ∑ 𝛽𝑖 必须有 ∑ 𝑟𝑖 = 𝑜(∑ 𝛽𝑖 ) 也就是说，替换误差必须比替换后的总主项更小。 加减替换的实用判据： 若加减结构中各项的最低阶主项没有相消，通常可以替换；若最低阶主项相消，就 不能只用一阶等价无穷小，必须继续泰勒展开到第一个非零项。 例如 (1 − cos 𝑥) + sin 𝑥 中，1 − cos 𝑥 是二阶小量，sin 𝑥 是一阶小量，最低阶主项来自 sin 𝑥，没有同阶相消，所以整体主项是 𝑥。 但 tan 𝑥 − sin 𝑥 的一阶项都是 𝑥，主项相消，必须展开到三阶： 𝑥3 𝑥3 tan 𝑥 = 𝑥 + + 𝑜(𝑥3 ), sin 𝑥 = 𝑥 − + 𝑜(𝑥3 ) 3 6 所以 𝑥3 tan 𝑥 − sin 𝑥 = + 𝑜(𝑥3 ) 2 4. 常见错误类型 错误类型 典型错法 正确处理 加减中直接替换 把 sin 𝑥 − 𝑥 直接看成 𝑥 − 𝑥 = 0。 加减结构先查主项是否相消；相消时用泰勒 展开。 忽略替换条件 看到 ln(1 + 𝑢) 就写成 𝑢，但没有确认 先证明 𝑢 → 0，再用 ln(1 + 𝑢) ≃ 𝑢。 𝑢 → 0。 把等价当成等式 认为 sin 𝑥 = 𝑥，从而在任何位置都能改 等价只说明比值趋于 1，不能保留代数恒等 写。 式性质。 变量指数中乱替换 把 𝐴(𝑥)𝐵(𝑥) 的底数 𝐴(𝑥) 替成等价量后 1∞ 型先取对数，求 𝐵(𝑥) ln 𝐴(𝑥) 的极限。 直接求值。"
+  },
+  {
+    "id": "doc-881c0cac3960-p5",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "易错点： 最常见的错误不是“不会背等价无穷小”，而是没有判断表达式结构。先看它在乘除中，还是在加",
+    "snippet": "考研数学 · 函数的极限与连续 2 (2𝑥)2 忽略常数因子 把 1 − cos 2𝑥 写成 𝑥2 。 先代入内层：1 − cos 2𝑥 ≃ 2 = 2𝑥2 。 √ √ 忽略高阶项 在 1 + 2𝑥 − 3 1 + 3𝑥 中只展开到一 若一阶相消，继续展开到二阶或三阶。 阶。 小 𝑜 关系误推 由 𝑓 = 𝑜(𝑔) 误推出 𝑓 = 𝑜(𝑔...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 易错点： 最常见的错误不是“不会背等价无穷小”，而是没有判断表达式结构。先看它在乘除中，还是在加 考研数学 · 函数的极限与连续 2 (2𝑥)2 忽略常数因子 把 1 − cos 2𝑥 写成 𝑥2 。 先代入内层：1 − cos 2𝑥 ≃ 2 = 2𝑥2 。 √ √ 忽略高阶项 在 1 + 2𝑥 − 3 1 + 3𝑥 中只展开到一 若一阶相消，继续展开到二阶或三阶。 阶。 小 𝑜 关系误推 由 𝑓 = 𝑜(𝑔) 误推出 𝑓 = 𝑜(𝑔2 )。 𝑓 = 𝑜(𝑔) 只说明 𝑓𝑔 → 0，不能自动比较 𝑓 与 𝑔2 。 易错点： 最常见的错误不是“不会背等价无穷小”，而是没有判断表达式结构。先看它在乘除中，还是在加 减中；再看加减中的最低阶主项是否相消。 三、极限计算方法 1. 直接代入与代数变形 若函数在代入点连续，直接代入即可。若出现 00 、∞ ∞ 、0 ⋅ ∞ 等未定式，应先通过通分、有理化、提取主因子等 方法化简。 2. 等价无穷小替换 当极限过程明确且表达式为乘除结构时，可把复杂函数替换为等价无穷小。例如 sin 3𝑥 3𝑥 3 lim = lim = 𝑥→0 ln(1 + 2𝑥) 𝑥→0 2𝑥 2 3. 洛必达法则 若极限是 00 或 ∞ ∞ 型，且分子分母满足可导条件，可以使用洛必达法则： 𝑓(𝑥) 𝑥 lim = lim 𝑓 ′ ′ (𝑥) 𝑔(𝑥) 𝑔 前提是右端极限存在或为无穷大。 4. 泰勒展开 当加减结构中主项相消时，泰勒展开最稳。常用展开为： 𝑥2 𝑒𝑥 = 1 + 𝑥 + + 𝑜(𝑥2 ) 2 𝑥2 ln(1 + 𝑥) = 𝑥 − + 𝑜(𝑥2 ) 2 𝑥3 𝑥2 sin 𝑥 = 𝑥 − + 𝑜(𝑥3 ), cos 𝑥 = 1 − + 𝑜(𝑥2 ) 6 2 四、两页手写题的做题经验与常见误区 这两页题目集中训练的是函数极限中的“主项识别”。表面上有指数、对数、根式、反三角、1∞ 型、无穷小阶 比较和泰勒多项式，但核心都是先找出表达式的最低阶非零项。 1. 题型归纳 题型 识别信号 优先方法 cos 𝑥 指数与幂函数阶数 如 𝑒 − 𝑒 、(1 + 𝑥) − 1 同时出现 把 𝑒 − 𝑒cos 𝑥 化为 𝑒(1 − 𝑒cos 𝑥−1 )，再用 1 − 𝛼 2 比较 𝑒𝑢 ≃ −𝑢 与 1 − cos 𝑥 ≃ 𝑥2 。"
+  },
+  {
+    "id": "doc-881c0cac3960-p6",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "2. 典型经验",
+    "snippet": "考研数学 · 函数的极限与连续 对 数 比 值 与 同 阶 无 如 ln( 2+2+𝑥 𝑛 sin 𝑥 ) 与 𝑥 比较 先写成 ln(1 + 𝑢)，再看 𝑢 的首项；若 𝑥 − 穷小 sin 𝑥 出现，要保留到三阶。 sin 2𝑥+𝑥𝑓(𝑥) 已知极限反推导数 如 lim 𝑥3 =1 分子必须是三阶无穷小，可由洛必达或泰勒反 推出 𝑓(...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 2. 典型经验 考研数学 · 函数的极限与连续 对 数 比 值 与 同 阶 无 如 ln( 2+2+𝑥 𝑛 sin 𝑥 ) 与 𝑥 比较 先写成 ln(1 + 𝑢)，再看 𝑢 的首项；若 𝑥 − 穷小 sin 𝑥 出现，要保留到三阶。 sin 2𝑥+𝑥𝑓(𝑥) 已知极限反推导数 如 lim 𝑥3 =1 分子必须是三阶无穷小，可由洛必达或泰勒反 推出 𝑓(0), 𝑓 ′ (0), 𝑓 ″ (0)。 小 𝑜 运算判断 已知 𝑓 = 𝑜(𝑔)，判断 𝑓 + 𝑔, 𝑓𝑔, ln(1 + 统一化成比值检验，例如 𝑓𝑔 𝑔2 = 𝑓𝑔 → 0；不能 𝑔), 𝑔2 的阶 随意平方或加减。 √ √ 根式差与对数分母 如 1 + 2𝑥 − 3 1 + 3𝑥 除以 ln(1 + 一阶项可能相消，必须展开到二阶。 𝑥2 ) 1∞ 型极限 底数趋于 1，指数趋于无穷 设原式为 𝑒lim 指数 ⋅ ln 底数 ，再求指数与对数主 项乘积。 无穷远处对数乘积 如 ln(1 + 2𝑥 ) 与小量对数相乘 把大对数拆成 𝑥 ln 2 + ln(1 + 2−𝑥 )，小对数用 ln(1 + 𝑢) ≃ 𝑢。 倒数代换 如 𝑥 → ∞ 且出现 cos( 𝑥1 ), sin( 𝑥1 ) 令 𝑡 = 𝑥1 ，把无穷远极限化为 𝑡 → 0 的小角极 限。 𝑥 1 泰勒多项式 如求 tan 1+𝑥 2 在 𝑥 = 0 处三阶泰勒多 分别展开 tan 𝑥 与 1+𝑥 2 ，相乘后只保留到指 项式 定阶。 2. 典型经验 经验一：加减结构先防主项相消： 图片中的根式差、𝑥 − sin 𝑥、arctan 𝑥 − 𝑥 都是典型主项相消题。若只 用一阶等价无穷小，很容易得到 00 后误判。遇到加减结构时，应先判断首项是否抵消；若抵消，就继续展 开到第一个非零项。 例如 𝑥3 𝑥3 𝑥 − sin 𝑥 = 𝑥 − (𝑥 − + 𝑜(𝑥3 )) = + 𝑜(𝑥3 ) 6 6 所以 2+𝑥 𝑥 − sin 𝑥 𝑥 − sin 𝑥 𝑥3 ln( ) = ln(1 + )≃ ≃ 2 + sin 𝑥 2 + sin 𝑥 2 + sin 𝑥 12 因此它与 𝑥3 同阶，而不是与 𝑥 同阶。 经验二：1∞ 型先取对数： 凡是形如 𝐴(𝑥)𝐵(𝑥) ，且 𝐴(𝑥) → 1、𝐵(𝑥) → ∞ 的题，不要直接代入。令 𝑦 = 𝐴(𝑥)𝐵(𝑥) ，则 ln 𝑦 = 𝐵(𝑥) ln 𝐴(𝑥) 先求 lim 𝐵(𝑥) ln 𝐴(𝑥)，再还原为 𝑒 的幂。 例如图片中的反三角型结构可归纳为： 1 𝑥 tan2 𝑥 (arctan ) 𝑥 因为"
+  },
+  {
+    "id": "doc-881c0cac3960-p7",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "3. 常见误区",
+    "snippet": "考研数学 · 函数的极限与连续 𝑥3 arctan 𝑥 = 𝑥 − + 𝑜(𝑥3 ) 3 所以 𝑥 𝑥 𝑥2 ln(arctan ) ≃ arctan − 1 = − + 𝑜(𝑥2 ) 𝑥 𝑥 3 又 tan2 𝑥 ≃ 𝑥2 ，故极限为 1 𝑒− 3 经验三：已知高阶极限可以反推低阶条件： 若 𝑁 (𝑥) lim =1 𝑥→0 𝑥3 则 ...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 3. 常见误区 考研数学 · 函数的极限与连续 𝑥3 arctan 𝑥 = 𝑥 − + 𝑜(𝑥3 ) 3 所以 𝑥 𝑥 𝑥2 ln(arctan ) ≃ arctan − 1 = − + 𝑜(𝑥2 ) 𝑥 𝑥 3 又 tan2 𝑥 ≃ 𝑥2 ，故极限为 1 𝑒− 3 经验三：已知高阶极限可以反推低阶条件： 若 𝑁 (𝑥) lim =1 𝑥→0 𝑥3 则 𝑁 (𝑥) 必须至少是三阶无穷小，即 𝑁 (0) = 0, 𝑁 ′ (0) = 0, 𝑁 ″ (0) = 0 并且三阶项系数由极限决定。这类题常用来反推 𝑓(0), 𝑓 ′ (0), 𝑓 ″ (0)。 以图片中的结构 𝑁 (𝑥) = sin 2𝑥 + 𝑥𝑓(𝑥) 𝑁(𝑥) 为例，若 𝑥3 → 1，则先由 𝑁 (0) = 0 得不到信息，再由一阶项为零得 2 + 𝑓(0) = 0, 𝑓(0) = −2 继续比较二阶项得 𝑓 ′ (0) = 0，比较三阶项可得 𝑓 ″ (0) = 14 3 。因此再求 2 cos 𝑥 + 𝑓(𝑥) lim 𝑥→0 𝑥2 时，不能把 𝑓(𝑥) 当成普通未知函数，而要利用刚刚反推出的低阶信息。 3. 常见误区 易错点： 误区一：把等价无穷小随意用于加减。等价替换最安全的位置是乘除结构；若在加减中替换，必 须先确认主项不相消。 易错点： 误区二：看到 ln(1 + 𝑢) 就直接写成 𝑢，但没有检查 𝑢 → 0。只有 𝑢 → 0 时，才有 ln(1 + 𝑢) ≃ 𝑢。 易错点： 误区三：已知 𝑓 = 𝑜(𝑔)，不能推出 𝑓 = 𝑜(𝑔2 )。因为 𝑓𝑔 → 0 只说明 𝑓 比 𝑔 高阶，未说明比 𝑔2 3 高阶。例如 𝑔 → 0 时，取 𝑓 = 𝑔 2 ，则 𝑓 = 𝑜(𝑔)，但 𝑔𝑓2 = √1𝑔 不趋于 0。 易错点：误区四：1∞ 型不能直接说极限等于 1。底数趋于 1，指数趋于无穷，二者竞争后的结果可能是 𝑒𝑐 。 4. 做题流程 1. 先判型： 00 、 ∞ ∞ ∞ 、1 、无穷小阶比较，还是连续性判断。 2. 再找主项：乘除结构可优先等价替换；加减结构优先泰勒展开。"
+  },
+  {
+    "id": "doc-881c0cac3960-p8",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 8,
+    "heading": "3. 对数指数先标准化：ln(1 + 𝑢)、𝑒𝑢 − 1、(1 + 𝑢)𝛼 − 1。",
+    "snippet": "考研数学 · 函数的极限与连续 3. 对数指数先标准化：ln(1 + 𝑢)、𝑒𝑢 − 1、(1 + 𝑢)𝛼 − 1。 4. 根式和反三角若一阶相消，至少展开到二阶或三阶。 5. 已知极限含未知函数时，把“极限有限且非零”翻译成分子分母同阶，再反推函数值或导数。 五、连续性与间断点 1. 连续的定义 函数 𝑓(𝑥) 在 𝑥0 连续，等价于 ...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 3. 对数指数先标准化：ln(1 + 𝑢)、𝑒𝑢 − 1、(1 + 𝑢)𝛼 − 1。 考研数学 · 函数的极限与连续 3. 对数指数先标准化：ln(1 + 𝑢)、𝑒𝑢 − 1、(1 + 𝑢)𝛼 − 1。 4. 根式和反三角若一阶相消，至少展开到二阶或三阶。 5. 已知极限含未知函数时，把“极限有限且非零”翻译成分子分母同阶，再反推函数值或导数。 五、连续性与间断点 1. 连续的定义 函数 𝑓(𝑥) 在 𝑥0 连续，等价于 lim 𝑓(𝑥) = 𝑓(𝑥0 ) 𝑥→𝑥0 也等价于： 1. 𝑓(𝑥0 ) 有定义。 2. lim𝑥→𝑥0 𝑓(𝑥) 存在。 3. 极限值等于函数值。 2. 间断点分类 类型 判断 处理重点 可去间断点 极限存在，但函数值不存在或不等于极限 补定义使连续 跳跃间断点 左右极限都存在但不相等 分段函数常见 无穷间断点 至少一侧极限为无穷大 检查分母为零处 振荡间断点 极限振荡不存在 如 sin( 𝑥1 ) 类结构 3. 闭区间连续函数性质 若 𝑓(𝑥) 在闭区间 [𝑎, 𝑏] 上连续，则： 1. 有界性：𝑓(𝑥) 在 [𝑎, 𝑏] 上有界。 2. 最值定理：存在最大值和最小值。 3. 介值定理：函数能取到最大值与最小值之间的一切值。 4. 零点定理：若 𝑓(𝑎)𝑓(𝑏) < 0，则存在 𝜉 ∈ (𝑎, 𝑏) 使 𝑓(𝜉) = 0。 六、典型例题 例题 1：有理化求极限 √ √ 1+𝑥− 1−𝑥 题目 求 lim𝑥→0 𝑥 。 有理化： √ √ 1+𝑥− 1−𝑥 (1 + 𝑥) − (1 − 𝑥) = √ √ 𝑥 𝑥( 1 + 𝑥 + 1 − 𝑥) 2 =√ √ 1+𝑥+ 1−𝑥 所以 √ √ 1+𝑥− 1−𝑥 2 lim = =1 𝑥→0 𝑥 1+1"
+  },
+  {
+    "id": "doc-881c0cac3960-p9",
+    "docId": "doc-881c0cac3960",
+    "title": "Limits and Continuity (函数的极限与连续)",
+    "category": "微积分",
+    "page": 9,
+    "heading": "例题 2：连续性确定参数",
+    "snippet": "考研数学 · 函数的极限与连续 例题 2：连续性确定参数 题目 设 𝑎𝑥 ( 𝑒 −1 , 𝑥 ≠ 0) 𝑓(𝑥) = { 𝑥 (2, 𝑥 = 0) 求使 𝑓(𝑥) 在 𝑥 = 0 连续的 𝑎。 连续要求 𝑒𝑎𝑥 − 1 lim =2 𝑥→0 𝑥 由 𝑒𝑎𝑥 − 1 ≃ 𝑎𝑥，得极限为 𝑎。因此 𝑎=2 例题 3：零点定理 题目 证明方程...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 例题 2：连续性确定参数 考研数学 · 函数的极限与连续 例题 2：连续性确定参数 题目 设 𝑎𝑥 ( 𝑒 −1 , 𝑥 ≠ 0) 𝑓(𝑥) = { 𝑥 (2, 𝑥 = 0) 求使 𝑓(𝑥) 在 𝑥 = 0 连续的 𝑎。 连续要求 𝑒𝑎𝑥 − 1 lim =2 𝑥→0 𝑥 由 𝑒𝑎𝑥 − 1 ≃ 𝑎𝑥，得极限为 𝑎。因此 𝑎=2 例题 3：零点定理 题目 证明方程 𝑥3 + 𝑥 − 1 = 0 在 (0, 1) 内至少有一个实根。 令 𝑓(𝑥) = 𝑥3 + 𝑥 − 1，则 𝑓(𝑥) 在 [0, 1] 上连续，且 𝑓(0) = −1 < 0, 𝑓(1) = 1 > 0 由零点定理，存在 𝜉 ∈ (0, 1)，使 𝑓(𝜉) = 0 故方程在 (0, 1) 内至少有一个实根。"
+  },
+  {
+    "id": "doc-d3af775c5a55-p1",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、数列极限的定义",
+    "snippet": "考研数学 · 数列的极限 数列的极限 数列收敛 · 夹逼模型 · 压缩不等式 · 常用极限 考研数学复习资料 · Typst PDF 复习目标： 数列极限的核心是“项数趋于无穷时的稳定值”。考研中常见题型包括代数化简、夹逼定理、单 调有界定理、递推数列求极限，以及把数列极限转化为函数极限。 一、数列极限的定义 1. 收敛定义 若数列 {𝑎...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 一、数列极限的定义 考研数学 · 数列的极限 数列的极限 数列收敛 · 夹逼模型 · 压缩不等式 · 常用极限 考研数学复习资料 · Typst PDF 复习目标： 数列极限的核心是“项数趋于无穷时的稳定值”。考研中常见题型包括代数化简、夹逼定理、单 调有界定理、递推数列求极限，以及把数列极限转化为函数极限。 一、数列极限的定义 1. 收敛定义 若数列 {𝑎𝑛 } 满足：对任意给定的 𝜀 > 0，总存在正整数 𝑁 ，当 𝑛 > 𝑁 时， |𝑎𝑛 − 𝐴| < 𝜀 则称数列 {𝑎𝑛 } 收敛于 𝐴，记作 lim 𝑎𝑛 = 𝐴 𝑛→∞ 直观理解：从某一项以后，所有项都能落入 𝐴 的任意小邻域内。 2. 收敛数列的基本性质 1. 极限唯一。 2. 收敛数列必有界。 3. 若 lim 𝑎𝑛 = 𝐴，则任意子列也收敛于 𝐴。 4. 若 𝑎𝑛 ≤ 𝑏𝑛 ≤ 𝑐𝑛 ，且 lim 𝑎𝑛 = lim 𝑐𝑛 = 𝐴，则 lim 𝑏𝑛 = 𝐴。 易错点： 有界不一定收敛。例如 𝑎𝑛 = (−1)𝑛 有界，但不收敛。单调加有界才保证收敛。 二、极限运算法则 若 lim 𝑎𝑛 = 𝐴, lim 𝑏𝑛 = 𝐵 则 lim(𝑎𝑛 + 𝑏𝑛 ) = 𝐴 + 𝐵 lim(𝑎𝑛 𝑏𝑛 ) = 𝐴𝐵 若 𝐵 ≠ 0，则 𝑎𝑛 𝐴 lim = 𝑏𝑛 𝐵 若 𝑎𝑛 ≤ 𝑏𝑛 且二者极限存在，则 𝐴≤𝐵"
+  },
+  {
+    "id": "doc-d3af775c5a55-p2",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "三、常用数列极限",
+    "snippet": "考研数学 · 数列的极限 注意：不等式取极限后通常只能保留非严格不等号。 三、常用数列极限 数列 极限 条件或说明 𝑛 𝑞 0 |𝑞| < 1 1 𝑛𝛼 0 𝛼>0 1 𝑛 𝑛 1 常用对数化证明 1 𝑎 𝑛 1 𝑎>0 𝑛 (1 + 𝑛1 ) 𝑒 自然常数定义之一 𝑛𝑘 𝑎𝑛 0 𝑎 > 1，指数增长快于幂增长 判断增长速度： 当 𝑛 ...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 三、常用数列极限 考研数学 · 数列的极限 注意：不等式取极限后通常只能保留非严格不等号。 三、常用数列极限 数列 极限 条件或说明 𝑛 𝑞 0 |𝑞| < 1 1 𝑛𝛼 0 𝛼>0 1 𝑛 𝑛 1 常用对数化证明 1 𝑎 𝑛 1 𝑎>0 𝑛 (1 + 𝑛1 ) 𝑒 自然常数定义之一 𝑛𝑘 𝑎𝑛 0 𝑎 > 1，指数增长快于幂增长 判断增长速度： 当 𝑛 → ∞ 时，一般有 ln 𝑛 ≪ 𝑛𝛼 ≪ 𝑎𝑛 ≪ 𝑛! ≪ 𝑛𝑛 (𝛼 > 0, 𝑎 > 1) 用于判断无穷大或无穷小阶数。 四、常用求法 1. 代数化简 含根式的数列常通过有理化或提取最高阶项处理。例如： √𝑛2 + 𝑛 − 𝑛 = √ 𝑛 1 = 𝑛2 + 𝑛 + 𝑛 √1 + 𝑛1 + 1 所以极限为 12 。 2. 夹逼定理 当数列含有振荡因子，如 sin 𝑛、cos 𝑛、(−1)𝑛 时，常利用有界性夹逼。例如： 1 𝑛 1 − ≤ sin ≤ 𝑛 𝑛 𝑛 故 𝑛 lim sin =0 𝑛→∞ 𝑛 3. 单调有界定理 若数列单调递增且有上界，或单调递减且有下界，则数列收敛。递推数列常用这个定理先证明极限存在，再由 递推式求极限。 4. 函数极限转化 若 𝑎𝑛 = 𝑓(𝑛)，且 lim 𝑓(𝑥) = 𝐴 𝑥→∞ 则 lim 𝑎𝑛 = 𝐴 𝑛→∞"
+  },
+  {
+    "id": "doc-d3af775c5a55-p3",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "五、手写题补充：常见数列极限模型",
+    "snippet": "考研数学 · 数列的极限 这使洛必达法则、泰勒展开和等价无穷小也能服务数列极限。 五、手写题补充：常见数列极限模型 本节把手写页中的题型整理成四类：𝑛 次根抓最大底数、相邻幂差抓最高阶主项、有界数列求和用夹逼、压缩 不等式证明收敛。 1. 𝑛 次根：抓最大项 模型结论： 若 𝑎𝑖 ≥ 0(𝑖 = 1, 2, …, 𝑚)，则 lim √ 𝑛...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 五、手写题补充：常见数列极限模型 考研数学 · 数列的极限 这使洛必达法则、泰勒展开和等价无穷小也能服务数列极限。 五、手写题补充：常见数列极限模型 本节把手写页中的题型整理成四类：𝑛 次根抓最大底数、相邻幂差抓最高阶主项、有界数列求和用夹逼、压缩 不等式证明收敛。 1. 𝑛 次根：抓最大项 模型结论： 若 𝑎𝑖 ≥ 0(𝑖 = 1, 2, …, 𝑚)，则 lim √ 𝑛 𝑎𝑛1 + 𝑎𝑛2 + … + 𝑎𝑛𝑚 = max(𝑎1 , 𝑎2 , …, 𝑎𝑚 ) 𝑛→∞ 核心意思是：有限个非负底数同时升到 𝑛 次方后，最大底数对应的项控制整体数量级。 设 𝐴 = max(𝑎1 , 𝑎2 , …, 𝑎𝑚 ) 则每一项都有 0 ≤ 𝑎𝑛 𝑛 𝑛 𝑖 ≤ 𝐴 ，且至少有一项等于 𝐴 ，于是 𝐴𝑛 ≤ 𝑎𝑛1 + 𝑎𝑛2 + … + 𝑎𝑛𝑚 ≤ 𝑚𝐴𝑛 两边取 𝑛 次根： √ 𝑛 1 𝐴≤ √ 𝑛 𝑎𝑛1 + 𝑎𝑛2 + … + 𝑎𝑛𝑚 ≤ 𝑚𝐴𝑛 = 𝑚 𝑛 𝐴 1 因为 lim𝑛→∞ 𝑚 𝑛 = 1，所以由夹逼定理得到结论。 使用口令： 看到 √有限项之和，先把每一项写成某个非负底数的 𝑛 次方，再比较底数大小；最大底数就 𝑛 是极限。 常见变形： 1. 若 0 < 𝑎 < 𝑏，则 √ 𝑛 lim 𝑎𝑛 + 𝑏𝑛 = 𝑏 𝑛→∞ √ 𝑛 2. 若式中出现负指数，例如 𝑛 𝑎−𝑛 + 𝑏𝑛 ，应先改写为 √ 𝑛 ( 𝑎1 ) + 𝑏𝑛 ，极限为 max( 𝑎1 , 𝑏)，不能只根据 𝑎 < 𝑏 下结论。 3. 当 0 ≤ 𝑥 ≤ 𝜋2 时， √ 𝑛 lim sin𝑛 𝑥 + cos𝑛 𝑥 = max(sin 𝑥, cos 𝑥) 𝑛→∞ 也就是 条件 极限 0 ≤ 𝑥 ≤ 𝜋4 cos 𝑥 𝜋 𝜋 4 ≤𝑥≤ 2 sin 𝑥 4. 对 lim √ 𝑛 1 + |𝑥|3𝑛 𝑛→∞"
+  },
+  {
+    "id": "doc-d3af775c5a55-p4",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "易错点： 这个模型要求根号内能整理成“有限个非负项的 𝑛 次方之和”。若有正负抵消、项数随 𝑛 增长，或",
+    "snippet": "考研数学 · 数列的极限 𝑛 把 1 看成 1𝑛 ，把 |𝑥|3𝑛 看成 (|𝑥|3 ) ，所以极限为 条件 极限 |𝑥| ≤ 1 1 |𝑥| > 1 |𝑥|3 易错点： 这个模型要求根号内能整理成“有限个非负项的 𝑛 次方之和”。若有正负抵消、项数随 𝑛 增长，或 底数本身依赖 𝑛，需要重新判断，不能机械套最大项。 2. 相邻幂差：抓最...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 易错点： 这个模型要求根号内能整理成“有限个非负项的 𝑛 次方之和”。若有正负抵消、项数随 𝑛 增长，或 考研数学 · 数列的极限 𝑛 把 1 看成 1𝑛 ，把 |𝑥|3𝑛 看成 (|𝑥|3 ) ，所以极限为 条件 极限 |𝑥| ≤ 1 1 |𝑥| > 1 |𝑥|3 易错点： 这个模型要求根号内能整理成“有限个非负项的 𝑛 次方之和”。若有正负抵消、项数随 𝑛 增长，或 底数本身依赖 𝑛，需要重新判断，不能机械套最大项。 2. 相邻幂差：抓最高阶主项 例题 求 𝑛99 lim 𝑛→∞ 𝑛100 − (𝑛 − 1)100 方法一：二项式展开。由 2 (𝑛 − 1)100 = 𝑛100 − 100𝑛99 + 𝐶100 𝑛98 − … 因此 2 𝑛100 − (𝑛 − 1)100 = 100𝑛99 − 𝐶100 𝑛98 + … 分母最高阶主项为 100𝑛99 ，所以 𝑛99 𝑛99 1 lim = lim = 𝑛→∞ 𝑛100 − (𝑛 − 1)100 𝑛→∞ 100𝑛99 + … 100 方法二：提取 𝑛100 。有 1 100 𝑛100 − (𝑛 − 1)100 = 𝑛100 (1 − (1 − ) ) 𝑛 于是 𝑛99 1 100 100 = 100 𝑛 − (𝑛 − 1) 𝑛(1 − (1 − 1 ) ) 𝑛 又 1 100 100 1 (1 − ) =1− + 𝑜( ) 𝑛 𝑛 𝑛 所以 1 100 𝑛(1 − (1 − ) ) → 100 𝑛 1 最终极限仍为 100 。"
+  },
+  {
+    "id": "doc-d3af775c5a55-p5",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "3. 有界数列参与求和：用夹逼",
+    "snippet": "考研数学 · 数列的极限 本质理解： 𝑛100 − (𝑛 − 1)100 是幂函数 𝑥100 在相邻整数处的差，主项近似 100𝑛99 。更一般地，𝑓(𝑛) − 𝑓(𝑛 − 1) 常可类比为 𝑓 ′ (𝑛) 的主阶。 3. 有界数列参与求和：用夹逼 例题 设 {𝑎𝑛 } 非负有界， 𝑛 𝑘 𝑏𝑛 = ∑ 𝑘=1 𝑛2 + 𝑎 𝑘 求 1 ...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 3. 有界数列参与求和：用夹逼 考研数学 · 数列的极限 本质理解： 𝑛100 − (𝑛 − 1)100 是幂函数 𝑥100 在相邻整数处的差，主项近似 100𝑛99 。更一般地，𝑓(𝑛) − 𝑓(𝑛 − 1) 常可类比为 𝑓 ′ (𝑛) 的主阶。 3. 有界数列参与求和：用夹逼 例题 设 {𝑎𝑛 } 非负有界， 𝑛 𝑘 𝑏𝑛 = ∑ 𝑘=1 𝑛2 + 𝑎 𝑘 求 1 lim 𝑛→∞ 𝑏𝑛 因为 {𝑎𝑛 } 非负有界，存在常数 𝑀 > 0，使 0 ≤ 𝑎𝑘 ≤ 𝑀 于是对每个 𝑘 = 1, 2, …, 𝑛， 𝑘 𝑘 𝑘 ≤ ≤ 𝑛2 + 𝑀 𝑛2 + 𝑎 𝑘 𝑛2 逐项求和得到 𝑛 𝑛 𝑘 𝑘 ∑ 2 ≤ 𝑏 𝑛 ≤ ∑ 𝑘=1 𝑛 +𝑀 𝑘=1 𝑛2 即 𝑛(𝑛 + 1) 𝑛(𝑛 + 1) ≤ 𝑏𝑛 ≤ 2(𝑛2 + 𝑀 ) 2𝑛2 左右两边的极限都是 12 ，因此 1 lim 𝑏𝑛 = 𝑛→∞ 2 所以 1 lim =2 𝑛→∞ 𝑏𝑛 做题经验： 求和题若分母里有有界扰动 𝑎𝑘 ，而主量是 𝑛2 ，通常先用 0 ≤ 𝑎𝑘 ≤ 𝑀 把复杂项夹在两个可直 接求和的式子之间。 易错点： 这里的 𝑛2 是外层变量，求和时对 𝑘 是常数；如果题目改成 𝑘2 + 𝑎𝑘 ，估计方式会改变，不能照搬。"
+  },
+  {
+    "id": "doc-d3af775c5a55-p6",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "4. 压缩不等式：证明递推数列收敛",
+    "snippet": "考研数学 · 数列的极限 4. 压缩不等式：证明递推数列收敛 压缩型结论： 若存在常数 0 < 𝑟 < 1，使 |𝑥𝑛+1 − 𝑎| ≤ 𝑟|𝑥𝑛 − 𝑎| (𝑛 = 1, 2, …) 则 lim 𝑥𝑛 = 𝑎 𝑛→∞ 由不等式连续迭代： |𝑥2 − 𝑎| ≤ 𝑟|𝑥1 − 𝑎| |𝑥3 − 𝑎| ≤ 𝑟|𝑥2 − 𝑎| ≤ 𝑟2 |𝑥1...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 4. 压缩不等式：证明递推数列收敛 考研数学 · 数列的极限 4. 压缩不等式：证明递推数列收敛 压缩型结论： 若存在常数 0 < 𝑟 < 1，使 |𝑥𝑛+1 − 𝑎| ≤ 𝑟|𝑥𝑛 − 𝑎| (𝑛 = 1, 2, …) 则 lim 𝑥𝑛 = 𝑎 𝑛→∞ 由不等式连续迭代： |𝑥2 − 𝑎| ≤ 𝑟|𝑥1 − 𝑎| |𝑥3 − 𝑎| ≤ 𝑟|𝑥2 − 𝑎| ≤ 𝑟2 |𝑥1 − 𝑎| 一般地， |𝑥𝑛 − 𝑎| ≤ 𝑟𝑛−1 |𝑥1 − 𝑎| 因为 0 < 𝑟 < 1，故 𝑟𝑛−1 → 0。由夹逼定理， 0 ≤ |𝑥𝑛 − 𝑎| ≤ 𝑟𝑛−1 |𝑥1 − 𝑎| → 0 所以 𝑥𝑛 → 𝑎。 易错点： 手写推导中常把相邻两式相除再连乘，但若某一项恰好满足 𝑥𝑗 = 𝑎，分母会为零。考试书写时直 接迭代不等式更稳妥。 六、递推数列 递推数列通常形如 𝑎𝑛+1 = 𝜑(𝑎𝑛 ) 常用步骤为： 1. 猜测或求不动点：令 𝐴 = 𝜑(𝐴)。 2. 证明数列有界。 3. 证明数列单调，或证明相邻项差趋于零。 4. 若已知极限存在，则代入递推式求 𝐴。 易错点： 不能只把极限代入递推式就结束。必须先说明极限存在，常用方法就是单调有界定理或压缩映射 思想。 七、典型例题 例题 1：根式数列 √ 题目 求 lim𝑛→∞ ( 𝑛2 + 𝑛 − 𝑛)。 有理化："
+  },
+  {
+    "id": "doc-d3af775c5a55-p7",
+    "docId": "doc-d3af775c5a55",
+    "title": "Sequence Limits (数列的极限)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "例题 2：递推数列",
+    "snippet": "考研数学 · 数列的极限 √𝑛2 + 𝑛 − 𝑛 = √ 𝑛 2 𝑛 +𝑛+𝑛 上下同除以 𝑛： 𝑛 1 √ = 𝑛2 + 𝑛 + 𝑛 √1 + 𝑛1 + 1 所以 1 lim (√𝑛2 + 𝑛 − 𝑛) = 𝑛→∞ 2 例题 2：递推数列 √ 题目 设 𝑎1 = 2，𝑎𝑛+1 = √2 + 𝑎𝑛 ，求 lim 𝑎𝑛 。 先猜极限。若极限...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 例题 2：递推数列 考研数学 · 数列的极限 √𝑛2 + 𝑛 − 𝑛 = √ 𝑛 2 𝑛 +𝑛+𝑛 上下同除以 𝑛： 𝑛 1 √ = 𝑛2 + 𝑛 + 𝑛 √1 + 𝑛1 + 1 所以 1 lim (√𝑛2 + 𝑛 − 𝑛) = 𝑛→∞ 2 例题 2：递推数列 √ 题目 设 𝑎1 = 2，𝑎𝑛+1 = √2 + 𝑎𝑛 ，求 lim 𝑎𝑛 。 先猜极限。若极限为 𝐴，则 √ 𝐴= 2+𝐴 解得 𝐴 = 2 或 𝐴 = −1。因 𝑎𝑛 > 0，只可能为 2。 再说明极限存在。由 𝑎1 < 2，若 𝑎𝑛 < 2，则 √ 𝑎𝑛+1 = √2 + 𝑎𝑛 < 4=2 所以 𝑎𝑛 < 2。又 𝑎𝑛+1 ≥ 𝑎𝑛 ⇔ √2 + 𝑎𝑛 ≥ 𝑎𝑛 ⇔ 2 + 𝑎𝑛 ≥ 𝑎2𝑛 当 0 < 𝑎𝑛 < 2 时成立。因此数列单调递增且有上界 2，故收敛，极限为 2 例题 3：指数型极限 𝑏 题目 求 lim𝑛→∞ 𝑛((1 + 𝑛𝑎 ) − 1)。 当 𝑛 → ∞ 时， 𝑛𝑎 → 0。由 (1 + 𝑥)𝑏 − 1 ≃ 𝑏𝑥 得 𝑎 𝑏 𝑎 (1 + ) −1≃𝑏 𝑛 𝑛 所以 𝑎 𝑏 lim 𝑛((1 + ) − 1) = 𝑎𝑏 𝑛→∞ 𝑛"
+  },
+  {
+    "id": "doc-f02190ce156c-p1",
+    "docId": "doc-f02190ce156c",
+    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、导数的概念",
+    "snippet": "考研数学 · 一元函数微分学的概念和计算 一元函数微分学的概念和计算 导数定义 · 微分 · 求导法则 · 高阶导数 考研数学复习资料 · Typst PDF 复习目标：一元函数微分学的概念部分重在理解“局部线性化”，计算部分重在熟练掌握复合函数、隐函数、 参数方程和高阶导数。考研题常把导数定义、极限和求导法则混合考查。 一、导数的概念 ...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一、导数的概念 考研数学 · 一元函数微分学的概念和计算 一元函数微分学的概念和计算 导数定义 · 微分 · 求导法则 · 高阶导数 考研数学复习资料 · Typst PDF 复习目标：一元函数微分学的概念部分重在理解“局部线性化”，计算部分重在熟练掌握复合函数、隐函数、 参数方程和高阶导数。考研题常把导数定义、极限和求导法则混合考查。 一、导数的概念 1. 导数定义 函数 𝑦 = 𝑓(𝑥) 在点 𝑥0 的导数定义为 𝑓(𝑥0 + Δ𝑥) − 𝑓(𝑥0 ) 𝑓 ′ (𝑥0 ) = lim Δ𝑥→0 Δ𝑥 若该极限存在，则称 𝑓(𝑥) 在 𝑥0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时 变化率。 也可写成 𝑓(𝑥) − 𝑓(𝑥0 ) 𝑓 ′ (𝑥0 ) = lim 𝑥→𝑥0 𝑥 − 𝑥0 2. 左导数与右导数 函数在 𝑥0 可导，当且仅当左导数和右导数都存在且相等： 𝑓−′ (𝑥0 ) = 𝑓+′ (𝑥0 ) 分段函数、绝对值函数和端点处的导数问题，必须分别考察左右导数。 易错点： 可导一定连续，连续不一定可导。例如 𝑓(𝑥) = |𝑥| 在 𝑥 = 0 连续但不可导，因为左右导数分别 为 −1 与 1。 二、微分与局部线性化 1. 微分定义 若函数在 𝑥 处可导，则 𝑑𝑦 = 𝑓 ′ (𝑥) 𝑑𝑥 称为函数的微分。它是函数增量 Δ𝑦 = 𝑓(𝑥 + Δ𝑥) − 𝑓(𝑥) 的线性主部： Δ𝑦 = 𝑓 ′ (𝑥)Δ𝑥 + 𝑜(Δ𝑥)"
+  },
+  {
+    "id": "doc-f02190ce156c-p2",
+    "docId": "doc-f02190ce156c",
+    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "2. 近似计算",
+    "snippet": "考研数学 · 一元函数微分学的概念和计算 2. 近似计算 当 Δ𝑥 很小时， 𝑓(𝑥 + Δ𝑥) ≈ 𝑓(𝑥) + 𝑓 ′ (𝑥)Δ𝑥 这就是用切线近似曲线。常用于根式、指数和对数的近似估算。 三、基本求导公式 函数 导数 说明 𝐶 0 常数导数为零 𝛼 𝛼−1 𝑥 𝛼𝑥 幂函数公式 𝑒𝑥 𝑒𝑥 自然指数函数 𝑥 𝑥 𝑎 𝑎 ln 𝑎 𝑎...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 2. 近似计算 考研数学 · 一元函数微分学的概念和计算 2. 近似计算 当 Δ𝑥 很小时， 𝑓(𝑥 + Δ𝑥) ≈ 𝑓(𝑥) + 𝑓 ′ (𝑥)Δ𝑥 这就是用切线近似曲线。常用于根式、指数和对数的近似估算。 三、基本求导公式 函数 导数 说明 𝐶 0 常数导数为零 𝛼 𝛼−1 𝑥 𝛼𝑥 幂函数公式 𝑒𝑥 𝑒𝑥 自然指数函数 𝑥 𝑥 𝑎 𝑎 ln 𝑎 𝑎 > 0, 𝑎 ≠ 1 1 ln 𝑥 𝑥 𝑥>0 sin 𝑥 cos 𝑥 三角函数 cos 𝑥 − sin 𝑥 注意负号 tan 𝑥 sec2 𝑥 1 也可写 cos 2𝑥 1 arctan 𝑥 1+𝑥2 反三角函数常用 四、求导法则 1. 四则运算 若 𝑢 = 𝑢(𝑥)，𝑣 = 𝑣(𝑥) 可导，则 (𝑢 + 𝑣)′ = 𝑢′ + 𝑣′ (𝑢𝑣)′ = 𝑢′ 𝑣 + 𝑢𝑣′ 𝑢 ′ 𝑢′ 𝑣 − 𝑢𝑣′ ( ) = (𝑣 ≠ 0) 𝑣 𝑣2 2. 复合函数求导 若 𝑦 = 𝑓(𝑢)，𝑢 = 𝑔(𝑥)，则 𝑦 𝑑𝑦 𝑑𝑢 𝑑 𝑥= ⋅ = 𝑓 ′ (𝑔(𝑥))𝑔′ (𝑥) 𝑑 𝑑𝑢 𝑑𝑥 链式法则的关键是从外到内逐层求导，每层都不能漏。 3. 反函数求导 若 𝑦 = 𝑓(𝑥) 单调可导，且 𝑓 ′ (𝑥) ≠ 0，其反函数 𝑥 = 𝜑(𝑦) 满足 𝑑𝑥 1 = 𝑑𝑦 𝑑𝑦 𝑑𝑥 常用于反三角函数和由方程确定的反函数。 4. 隐函数求导 若 𝐹 (𝑥, 𝑦) = 0 确定 𝑦 = 𝑦(𝑥)，则两边对 𝑥 求导，把 𝑦 看成 𝑥 的函数："
+  },
+  {
+    "id": "doc-f02190ce156c-p3",
+    "docId": "doc-f02190ce156c",
+    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "5. 参数方程求导",
+    "snippet": "考研数学 · 一元函数微分学的概念和计算 𝐹𝑥 + 𝐹𝑦 𝑦′ = 0 若 𝐹𝑦 ≠ 0，则 𝐹 𝑦′ = − 𝑥 𝐹𝑦 5. 参数方程求导 若 𝑥 = 𝑥(𝑡), 𝑦 = 𝑦(𝑡) 且 𝑥′ (𝑡) ≠ 0，则 𝑑𝑦 𝑑𝑦 𝑑𝑡 𝑡 = 𝑑𝑥 = 𝑦′ ′ (𝑡) 𝑑𝑥 𝑑𝑡 𝑥 二阶导数为 𝑑 𝑑𝑦 𝑑2 𝑦 𝑑𝑡 ( 𝑑𝑥 ) = ...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 5. 参数方程求导 考研数学 · 一元函数微分学的概念和计算 𝐹𝑥 + 𝐹𝑦 𝑦′ = 0 若 𝐹𝑦 ≠ 0，则 𝐹 𝑦′ = − 𝑥 𝐹𝑦 5. 参数方程求导 若 𝑥 = 𝑥(𝑡), 𝑦 = 𝑦(𝑡) 且 𝑥′ (𝑡) ≠ 0，则 𝑑𝑦 𝑑𝑦 𝑑𝑡 𝑡 = 𝑑𝑥 = 𝑦′ ′ (𝑡) 𝑑𝑥 𝑑𝑡 𝑥 二阶导数为 𝑑 𝑑𝑦 𝑑2 𝑦 𝑑𝑡 ( 𝑑𝑥 ) = 𝑑𝑥2 𝑑 𝑥𝑑 𝑡 6. 对数求导法 当函数含有乘积、商、幂指函数时，常先取对数再求导。例如 𝑦 = 𝑢(𝑥)𝑣(𝑥) 两边取对数： ln 𝑦 = 𝑣 ln 𝑢 再求导： 𝑦′ 𝑢′ = 𝑣′ ln 𝑢 + 𝑣 𝑦 𝑢 五、高阶导数与常见结构 1. 高阶导数 若 𝑓 ′ (𝑥) 仍可导，则称其导数为二阶导数： 𝑓 ″ (𝑥) = (𝑓 ′ (𝑥))′ 依次可定义 𝑛 阶导数 𝑓 (𝑛) (𝑥)。 2. 常见高阶导数 函数 𝑛 阶导数 𝑒𝑎𝑥 𝑎𝑛 𝑒𝑎𝑥 sin 𝑥 按 sin 𝑥, cos 𝑥, − sin 𝑥, − cos 𝑥 循环 (𝑛−1)! ln(1 + 𝑥) (−1)𝑛−1 (1+𝑥) 𝑛 1 𝑛! 1−𝑥 (1−𝑥)𝑛+1"
+  },
+  {
+    "id": "doc-f02190ce156c-p4",
+    "docId": "doc-f02190ce156c",
+    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "六、典型例题",
+    "snippet": "考研数学 · 一元函数微分学的概念和计算 六、典型例题 例题 1：导数定义 题目 设 𝑓(𝑥) = 𝑥2 ，用定义求 𝑓 ′ (𝑥0 )。 由定义 (𝑥0 + Δ𝑥)2 − 𝑥20 𝑓 ′ (𝑥0 ) = lim Δ𝑥→0 Δ𝑥 2𝑥0 Δ𝑥 + (Δ𝑥)2 = lim Δ𝑥→0 Δ𝑥 = lim (2𝑥0 + Δ𝑥) = 2𝑥0 Δ𝑥→...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 六、典型例题 考研数学 · 一元函数微分学的概念和计算 六、典型例题 例题 1：导数定义 题目 设 𝑓(𝑥) = 𝑥2 ，用定义求 𝑓 ′ (𝑥0 )。 由定义 (𝑥0 + Δ𝑥)2 − 𝑥20 𝑓 ′ (𝑥0 ) = lim Δ𝑥→0 Δ𝑥 2𝑥0 Δ𝑥 + (Δ𝑥)2 = lim Δ𝑥→0 Δ𝑥 = lim (2𝑥0 + Δ𝑥) = 2𝑥0 Δ𝑥→0 例题 2：隐函数求导 题目 由方程 𝑥2 + 𝑥𝑦 + 𝑦2 = 1 确定 𝑦 = 𝑦(𝑥)，求 𝑦′ 。 两边对 𝑥 求导： 2𝑥 + (𝑥𝑦)′ + 2𝑦𝑦′ = 0 其中 (𝑥𝑦)′ = 𝑦 + 𝑥𝑦′ 所以 2𝑥 + 𝑦 + 𝑥𝑦′ + 2𝑦𝑦′ = 0 整理得 (𝑥 + 2𝑦)𝑦′ = −(2𝑥 + 𝑦) 因此 2𝑥 + 𝑦 𝑦′ = − 𝑥 + 2𝑦 例题 3：参数方程求导 题目 设 𝑥 = 𝑡2 + 1，𝑦 = 𝑡3 − 𝑡，求 𝑑 𝑑𝑦 𝑥。 有 𝑥 𝑦 𝑑 𝑡 = 2𝑡, 𝑑 𝑡 = 3𝑡2 − 1 𝑑 𝑑 当 𝑡 ≠ 0 时， 𝑦 3𝑡2 − 1 𝑑 𝑥= 𝑑 2𝑡"
+  },
+  {
+    "id": "doc-8d9ed00135c3-p1",
+    "docId": "doc-8d9ed00135c3",
+    "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、几何应用",
+    "snippet": "考研数学 · 一元函数微分学的应用 一元函数微分学的应用 几何应用 · 中值定理 · 等式不等式证明 · 物理应用 考研数学复习资料 · Typst PDF 复习目标： 微分学应用的主线是“用导数描述变化”。几何题看斜率和曲率趋势，证明题看中值定理和辅助 函数，最值题看一阶导数与二阶导数，物理题看瞬时速度、加速度和变化率。 一、几何应用 ...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一、几何应用 考研数学 · 一元函数微分学的应用 一元函数微分学的应用 几何应用 · 中值定理 · 等式不等式证明 · 物理应用 考研数学复习资料 · Typst PDF 复习目标： 微分学应用的主线是“用导数描述变化”。几何题看斜率和曲率趋势，证明题看中值定理和辅助 函数，最值题看一阶导数与二阶导数，物理题看瞬时速度、加速度和变化率。 一、几何应用 1. 切线与法线 曲线 𝑦 = 𝑓(𝑥) 在点 𝑥0 处的切线斜率为 𝑘 = 𝑓 ′ (𝑥0 ) 切线方程为 𝑦 − 𝑓(𝑥0 ) = 𝑓 ′ (𝑥0 )(𝑥 − 𝑥0 ) 若 𝑓 ′ (𝑥0 ) ≠ 0，法线斜率为 1 𝑘𝑛 = − ′ (𝑥0 ) 𝑓 法线方程为 1 𝑦 − 𝑓(𝑥0 ) = − ′ (𝑥 − 𝑥0 ) 𝑓 (𝑥0 ) 2. 单调性与极值 若在区间内 𝑓 ′ (𝑥) > 0，则 𝑓(𝑥) 单调递增；若 𝑓 ′ (𝑥) < 0，则单调递减。 极值常在以下点出现： 1. 𝑓 ′ (𝑥) = 0 的驻点。 2. 导数不存在但函数连续的点。 3. 闭区间端点。 3. 凹凸性与拐点 若 𝑓 ″ (𝑥) > 0，曲线凹向上；若 𝑓 ″ (𝑥) < 0，曲线凹向下。若 𝑓 ″ (𝑥) 在某点两侧变号，则该点可能为拐点。 二、中值定理 1. 罗尔定理 若 𝑓(𝑥) 在 [𝑎, 𝑏] 连续，在 (𝑎, 𝑏) 可导，且 𝑓(𝑎) = 𝑓(𝑏)，则存在 𝜉 ∈ (𝑎, 𝑏)，使 𝑓 ′ (𝜉) = 0 2. 拉格朗日中值定理 若 𝑓(𝑥) 在 [𝑎, 𝑏] 连续，在 (𝑎, 𝑏) 可导，则存在 𝜉 ∈ (𝑎, 𝑏)，使"
+  },
+  {
+    "id": "doc-8d9ed00135c3-p2",
+    "docId": "doc-8d9ed00135c3",
+    "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "3. 柯西中值定理",
+    "snippet": "考研数学 · 一元函数微分学的应用 𝑓(𝑏) − 𝑓(𝑎) 𝑓 ′ (𝜉) = 𝑏−𝑎 等价于 𝑓(𝑏) − 𝑓(𝑎) = 𝑓 ′ (𝜉)(𝑏 − 𝑎) 它把函数增量转化为某点导数乘以区间长度。 3. 柯西中值定理 若 𝑓(𝑥), 𝑔(𝑥) 在 [𝑎, 𝑏] 连续，在 (𝑎, 𝑏) 可导，且 𝑔′ (𝑥) ≠ 0，则存在 𝜉 ∈ (𝑎, ...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 3. 柯西中值定理 考研数学 · 一元函数微分学的应用 𝑓(𝑏) − 𝑓(𝑎) 𝑓 ′ (𝜉) = 𝑏−𝑎 等价于 𝑓(𝑏) − 𝑓(𝑎) = 𝑓 ′ (𝜉)(𝑏 − 𝑎) 它把函数增量转化为某点导数乘以区间长度。 3. 柯西中值定理 若 𝑓(𝑥), 𝑔(𝑥) 在 [𝑎, 𝑏] 连续，在 (𝑎, 𝑏) 可导，且 𝑔′ (𝑥) ≠ 0，则存在 𝜉 ∈ (𝑎, 𝑏)，使 𝑓(𝑏) − 𝑓(𝑎) 𝜉 = 𝑓 ′ ′ (𝜉) 𝑔(𝑏) − 𝑔(𝑎) 𝑔 洛必达法则可以看作柯西中值定理的应用。 4. 泰勒公式 在 𝑥0 附近， 𝑓 ″ (𝑥0 ) 𝑓(𝑥) = 𝑓(𝑥0 ) + 𝑓 ′ (𝑥0 )(𝑥 − 𝑥0 ) + (𝑥 − 𝑥0 )2 + … 2 泰勒公式常用于极限、近似计算、不等式证明和极值判定。 中值定理选用： 出现“至少存在一点使某导数为零”常想罗尔定理；出现函数值差和区间长度常想拉格朗日 中值定理；出现两个函数增量之比常想柯西中值定理；出现高阶估计常想泰勒公式。 三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 𝐹 (𝑥)。若能得到端点值相等，就用罗尔定理； 若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 𝑓(𝑥) ≥ 𝑔(𝑥)，可令 𝐹 (𝑥) = 𝑓(𝑥) − 𝑔(𝑥) 再通过导数判断 𝐹 (𝑥) 的单调性和最小值。 3. 凸性法 若 𝑓 ″ (𝑥) ≥ 0，则 𝑓(𝑥) 为凸函数，常有切线不等式： 𝑓(𝑥) ≥ 𝑓(𝑥0 ) + 𝑓 ′ (𝑥0 )(𝑥 − 𝑥0 ) 例如由 𝑓(𝑥) = ln 𝑥 的凹性可得 ln 𝑥 ≤ 𝑥 − 1 (𝑥 > 0) 四、物理应用 1. 速度与加速度 若质点位置为 𝑠 = 𝑠(𝑡)，则速度和加速度分别为"
+  },
+  {
+    "id": "doc-8d9ed00135c3-p3",
+    "docId": "doc-8d9ed00135c3",
+    "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "2. 相关变化率",
+    "snippet": "考研数学 · 一元函数微分学的应用 𝑣(𝑡) = 𝑠′ (𝑡), 𝑎(𝑡) = 𝑣′ (𝑡) = 𝑠″ (𝑡) 速度描述位置变化率，加速度描述速度变化率。 2. 相关变化率 若多个变量之间满足约束关系，先对时间 𝑡 求导，再代入已知瞬时量。典型题包括水位变化、影长变化、圆半 径变化等。 3. 最大最小值应用 实际最值题步骤： 1. 选变量...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 2. 相关变化率 考研数学 · 一元函数微分学的应用 𝑣(𝑡) = 𝑠′ (𝑡), 𝑎(𝑡) = 𝑣′ (𝑡) = 𝑠″ (𝑡) 速度描述位置变化率，加速度描述速度变化率。 2. 相关变化率 若多个变量之间满足约束关系，先对时间 𝑡 求导，再代入已知瞬时量。典型题包括水位变化、影长变化、圆半 径变化等。 3. 最大最小值应用 实际最值题步骤： 1. 选变量，写目标函数。 2. 用条件消元，得到单变量函数。 3. 确定变量范围。 4. 求导并比较驻点与端点。 五、典型例题 例题 1：切线方程 题目 求曲线 𝑦 = 𝑥3 − 𝑥 在 𝑥 = 1 处的切线方程。 先求导： 𝑦′ = 3𝑥2 − 1 所以 𝑦′ (1) = 2, 𝑦(1) = 0 切线方程为 𝑦 − 0 = 2(𝑥 − 1) 即 𝑦 = 2𝑥 − 2 例题 2：用单调性证明不等式 题目 证明 ln 𝑥 ≤ 𝑥 − 1 (𝑥 > 0)。 令 𝐹 (𝑥) = 𝑥 − 1 − ln 𝑥 则 1 𝑥−1 𝐹 ′ (𝑥) = 1 − = 𝑥 𝑥 当 0 < 𝑥 < 1 时，𝐹 ′ (𝑥) < 0；当 𝑥 > 1 时，𝐹 ′ (𝑥) > 0。所以 𝐹 (𝑥) 在 𝑥 = 1 处取最小值： 𝐹 (1) = 0 因此"
+  },
+  {
+    "id": "doc-8d9ed00135c3-p4",
+    "docId": "doc-8d9ed00135c3",
+    "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "例题 3：拉格朗日中值定理",
+    "snippet": "考研数学 · 一元函数微分学的应用 𝐹 (𝑥) ≥ 0 即 ln 𝑥 ≤ 𝑥 − 1 例题 3：拉格朗日中值定理 题目 证明对 𝑎, 𝑏 > 0，存在 𝜉 介于 𝑎, 𝑏 之间，使 ln 𝑏 − ln 𝑎 = 𝑏−𝑎 𝜉 。 令 𝑓(𝑥) = ln 𝑥。由拉格朗日中值定理，存在 𝜉 介于 𝑎, 𝑏 之间，使 𝑓(𝑏) − 𝑓(𝑎) = 𝑓...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 例题 3：拉格朗日中值定理 考研数学 · 一元函数微分学的应用 𝐹 (𝑥) ≥ 0 即 ln 𝑥 ≤ 𝑥 − 1 例题 3：拉格朗日中值定理 题目 证明对 𝑎, 𝑏 > 0，存在 𝜉 介于 𝑎, 𝑏 之间，使 ln 𝑏 − ln 𝑎 = 𝑏−𝑎 𝜉 。 令 𝑓(𝑥) = ln 𝑥。由拉格朗日中值定理，存在 𝜉 介于 𝑎, 𝑏 之间，使 𝑓(𝑏) − 𝑓(𝑎) = 𝑓 ′ (𝜉)(𝑏 − 𝑎) 而 1 𝑓 ′ (𝜉) = 𝜉 所以 𝑏−𝑎 ln 𝑏 − ln 𝑎 = 𝜉 例题 4：物理变化率 题目 质点运动规律为 𝑠 = 𝑡3 − 6𝑡2 + 9𝑡，求速度为零的时刻。 速度为 𝑣 = 𝑠′ = 3𝑡2 − 12𝑡 + 9 = 3(𝑡 − 1)(𝑡 − 3) 令 𝑣 = 0，得 𝑡=1 或 𝑡=3 这两个时刻质点瞬时速度为零。"
+  },
+  {
+    "id": "doc-eabf82064524-p1",
+    "docId": "doc-eabf82064524",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、不定积分",
+    "snippet": "考研数学 · 一元函数积分学的概念性质和计算 一元函数积分学的概念性质和计算 不定积分 · 定积分 · 性质 · 换元与分部积分 考研数学复习资料 · Typst PDF 复习目标： 一元积分学的基础是“累加”和“反求导”。不定积分强调原函数，定积分强调区间累积量。考研 中常考换元、分部积分、对称性、积分中值定理和变上限积分函数。 一、不...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一、不定积分 考研数学 · 一元函数积分学的概念性质和计算 一元函数积分学的概念性质和计算 不定积分 · 定积分 · 性质 · 换元与分部积分 考研数学复习资料 · Typst PDF 复习目标： 一元积分学的基础是“累加”和“反求导”。不定积分强调原函数，定积分强调区间累积量。考研 中常考换元、分部积分、对称性、积分中值定理和变上限积分函数。 一、不定积分 1. 原函数与不定积分 若 𝐹 ′ (𝑥) = 𝑓(𝑥) 则称 𝐹 (𝑥) 是 𝑓(𝑥) 的一个原函数。𝑓(𝑥) 的不定积分为 ∫ 𝑓(𝑥) 𝑑𝑥 = 𝐹 (𝑥) + 𝐶 其中 𝐶 为任意常数。 易错点： 不定积分结果必须加常数 𝐶 。若题目要求某个特定原函数，则需要利用附加条件确定 𝐶 。 2. 基本积分公式 被积函数 不定积分 𝛼 𝑥𝛼+1 𝑥 𝛼+1 + 𝐶 (𝛼 ≠ −1) 1 𝑥 ln|𝑥| + 𝐶 𝑥 𝑒 𝑒𝑥 + 𝐶 𝑎𝑥 𝑎𝑥 ln 𝑎 + 𝐶 sin 𝑥 − cos 𝑥 + 𝐶 cos 𝑥 sin 𝑥 + 𝐶 1 1+𝑥2 arctan 𝑥 + 𝐶 √ 1 arcsin 𝑥 + 𝐶 1−𝑥2 二、定积分 1. 定积分定义 定积分 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 𝑎"
+  },
+  {
+    "id": "doc-eabf82064524-p2",
+    "docId": "doc-eabf82064524",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "2. 牛顿-莱布尼茨公式",
+    "snippet": "考研数学 · 一元函数积分学的概念性质和计算 表示函数在区间 [𝑎, 𝑏] 上的累积量。若 𝑓(𝑥) ≥ 0，它表示曲线 𝑦 = 𝑓(𝑥) 与 𝑥 轴、直线 𝑥 = 𝑎、𝑥 = 𝑏 围成的 面积。 当上下限交换时： 𝑏 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = − ∫ 𝑓(𝑥) 𝑑𝑥 𝑎 𝑏 若上下限相同： 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = 0 𝑎 2. 牛...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 2. 牛顿-莱布尼茨公式 考研数学 · 一元函数积分学的概念性质和计算 表示函数在区间 [𝑎, 𝑏] 上的累积量。若 𝑓(𝑥) ≥ 0，它表示曲线 𝑦 = 𝑓(𝑥) 与 𝑥 轴、直线 𝑥 = 𝑎、𝑥 = 𝑏 围成的 面积。 当上下限交换时： 𝑏 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = − ∫ 𝑓(𝑥) 𝑑𝑥 𝑎 𝑏 若上下限相同： 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = 0 𝑎 2. 牛顿-莱布尼茨公式 若 𝐹 ′ (𝑥) = 𝑓(𝑥)，则 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 = 𝐹 (𝑏) − 𝐹 (𝑎) 𝑎 这把定积分计算转化为找原函数。 3. 变上限积分 若 𝑥 Φ(𝑥) = ∫ 𝑓(𝑡) 𝑑𝑡 𝑎 且 𝑓 连续，则 Φ′ (𝑥) = 𝑓(𝑥) 若上限是复合函数： 𝑔(𝑥) Φ(𝑥) = ∫ 𝑓(𝑡) 𝑑𝑡 𝑎 则 Φ′ (𝑥) = 𝑓(𝑔(𝑥))𝑔′ (𝑥) 若上下限都含 𝑥： 𝑣(𝑥) Φ(𝑥) = ∫ 𝑓(𝑡) 𝑑𝑡 𝑢(𝑥) 则 Φ′ (𝑥) = 𝑓(𝑣(𝑥))𝑣′ (𝑥) − 𝑓(𝑢(𝑥))𝑢′ (𝑥) 三、定积分性质 1. 线性与区间可加 𝑏 𝑏 𝑏 ∫ (𝛼𝑓(𝑥) + 𝛽𝑔(𝑥)) 𝑑𝑥 = 𝛼 ∫ 𝑓(𝑥) 𝑑𝑥 + 𝛽 ∫ 𝑔(𝑥) 𝑑𝑥 𝑎 𝑎 𝑎"
+  },
+  {
+    "id": "doc-eabf82064524-p3",
+    "docId": "doc-eabf82064524",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "2. 保号性与估值",
+    "snippet": "考研数学 · 一元函数积分学的概念性质和计算 𝑏 𝑐 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(𝑥) 𝑑𝑥 + ∫ 𝑓(𝑥) 𝑑𝑥 𝑎 𝑎 𝑐 2. 保号性与估值 若 𝑓(𝑥) ≥ 0，则 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 ≥ 0 𝑎 若 𝑚 ≤ 𝑓(𝑥) ≤ 𝑀 ，则 𝑏 𝑚(𝑏 − 𝑎) ≤ ∫ 𝑓(𝑥) 𝑑𝑥 ≤ 𝑀 (𝑏 − 𝑎) 𝑎 3. 积分...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 2. 保号性与估值 考研数学 · 一元函数积分学的概念性质和计算 𝑏 𝑐 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(𝑥) 𝑑𝑥 + ∫ 𝑓(𝑥) 𝑑𝑥 𝑎 𝑎 𝑐 2. 保号性与估值 若 𝑓(𝑥) ≥ 0，则 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 ≥ 0 𝑎 若 𝑚 ≤ 𝑓(𝑥) ≤ 𝑀 ，则 𝑏 𝑚(𝑏 − 𝑎) ≤ ∫ 𝑓(𝑥) 𝑑𝑥 ≤ 𝑀 (𝑏 − 𝑎) 𝑎 3. 积分中值定理 若 𝑓(𝑥) 在 [𝑎, 𝑏] 上连续，则存在 𝜉 ∈ [𝑎, 𝑏]，使 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 = 𝑓(𝜉)(𝑏 − 𝑎) 𝑎 这说明连续函数在区间上的积分等于某一点函数值乘以区间长度。 4. 对称性 若 𝑓(𝑥) 为奇函数，则 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = 0 −𝑎 若 𝑓(𝑥) 为偶函数，则 𝑎 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = 2 ∫ 𝑓(𝑥) 𝑑𝑥 −𝑎 0 对称区间题先判断奇偶性，往往能大幅简化计算。 四、积分计算方法 1. 第一类换元法 若被积函数中出现复合结构 𝑓(𝑔(𝑥))𝑔′ (𝑥)，可令 𝑢 = 𝑔(𝑥)： ∫ 𝑓(𝑔(𝑥))𝑔′ (𝑥) 𝑑𝑥 = ∫ 𝑓(𝑢) 𝑑𝑢 2. 第二类换元法 定积分中换元 𝑥 = 𝜑(𝑡) 时，要同步替换上下限： 𝑏 𝛽 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(𝜑(𝑡))𝜑′ (𝑡) 𝑑𝑡 𝑎 𝛼 其中 𝜑(𝛼) = 𝑎，𝜑(𝛽) = 𝑏。 3. 分部积分法 由乘积求导公式可得："
+  },
+  {
+    "id": "doc-eabf82064524-p4",
+    "docId": "doc-eabf82064524",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "4. 有理函数积分",
+    "snippet": "考研数学 · 一元函数积分学的概念性质和计算 ∫ 𝑢 𝑑𝑣 = 𝑢𝑣 − ∫ 𝑣 𝑑𝑢 定积分形式为： 𝑏 𝑏 ∫ 𝑢𝑣′ 𝑑𝑥 = [𝑢𝑣]𝑏𝑎 − ∫ 𝑢′ 𝑣 𝑑𝑥 𝑎 𝑎 常用选择顺序可记为：对数、反三角、幂、三角、指数。通常把求导后变简单的函数选作 𝑢。 4. 有理函数积分 有理函数积分常用思路： 1. 若分子次数不低于分母，先...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 4. 有理函数积分 考研数学 · 一元函数积分学的概念性质和计算 ∫ 𝑢 𝑑𝑣 = 𝑢𝑣 − ∫ 𝑣 𝑑𝑢 定积分形式为： 𝑏 𝑏 ∫ 𝑢𝑣′ 𝑑𝑥 = [𝑢𝑣]𝑏𝑎 − ∫ 𝑢′ 𝑣 𝑑𝑥 𝑎 𝑎 常用选择顺序可记为：对数、反三角、幂、三角、指数。通常把求导后变简单的函数选作 𝑢。 4. 有理函数积分 有理函数积分常用思路： 1. 若分子次数不低于分母，先作多项式除法。 2. 分母能因式分解时，做部分分式分解。 3. 二次不可约因子常配方转化为反正切或对数。 五、反常积分与高斯积分 1. 反常积分的基本判断 当积分区间无穷或被积函数在区间内有无界点时，定积分需要按反常积分理解。例如： +∞ 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 = lim ∫ 𝑓(𝑥) 𝑑𝑥 𝑏→+∞ 𝑎 𝑎 若极限存在且有限，则称反常积分收敛；否则发散。 易错点： 必要直觉： 在无穷区间上，若被积函数不趋于 0，反常积分通常不可能收敛。即使趋于 0，也仍 要继续判断衰减速度。 2 2. 𝑒𝑥 在全实轴上的积分 考虑： +∞ 2 ∫ 𝑒𝑥 𝑑𝑥 −∞ 因为对任意实数 𝑥，都有 2 𝑒𝑥 ≥ 1 所以 +∞ +∞ 2 ∫ 𝑒𝑥 𝑑𝑥 ≥ ∫ 1 𝑑𝑥 = +∞ −∞ −∞ 因此该反常积分发散，且发散到 +∞。 2 2 易错点： 常见混淆： 𝑒𝑥 与 𝑒−𝑥 完全不同。前者在无穷远处急剧增大，积分发散；后者在无穷远处快速 衰减，积分收敛。 3. 高斯积分的计算过程 经典高斯积分为："
+  },
+  {
+    "id": "doc-eabf82064524-p5",
+    "docId": "doc-eabf82064524",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "考研数学 · 一元函数积分学的概念性质和计算",
+    "snippet": "考研数学 · 一元函数积分学的概念性质和计算 +∞ √ 2 ∫ 𝑒−𝑥 𝑑𝑥 = 𝜋 −∞ 令 +∞ 2 𝐼 =∫ 𝑒−𝑥 𝑑𝑥 −∞ 2 因为 𝑒−𝑥 > 0，所以 𝐼 > 0。两边平方： +∞ +∞ 2 2 𝐼 2 = (∫ 𝑒−𝑥 𝑑𝑥)(∫ 𝑒−𝑦 𝑑𝑦) −∞ −∞ 合成整个平面上的二重积分： 2 2 𝐼 2 = ∫ ∫ 𝑒−(...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 考研数学 · 一元函数积分学的概念性质和计算 考研数学 · 一元函数积分学的概念性质和计算 +∞ √ 2 ∫ 𝑒−𝑥 𝑑𝑥 = 𝜋 −∞ 令 +∞ 2 𝐼 =∫ 𝑒−𝑥 𝑑𝑥 −∞ 2 因为 𝑒−𝑥 > 0，所以 𝐼 > 0。两边平方： +∞ +∞ 2 2 𝐼 2 = (∫ 𝑒−𝑥 𝑑𝑥)(∫ 𝑒−𝑦 𝑑𝑦) −∞ −∞ 合成整个平面上的二重积分： 2 2 𝐼 2 = ∫ ∫ 𝑒−(𝑥 +𝑦 ) 𝑑𝑥 𝑑𝑦 ℝ2 改用极坐标： 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑑𝑥 𝑑𝑦 = 𝑟 𝑑𝑟 𝑑𝜃 整个平面对应： 0 ≤ 𝑟 < +∞, 0 ≤ 𝜃 ≤ 2𝜋 于是 2𝜋 +∞ 2 𝐼2 = ∫ ∫ 𝑒−𝑟 𝑟 𝑑𝑟 𝑑𝜃 0 0 令 𝑢 = 𝑟2 ，则 𝑟 𝑑𝑟 = 12 𝑑𝑢，因此 +∞ 2 1 +∞ −𝑢 1 ∫ 𝑒−𝑟 𝑟 𝑑𝑟 = ∫ 𝑒 𝑑𝑢 = 0 2 0 2 代回： 2𝜋 1 𝐼2 = ∫ 𝑑𝜃 = 𝜋 0 2 由于 𝐼 > 0，所以 √ 𝐼= 𝜋 记忆路线： 高斯积分的核心路线是：设 𝐼 ，平方成 𝐼 2 ，合并为 ℝ2 上的二重积分，再用极坐标把 𝑥2 + 𝑦2 化为 𝑟2 ，最后利用雅可比因子 𝑟 完成计算。 六、典型例题 例题 1：分部积分 题目 求 ∫ 𝑥𝑒𝑥 𝑑𝑥。 取"
+  },
+  {
+    "id": "doc-eabf82064524-p6",
+    "docId": "doc-eabf82064524",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "例题 2：三角函数定积分",
+    "snippet": "考研数学 · 一元函数积分学的概念性质和计算 𝑢 = 𝑥, 𝑑𝑣 = 𝑒𝑥 𝑑𝑥 则 𝑑𝑢 = 𝑑𝑥, 𝑣 = 𝑒𝑥 由分部积分公式， ∫ 𝑥𝑒𝑥 𝑑𝑥 = 𝑥𝑒𝑥 − ∫ 𝑒𝑥 𝑑𝑥 所以 ∫ 𝑥𝑒𝑥 𝑑𝑥 = 𝑥𝑒𝑥 − 𝑒𝑥 + 𝐶 例题 2：三角函数定积分 𝜋 题目 求 ∫ 2 sin3 𝑥 𝑑𝑥。 0 写成 sin3 𝑥 = s...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 例题 2：三角函数定积分 考研数学 · 一元函数积分学的概念性质和计算 𝑢 = 𝑥, 𝑑𝑣 = 𝑒𝑥 𝑑𝑥 则 𝑑𝑢 = 𝑑𝑥, 𝑣 = 𝑒𝑥 由分部积分公式， ∫ 𝑥𝑒𝑥 𝑑𝑥 = 𝑥𝑒𝑥 − ∫ 𝑒𝑥 𝑑𝑥 所以 ∫ 𝑥𝑒𝑥 𝑑𝑥 = 𝑥𝑒𝑥 − 𝑒𝑥 + 𝐶 例题 2：三角函数定积分 𝜋 题目 求 ∫ 2 sin3 𝑥 𝑑𝑥。 0 写成 sin3 𝑥 = sin 𝑥(1 − cos2 𝑥) 令 𝑢 = cos 𝑥，则 𝑑𝑢 = − sin 𝑥 𝑑𝑥。当 𝑥 = 0 时 𝑢 = 1，当 𝑥 = 𝜋2 时 𝑢 = 0： 𝜋 2 0 ∫ sin3 𝑥 𝑑𝑥 = ∫ −(1 − 𝑢2 ) 𝑑𝑢 0 1 1 1 2 𝑢3 2 = ∫ (1 − 𝑢 ) 𝑑𝑢 = [𝑢 − ] = 0 3 3 0 例题 3：变上限积分求导 sin 𝑥 𝑡2 题目 设 Φ(𝑥) = ∫ 2 𝑒 𝑑𝑡，求 Φ′ (𝑥)。 𝑥 由上下限均含 𝑥 的公式： 2 2 2 Φ′ (𝑥) = 𝑒(sin 𝑥) cos 𝑥 − 𝑒(𝑥 ) ⋅ 2𝑥 即 2 4 Φ′ (𝑥) = 𝑒sin 𝑥 cos 𝑥 − 2𝑥𝑒𝑥"
+  },
+  {
+    "id": "doc-30e6a86d0f61-p1",
+    "docId": "doc-30e6a86d0f61",
+    "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、几何应用",
+    "snippet": "考研数学 · 一元函数积分学的应用 一元函数积分学的应用 几何应用 · 积分等式不等式 · 物理应用 考研数学复习资料 · Typst PDF 复习目标： 积分应用的本质是“把微小量累加起来”。几何应用关注面积、体积、弧长和旋转曲面；证明题 关注对称换元、积分中值定理和估值；物理应用关注变力做功、位移、质量和质心。 一、几何应用 1. 平...",
+    "text": "Applications of Integral Calculus (一元函数积分学的应用) Applications of Integral Calculus 一元函数积分学的应用 微积分 一、几何应用 考研数学 · 一元函数积分学的应用 一元函数积分学的应用 几何应用 · 积分等式不等式 · 物理应用 考研数学复习资料 · Typst PDF 复习目标： 积分应用的本质是“把微小量累加起来”。几何应用关注面积、体积、弧长和旋转曲面；证明题 关注对称换元、积分中值定理和估值；物理应用关注变力做功、位移、质量和质心。 一、几何应用 1. 平面图形面积 若 𝑓(𝑥) ≥ 𝑔(𝑥)，则两曲线 𝑦 = 𝑓(𝑥) 与 𝑦 = 𝑔(𝑥) 在 [𝑎, 𝑏] 上围成的面积为 𝑏 𝑆 = ∫ (𝑓(𝑥) − 𝑔(𝑥)) 𝑑𝑥 𝑎 若用 𝑦 作为积分变量，则 𝑑 𝑆 = ∫ (𝑥right (𝑦) − 𝑥left (𝑦)) 𝑑𝑦 𝑐 选变量的原则是让上下边界或左右边界表达最简单。 2. 旋转体体积 绕 𝑥 轴旋转，若截面为圆盘或圆环： 𝑏 𝑉 = 𝜋 ∫ (𝑅(𝑥)2 − 𝑟(𝑥)2 ) 𝑑𝑥 𝑎 其中 𝑅(𝑥) 为外半径，𝑟(𝑥) 为内半径。 若使用柱壳法，绕 𝑦 轴旋转时： 𝑏 𝑉 = 2𝜋 ∫ 𝑥𝑓(𝑥) 𝑑𝑥 𝑎 3. 弧长 曲线 𝑦 = 𝑓(𝑥) 在 [𝑎, 𝑏] 上的弧长为 𝑏 𝐿 = ∫ √1 + (𝑓 ′ (𝑥))2 𝑑𝑥 𝑎 参数方程 𝑥 = 𝑥(𝑡), 𝑦 = 𝑦(𝑡) 的弧长为 𝛽 𝐿 = ∫ √(𝑥′ (𝑡))2 + (𝑦′ (𝑡))2 𝑑𝑡 𝛼"
+  },
+  {
+    "id": "doc-30e6a86d0f61-p2",
+    "docId": "doc-30e6a86d0f61",
+    "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "4. 旋转曲面面积",
+    "snippet": "考研数学 · 一元函数积分学的应用 4. 旋转曲面面积 曲线 𝑦 = 𝑓(𝑥) ≥ 0 绕 𝑥 轴旋转所得曲面面积为 𝑏 𝑆 = 2𝜋 ∫ 𝑓(𝑥)√1 + (𝑓 ′ (𝑥))2 𝑑𝑥 𝑎 曲线 𝑥 = 𝑔(𝑦) ≥ 0 绕 𝑦 轴旋转所得曲面面积为 𝑑 𝑆 = 2𝜋 ∫ 𝑔(𝑦)√1 + (𝑔′ (𝑦))2 𝑑𝑦 𝑐 二、积分等式与不等...",
+    "text": "Applications of Integral Calculus (一元函数积分学的应用) Applications of Integral Calculus 一元函数积分学的应用 微积分 4. 旋转曲面面积 考研数学 · 一元函数积分学的应用 4. 旋转曲面面积 曲线 𝑦 = 𝑓(𝑥) ≥ 0 绕 𝑥 轴旋转所得曲面面积为 𝑏 𝑆 = 2𝜋 ∫ 𝑓(𝑥)√1 + (𝑓 ′ (𝑥))2 𝑑𝑥 𝑎 曲线 𝑥 = 𝑔(𝑦) ≥ 0 绕 𝑦 轴旋转所得曲面面积为 𝑑 𝑆 = 2𝜋 ∫ 𝑔(𝑦)√1 + (𝑔′ (𝑦))2 𝑑𝑦 𝑐 二、积分等式与不等式证明 1. 对称换元 在 [𝑎, 𝑏] 上常用换元 𝑥=𝑎+𝑏−𝑡 得到 𝑏 𝑏 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(𝑎 + 𝑏 − 𝑥) 𝑑𝑥 𝑎 𝑎 特别地， 𝑎 𝑎 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(𝑎 − 𝑥) 𝑑𝑥 0 0 这种方法常用于构造两个积分相加。 2. 周期性与奇偶性 若 𝑓(𝑥) 周期为 𝑇 ，则 𝑎+𝑇 𝑇 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(𝑥) 𝑑𝑥 𝑎 0 若积分区间对称，优先判断奇偶性。 3. 估值不等式 若 𝑚 ≤ 𝑓(𝑥) ≤ 𝑀 ，则 𝑏 𝑚(𝑏 − 𝑎) ≤ ∫ 𝑓(𝑥) 𝑑𝑥 ≤ 𝑀 (𝑏 − 𝑎) 𝑎 若 𝑓(𝑥) ≥ 0 且 𝑔(𝑥) ≥ ℎ(𝑥)，则 𝑏 𝑏 ∫ 𝑓(𝑥)𝑔(𝑥) 𝑑𝑥 ≥ ∫ 𝑓(𝑥)ℎ(𝑥) 𝑑𝑥 𝑎 𝑎 4. 积分中值定理 若 𝑓 连续，𝑔 不变号，则存在 𝜉 ∈ [𝑎, 𝑏]，使 𝑏 𝑏 ∫ 𝑓(𝑥)𝑔(𝑥) 𝑑𝑥 = 𝑓(𝜉) ∫ 𝑔(𝑥) 𝑑𝑥 𝑎 𝑎"
+  },
+  {
+    "id": "doc-30e6a86d0f61-p3",
+    "docId": "doc-30e6a86d0f61",
+    "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "三、物理应用",
+    "snippet": "考研数学 · 一元函数积分学的应用 它常用于证明某个积分等于区间内某点函数值乘以权重积分。 三、物理应用 1. 变力做功 若质点沿直线从 𝑥 = 𝑎 移动到 𝑥 = 𝑏，受到变力 𝐹 (𝑥)，则做功为 𝑏 𝑊 = ∫ 𝐹 (𝑥) 𝑑𝑥 𝑎 弹簧力 𝐹 = 𝑘𝑥 从 0 拉到 𝑎 所做功为 𝑎 1 𝑊 = ∫ 𝑘𝑥 𝑑𝑥 = 𝑘𝑎2 0 2...",
+    "text": "Applications of Integral Calculus (一元函数积分学的应用) Applications of Integral Calculus 一元函数积分学的应用 微积分 三、物理应用 考研数学 · 一元函数积分学的应用 它常用于证明某个积分等于区间内某点函数值乘以权重积分。 三、物理应用 1. 变力做功 若质点沿直线从 𝑥 = 𝑎 移动到 𝑥 = 𝑏，受到变力 𝐹 (𝑥)，则做功为 𝑏 𝑊 = ∫ 𝐹 (𝑥) 𝑑𝑥 𝑎 弹簧力 𝐹 = 𝑘𝑥 从 0 拉到 𝑎 所做功为 𝑎 1 𝑊 = ∫ 𝑘𝑥 𝑑𝑥 = 𝑘𝑎2 0 2 2. 位移与路程 若速度为 𝑣(𝑡)，则位移为 𝑏 𝑠 = ∫ 𝑣(𝑡) 𝑑𝑡 𝑎 路程为 𝑏 𝑙 = ∫ |𝑣(𝑡)| 𝑑𝑡 𝑎 如果速度有正负变化，求路程时必须按零点分段。 3. 质量与质心 一维细杆在线密度 𝜌(𝑥) 下，质量为 𝑏 𝑚 = ∫ 𝜌(𝑥) 𝑑𝑥 𝑎 质心坐标为 𝑏 ∫ 𝑥𝜌(𝑥) 𝑑𝑥 𝑎 𝑥𝑐 = 𝑏 ∫ 𝜌(𝑥) 𝑑𝑥 𝑎 若密度均匀，则 𝜌 可约去。 四、典型例题 例题 1：两曲线围成面积 题目 求 𝑦 = 𝑥 与 𝑦 = 𝑥2 围成图形的面积。 交点由 𝑥 = 𝑥2 得 𝑥 = 0, 1。在 [0, 1] 上有 𝑥 ≥ 𝑥2 ，所以面积为 1 𝑆 = ∫ (𝑥 − 𝑥2 ) 𝑑𝑥 0"
+  },
+  {
+    "id": "doc-30e6a86d0f61-p4",
+    "docId": "doc-30e6a86d0f61",
+    "title": "Applications of Integral Calculus (一元函数积分学的应用)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "例题 2：旋转体体积",
+    "snippet": "考研数学 · 一元函数积分学的应用 1 𝑥2 𝑥3 1 1 1 =[ − ] = − = 2 3 2 3 6 0 例题 2：旋转体体积 √ 题目 求曲线 𝑦 = 𝑥，0 ≤ 𝑥 ≤ 1 与 𝑥 轴围成区域绕 𝑥 轴旋转所得体积。 √ 绕 𝑥 轴用圆盘法，半径为 𝑅(𝑥) = 𝑥： 1 √ 2 𝑉 = 𝜋 ∫ ( 𝑥) 𝑑𝑥 0 1 𝜋 =...",
+    "text": "Applications of Integral Calculus (一元函数积分学的应用) Applications of Integral Calculus 一元函数积分学的应用 微积分 例题 2：旋转体体积 考研数学 · 一元函数积分学的应用 1 𝑥2 𝑥3 1 1 1 =[ − ] = − = 2 3 2 3 6 0 例题 2：旋转体体积 √ 题目 求曲线 𝑦 = 𝑥，0 ≤ 𝑥 ≤ 1 与 𝑥 轴围成区域绕 𝑥 轴旋转所得体积。 √ 绕 𝑥 轴用圆盘法，半径为 𝑅(𝑥) = 𝑥： 1 √ 2 𝑉 = 𝜋 ∫ ( 𝑥) 𝑑𝑥 0 1 𝜋 = 𝜋 ∫ 𝑥 𝑑𝑥 = 0 2 例题 3：对称换元证明等式 1 1 题目 证明 ∫ 𝑓(𝑥) 𝑑𝑥 = ∫ 𝑓(1 − 𝑥) 𝑑𝑥。 0 0 右端令 𝑢=1−𝑥 则 𝑑𝑢 = − 𝑑𝑥。当 𝑥 = 0 时 𝑢 = 1，当 𝑥 = 1 时 𝑢 = 0，所以 1 0 ∫ 𝑓(1 − 𝑥) 𝑑𝑥 = ∫ 𝑓(𝑢)(− 𝑑𝑢) 0 1 1 1 = ∫ 𝑓(𝑢) 𝑑𝑢 = ∫ 𝑓(𝑥) 𝑑𝑥 0 0 例题 4：变力做功 题目 弹簧劲度系数为 𝑘，把弹簧从自然长度拉长到 𝑎，求外力做功。 拉长 𝑥 时所需外力为 𝐹 (𝑥) = 𝑘𝑥。做功为 𝑎 𝑊 = ∫ 𝑘𝑥 𝑑𝑥 0 1 = 𝑘𝑎2 2"
+  },
+  {
+    "id": "doc-87b9b66a0f76-p1",
+    "docId": "doc-87b9b66a0f76",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、多元函数与极限连续",
+    "snippet": "考研数学 · 多元函数微分学 多元函数微分学 偏导数 · 全微分 · 方向导数 · 极值与拉格朗日乘数 考研数学复习资料 · Typst PDF 复习目标： 多元函数微分学研究多变量函数的局部变化。考研中常见考点包括二元函数极限与连续、偏导 数、全微分、复合函数求导、隐函数求导、方向导数与梯度、无条件极值和条件极值。 一、多元函数与极限连...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 一、多元函数与极限连续 考研数学 · 多元函数微分学 多元函数微分学 偏导数 · 全微分 · 方向导数 · 极值与拉格朗日乘数 考研数学复习资料 · Typst PDF 复习目标： 多元函数微分学研究多变量函数的局部变化。考研中常见考点包括二元函数极限与连续、偏导 数、全微分、复合函数求导、隐函数求导、方向导数与梯度、无条件极值和条件极值。 一、多元函数与极限连续 1. 多元函数 二元函数通常写为 𝑧 = 𝑓(𝑥, 𝑦) 其中 (𝑥, 𝑦) 属于定义域 𝐷。定义域常由分母不为零、偶次根号非负、对数真数大于零等条件共同决定。 2. 二元函数极限 若当点 (𝑥, 𝑦) 以任意方式趋于 (𝑥0 , 𝑦0 ) 时，𝑓(𝑥, 𝑦) 都趋于同一常数 𝐴，则 lim 𝑓(𝑥, 𝑦) = 𝐴 (𝑥,𝑦)→(𝑥0 ,𝑦0 ) 多元极限的难点在于“路径任意”。若沿两条不同路径得到不同极限，则原极限不存在。 3. 常用判定方法 1. 直接代入：若函数在该点连续，直接代入。 2. 路径法：取 𝑦 = 𝑘𝑥、𝑦 = 𝑥2 、极坐标等路径寻找反例。 3. 夹逼法：把表达式估计到只与 𝑟 = √𝑥2 + 𝑦2 有关。 4. 极坐标法：令 𝑥 = 𝑟 cos 𝜃，𝑦 = 𝑟 sin 𝜃，考察 𝑟 → 0 时是否与 𝜃 无关。 易错点： 沿任意直线极限相同，不一定能推出二元极限存在。若怀疑不存在，还要尝试曲线路径；若证明 存在，通常用夹逼或极坐标估计。 4. 连续性 若 lim 𝑓(𝑥, 𝑦) = 𝑓(𝑥0 , 𝑦0 ) (𝑥,𝑦)→(𝑥0 ,𝑦0 ) 则 𝑓 在该点连续。多元初等函数在其定义域内部连续。 二、偏导数与全微分 1. 偏导数 对 𝑥 的偏导数定义为"
+  },
+  {
+    "id": "doc-87b9b66a0f76-p2",
+    "docId": "doc-87b9b66a0f76",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "2. 全微分",
+    "snippet": "考研数学 · 多元函数微分学 𝑓(𝑥0 + Δ𝑥, 𝑦0 ) − 𝑓(𝑥0 , 𝑦0 ) 𝑓𝑥(𝑥0 ,𝑦0 ) = lim Δ𝑥→0 Δ𝑥 对 𝑦 的偏导数定义为 𝑓(𝑥0 , 𝑦0 + Δ𝑦) − 𝑓(𝑥0 , 𝑦0 ) 𝑓𝑦(𝑥0 ,𝑦0 ) = lim Δ𝑦→0 Δ𝑦 计算偏导时，对哪个变量求导，就把其他变量看作常数。 2. 全微...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 2. 全微分 考研数学 · 多元函数微分学 𝑓(𝑥0 + Δ𝑥, 𝑦0 ) − 𝑓(𝑥0 , 𝑦0 ) 𝑓𝑥(𝑥0 ,𝑦0 ) = lim Δ𝑥→0 Δ𝑥 对 𝑦 的偏导数定义为 𝑓(𝑥0 , 𝑦0 + Δ𝑦) − 𝑓(𝑥0 , 𝑦0 ) 𝑓𝑦(𝑥0 ,𝑦0 ) = lim Δ𝑦→0 Δ𝑦 计算偏导时，对哪个变量求导，就把其他变量看作常数。 2. 全微分 若 𝑧 = 𝑓(𝑥, 𝑦) 在点 (𝑥, 𝑦) 可微，则 𝑑𝑧 = 𝑓𝑥 𝑑𝑥 + 𝑓𝑦 𝑑𝑦 函数增量满足 Δ𝑧 = 𝑓𝑥 Δ𝑥 + 𝑓𝑦 Δ𝑦 + 𝑜(𝑟) 其中 𝑟 = √(Δ𝑥)2 + (Δ𝑦)2 3. 可微、偏导和连续的关系 若函数可微，则函数连续，且偏导数存在。反过来，偏导数存在不一定连续，也不一定可微。 若 𝑓𝑥 , 𝑓𝑦 在某邻域内存在并在该点连续，则 𝑓 在该点可微。 判断可微： 常规题中，先求偏导，再看偏导是否连续。若偏导在点附近连续，可直接判定可微；若偏导不 连续，需要回到全微分定义或用反例判断。 三、复合函数与隐函数求导 1. 复合函数求导 若 𝑧 = 𝑓(𝑢, 𝑣), 𝑢 = 𝑢(𝑥, 𝑦), 𝑣 = 𝑣(𝑥, 𝑦) 则 𝜕𝑧 𝜕𝑢 𝜕𝑣 = 𝑓𝑢 + 𝑓𝑣 𝜕𝑥 𝜕𝑥 𝜕𝑥 𝜕𝑧 𝜕𝑢 𝜕𝑣 = 𝑓𝑢 + 𝑓𝑣 𝜕𝑦 𝜕𝑦 𝜕𝑦 链式法则的本质是沿每一条变量依赖路径求导后相加。 2. 一元参数复合 若 𝑧 = 𝑓(𝑥, 𝑦), 𝑥 = 𝑥(𝑡), 𝑦 = 𝑦(𝑡) 则 𝑑𝑧 𝑑𝑥 𝑑𝑦 = 𝑓𝑥 + 𝑓𝑦 𝑑𝑡 𝑑𝑡 𝑑𝑡"
+  },
+  {
+    "id": "doc-87b9b66a0f76-p3",
+    "docId": "doc-87b9b66a0f76",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "3. 隐函数求导",
+    "snippet": "考研数学 · 多元函数微分学 3. 隐函数求导 若 𝐹 (𝑥, 𝑦) = 0 确定 𝑦 = 𝑦(𝑥)，则 𝐹 𝑦′ = − 𝑥 (𝐹𝑦 ≠ 0) 𝐹𝑦 若 𝐹 (𝑥, 𝑦, 𝑧) = 0 确定 𝑧 = 𝑧(𝑥, 𝑦)，则 𝐹 𝐹𝑦 𝑧𝑥 = − 𝑥 , 𝑧𝑦 = − (𝐹𝑧 ≠ 0) 𝐹𝑧 𝐹𝑧 四、方向导数与梯度 1. 方向导数 设单位...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 3. 隐函数求导 考研数学 · 多元函数微分学 3. 隐函数求导 若 𝐹 (𝑥, 𝑦) = 0 确定 𝑦 = 𝑦(𝑥)，则 𝐹 𝑦′ = − 𝑥 (𝐹𝑦 ≠ 0) 𝐹𝑦 若 𝐹 (𝑥, 𝑦, 𝑧) = 0 确定 𝑧 = 𝑧(𝑥, 𝑦)，则 𝐹 𝐹𝑦 𝑧𝑥 = − 𝑥 , 𝑧𝑦 = − (𝐹𝑧 ≠ 0) 𝐹𝑧 𝐹𝑧 四、方向导数与梯度 1. 方向导数 设单位方向向量为 𝑒 = (cos 𝛼, cos 𝛽) 函数 𝑓(𝑥, 𝑦) 在点 𝑃 沿方向 𝑒 的方向导数为 𝜕𝑓 = 𝑓𝑥 cos 𝛼 + 𝑓𝑦 cos 𝛽 𝜕𝑒 也可写成 𝜕𝑓 = grad 𝑓 ⋅ 𝑒 𝜕𝑒 2. 梯度 梯度为 grad 𝑓 = (𝑓𝑥 , 𝑓𝑦 ) 它的方向是函数增长最快的方向，模长为最大方向导数： 𝜕𝑓 max = |grad 𝑓| 𝜕𝑒 若方向与梯度垂直，则方向导数为零。 五、几何应用 1. 曲面的切平面 若曲面为 𝑧 = 𝑓(𝑥, 𝑦) 在点 (𝑥0 , 𝑦0 , 𝑧0 ) 处的切平面为 𝑧 − 𝑧0 = 𝑓𝑥(𝑥0 ,𝑦0 ) (𝑥 − 𝑥0 ) + 𝑓𝑦(𝑥0 ,𝑦0 ) (𝑦 − 𝑦0 ) 2. 隐式曲面的切平面 若曲面为 𝐹 (𝑥, 𝑦, 𝑧) = 0 则法向量为"
+  },
+  {
+    "id": "doc-87b9b66a0f76-p4",
+    "docId": "doc-87b9b66a0f76",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "六、多元函数极值",
+    "snippet": "考研数学 · 多元函数微分学 𝑛 = (𝐹𝑥 , 𝐹𝑦 , 𝐹𝑧 ) 在点 𝑃0 (𝑥0 , 𝑦0 , 𝑧0 ) 处的切平面为 𝐹𝑥(𝑃0 ) (𝑥 − 𝑥0 ) + 𝐹𝑦(𝑃0 ) (𝑦 − 𝑦0 ) + 𝐹𝑧(𝑃0 ) (𝑧 − 𝑧0 ) = 0 六、多元函数极值 1. 无条件极值 若 𝑧 = 𝑓(𝑥, 𝑦) 在内部点取得极值，且偏导...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 六、多元函数极值 考研数学 · 多元函数微分学 𝑛 = (𝐹𝑥 , 𝐹𝑦 , 𝐹𝑧 ) 在点 𝑃0 (𝑥0 , 𝑦0 , 𝑧0 ) 处的切平面为 𝐹𝑥(𝑃0 ) (𝑥 − 𝑥0 ) + 𝐹𝑦(𝑃0 ) (𝑦 − 𝑦0 ) + 𝐹𝑧(𝑃0 ) (𝑧 − 𝑧0 ) = 0 六、多元函数极值 1. 无条件极值 若 𝑧 = 𝑓(𝑥, 𝑦) 在内部点取得极值，且偏导存在，则必要条件为 𝑓𝑥 = 0, 𝑓𝑦 = 0 求出驻点后，用二阶偏导判别。设 𝐴 = 𝑓𝑥𝑥 , 𝐵 = 𝑓𝑥𝑦 , 𝐶 = 𝑓𝑦𝑦 , Δ = 𝐴𝐶 − 𝐵2 则： 条件 结论 Δ > 0, 𝐴 > 0 极小值 Δ > 0, 𝐴 < 0 极大值 Δ<0 不是极值，是鞍点 Δ=0 判别法失效，需要另行讨论 2. 条件极值 在约束 𝜑(𝑥, 𝑦) = 0 下求 𝑓(𝑥, 𝑦) 的极值，常用拉格朗日乘数法： 𝐿(𝑥, 𝑦, 𝜆) = 𝑓(𝑥, 𝑦) + 𝜆𝜑(𝑥, 𝑦) 解方程组 𝐿𝑥 = 0, 𝐿𝑦 = 0, 𝜑(𝑥, 𝑦) = 0 即可得到候选点，再比较函数值。 易错点： 拉格朗日乘数法给出的是候选点。若题目区域有边界或约束曲线有端点，还需要比较边界、端点 或不可导点。 七、典型例题 例题 1：二元极限不存在 题目 判断 lim(𝑥,𝑦)→(0,0) 𝑥2𝑥𝑦 +𝑦2 是否存在。 沿路径 𝑦 = 𝑥，有 𝑥𝑦 𝑥2 1 = = 𝑥2 + 𝑦2 2𝑥2 2"
+  },
+  {
+    "id": "doc-87b9b66a0f76-p5",
+    "docId": "doc-87b9b66a0f76",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "例题 2：全微分",
+    "snippet": "考研数学 · 多元函数微分学 沿路径 𝑦 = 0，有 𝑥𝑦 =0 𝑥2 + 𝑦 2 两条路径极限不同，所以原极限不存在。 例题 2：全微分 题目 设 𝑧 = 𝑥2 𝑦 + 𝑒𝑥𝑦 ，求 𝑑𝑧 。 先求偏导： 𝑧𝑥 = 2𝑥𝑦 + 𝑦𝑒𝑥𝑦 𝑧𝑦 = 𝑥2 + 𝑥𝑒𝑥𝑦 所以 𝑑𝑧 = (2𝑥𝑦 + 𝑦𝑒𝑥𝑦 ) 𝑑𝑥 + (𝑥2 + 𝑥𝑒...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 例题 2：全微分 考研数学 · 多元函数微分学 沿路径 𝑦 = 0，有 𝑥𝑦 =0 𝑥2 + 𝑦 2 两条路径极限不同，所以原极限不存在。 例题 2：全微分 题目 设 𝑧 = 𝑥2 𝑦 + 𝑒𝑥𝑦 ，求 𝑑𝑧 。 先求偏导： 𝑧𝑥 = 2𝑥𝑦 + 𝑦𝑒𝑥𝑦 𝑧𝑦 = 𝑥2 + 𝑥𝑒𝑥𝑦 所以 𝑑𝑧 = (2𝑥𝑦 + 𝑦𝑒𝑥𝑦 ) 𝑑𝑥 + (𝑥2 + 𝑥𝑒𝑥𝑦 ) 𝑑𝑦 例题 3：切平面 题目 求曲面 𝑧 = 𝑥2 + 𝑦2 在点 (1, 2, 5) 处的切平面。 有 𝑓𝑥 = 2𝑥, 𝑓𝑦 = 2𝑦 在 (1, 2) 处： 𝑓𝑥 = 2, 𝑓𝑦 = 4 切平面为 𝑧 − 5 = 2(𝑥 − 1) + 4(𝑦 − 2) 即 𝑧 = 2𝑥 + 4𝑦 − 5 例题 4：拉格朗日乘数法 题目 在约束 𝑥2 + 𝑦2 = 1 下，求 𝑓(𝑥, 𝑦) = 𝑥 + 𝑦 的最大值和最小值。 构造 𝐿 = 𝑥 + 𝑦 + 𝜆(𝑥2 + 𝑦2 − 1) 方程组为 𝐿𝑥 = 1 + 2𝜆𝑥 = 0 𝐿𝑦 = 1 + 2𝜆𝑦 = 0 𝑥2 + 𝑦 2 = 1 由前两式得 𝑥 = 𝑦。代入约束："
+  },
+  {
+    "id": "doc-87b9b66a0f76-p6",
+    "docId": "doc-87b9b66a0f76",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "考研数学 · 多元函数微分学",
+    "snippet": "考研数学 · 多元函数微分学 2𝑥2 = 1 所以 1 1 𝑥=𝑦= √ 或 𝑥 = 𝑦 = −√ 2 2 对应函数值为 √ √ 2 和 − 2 √ √ 因此最大值为 2，最小值为 − 2。",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 考研数学 · 多元函数微分学 考研数学 · 多元函数微分学 2𝑥2 = 1 所以 1 1 𝑥=𝑦= √ 或 𝑥 = 𝑦 = −√ 2 2 对应函数值为 √ √ 2 和 − 2 √ √ 因此最大值为 2，最小值为 − 2。"
+  },
+  {
+    "id": "doc-b907693d8c25-p1",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "定义 · 积分区域 · 换序 · 极坐标 · 应用题型",
+    "snippet": "考研数学 · 二重积分 二重积分总结讲解 定义 · 积分区域 · 换序 · 极坐标 · 应用题型 考研数学复习资料 · Typst PDF 复习目标： 二重积分的核心不是“算两次定积分”，而是把平面区域 𝐷 看清楚，再选择最方便的坐标和积 分次序。考研常考：积分区域识别、交换积分次序、极坐标变换、利用对称性、面积体积和物理应用。 一、二重...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 定义 · 积分区域 · 换序 · 极坐标 · 应用题型 考研数学 · 二重积分 二重积分总结讲解 定义 · 积分区域 · 换序 · 极坐标 · 应用题型 考研数学复习资料 · Typst PDF 复习目标： 二重积分的核心不是“算两次定积分”，而是把平面区域 𝐷 看清楚，再选择最方便的坐标和积 分次序。考研常考：积分区域识别、交换积分次序、极坐标变换、利用对称性、面积体积和物理应用。 一、二重积分的定义与几何意义 1. 定义 设函数 𝑓(𝑥, 𝑦) 在平面有界闭区域 𝐷 上有界。把 𝐷 分成许多小区域 Δ𝜎𝑖 ，在每个小区域中任取一点 (𝜉𝑖 , 𝜂𝑖 )， 如果当最大子区域直径 𝜆 → 0 时，和式极限存在，则定义 𝑛 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = lim ∑ 𝑓(𝜉𝑖 , 𝜂𝑖 )Δ𝜎𝑖 𝜆→0 𝐷 𝑖=1 这个极限称为 𝑓(𝑥, 𝑦) 在区域 𝐷 上的二重积分。 其中 𝑑𝜎 是平面面积元，在直角坐标下通常写为 𝑑𝜎 = 𝑑𝑥 𝑑𝑦 于是 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∬ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 𝐷 𝐷 2. 几何意义 若 𝑓(𝑥, 𝑦) ≥ 0，则二重积分表示以 𝐷 为底、以曲面 𝑧 = 𝑓(𝑥, 𝑦) 为顶的曲顶柱体体积： 𝑉 = ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝐷 若 𝑓(𝑥, 𝑦) 可正可负，则二重积分表示代数体积，即在 𝑥𝑦 平面上方的体积记正，下方的体积记负。 若 𝑓(𝑥, 𝑦) = 1，则二重积分表示区域面积： 𝑆𝐷 = ∬ 1𝑑𝜎 𝐷 3. 物理意义 若 𝜌(𝑥, 𝑦) 表示平面薄片面密度，则质量为 𝑚 = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 关于坐标轴的一阶矩为"
+  },
+  {
+    "id": "doc-b907693d8c25-p2",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "二、二重积分的基本性质",
+    "snippet": "考研数学 · 二重积分 𝑀𝑥 = ∬ 𝑦𝜌(𝑥, 𝑦)𝑑𝜎, 𝑀𝑦 = ∬ 𝑥𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷 质心坐标为 𝑀𝑦 𝑀𝑥 |(𝑥) = , |(𝑦) = 𝑚 𝑚 关于坐标轴的转动惯量为 𝐼𝑥 = ∬ 𝑦2 𝜌(𝑥, 𝑦)𝑑𝜎, 𝐼𝑦 = ∬ 𝑥2 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷 关于原点的转动惯量为 𝐼𝑂 = ∬ (𝑥2 + 𝑦2 )...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 二、二重积分的基本性质 考研数学 · 二重积分 𝑀𝑥 = ∬ 𝑦𝜌(𝑥, 𝑦)𝑑𝜎, 𝑀𝑦 = ∬ 𝑥𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷 质心坐标为 𝑀𝑦 𝑀𝑥 |(𝑥) = , |(𝑦) = 𝑚 𝑚 关于坐标轴的转动惯量为 𝐼𝑥 = ∬ 𝑦2 𝜌(𝑥, 𝑦)𝑑𝜎, 𝐼𝑦 = ∬ 𝑥2 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷 关于原点的转动惯量为 𝐼𝑂 = ∬ (𝑥2 + 𝑦2 )𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 二、二重积分的基本性质 1. 线性性质 ∬ [𝑎𝑓(𝑥, 𝑦) + 𝑏𝑔(𝑥, 𝑦)]𝑑𝜎 = 𝑎 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 + 𝑏 ∬ 𝑔(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷 𝐷 2. 区域可加性 若 𝐷 = 𝐷1 ∪ 𝐷2 ，且 𝐷1 与 𝐷2 仅在边界上可能相交，则 ∬ 𝑓𝑑𝜎 = ∬ 𝑓𝑑𝜎 + ∬ 𝑓𝑑𝜎 𝐷 𝐷1 𝐷2 这个性质常用于把复杂区域拆成几个简单区域。 3. 保号性与估值 若在 𝐷 上 𝑓(𝑥, 𝑦) ≥ 0，则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 ≥ 0 𝐷 若在 𝐷 上 𝑚 ≤ 𝑓(𝑥, 𝑦) ≤ 𝑀 且 𝐷 的面积为 𝑆𝐷 ，则 𝑚𝑆𝐷 ≤ ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 ≤ 𝑀 𝑆𝐷 𝐷 4. 中值定理 若 𝑓(𝑥, 𝑦) 在有界闭区域 𝐷 上连续，且 𝐷 连通，则存在一点 (𝜉, 𝜂) ∈ 𝐷，使得 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 𝑓(𝜉, 𝜂)𝑆𝐷 𝐷 其中 𝑆𝐷 是区域 𝐷 的面积。"
+  },
+  {
+    "id": "doc-b907693d8c25-p3",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "三、直角坐标下的计算方法",
+    "snippet": "考研数学 · 二重积分 三、直角坐标下的计算方法 直角坐标法适合边界由直线、抛物线、显函数曲线围成的区域。关键是判断区域属于 𝑥 型区域还是 𝑦 型区域。 1. 𝑥 型区域：先 𝑦 后 𝑥 若区域可写成 𝐷 = {(𝑥, 𝑦) | 𝑎 ≤ 𝑥 ≤ 𝑏, 𝜑1 (𝑥) ≤ 𝑦 ≤ 𝜑2 (𝑥)} 则 𝑏 𝜑2 (𝑥) ∬ 𝑓(𝑥, 𝑦)𝑑𝜎...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 三、直角坐标下的计算方法 考研数学 · 二重积分 三、直角坐标下的计算方法 直角坐标法适合边界由直线、抛物线、显函数曲线围成的区域。关键是判断区域属于 𝑥 型区域还是 𝑦 型区域。 1. 𝑥 型区域：先 𝑦 后 𝑥 若区域可写成 𝐷 = {(𝑥, 𝑦) | 𝑎 ≤ 𝑥 ≤ 𝑏, 𝜑1 (𝑥) ≤ 𝑦 ≤ 𝜑2 (𝑥)} 则 𝑏 𝜑2 (𝑥) ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∫ 𝑑𝑥 ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝐷 𝑎 𝜑1 (𝑥) 也常写作 𝑏 𝜑2 (𝑥) ∬ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 𝐷 𝑎 𝜑1 (𝑥) 含义是：固定 𝑥，沿竖直方向从下曲线 𝑦 = 𝜑1 (𝑥) 积到上曲线 𝑦 = 𝜑2 (𝑥)，再让 𝑥 从左到右变化。 2. 𝑦 型区域：先 𝑥 后 𝑦 若区域可写成 𝐷 = {(𝑥, 𝑦) | 𝑐 ≤ 𝑦 ≤ 𝑑, 𝜓1 (𝑦) ≤ 𝑥 ≤ 𝜓2 (𝑦)} 则 𝑑 𝜓2 (𝑦) ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∫ 𝑑𝑦 ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 𝐷 𝑐 𝜓1 (𝑦) 也常写作 𝑑 𝜓2 (𝑦) ∬ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 𝐷 𝑐 𝜓1 (𝑦) 含义是：固定 𝑦，沿水平方向从左曲线 𝑥 = 𝜓1 (𝑦) 积到右曲线 𝑥 = 𝜓2 (𝑦)，再让 𝑦 从下到上变化。 易错点： 写累次积分时，最内层变量的上下限可以含外层变量，但不能含内层变量本身。例如 1 𝑥 ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 合理，而内层上限写成 𝑦 自身通常没有意义。 0 0 3. 画区域的基本步骤 1. 找边界曲线，并标出交点。 2. 判断采用竖切还是横切。 3. 竖切时写 𝑥 的范围和 𝑦 的上下界；横切时写 𝑦 的范围和 𝑥 的左右界。 4. 若一刀切不完，就分割区域。 4. 常见区域写法 区域类型 积分限形式 适用特点 竖直简单区域 𝑎 ≤ 𝑥 ≤ 𝑏, 𝜑1 (𝑥) ≤ 𝑦 ≤ 𝜑2 (𝑥) 上下边界容易写成 𝑦 = 𝑓(𝑥) 水平简单区域 𝑐 ≤ 𝑦 ≤ 𝑑, 𝜓1 (𝑦) ≤ 𝑥 ≤ 𝜓2 (𝑦) 左右边界容易写成 𝑥 = 𝑔(𝑦)"
+  },
+  {
+    "id": "doc-b907693d8c25-p4",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "四、交换积分次序",
+    "snippet": "考研数学 · 二重积分 矩形区域 𝑎 ≤ 𝑥 ≤ 𝑏, 𝑐 ≤ 𝑦 ≤ 𝑑 两种次序都简单 复合区域 分成多个简单区域 边界分段、上下关系变化 四、交换积分次序 交换积分次序是二重积分的高频题型。它的本质是：原积分给出了区域 𝐷 的一种描述，换序就是把同一个 𝐷 改写成另一种描述。 1. 从 𝑑𝑦 𝑑𝑥 改成 𝑑𝑥 𝑑𝑦 已知 𝑏 𝜑2 ...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 四、交换积分次序 考研数学 · 二重积分 矩形区域 𝑎 ≤ 𝑥 ≤ 𝑏, 𝑐 ≤ 𝑦 ≤ 𝑑 两种次序都简单 复合区域 分成多个简单区域 边界分段、上下关系变化 四、交换积分次序 交换积分次序是二重积分的高频题型。它的本质是：原积分给出了区域 𝐷 的一种描述，换序就是把同一个 𝐷 改写成另一种描述。 1. 从 𝑑𝑦 𝑑𝑥 改成 𝑑𝑥 𝑑𝑦 已知 𝑏 𝜑2 (𝑥) ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 𝑎 𝜑1 (𝑥) 表示区域 𝐷 = {(𝑥, 𝑦) | 𝑎 ≤ 𝑥 ≤ 𝑏, 𝜑1 (𝑥) ≤ 𝑦 ≤ 𝜑2 (𝑥)} 换序步骤： 1. 先画出 𝑥 = 𝑎、𝑥 = 𝑏、𝑦 = 𝜑1 (𝑥)、𝑦 = 𝜑2 (𝑥) 围成的区域。 2. 求整体 𝑦 的范围 𝑐 ≤ 𝑦 ≤ 𝑑。 3. 固定 𝑦 作水平线，找 𝑥 的左界和右界。 𝑑 𝜓 (𝑦) 4. 写成 ∫ ∫ 2 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦。 𝑐 𝜓1 (𝑦) 2. 从 𝑑𝑥 𝑑𝑦 改成 𝑑𝑦 𝑑𝑥 已知 𝑑 𝜓2 (𝑦) ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 𝑐 𝜓1 (𝑦) 表示区域 𝐷 = {(𝑥, 𝑦) | 𝑐 ≤ 𝑦 ≤ 𝑑, 𝜓1 (𝑦) ≤ 𝑥 ≤ 𝜓2 (𝑦)} 换序步骤： 1. 画出 𝑦 = 𝑐、𝑦 = 𝑑、𝑥 = 𝜓1 (𝑦)、𝑥 = 𝜓2 (𝑦)。 2. 求整体 𝑥 的范围 𝑎 ≤ 𝑥 ≤ 𝑏。 3. 固定 𝑥 作竖直线，找 𝑦 的下界和上界。 𝑏 𝜑 (𝑥) 4. 写成 ∫ ∫ 2 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥。 𝑎 𝜑1 (𝑥) 3. 需要分段的情况 如果换序后，某个方向的切线穿过区域时边界发生变化，就必须分段。例如 𝑦 的范围可以分成 𝑐 ≤ 𝑦 ≤ 𝑦0 , 𝑦0 ≤ 𝑦 ≤ 𝑑 则 𝑦0 𝜓2 (𝑦) 𝑑 𝜓4 (𝑦) ∬ 𝑓𝑑𝜎 = ∫ ∫ 𝑓𝑑𝑥 𝑑𝑦 + ∫ ∫ 𝑓𝑑𝑥 𝑑𝑦 𝐷 𝑐 𝜓1 (𝑦) 𝑦0 𝜓3 (𝑦)"
+  },
+  {
+    "id": "doc-b907693d8c25-p5",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "易错点： 交换积分次序时，不能只把 𝑑𝑥 𝑑𝑦 机械换成 𝑑𝑦 𝑑𝑥。上下限必须重新根据同一个区域 𝐷 来写。",
+    "snippet": "考研数学 · 二重积分 易错点： 交换积分次序时，不能只把 𝑑𝑥 𝑑𝑦 机械换成 𝑑𝑦 𝑑𝑥。上下限必须重新根据同一个区域 𝐷 来写。 五、极坐标法 极坐标适合圆、圆环、扇形、与 𝑥2 + 𝑦2 有关的区域和被积函数。 1. 坐标变换 极坐标定义为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃 其中 𝑟≥0 面积元不是 𝑑𝑟 𝑑𝜃，而...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 易错点： 交换积分次序时，不能只把 𝑑𝑥 𝑑𝑦 机械换成 𝑑𝑦 𝑑𝑥。上下限必须重新根据同一个区域 𝐷 来写。 考研数学 · 二重积分 易错点： 交换积分次序时，不能只把 𝑑𝑥 𝑑𝑦 机械换成 𝑑𝑦 𝑑𝑥。上下限必须重新根据同一个区域 𝐷 来写。 五、极坐标法 极坐标适合圆、圆环、扇形、与 𝑥2 + 𝑦2 有关的区域和被积函数。 1. 坐标变换 极坐标定义为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃 其中 𝑟≥0 面积元不是 𝑑𝑟 𝑑𝜃，而是 𝑑𝜎 = 𝑟 𝑑𝑟 𝑑𝜃 因此 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∬ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃)𝑟 𝑑𝑟 𝑑𝜃 𝐷 𝐷′ 2. 面积元为什么多一个 𝑟 极坐标中，一个小区域由半径方向长度 𝑑𝑟 和角度方向弧长 𝑟 𝑑𝜃 近似围成，所以面积近似为 𝑑𝜎 ≈ 𝑑𝑟 ⋅ 𝑟 𝑑𝜃 = 𝑟 𝑑𝑟 𝑑𝜃 从换元角度看，雅可比行列式为 cos 𝜃 −𝑟 sin 𝜃 𝐽 = |( )| = 𝑟 sin 𝜃 𝑟 cos 𝜃 所以 𝑑𝑥 𝑑𝑦 = |𝐽 |𝑑𝑟 𝑑𝜃 = 𝑟 𝑑𝑟 𝑑𝜃 3. 常见边界翻译 直角坐标 极坐标 说明 2 2 2 𝑥 +𝑦 =𝑎 𝑟=𝑎 圆心在原点的圆 2 2 2 𝑥 +𝑦 ≤𝑎 0≤𝑟≤𝑎 原点圆盘 𝑥2 + 𝑦 2 𝑟2 常见被积函数化简 𝑥≥0 − 𝜋2 ≤ 𝜃 ≤ 𝜋2 右半平面 𝑦≥0 0≤𝜃≤𝜋 上半平面 𝑦=𝑥 𝜃 = 𝜋4 过原点直线 𝑥=𝑎 𝑟 cos 𝜃 = 𝑎 不经过原点的直线 4. 极坐标区域的典型形式 若区域为 𝐷′ = {(𝑟, 𝜃) | 𝛼 ≤ 𝜃 ≤ 𝛽, 𝑟1 (𝜃) ≤ 𝑟 ≤ 𝑟2 (𝜃)}"
+  },
+  {
+    "id": "doc-b907693d8c25-p6",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "易错点： 极坐标换元最容易漏掉面积因子 𝑟。只要从 𝑑𝑥 𝑑𝑦 换成 𝑑𝑟 𝑑𝜃，就必须乘上雅可比 𝑟。",
+    "snippet": "考研数学 · 二重积分 则 𝛽 𝑟2 (𝜃) ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∫ ∫ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃)𝑟 𝑑𝑟 𝑑𝜃 𝐷 𝛼 𝑟1 (𝜃) 如果区域是圆盘 𝑥2 + 𝑦2 ≤ 𝑎2 ，则 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2𝜋 如果区域是第一象限内圆盘 𝑥2 + 𝑦2 ≤ 𝑎2 ，则 𝜋 0 ≤ 𝑟 ≤ 𝑎, 0 ≤...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 易错点： 极坐标换元最容易漏掉面积因子 𝑟。只要从 𝑑𝑥 𝑑𝑦 换成 𝑑𝑟 𝑑𝜃，就必须乘上雅可比 𝑟。 考研数学 · 二重积分 则 𝛽 𝑟2 (𝜃) ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∫ ∫ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃)𝑟 𝑑𝑟 𝑑𝜃 𝐷 𝛼 𝑟1 (𝜃) 如果区域是圆盘 𝑥2 + 𝑦2 ≤ 𝑎2 ，则 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2𝜋 如果区域是第一象限内圆盘 𝑥2 + 𝑦2 ≤ 𝑎2 ，则 𝜋 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2 易错点： 极坐标换元最容易漏掉面积因子 𝑟。只要从 𝑑𝑥 𝑑𝑦 换成 𝑑𝑟 𝑑𝜃，就必须乘上雅可比 𝑟。 六、一般变量替换与雅可比 除了极坐标，二重积分还可能使用一般变量替换。设 𝑥 = 𝑥(𝑢, 𝑣), 𝑦 = 𝑦(𝑢, 𝑣) 若变换将 𝑢𝑣 平面区域 𝐺 对应到 𝑥𝑦 平面区域 𝐷，且变换满足适当的一一对应与可微条件，则 𝜕(𝑥, 𝑦) ∬ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 = ∬ 𝑓(𝑥(𝑢, 𝑣), 𝑦(𝑢, 𝑣))| |𝑑𝑢 𝑑𝑣 𝐷 𝐺 𝜕(𝑢, 𝑣) 其中 𝜕(𝑥, 𝑦) 𝜕 𝑥 𝑢 𝜕 𝜕𝑥 𝑣 = ( 𝜕𝑦 ) 𝜕(𝑢, 𝑣) 𝜕 𝜕 𝑢 𝜕 𝜕𝑦 𝑣 它的行列式称为雅可比行列式： 𝜕(𝑥, 𝑦) 𝜕𝑥 𝜕𝑦 𝜕𝑥 𝜕𝑦 𝐽= = − 𝜕(𝑢, 𝑣) 𝜕𝑢 𝜕𝑣 𝜕𝑣 𝜕𝑢 所以面积元变为 𝑑𝑥 𝑑𝑦 = |𝐽 |𝑑𝑢 𝑑𝑣 1. 常见线性变换 若题中出现 𝑥 + 𝑦, 𝑥−𝑦 或区域由斜直线围成，可以令 𝑢 = 𝑥 + 𝑦, 𝑣 = 𝑥 − 𝑦 再反解出 𝑢+𝑣 𝑢−𝑣 𝑥= , 𝑦= 2 2 雅可比为"
+  },
+  {
+    "id": "doc-b907693d8c25-p7",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "2. 换元注意事项",
+    "snippet": "考研数学 · 二重积分 1 1 𝜕(𝑥, 𝑦) 1 𝐽= = |( 21 21 )| = − 𝜕(𝑢, 𝑣) 2 − 2 2 因此 1 𝑑𝑥 𝑑𝑦 = 𝑑𝑢 𝑑𝑣 2 2. 换元注意事项 1. 换元后要把被积函数、区域边界和面积元全部替换。 2. 雅可比要取绝对值。 3. 变量替换最好能把区域变简单，或把被积函数变简单。 4. 若变换不是...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 2. 换元注意事项 考研数学 · 二重积分 1 1 𝜕(𝑥, 𝑦) 1 𝐽= = |( 21 21 )| = − 𝜕(𝑢, 𝑣) 2 − 2 2 因此 1 𝑑𝑥 𝑑𝑦 = 𝑑𝑢 𝑑𝑣 2 2. 换元注意事项 1. 换元后要把被积函数、区域边界和面积元全部替换。 2. 雅可比要取绝对值。 3. 变量替换最好能把区域变简单，或把被积函数变简单。 4. 若变换不是一一对应，需要分区域处理。 七、对称性与奇偶性 对称性可以显著简化计算，尤其适用于圆、椭圆、矩形、关于坐标轴对称的区域。 1. 关于 𝑦 轴对称 若区域 𝐷 关于 𝑦 轴对称，即 (𝑥, 𝑦) ∈ 𝐷 时 (−𝑥, 𝑦) ∈ 𝐷。 若 𝑓(𝑥, 𝑦) 关于 𝑥 为奇函数： 𝑓(−𝑥, 𝑦) = −𝑓(𝑥, 𝑦) 则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 0 𝐷 若 𝑓(𝑥, 𝑦) 关于 𝑥 为偶函数： 𝑓(−𝑥, 𝑦) = 𝑓(𝑥, 𝑦) 则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 2 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷+ 其中 𝐷+ 是 𝐷 中 𝑥 ≥ 0 的一半区域。 2. 关于 𝑥 轴对称 若区域 𝐷 关于 𝑥 轴对称。 若 𝑓(𝑥, −𝑦) = −𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 0 𝐷 若 𝑓(𝑥, −𝑦) = 𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 2 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝐷 𝐷+ 其中 𝐷+ 是 𝐷 中 𝑦 ≥ 0 的一半区域。"
+  },
+  {
+    "id": "doc-b907693d8c25-p8",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 8,
+    "heading": "3. 关于原点对称",
+    "snippet": "考研数学 · 二重积分 3. 关于原点对称 若区域 𝐷 关于原点对称。 若 𝑓(−𝑥, −𝑦) = −𝑓(𝑥, 𝑦) 则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 0 𝐷 4. 轮换对称 若区域 𝐷 关于直线 𝑦 = 𝑥 对称，则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∬ 𝑓(𝑦, 𝑥)𝑑𝜎 𝐷 𝐷 因此 ∬ 𝑥𝑑𝜎 = ∬ 𝑦𝑑𝜎 𝐷 𝐷 对于圆盘、正方形等对...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 3. 关于原点对称 考研数学 · 二重积分 3. 关于原点对称 若区域 𝐷 关于原点对称。 若 𝑓(−𝑥, −𝑦) = −𝑓(𝑥, 𝑦) 则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = 0 𝐷 4. 轮换对称 若区域 𝐷 关于直线 𝑦 = 𝑥 对称，则 ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 = ∬ 𝑓(𝑦, 𝑥)𝑑𝜎 𝐷 𝐷 因此 ∬ 𝑥𝑑𝜎 = ∬ 𝑦𝑑𝜎 𝐷 𝐷 对于圆盘、正方形等对称区域，常用结论为 ∬ 𝑥2 𝑑𝜎 = ∬ 𝑦2 𝑑𝜎 𝐷 𝐷 若 𝐷 是圆盘 𝑥2 + 𝑦2 ≤ 𝑎2 ，则 1 ∬ 𝑥2 𝑑𝜎 = ∬ 𝑦2 𝑑𝜎 = ∬ (𝑥2 + 𝑦2 )𝑑𝜎 𝐷 𝐷 2 𝐷 八、二重积分的常见应用 1. 平面区域面积 区域面积为 𝑆𝐷 = ∬ 1𝑑𝜎 𝐷 在极坐标下，若 𝛼 ≤ 𝜃 ≤ 𝛽 ，0 ≤ 𝑟 ≤ 𝑟(𝜃)，则 𝛽 𝑟(𝜃) 1 𝛽 2 𝑆𝐷 = ∫ ∫ 𝑟 𝑑𝑟 𝑑𝜃 = ∫ 𝑟 (𝜃)𝑑𝜃 𝛼 0 2 𝛼 2. 曲顶柱体体积 若曲顶为 𝑧 = 𝑓(𝑥, 𝑦)，底面为 𝐷，且 𝑓(𝑥, 𝑦) ≥ 0，则体积 𝑉 = ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝐷 若上下曲面分别为 𝑧 = 𝑧2 (𝑥, 𝑦), 𝑧 = 𝑧1 (𝑥, 𝑦) 则两曲面之间的体积为"
+  },
+  {
+    "id": "doc-b907693d8c25-p9",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 9,
+    "heading": "3. 平面薄片质量与质心",
+    "snippet": "考研数学 · 二重积分 𝑉 = ∬ [𝑧2 (𝑥, 𝑦) − 𝑧1 (𝑥, 𝑦)]𝑑𝜎 𝐷 3. 平面薄片质量与质心 质量： 𝑚 = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 质心： ∬ 𝑥𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 |(𝑥) = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 ∬ 𝑦𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 |(𝑦) = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 若密度为常数且区域具有对称...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 3. 平面薄片质量与质心 考研数学 · 二重积分 𝑉 = ∬ [𝑧2 (𝑥, 𝑦) − 𝑧1 (𝑥, 𝑦)]𝑑𝜎 𝐷 3. 平面薄片质量与质心 质量： 𝑚 = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 质心： ∬ 𝑥𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 |(𝑥) = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 ∬ 𝑦𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 |(𝑦) = ∬ 𝜌(𝑥, 𝑦)𝑑𝜎 𝐷 若密度为常数且区域具有对称性，质心常位于对称中心或对称轴上。 4. 平均值 函数 𝑓(𝑥, 𝑦) 在区域 𝐷 上的平均值为 1 |(𝑓) = ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝑆𝐷 𝐷 其中 𝑆𝐷 = ∬ 1𝑑𝜎。 𝐷 九、典型例题讲解 例题 1：直角坐标计算 题目 计算 ∬ (𝑥 + 𝑦)𝑑𝜎，其中 𝐷 由 𝑦 = 0、𝑥 = 1、𝑦 = 𝑥2 围成。 𝐷 解析：先画区域。边界 𝑦 = 0 和 𝑦 = 𝑥2 在 𝑥 = 0 相交，再由 𝑥 = 1 截断，所以 0 ≤ 𝑥 ≤ 1, 0 ≤ 𝑦 ≤ 𝑥2 于是 1 𝑥2 ∬ (𝑥 + 𝑦)𝑑𝜎 = ∫ ∫ (𝑥 + 𝑦)𝑑𝑦 𝑑𝑥 𝐷 0 0 先对 𝑦 积分： 𝑥2 𝑥2 𝑦2 𝑥4 ∫ (𝑥 + 𝑦)𝑑𝑦 = [𝑥𝑦 + ] = 𝑥3 + 0 2 2 0 再对 𝑥 积分： 1 𝑥4 1 1 7 ∫ (𝑥3 + )𝑑𝑥 = + = 0 2 4 10 20 所以"
+  },
+  {
+    "id": "doc-b907693d8c25-p10",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 10,
+    "heading": "例题 2：交换积分次序",
+    "snippet": "考研数学 · 二重积分 7 ∬ (𝑥 + 𝑦)𝑑𝜎 = 𝐷 20 例题 2：交换积分次序 1 1 题目 将积分 ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 改变积分次序。 0 𝑥 解析：原积分表示 0 ≤ 𝑥 ≤ 1, 𝑥 ≤ 𝑦 ≤ 1 即区域为单位正方形内直线 𝑦 = 𝑥 上方的三角形。换成先 𝑥 后 𝑦： 整体 𝑦 的范围是 0≤𝑦≤1 固定...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 例题 2：交换积分次序 考研数学 · 二重积分 7 ∬ (𝑥 + 𝑦)𝑑𝜎 = 𝐷 20 例题 2：交换积分次序 1 1 题目 将积分 ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 改变积分次序。 0 𝑥 解析：原积分表示 0 ≤ 𝑥 ≤ 1, 𝑥 ≤ 𝑦 ≤ 1 即区域为单位正方形内直线 𝑦 = 𝑥 上方的三角形。换成先 𝑥 后 𝑦： 整体 𝑦 的范围是 0≤𝑦≤1 固定 𝑦 时，𝑥 从 0 到 𝑦： 0≤𝑥≤𝑦 因此 1 1 1 𝑦 ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 0 𝑥 0 0 例题 3：需要分段的换序 1 𝑥 题目 改变积分 ∫ ∫ 2 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 的积分次序。 0 𝑥 解析：区域为 0 ≤ 𝑥 ≤ 1, 𝑥2 ≤ 𝑦 ≤ 𝑥 边界是 𝑦 = 𝑥2 与 𝑦 = 𝑥，交点为 (0, 0) 和 (1, 1)。整体 𝑦 的范围为 0≤𝑦≤1 由𝑦=𝑥得 𝑥=𝑦 由 𝑦 = 𝑥2 得 √ 𝑥= 𝑦 √ 在 0 ≤ 𝑦 ≤ 1 内，水平线从左边界 𝑥 = 𝑦 到右边界 𝑥 = 𝑦，所以 √ 1 𝑥 1 𝑦 ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 𝑑𝑥 = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 𝑑𝑦 0 𝑥2 0 𝑦 例题 4：极坐标计算 题目 计算 ∬ (𝑥2 + 𝑦2 )𝑑𝜎，其中 𝐷 : 𝑥2 + 𝑦2 ≤ 𝑎2 。 𝐷 解析：圆盘区域用极坐标最简单： 𝑥2 + 𝑦2 = 𝑟2 , 𝑑𝜎 = 𝑟 𝑑𝑟 𝑑𝜃"
+  },
+  {
+    "id": "doc-b907693d8c25-p11",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 11,
+    "heading": "例题 5：利用对称性",
+    "snippet": "考研数学 · 二重积分 区域为 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2𝜋 所以 2𝜋 𝑎 ∬ (𝑥2 + 𝑦2 )𝑑𝜎 = ∫ ∫ 𝑟2 ⋅ 𝑟 𝑑𝑟 𝑑𝜃 𝐷 0 0 2𝜋 𝑎 𝑎4 𝜋𝑎4 =∫ 𝑑𝜃 ∫ 𝑟3 𝑑𝑟 = 2𝜋 ⋅ = 0 0 4 2 例题 5：利用对称性 题目 设 𝐷 : 𝑥2 + 𝑦2 ≤ 1，计算 ∬ (𝑥3 ...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 例题 5：利用对称性 考研数学 · 二重积分 区域为 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2𝜋 所以 2𝜋 𝑎 ∬ (𝑥2 + 𝑦2 )𝑑𝜎 = ∫ ∫ 𝑟2 ⋅ 𝑟 𝑑𝑟 𝑑𝜃 𝐷 0 0 2𝜋 𝑎 𝑎4 𝜋𝑎4 =∫ 𝑑𝜃 ∫ 𝑟3 𝑑𝑟 = 2𝜋 ⋅ = 0 0 4 2 例题 5：利用对称性 题目 设 𝐷 : 𝑥2 + 𝑦2 ≤ 1，计算 ∬ (𝑥3 + 𝑦2 )𝑑𝜎。 𝐷 解析：区域 𝐷 关于 𝑦 轴对称，而 𝑥3 关于 𝑥 为奇函数，因此 ∬ 𝑥3 𝑑𝜎 = 0 𝐷 于是 ∬ (𝑥3 + 𝑦2 )𝑑𝜎 = ∬ 𝑦2 𝑑𝜎 𝐷 𝐷 由于圆盘关于 𝑥、𝑦 对称， 1 ∬ 𝑦2 𝑑𝜎 = ∬ (𝑥2 + 𝑦2 )𝑑𝜎 𝐷 2 𝐷 用极坐标计算： 2𝜋 1 1 𝜋 ∬ (𝑥2 + 𝑦2 )𝑑𝜎 = ∫ ∫ 𝑟2 ⋅ 𝑟 𝑑𝑟 𝑑𝜃 = 2𝜋 ⋅ = 𝐷 0 0 4 2 所以 𝜋 ∬ 𝑦2 𝑑𝜎 = 𝐷 4 最终 𝜋 ∬ (𝑥3 + 𝑦2 )𝑑𝜎 = 𝐷 4 例题 6：两曲面之间体积 题目 求曲面 𝑧 = 4 − 𝑥2 − 𝑦2 与平面 𝑧 = 0 围成的立体体积。 解析：上下曲面分别为 𝑧2 = 4 − 𝑥 2 − 𝑦 2 , 𝑧 1 = 0 交线由 4 − 𝑥2 − 𝑦2 = 0"
+  },
+  {
+    "id": "doc-b907693d8c25-p12",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 12,
+    "heading": "十、考研常见题型与解题模板",
+    "snippet": "考研数学 · 二重积分 得到底面区域 𝐷 : 𝑥2 + 𝑦 2 ≤ 4 体积为 𝑉 = ∬ (4 − 𝑥2 − 𝑦2 )𝑑𝜎 𝐷 使用极坐标： 2𝜋 2 𝑉 =∫ ∫ (4 − 𝑟2 )𝑟 𝑑𝑟 𝑑𝜃 0 0 先对 𝑟 积分： 2 2 3 𝑟4 2 ∫ (4𝑟 − 𝑟 )𝑑𝑟 = [2𝑟 − ] = 8 − 4 = 4 0 4 0 再对 ...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 十、考研常见题型与解题模板 考研数学 · 二重积分 得到底面区域 𝐷 : 𝑥2 + 𝑦 2 ≤ 4 体积为 𝑉 = ∬ (4 − 𝑥2 − 𝑦2 )𝑑𝜎 𝐷 使用极坐标： 2𝜋 2 𝑉 =∫ ∫ (4 − 𝑟2 )𝑟 𝑑𝑟 𝑑𝜃 0 0 先对 𝑟 积分： 2 2 3 𝑟4 2 ∫ (4𝑟 − 𝑟 )𝑑𝑟 = [2𝑟 − ] = 8 − 4 = 4 0 4 0 再对 𝜃 积分： 2𝜋 𝑉 =∫ 4𝑑𝜃 = 8𝜋 0 十、考研常见题型与解题模板 1. 给定区域，直接计算 解题模板： 1. 画出区域 𝐷。 2. 判断直角坐标还是极坐标更方便。 3. 写出积分限。 4. 按顺序积分，注意代入上下限。 2. 改变积分次序 解题模板： 1. 根据原积分限还原区域。 2. 画出边界曲线和交点。 3. 用另一方向切割区域。 4. 写出新积分限，必要时分段。 3. 极坐标换元 解题模板： 1. 检查是否有 𝑥2 + 𝑦2 、圆、圆环、扇形。 2. 令 𝑥 = 𝑟 cos 𝜃，𝑦 = 𝑟 sin 𝜃。 3. 将被积函数和边界全部改写。 4. 面积元写成 𝑟 𝑑𝑟 𝑑𝜃。 4. 利用对称性 解题模板： 1. 判断区域关于哪条轴、原点或直线对称。"
+  },
+  {
+    "id": "doc-b907693d8c25-p13",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 13,
+    "heading": "2. 判断被积函数关于对应变量的奇偶性。",
+    "snippet": "考研数学 · 二重积分 2. 判断被积函数关于对应变量的奇偶性。 3. 奇函数在对称区域上积分为 0。 4. 偶函数可化成半区域积分乘 2。 5. 应用题 面积题： 𝑆 = ∬ 1𝑑𝜎 𝐷 体积题： 𝑉 = ∬ 上函数 - 下函数 𝑑𝜎 𝐷 质量题： 𝑚 = ∬ 𝜌𝑑𝜎 𝐷 质心题： ∬ 𝑥𝜌𝑑𝜎 ∬ 𝑦𝜌𝑑𝜎 𝐷 𝐷 |(𝑥) = , ...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 2. 判断被积函数关于对应变量的奇偶性。 考研数学 · 二重积分 2. 判断被积函数关于对应变量的奇偶性。 3. 奇函数在对称区域上积分为 0。 4. 偶函数可化成半区域积分乘 2。 5. 应用题 面积题： 𝑆 = ∬ 1𝑑𝜎 𝐷 体积题： 𝑉 = ∬ 上函数 - 下函数 𝑑𝜎 𝐷 质量题： 𝑚 = ∬ 𝜌𝑑𝜎 𝐷 质心题： ∬ 𝑥𝜌𝑑𝜎 ∬ 𝑦𝜌𝑑𝜎 𝐷 𝐷 |(𝑥) = , |(𝑦) = 𝑚 𝑚 十一、易错点汇总 易错点： 二重积分中，𝑑𝑥 𝑑𝑦 的书写顺序容易和积分限对应关系混淆。内层积分的微分变量必须对应内层 上下限。 易错点： 极坐标换元必须乘 𝑟。例如 ∬ 1𝑑𝑥 𝑑𝑦 变成 ∫ ∫ 𝑟 𝑑𝑟 𝑑𝜃，不是 ∫ ∫ 𝑑𝑟 𝑑𝜃。 𝐷 易错点： 换序时要画同一个区域，不能只凭代数符号机械交换上下限。 易错点：对称性必须同时满足区域对称和函数奇偶性。只有函数是奇函数，但区域不对称，积分不一定为零。 易错点： 计算体积时要区分“曲面到 𝑥𝑦 平面之间的体积”和“两曲面之间的体积”。后者一般是 ∬ (𝑧上 − 𝐷 𝑧下 )𝑑𝜎。 十二、公式速查表 内容 公式 定义 ∬ 𝑓𝑑𝜎 = lim𝜆→0 ∑ 𝑓(𝜉𝑖 , 𝜂𝑖 )Δ𝜎𝑖 𝐷 面积 𝑆𝐷 = ∬ 1𝑑𝜎 𝐷 曲顶柱体体积 𝑉 = ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝐷 两曲面之间体积 𝑉 = ∬ (𝑧2 − 𝑧1 )𝑑𝜎 𝐷 𝑏 𝜑 (𝑥) 𝑥 型区域 ∬ 𝑓𝑑𝜎 = ∫ ∫ 2 𝑓𝑑𝑦 𝑑𝑥 𝐷 𝑎 𝜑1 (𝑥)"
+  },
+  {
+    "id": "doc-b907693d8c25-p14",
+    "docId": "doc-b907693d8c25",
+    "title": "Double Integral Methods (二重积分计算方法)",
+    "category": "微积分",
+    "page": 14,
+    "heading": "考研数学 · 二重积分",
+    "snippet": "考研数学 · 二重积分 𝑑 𝜓 (𝑦) 𝑦 型区域 ∬ 𝑓𝑑𝜎 = ∫ ∫ 2 𝑓𝑑𝑥 𝑑𝑦 𝐷 𝑐 𝜓1 (𝑦) 极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑑𝜎 = 𝑟 𝑑𝑟 𝑑𝜃 𝜕(𝑥,𝑦) 一般换元 𝑑𝑥 𝑑𝑦 = | 𝜕(𝑢,𝑣) |𝑑𝑢 𝑑𝑣 平均值 |(𝑓) = 𝑆1 ∬ 𝑓𝑑𝜎 𝐷 𝐷 质量 𝑚 = ∬ ...",
+    "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 考研数学 · 二重积分 考研数学 · 二重积分 𝑑 𝜓 (𝑦) 𝑦 型区域 ∬ 𝑓𝑑𝜎 = ∫ ∫ 2 𝑓𝑑𝑥 𝑑𝑦 𝐷 𝑐 𝜓1 (𝑦) 极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑑𝜎 = 𝑟 𝑑𝑟 𝑑𝜃 𝜕(𝑥,𝑦) 一般换元 𝑑𝑥 𝑑𝑦 = | 𝜕(𝑢,𝑣) |𝑑𝑢 𝑑𝑣 平均值 |(𝑓) = 𝑆1 ∬ 𝑓𝑑𝜎 𝐷 𝐷 质量 𝑚 = ∬ 𝜌𝑑𝜎 𝐷 ∬ 𝑥𝜌𝑑𝜎 ∬ 𝑦𝜌𝑑𝜎 质心 |(𝑥) = 𝐷 𝑚 , |(𝑦) = 𝐷𝑚 最终抓手： 做二重积分题时，先问三个问题：区域 𝐷 怎么画？用直角坐标还是极坐标？内层变量从哪里到 哪里？只要这三步清楚，后面的计算就是普通定积分。"
+  },
+  {
+    "id": "doc-e798419636b7-p1",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "定义 · 公式 · 坐标选择 · 典型例题",
+    "snippet": "考研数学 · 三重积分 三重积分计算方法总结 定义 · 公式 · 坐标选择 · 典型例题 考研数学复习资料 · Typst PDF 复习目标： 三重积分的本质是“在空间区域上累加”。考研题通常不难在积分本身，而难在三件事：看清空 间区域、选对坐标系、写对积分限。 一、三重积分的定义与几何意义 1. 定义 设函数 𝑓(𝑥, 𝑦, 𝑧) 在空...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 定义 · 公式 · 坐标选择 · 典型例题 考研数学 · 三重积分 三重积分计算方法总结 定义 · 公式 · 坐标选择 · 典型例题 考研数学复习资料 · Typst PDF 复习目标： 三重积分的本质是“在空间区域上累加”。考研题通常不难在积分本身，而难在三件事：看清空 间区域、选对坐标系、写对积分限。 一、三重积分的定义与几何意义 1. 定义 设函数 𝑓(𝑥, 𝑦, 𝑧) 在空间闭区域 Ω 上有界。把 Ω 分成许多小体积块 Δ𝑉𝑖 ，在每个小块中任取一点 (𝜉𝑖 , 𝜂𝑖 , 𝜁𝑖 )， 若极限存在，则定义 𝑛 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = lim ∑ 𝑓(𝜉𝑖 , 𝜂𝑖 , 𝜁𝑖 )Δ𝑉𝑖 𝜆→0 Ω 𝑖=1 其中 𝜆 表示分割中最大子区域直径。 2. 几何与物理意义 若 𝑓(𝑥, 𝑦, 𝑧) = 1，则三重积分表示区域体积： 𝑉 = ∭ 1𝑑𝑉 Ω 若 𝑓(𝑥, 𝑦, 𝑧) 表示密度，则 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧)𝑑𝑉 Ω 表示物体质量。 若 𝑓 是一般函数，则三重积分可以理解为函数值在空间区域上的总体累积。 3. 基本性质 线性性质： ∭ (𝑎𝑓 + 𝑏𝑔)𝑑𝑉 = 𝑎 ∭ 𝑓𝑑𝑉 + 𝑏 ∭ 𝑔𝑑𝑉 Ω Ω Ω 区域可加性： ∭ 𝑓𝑑𝑉 = ∭ 𝑓𝑑𝑉 + ∭ 𝑓𝑑𝑉 Ω1 ∪Ω2 Ω1 Ω2 若 𝑓(𝑥, 𝑦, 𝑧) ≥ 0，则 ∭ 𝑓𝑑𝑉 ≥ 0 Ω"
+  },
+  {
+    "id": "doc-e798419636b7-p2",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "二、直角坐标下的投影法",
+    "snippet": "考研数学 · 三重积分 二、直角坐标下的投影法 直角坐标适合边界由平面、简单曲面或“上下界清楚”的区域。 1. 先一后二：先对一个变量积分 若区域可写成 Ω = {(𝑥, 𝑦, 𝑧) | (𝑥, 𝑦) ∈ 𝐷𝑥𝑦 , 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦)} 则 𝑧2 (𝑥,𝑦) ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∬ [∫ 𝑓...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 二、直角坐标下的投影法 考研数学 · 三重积分 二、直角坐标下的投影法 直角坐标适合边界由平面、简单曲面或“上下界清楚”的区域。 1. 先一后二：先对一个变量积分 若区域可写成 Ω = {(𝑥, 𝑦, 𝑧) | (𝑥, 𝑦) ∈ 𝐷𝑥𝑦 , 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦)} 则 𝑧2 (𝑥,𝑦) ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∬ [∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑧]𝑑𝑥𝑑𝑦 Ω 𝐷𝑥𝑦 𝑧1 (𝑥,𝑦) 若 𝐷𝑥𝑦 又可写成 𝑎 ≤ 𝑥 ≤ 𝑏, 𝑦1 (𝑥) ≤ 𝑦 ≤ 𝑦2 (𝑥) 则 𝑏 𝑦2 (𝑥) 𝑧2 (𝑥,𝑦) ∫ ∫ ∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑧𝑑𝑦𝑑𝑥 𝑎 𝑦1 (𝑥) 𝑧1 (𝑥,𝑦) 这类做法最常见：先把空间区域投影到 𝑥𝑦 平面，再确定上下曲面。 2. 也可以投影到其他平面 若区域适合投影到 𝑦𝑧 平面： 𝑥2 (𝑦,𝑧) ∭ 𝑓𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑥𝑑𝑦𝑑𝑧 Ω 𝐷𝑦𝑧 𝑥1 (𝑦,𝑧) 若区域适合投影到 𝑥𝑧 平面： 𝑦2 (𝑥,𝑧) ∭ 𝑓𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑦𝑑𝑥𝑑𝑧 Ω 𝐷𝑥𝑧 𝑦1 (𝑥,𝑧) 易错点： 积分次序没有固定答案。哪一个变量的上下限最容易写，就优先把它放在最内层。 3. 截面法 若空间区域按某个变量切片后截面积容易表示，可以用截面法。若垂直于 𝑧 轴的截面积为 𝐴(𝑧)，则体积 𝑏 𝑉 = ∫ 𝐴(𝑧)𝑑𝑧 𝑎 更一般地，若每个截面上还要积分函数： 𝑏 ∭ 𝑓𝑑𝑉 = ∫ [∬ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝐴]𝑑𝑧 Ω 𝑎 𝐷𝑧 其中 𝐷𝑧 是固定 𝑧 后得到的平面截面。 三、柱坐标法 柱坐标适合圆柱、圆锥、旋转抛物面、圆盘投影等问题。"
+  },
+  {
+    "id": "doc-e798419636b7-p3",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "1. 坐标变换",
+    "snippet": "考研数学 · 三重积分 1. 坐标变换 柱坐标定义为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑧=𝑧 其中 𝑟 ≥ 0, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 因此 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∭ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃, 𝑧)𝑟𝑑𝑟𝑑𝜃𝑑𝑧 Ω Ω′ 2. 常见使用场景 若区域含有 𝑥...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 1. 坐标变换 考研数学 · 三重积分 1. 坐标变换 柱坐标定义为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑧=𝑧 其中 𝑟 ≥ 0, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 因此 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∭ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃, 𝑧)𝑟𝑑𝑟𝑑𝜃𝑑𝑧 Ω Ω′ 2. 常见使用场景 若区域含有 𝑥2 + 𝑦 2 = 𝑟 2 或边界为圆柱面、圆锥面、旋转抛物面，例如 𝑧 = 𝑥2 + 𝑦2 , 𝑧 = √𝑥2 + 𝑦2 , 𝑥2 + 𝑦2 = 𝑎2 通常优先考虑柱坐标。 3. 常用边界翻译 直角坐标边界 柱坐标形式 说明 2 2 2 𝑥 +𝑦 =𝑎 𝑟=𝑎 圆柱面或圆盘边界 𝑧 = 𝑥2 + 𝑦 2 𝑧 = 𝑟2 旋转抛物面 𝑧 = √𝑥2 + 𝑦2 𝑧=𝑟 圆锥面 2 2 2 2 2 2 2 𝑥 +𝑦 +𝑧 =𝑎 𝑟 +𝑧 =𝑎 球面，也可用球坐标 四、球坐标法 球坐标适合球、球冠、球锥组合、与原点距离有关的积分。 1. 坐标变换 本资料采用数学中常见约定： 𝑥 = 𝜌 sin 𝜑 cos 𝜃 𝑦 = 𝜌 sin 𝜑 sin 𝜃 𝑧 = 𝜌 cos 𝜑 其中 𝜌 是点到原点的距离，𝜑 是与正 𝑧 轴的夹角，𝜃 是在 𝑥𝑦 平面内的极角。 范围通常为 𝜌 ≥ 0, 0 ≤ 𝜑 ≤ 𝜋, 0 ≤ 𝜃 ≤ 2𝜋 体积元为"
+  },
+  {
+    "id": "doc-e798419636b7-p4",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "2. 常见边界翻译",
+    "snippet": "考研数学 · 三重积分 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 ∭ 𝑓𝑑𝑉 = ∭ 𝑓(𝜌 sin 𝜑 cos 𝜃, 𝜌 sin 𝜑 sin 𝜃, 𝜌 cos 𝜑)𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 Ω Ω′ 2. 常见边界翻译 直角坐标边界 球坐标形式 说明 𝑥2 + 𝑦2 + 𝑧2 = 𝑎2 𝜌=𝑎 球面 𝑧 = √𝑥2 + 𝑦2 𝜑...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 2. 常见边界翻译 考研数学 · 三重积分 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 ∭ 𝑓𝑑𝑉 = ∭ 𝑓(𝜌 sin 𝜑 cos 𝜃, 𝜌 sin 𝜑 sin 𝜃, 𝜌 cos 𝜑)𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 Ω Ω′ 2. 常见边界翻译 直角坐标边界 球坐标形式 说明 𝑥2 + 𝑦2 + 𝑧2 = 𝑎2 𝜌=𝑎 球面 𝑧 = √𝑥2 + 𝑦2 𝜑 = 𝜋4 圆锥面 𝑧=0 𝜑 = 𝜋2 𝑥𝑦 平面 𝑥2 + 𝑦2 + 𝑧 2 2 𝜌 径向函数会大幅简化 易错点： 球坐标最容易错的是角度 𝜑 的含义。本资料中 𝜑 从正 𝑧 轴量起，不是从 𝑥𝑦 平面量起。 五、一般变量替换与雅可比 若作变量替换 𝑥 = 𝑥(𝑢, 𝑣, 𝑤), 𝑦 = 𝑦(𝑢, 𝑣, 𝑤), 𝑧 = 𝑧(𝑢, 𝑣, 𝑤) 则 𝑑𝑉 = |𝐽 |𝑑𝑢𝑑𝑣𝑑𝑤 其中 𝜕 𝜕𝑥 𝑢 𝜕 𝜕𝑥 𝑣 𝜕 𝜕𝑥 𝑤 𝑦 𝑦 𝑦 𝐽 = det 𝜕 𝜕 𝑢 𝜕 𝜕 𝑣 𝜕 𝜕 𝑤 𝜕 𝑧 𝑢 𝜕 𝜕𝑧 𝑣 𝜕 𝜕𝑧 𝑤 ( 𝜕 ) 于是 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑥𝑑𝑦𝑑𝑧 = ∭ 𝑓(𝑥(𝑢, 𝑣, 𝑤), 𝑦(𝑢, 𝑣, 𝑤), 𝑧(𝑢, 𝑣, 𝑤))|𝐽 |𝑑𝑢𝑑𝑣𝑑𝑤 Ω Ω′ 柱坐标和球坐标都是这个公式的特殊情况： 𝐽柱 = 𝑟 𝐽球 = 𝜌2 sin 𝜑 六、对称性方法 对称性常用于快速判断积分为零，或把区域缩小后乘倍数。 1. 奇函数积分为零 若区域 Ω 关于平面 𝑥 = 0 对称，而函数关于 𝑥 为奇函数，即 𝑓(−𝑥, 𝑦, 𝑧) = −𝑓(𝑥, 𝑦, 𝑧) 则"
+  },
+  {
+    "id": "doc-e798419636b7-p5",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "2. 偶函数可缩小区域",
+    "snippet": "考研数学 · 三重积分 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = 0 Ω 类似地，关于 𝑦 = 0 或 𝑧 = 0 对称也可使用。 2. 偶函数可缩小区域 若 Ω 关于 𝑥 = 0 对称，且 𝑓(−𝑥, 𝑦, 𝑧) = 𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓𝑑𝑉 = 2 ∭ 𝑓𝑑𝑉 Ω Ω+ 其中 Ω+ 表示 Ω 中满足 𝑥 ≥ 0 的一半区域。 3....",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 2. 偶函数可缩小区域 考研数学 · 三重积分 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = 0 Ω 类似地，关于 𝑦 = 0 或 𝑧 = 0 对称也可使用。 2. 偶函数可缩小区域 若 Ω 关于 𝑥 = 0 对称，且 𝑓(−𝑥, 𝑦, 𝑧) = 𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓𝑑𝑉 = 2 ∭ 𝑓𝑑𝑉 Ω Ω+ 其中 Ω+ 表示 Ω 中满足 𝑥 ≥ 0 的一半区域。 3. 球体中的常用对称结论 在以原点为中心的球体 𝐵 中： ∭ 𝑥𝑑𝑉 = ∭ 𝑦𝑑𝑉 = ∭ 𝑧𝑑𝑉 = 0 𝐵 𝐵 𝐵 并且由对称性 ∭ 𝑥2 𝑑𝑉 = ∭ 𝑦2 𝑑𝑉 = ∭ 𝑧 2 𝑑𝑉 𝐵 𝐵 𝐵 又因为 𝑥2 + 𝑦 2 + 𝑧 2 = 𝜌 2 所以 1 ∭ 𝑥2 𝑑𝑉 = ∭ 𝜌2 𝑑𝑉 𝐵 3 𝐵 七、计算步骤总结 通用流程： 第一步：画出或想清楚空间区域。第二步：判断适合直角坐标、柱坐标还是球坐标。第三步：确 定积分次序和上下限。第四步：写出体积元。第五步：计算积分并检查量纲和正负。 区域特点 优先方法 关键体积元 长 方 体 或 上 下 直角坐标投影法 𝑑𝑥𝑑𝑦𝑑𝑧 界清楚 含 𝑥2 + 𝑦2 ，绕 柱坐标 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 𝑧 轴旋转 球面、圆锥、与 球坐标 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 原点距离有关 截面积容易写 截面法 𝑉 = ∫ 𝐴(𝑧)𝑑𝑧"
+  },
+  {
+    "id": "doc-e798419636b7-p6",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "八、典型例题",
+    "snippet": "考研数学 · 三重积分 区 域 和 函 数 有 对称性 先判断是否为 0 奇偶性 八、典型例题 例题 1：长方体区域上的三重积分 题目 计算 1 2 3 𝐼 = ∫ ∫ ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧𝑑𝑦𝑑𝑥 0 0 0 先对 𝑧 积分： 3 9 ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧 = 3𝑥 + 3𝑦 + 0 2 再对 𝑦 积分： 2 9 ∫...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 八、典型例题 考研数学 · 三重积分 区 域 和 函 数 有 对称性 先判断是否为 0 奇偶性 八、典型例题 例题 1：长方体区域上的三重积分 题目 计算 1 2 3 𝐼 = ∫ ∫ ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧𝑑𝑦𝑑𝑥 0 0 0 先对 𝑧 积分： 3 9 ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧 = 3𝑥 + 3𝑦 + 0 2 再对 𝑦 积分： 2 9 ∫ (3𝑥 + 3𝑦 + )𝑑𝑦 = 6𝑥 + 6 + 9 = 6𝑥 + 15 0 2 最后对 𝑥 积分： 1 𝐼 = ∫ (6𝑥 + 15)𝑑𝑥 = 3 + 15 = 18 0 结论： 长方体区域最适合直接按题目给定次序积分。若积分区域是常数上下限，计算难度通常只在被积函 数。 例题 2：投影法求抛物面下方体积 题目 求由 𝑧 = 4 − 𝑥2 − 𝑦2 与 𝑧 = 0 围成的立体体积。 区域满足 0 ≤ 𝑧 ≤ 4 − 𝑥2 − 𝑦2 且需要 4 − 𝑥2 − 𝑦2 ≥ 0 所以投影区域为 𝐷𝑥𝑦 : 𝑥2 + 𝑦2 ≤ 4 由于投影是圆盘，改用柱坐标： 𝑥2 + 𝑦2 = 𝑟2 , 𝑑𝑉 = 𝑟𝑑𝑧𝑑𝑟𝑑𝜃 积分限为 0 ≤ 𝜃 ≤ 2𝜋, 0 ≤ 𝑟 ≤ 2, 0 ≤ 𝑧 ≤ 4 − 𝑟2"
+  },
+  {
+    "id": "doc-e798419636b7-p7",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。",
+    "snippet": "考研数学 · 三重积分 因此 2𝜋 2 4−𝑟2 𝑉 =∫ ∫ ∫ 𝑟𝑑𝑧𝑑𝑟𝑑𝜃 0 0 0 2𝜋 2 𝑉 =∫ ∫ (4 − 𝑟2 )𝑟𝑑𝑟𝑑𝜃 0 0 2 𝑉 = 2𝜋 ∫ (4𝑟 − 𝑟3 )𝑑𝑟 0 𝑉 = 2𝜋(8 − 4) = 8𝜋 结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。 例题 3：球体...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。 考研数学 · 三重积分 因此 2𝜋 2 4−𝑟2 𝑉 =∫ ∫ ∫ 𝑟𝑑𝑧𝑑𝑟𝑑𝜃 0 0 0 2𝜋 2 𝑉 =∫ ∫ (4 − 𝑟2 )𝑟𝑑𝑟𝑑𝜃 0 0 2 𝑉 = 2𝜋 ∫ (4𝑟 − 𝑟3 )𝑑𝑟 0 𝑉 = 2𝜋(8 − 4) = 8𝜋 结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。 例题 3：球体体积 题目 求球体 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 的体积。 球坐标下区域为 0 ≤ 𝜌 ≤ 𝑎, 0 ≤ 𝜑 ≤ 𝜋, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 2𝜋 𝜋 𝑎 𝑉 =∫ ∫ ∫ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0 𝑎3 𝑎3 𝑉 = (2𝜋)(2)( ) = 4𝜋 3 3 结论： 球面边界 𝑥2 + 𝑦2 + 𝑧 2 = 𝑎2 在球坐标下变成 𝜌 = 𝑎，这是球坐标最典型的优势。 例题 4：球与圆锥围成区域 题目 求球 𝜌 ≤ 2 内、圆锥 𝜑 = 𝜋3 上方靠近正 𝑧 轴一侧区域的体积。 靠近正 𝑧 轴一侧表示 𝜋 0≤𝜑≤ 3 球内表示 0≤𝜌≤2 整周旋转表示 0 ≤ 𝜃 ≤ 2𝜋"
+  },
+  {
+    "id": "doc-e798419636b7-p8",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 8,
+    "heading": "结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。",
+    "snippet": "考研数学 · 三重积分 于是 𝜋 2𝜋 3 2 𝑉 =∫ ∫ ∫ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0 8 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ (1 − cos( )) 3 3 8 1 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ = 8 3 2 3 结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。 例题 5：换序...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。 考研数学 · 三重积分 于是 𝜋 2𝜋 3 2 𝑉 =∫ ∫ ∫ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0 8 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ (1 − cos( )) 3 3 8 1 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ = 8 3 2 3 结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。 例题 5：换序与空间区域理解 题目 计算 1 𝑥 𝑥+𝑦 𝐼 =∫ ∫ ∫ 1𝑑𝑧𝑑𝑦𝑑𝑥 0 0 0 该积分表示区域体积。先按给定顺序计算： 1 𝑥 𝐼 = ∫ ∫ (𝑥 + 𝑦)𝑑𝑦𝑑𝑥 0 0 1 𝑥2 𝐼 = ∫ (𝑥2 + )𝑑𝑥 0 2 3 1 2 1 𝐼= ∫ 𝑥 𝑑𝑥 = 2 0 2 该区域也可以理解为 0 ≤ 𝑦 ≤ 𝑥 ≤ 1, 0 ≤ 𝑧 ≤ 𝑥 + 𝑦 在 𝑥𝑦 平面上的投影是三角形 0≤𝑦≤𝑥≤1 结论：当题目给出三重积分让你判断区域或换序时，先读最外层变量范围，再读中间变量，最后读内层变量。 例题 6：利用对称性快速计算 题目 设 𝐵 : 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 ，计算 ∭ 𝑥𝑦𝑑𝑉 𝐵 区域 𝐵 关于平面 𝑥 = 0 对称。被积函数 𝑥𝑦 关于 𝑥 是奇函数： (−𝑥)𝑦 = −𝑥𝑦 所以正负部分相互抵消："
+  },
+  {
+    "id": "doc-e798419636b7-p9",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 9,
+    "heading": "结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。",
+    "snippet": "考研数学 · 三重积分 ∭ 𝑥𝑦𝑑𝑉 = 0 𝐵 结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。 例题 7：球体上径向函数积分 题目 设 𝐵 : 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 ，计算 ∭ (𝑥2 + 𝑦2 + 𝑧2 )𝑑𝑉 𝐵 球坐标下 𝑥2 + 𝑦 2 + 𝑧 2 = 𝜌 2 且...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。 考研数学 · 三重积分 ∭ 𝑥𝑦𝑑𝑉 = 0 𝐵 结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。 例题 7：球体上径向函数积分 题目 设 𝐵 : 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 ，计算 ∭ (𝑥2 + 𝑦2 + 𝑧2 )𝑑𝑉 𝐵 球坐标下 𝑥2 + 𝑦 2 + 𝑧 2 = 𝜌 2 且 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 2𝜋 𝜋 𝑎 𝐼 =∫ ∫ ∫ 𝜌2 ⋅ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0 𝑎 𝐼 = 2𝜋 ⋅ 2 ⋅ ∫ 𝜌4 𝑑𝜌 0 𝑎5 𝐼 = 4𝜋 5 结论： 当被积函数是 𝑥2 + 𝑦2 + 𝑧 2 或只与到原点距离有关时，球坐标通常最直接。 九、格林公式、高斯公式与斯托克斯公式 这三类公式本质上都是“边界积分”和“区域内部积分”的互化。考研中常用于把难算的曲线积分、曲面积分转化 为容易计算的二重积分或三重积分。 1. 格林公式 设平面闭区域 𝐷 由分段光滑正向边界曲线 𝐿 围成，正向指沿 𝐿 行走时区域 𝐷 始终在左侧。若 𝑃 (𝑥, 𝑦)、𝑄(𝑥, 𝑦) 在 𝐷 上具有一阶连续偏导数，则 𝑄 𝑃 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 = ∬ (𝜕 𝑥 − 𝜕 𝑦)𝑑𝑥𝑑𝑦 𝐿 𝐷 𝜕 𝜕 使用条件： 1. 曲线 𝐿 必须是平面内的闭曲线。 2. 方向通常要求为正向，即逆时针方向。 3. 𝑃 , 𝑄 在区域 𝐷 及其边界上连续，并且一阶偏导连续。 4. 若区域有洞，外边界取逆时针，内边界取顺时针。"
+  },
+  {
+    "id": "doc-e798419636b7-p10",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 10,
+    "heading": "易错点： 格林公式最常错方向。若题目给的是顺时针方向，则结果要在正向公式基础上取负号。",
+    "snippet": "考研数学 · 三重积分 应用场景：格林公式常用于平面第二型曲线积分 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 𝐿 当沿曲线直接参数化很麻烦，而区域 𝐷 简单时，优先用格林公式。它也常用于面积计算： 1 𝑆= ∮ 𝑥𝑑𝑦 − 𝑦𝑑𝑥 2 𝐿 选用判断： 看到“平面闭曲线上的 𝑃 𝑑𝑥 + 𝑄𝑑𝑦”，优先想格林公式。若曲线不闭，先看能否补线闭合，再 用格林公...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 易错点： 格林公式最常错方向。若题目给的是顺时针方向，则结果要在正向公式基础上取负号。 考研数学 · 三重积分 应用场景：格林公式常用于平面第二型曲线积分 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 𝐿 当沿曲线直接参数化很麻烦，而区域 𝐷 简单时，优先用格林公式。它也常用于面积计算： 1 𝑆= ∮ 𝑥𝑑𝑦 − 𝑦𝑑𝑥 2 𝐿 选用判断： 看到“平面闭曲线上的 𝑃 𝑑𝑥 + 𝑄𝑑𝑦”，优先想格林公式。若曲线不闭，先看能否补线闭合，再 用格林公式减去补线积分。 易错点： 格林公式最常错方向。若题目给的是顺时针方向，则结果要在正向公式基础上取负号。 2. 高斯公式 设空间闭区域 Ω 的边界曲面为 Σ，取外侧法向。若 𝑃 , 𝑄, 𝑅 在 Ω 上具有一阶连续偏导数，则 𝑃 𝑄 𝑅 ∯ 𝑃 𝑑𝑦𝑑𝑧 + 𝑄𝑑𝑧𝑑𝑥 + 𝑅𝑑𝑥𝑑𝑦 = ∭ (𝜕 𝑥 + 𝜕 𝑦 + 𝜕 𝑧)𝑑𝑉 Σ Ω 𝜕 𝜕 𝜕 向量形式为 ∯ 𝑭 ⋅ 𝒏𝑑𝑆 = ∭ div 𝑭 𝑑𝑉 Σ Ω 其中 𝑭 = (𝑃 , 𝑄, 𝑅) 𝑃 𝑄 𝑅 div 𝑭 = 𝜕 𝑥+𝜕 𝑦+𝜕 𝑧 𝜕 𝜕 𝜕 使用条件： 1. Σ 必须是闭曲面，或者可以补成闭曲面。 2. 法向必须取外法向。 3. 向量场 𝑭 在闭区域 Ω 内有连续一阶偏导数。 4. 若曲面不是闭曲面，不能直接套高斯公式，必须补上缺失曲面，再减去补面通量。 应用场景：高斯公式常用于第二型曲面积分，也就是通量积分： ∯ 𝑃 𝑑𝑦𝑑𝑧 + 𝑄𝑑𝑧𝑑𝑥 + 𝑅𝑑𝑥𝑑𝑦 Σ 或 ∯ 𝑭 ⋅ 𝒏𝑑𝑆 Σ 选用判断： 看到“闭曲面通量”“外侧”“封闭曲面”，优先想高斯公式。若曲面不闭，先补成闭曲面。"
+  },
+  {
+    "id": "doc-e798419636b7-p11",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 11,
+    "heading": "易错点： 高斯公式只适用于闭曲面，且默认外法向。若题目给内法向，结果要取负号。",
+    "snippet": "考研数学 · 三重积分 易错点： 高斯公式只适用于闭曲面，且默认外法向。若题目给内法向，结果要取负号。 3. 斯托克斯公式 设曲面 Σ 的边界为分段光滑闭曲线 Γ，方向满足右手法则。若向量场 𝑭 = (𝑃 , 𝑄, 𝑅) 在曲面附近具有一阶连 续偏导数，则 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 = ∯ rot 𝑭 ⋅ 𝒏𝑑𝑆 Γ Σ 其中...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 易错点： 高斯公式只适用于闭曲面，且默认外法向。若题目给内法向，结果要取负号。 考研数学 · 三重积分 易错点： 高斯公式只适用于闭曲面，且默认外法向。若题目给内法向，结果要取负号。 3. 斯托克斯公式 设曲面 Σ 的边界为分段光滑闭曲线 Γ，方向满足右手法则。若向量场 𝑭 = (𝑃 , 𝑄, 𝑅) 在曲面附近具有一阶连 续偏导数，则 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 = ∯ rot 𝑭 ⋅ 𝒏𝑑𝑆 Γ Σ 其中旋度为 𝑅 𝑄 𝑃 𝑅 𝑄 𝑃 rot 𝑭 = (𝜕 𝑦 − 𝜕 𝑧)𝒊 + (𝜕 𝑧 − 𝜕 𝑥)𝒋 + (𝜕 𝑥 − 𝜕 𝑦)𝒌 𝜕 𝜕 𝜕 𝜕 𝜕 𝜕 使用条件： 1. Γ 是空间闭曲线，是曲面 Σ 的边界。 2. 曲面 Σ 分片光滑，并且可定向。 3. 曲线方向与曲面法向满足右手法则。 4. 𝑃 , 𝑄, 𝑅 在曲面附近有连续一阶偏导数。 应用场景：斯托克斯公式常用于空间闭曲线上的第二型曲线积分： ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 Γ 如果空间曲线参数化复杂，但它能作为某个简单曲面的边界，就可以用斯托克斯公式把曲线积分转化为曲面积 分。同一个边界曲线可以选择不同曲面，通常选最简单的曲面，例如平面片、圆盘或投影容易的曲面。 选用判断： 看到“空间闭曲线上的 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 ”，优先想斯托克斯公式。若曲线在平面内，也可能 退化为格林公式。 易错点： 斯托克斯公式最常错的是方向。曲线方向和曲面法向必须满足右手法则；如果方向相反，结果取 负号。 4. 三个公式的对比 公式 处理对象 转换结果 关键词 格林公式 平面闭曲线积分 二重积分 平面、闭曲线、逆时针、𝑃 𝑑𝑥 + 𝑄𝑑𝑦 高斯公式 闭曲面通量积分 三重积分 闭曲面、外法向、通量、散度 斯 托 克 斯 公 空间闭曲线积分 曲面积分 空间闭曲线、旋度、右手法则 式"
+  },
+  {
+    "id": "doc-e798419636b7-p12",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 12,
+    "heading": "5. 典型例题：格林公式",
+    "snippet": "考研数学 · 三重积分 5. 典型例题：格林公式 题目 计算 𝐿 为圆 𝑥2 + 𝑦2 = 𝑎2 的逆时针方向时 𝐼 = ∮ −𝑦𝑑𝑥 + 𝑥𝑑𝑦 𝐿 这里 𝑃 = −𝑦, 𝑄 = 𝑥。由格林公式： 𝑄 𝑃 𝐼 = ∬ (𝜕 𝑥 − 𝜕 𝑦)𝑑𝑥𝑑𝑦 𝐷 𝜕 𝜕 而 𝑄 𝑃 𝜕 𝑥 = 1, 𝜕 𝑦 = −1 𝜕 𝜕 所以 𝐼 = ∬ 2...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 5. 典型例题：格林公式 考研数学 · 三重积分 5. 典型例题：格林公式 题目 计算 𝐿 为圆 𝑥2 + 𝑦2 = 𝑎2 的逆时针方向时 𝐼 = ∮ −𝑦𝑑𝑥 + 𝑥𝑑𝑦 𝐿 这里 𝑃 = −𝑦, 𝑄 = 𝑥。由格林公式： 𝑄 𝑃 𝐼 = ∬ (𝜕 𝑥 − 𝜕 𝑦)𝑑𝑥𝑑𝑦 𝐷 𝜕 𝜕 而 𝑄 𝑃 𝜕 𝑥 = 1, 𝜕 𝑦 = −1 𝜕 𝜕 所以 𝐼 = ∬ 2𝑑𝑥𝑑𝑦 = 2𝜋𝑎2 𝐷 6. 典型例题：高斯公式 题目 设 Σ 为球面 𝑥2 + 𝑦2 + 𝑧 2 = 𝑎2 的外侧，求 𝐼 = ∯ 𝑥𝑑𝑦𝑑𝑧 + 𝑦𝑑𝑧𝑑𝑥 + 𝑧𝑑𝑥𝑑𝑦 Σ 令 𝑃 = 𝑥, 𝑄 = 𝑦, 𝑅 = 𝑧 ，则 𝑃 𝑄 𝑅 𝜕 𝑥+𝜕 𝑦+𝜕 𝑧 =3 𝜕 𝜕 𝜕 由高斯公式： 𝑎3 𝐼 = ∭ 3𝑑𝑉 = 3 ⋅ 4𝜋 = 4𝜋𝑎3 Ω 3 7. 典型例题：斯托克斯公式 题目 设 Γ 是平面 𝑧 = 1 上圆周 𝑥2 + 𝑦2 = 1，从 𝑧 轴正向看为逆时针方向，求 𝐼 = ∮ −𝑦𝑑𝑥 + 𝑥𝑑𝑦 + 𝑧𝑑𝑧 Γ 取 𝑭 = (−𝑦, 𝑥, 𝑧)，则 rot 𝑭 = (0, 0, 2) 选取平面圆盘 Σ : 𝑧 = 1, 𝑥2 + 𝑦2 ≤ 1 曲线从 𝑧 轴正向看为逆时针，因此法向取 𝒏 = (0, 0, 1)。于是"
+  },
+  {
+    "id": "doc-e798419636b7-p13",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 13,
+    "heading": "十、考研常见设限模板",
+    "snippet": "考研数学 · 三重积分 𝐼 = ∯ rot 𝑭 ⋅ 𝒏𝑑𝑆 = ∯ 2𝑑𝑆 = 2𝜋 Σ Σ 十、考研常见设限模板 1. 上下曲面夹区域 若区域夹在 𝑧 = 𝑧1 (𝑥, 𝑦) 和 𝑧 = 𝑧2 (𝑥, 𝑦) 之间，则 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦) 投影区域由两曲面交线投影得到。 2. 柱面内外区域 若出现 𝑥2 +...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 十、考研常见设限模板 考研数学 · 三重积分 𝐼 = ∯ rot 𝑭 ⋅ 𝒏𝑑𝑆 = ∯ 2𝑑𝑆 = 2𝜋 Σ Σ 十、考研常见设限模板 1. 上下曲面夹区域 若区域夹在 𝑧 = 𝑧1 (𝑥, 𝑦) 和 𝑧 = 𝑧2 (𝑥, 𝑦) 之间，则 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦) 投影区域由两曲面交线投影得到。 2. 柱面内外区域 若出现 𝑥2 + 𝑦2 ≤ 𝑎2 则柱坐标中常写成 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2𝜋 如果是第一象限圆盘，则 𝜋 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2 3. 球面与平面 上半球 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 , 𝑧 ≥ 0 在球坐标中为 𝜋 0 ≤ 𝜌 ≤ 𝑎, 0 ≤ 𝜑 ≤ , 0 ≤ 𝜃 ≤ 2𝜋 2 下半球则为 𝜋 ≤𝜑≤𝜋 2 4. 球面与圆锥 圆锥 𝑧 = √𝑥2 + 𝑦2 对应 𝜋 𝜑= 4 靠近正 𝑧 轴一侧为"
+  },
+  {
+    "id": "doc-e798419636b7-p14",
+    "docId": "doc-e798419636b7",
+    "title": "Triple Integral Methods (三重积分计算方法)",
+    "category": "微积分",
+    "page": 14,
+    "heading": "十一、最后检查清单",
+    "snippet": "考研数学 · 三重积分 𝜋 0≤𝜑≤ 4 远离正 𝑧 轴、靠近 𝑥𝑦 平面一侧为 𝜋 𝜋 ≤𝜑≤ 4 2 十一、最后检查清单 易错点： 1. 是否忘记柱坐标的 𝑟？是否忘记球坐标的 𝜌2 sin 𝜑？ 2. 积分限是否覆盖了区域且没有重复覆盖？ 3. 内层变量上下限是否不能含有已经积分掉的变量？ 4. 球坐标中 𝜑 的角度范围是否判断正确...",
+    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 十一、最后检查清单 考研数学 · 三重积分 𝜋 0≤𝜑≤ 4 远离正 𝑧 轴、靠近 𝑥𝑦 平面一侧为 𝜋 𝜋 ≤𝜑≤ 4 2 十一、最后检查清单 易错点： 1. 是否忘记柱坐标的 𝑟？是否忘记球坐标的 𝜌2 sin 𝜑？ 2. 积分限是否覆盖了区域且没有重复覆盖？ 3. 内层变量上下限是否不能含有已经积分掉的变量？ 4. 球坐标中 𝜑 的角度范围是否判断正确？ 5. 对称性为零时，区域必须对称，函数也必须对对应变量为奇函数。 6. 使用格林公式时，曲线是否闭合？方向是否为正向？ 7. 使用高斯公式时，曲面是否闭合？法向是否为外法向？ 8. 使用斯托克斯公式时，曲线方向和曲面法向是否满足右手法则？"
+  },
+  {
+    "id": "doc-73ec94e14160-p1",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、整体框架",
+    "snippet": "考研数学 · 多元函数积分学 多元函数积分学总结 重积分 · 曲线积分 · 曲面积分 · 格林高斯斯托克斯 考研数学复习资料 · Typst PDF 复习目标： 多元函数积分学的主线是“在几何对象上累加”：二重积分在平面区域上累加，三重积分在空间 区域上累加，曲线积分在曲线上累加，曲面积分在曲面上累加。三大公式把边界积分与区域积分联系起来...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 一、整体框架 考研数学 · 多元函数积分学 多元函数积分学总结 重积分 · 曲线积分 · 曲面积分 · 格林高斯斯托克斯 考研数学复习资料 · Typst PDF 复习目标： 多元函数积分学的主线是“在几何对象上累加”：二重积分在平面区域上累加，三重积分在空间 区域上累加，曲线积分在曲线上累加，曲面积分在曲面上累加。三大公式把边界积分与区域积分联系起来， 是考研中最容易综合考察的部分。 一、整体框架 1. 积分对象分类 积分类型 积分对象 典型形式 二重积分 平面区域 𝐷 ∬ 𝑓(𝑥, 𝑦) 𝑑𝑥 𝑑𝑦 𝐷 三重积分 空间区域 Ω ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 第一型曲线积分 曲线弧长 ∫ 𝑓 𝑑𝑠 𝐿 第二型曲线积分 有向曲线 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 𝐿 第一型曲面积分 曲面面积 ∬ 𝑓 𝑑𝑆 Σ 第二型曲面积分 有向曲面通量 ∬ 𝑃 𝑑𝑦 𝑑𝑧 + 𝑄 𝑑𝑧 𝑑𝑥 + 𝑅 𝑑𝑥 𝑑𝑦 Σ 2. 一条记忆线 重积分强调区域，曲线积分强调路径，曲面积分强调曲面。第二型曲线积分和第二型曲面积分都与方向有关： 1. 第二型曲线积分依赖曲线方向。 2. 第二型曲面积分依赖曲面法向。 3. 第一型曲线积分和第一型曲面积分不依赖方向。 3. 三大公式的位置 公式 把什么联系起来 核心形式 格林公式 平面闭曲线积分与二重积分 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐿 𝐷 高斯公式 闭曲面通量与三重积分 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ div 𝐹 𝑑𝑉 𝑆 Ω 斯托克斯公式 空间闭曲线积分与曲面积分 ∮ 𝐹 ⋅ 𝑑𝑟 = ∬ (curl 𝐹 ) ⋅ 𝑛 𝑑𝑆 Γ Σ 易错点： 三大公式都需要检查方向和封闭性。格林公式要求平面闭曲线正向，高斯公式要求闭曲面外法向， 斯托克斯公式要求曲面边界方向与法向满足右手定则。"
+  },
+  {
+    "id": "doc-73ec94e14160-p2",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "二、向量与空间解析几何",
+    "snippet": "考研数学 · 多元函数积分学 二、向量与空间解析几何 1. 向量的基本运算 空间向量通常写为 𝑎 = (𝑎1 , 𝑎2 , 𝑎3 ), 𝑏 = (𝑏1 , 𝑏2 , 𝑏3 ) 向量长度为 |𝑎| = √𝑎21 + 𝑎22 + 𝑎23 单位向量为 𝑎 𝑒𝑎 = (𝑎 ≠ 0) |𝑎| 点积为 𝑎 ⋅ 𝑏 = 𝑎1 𝑏1 + 𝑎2 𝑏2 + ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 二、向量与空间解析几何 考研数学 · 多元函数积分学 二、向量与空间解析几何 1. 向量的基本运算 空间向量通常写为 𝑎 = (𝑎1 , 𝑎2 , 𝑎3 ), 𝑏 = (𝑏1 , 𝑏2 , 𝑏3 ) 向量长度为 |𝑎| = √𝑎21 + 𝑎22 + 𝑎23 单位向量为 𝑎 𝑒𝑎 = (𝑎 ≠ 0) |𝑎| 点积为 𝑎 ⋅ 𝑏 = 𝑎1 𝑏1 + 𝑎2 𝑏2 + 𝑎3 𝑏3 = |𝑎||𝑏| cos 𝜃 其中 𝜃 是两向量夹角。因此 𝑎⋅𝑏 cos 𝜃 = |𝑎||𝑏| 若 𝑎 ⋅ 𝑏 = 0，则 𝑎 与 𝑏 垂直。 叉积为 𝑖 𝑗 𝑘 𝑎×𝑏 = 𝑎1 𝑎2 𝑎3 ( 𝑏1 𝑏2 𝑏3 ) 其方向垂直于 𝑎, 𝑏 所在平面，大小为 |𝑎 × 𝑏| = |𝑎||𝑏| sin 𝜃 若 𝑎 × 𝑏 = 0，则 𝑎 与 𝑏 平行。 2. 空间直线 过点 𝑀0 (𝑥0 , 𝑦0 , 𝑧0 )，方向向量为 𝑠 = (𝑚, 𝑛, 𝑝) 的直线可写成参数式： (𝑥, 𝑦, 𝑧) = (𝑥0 , 𝑦0 , 𝑧0 ) + 𝑡(𝑚, 𝑛, 𝑝) 即 𝑥 = 𝑥0 + 𝑚𝑡, 𝑦 = 𝑦0 + 𝑛𝑡, 𝑧 = 𝑧0 + 𝑝𝑡 若 𝑚𝑛𝑝 ≠ 0，也可写成对称式： 𝑥 − 𝑥0 𝑦 − 𝑦0 𝑧 − 𝑧0 = = 𝑚 𝑛 𝑝 两点 𝐴(𝑥1 , 𝑦1 , 𝑧1 )、𝐵(𝑥2 , 𝑦2 , 𝑧2 ) 确定的直线方向向量为 𝑠=⃗ 𝐴𝐵 = (𝑥2 − 𝑥1 , 𝑦2 − 𝑦1 , 𝑧2 − 𝑧1 )"
+  },
+  {
+    "id": "doc-73ec94e14160-p3",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "3. 平面方程",
+    "snippet": "考研数学 · 多元函数积分学 3. 平面方程 过点 𝑀0 (𝑥0 , 𝑦0 , 𝑧0 )，法向量为 𝑛 = (𝐴, 𝐵, 𝐶) 的平面方程为 𝐴(𝑥 − 𝑥0 ) + 𝐵(𝑦 − 𝑦0 ) + 𝐶(𝑧 − 𝑧0 ) = 0 一般式为 𝐴𝑥 + 𝐵𝑦 + 𝐶𝑧 + 𝐷 = 0 其中法向量为 𝑛 = (𝐴, 𝐵, 𝐶) 若平面由三点 𝐴, 𝐵...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 3. 平面方程 考研数学 · 多元函数积分学 3. 平面方程 过点 𝑀0 (𝑥0 , 𝑦0 , 𝑧0 )，法向量为 𝑛 = (𝐴, 𝐵, 𝐶) 的平面方程为 𝐴(𝑥 − 𝑥0 ) + 𝐵(𝑦 − 𝑦0 ) + 𝐶(𝑧 − 𝑧0 ) = 0 一般式为 𝐴𝑥 + 𝐵𝑦 + 𝐶𝑧 + 𝐷 = 0 其中法向量为 𝑛 = (𝐴, 𝐵, 𝐶) 若平面由三点 𝐴, 𝐵, 𝐶 确定，则可取 𝑛=⃗ 𝐴𝐵 × ⃗ 𝐴𝐶 作为法向量。 4. 平面束方程 设两平面 Π1 : 𝐴1 𝑥 + 𝐵1 𝑦 + 𝐶1 𝑧 + 𝐷1 = 0, Π2 : 𝐴2 𝑥 + 𝐵2 𝑦 + 𝐶2 𝑧 + 𝐷2 = 0 相交于直线 𝐿，则所有经过交线 𝐿 的平面可以写成平面束： Π1 + 𝜆Π2 = 0 即 (𝐴1 𝑥 + 𝐵1 𝑦 + 𝐶1 𝑧 + 𝐷1 ) + 𝜆(𝐴2 𝑥 + 𝐵2 𝑦 + 𝐶2 𝑧 + 𝐷2 ) = 0 其中 𝜆 为任意常数。更完整的齐次写法为 𝜆Π1 + 𝜇Π2 = 0, (𝜆, 𝜇) ≠ (0, 0) 它表示由 Π1 与 Π2 张成的一族平面。 使用场景： 题目要求“过两平面交线的平面”，并且还给出过一点、平行某直线、垂直某平面等附加条件时， 先写平面束方程，再把附加条件代入求 𝜆 或 𝜆 : 𝜇。 易错点： 平面束方程的前提是两个基准平面相交成一条直线，即法向量不平行：𝑛1 × 𝑛2 ≠ 0。若两平面平 行或重合，就不能直接说它们确定一条交线。 5. 常见位置关系 对象 判定 说明 两直线 𝑠1 × 𝑠2 = 0 方向向量平行，则直线平行或重合 两平面 𝑛1 × 𝑛2 = 0 法向量平行，则平面平行或重合 直线与平面 𝑠⋅𝑛=0 直线方向与平面法向垂直，则直线平行 于平面或在平面内"
+  },
+  {
+    "id": "doc-73ec94e14160-p4",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "6. 距离公式",
+    "snippet": "考研数学 · 多元函数积分学 直线垂直平面 𝑠×𝑛=0 直线方向与平面法向平行 两平面垂直 𝑛1 ⋅ 𝑛2 = 0 法向量垂直 6. 距离公式 点 𝑃0 (𝑥0 , 𝑦0 , 𝑧0 ) 到平面 𝐴𝑥 + 𝐵𝑦 + 𝐶𝑧 + 𝐷 = 0 的距离为 |𝐴𝑥0 + 𝐵𝑦0 + 𝐶𝑧0 + 𝐷| 𝑑= √ 𝐴2 + 𝐵2 + 𝐶 2 点 𝑃 到过...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 6. 距离公式 考研数学 · 多元函数积分学 直线垂直平面 𝑠×𝑛=0 直线方向与平面法向平行 两平面垂直 𝑛1 ⋅ 𝑛2 = 0 法向量垂直 6. 距离公式 点 𝑃0 (𝑥0 , 𝑦0 , 𝑧0 ) 到平面 𝐴𝑥 + 𝐵𝑦 + 𝐶𝑧 + 𝐷 = 0 的距离为 |𝐴𝑥0 + 𝐵𝑦0 + 𝐶𝑧0 + 𝐷| 𝑑= √ 𝐴2 + 𝐵2 + 𝐶 2 点 𝑃 到过点 𝐴、方向向量为 𝑠 的直线距离为 ⃗ × 𝑠| |𝐴𝑃 𝑑= |𝑠| 两异面直线 𝑙1 : 𝐴1 + 𝑡𝑠1 , 𝑙2 : 𝐴2 + 𝑡𝑠2 之间的距离为 |⃗ 𝐴1 𝐴2 ⋅ (𝑠1 × 𝑠2 )| 𝑑= |𝑠1 × 𝑠2 | 易错点： 空间解析几何中，直线看方向向量，平面看法向量。判断平行、垂直、夹角和距离时，先把题目 中的几何对象转化为向量。 三、多元函数微分与场论基础 1. 偏导数与全微分 二元函数 𝑧 = 𝑓(𝑥, 𝑦) 的偏导数为 𝜕𝑓 𝜕𝑓 𝑓𝑥 = , 𝑓𝑦 = 𝜕𝑥 𝜕𝑦 若 𝑓 在点附近可微，则全微分为 𝑑𝑧 = 𝑓𝑥 𝑑𝑥 + 𝑓𝑦 𝑑𝑦 三元函数 𝑢 = 𝑓(𝑥, 𝑦, 𝑧) 的全微分为 𝑑𝑢 = 𝑓𝑥 𝑑𝑥 + 𝑓𝑦 𝑑𝑦 + 𝑓𝑧 𝑑𝑧 2. 方向导数 设 𝑢 = 𝑓(𝑥, 𝑦, 𝑧)，单位方向向量为 𝑒 = (cos 𝛼, cos 𝛽, cos 𝛾) 则函数在该方向上的方向导数为 𝜕𝑓 = 𝑓𝑥 cos 𝛼 + 𝑓𝑦 cos 𝛽 + 𝑓𝑧 cos 𝛾 𝜕𝑒"
+  },
+  {
+    "id": "doc-73ec94e14160-p5",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "3. 梯度",
+    "snippet": "考研数学 · 多元函数积分学 向量形式为 𝜕𝑓 = grad 𝑓 ⋅ 𝑒 𝜕𝑒 其中 𝑒 必须是单位向量。若给的是普通方向向量 𝑎，要先单位化： 𝑎 𝑒= |𝑎| 3. 梯度 标量场 𝑓(𝑥, 𝑦, 𝑧) 的梯度为 grad 𝑓 = (𝑓𝑥 , 𝑓𝑦 , 𝑓𝑧 ) 也写作 𝜕𝑓 𝜕𝑓 𝜕𝑓 ∇𝑓 = 𝑖+ 𝑗+ 𝑘 𝜕𝑥 𝜕𝑦 𝜕𝑧 梯度...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 3. 梯度 考研数学 · 多元函数积分学 向量形式为 𝜕𝑓 = grad 𝑓 ⋅ 𝑒 𝜕𝑒 其中 𝑒 必须是单位向量。若给的是普通方向向量 𝑎，要先单位化： 𝑎 𝑒= |𝑎| 3. 梯度 标量场 𝑓(𝑥, 𝑦, 𝑧) 的梯度为 grad 𝑓 = (𝑓𝑥 , 𝑓𝑦 , 𝑓𝑧 ) 也写作 𝜕𝑓 𝜕𝑓 𝜕𝑓 ∇𝑓 = 𝑖+ 𝑗+ 𝑘 𝜕𝑥 𝜕𝑦 𝜕𝑧 梯度的意义： 1. grad 𝑓 指向函数增长最快的方向。 2. 最大方向导数为 |grad 𝑓|。 3. grad 𝑓 垂直于等值面 𝑓(𝑥, 𝑦, 𝑧) = 𝐶 。 因此曲面 𝐹 (𝑥, 𝑦, 𝑧) = 0 在点 𝑃0 处的法向量可取 𝑛 = grad 𝐹 (𝑃0 ) 切平面方程为 𝐹𝑥(𝑃0 ) (𝑥 − 𝑥0 ) + 𝐹𝑦(𝑃0 ) (𝑦 − 𝑦0 ) + 𝐹𝑧(𝑃0 ) (𝑧 − 𝑧0 ) = 0 4. 向量场 向量场通常写为 𝐹 (𝑥, 𝑦, 𝑧) = (𝑃 (𝑥, 𝑦, 𝑧), 𝑄(𝑥, 𝑦, 𝑧), 𝑅(𝑥, 𝑦, 𝑧)) 它可以表示力场、速度场、电场等。第二型曲线积分 ∫ 𝐹 ⋅ 𝑑𝑟 𝐿 表示沿路径的做功；第二型曲面积分 ∬ 𝐹 ⋅ 𝑛 𝑑𝑆 Σ 表示穿过曲面的通量。 5. 散度 向量场 𝐹 = (𝑃 , 𝑄, 𝑅) 的散度为"
+  },
+  {
+    "id": "doc-73ec94e14160-p6",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "1. div 𝐹 > 0 表示局部像源一样向外发散。",
+    "snippet": "考研数学 · 多元函数积分学 𝜕𝑃 𝜕𝑄 𝜕𝑅 div 𝐹 = + + 𝜕𝑥 𝜕𝑦 𝜕𝑧 也写作 ∇ ⋅ 𝐹 = 𝑃𝑥 + 𝑄𝑦 + 𝑅𝑧 散度描述向量场在某点附近的源汇强度： 1. div 𝐹 > 0 表示局部像源一样向外发散。 2. div 𝐹 < 0 表示局部像汇一样向内吸收。 3. div 𝐹 = 0 常称为无源场或不可压缩场。 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 1. div 𝐹 > 0 表示局部像源一样向外发散。 考研数学 · 多元函数积分学 𝜕𝑃 𝜕𝑄 𝜕𝑅 div 𝐹 = + + 𝜕𝑥 𝜕𝑦 𝜕𝑧 也写作 ∇ ⋅ 𝐹 = 𝑃𝑥 + 𝑄𝑦 + 𝑅𝑧 散度描述向量场在某点附近的源汇强度： 1. div 𝐹 > 0 表示局部像源一样向外发散。 2. div 𝐹 < 0 表示局部像汇一样向内吸收。 3. div 𝐹 = 0 常称为无源场或不可压缩场。 高斯公式正是把闭曲面通量与区域内散度累加联系起来： ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ div 𝐹 𝑑𝑉 𝑆 Ω 6. 旋度 向量场 𝐹 = (𝑃 , 𝑄, 𝑅) 的旋度为 𝑖 𝑗 𝑘 curl 𝐹 = ∇ × 𝐹 = 𝜕𝑥 𝜕𝑦 𝜕𝑧 (𝑃 𝑄 𝑅) 展开为 curl 𝐹 = (𝑅𝑦 − 𝑄𝑧 , 𝑃𝑧 − 𝑅𝑥 , 𝑄𝑥 − 𝑃𝑦 ) 旋度描述向量场的局部旋转趋势： 1. curl 𝐹 = 0 常称为无旋场。 2. 平面场 𝐹 = (𝑃 , 𝑄) 的旋度只剩 𝑧 分量 𝑄𝑥 − 𝑃𝑦 。 3. 格林公式中的 𝑄𝑥 − 𝑃𝑦 可以理解为平面向量场的旋度。 斯托克斯公式把闭曲线环流与曲面上旋度通量联系起来： ∮ 𝐹 ⋅ 𝑑𝑟 = ∬ (curl 𝐹 ) ⋅ 𝑛 𝑑𝑆 Γ Σ 7. 常用恒等关系 若函数足够光滑，则 curl(grad 𝑓) = 0 表示梯度场无旋。 又有 div(curl 𝐹 ) = 0 表示旋度场无源。 若 𝐹 = grad 𝑓 ，则第二型曲线积分与路径无关： 𝐵 ∫ 𝐹 ⋅ 𝑑𝑟 = 𝑓(𝐵) − 𝑓(𝐴) 𝐴"
+  },
+  {
+    "id": "doc-73ec94e14160-p7",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "易错点： 方向导数一定要用单位方向向量；梯度属于标量场，散度和旋度属于向量场。不要把 grad 𝑓 、",
+    "snippet": "考研数学 · 多元函数积分学 易错点： 方向导数一定要用单位方向向量；梯度属于标量场，散度和旋度属于向量场。不要把 grad 𝑓 、 div 𝐹 、curl 𝐹 的对象混在一起。",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 方向导数一定要用单位方向向量；梯度属于标量场，散度和旋度属于向量场。不要把 grad 𝑓 、 考研数学 · 多元函数积分学 易错点： 方向导数一定要用单位方向向量；梯度属于标量场，散度和旋度属于向量场。不要把 grad 𝑓 、 div 𝐹 、curl 𝐹 的对象混在一起。"
+  },
+  {
+    "id": "doc-73ec94e14160-p8",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 8,
+    "heading": "四、二重积分",
+    "snippet": "考研数学 · 多元函数积分学 四、二重积分 1. 定义与意义 二重积分表示函数在平面区域 𝐷 上的累加： ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 𝐷 在直角坐标下： 𝑑𝜎 = 𝑑𝑥 𝑑𝑦 若 𝑓(𝑥, 𝑦) ≥ 0，则二重积分表示以 𝐷 为底、以曲面 𝑧 = 𝑓(𝑥, 𝑦) 为顶的曲顶柱体体积： 𝑉 = ∬ 𝑓(𝑥, 𝑦) 𝑑𝑥 𝑑𝑦 𝐷 若 𝑓(𝑥,...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 四、二重积分 考研数学 · 多元函数积分学 四、二重积分 1. 定义与意义 二重积分表示函数在平面区域 𝐷 上的累加： ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 𝐷 在直角坐标下： 𝑑𝜎 = 𝑑𝑥 𝑑𝑦 若 𝑓(𝑥, 𝑦) ≥ 0，则二重积分表示以 𝐷 为底、以曲面 𝑧 = 𝑓(𝑥, 𝑦) 为顶的曲顶柱体体积： 𝑉 = ∬ 𝑓(𝑥, 𝑦) 𝑑𝑥 𝑑𝑦 𝐷 若 𝑓(𝑥, 𝑦) = 1，则表示区域面积： 𝑆𝐷 = ∬ 1 𝑑𝑥 𝑑𝑦 𝐷 2. 直角坐标计算 若 𝐷 是 𝑥 型区域： 𝐷 = {(𝑥, 𝑦) | 𝑎 ≤ 𝑥 ≤ 𝑏, 𝜑1 (𝑥) ≤ 𝑦 ≤ 𝜑2 (𝑥)} 则 𝑏 𝜑2 (𝑥) ∬ 𝑓 𝑑𝑥 𝑑𝑦 = ∫ ∫ 𝑓(𝑥, 𝑦) 𝑑𝑦 𝑑𝑥 𝐷 𝑎 𝜑1 (𝑥) 若 𝐷 是 𝑦 型区域： 𝐷 = {(𝑥, 𝑦) | 𝑐 ≤ 𝑦 ≤ 𝑑, 𝜓1 (𝑦) ≤ 𝑥 ≤ 𝜓2 (𝑦)} 则 𝑑 𝜓2 (𝑦) ∬ 𝑓 𝑑𝑥 𝑑𝑦 = ∫ ∫ 𝑓(𝑥, 𝑦) 𝑑𝑥 𝑑𝑦 𝐷 𝑐 𝜓1 (𝑦) 换序的本质不是交换 𝑑𝑥, 𝑑𝑦，而是重新描述同一个区域 𝐷。 3. 极坐标 极坐标变换为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃 面积元为 𝑑𝑥 𝑑𝑦 = 𝑟 𝑑𝑟 𝑑𝜃 因此 ∬ 𝑓(𝑥, 𝑦) 𝑑𝑥 𝑑𝑦 = ∬ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃)𝑟 𝑑𝑟 𝑑𝜃 𝐷 𝐷′ 适合区域或函数中出现 𝑥2 + 𝑦2 、圆、圆环、扇形等结构。"
+  },
+  {
+    "id": "doc-73ec94e14160-p9",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 9,
+    "heading": "4. 对称性",
+    "snippet": "考研数学 · 多元函数积分学 4. 对称性 若 𝐷 关于 𝑦 轴对称，且 𝑓(−𝑥, 𝑦) = −𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 = 0 𝐷 若 𝐷 关于 𝑥 轴对称，且 𝑓(𝑥, −𝑦) = −𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 = 0 𝐷 若 𝐷 关于原点对称，且 𝑓(−𝑥, −𝑦) = −𝑓(𝑥, 𝑦)，则 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 4. 对称性 考研数学 · 多元函数积分学 4. 对称性 若 𝐷 关于 𝑦 轴对称，且 𝑓(−𝑥, 𝑦) = −𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 = 0 𝐷 若 𝐷 关于 𝑥 轴对称，且 𝑓(𝑥, −𝑦) = −𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 = 0 𝐷 若 𝐷 关于原点对称，且 𝑓(−𝑥, −𝑦) = −𝑓(𝑥, 𝑦)，则 ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 = 0 𝐷 易错点： 对称性必须同时检查区域和被积函数。函数是奇函数但区域不对称时，积分不一定为零。 5. 基本性质与估值定理 二重积分具有和一元定积分类似的线性、区域可加性和保号性： ∬ (𝛼𝑓 + 𝛽𝑔) 𝑑𝜎 = 𝛼 ∬ 𝑓 𝑑𝜎 + 𝛽 ∬ 𝑔 𝑑𝜎 𝐷 𝐷 𝐷 若 𝐷 = 𝐷1 ∪ 𝐷2 ，且 𝐷1 , 𝐷2 内部不重叠，则 ∬ 𝑓 𝑑𝜎 = ∬ 𝑓 𝑑𝜎 + ∬ 𝑓 𝑑𝜎 𝐷 𝐷1 𝐷2 若 𝑓(𝑥, 𝑦) ≥ 𝑔(𝑥, 𝑦)，则 ∬ 𝑓 𝑑𝜎 ≥ ∬ 𝑔 𝑑𝜎 𝐷 𝐷 若在闭区域 𝐷 上有 𝑚 ≤ 𝑓(𝑥, 𝑦) ≤ 𝑀 且 𝑆𝐷 = ∬ 1 𝑑𝜎，则估值定理为 𝐷 𝑚𝑆𝐷 ≤ ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 ≤ 𝑀 𝑆𝐷 𝐷 特别地， |∬ 𝑓 𝑑𝜎| ≤ ∬ |𝑓| 𝑑𝜎 ≤ 𝑀 𝑆𝐷 (|𝑓| ≤ 𝑀 ) 𝐷 𝐷 6. 二重积分中值定理 若 𝑓 在有界闭区域 𝐷 上连续，则存在点 (𝜉, 𝜂) ∈ 𝐷，使 ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 = 𝑓(𝜉, 𝜂)𝑆𝐷 𝐷 等价地，区域上的平均值为"
+  },
+  {
+    "id": "doc-73ec94e14160-p10",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 10,
+    "heading": "7. 平面区域形心与薄片质心",
+    "snippet": "考研数学 · 多元函数积分学 1 𝑓avg = ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 𝑆𝐷 𝐷 计算用途： 估值定理适合判断积分范围或证明不等式；中值定理适合把积分转化为“平均值乘面积”，常用 于证明存在性和估计数量级。 7. 平面区域形心与薄片质心 若 𝐷 是均匀平面薄片，面积为 𝑆𝐷 = ∬ 1 𝑑𝜎 𝐷 则形心坐标为 1 1 𝑥𝑐 = ∬ 𝑥 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 7. 平面区域形心与薄片质心 考研数学 · 多元函数积分学 1 𝑓avg = ∬ 𝑓(𝑥, 𝑦) 𝑑𝜎 𝑆𝐷 𝐷 计算用途： 估值定理适合判断积分范围或证明不等式；中值定理适合把积分转化为“平均值乘面积”，常用 于证明存在性和估计数量级。 7. 平面区域形心与薄片质心 若 𝐷 是均匀平面薄片，面积为 𝑆𝐷 = ∬ 1 𝑑𝜎 𝐷 则形心坐标为 1 1 𝑥𝑐 = ∬ 𝑥 𝑑𝜎, 𝑦𝑐 = ∬ 𝑦 𝑑𝜎 𝑆𝐷 𝐷 𝑆𝐷 𝐷 若薄片密度为 𝜌(𝑥, 𝑦)，则质量为 𝑚 = ∬ 𝜌(𝑥, 𝑦) 𝑑𝜎 𝐷 质心坐标为 1 1 𝑥𝑐 = ∬ 𝑥𝜌(𝑥, 𝑦) 𝑑𝜎, 𝑦𝑐 = ∬ 𝑦𝜌(𝑥, 𝑦) 𝑑𝜎 𝑚 𝐷 𝑚 𝐷 对称简化： 若均匀区域关于 𝑦 轴对称，则 𝑥𝑐 = 0；关于 𝑥 轴对称，则 𝑦𝑐 = 0；关于原点中心对称，则形 心在原点。质心同理，但密度也必须具有相应对称性。"
+  },
+  {
+    "id": "doc-73ec94e14160-p11",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 11,
+    "heading": "五、三重积分",
+    "snippet": "考研数学 · 多元函数积分学 五、三重积分 1. 定义与意义 三重积分表示函数在空间区域 Ω 上的累加： ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 若 𝑓 = 1，则表示空间区域体积： 𝑉 = ∭ 1 𝑑𝑉 Ω 若 𝜌(𝑥, 𝑦, 𝑧) 是密度，则质量为 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 2. 直角坐标投影法 若空间区域可写成 Ω =...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 五、三重积分 考研数学 · 多元函数积分学 五、三重积分 1. 定义与意义 三重积分表示函数在空间区域 Ω 上的累加： ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 若 𝑓 = 1，则表示空间区域体积： 𝑉 = ∭ 1 𝑑𝑉 Ω 若 𝜌(𝑥, 𝑦, 𝑧) 是密度，则质量为 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 2. 直角坐标投影法 若空间区域可写成 Ω = {(𝑥, 𝑦, 𝑧) | (𝑥, 𝑦) ∈ 𝐷, 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦)} 则 𝑧2 (𝑥,𝑦) ∭ 𝑓 𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑧 𝑑𝑥 𝑑𝑦 Ω 𝐷 𝑧1 (𝑥,𝑦) 也可以投影到 𝑥𝑧 平面或 𝑦𝑧 平面。原则是：哪一个变量上下界最容易写，就把它放在内层。 3. 柱坐标 柱坐标为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑧=𝑧 体积元为 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 所以 ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 = ∭ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃, 𝑧)𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 Ω Ω′ 适合圆柱、圆锥、旋转抛物面等区域。 4. 球坐标 本资料采用 𝑥 = 𝜌 sin 𝜑 cos 𝜃 𝑦 = 𝜌 sin 𝜑 sin 𝜃 𝑧 = 𝜌 cos 𝜑 其中 𝜌 是到原点的距离，𝜑 是与正 𝑧 轴的夹角，𝜃 是 𝑥𝑦 平面极角。 体积元为"
+  },
+  {
+    "id": "doc-73ec94e14160-p12",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 12,
+    "heading": "5. 坐标选择",
+    "snippet": "考研数学 · 多元函数积分学 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 适合球、球壳、球锥组合等区域。 5. 坐标选择 坐标系 典型区域 核心面积/体积元 直角坐标 平面、简单曲面围成区域 𝑑𝑉 = 𝑑𝑥 𝑑𝑦 𝑑𝑧 柱坐标 圆柱、圆锥、旋转抛物面 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 球坐标 球、球壳、球冠 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 5. 坐标选择 考研数学 · 多元函数积分学 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 适合球、球壳、球锥组合等区域。 5. 坐标选择 坐标系 典型区域 核心面积/体积元 直角坐标 平面、简单曲面围成区域 𝑑𝑉 = 𝑑𝑥 𝑑𝑦 𝑑𝑧 柱坐标 圆柱、圆锥、旋转抛物面 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 球坐标 球、球壳、球冠 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 6. 基本性质、对称性与估值 三重积分同样满足线性、区域可加性和保号性。若 Ω = Ω1 ∪ Ω2 ，且两部分内部不重叠，则 ∭ 𝑓 𝑑𝑉 = ∭ 𝑓 𝑑𝑉 + ∭ 𝑓 𝑑𝑉 Ω Ω1 Ω2 若 𝑚 ≤ 𝑓(𝑥, 𝑦, 𝑧) ≤ 𝑀 ，且区域体积为 𝑉Ω = ∭ 1 𝑑𝑉 Ω 则 𝑚𝑉Ω ≤ ∭ 𝑓 𝑑𝑉 ≤ 𝑀 𝑉Ω Ω 若 𝑓 在闭区域 Ω 上连续，则存在 (𝜉, 𝜂, 𝜁) ∈ Ω，使 ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 = 𝑓(𝜉, 𝜂, 𝜁)𝑉Ω Ω 对称性是三重积分的重要简化方法。例如 Ω 关于 𝑦𝑧 平面对称，且 𝑓(−𝑥, 𝑦, 𝑧) = −𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓 𝑑𝑉 = 0 Ω 若 𝑓(−𝑥, 𝑦, 𝑧) = 𝑓(𝑥, 𝑦, 𝑧)，则可取半个区域 Ω+ ： ∭ 𝑓 𝑑𝑉 = 2 ∭ 𝑓 𝑑𝑉 Ω Ω+ 其他关于 𝑥𝑧 平面、𝑥𝑦 平面和原点的对称性同理。 7. 空间区域形心与质心 若 Ω 是均匀空间体，体积为 𝑉Ω ，则形心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧 𝑑𝑉 𝑉Ω Ω 𝑉Ω Ω 𝑉Ω Ω 若空间体密度为 𝜌(𝑥, 𝑦, 𝑧)，则质量为"
+  },
+  {
+    "id": "doc-73ec94e14160-p13",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 13,
+    "heading": "易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密",
+    "snippet": "考研数学 · 多元函数积分学 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 质心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥𝜌 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦𝜌 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧𝜌 𝑑𝑉 𝑚 Ω 𝑚 Ω 𝑚 Ω 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 度函数，必须使用带 𝜌 的质心公式。",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 考研数学 · 多元函数积分学 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 质心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥𝜌 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦𝜌 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧𝜌 𝑑𝑉 𝑚 Ω 𝑚 Ω 𝑚 Ω 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 度函数，必须使用带 𝜌 的质心公式。"
+  },
+  {
+    "id": "doc-73ec94e14160-p14",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 14,
+    "heading": "六、第一型曲线积分",
+    "snippet": "考研数学 · 多元函数积分学 六、第一型曲线积分 1. 定义 第一型曲线积分也称对弧长的曲线积分： ∫ 𝑓(𝑥, 𝑦) 𝑑𝑠 𝐿 它表示函数沿曲线 𝐿 按弧长累加，不依赖曲线方向。 若空间曲线为 𝑟(𝑡) = (𝑥(𝑡), 𝑦(𝑡), 𝑧(𝑡)), 𝛼 ≤ 𝑡 ≤ 𝛽 则 𝑑𝑠 = √(𝑥′ (𝑡))2 + (𝑦′ (𝑡))2 + (𝑧 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 六、第一型曲线积分 考研数学 · 多元函数积分学 六、第一型曲线积分 1. 定义 第一型曲线积分也称对弧长的曲线积分： ∫ 𝑓(𝑥, 𝑦) 𝑑𝑠 𝐿 它表示函数沿曲线 𝐿 按弧长累加，不依赖曲线方向。 若空间曲线为 𝑟(𝑡) = (𝑥(𝑡), 𝑦(𝑡), 𝑧(𝑡)), 𝛼 ≤ 𝑡 ≤ 𝛽 则 𝑑𝑠 = √(𝑥′ (𝑡))2 + (𝑦′ (𝑡))2 + (𝑧 ′ (𝑡))2 𝑑𝑡 因此 𝛽 ∫ 𝑓 𝑑𝑠 = ∫ 𝑓(𝑥(𝑡), 𝑦(𝑡), 𝑧(𝑡))√(𝑥′ )2 + (𝑦′ )2 + (𝑧 ′ )2 𝑑𝑡 𝐿 𝛼 平面曲线时去掉 𝑧 项即可。 2. 常用形式 若平面曲线由 𝑦 = 𝑦(𝑥) 给出，𝑎 ≤ 𝑥 ≤ 𝑏，则 𝑑𝑠 = √1 + (𝑦′ )2 𝑑𝑥 所以 𝑏 ∫ 𝑓(𝑥, 𝑦) 𝑑𝑠 = ∫ 𝑓(𝑥, 𝑦(𝑥))√1 + (𝑦′ )2 𝑑𝑥 𝐿 𝑎 若曲线由极坐标 𝑟 = 𝑟(𝜃) 给出，则 𝑟 2 𝑑𝑠 = √𝑟2 + (𝑑 𝜃) 𝑑𝜃 𝑑 3. 应用 若 𝜌(𝑥, 𝑦, 𝑧) 是细线密度，则曲线质量为 𝑚 = ∫ 𝜌 𝑑𝑠 𝐿 若 𝜌 = 1，则曲线积分给出弧长： 𝑠 = ∫ 1 𝑑𝑠 𝐿 若均匀细线的长度为 𝑠𝐿 ，则形心为 1 1 1 𝑥𝑐 = ∫ 𝑥 𝑑𝑠, 𝑦𝑐 = ∫ 𝑦 𝑑𝑠, 𝑧𝑐 = ∫ 𝑧 𝑑𝑠 𝑠𝐿 𝐿 𝑠𝐿 𝐿 𝑠𝐿 𝐿"
+  },
+  {
+    "id": "doc-73ec94e14160-p15",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 15,
+    "heading": "易错点： 第一型曲线积分不看方向。把曲线反向参数化，积分值不变。",
+    "snippet": "考研数学 · 多元函数积分学 若细线密度为 𝜌(𝑥, 𝑦, 𝑧)，则质心为 1 1 1 𝑥𝑐 = ∫ 𝑥𝜌 𝑑𝑠, 𝑦𝑐 = ∫ 𝑦𝜌 𝑑𝑠, 𝑧𝑐 = ∫ 𝑧𝜌 𝑑𝑠 𝑚 𝐿 𝑚 𝐿 𝑚 𝐿 易错点： 第一型曲线积分不看方向。把曲线反向参数化，积分值不变。",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 第一型曲线积分不看方向。把曲线反向参数化，积分值不变。 考研数学 · 多元函数积分学 若细线密度为 𝜌(𝑥, 𝑦, 𝑧)，则质心为 1 1 1 𝑥𝑐 = ∫ 𝑥𝜌 𝑑𝑠, 𝑦𝑐 = ∫ 𝑦𝜌 𝑑𝑠, 𝑧𝑐 = ∫ 𝑧𝜌 𝑑𝑠 𝑚 𝐿 𝑚 𝐿 𝑚 𝐿 易错点： 第一型曲线积分不看方向。把曲线反向参数化，积分值不变。"
+  },
+  {
+    "id": "doc-73ec94e14160-p16",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 16,
+    "heading": "七、第二型曲线积分",
+    "snippet": "考研数学 · 多元函数积分学 七、第二型曲线积分 1. 定义 第二型曲线积分也称对坐标的曲线积分。平面形式为 ∫ 𝑃 (𝑥, 𝑦) 𝑑𝑥 + 𝑄(𝑥, 𝑦) 𝑑𝑦 𝐿 空间形式为 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 𝐿 它与曲线方向有关，常表示向量场沿路径做功： ∫ 𝐹 ⋅ 𝑑𝑟 𝐿 其中 𝐹 = (𝑃 , 𝑄, 𝑅)，𝑑𝑟 = (...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 七、第二型曲线积分 考研数学 · 多元函数积分学 七、第二型曲线积分 1. 定义 第二型曲线积分也称对坐标的曲线积分。平面形式为 ∫ 𝑃 (𝑥, 𝑦) 𝑑𝑥 + 𝑄(𝑥, 𝑦) 𝑑𝑦 𝐿 空间形式为 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 𝐿 它与曲线方向有关，常表示向量场沿路径做功： ∫ 𝐹 ⋅ 𝑑𝑟 𝐿 其中 𝐹 = (𝑃 , 𝑄, 𝑅)，𝑑𝑟 = (𝑑𝑥, 𝑑𝑦, 𝑑𝑧)。 2. 参数化计算 若 𝑟(𝑡) = (𝑥(𝑡), 𝑦(𝑡), 𝑧(𝑡))，𝛼 ≤ 𝑡 ≤ 𝛽 ，方向随 𝑡 增大，则 𝛽 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 = ∫ [𝑃 𝑥′ (𝑡) + 𝑄𝑦′ (𝑡) + 𝑅𝑧 ′ (𝑡)] 𝑑𝑡 𝐿 𝛼 其中 𝑃 , 𝑄, 𝑅 都要代入 𝑥(𝑡), 𝑦(𝑡), 𝑧(𝑡)。 平面情形为 𝛽 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∫ [𝑃 𝑥′ (𝑡) + 𝑄𝑦′ (𝑡)] 𝑑𝑡 𝐿 𝛼 3. 方向性 若 𝐿− 表示与 𝐿 相反方向的曲线，则 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 = − ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 𝐿− 𝐿 闭合曲线积分常写作 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 𝐿 4. 与路径无关 平面区域单连通且 𝑃 , 𝑄 有连续偏导时，若 𝜕𝑃 𝜕𝑄 = 𝜕𝑦 𝜕𝑥 则曲线积分 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 𝐿 与路径无关，只与起点、终点有关。"
+  },
+  {
+    "id": "doc-73ec94e14160-p17",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 17,
+    "heading": "易错点：路径无关的判定通常需要区域单连通。只验证 𝑃𝑦 = 𝑄𝑥 还不够，题目若区域有洞，需要格外小心。",
+    "snippet": "考研数学 · 多元函数积分学 此时存在势函数 𝑢(𝑥, 𝑦)，使 𝑑𝑢 = 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 于是 𝐵 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = 𝑢(𝐵) − 𝑢(𝐴) 𝐴 易错点：路径无关的判定通常需要区域单连通。只验证 𝑃𝑦 = 𝑄𝑥 还不够，题目若区域有洞，需要格外小心。",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点：路径无关的判定通常需要区域单连通。只验证 𝑃𝑦 = 𝑄𝑥 还不够，题目若区域有洞，需要格外小心。 考研数学 · 多元函数积分学 此时存在势函数 𝑢(𝑥, 𝑦)，使 𝑑𝑢 = 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 于是 𝐵 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = 𝑢(𝐵) − 𝑢(𝐴) 𝐴 易错点：路径无关的判定通常需要区域单连通。只验证 𝑃𝑦 = 𝑄𝑥 还不够，题目若区域有洞，需要格外小心。"
+  },
+  {
+    "id": "doc-73ec94e14160-p18",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 18,
+    "heading": "八、格林公式",
+    "snippet": "考研数学 · 多元函数积分学 八、格林公式 1. 公式 设 𝐷 是平面有界闭区域，边界 𝐿 正向取逆时针方向，𝑃 , 𝑄 在 𝐷 上有连续一阶偏导，则 𝜕𝑄 𝜕𝑃 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ [ − ] 𝑑𝑥 𝑑𝑦 𝐿 𝐷 𝜕𝑥 𝜕𝑦 这就是格林公式。 2. 正向边界 平面区域的正向边界指沿边界走时，区域始终在左侧。对简单闭曲线来...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 八、格林公式 考研数学 · 多元函数积分学 八、格林公式 1. 公式 设 𝐷 是平面有界闭区域，边界 𝐿 正向取逆时针方向，𝑃 , 𝑄 在 𝐷 上有连续一阶偏导，则 𝜕𝑄 𝜕𝑃 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ [ − ] 𝑑𝑥 𝑑𝑦 𝐿 𝐷 𝜕𝑥 𝜕𝑦 这就是格林公式。 2. 正向边界 平面区域的正向边界指沿边界走时，区域始终在左侧。对简单闭曲线来说就是逆时针方向。 若题目给的是顺时针方向，则 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = − ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 𝐿− 𝐿 3. 面积公式 由格林公式可以得到平面区域面积： 1 𝑆= ∮ 𝑥 𝑑𝑦 − 𝑦 𝑑𝑥 2 𝐿 也可用 𝑆 = ∮ 𝑥 𝑑𝑦 𝐿 或 𝑆 = − ∮ 𝑦 𝑑𝑥 𝐿 前提是 𝐿 取正向。 4. 典型用途 1. 把复杂闭曲线积分转化为二重积分。 2. 求平面区域面积。 3. 判断闭曲线积分是否为零。 4. 处理路径无关问题。 5. 三类常见应用场景 做格林公式题时，不要一上来就套公式。考研中更稳定的判断顺序是： 判断顺序： 先看曲线是否封闭；再看曲线围成的区域内部是否有奇点；最后看 𝑄𝑥 − 𝑃𝑦 是否为零或是否容 易积分。 场景 判断条件 核心做法 闭曲线且内部无奇点 曲线 𝐿 封闭，𝑃 , 𝑄 在 𝐿 及其内部区 直接使用格林公式，把闭曲线积分化为区域二 域 𝐷 上连续可偏导。 重积分。注意边界正向为逆时针。"
+  },
+  {
+    "id": "doc-73ec94e14160-p19",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 19,
+    "heading": "易错点： 这里说的“差值不为零”，通常就是 𝑄𝑥 − 𝑃𝑦 ≠ 0。如果 𝑄𝑥 − 𝑃𝑦 = 0 且区域单连通，则可能改用",
+    "snippet": "考研数学 · 多元函数积分学 曲线不封闭且 𝑄𝑥 − 曲线不是闭合曲线，并且偏导差不为 补一段辅助曲线 𝐿0 使其闭合，先对 𝐿 + 𝐿0 𝑃𝑦 ≠ 0 零，所以不能直接用路径无关。 用格林公式，再减去辅助曲线上的积分。 闭曲线但内部有奇点 曲线封闭，但 𝑃 , 𝑄 在内部某点不连 不能直接对整个区域用格林公式。应挖去奇点 续，例如分母在...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 这里说的“差值不为零”，通常就是 𝑄𝑥 − 𝑃𝑦 ≠ 0。如果 𝑄𝑥 − 𝑃𝑦 = 0 且区域单连通，则可能改用 考研数学 · 多元函数积分学 曲线不封闭且 𝑄𝑥 − 曲线不是闭合曲线，并且偏导差不为 补一段辅助曲线 𝐿0 使其闭合，先对 𝐿 + 𝐿0 𝑃𝑦 ≠ 0 零，所以不能直接用路径无关。 用格林公式，再减去辅助曲线上的积分。 闭曲线但内部有奇点 曲线封闭，但 𝑃 , 𝑄 在内部某点不连 不能直接对整个区域用格林公式。应挖去奇点 续，例如分母在原点为零。 附近的小圆或小椭圆，在去奇点区域使用格林 公式，并处理内边界方向。 场景一：闭曲线且内部无奇点 若 𝐿 是区域 𝐷 的正向边界，且 𝑃 , 𝑄 在 𝐷 上连续可偏导，则直接套用： ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐿 𝐷 这种题的关键不是路径形状，而是二重积分区域 𝐷 是否容易描述。若 𝑄𝑥 − 𝑃𝑦 是常数，问题常常进一步变成 面积计算。 场景二：曲线不封闭且 𝑄𝑥 − 𝑃𝑦 ≠ 0 若曲线 𝐿 从点 𝐴 到点 𝐵，本身不封闭，格林公式不能直接使用。此时常见做法是补一条辅助曲线 𝐿0 ，让 𝐶 = 𝐿 + 𝐿0 成为正向闭曲线。若 𝐶 围成区域 𝐷，则 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐶 𝐷 而 ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 − ∫ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 𝐿 𝐷 𝐿0 上式的符号取决于补线后闭曲线的方向。若补线方向与正向边界方向相反，减去时要同时注意方向号。 易错点： 这里说的“差值不为零”，通常就是 𝑄𝑥 − 𝑃𝑦 ≠ 0。如果 𝑄𝑥 − 𝑃𝑦 = 0 且区域单连通，则可能改用 路径无关或全微分方法；但当 𝑄𝑥 − 𝑃𝑦 ≠ 0 时，一般不能把积分只看成端点差。 场景三：闭曲线但内部有奇点 若 𝐿 已经封闭，但 𝑃 , 𝑄 在 𝐿 内部某点不连续，格林公式不能直接作用在整个区域上。典型处理是： 1. 以奇点为中心挖去一个很小的圆或椭圆 𝐶𝜀 。 2. 在去掉奇点后的区域 𝐷𝜀 上使用格林公式。 3. 注意内边界方向：对 𝐷𝜀 来说，外边界为逆时针，内边界为顺时针。 4. 若需要，令 𝜀 → 0，计算小圆或小椭圆边界上的极限积分。 对于含有 1 1 , 𝑥2 + 𝑦 2 𝑥2 + 2𝑦2 这类分母的题，原点往往就是需要优先检查的奇点。后面的“含奇点边界积分”例题正是这类情形：先挖去原点 附近的小椭圆，再在无奇点区域内使用格林公式。"
+  },
+  {
+    "id": "doc-73ec94e14160-p20",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 20,
+    "heading": "6. 例题",
+    "snippet": "考研数学 · 多元函数积分学 6. 例题 题目 设 𝐿 为圆 𝑥2 + 𝑦2 = 𝑎2 的正向边界，求 ∮ −𝑦 𝑑𝑥 + 𝑥 𝑑𝑦。 𝐿 由格林公式， 𝑃 = −𝑦, 𝑄 = 𝑥 所以 𝜕𝑄 𝜕𝑃 − = 1 − (−1) = 2 𝜕𝑥 𝜕𝑦 圆盘面积为 𝜋𝑎2 ，因此 ∮ −𝑦 𝑑𝑥 + 𝑥 𝑑𝑦 = ∬ 2 𝑑𝑥 𝑑𝑦 = 2𝜋𝑎2...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 6. 例题 考研数学 · 多元函数积分学 6. 例题 题目 设 𝐿 为圆 𝑥2 + 𝑦2 = 𝑎2 的正向边界，求 ∮ −𝑦 𝑑𝑥 + 𝑥 𝑑𝑦。 𝐿 由格林公式， 𝑃 = −𝑦, 𝑄 = 𝑥 所以 𝜕𝑄 𝜕𝑃 − = 1 − (−1) = 2 𝜕𝑥 𝜕𝑦 圆盘面积为 𝜋𝑎2 ，因此 ∮ −𝑦 𝑑𝑥 + 𝑥 𝑑𝑦 = ∬ 2 𝑑𝑥 𝑑𝑦 = 2𝜋𝑎2 𝐿 𝐷"
+  },
+  {
+    "id": "doc-73ec94e14160-p21",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 21,
+    "heading": "九、第一型曲面积分",
+    "snippet": "考研数学 · 多元函数积分学 九、第一型曲面积分 1. 定义 第一型曲面积分也称对面积的曲面积分： ∬ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑆 Σ 它表示函数在曲面 Σ 上按面积累加，不依赖曲面法向。 若 𝑓 = 1，则表示曲面面积： 𝐴 = ∬ 1 𝑑𝑆 Σ 2. 显式曲面 若曲面为 𝑧 = 𝑧(𝑥, 𝑦), (𝑥, 𝑦) ∈ 𝐷 则 𝑑𝑆 = √...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 九、第一型曲面积分 考研数学 · 多元函数积分学 九、第一型曲面积分 1. 定义 第一型曲面积分也称对面积的曲面积分： ∬ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑆 Σ 它表示函数在曲面 Σ 上按面积累加，不依赖曲面法向。 若 𝑓 = 1，则表示曲面面积： 𝐴 = ∬ 1 𝑑𝑆 Σ 2. 显式曲面 若曲面为 𝑧 = 𝑧(𝑥, 𝑦), (𝑥, 𝑦) ∈ 𝐷 则 𝑑𝑆 = √1 + 𝑧𝑥2 + 𝑧𝑦2 𝑑𝑥 𝑑𝑦 所以 ∬ 𝑓 𝑑𝑆 = ∬ 𝑓(𝑥, 𝑦, 𝑧(𝑥, 𝑦))√1 + 𝑧𝑥2 + 𝑧𝑦2 𝑑𝑥 𝑑𝑦 Σ 𝐷 类似地，若 𝑥 = 𝑥(𝑦, 𝑧)，则 𝑑𝑆 = √1 + 𝑥2𝑦 + 𝑥2𝑧 𝑑𝑦 𝑑𝑧 若 𝑦 = 𝑦(𝑥, 𝑧)，则 𝑑𝑆 = √1 + 𝑦𝑥2 + 𝑦𝑧2 𝑑𝑥 𝑑𝑧 3. 参数曲面 若曲面参数化为 𝑟(𝑢, 𝑣) = (𝑥(𝑢, 𝑣), 𝑦(𝑢, 𝑣), 𝑧(𝑢, 𝑣)) 则面积元为 𝑑𝑆 = |𝑟𝑢 × 𝑟𝑣 | 𝑑𝑢 𝑑𝑣 因此 ∬ 𝑓 𝑑𝑆 = ∬ 𝑓(𝑟(𝑢, 𝑣))|𝑟𝑢 × 𝑟𝑣 | 𝑑𝑢 𝑑𝑣 Σ 𝐺 4. 应用 若 𝜌(𝑥, 𝑦, 𝑧) 是薄壳面密度，则质量为 𝑚 = ∬ 𝜌 𝑑𝑆 Σ"
+  },
+  {
+    "id": "doc-73ec94e14160-p22",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 22,
+    "heading": "易错点： 第一型曲面积分不考虑法向。若题目出现“上侧、外侧、下侧”等方向词，通常是在提示第二型曲",
+    "snippet": "考研数学 · 多元函数积分学 若均匀曲面面积为 𝐴Σ ，则曲面形心为 1 1 1 𝑥𝑐 = ∬ 𝑥 𝑑𝑆, 𝑦𝑐 = ∬ 𝑦 𝑑𝑆, 𝑧𝑐 = ∬ 𝑧 𝑑𝑆 𝐴Σ Σ 𝐴Σ Σ 𝐴Σ Σ 若薄壳密度为 𝜌(𝑥, 𝑦, 𝑧)，则质心为 1 1 1 𝑥𝑐 = ∬ 𝑥𝜌 𝑑𝑆, 𝑦𝑐 = ∬ 𝑦𝜌 𝑑𝑆, 𝑧𝑐 = ∬ 𝑧𝜌 𝑑𝑆 𝑚 Σ 𝑚 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 第一型曲面积分不考虑法向。若题目出现“上侧、外侧、下侧”等方向词，通常是在提示第二型曲 考研数学 · 多元函数积分学 若均匀曲面面积为 𝐴Σ ，则曲面形心为 1 1 1 𝑥𝑐 = ∬ 𝑥 𝑑𝑆, 𝑦𝑐 = ∬ 𝑦 𝑑𝑆, 𝑧𝑐 = ∬ 𝑧 𝑑𝑆 𝐴Σ Σ 𝐴Σ Σ 𝐴Σ Σ 若薄壳密度为 𝜌(𝑥, 𝑦, 𝑧)，则质心为 1 1 1 𝑥𝑐 = ∬ 𝑥𝜌 𝑑𝑆, 𝑦𝑐 = ∬ 𝑦𝜌 𝑑𝑆, 𝑧𝑐 = ∬ 𝑧𝜌 𝑑𝑆 𝑚 Σ 𝑚 Σ 𝑚 Σ 易错点： 第一型曲面积分不考虑法向。若题目出现“上侧、外侧、下侧”等方向词，通常是在提示第二型曲 面积分。"
+  },
+  {
+    "id": "doc-73ec94e14160-p23",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 23,
+    "heading": "十、第二型曲面积分",
+    "snippet": "考研数学 · 多元函数积分学 十、第二型曲面积分 1. 定义 第二型曲面积分也称通量积分： ∬ 𝑃 𝑑𝑦 𝑑𝑧 + 𝑄 𝑑𝑧 𝑑𝑥 + 𝑅 𝑑𝑥 𝑑𝑦 Σ 等价地写成 ∬ 𝐹 ⋅ 𝑛 𝑑𝑆 Σ 其中 𝐹 = (𝑃 , 𝑄, 𝑅)，𝑛 是指定方向的单位法向量。 2. 显式曲面的投影计算 若 𝑧 = 𝑧(𝑥, 𝑦)，取上侧法向，则 𝑛 𝑑𝑆 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十、第二型曲面积分 考研数学 · 多元函数积分学 十、第二型曲面积分 1. 定义 第二型曲面积分也称通量积分： ∬ 𝑃 𝑑𝑦 𝑑𝑧 + 𝑄 𝑑𝑧 𝑑𝑥 + 𝑅 𝑑𝑥 𝑑𝑦 Σ 等价地写成 ∬ 𝐹 ⋅ 𝑛 𝑑𝑆 Σ 其中 𝐹 = (𝑃 , 𝑄, 𝑅)，𝑛 是指定方向的单位法向量。 2. 显式曲面的投影计算 若 𝑧 = 𝑧(𝑥, 𝑦)，取上侧法向，则 𝑛 𝑑𝑆 = (−𝑧𝑥 , −𝑧𝑦 , 1) 𝑑𝑥 𝑑𝑦 因此 ∬ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∬ [−𝑃 𝑧𝑥 − 𝑄𝑧𝑦 + 𝑅] 𝑑𝑥 𝑑𝑦 Σ 𝐷 若取下侧法向，结果取相反数。 若 𝑥 = 𝑥(𝑦, 𝑧)，取朝 𝑥 正向法向，则 𝑛 𝑑𝑆 = (1, −𝑥𝑦 , −𝑥𝑧 ) 𝑑𝑦 𝑑𝑧 若 𝑦 = 𝑦(𝑥, 𝑧)，取朝 𝑦 正向法向，则 𝑛 𝑑𝑆 = (−𝑦𝑥 , 1, −𝑦𝑧 ) 𝑑𝑥 𝑑𝑧 3. 参数曲面 若曲面参数化为 𝑟(𝑢, 𝑣) = (𝑥(𝑢, 𝑣), 𝑦(𝑢, 𝑣), 𝑧(𝑢, 𝑣)) 此时有向面积向量为 𝑛 𝑑𝑆 = ±(𝑟𝑢 × 𝑟𝑣 ) 𝑑𝑢 𝑑𝑣 方向由题目指定的法向决定。 4. 通量意义 若 𝐹 是速度场，则 ∬ 𝐹 ⋅ 𝑛 𝑑𝑆 Σ 表示单位时间穿过曲面 Σ 的流量。若 𝑛 取外法向，则表示向外流出的净通量。 易错点： 第二型曲面积分最容易错在法向。闭曲面默认取外法向；非闭曲面必须看题目指定“上侧、下侧、 外侧、朝某轴正向”等信息。"
+  },
+  {
+    "id": "doc-73ec94e14160-p24",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 24,
+    "heading": "十一、高斯公式",
+    "snippet": "考研数学 · 多元函数积分学 十一、高斯公式 1. 公式 设空间闭区域 Ω 的边界为闭曲面 𝑆 ，取外法向，𝑃 , 𝑄, 𝑅 有连续一阶偏导，则 𝜕𝑃 𝜕𝑄 𝜕𝑅 ∯ 𝑃 𝑑𝑦 𝑑𝑧 + 𝑄 𝑑𝑧 𝑑𝑥 + 𝑅 𝑑𝑥 𝑑𝑦 = ∭ [ + + ] 𝑑𝑉 𝑆 Ω 𝜕𝑥 𝜕𝑦 𝜕𝑧 向量形式为 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ div 𝐹 𝑑𝑉 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十一、高斯公式 考研数学 · 多元函数积分学 十一、高斯公式 1. 公式 设空间闭区域 Ω 的边界为闭曲面 𝑆 ，取外法向，𝑃 , 𝑄, 𝑅 有连续一阶偏导，则 𝜕𝑃 𝜕𝑄 𝜕𝑅 ∯ 𝑃 𝑑𝑦 𝑑𝑧 + 𝑄 𝑑𝑧 𝑑𝑥 + 𝑅 𝑑𝑥 𝑑𝑦 = ∭ [ + + ] 𝑑𝑉 𝑆 Ω 𝜕𝑥 𝜕𝑦 𝜕𝑧 向量形式为 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ div 𝐹 𝑑𝑉 𝑆 Ω 其中 𝜕𝑃 𝜕𝑄 𝜕𝑅 div 𝐹 = + + 𝜕𝑥 𝜕𝑦 𝜕𝑧 2. 使用条件 1. 曲面必须闭合。 2. 法向必须是外法向。 3. 被积函数在区域内有连续偏导。 若曲面不闭合，常补一个简单曲面，使其闭合，再用高斯公式。 3. 例题 题目 求向量场 𝐹 = (𝑥, 𝑦, 𝑧) 穿过球面 𝑥2 + 𝑦2 + 𝑧 2 = 𝑎2 外侧的通量。 球面为闭曲面，取外法向。由高斯公式， 𝜕𝑥 𝜕𝑦 𝜕𝑧 div 𝐹 = + + =3 𝜕𝑥 𝜕𝑦 𝜕𝑧 球体体积为 𝑎3 𝑉 = 4𝜋 3 所以通量为 𝑎3 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ 3 𝑑𝑉 = 3 ⋅ 4𝜋 = 4𝜋𝑎3 𝑆 Ω 3"
+  },
+  {
+    "id": "doc-73ec94e14160-p25",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 25,
+    "heading": "十二、斯托克斯公式",
+    "snippet": "考研数学 · 多元函数积分学 十二、斯托克斯公式 1. 公式 设有向曲面 Σ 的边界为闭曲线 Γ，且方向满足右手定则，则 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 = ∬ (curl 𝐹 ) ⋅ 𝑛 𝑑𝑆 Γ Σ 其中 𝐹 = (𝑃 , 𝑄, 𝑅) 旋度为 curl 𝐹 = (𝑅𝑦 − 𝑄𝑧 , 𝑃𝑧 − 𝑅𝑥 , 𝑄𝑥 − 𝑃𝑦 ) 2...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十二、斯托克斯公式 考研数学 · 多元函数积分学 十二、斯托克斯公式 1. 公式 设有向曲面 Σ 的边界为闭曲线 Γ，且方向满足右手定则，则 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 + 𝑅 𝑑𝑧 = ∬ (curl 𝐹 ) ⋅ 𝑛 𝑑𝑆 Γ Σ 其中 𝐹 = (𝑃 , 𝑄, 𝑅) 旋度为 curl 𝐹 = (𝑅𝑦 − 𝑄𝑧 , 𝑃𝑧 − 𝑅𝑥 , 𝑄𝑥 − 𝑃𝑦 ) 2. 方向约定 斯托克斯公式中的曲线方向和曲面法向必须匹配。右手定则为：右手四指沿边界正向弯曲时，大拇指指向曲面 法向。 若方向不匹配，结果需要取负号。 3. 与格林公式的关系 若曲面 Σ 取 𝑥𝑦 平面上的区域 𝐷，法向取 +𝑧 方向，则 curl 𝐹 ⋅ 𝑛 = 𝑄𝑥 − 𝑃𝑦 斯托克斯公式退化为格林公式： ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐿 𝐷 因此格林公式可以看成斯托克斯公式在平面上的特例。 4. 使用场景 1. 空间闭曲线积分难算，但能找到简单曲面。 2. 曲线是某个曲面的边界。 3. 旋度比原曲线积分更容易计算。 易错点： 斯托克斯公式不要求曲面闭合，要求的是曲线是曲面的边界；高斯公式要求曲面闭合。这是二者 最关键的区别。"
+  },
+  {
+    "id": "doc-73ec94e14160-p26",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 26,
+    "heading": "十三、三大公式对比",
+    "snippet": "考研数学 · 多元函数积分学 十三、三大公式对比 公式 对象 方向 常见用途 格林 平面闭曲线 𝐿 与区域 𝐷 边界正向，区域在左侧 闭曲线积分转二重积分，求面积 高斯 闭曲面 𝑆 与空间区域 Ω 外法向 通量转三重积分，补面求通量 斯托克斯 有向曲面 Σ 与边界 Γ 右手定则 空间闭曲线积分转曲面积分 1. 什么时候用格林公式 看到平面...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十三、三大公式对比 考研数学 · 多元函数积分学 十三、三大公式对比 公式 对象 方向 常见用途 格林 平面闭曲线 𝐿 与区域 𝐷 边界正向，区域在左侧 闭曲线积分转二重积分，求面积 高斯 闭曲面 𝑆 与空间区域 Ω 外法向 通量转三重积分，补面求通量 斯托克斯 有向曲面 Σ 与边界 Γ 右手定则 空间闭曲线积分转曲面积分 1. 什么时候用格林公式 看到平面闭曲线积分 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 𝐿 且区域容易描述时，优先考虑格林公式。 2. 什么时候用高斯公式 看到闭曲面通量 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 𝑆 且散度简单时，优先考虑高斯公式。 若曲面不闭合，可以补面。 3. 什么时候用斯托克斯公式 看到空间闭曲线积分 ∮ 𝐹 ⋅ 𝑑𝑟 Γ 且曲线是某曲面的边界时，优先考虑斯托克斯公式。"
+  },
+  {
+    "id": "doc-73ec94e14160-p27",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 27,
+    "heading": "十四、常用计算方法总览",
+    "snippet": "考研数学 · 多元函数积分学 十四、常用计算方法总览 方法 适用对象 核心判断 线性性质 二重、三重、第一型曲线、第一型曲面 被积函数可拆成若干简单项 区域可加性 重积分、曲线分段、曲面分片 积分对象可分割，分界处不重复计入 保号性 第一型积分与重积分 被积函数非负则积分非负 方向性 第二型曲线、第二型曲面 曲线反向或法向反向时积分变号 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十四、常用计算方法总览 考研数学 · 多元函数积分学 十四、常用计算方法总览 方法 适用对象 核心判断 线性性质 二重、三重、第一型曲线、第一型曲面 被积函数可拆成若干简单项 区域可加性 重积分、曲线分段、曲面分片 积分对象可分割，分界处不重复计入 保号性 第一型积分与重积分 被积函数非负则积分非负 方向性 第二型曲线、第二型曲面 曲线反向或法向反向时积分变号 对称性 重积分、第一型曲线、第一型曲面 对象对称且被积函数奇偶性明确 中值定理 连续函数在有界闭区域上积分 积分等于某点函数值乘面积、体积、弧长或 面积 估值定理 连续或有界函数积分 用上下界乘测度夹住积分 形心质心 区域、空间体、细线、薄壳 均匀用形心公式，非均匀乘密度 1. 第一型积分的中值与估值 第一型曲线积分和第一型曲面积分本质上也是“函数对几何测度的累加”。若 𝑓 在曲线 𝐿 上连续，曲线长度为 𝑠𝐿 ，则存在一点 𝑃 ∈ 𝐿，使 ∫ 𝑓 𝑑𝑠 = 𝑓(𝑃 )𝑠𝐿 𝐿 若 𝑚 ≤ 𝑓 ≤ 𝑀 ，则 𝑚𝑠𝐿 ≤ ∫ 𝑓 𝑑𝑠 ≤ 𝑀 𝑠𝐿 𝐿 若 𝑓 在曲面 Σ 上连续，曲面面积为 𝐴Σ ，则存在一点 𝑃 ∈ Σ，使 ∬ 𝑓 𝑑𝑆 = 𝑓(𝑃 )𝐴Σ Σ 若 𝑚 ≤ 𝑓 ≤ 𝑀 ，则 𝑚𝐴Σ ≤ ∬ 𝑓 𝑑𝑆 ≤ 𝑀 𝐴Σ Σ 2. 对称性速判 使用对称性时，先问两个问题： 1. 积分对象是否关于某轴、某平面或某点对称。 2. 被积函数在该对称变换下是变号还是不变。 若对象对称且被积函数变号，则积分为零；若对象对称且被积函数不变，则可以取一半、一角或一部分区域计 算后乘倍数。 易错点： 第二型曲线积分和第二型曲面积分还要检查方向。几何对象对称不代表有向积分一定能直接翻倍 或抵消，方向变化可能额外带来负号。"
+  },
+  {
+    "id": "doc-73ec94e14160-p28",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 28,
+    "heading": "十五、典型综合题",
+    "snippet": "考研数学 · 多元函数积分学 十五、典型综合题 例题 1：旋转曲面围成区域的三重积分 题目 设平面曲线 𝑧 2 = 2𝑥 绕 𝑥 轴旋转一周所得空间曲面 Σ，与平面 𝑥 = 1、𝑥 = 2 围成空间区域 Ω。求 1 𝐼 =∭ 𝑑𝑉 Ω 𝑥2 + 𝑦 2 + 𝑧 2 坐标系与区域范围判断：题目说“绕 𝑥 轴旋转”，说明空间区域关于 𝑥 轴旋...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十五、典型综合题 考研数学 · 多元函数积分学 十五、典型综合题 例题 1：旋转曲面围成区域的三重积分 题目 设平面曲线 𝑧 2 = 2𝑥 绕 𝑥 轴旋转一周所得空间曲面 Σ，与平面 𝑥 = 1、𝑥 = 2 围成空间区域 Ω。求 1 𝐼 =∭ 𝑑𝑉 Ω 𝑥2 + 𝑦 2 + 𝑧 2 坐标系与区域范围判断：题目说“绕 𝑥 轴旋转”，说明空间区域关于 𝑥 轴旋转对称。到 𝑥 轴的距离不是 𝑥2 + 𝑦2 ，而是 𝑦2 + 𝑧 2 ，所以应使用以 𝑥 轴为轴的柱坐标。原曲线 𝑧2 = 2𝑥 旋转后变成 𝑦2 + 𝑧 2 = 2𝑥，即 𝑟2 = √ 2𝑥；平面 𝑥 = 1、𝑥 = 2 给出 1 ≤ 𝑥 ≤ 2；旋转一周给出 0 ≤ 𝜃 ≤ 2𝜋；抛物面内部给出 0 ≤ 𝑟 ≤ 2𝑥。 解析：曲线 𝑧 2 = 2𝑥 绕 𝑥 轴旋转后，得到旋转抛物面 𝑦2 + 𝑧 2 = 2𝑥 采用以 𝑥 轴为轴的柱坐标： 𝑦 = 𝑟 cos 𝜃, 𝑧 = 𝑟 sin 𝜃, 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑥 区域为 √ 1 ≤ 𝑥 ≤ 2, 0≤𝑟≤ 2𝑥, 0 ≤ 𝜃 ≤ 2𝜋 且 𝑥2 + 𝑦2 + 𝑧2 = 𝑥2 + 𝑟2 所以 √ 2 2𝜋 2𝑥 𝑟 𝐼 =∫ ∫ ∫ 𝑑𝑟 𝑑𝜃 𝑑𝑥 1 0 0 𝑥2 + 𝑟 2 先对 𝑟 积分： √ 2𝑥 𝑟 1 𝑥2 + 2𝑥 ∫ 𝑑𝑟 = ln( ) 0 𝑥2 + 𝑟2 2 𝑥2 因此 2 𝑥+2 𝐼 = 𝜋 ∫ ln( ) 𝑑𝑥 1 𝑥 = 𝜋[(𝑥 + 2) ln(𝑥 + 2) − 𝑥 ln 𝑥]21 4 = 𝜋(6 ln 2 − 3 ln 3) = 3𝜋 ln( ) 3 所以 4 𝐼 = 3𝜋 ln( ) 3"
+  },
+  {
+    "id": "doc-73ec94e14160-p29",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 29,
+    "heading": "例题 2：球面与抛物面围成区域的形心竖坐标",
+    "snippet": "考研数学 · 多元函数积分学 例题 2：球面与抛物面围成区域的形心竖坐标 题目 设 Ω 是由上半球面 𝑧 = √4 − 𝑥2 − 𝑦2 与曲面 𝑥2 + 𝑦2 = 3𝑧 所围成的空间有界闭区域。求 Ω 的形 心竖坐标 𝑧𝑐 。 坐标系与区域范围判断： 题目中两个曲面都含有 𝑥2 + 𝑦2 ，说明区域绕 𝑧 轴对称，应使用普通柱坐标 𝑟2 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 例题 2：球面与抛物面围成区域的形心竖坐标 考研数学 · 多元函数积分学 例题 2：球面与抛物面围成区域的形心竖坐标 题目 设 Ω 是由上半球面 𝑧 = √4 − 𝑥2 − 𝑦2 与曲面 𝑥2 + 𝑦2 = 3𝑧 所围成的空间有界闭区域。求 Ω 的形 心竖坐标 𝑧𝑐 。 坐标系与区域范围判断： 题目中两个曲面都含有 𝑥2 + 𝑦2 ，说明区域绕 𝑧 轴对称，应使用普通柱坐标 𝑟2 = √ 2 4 − 𝑟2 ，抛物面化为 𝑧 = 𝑟3 。两曲面相交时同时满足 𝑟2 + 𝑧2 = 4 与 𝑟2 = 𝑥2 + 𝑦2 。上半球面化为 𝑧 = √ √ 2 3𝑧，解得交线高度 𝑧 = 1，半径 𝑟 = 3。因此 0 ≤ 𝜃 ≤ 2𝜋，0 ≤ 𝑟 ≤ 3，并且下界是抛物面 𝑧 = 𝑟3 ，上 √ 界是球面 𝑧 = 4 − 𝑟2 。 解析：令 𝑟 2 = 𝑥2 + 𝑦 2 上半球面为 √ 𝑧= 4 − 𝑟2 抛物面为 𝑟2 𝑧= 3 两曲面交线满足 𝑟2 + 𝑧 2 = 4, 𝑟2 = 3𝑧 代入得 𝑧 2 + 3𝑧 − 4 = 0 故正根为 𝑧 = 1，于是 𝑟2 = 3。区域可写为 √ 𝑟2 √ 0 ≤ 𝜃 ≤ 2𝜋, 0≤𝑟≤ 3, ≤ 𝑧 ≤ 4 − 𝑟2 3 体积为 √ √ 2𝜋 3 4−𝑟2 𝑉 =∫ ∫ ∫ 𝑟 𝑑𝑧 𝑑𝑟 𝑑𝜃 𝑟2 0 0 3 √ 3 √ 𝑟2 = 2𝜋 ∫ ( 4 − 𝑟2 − )𝑟 𝑑𝑟 0 3 将括号展开为两部分： √ √ √ 3 √ 𝑟2 3 √ 1 3 ∫ ( 4 − 𝑟2 − )𝑟 𝑑𝑟 = ∫ 𝑟 4 − 𝑟2 𝑑𝑟 − ∫ 𝑟3 𝑑𝑟 0 3 0 3 0 第一项令 𝑢 = 4 − 𝑟2 , 𝑑𝑢 = −2𝑟 𝑑𝑟 √ 当 𝑟 = 0 时 𝑢 = 4；当 𝑟 = 3 时 𝑢 = 1。因此"
+  },
+  {
+    "id": "doc-73ec94e14160-p30",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 30,
+    "heading": "考研数学 · 多元函数积分学",
+    "snippet": "考研数学 · 多元函数积分学 √ 3 √ 1 1√ 1 4 1 ∫ 𝑟 4 − 𝑟2 𝑑𝑟 = − ∫ 𝑢 𝑑𝑢 = ∫ 𝑢 2 𝑑𝑢 0 2 4 2 1 1 2 3 4 1 3 1 7 = ⋅ [ 𝑢 2 ] = (4 2 − 1) = (8 − 1) = 2 3 1 3 3 3 第二项为 √ √ 3 3 4 1 3 1 𝑟 1 9 3...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 考研数学 · 多元函数积分学 考研数学 · 多元函数积分学 √ 3 √ 1 1√ 1 4 1 ∫ 𝑟 4 − 𝑟2 𝑑𝑟 = − ∫ 𝑢 𝑑𝑢 = ∫ 𝑢 2 𝑑𝑢 0 2 4 2 1 1 2 3 4 1 3 1 7 = ⋅ [ 𝑢 2 ] = (4 2 − 1) = (8 − 1) = 2 3 1 3 3 3 第二项为 √ √ 3 3 4 1 3 1 𝑟 1 9 3 ∫ 𝑟 𝑑𝑟 = [ ] = ⋅ = 3 0 3 4 3 4 4 0 所以 7 3 𝜋 = 2𝜋( − ) = 19 3 4 6 对 𝑥𝑦 平面的静矩为 𝑀𝑥𝑦 = ∭ 𝑧 𝑑𝑉 Ω √ √ 2𝜋 3 4−𝑟2 =∫ ∫ ∫ 𝑧𝑟 𝑑𝑧 𝑑𝑟 𝑑𝜃 𝑟2 0 0 3 √ 3 𝑟4 = 𝜋∫ [(4 − 𝑟2 ) − ]𝑟 𝑑𝑟 0 9 √ 3 4 6 𝑟 𝑟 𝜋 = 𝜋[2𝑟2 − − ] = 13 4 54 4 0 因此形心竖坐标为 𝑀𝑥𝑦 13 𝜋 39 𝑧𝑐 = = 𝜋4 = 𝑉 19 6 38 例题 3：格林公式求闭曲线积分 题目 设 𝐿 为区域 𝐷 : 0 ≤ 𝑥 ≤ 1, 0 ≤ 𝑦 ≤ 𝑥 的正向边界，求 ∮ 𝑦2 𝑑𝑥 + 𝑥2 𝑑𝑦。 𝐿 解析：这里 𝑃 = 𝑦2 , 𝑄 = 𝑥2 由格林公式， ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐿 𝐷 其中 𝑄𝑥 = 2𝑥, 𝑃𝑦 = 2𝑦 所以"
+  },
+  {
+    "id": "doc-73ec94e14160-p31",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 31,
+    "heading": "例题 4：格林公式处理含奇点边界积分",
+    "snippet": "考研数学 · 多元函数积分学 1 𝑥 ∬ (2𝑥 − 2𝑦) 𝑑𝑥 𝑑𝑦 = ∫ ∫ (2𝑥 − 2𝑦) 𝑑𝑦 𝑑𝑥 𝐷 0 0 先对 𝑦 积分： 𝑥 ∫ (2𝑥 − 2𝑦) 𝑑𝑦 = 2𝑥2 − 𝑥2 = 𝑥2 0 再对 𝑥 积分： 1 1 ∫ 𝑥2 𝑑𝑥 = 0 3 因此答案为 1 3 例题 4：格林公式处理含奇点边界积分 题目 设 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 例题 4：格林公式处理含奇点边界积分 考研数学 · 多元函数积分学 1 𝑥 ∬ (2𝑥 − 2𝑦) 𝑑𝑥 𝑑𝑦 = ∫ ∫ (2𝑥 − 2𝑦) 𝑑𝑦 𝑑𝑥 𝐷 0 0 先对 𝑦 积分： 𝑥 ∫ (2𝑥 − 2𝑦) 𝑑𝑦 = 2𝑥2 − 𝑥2 = 𝑥2 0 再对 𝑥 积分： 1 1 ∫ 𝑥2 𝑑𝑥 = 0 3 因此答案为 1 3 例题 4：格林公式处理含奇点边界积分 题目 设 𝐷 ⊂ ℝ2 是单连通有界闭区域， 𝐼(𝐷) = ∬ (1 − 𝑥2 − 𝑦2 ) 𝑑𝑥 𝑑𝑦 𝐷 取得最大值的积分区域记为 𝐷1 。 1. 求 𝐼(𝐷1 ) 的值。 2. 计算 2 2 2 2 (𝑥𝑒𝑥 +2𝑦 + 𝑦) 𝑑𝑥 + (2𝑦𝑒𝑥 +2𝑦 − 𝑥) 𝑑𝑦 ∮ 𝜕𝐷1 𝑥2 + 2𝑦2 其中 𝜕𝐷1 是 𝐷1 的正向边界。 解析：先看第一问。被积函数 1 − 𝑥2 − 𝑦 2 在单位圆盘内为正，在单位圆外为负。为了使积分最大，应把正贡献全部取入，负贡献全部排除，所以 𝐷1 = {(𝑥, 𝑦) | 𝑥2 + 𝑦2 ≤ 1} 于是 2𝜋 1 𝐼(𝐷1 ) = ∫ ∫ (1 − 𝑟2 )𝑟 𝑑𝑟 𝑑𝜃 0 0 1 𝑟2 𝑟4 𝜋 = 2𝜋[ − ] = 2 4 2 0 第二问记 𝑠 = 𝑥2 + 2𝑦2 则原积分的一部分可以写为"
+  },
+  {
+    "id": "doc-73ec94e14160-p32",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 32,
+    "heading": "易错点： 这里不能直接在整个单位圆盘上使用格林公式，因为分母 𝑥2 + 2𝑦2 在原点为零，原点是奇点。正",
+    "snippet": "考研数学 · 多元函数积分学 𝑥𝑒𝑠 𝑑𝑥 + 2𝑦𝑒𝑠 𝑑𝑦 𝑒𝑠 = 𝑑𝑠 𝑠 2𝑠 这是关于 𝑠 的全微分形式，在闭曲线上的积分为零。因此只需计算 𝑦 𝑑𝑥 − 𝑥 𝑑𝑦 ∮ 𝜕𝐷 𝑥2 + 2𝑦2 1 易错点： 这里不能直接在整个单位圆盘上使用格林公式，因为分母 𝑥2 + 2𝑦2 在原点为零，原点是奇点。正 确做法是先挖去原点附近...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 这里不能直接在整个单位圆盘上使用格林公式，因为分母 𝑥2 + 2𝑦2 在原点为零，原点是奇点。正 考研数学 · 多元函数积分学 𝑥𝑒𝑠 𝑑𝑥 + 2𝑦𝑒𝑠 𝑑𝑦 𝑒𝑠 = 𝑑𝑠 𝑠 2𝑠 这是关于 𝑠 的全微分形式，在闭曲线上的积分为零。因此只需计算 𝑦 𝑑𝑥 − 𝑥 𝑑𝑦 ∮ 𝜕𝐷 𝑥2 + 2𝑦2 1 易错点： 这里不能直接在整个单位圆盘上使用格林公式，因为分母 𝑥2 + 2𝑦2 在原点为零，原点是奇点。正 确做法是先挖去原点附近的小椭圆，再在无奇点区域上使用格林公式。 令 𝑦 𝑥 𝑃 = , 𝑄=− 2 𝑥2 + 2𝑦2 𝑥 + 2𝑦2 在去掉原点的区域内，有 𝜕𝑄 𝑥2 − 2𝑦2 = 2 𝜕𝑥 (𝑥2 + 2𝑦2 ) 𝜕𝑃 𝑥2 − 2𝑦2 = 2 𝜕𝑦 (𝑥2 + 2𝑦2 ) 所以 𝜕𝑄 𝜕𝑃 − =0 𝜕𝑥 𝜕𝑦 取小椭圆 𝐸𝜀 : 𝑥2 + 2𝑦2 ≤ 𝜀2 在区域 𝐷1 − 𝐸𝜀 上应用格林公式。由于旋度为零， 𝑦 𝑑𝑥 − 𝑥 𝑑𝑦 𝑦 𝑑𝑥 − 𝑥 𝑑𝑦 ∮ 2 2 =∮ 𝜕𝐷 𝑥 + 2𝑦 𝜕𝐸 𝑥2 + 2𝑦2 1 𝜀 其中 𝜕𝐸𝜀 取逆时针方向。参数化为 𝜀 𝑥 = 𝜀 cos 𝑡, 𝑦 = √ sin 𝑡, 0 ≤ 𝑡 ≤ 2𝜋 2 则 𝑥2 + 2𝑦2 = 𝜀2 且 𝜀2 𝑦 𝑑𝑥 − 𝑥 𝑑𝑦 = − √ 𝑑𝑡 2 所以 𝑦 𝑑𝑥 − 𝑥 𝑑𝑦 2𝜋 1 √ ∮ 2 2 = ∫ − √ 𝑑𝑡 = − 2𝜋 𝜕𝐸 𝑥 + 2𝑦 0 2 𝜀"
+  },
+  {
+    "id": "doc-73ec94e14160-p33",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 33,
+    "heading": "例题 5：高斯公式求通量",
+    "snippet": "考研数学 · 多元函数积分学 因此 2 2 2 2 (𝑥𝑒𝑥 +2𝑦 + 𝑦) 𝑑𝑥 + (2𝑦𝑒𝑥 +2𝑦 − 𝑥) 𝑑𝑦 √ ∮ = − 2𝜋 𝜕𝐷1 𝑥2 + 2𝑦2 例题 5：高斯公式求通量 题目 求 𝐹 = (𝑥2 , 𝑦2 , 𝑧 2 ) 穿过立方体 0 ≤ 𝑥, 𝑦, 𝑧 ≤ 1 外侧的通量。 解析：立方体表面为闭曲面，取外...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 例题 5：高斯公式求通量 考研数学 · 多元函数积分学 因此 2 2 2 2 (𝑥𝑒𝑥 +2𝑦 + 𝑦) 𝑑𝑥 + (2𝑦𝑒𝑥 +2𝑦 − 𝑥) 𝑑𝑦 √ ∮ = − 2𝜋 𝜕𝐷1 𝑥2 + 2𝑦2 例题 5：高斯公式求通量 题目 求 𝐹 = (𝑥2 , 𝑦2 , 𝑧 2 ) 穿过立方体 0 ≤ 𝑥, 𝑦, 𝑧 ≤ 1 外侧的通量。 解析：立方体表面为闭曲面，取外法向。由高斯公式， div 𝐹 = 2𝑥 + 2𝑦 + 2𝑧 所以通量为 ∭ (2𝑥 + 2𝑦 + 2𝑧) 𝑑𝑉 Ω 由于区域是单位立方体， 1 ∭ 2𝑥 𝑑𝑉 = 2 ∫ 𝑥 𝑑𝑥 = 1 Ω 0 同理 ∭ 2𝑦 𝑑𝑉 = 1, ∭ 2𝑧 𝑑𝑉 = 1 Ω Ω 因此总通量为 3 例题 6：第一型曲面积分 题目 求上半球面 𝑧 = √𝑎2 − 𝑥2 − 𝑦2 上 ∬ 𝑧 𝑑𝑆 。 Σ 解析：上半球面用球面参数更方便。半径为 𝑎，球坐标中上半球满足 𝜋 0≤𝜑≤ , 0 ≤ 𝜃 ≤ 2𝜋 2 在球面上 𝑧 = 𝑎 cos 𝜑 面积元为 𝑑𝑆 = 𝑎2 sin 𝜑 𝑑𝜑 𝑑𝜃 所以 𝜋 2𝜋 2 ∬ 𝑧 𝑑𝑆 = ∫ ∫ 𝑎 cos 𝜑 ⋅ 𝑎2 sin 𝜑 𝑑𝜑 𝑑𝜃 Σ 0 0 𝜋 2 = 𝑎3 ⋅ 2𝜋 ⋅ ∫ sin 𝜑 cos 𝜑 𝑑𝜑 0"
+  },
+  {
+    "id": "doc-73ec94e14160-p34",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 34,
+    "heading": "考研数学 · 多元函数积分学",
+    "snippet": "考研数学 · 多元函数积分学 1 = 𝑎3 ⋅ 2𝜋 ⋅ = 𝜋𝑎3 2",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 考研数学 · 多元函数积分学 考研数学 · 多元函数积分学 1 = 𝑎3 ⋅ 2𝜋 ⋅ = 𝜋𝑎3 2"
+  },
+  {
+    "id": "doc-73ec94e14160-p35",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 35,
+    "heading": "十六、易错点汇总",
+    "snippet": "考研数学 · 多元函数积分学 十六、易错点汇总 易错点： 第一型积分不看方向，第二型积分看方向。曲线反向会使第二型曲线积分变号，曲面反向会使第 二型曲面积分变号。 易错点：格林公式中的正向是逆时针方向，即沿边界走时区域在左侧。若题目给顺时针方向，结果要取负号。 易错点： 高斯公式只能直接用于闭曲面。非闭曲面要先补面，最后减去补面的通量。 ...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 十六、易错点汇总 考研数学 · 多元函数积分学 十六、易错点汇总 易错点： 第一型积分不看方向，第二型积分看方向。曲线反向会使第二型曲线积分变号，曲面反向会使第 二型曲面积分变号。 易错点：格林公式中的正向是逆时针方向，即沿边界走时区域在左侧。若题目给顺时针方向，结果要取负号。 易错点： 高斯公式只能直接用于闭曲面。非闭曲面要先补面，最后减去补面的通量。 易错点： 斯托克斯公式中曲线方向和曲面法向必须满足右手定则。方向反了，结果取负号。 易错点： 曲面积分中 𝑑𝑆 、𝑑𝑥 𝑑𝑦、𝑑𝑦 𝑑𝑧 、𝑑𝑧 𝑑𝑥 不可混淆。第一型用面积元 𝑑𝑆 ，第二型用有向面积投影 或 𝐹 ⋅ 𝑛 𝑑𝑆 。 十七、公式速查表 内容 公式 向量点积 𝑎 ⋅ 𝑏 = |𝑎||𝑏| cos 𝜃 向量叉积 |𝑎 × 𝑏| = |𝑎||𝑏| sin 𝜃 空间直线 (𝑥, 𝑦, 𝑧) = (𝑥0 , 𝑦0 , 𝑧0 ) + 𝑡(𝑚, 𝑛, 𝑝) 平面方程 𝐴(𝑥 − 𝑥0 ) + 𝐵(𝑦 − 𝑦0 ) + 𝐶(𝑧 − 𝑧0 ) = 0 平面束方程 Π1 + 𝜆Π2 = 0 |𝐴𝑥0 +𝐵𝑦0 +𝐶𝑧0 +𝐷| 点到平面距离 𝑑= √ 𝐴2 +𝐵2 +𝐶 2 𝜕𝑓 方向导数 𝜕𝑒 = grad 𝑓 ⋅ 𝑒 梯度 grad 𝑓 = (𝑓𝑥 , 𝑓𝑦 , 𝑓𝑧 ) 散度 div 𝐹 = 𝑃𝑥 + 𝑄𝑦 + 𝑅𝑧 旋度 curl 𝐹 = (𝑅𝑦 − 𝑄𝑧 , 𝑃𝑧 − 𝑅𝑥 , 𝑄𝑥 − 𝑃𝑦 ) 二重积分极坐标 𝑑𝑥 𝑑𝑦 = 𝑟 𝑑𝑟 𝑑𝜃 三重积分柱坐标 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 三重积分球坐标 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 二重积分估值 𝑚𝑆𝐷 ≤ ∬ 𝑓 𝑑𝜎 ≤ 𝑀 𝑆𝐷 𝐷 三重积分估值 𝑚𝑉Ω ≤ ∭ 𝑓 𝑑𝑉 ≤ 𝑀 𝑉Ω Ω 二重积分中值 ∬ 𝑓 𝑑𝜎 = 𝑓(𝜉, 𝜂)𝑆𝐷 𝐷 平面形心 (𝑥𝑐 , 𝑦𝑐 ) = ( 𝑆1 ∬ 𝑥 𝑑𝜎, 𝑆1 ∬ 𝑦 𝑑𝜎) 𝐷 𝐷 𝐷 𝐷 1 1 1 空间质心 𝑥𝑐 = 𝑚 ∭ 𝑥𝜌 𝑑𝑉 , 𝑦𝑐 = 𝑚 ∭ 𝑦𝜌 𝑑𝑉 , 𝑧𝑐 = 𝑚 ∭ 𝑧𝜌 𝑑𝑉 Ω Ω Ω 𝛽 第一型曲线积分 ∫ 𝑓 𝑑𝑠 = ∫ 𝑓(𝑟(𝑡))|𝑟′ (𝑡)| 𝑑𝑡 𝐿 𝛼 𝛽 第二型曲线积分 ∫ 𝐹 ⋅ 𝑑𝑟 = ∫ 𝐹 (𝑟(𝑡)) ⋅ 𝑟′ (𝑡) 𝑑𝑡 𝐿 𝛼 显式曲面面积元 𝑧 = 𝑧(𝑥, 𝑦) : 𝑑𝑆 = √1 + 𝑧𝑥2 + 𝑧𝑦2 𝑑𝑥 𝑑𝑦 第二型曲面积分 ∬ 𝐹 ⋅ 𝑛 𝑑𝑆 Σ"
+  },
+  {
+    "id": "doc-73ec94e14160-p36",
+    "docId": "doc-73ec94e14160",
+    "title": "Multivariable Integral Calculus (多元函数积分学)",
+    "category": "微积分",
+    "page": 36,
+    "heading": "考研数学 · 多元函数积分学",
+    "snippet": "考研数学 · 多元函数积分学 格林公式 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐿 𝐷 高斯公式 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ div 𝐹 𝑑𝑉 𝑆 Ω 斯托克斯公式 ∮ 𝐹 ⋅ 𝑑𝑟 = ∬ (curl 𝐹 ) ⋅ 𝑛 𝑑𝑆 Γ Σ 最终抓手： 多元函数积分学做题先判断积分对象：区域、曲线还是曲面；再判断是...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 考研数学 · 多元函数积分学 考研数学 · 多元函数积分学 格林公式 ∮ 𝑃 𝑑𝑥 + 𝑄 𝑑𝑦 = ∬ (𝑄𝑥 − 𝑃𝑦 ) 𝑑𝑥 𝑑𝑦 𝐿 𝐷 高斯公式 ∯ 𝐹 ⋅ 𝑛 𝑑𝑆 = ∭ div 𝐹 𝑑𝑉 𝑆 Ω 斯托克斯公式 ∮ 𝐹 ⋅ 𝑑𝑟 = ∬ (curl 𝐹 ) ⋅ 𝑛 𝑑𝑆 Γ Σ 最终抓手： 多元函数积分学做题先判断积分对象：区域、曲线还是曲面；再判断是否有方向；最后判断能 不能用格林、高斯、斯托克斯把复杂边界积分化成区域积分。方向、封闭性、投影区域是最关键的三件事。"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p1",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、基本概念",
+    "snippet": "考研数学 · 微分方程 微分方程求解总结讲解 常微分方程 · 线性方程 · 齐次非齐次 · 特解通解 考研数学复习资料 · Typst PDF 复习目标：微分方程题的关键不是死记形式，而是先识别类型，再套对应解法。考研常见主线是：一阶方程 的分离变量、齐次方程、一阶线性方程、可降阶高阶方程、二阶线性常系数齐次与非齐次方程，以及特解、 通解...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 一、基本概念 考研数学 · 微分方程 微分方程求解总结讲解 常微分方程 · 线性方程 · 齐次非齐次 · 特解通解 考研数学复习资料 · Typst PDF 复习目标：微分方程题的关键不是死记形式，而是先识别类型，再套对应解法。考研常见主线是：一阶方程 的分离变量、齐次方程、一阶线性方程、可降阶高阶方程、二阶线性常系数齐次与非齐次方程，以及特解、 通解和初值条件的关系。 一、基本概念 1. 微分方程与常微分方程 含有未知函数及其导数的方程称为微分方程。若未知函数只含一个自变量，则称为常微分方程，简称 ODE。 例如 𝑦′ + 𝑦 = 𝑒𝑥 是关于未知函数 𝑦 = 𝑦(𝑥) 的一阶常微分方程。 若未知函数含有多个自变量，并含偏导数，则称为偏微分方程。考研数学中，本专题主要处理常微分方程。 2. 阶数 微分方程中出现的最高阶导数的阶数称为方程的阶。 𝑦′ = 𝑥𝑦 是一阶微分方程。 𝑦″ + 3𝑦′ + 2𝑦 = 0 是二阶微分方程。 一般 𝑛 阶常微分方程可写成 𝐹 (𝑥, 𝑦, 𝑦′ , 𝑦″ , …, 𝑦(𝑛) ) = 0 若能解出最高阶导数，也可写成 𝑦(𝑛) = 𝑓(𝑥, 𝑦, 𝑦′ , …, 𝑦(𝑛−1) ) 3. 解、通解、特解 若函数 𝑦 = 𝜑(𝑥) 代入微分方程后使方程恒成立，则称 𝑦 = 𝜑(𝑥) 为该微分方程的一个解。 含有任意常数的解称为通解。对于 𝑛 阶微分方程，通解通常含有 𝑛 个相互独立的任意常数： 𝑦 = 𝜑(𝑥, 𝐶1 , 𝐶2 , …, 𝐶𝑛 ) 由初始条件或边界条件确定任意常数后得到的具体解称为特解。 例如"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p2",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "4. 初值问题",
+    "snippet": "考研数学 · 微分方程 𝑦′ = 2𝑥 积分得通解 𝑦 = 𝑥2 + 𝐶 若给定 𝑦(0) = 1，则 𝐶 = 1，特解为 𝑦 = 𝑥2 + 1 4. 初值问题 给定方程和初始条件的问题称为初值问题。例如 𝑦′ = 𝑓(𝑥, 𝑦), 𝑦(𝑥0 ) = 𝑦0 求解步骤是：先求通解，再把初始条件代入，确定任意常数。 二、一阶可分离变量方程 1...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 4. 初值问题 考研数学 · 微分方程 𝑦′ = 2𝑥 积分得通解 𝑦 = 𝑥2 + 𝐶 若给定 𝑦(0) = 1，则 𝐶 = 1，特解为 𝑦 = 𝑥2 + 1 4. 初值问题 给定方程和初始条件的问题称为初值问题。例如 𝑦′ = 𝑓(𝑥, 𝑦), 𝑦(𝑥0 ) = 𝑦0 求解步骤是：先求通解，再把初始条件代入，确定任意常数。 二、一阶可分离变量方程 1. 标准形式 若一阶微分方程可写成 𝑑𝑦 = 𝑓(𝑥)𝑔(𝑦) 𝑑𝑥 则称为可分离变量方程。 当 𝑔(𝑦) ≠ 0 时，两边分离变量： 𝑑𝑦 = 𝑓(𝑥)𝑑𝑥 𝑔(𝑦) 两边积分： 𝑑𝑦 ∫ = ∫ 𝑓(𝑥)𝑑𝑥 + 𝐶 𝑔(𝑦) 这就是通解的隐式形式。 2. 解题模板 1. 把所有含 𝑦 的项移到 𝑑𝑦 一侧，把所有含 𝑥 的项移到 𝑑𝑥 一侧。 2. 两边积分。 3. 化简通解。 4. 若有初值条件，代入确定常数。 易错点： 分离变量时，如果除以了 𝑔(𝑦)，要注意 𝑔(𝑦) = 0 可能带来常数解。考试中若题目强调完整解，应 检查这类解是否遗漏。 3. 例题 题目 求解 𝑦′ = 𝑥𝑦。 解析：方程可写为 𝑑𝑦 = 𝑥𝑦 𝑑𝑥"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p3",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "三、一阶齐次方程",
+    "snippet": "考研数学 · 微分方程 当 𝑦 ≠ 0 时分离变量： 𝑑𝑦 = 𝑥𝑑𝑥 𝑦 两边积分： 𝑑𝑦 ∫ = ∫ 𝑥𝑑𝑥 𝑦 得到 𝑥2 ln|𝑦| = +𝐶 2 于是 𝑥2 𝑦 = 𝐶𝑒 2 其中 𝐶 可取任意常数。𝐶 = 0 时也包含常数解 𝑦 = 0。 三、一阶齐次方程 1. 齐次一阶方程的形式 若一阶微分方程可写成 𝑑𝑦 𝑦 = 𝐹( )...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 三、一阶齐次方程 考研数学 · 微分方程 当 𝑦 ≠ 0 时分离变量： 𝑑𝑦 = 𝑥𝑑𝑥 𝑦 两边积分： 𝑑𝑦 ∫ = ∫ 𝑥𝑑𝑥 𝑦 得到 𝑥2 ln|𝑦| = +𝐶 2 于是 𝑥2 𝑦 = 𝐶𝑒 2 其中 𝐶 可取任意常数。𝐶 = 0 时也包含常数解 𝑦 = 0。 三、一阶齐次方程 1. 齐次一阶方程的形式 若一阶微分方程可写成 𝑑𝑦 𝑦 = 𝐹( ) 𝑑𝑥 𝑥 则称为一阶齐次方程。 注意这里的“齐次”指 𝑦′ 右端只依赖比值 𝑥𝑦 ，不是线性方程中的齐次与非齐次概念。 2. 代换方法 令 𝑦 𝑣= 𝑥 即 𝑦 = 𝑣𝑥 对 𝑥 求导： 𝑑𝑦 𝑑𝑣 =𝑣+𝑥 𝑑𝑥 𝑑𝑥 代入原方程： 𝑑𝑣 𝑣+𝑥 = 𝐹 (𝑣) 𝑑𝑥 于是 𝑑𝑣 𝑥 = 𝐹 (𝑣) − 𝑣 𝑑𝑥 若 𝐹 (𝑣) − 𝑣 ≠ 0，可分离变量："
+  },
+  {
+    "id": "doc-2e19c43e8eca-p4",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "3. 例题",
+    "snippet": "考研数学 · 微分方程 𝑑𝑣 𝑑𝑥 = 𝐹 (𝑣) − 𝑣 𝑥 两边积分，再把 𝑣 = 𝑥𝑦 代回。 3. 例题 题目 求解 𝑦′ = 1 + 𝑥𝑦 。 解析：令 𝑣 = 𝑥𝑦 ，则 𝑦 = 𝑣𝑥，所以 𝑦′ = 𝑣 + 𝑥𝑣′ 代入： 𝑣 + 𝑥𝑣′ = 1 + 𝑣 得到 𝑥𝑣′ = 1 即 𝑑𝑥 𝑑𝑣 = 𝑥 积分： 𝑣 = ln|𝑥...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 3. 例题 考研数学 · 微分方程 𝑑𝑣 𝑑𝑥 = 𝐹 (𝑣) − 𝑣 𝑥 两边积分，再把 𝑣 = 𝑥𝑦 代回。 3. 例题 题目 求解 𝑦′ = 1 + 𝑥𝑦 。 解析：令 𝑣 = 𝑥𝑦 ，则 𝑦 = 𝑣𝑥，所以 𝑦′ = 𝑣 + 𝑥𝑣′ 代入： 𝑣 + 𝑥𝑣′ = 1 + 𝑣 得到 𝑥𝑣′ = 1 即 𝑑𝑥 𝑑𝑣 = 𝑥 积分： 𝑣 = ln|𝑥| + 𝐶 代回 𝑣 = 𝑥𝑦 ： 𝑦 = 𝑥[ln|𝑥| + 𝐶] 四、一阶线性微分方程 1. 标准形式 一阶线性微分方程标准形式为 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥) 其中 𝑃 (𝑥)、𝑄(𝑥) 是已知函数。 若 𝑄(𝑥) = 0，称为一阶线性齐次方程： 𝑦′ + 𝑃 (𝑥)𝑦 = 0 若 𝑄(𝑥) ≠ 0，称为一阶线性非齐次方程： 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥) 2. 齐次方程解法 对于 𝑦′ + 𝑃 (𝑥)𝑦 = 0 有 𝑑𝑦 = −𝑃 (𝑥)𝑦 𝑑𝑥"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p5",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "3. 非齐次方程积分因子法",
+    "snippet": "考研数学 · 微分方程 分离变量： 𝑑𝑦 = −𝑃 (𝑥)𝑑𝑥 𝑦 积分： ln|𝑦| = − ∫ 𝑃 (𝑥)𝑑𝑥 + 𝐶 所以通解为 𝑦 = 𝐶𝑒− ∫ 𝑃 (𝑥)𝑑𝑥 3. 非齐次方程积分因子法 对 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥) 取积分因子 𝜇(𝑥) = 𝑒∫ 𝑃 (𝑥)𝑑𝑥 两边乘以 𝜇(𝑥)： 𝜇𝑦′ + 𝜇𝑃 𝑦 = 𝜇...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 3. 非齐次方程积分因子法 考研数学 · 微分方程 分离变量： 𝑑𝑦 = −𝑃 (𝑥)𝑑𝑥 𝑦 积分： ln|𝑦| = − ∫ 𝑃 (𝑥)𝑑𝑥 + 𝐶 所以通解为 𝑦 = 𝐶𝑒− ∫ 𝑃 (𝑥)𝑑𝑥 3. 非齐次方程积分因子法 对 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥) 取积分因子 𝜇(𝑥) = 𝑒∫ 𝑃 (𝑥)𝑑𝑥 两边乘以 𝜇(𝑥)： 𝜇𝑦′ + 𝜇𝑃 𝑦 = 𝜇𝑄 由于 (𝜇𝑦)′ = 𝜇𝑦′ + 𝜇′ 𝑦 又 𝜇′ = 𝑃 𝜇 所以 (𝜇𝑦)′ = 𝜇𝑦′ + 𝜇𝑃 𝑦 方程化为 (𝜇𝑦)′ = 𝜇𝑄 两边积分： 𝜇𝑦 = ∫ 𝜇(𝑥)𝑄(𝑥)𝑑𝑥 + 𝐶 因此通解为 𝑦 = 𝑒− ∫ 𝑃 (𝑥)𝑑𝑥 [∫ 𝑒∫ 𝑃 (𝑥)𝑑𝑥 𝑄(𝑥)𝑑𝑥 + 𝐶] 4. 通解结构 非齐次线性方程的通解可写成 𝑦 = 𝑦ℎ + 𝑦𝑝 其中 𝑦ℎ 是对应齐次方程的通解，𝑦𝑝 是非齐次方程的一个特解。"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p6",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "5. 例题",
+    "snippet": "考研数学 · 微分方程 也就是说： 非齐次通解 = 齐次通解 + 非齐次一个特解 5. 例题 题目 求解 𝑦′ − 2𝑦 = 𝑒3𝑥 。 解析：这里 𝑃 (𝑥) = −2, 𝑄(𝑥) = 𝑒3𝑥 积分因子为 𝜇(𝑥) = 𝑒∫ −2𝑑𝑥 = 𝑒−2𝑥 两边乘以 𝑒−2𝑥 ： 𝑒−2𝑥 𝑦′ − 2𝑒−2𝑥 𝑦 = 𝑒𝑥 左边是 ′ (𝑒−...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 5. 例题 考研数学 · 微分方程 也就是说： 非齐次通解 = 齐次通解 + 非齐次一个特解 5. 例题 题目 求解 𝑦′ − 2𝑦 = 𝑒3𝑥 。 解析：这里 𝑃 (𝑥) = −2, 𝑄(𝑥) = 𝑒3𝑥 积分因子为 𝜇(𝑥) = 𝑒∫ −2𝑑𝑥 = 𝑒−2𝑥 两边乘以 𝑒−2𝑥 ： 𝑒−2𝑥 𝑦′ − 2𝑒−2𝑥 𝑦 = 𝑒𝑥 左边是 ′ (𝑒−2𝑥 𝑦) 所以 ′ (𝑒−2𝑥 𝑦) = 𝑒𝑥 积分得 𝑒−2𝑥 𝑦 = 𝑒𝑥 + 𝐶 于是 𝑦 = 𝑒3𝑥 + 𝐶𝑒2𝑥 其中 𝐶𝑒2𝑥 是齐次通解，𝑒3𝑥 是一个非齐次特解。 五、伯努利方程 1. 标准形式 伯努利方程为 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥)𝑦𝑛 其中 𝑛 ≠ 0, 1。 当 𝑛 = 0 时，它就是一阶线性方程；当 𝑛 = 1 时，可合并为可分离变量方程。 2. 代换推导 两边同除以 𝑦𝑛 ： 𝑦−𝑛 𝑦′ + 𝑃 (𝑥)𝑦1−𝑛 = 𝑄(𝑥) 令 𝑧 = 𝑦1−𝑛 则"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p7",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "3. 解题模板",
+    "snippet": "考研数学 · 微分方程 𝑧 ′ = (1 − 𝑛)𝑦−𝑛 𝑦′ 所以 𝑧′ 𝑦−𝑛 𝑦′ = 1−𝑛 代入得 𝑧′ + 𝑃 (𝑥)𝑧 = 𝑄(𝑥) 1−𝑛 两边乘以 1 − 𝑛： 𝑧′ + (1 − 𝑛)𝑃 (𝑥)𝑧 = (1 − 𝑛)𝑄(𝑥) 这样就化为一阶线性微分方程。 3. 解题模板 1. 识别 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥)...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 3. 解题模板 考研数学 · 微分方程 𝑧 ′ = (1 − 𝑛)𝑦−𝑛 𝑦′ 所以 𝑧′ 𝑦−𝑛 𝑦′ = 1−𝑛 代入得 𝑧′ + 𝑃 (𝑥)𝑧 = 𝑄(𝑥) 1−𝑛 两边乘以 1 − 𝑛： 𝑧′ + (1 − 𝑛)𝑃 (𝑥)𝑧 = (1 − 𝑛)𝑄(𝑥) 这样就化为一阶线性微分方程。 3. 解题模板 1. 识别 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥)𝑦𝑛 。 2. 除以 𝑦𝑛 。 3. 令 𝑧 = 𝑦1−𝑛 。 4. 解关于 𝑧 的一阶线性方程。 5. 代回 𝑦。 六、全微分方程 1. 标准形式 方程 𝑀 (𝑥, 𝑦)𝑑𝑥 + 𝑁 (𝑥, 𝑦)𝑑𝑦 = 0 若存在函数 𝑢(𝑥, 𝑦)，使得 𝑑𝑢 = 𝑀 𝑑𝑥 + 𝑁 𝑑𝑦 则称该方程为全微分方程。此时通解为 𝑢(𝑥, 𝑦) = 𝐶 2. 判别条件 若 𝑀 , 𝑁 在单连通区域内有连续偏导数，则方程为全微分方程的充分必要条件是 𝜕𝑀 𝜕𝑁 = 𝜕𝑦 𝜕𝑥 3. 求解方法 由 𝜕𝑢 = 𝑀 (𝑥, 𝑦) 𝜕𝑥 先对 𝑥 积分： 𝑢(𝑥, 𝑦) = ∫ 𝑀 (𝑥, 𝑦)𝑑𝑥 + 𝜑(𝑦)"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p8",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 8,
+    "heading": "4. 例题",
+    "snippet": "考研数学 · 微分方程 再对 𝑦 求偏导，并令其等于 𝑁 (𝑥, 𝑦)： 𝜕𝑢 = 𝑁 (𝑥, 𝑦) 𝜕𝑦 求出 𝜑′ (𝑦)，进而得到 𝜑(𝑦)。最后写出 𝑢(𝑥, 𝑦) = 𝐶 4. 例题 题目 求解 (2𝑥𝑦 + 1)𝑑𝑥 + 𝑥2 𝑑𝑦 = 0。 解析：这里 𝑀 = 2𝑥𝑦 + 1, 𝑁 = 𝑥2 有 𝜕𝑀 𝜕𝑁 = 2𝑥, = ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 4. 例题 考研数学 · 微分方程 再对 𝑦 求偏导，并令其等于 𝑁 (𝑥, 𝑦)： 𝜕𝑢 = 𝑁 (𝑥, 𝑦) 𝜕𝑦 求出 𝜑′ (𝑦)，进而得到 𝜑(𝑦)。最后写出 𝑢(𝑥, 𝑦) = 𝐶 4. 例题 题目 求解 (2𝑥𝑦 + 1)𝑑𝑥 + 𝑥2 𝑑𝑦 = 0。 解析：这里 𝑀 = 2𝑥𝑦 + 1, 𝑁 = 𝑥2 有 𝜕𝑀 𝜕𝑁 = 2𝑥, = 2𝑥 𝜕𝑦 𝜕𝑥 因此是全微分方程。设 𝑑𝑢 = (2𝑥𝑦 + 1)𝑑𝑥 + 𝑥2 𝑑𝑦 由 𝑢𝑥 = 2𝑥𝑦 + 1，对 𝑥 积分： 𝑢 = 𝑥2 𝑦 + 𝑥 + 𝜑(𝑦) 再对 𝑦 求偏导： 𝑢𝑦 = 𝑥2 + 𝜑′ (𝑦) 令 𝑢𝑦 = 𝑁 = 𝑥2 ，得 𝜑′ (𝑦) = 0 所以通解为 𝑥2 𝑦 + 𝑥 = 𝐶 七、可降阶高阶微分方程 有些高阶方程虽然阶数较高，但可以通过积分或变量代换降阶。 1. 形如 𝑦(𝑛) = 𝑓(𝑥) 直接连续积分 𝑛 次。 例如 𝑦″ = 6𝑥 积分一次： 𝑦′ = 3𝑥2 + 𝐶1 再积分： 𝑦 = 𝑥3 + 𝐶1 𝑥 + 𝐶2"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p9",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 9,
+    "heading": "2. 形如 𝑦″ = 𝑓(𝑥, 𝑦′ )",
+    "snippet": "考研数学 · 微分方程 2. 形如 𝑦″ = 𝑓(𝑥, 𝑦′ ) 方程不显含 𝑦。令 𝑝 = 𝑦′ 则 𝑑𝑝 𝑦 ″ = 𝑝′ = 𝑑𝑥 方程化为一阶方程 𝑑𝑝 = 𝑓(𝑥, 𝑝) 𝑑𝑥 先求 𝑝(𝑥)，再由 𝑦′ = 𝑝(𝑥) 积分求 𝑦。 3. 形如 𝑦″ = 𝑓(𝑦, 𝑦′ ) 方程不显含 𝑥。令 𝑝 = 𝑦′ 把 𝑝 看作 𝑦 的...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 2. 形如 𝑦″ = 𝑓(𝑥, 𝑦′ ) 考研数学 · 微分方程 2. 形如 𝑦″ = 𝑓(𝑥, 𝑦′ ) 方程不显含 𝑦。令 𝑝 = 𝑦′ 则 𝑑𝑝 𝑦 ″ = 𝑝′ = 𝑑𝑥 方程化为一阶方程 𝑑𝑝 = 𝑓(𝑥, 𝑝) 𝑑𝑥 先求 𝑝(𝑥)，再由 𝑦′ = 𝑝(𝑥) 积分求 𝑦。 3. 形如 𝑦″ = 𝑓(𝑦, 𝑦′ ) 方程不显含 𝑥。令 𝑝 = 𝑦′ 把 𝑝 看作 𝑦 的函数。由链式法则 𝑑𝑝 𝑑𝑝 𝑑𝑦 𝑑𝑝 𝑦″ = = =𝑝 𝑑𝑥 𝑑𝑦 𝑑𝑥 𝑑𝑦 于是方程化为 𝑑𝑝 𝑝 = 𝑓(𝑦, 𝑝) 𝑑𝑦 这是关于 𝑝 与 𝑦 的一阶方程。 易错点：不显含 𝑥 时不能简单令 𝑝′ = 𝑦″ 后仍对 𝑥 积分。关键是把 𝑝 = 𝑦′ 看作 𝑦 的函数，使用 𝑦″ = 𝑝𝑑 𝑑𝑝 𝑦。 八、线性微分方程总论 1. 𝑛 阶线性微分方程 𝑛 阶线性微分方程的一般形式为 𝑦(𝑛) + 𝑎1 (𝑥)𝑦(𝑛−1) + … + 𝑎𝑛−1 (𝑥)𝑦′ + 𝑎𝑛(𝑥) 𝑦 = 𝑓(𝑥) 若 𝑓(𝑥) = 0，称为线性齐次微分方程： 𝑦(𝑛) + 𝑎1 (𝑥)𝑦(𝑛−1) + … + 𝑎𝑛(𝑥) 𝑦 = 0 若 𝑓(𝑥) ≠ 0，称为线性非齐次微分方程： 𝑦(𝑛) + 𝑎1 (𝑥)𝑦(𝑛−1) + … + 𝑎𝑛(𝑥) 𝑦 = 𝑓(𝑥) 2. 齐次线性方程解的叠加原理 若 𝑦1 , 𝑦2 , …, 𝑦𝑛 都是齐次线性方程的解，则 𝑦 = 𝐶1 𝑦1 + 𝐶2 𝑦2 + … + 𝐶𝑛 𝑦𝑛 也是齐次线性方程的解。"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p10",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 10,
+    "heading": "3. 非齐次线性方程通解结构",
+    "snippet": "考研数学 · 微分方程 如果 𝑦1 , …, 𝑦𝑛 线性无关，则齐次方程通解为 𝑦ℎ = 𝐶1 𝑦1 + 𝐶2 𝑦2 + … + 𝐶𝑛 𝑦𝑛 3. 非齐次线性方程通解结构 若 𝑦𝑝 是非齐次方程的一个特解，𝑦ℎ 是对应齐次方程的通解，则非齐次方程通解为 𝑦 = 𝑦ℎ + 𝑦𝑝 证明思路： 令线性微分算子为 𝐿。非齐次方程为 𝐿(𝑦) = ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 3. 非齐次线性方程通解结构 考研数学 · 微分方程 如果 𝑦1 , …, 𝑦𝑛 线性无关，则齐次方程通解为 𝑦ℎ = 𝐶1 𝑦1 + 𝐶2 𝑦2 + … + 𝐶𝑛 𝑦𝑛 3. 非齐次线性方程通解结构 若 𝑦𝑝 是非齐次方程的一个特解，𝑦ℎ 是对应齐次方程的通解，则非齐次方程通解为 𝑦 = 𝑦ℎ + 𝑦𝑝 证明思路： 令线性微分算子为 𝐿。非齐次方程为 𝐿(𝑦) = 𝑓(𝑥) 若 𝐿(𝑦𝑝 ) = 𝑓(𝑥), 𝐿(𝑦ℎ ) = 0 则 𝐿(𝑦ℎ + 𝑦𝑝 ) = 𝐿(𝑦ℎ ) + 𝐿(𝑦𝑝 ) = 0 + 𝑓(𝑥) = 𝑓(𝑥) 所以 𝑦ℎ + 𝑦𝑝 是非齐次方程的解。 反过来，若 𝑦1 和 𝑦2 是同一个非齐次方程的两个解，则 𝐿(𝑦1 − 𝑦2 ) = 𝐿(𝑦1 ) − 𝐿(𝑦2 ) = 𝑓(𝑥) − 𝑓(𝑥) = 0 所以两个非齐次解之差是对应齐次方程的解。 九、二阶线性常系数齐次方程 1. 标准形式 二阶线性常系数齐次方程为 𝑦″ + 𝑝𝑦′ + 𝑞𝑦 = 0 其中 𝑝, 𝑞 为常数。 设试探解 𝑦 = 𝑒𝑟𝑥 则 𝑦′ = 𝑟𝑒𝑟𝑥 , 𝑦″ = 𝑟2 𝑒𝑟𝑥 代入方程： (𝑟2 + 𝑝𝑟 + 𝑞)𝑒𝑟𝑥 = 0 由于 𝑒𝑟𝑥 ≠ 0，得到特征方程： 𝑟2 + 𝑝𝑟 + 𝑞 = 0 2. 三种根的情况 特征根情况 齐次通解 两个不等实根 𝑟1 , 𝑟2 𝑦ℎ = 𝐶1 𝑒𝑟1 𝑥 + 𝐶2 𝑒𝑟2 𝑥"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p11",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 11,
+    "heading": "3. 例题",
+    "snippet": "考研数学 · 微分方程 两个相等实根 𝑟1 = 𝑟2 = 𝑟 𝑦ℎ = (𝐶1 + 𝐶2 𝑥)𝑒𝑟𝑥 共轭复根 𝑟 = 𝛼 ± 𝛽𝑖 𝑦ℎ = 𝑒𝛼𝑥 (𝐶1 cos 𝛽𝑥 + 𝐶2 sin 𝛽𝑥) 3. 例题 题目 求解 𝑦″ − 3𝑦′ + 2𝑦 = 0。 解析：特征方程为 𝑟2 − 3𝑟 + 2 = 0 即 (𝑟 − 1)(𝑟 − ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 3. 例题 考研数学 · 微分方程 两个相等实根 𝑟1 = 𝑟2 = 𝑟 𝑦ℎ = (𝐶1 + 𝐶2 𝑥)𝑒𝑟𝑥 共轭复根 𝑟 = 𝛼 ± 𝛽𝑖 𝑦ℎ = 𝑒𝛼𝑥 (𝐶1 cos 𝛽𝑥 + 𝐶2 sin 𝛽𝑥) 3. 例题 题目 求解 𝑦″ − 3𝑦′ + 2𝑦 = 0。 解析：特征方程为 𝑟2 − 3𝑟 + 2 = 0 即 (𝑟 − 1)(𝑟 − 2) = 0 所以 𝑟1 = 1, 𝑟2 = 2 通解为 𝑦 = 𝐶1 𝑒𝑥 + 𝐶2 𝑒2𝑥 十、二阶线性常系数非齐次方程 1. 标准形式与总思路 二阶线性常系数非齐次方程为 𝑦″ + 𝑝𝑦′ + 𝑞𝑦 = 𝑓(𝑥) 通解为 𝑦 = 𝑦ℎ + 𝑦𝑝 其中 𝑦ℎ 由对应齐次方程 𝑦″ + 𝑝𝑦′ + 𝑞𝑦 = 0 求出，𝑦𝑝 是非齐次方程的一个特解。 2. 待定系数法适用对象 待定系数法常用于 𝑓(𝑥) 为以下类型： 1. 多项式 𝑃𝑚(𝑥) 。 2. 指数函数 𝑒𝜆𝑥 。 3. 三角函数 cos 𝜔𝑥、sin 𝜔𝑥。 4. 它们的有限和或乘积，如 𝑒𝜆𝑥 𝑃𝑚(𝑥) 、𝑒𝜆𝑥 [𝐴 cos 𝜔𝑥 + 𝐵 sin 𝜔𝑥]。 3. 特解设法 右端 𝑓(𝑥) 特解初设形式 𝑃𝑚(𝑥) 𝑦𝑝 = 𝑄𝑚(𝑥) 𝑒𝜆𝑥 𝑃𝑚(𝑥) 𝑦𝑝 = 𝑒𝜆𝑥 𝑄𝑚(𝑥) 𝐴 cos 𝜔𝑥 + 𝐵 sin 𝜔𝑥 𝑦𝑝 = 𝑀 cos 𝜔𝑥 + 𝑁 sin 𝜔𝑥 𝜆𝑥 𝑒 (𝐴 cos 𝜔𝑥 + 𝐵 sin 𝜔𝑥) 𝑦𝑝 = 𝑒𝜆𝑥 (𝑀 cos 𝜔𝑥 + 𝑁 sin 𝜔𝑥)"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p12",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 12,
+    "heading": "4. 例题：右端为指数函数",
+    "snippet": "考研数学 · 微分方程 如果初设形式与齐次解重复，需要乘以 𝑥𝑘 ，其中 𝑘 是重复根的重数。更一般地： 𝑦𝑝 = 𝑥𝑘 × 原初设形式 其中 𝑘 为对应特征根在特征方程中的重数。 4. 例题：右端为指数函数 题目 求解 𝑦″ − 3𝑦′ + 2𝑦 = 𝑒3𝑥 。 解析：先求齐次解。特征方程： 𝑟2 − 3𝑟 + 2 = 0 所以 𝑟1 ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 4. 例题：右端为指数函数 考研数学 · 微分方程 如果初设形式与齐次解重复，需要乘以 𝑥𝑘 ，其中 𝑘 是重复根的重数。更一般地： 𝑦𝑝 = 𝑥𝑘 × 原初设形式 其中 𝑘 为对应特征根在特征方程中的重数。 4. 例题：右端为指数函数 题目 求解 𝑦″ − 3𝑦′ + 2𝑦 = 𝑒3𝑥 。 解析：先求齐次解。特征方程： 𝑟2 − 3𝑟 + 2 = 0 所以 𝑟1 = 1, 𝑟2 = 2 对应齐次通解： 𝑦ℎ = 𝐶1 𝑒𝑥 + 𝐶2 𝑒2𝑥 右端是 𝑒3𝑥 ，且 3 不是特征根，设 𝑦𝑝 = 𝐴𝑒3𝑥 则 𝑦𝑝′ = 3𝐴𝑒3𝑥 , 𝑦𝑝″ = 9𝐴𝑒3𝑥 代入左端： 𝑦𝑝″ − 3𝑦𝑝′ + 2𝑦𝑝 = (9𝐴 − 9𝐴 + 2𝐴)𝑒3𝑥 = 2𝐴𝑒3𝑥 令其等于 𝑒3𝑥 ，得 2𝐴 = 1 所以 1 𝐴= 2 通解为 1 𝑦 = 𝐶1 𝑒𝑥 + 𝐶2 𝑒2𝑥 + 𝑒3𝑥 2 5. 例题：右端与齐次解重复 题目 求解 𝑦″ − 3𝑦′ + 2𝑦 = 𝑒𝑥 。 解析：对应齐次通解仍为 𝑦ℎ = 𝐶1 𝑒𝑥 + 𝐶2 𝑒2𝑥 右端 𝑒𝑥 对应的 𝜆 = 1 是特征根，且为一重根，所以不能设 𝐴𝑒𝑥 ，应乘以 𝑥： 𝑦𝑝 = 𝐴𝑥𝑒𝑥"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p13",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 13,
+    "heading": "十一、常数变易法",
+    "snippet": "考研数学 · 微分方程 计算： 𝑦𝑝′ = 𝐴𝑒𝑥 + 𝐴𝑥𝑒𝑥 = 𝐴(1 + 𝑥)𝑒𝑥 𝑦𝑝″ = 𝐴(2 + 𝑥)𝑒𝑥 代入： 𝑦𝑝″ − 3𝑦𝑝′ + 2𝑦𝑝 = 𝐴[(2 + 𝑥) − 3(1 + 𝑥) + 2𝑥]𝑒𝑥 = 𝐴[−1]𝑒𝑥 令其等于 𝑒𝑥 ，得 𝐴 = −1 因此 𝑦 = 𝐶1 𝑒𝑥 + 𝐶2 𝑒2𝑥 − 𝑥𝑒𝑥...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 十一、常数变易法 考研数学 · 微分方程 计算： 𝑦𝑝′ = 𝐴𝑒𝑥 + 𝐴𝑥𝑒𝑥 = 𝐴(1 + 𝑥)𝑒𝑥 𝑦𝑝″ = 𝐴(2 + 𝑥)𝑒𝑥 代入： 𝑦𝑝″ − 3𝑦𝑝′ + 2𝑦𝑝 = 𝐴[(2 + 𝑥) − 3(1 + 𝑥) + 2𝑥]𝑒𝑥 = 𝐴[−1]𝑒𝑥 令其等于 𝑒𝑥 ，得 𝐴 = −1 因此 𝑦 = 𝐶1 𝑒𝑥 + 𝐶2 𝑒2𝑥 − 𝑥𝑒𝑥 十一、常数变易法 1. 一阶线性方程中的常数变易 一阶线性齐次方程 𝑦′ + 𝑃 (𝑥)𝑦 = 0 通解为 𝑦ℎ = 𝐶𝑒− ∫ 𝑃 (𝑥)𝑑𝑥 将常数 𝐶 看成函数 𝐶(𝑥)： 𝑦 = 𝐶(𝑥)𝑒− ∫ 𝑃 (𝑥)𝑑𝑥 代入非齐次方程 𝑦′ + 𝑃 (𝑥)𝑦 = 𝑄(𝑥)，即可求出 𝐶 ′ (𝑥)。这与积分因子法本质一致。 2. 二阶线性方程中的常数变易 对于 𝑦″ + 𝑝(𝑥)𝑦′ + 𝑞(𝑥)𝑦 = 𝑓(𝑥) 若对应齐次方程有一组基本解 𝑦1 , 𝑦2 ，则设特解为 𝑦𝑝 = 𝑢1 (𝑥)𝑦1 + 𝑢2 (𝑥)𝑦2 附加条件 𝑢1′ 𝑦1 + 𝑢2′ 𝑦2 = 0 并要求 𝑢1′ 𝑦1′ + 𝑢2′ 𝑦2′ = 𝑓(𝑥) 解线性方程组可得 𝑦 𝑓 𝑦1 𝑓 𝑢 1′ = − 2 , 𝑢2′ = 𝑊 𝑊 其中"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p14",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 14,
+    "heading": "十二、欧拉方程",
+    "snippet": "考研数学 · 微分方程 𝑦 𝑦 𝑊 = ( 1 2 ) = 𝑦1 𝑦2′ − 𝑦1′ 𝑦2 𝑦1′ 𝑦2′ 因此 𝑦2 𝑓 𝑦 𝑓 𝑦𝑝 = −𝑦1 ∫ 𝑑𝑥 + 𝑦2 ∫ 1 𝑑𝑥 𝑊 𝑊 常数变易法适用范围比待定系数法更广，但计算量通常更大。 十二、欧拉方程 1. 标准形式 二阶欧拉方程常写为 𝑥2 𝑦″ + 𝑎𝑥𝑦′ + 𝑏𝑦 = ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 十二、欧拉方程 考研数学 · 微分方程 𝑦 𝑦 𝑊 = ( 1 2 ) = 𝑦1 𝑦2′ − 𝑦1′ 𝑦2 𝑦1′ 𝑦2′ 因此 𝑦2 𝑓 𝑦 𝑓 𝑦𝑝 = −𝑦1 ∫ 𝑑𝑥 + 𝑦2 ∫ 1 𝑑𝑥 𝑊 𝑊 常数变易法适用范围比待定系数法更广，但计算量通常更大。 十二、欧拉方程 1. 标准形式 二阶欧拉方程常写为 𝑥2 𝑦″ + 𝑎𝑥𝑦′ + 𝑏𝑦 = 𝑓(𝑥) 对应齐次方程为 𝑥2 𝑦″ + 𝑎𝑥𝑦′ + 𝑏𝑦 = 0 2. 齐次欧拉方程解法 设 𝑦 = 𝑥𝑟 则 𝑦′ = 𝑟𝑥𝑟−1 , 𝑦″ = 𝑟(𝑟 − 1)𝑥𝑟−2 代入齐次方程： 𝑥2 𝑟(𝑟 − 1)𝑥𝑟−2 + 𝑎𝑥𝑟𝑥𝑟−1 + 𝑏𝑥𝑟 = 0 化简： [𝑟(𝑟 − 1) + 𝑎𝑟 + 𝑏]𝑥𝑟 = 0 得到特征方程： 𝑟(𝑟 − 1) + 𝑎𝑟 + 𝑏 = 0 也即 𝑟2 + (𝑎 − 1)𝑟 + 𝑏 = 0 然后按特征根情况写解： 根的情况 齐次通解 不等实根 𝑟1 , 𝑟2 𝑦 = 𝐶1 𝑥𝑟1 + 𝐶2 𝑥𝑟2 相等实根 𝑟 𝑦 = (𝐶1 + 𝐶2 ln|𝑥|)𝑥𝑟 复根 𝑟 = 𝛼 ± 𝛽𝑖 𝑦 = 𝑥𝛼 [𝐶1 cos(𝛽 ln|𝑥|) + 𝐶2 sin(𝛽 ln|𝑥|)] 十三、齐次与非齐次、特解与通解的关系 1. 齐次与非齐次的区别 对线性方程"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p15",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 15,
+    "heading": "2. 特解不是唯一的",
+    "snippet": "考研数学 · 微分方程 𝐿(𝑦) = 𝑓(𝑥) 若右端 𝑓(𝑥) = 0，称为齐次方程；若 𝑓(𝑥) ≠ 0，称为非齐次方程。 齐次方程： 𝐿(𝑦) = 0 非齐次方程： 𝐿(𝑦) = 𝑓(𝑥) 2. 特解不是唯一的 非齐次方程的特解只要求满足原方程，不要求含有任意常数。特解一般不唯一。 如果 𝑦𝑝 是一个特解，𝑦ℎ 是对应齐次方程任意解...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 2. 特解不是唯一的 考研数学 · 微分方程 𝐿(𝑦) = 𝑓(𝑥) 若右端 𝑓(𝑥) = 0，称为齐次方程；若 𝑓(𝑥) ≠ 0，称为非齐次方程。 齐次方程： 𝐿(𝑦) = 0 非齐次方程： 𝐿(𝑦) = 𝑓(𝑥) 2. 特解不是唯一的 非齐次方程的特解只要求满足原方程，不要求含有任意常数。特解一般不唯一。 如果 𝑦𝑝 是一个特解，𝑦ℎ 是对应齐次方程任意解，则 𝑦𝑝 + 𝑦ℎ 仍然是非齐次方程的解。 所以“特解”只是用来构造通解的一块砖，不是唯一答案。 3. 通解必须包含完整任意常数 一阶方程通解通常含 1 个任意常数；二阶方程通解通常含 2 个任意常数；𝑛 阶方程通解通常含 𝑛 个任意常数。 对于非齐次线性方程，不能只写一个特解，必须补上对应齐次通解： 𝑦 = 𝑦ℎ + 𝑦𝑝 易错点： 很多错误答案只求出了 𝑦𝑝 ，没有加 𝑦ℎ 。只要是非齐次线性微分方程，最终通解一定要写成“齐次 通解 + 一个非齐次特解”。 十四、典型综合例题 例题 1：初值问题 题目 求解初值问题 𝑦′ + 𝑦 = 𝑒𝑥 , 𝑦(0) = 2。 解析：这是一阶线性方程， 𝑃 (𝑥) = 1, 𝑄(𝑥) = 𝑒𝑥 积分因子： 𝜇 = 𝑒∫ 1𝑑𝑥 = 𝑒𝑥 两边乘以 𝑒𝑥 ： 𝑒𝑥 𝑦′ + 𝑒𝑥 𝑦 = 𝑒2𝑥 即 (𝑒𝑥 𝑦)′ = 𝑒2𝑥 积分："
+  },
+  {
+    "id": "doc-2e19c43e8eca-p16",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 16,
+    "heading": "例题 2：二阶非齐次常系数方程",
+    "snippet": "考研数学 · 微分方程 1 𝑒𝑥 𝑦 = 𝑒2𝑥 + 𝐶 2 所以通解为 1 𝑦 = 𝑒𝑥 + 𝐶𝑒−𝑥 2 代入 𝑦(0) = 2： 1 2= +𝐶 2 得 3 𝐶= 2 特解为 1 3 𝑦 = 𝑒𝑥 + 𝑒−𝑥 2 2 例题 2：二阶非齐次常系数方程 题目 求解 𝑦″ + 𝑦 = sin 𝑥。 解析：先解齐次方程： 𝑦″ + 𝑦 = ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 例题 2：二阶非齐次常系数方程 考研数学 · 微分方程 1 𝑒𝑥 𝑦 = 𝑒2𝑥 + 𝐶 2 所以通解为 1 𝑦 = 𝑒𝑥 + 𝐶𝑒−𝑥 2 代入 𝑦(0) = 2： 1 2= +𝐶 2 得 3 𝐶= 2 特解为 1 3 𝑦 = 𝑒𝑥 + 𝑒−𝑥 2 2 例题 2：二阶非齐次常系数方程 题目 求解 𝑦″ + 𝑦 = sin 𝑥。 解析：先解齐次方程： 𝑦″ + 𝑦 = 0 特征方程： 𝑟2 + 1 = 0 故 𝑟 = ±𝑖 齐次通解： 𝑦ℎ = 𝐶1 cos 𝑥 + 𝐶2 sin 𝑥 右端 sin 𝑥 与齐次解重复，因此设特解时需乘以 𝑥。可设 𝑦𝑝 = 𝐴𝑥 cos 𝑥 计算： 𝑦𝑝′ = 𝐴 cos 𝑥 − 𝐴𝑥 sin 𝑥 𝑦𝑝″ = −2𝐴 sin 𝑥 − 𝐴𝑥 cos 𝑥 代入左端： 𝑦𝑝″ + 𝑦𝑝 = −2𝐴 sin 𝑥 令其等于 sin 𝑥，得 −2𝐴 = 1 所以"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p17",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 17,
+    "heading": "例题 3：不显含 𝑥 的降阶",
+    "snippet": "考研数学 · 微分方程 1 𝐴=− 2 通解为 1 𝑦 = 𝐶1 cos 𝑥 + 𝐶2 sin 𝑥 − 𝑥 cos 𝑥 2 例题 3：不显含 𝑥 的降阶 2 题目 求解 𝑦𝑦″ = (𝑦′ ) 。 解析：方程不显含 𝑥，令 𝑝 = 𝑦′ 并把 𝑝 看作 𝑦 的函数，则 𝑑𝑝 𝑦″ = 𝑝 𝑑𝑦 代入： 𝑑𝑝 𝑦𝑝 = 𝑝2 𝑑𝑦 当 𝑝 ...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 例题 3：不显含 𝑥 的降阶 考研数学 · 微分方程 1 𝐴=− 2 通解为 1 𝑦 = 𝐶1 cos 𝑥 + 𝐶2 sin 𝑥 − 𝑥 cos 𝑥 2 例题 3：不显含 𝑥 的降阶 2 题目 求解 𝑦𝑦″ = (𝑦′ ) 。 解析：方程不显含 𝑥，令 𝑝 = 𝑦′ 并把 𝑝 看作 𝑦 的函数，则 𝑑𝑝 𝑦″ = 𝑝 𝑑𝑦 代入： 𝑑𝑝 𝑦𝑝 = 𝑝2 𝑑𝑦 当 𝑝 ≠ 0 时，两边除以 𝑝： 𝑑𝑝 𝑦 =𝑝 𝑑𝑦 分离变量： 𝑑𝑝 𝑑𝑦 = 𝑝 𝑦 积分： ln|𝑝| = ln|𝑦| + 𝐶 所以 𝑝 = 𝐶1 𝑦 即 𝑦′ = 𝐶1 𝑦 再分离变量： 𝑑𝑦 = 𝐶1 𝑑𝑥 𝑦 积分得 𝑦 = 𝐶2 𝑒𝐶1 𝑥 当 𝑝 = 0 时，得到常数解，也包含在 𝐶1 = 0 的情形中。"
+  },
+  {
+    "id": "doc-2e19c43e8eca-p18",
+    "docId": "doc-2e19c43e8eca",
+    "title": "Ordinary Differential Equations (常微分方程)",
+    "category": "微积分",
+    "page": 18,
+    "heading": "十五、考研解题识别表",
+    "snippet": "考研数学 · 微分方程 十五、考研解题识别表 方程特征 典型形式 主要方法 𝑑𝑦 变量可分离 𝑑𝑥 = 𝑓(𝑥)𝑔(𝑦) 分离变量，两边积分 一阶齐次 𝑦′ = 𝐹 ( 𝑥𝑦 ) 令 𝑦 = 𝑣𝑥 ′ 一阶线性 𝑦 + 𝑃 (𝑥)𝑦 = 𝑄(𝑥) 积分因子 𝑒∫ 𝑃 𝑑𝑥 伯努利方程 𝑦′ + 𝑃 𝑦 = 𝑄𝑦𝑛 令 𝑧 = 𝑦1−𝑛 全...",
+    "text": "Ordinary Differential Equations (常微分方程) Ordinary Differential Equations 常微分方程 微积分 十五、考研解题识别表 考研数学 · 微分方程 十五、考研解题识别表 方程特征 典型形式 主要方法 𝑑𝑦 变量可分离 𝑑𝑥 = 𝑓(𝑥)𝑔(𝑦) 分离变量，两边积分 一阶齐次 𝑦′ = 𝐹 ( 𝑥𝑦 ) 令 𝑦 = 𝑣𝑥 ′ 一阶线性 𝑦 + 𝑃 (𝑥)𝑦 = 𝑄(𝑥) 积分因子 𝑒∫ 𝑃 𝑑𝑥 伯努利方程 𝑦′ + 𝑃 𝑦 = 𝑄𝑦𝑛 令 𝑧 = 𝑦1−𝑛 全微分 𝑀 𝑑𝑥 + 𝑁 𝑑𝑦 = 0 检验 𝑀𝑦 = 𝑁𝑥 ，找势函数 不显含 𝑦 𝑦″ = 𝑓(𝑥, 𝑦′ ) 令 𝑝 = 𝑦′ 不显含 𝑥 𝑦″ = 𝑓(𝑦, 𝑦′ ) 令 𝑝 = 𝑦′ ，用 𝑦″ = 𝑝𝑑 𝑑𝑝 𝑦 二阶常系数齐次 𝑦″ + 𝑝𝑦′ + 𝑞𝑦 = 0 列特征方程 ″ ′ 二阶常系数非齐次 𝑦 + 𝑝𝑦 + 𝑞𝑦 = 𝑓(𝑥) 𝑦 = 𝑦ℎ + 𝑦𝑝 ，待定系数或常数变易 欧拉方程 𝑥2 𝑦″ + 𝑎𝑥𝑦′ + 𝑏𝑦 = 𝑓(𝑥) 齐次时设 𝑦 = 𝑥𝑟 十六、公式速查表 内容 公式 𝑑𝑦 可分离变量 ∫ 𝑔(𝑦) = ∫ 𝑓(𝑥)𝑑𝑥 + 𝐶 一阶齐次代换 𝑦 = 𝑣𝑥, 𝑦′ = 𝑣 + 𝑥𝑣′ 一阶线性通解 𝑦 = 𝑒− ∫ 𝑃 𝑑𝑥 [∫ 𝑒∫ 𝑃 𝑑𝑥 𝑄𝑑𝑥 + 𝐶] 伯努利代换 𝑧 = 𝑦1−𝑛 𝜕𝑀 𝜕𝑁 全微分条件 𝜕𝑦 = 𝜕𝑥 不显含 𝑥 的降阶 ′ 𝑝=𝑦 , ″ 𝑦 = 𝑝 𝑑𝑝 𝑑𝑦 二阶齐次特征方程 𝑟2 + 𝑝𝑟 + 𝑞 = 0 非齐次通解结构 𝑦 = 𝑦ℎ + 𝑦 𝑝 欧拉齐次特征方程 𝑟(𝑟 − 1) + 𝑎𝑟 + 𝑏 = 0 最终抓手： 微分方程先分类：能不能分离变量？是不是 𝑦′ = 𝐹 ( 𝑥𝑦 )？是不是一阶线性？是不是二阶常系数 线性？如果是非齐次线性，永远记住最后答案是 𝑦ℎ + 𝑦𝑝 。初值条件只负责确定通解里的任意常数。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p1",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 1,
+    "heading": "一、无穷级数的基本概念",
+    "snippet": "考研数学 · 无穷级数 无穷级数专项总结 数项级数 · 判别法 · 幂级数 · 泰勒展开 · 傅里叶级数 考研数学复习资料 · Typst PDF 复习目标： 无穷级数的核心是“看部分和是否有极限”。考研常考两条线：数项级数判断敛散性，幂级数求 收敛半径、收敛域与展开式。做题时先分类，再选判别法，最后单独检查端点和特殊项。 一、无穷级数的...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 一、无穷级数的基本概念 考研数学 · 无穷级数 无穷级数专项总结 数项级数 · 判别法 · 幂级数 · 泰勒展开 · 傅里叶级数 考研数学复习资料 · Typst PDF 复习目标： 无穷级数的核心是“看部分和是否有极限”。考研常考两条线：数项级数判断敛散性，幂级数求 收敛半径、收敛域与展开式。做题时先分类，再选判别法，最后单独检查端点和特殊项。 一、无穷级数的基本概念 1. 数项级数 给定数列 𝑢1 , 𝑢2 , …, 𝑢𝑛 , …，形式和 ∞ ∑ 𝑢𝑛 = 𝑢1 + 𝑢2 + … + 𝑢𝑛 + … 𝑛=1 称为无穷级数，简称级数。 定义部分和 𝑛 𝑆𝑛 = ∑ 𝑢𝑘 𝑘=1 若极限 lim 𝑆𝑛 = 𝑆 𝑛→∞ ∞ 存在，则称级数 ∑𝑛=1 𝑢𝑛 收敛，且和为 𝑆 ；若极限不存在，则称级数发散。 2. 通项趋零是收敛的必要条件 若级数 ∑ 𝑢𝑛 收敛，则 lim 𝑢𝑛 = 0 𝑛→∞ 证明思路：因为 𝑢𝑛 = 𝑆𝑛 − 𝑆𝑛−1 若 𝑆𝑛 → 𝑆 ，则 𝑆𝑛−1 → 𝑆 ，所以 𝑢𝑛 = 𝑆𝑛 − 𝑆𝑛−1 → 0 但反过来不成立。即 𝑢𝑛 → 0 不能推出 ∑ 𝑢𝑛 收敛。 易错点： 判断级数敛散性时，第一步常先看 lim 𝑢𝑛 。若通项极限不为 0 或不存在，则级数一定发散；若通 项趋于 0，还需要进一步判别。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p2",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 2,
+    "heading": "3. 收敛级数的基本性质",
+    "snippet": "考研数学 · 无穷级数 3. 收敛级数的基本性质 若 ∑ 𝑢𝑛 和 ∑ 𝑣𝑛 都收敛，则 ∞ ∞ ∞ ∑(𝑎𝑢𝑛 + 𝑏𝑣𝑛 ) = 𝑎 ∑ 𝑢𝑛 + 𝑏 ∑ 𝑣𝑛 𝑛=1 𝑛=1 𝑛=1 改变、增删有限项不影响级数的敛散性，但会改变级数的和。 如果 ∑ 𝑢𝑛 收敛，则去掉前 𝑚 项后的余项 ∞ 𝑅𝑚 = ∑ 𝑢𝑛 𝑛=𝑚+1 满足 𝑅𝑚...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 3. 收敛级数的基本性质 考研数学 · 无穷级数 3. 收敛级数的基本性质 若 ∑ 𝑢𝑛 和 ∑ 𝑣𝑛 都收敛，则 ∞ ∞ ∞ ∑(𝑎𝑢𝑛 + 𝑏𝑣𝑛 ) = 𝑎 ∑ 𝑢𝑛 + 𝑏 ∑ 𝑣𝑛 𝑛=1 𝑛=1 𝑛=1 改变、增删有限项不影响级数的敛散性，但会改变级数的和。 如果 ∑ 𝑢𝑛 收敛，则去掉前 𝑚 项后的余项 ∞ 𝑅𝑚 = ∑ 𝑢𝑛 𝑛=𝑚+1 满足 𝑅𝑚 → 0 (𝑚 → ∞)"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p3",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 3,
+    "heading": "二、几个基础级数",
+    "snippet": "考研数学 · 无穷级数 二、几个基础级数 1. 几何级数 ∞ ∑ 𝑞𝑛 = 1 + 𝑞 + 𝑞2 + … 𝑛=0 当 |𝑞| < 1 时收敛，且 ∞ 1 ∑ 𝑞𝑛 = 𝑛=0 1−𝑞 当 |𝑞| ≥ 1 时发散。 若从 𝑛 = 1 开始： ∞ 𝑞 ∑ 𝑞𝑛 = , |𝑞| < 1 𝑛=1 1−𝑞 2. 𝑝 级数 ∞ 1 ∑ 𝑛=1 𝑛𝑝 ...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 二、几个基础级数 考研数学 · 无穷级数 二、几个基础级数 1. 几何级数 ∞ ∑ 𝑞𝑛 = 1 + 𝑞 + 𝑞2 + … 𝑛=0 当 |𝑞| < 1 时收敛，且 ∞ 1 ∑ 𝑞𝑛 = 𝑛=0 1−𝑞 当 |𝑞| ≥ 1 时发散。 若从 𝑛 = 1 开始： ∞ 𝑞 ∑ 𝑞𝑛 = , |𝑞| < 1 𝑛=1 1−𝑞 2. 𝑝 级数 ∞ 1 ∑ 𝑛=1 𝑛𝑝 当 𝑝 > 1 时收敛；当 𝑝 ≤ 1 时发散。 特别地，调和级数 ∞ 1 ∑ 𝑛=1 𝑛 发散。 3. 等比型和望远镜型 若通项可拆成相邻项差： 𝑢𝑛 = 𝑎𝑛 − 𝑎𝑛+1 则 𝑁 ∑ 𝑢𝑛 = 𝑎1 − 𝑎𝑁+1 𝑛=1 若 lim𝑁→∞ 𝑎𝑁+1 存在，则级数收敛。 常见拆法： 1 1 1 = − 𝑛(𝑛 + 1) 𝑛 𝑛+1 因此 ∞ 1 ∑ =1 𝑛=1 𝑛(𝑛 + 1) 4. Wallis 公式相关结论 Wallis 公式常用于估计含双阶乘或三角积分的项："
+  },
+  {
+    "id": "doc-ed23c04b20bf-p4",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 4,
+    "heading": "考研数学 · 无穷级数",
+    "snippet": "考研数学 · 无穷级数 𝜋 𝜋 2 2 ∫ sin 𝑥𝑑𝑥 = ∫ cos𝑛 𝑥𝑑𝑥 𝑛 0 0 记 𝜋 2 𝐼𝑛 = ∫ sin𝑛 𝑥𝑑𝑥 0 则 𝑛−1 𝐼𝑛 = 𝐼 𝑛 𝑛−2 偶数次： (2𝑚 − 1)!! 𝜋 𝐼2𝑚 = ⋅ (2𝑚)!! 2 奇数次： (2𝑚)!! 𝐼2𝑚+1 = (2𝑚 + 1)!! 常用等价： (2𝑛 − ...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 考研数学 · 无穷级数 考研数学 · 无穷级数 𝜋 𝜋 2 2 ∫ sin 𝑥𝑑𝑥 = ∫ cos𝑛 𝑥𝑑𝑥 𝑛 0 0 记 𝜋 2 𝐼𝑛 = ∫ sin𝑛 𝑥𝑑𝑥 0 则 𝑛−1 𝐼𝑛 = 𝐼 𝑛 𝑛−2 偶数次： (2𝑚 − 1)!! 𝜋 𝐼2𝑚 = ⋅ (2𝑚)!! 2 奇数次： (2𝑚)!! 𝐼2𝑚+1 = (2𝑚 + 1)!! 常用等价： (2𝑛 − 1)!! 1 ∼√ (2𝑛)!! 𝜋𝑛 它可以帮助判断含双阶乘项的级数敛散性。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p5",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 5,
+    "heading": "三、正项级数及判别法",
+    "snippet": "考研数学 · 无穷级数 三、正项级数及判别法 若 𝑢𝑛 ≥ 0，则 ∑ 𝑢𝑛 称为正项级数。正项级数的部分和 𝑆𝑛 单调递增，因此： ∑ 𝑢𝑛 收敛 ⇔ {𝑆𝑛 } 有上界 1. 比较判别法 设 0 ≤ 𝑢𝑛 ≤ 𝑣𝑛 。 若 ∑ 𝑣𝑛 收敛，则 ∑ 𝑢𝑛 收敛。 若 ∑ 𝑢𝑛 发散，则 ∑ 𝑣𝑛 发散。 常用比较对象是几何级数和 𝑝 级...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 三、正项级数及判别法 考研数学 · 无穷级数 三、正项级数及判别法 若 𝑢𝑛 ≥ 0，则 ∑ 𝑢𝑛 称为正项级数。正项级数的部分和 𝑆𝑛 单调递增，因此： ∑ 𝑢𝑛 收敛 ⇔ {𝑆𝑛 } 有上界 1. 比较判别法 设 0 ≤ 𝑢𝑛 ≤ 𝑣𝑛 。 若 ∑ 𝑣𝑛 收敛，则 ∑ 𝑢𝑛 收敛。 若 ∑ 𝑢𝑛 发散，则 ∑ 𝑣𝑛 发散。 常用比较对象是几何级数和 𝑝 级数。 2. 极限比较判别法 设 𝑢𝑛 > 0, 𝑣𝑛 > 0，若 𝑢𝑛 lim =𝑙 𝑛→∞ 𝑣𝑛 其中 0 < 𝑙 < ∞，则 ∑ 𝑢𝑛 与 ∑ 𝑣𝑛 同敛散。 若 𝑙 = 0，且 ∑ 𝑣𝑛 收敛，则 ∑ 𝑢𝑛 收敛。 若 𝑙 = ∞，且 ∑ 𝑣𝑛 发散，则 ∑ 𝑢𝑛 发散。 3. 比值判别法 设 𝑢𝑛 > 0，若 𝑢𝑛+1 lim =𝑟 𝑛→∞ 𝑢𝑛 则： 1. 当 𝑟 < 1 时，∑ 𝑢𝑛 收敛。 2. 当 𝑟 > 1 或 𝑟 = ∞ 时，∑ 𝑢𝑛 发散。 3. 当 𝑟 = 1 时，判别法失效。 比值判别法适合含阶乘、指数幂、连乘积的级数。 4. 根值判别法 设 𝑢𝑛 ≥ 0，若 √ lim 𝑛 𝑢𝑛 = 𝑟 𝑛→∞ 则： 1. 当 𝑟 < 1 时，∑ 𝑢𝑛 收敛。 2. 当 𝑟 > 1 或 𝑟 = ∞ 时，∑ 𝑢𝑛 发散。 3. 当 𝑟 = 1 时，判别法失效。 根值判别法适合形如 𝑢𝑛 = (𝑎𝑛 )𝑛 或含 𝑛 次幂的通项。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p6",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 6,
+    "heading": "5. 积分判别法",
+    "snippet": "考研数学 · 无穷级数 5. 积分判别法 若 𝑓(𝑥) 在 [1, +∞) 上连续、正值、单调递减，且 𝑢𝑛 = 𝑓(𝑛) 则 ∞ ∑ 𝑢𝑛 𝑛=1 与广义积分 +∞ ∫ 𝑓(𝑥)𝑑𝑥 1 同敛散。 典型应用是证明 𝑝 级数： ∞ 1 ∑ 𝑛=1 𝑛𝑝 当 𝑝 > 1 收敛，当 𝑝 ≤ 1 发散。 6. 常用等价无穷小比较 当 𝑛 → ∞...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 5. 积分判别法 考研数学 · 无穷级数 5. 积分判别法 若 𝑓(𝑥) 在 [1, +∞) 上连续、正值、单调递减，且 𝑢𝑛 = 𝑓(𝑛) 则 ∞ ∑ 𝑢𝑛 𝑛=1 与广义积分 +∞ ∫ 𝑓(𝑥)𝑑𝑥 1 同敛散。 典型应用是证明 𝑝 级数： ∞ 1 ∑ 𝑛=1 𝑛𝑝 当 𝑝 > 1 收敛，当 𝑝 ≤ 1 发散。 6. 常用等价无穷小比较 当 𝑛 → ∞ 时，若 𝑥𝑛 → 0，常用等价有 sin 𝑥𝑛 ∼ 𝑥𝑛 , tan 𝑥𝑛 ∼ 𝑥𝑛 ln(1 + 𝑥𝑛 ) ∼ 𝑥𝑛 , 𝑒𝑥𝑛 − 1 ∼ 𝑥𝑛 𝑥2𝑛 1 − cos 𝑥𝑛 ∼ 2 因此判断级数时，可以把复杂通项化为简单等价形式。 例如 1 1 ln(1 + 2 )∼ 2 𝑛 𝑛 所以 ∞ 1 ∑ ln(1 + ) 𝑛=1 𝑛2 与 ∑ 𝑛12 同敛散，故收敛。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p7",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "四、任意项级数",
+    "snippet": "考研数学 · 无穷级数 四、任意项级数 任意项级数可能有正有负。考研中最重要的是绝对收敛、条件收敛和交错级数。 1. 绝对收敛与条件收敛 若 ∞ ∑|𝑢𝑛 | 𝑛=1 收敛，则称 ∑ 𝑢𝑛 绝对收敛。 若 ∑ 𝑢𝑛 收敛，但 ∑|𝑢𝑛 | 发散，则称 ∑ 𝑢𝑛 条件收敛。 绝对收敛一定推出收敛： ∑|𝑢𝑛 | 收敛 ⇒ ∑ 𝑢𝑛 收敛 但...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 四、任意项级数 考研数学 · 无穷级数 四、任意项级数 任意项级数可能有正有负。考研中最重要的是绝对收敛、条件收敛和交错级数。 1. 绝对收敛与条件收敛 若 ∞ ∑|𝑢𝑛 | 𝑛=1 收敛，则称 ∑ 𝑢𝑛 绝对收敛。 若 ∑ 𝑢𝑛 收敛，但 ∑|𝑢𝑛 | 发散，则称 ∑ 𝑢𝑛 条件收敛。 绝对收敛一定推出收敛： ∑|𝑢𝑛 | 收敛 ⇒ ∑ 𝑢𝑛 收敛 但收敛不一定绝对收敛。 2. 交错级数判别法 形如 ∞ ∑ (−1)𝑛−1 𝑎𝑛 𝑛=1 或 ∞ ∑ (−1)𝑛 𝑎𝑛 𝑛=1 的级数称为交错级数，其中 𝑎𝑛 ≥ 0。 若满足： 1. 𝑎𝑛 单调递减； 2. lim𝑛→∞ 𝑎𝑛 = 0； 则交错级数收敛。 此外，余项估计为 |𝑅𝑛 | ≤ 𝑎𝑛+1 其中 𝑅𝑛 = 𝑆 − 𝑆𝑛 。 典型例子： ∞ (−1)𝑛−1 ∑ 𝑛=1 𝑛 收敛，但 ∞ 1 ∑ 𝑛=1 𝑛 发散，所以它是条件收敛。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p8",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 8,
+    "heading": "3. Dirichlet 判别法",
+    "snippet": "考研数学 · 无穷级数 3. Dirichlet 判别法 若部分和 𝑛 𝐴𝑛 = ∑ 𝑎𝑘 𝑘=1 有界，且 𝑏𝑛 单调趋于 0，则 ∞ ∑ 𝑎𝑛 𝑏𝑛 𝑛=1 收敛。 交错级数判别法可以看成 Dirichlet 判别法的一个常用特例。 4. Abel 判别法 若 ∑ 𝑎𝑛 收敛，𝑏𝑛 单调且有界，则 ∞ ∑ 𝑎𝑛 𝑏𝑛 𝑛=1 收敛。 ...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 3. Dirichlet 判别法 考研数学 · 无穷级数 3. Dirichlet 判别法 若部分和 𝑛 𝐴𝑛 = ∑ 𝑎𝑘 𝑘=1 有界，且 𝑏𝑛 单调趋于 0，则 ∞ ∑ 𝑎𝑛 𝑏𝑛 𝑛=1 收敛。 交错级数判别法可以看成 Dirichlet 判别法的一个常用特例。 4. Abel 判别法 若 ∑ 𝑎𝑛 收敛，𝑏𝑛 单调且有界，则 ∞ ∑ 𝑎𝑛 𝑏𝑛 𝑛=1 收敛。 Dirichlet 和 Abel 判别法不是每道题都用，但遇到 sin(𝑛𝑥)、cos(𝑛𝑥)、单调因子和部分和有界时很有用。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p9",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 9,
+    "heading": "五、幂级数",
+    "snippet": "考研数学 · 无穷级数 五、幂级数 1. 幂级数的形式 以 𝑥0 为中心的幂级数为 ∞ ∑ 𝑎𝑛 (𝑥 − 𝑥0 )𝑛 𝑛=0 最常见中心是 𝑥0 = 0： ∞ ∑ 𝑎𝑛 𝑥𝑛 𝑛=0 幂级数的核心问题是求收敛半径、收敛区间和收敛域。 2. 收敛半径 对 ∞ ∑ 𝑎𝑛 (𝑥 − 𝑥0 )𝑛 𝑛=0 若存在极限 𝑎 lim | 𝑛+1 | ...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 五、幂级数 考研数学 · 无穷级数 五、幂级数 1. 幂级数的形式 以 𝑥0 为中心的幂级数为 ∞ ∑ 𝑎𝑛 (𝑥 − 𝑥0 )𝑛 𝑛=0 最常见中心是 𝑥0 = 0： ∞ ∑ 𝑎𝑛 𝑥𝑛 𝑛=0 幂级数的核心问题是求收敛半径、收敛区间和收敛域。 2. 收敛半径 对 ∞ ∑ 𝑎𝑛 (𝑥 − 𝑥0 )𝑛 𝑛=0 若存在极限 𝑎 lim | 𝑛+1 | = 𝐿 𝑛→∞ 𝑎𝑛 则收敛半径 1 𝑅= 𝐿 其中约定：𝐿 = 0 时 𝑅 = ∞，𝐿 = ∞ 时 𝑅 = 0。 也可用根值形式： 1 lim √ 𝑛 |𝑎𝑛 | = 𝐿, 𝑅 = 𝑛→∞ 𝐿 3. 收敛区间和端点 幂级数有以下性质： 1. 当 |𝑥 − 𝑥0 | < 𝑅 时绝对收敛。 2. 当 |𝑥 − 𝑥0 | > 𝑅 时发散。 3. 当 |𝑥 − 𝑥0 | = 𝑅 时必须单独判断。 因此求收敛域步骤是： 1. 先用比值或根值求 𝑅。 2. 写出开区间 (𝑥0 − 𝑅, 𝑥0 + 𝑅)。 3. 分别代入两个端点，判断数项级数敛散性。 易错点： 幂级数端点不能靠收敛半径直接判断。端点代入后常变成 𝑝 级数、交错级数或调和级数，必须单 独检查。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p10",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 10,
+    "heading": "4. 幂级数的运算性质",
+    "snippet": "考研数学 · 无穷级数 4. 幂级数的运算性质 在收敛区间内部，幂级数可以逐项求导、逐项积分。 若 ∞ 𝑓(𝑥) = ∑ 𝑎𝑛 𝑥𝑛 , |𝑥| < 𝑅 𝑛=0 则 ∞ 𝑓 ′ (𝑥) = ∑ 𝑛𝑎𝑛 𝑥𝑛−1 , |𝑥| < 𝑅 𝑛=1 并且 𝑥 ∞ 𝑥𝑛+1 ∫ 𝑓(𝑡)𝑑𝑡 = ∑ 𝑎𝑛 , |𝑥| < 𝑅 0 𝑛=0 𝑛+1 逐项...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 4. 幂级数的运算性质 考研数学 · 无穷级数 4. 幂级数的运算性质 在收敛区间内部，幂级数可以逐项求导、逐项积分。 若 ∞ 𝑓(𝑥) = ∑ 𝑎𝑛 𝑥𝑛 , |𝑥| < 𝑅 𝑛=0 则 ∞ 𝑓 ′ (𝑥) = ∑ 𝑛𝑎𝑛 𝑥𝑛−1 , |𝑥| < 𝑅 𝑛=1 并且 𝑥 ∞ 𝑥𝑛+1 ∫ 𝑓(𝑡)𝑑𝑡 = ∑ 𝑎𝑛 , |𝑥| < 𝑅 0 𝑛=0 𝑛+1 逐项求导和逐项积分后的收敛半径不变，但端点收敛性可能改变。 5. 幂级数求和 常从几何级数出发： ∞ 1 = ∑ 𝑥𝑛 , |𝑥| < 1 1 − 𝑥 𝑛=0 逐项积分得 ∞ 𝑥𝑛 − ln(1 − 𝑥) = ∑ , |𝑥| < 1 𝑛=1 𝑛 把 𝑥 换成 −𝑥 得 ∞ 𝑥𝑛 ln(1 + 𝑥) = ∑ (−1)𝑛−1 , |𝑥| < 1 𝑛=1 𝑛 逐项求导或积分，是求幂级数和函数的重要方法。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p11",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 11,
+    "heading": "六、泰勒级数与常用展开",
+    "snippet": "考研数学 · 无穷级数 六、泰勒级数与常用展开 1. 泰勒级数 若函数 𝑓(𝑥) 在点 𝑥0 附近可以展开成幂级数，则 ∞ 𝑓 (𝑛) (𝑥0 ) 𝑓(𝑥) = ∑ (𝑥 − 𝑥0 )𝑛 𝑛=0 𝑛! 当 𝑥0 = 0 时称为麦克劳林级数： ∞ 𝑓 (𝑛) (0) 𝑛 𝑓(𝑥) = ∑ 𝑥 𝑛=0 𝑛! 2. 常用麦克劳林展开 函数 展开...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 六、泰勒级数与常用展开 考研数学 · 无穷级数 六、泰勒级数与常用展开 1. 泰勒级数 若函数 𝑓(𝑥) 在点 𝑥0 附近可以展开成幂级数，则 ∞ 𝑓 (𝑛) (𝑥0 ) 𝑓(𝑥) = ∑ (𝑥 − 𝑥0 )𝑛 𝑛=0 𝑛! 当 𝑥0 = 0 时称为麦克劳林级数： ∞ 𝑓 (𝑛) (0) 𝑛 𝑓(𝑥) = ∑ 𝑥 𝑛=0 𝑛! 2. 常用麦克劳林展开 函数 展开式及条件 ∑∞ 𝑛 𝑥 𝑥 𝑒 𝑛=0 𝑛! , −∞ < 𝑥 < ∞ ∞ 𝑥 2𝑛+1 sin 𝑥 ∑𝑛=0 (−1)𝑛 (2𝑛+1)! , −∞ < 𝑥 < ∞ ∑∞ 2𝑛 𝑥 cos 𝑥 𝑛=0 (−1)𝑛 (2𝑛)! , −∞ < 𝑥 < ∞ 1 1−𝑥 ∑∞ 𝑛=0 𝑥𝑛 , |𝑥| < 1 ∞ 𝑛 ln(1 + 𝑥) ∑𝑛=1 (−1)𝑛−1 𝑥𝑛 , −1 < 𝑥 ≤ 1 (1 + 𝑥)𝛼 ∑∞ 𝑛=0 𝛼(𝛼−1)…(𝛼−𝑛+1) 𝑛 𝑛! 𝑥 , |𝑥| < 1 3. 常用展开的通项细化 考研极限和级数题中，常见函数展开通常在 𝑥 → 0 的麦克劳林语境下使用。若低阶项没有抵消，保留最低非零 阶即可；若低阶项发生抵消，必须继续展开到抵消之后的第一项非零项。 幂函数的广义二项式展开： ∞ (1 + 𝑥)𝛼 = ∑ 𝐶𝛼𝑛 𝑥𝑛 , |𝑥| < 1 𝑛=0 其中 𝛼(𝛼 − 1)…(𝛼 − 𝑛 + 1) 𝐶𝛼0 = 1, 𝐶𝛼𝑛 = (𝑛 ≥ 1) 𝑛! 常见特例： ∞ 1 = ∑ 𝑥𝑛 , |𝑥| < 1 1 − 𝑥 𝑛=0 ∞ 1 = ∑ (−1)𝑛 𝑥𝑛 , |𝑥| < 1 1 + 𝑥 𝑛=0 √ ∞ 1 + 𝑥 = ∑ 𝐶1𝑛 𝑥𝑛 2 𝑛=0 ∞ 1 √ = ∑ 𝐶−𝑛1 𝑥𝑛 1 + 𝑥 𝑛=0 2 指数函数："
+  },
+  {
+    "id": "doc-ed23c04b20bf-p12",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 12,
+    "heading": "考研数学 · 无穷级数",
+    "snippet": "考研数学 · 无穷级数 ∞ ∞ 𝑥𝑛 𝑥𝑛 𝑒𝑥 = ∑ , 𝑒−𝑥 = ∑ (−1)𝑛 𝑛=0 𝑛! 𝑛=0 𝑛! 更一般地，若 𝑎 > 0，则 ∞ (ln 𝑎)𝑛 𝑛 𝑎𝑥 = 𝑒𝑥 ln 𝑎 = ∑ 𝑥 𝑛=0 𝑛! 对数函数： ∞ 𝑥𝑛 ln(1 + 𝑥) = ∑ (−1)𝑛−1 , |𝑥| < 1 𝑛=1 𝑛 ∞ 𝑥𝑛 ln(1...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 考研数学 · 无穷级数 考研数学 · 无穷级数 ∞ ∞ 𝑥𝑛 𝑥𝑛 𝑒𝑥 = ∑ , 𝑒−𝑥 = ∑ (−1)𝑛 𝑛=0 𝑛! 𝑛=0 𝑛! 更一般地，若 𝑎 > 0，则 ∞ (ln 𝑎)𝑛 𝑛 𝑎𝑥 = 𝑒𝑥 ln 𝑎 = ∑ 𝑥 𝑛=0 𝑛! 对数函数： ∞ 𝑥𝑛 ln(1 + 𝑥) = ∑ (−1)𝑛−1 , |𝑥| < 1 𝑛=1 𝑛 ∞ 𝑥𝑛 ln(1 − 𝑥) = − ∑ , |𝑥| < 1 𝑛=1 𝑛 三角函数： ∞ 𝑥2𝑛+1 sin 𝑥 = ∑ (−1)𝑛 𝑛=0 (2𝑛 + 1)! ∞ 𝑥2𝑛 cos 𝑥 = ∑ (−1)𝑛 𝑛=0 (2𝑛)! 𝑥3 2𝑥5 17𝑥7 tan 𝑥 = 𝑥 + + + +… 3 15 315 正切函数的完整通项可写为 ∞ (−1)𝑛−1 22𝑛 (22𝑛 − 1)𝐵2𝑛 2𝑛−1 tan 𝑥 = ∑ 𝑥 𝑛=1 (2𝑛)! 其中 𝐵2𝑛 表示伯努利数。考研计算中通常只需记住前几项。 反三角函数： ∞ (2𝑛)! arcsin 𝑥 = ∑ 𝑥2𝑛+1 𝑛=0 4𝑛 (𝑛!)2 (2𝑛 + 1) ∞ 𝑥2𝑛+1 arctan 𝑥 = ∑ (−1)𝑛 𝑛=0 2𝑛 + 1 ∞ 𝜋 (2𝑛)! arccos 𝑥 = −∑ 𝑛 𝑥2𝑛+1 2 𝑛=0 4 (𝑛!)2 (2𝑛 + 1) 函数类型 通项形式 幂函数 (1 + 𝑥)𝛼 = ∑∞ 𝐶 𝑛 𝑥𝑛 𝑛=0 𝛼 ∞ 𝑛 指数函数 𝑒𝑥 = ∑𝑛=0 𝑥𝑛! ln(1 + 𝑥) = ∑∞ 𝑛 对数函数 𝑛=1 (−1)𝑛−1 𝑥𝑛 ∞ 𝑥 2𝑛+1 正弦函数 sin 𝑥 = ∑𝑛=0 (−1)𝑛 (2𝑛+1)! ∞ 𝑥 2𝑛 余弦函数 cos 𝑥 = ∑𝑛=0 (−1)𝑛 (2𝑛)! (−1)𝑛−1 22𝑛 (22𝑛 −1)𝐵2𝑛 2𝑛−1 正切函数 tan 𝑥 = ∑∞ 𝑛=1 (2𝑛)! 𝑥"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p13",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 13,
+    "heading": "易错点： 只记一阶等价不够。若出现 𝑥 − sin 𝑥、tan 𝑥 − 𝑥、ln(1 + 𝑥) − 𝑥 这类低阶抵消结构，必须继续",
+    "snippet": "考研数学 · 无穷级数 ∞ (2𝑛)! 反正弦 arcsin 𝑥 = ∑𝑛=0 𝑥2𝑛+1 4𝑛(𝑛!)2 (2𝑛+1) ∞ 2𝑛+1 反正切 arctan 𝑥 = ∑𝑛=0 (−1)𝑛 𝑥2𝑛+1 易错点： 只记一阶等价不够。若出现 𝑥 − sin 𝑥、tan 𝑥 − 𝑥、ln(1 + 𝑥) − 𝑥 这类低阶抵消结构，必须继续 展开到第...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 易错点： 只记一阶等价不够。若出现 𝑥 − sin 𝑥、tan 𝑥 − 𝑥、ln(1 + 𝑥) − 𝑥 这类低阶抵消结构，必须继续 考研数学 · 无穷级数 ∞ (2𝑛)! 反正弦 arcsin 𝑥 = ∑𝑛=0 𝑥2𝑛+1 4𝑛(𝑛!)2 (2𝑛+1) ∞ 2𝑛+1 反正切 arctan 𝑥 = ∑𝑛=0 (−1)𝑛 𝑥2𝑛+1 易错点： 只记一阶等价不够。若出现 𝑥 − sin 𝑥、tan 𝑥 − 𝑥、ln(1 + 𝑥) − 𝑥 这类低阶抵消结构，必须继续 展开到第一项非零高阶项。 4. 展开函数的常用方法 1. 直接用泰勒公式求导。 2. 从常用展开式替换变量。 3. 通过逐项求导或逐项积分得到新展开式。 4. 先作代数变形，再展开。 例如 1 1 2 = 1+𝑥 1 − (−𝑥2 ) 所以 ∞ 1 = ∑ (−1)𝑛 𝑥2𝑛 , |𝑥| < 1 1 + 𝑥2 𝑛=0 逐项积分： ∞ 𝑥2𝑛+1 arctan 𝑥 = ∑ (−1)𝑛 , |𝑥| ≤ 1 𝑛=0 2𝑛 + 1"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p14",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 14,
+    "heading": "七、傅里叶级数要点",
+    "snippet": "考研数学 · 无穷级数 七、傅里叶级数要点 傅里叶级数通常在考研数学一中更常见。它的核心思想是：把周期函数表示为正弦、余弦函数的无穷叠加。与 幂级数不同，傅里叶级数不是按 𝑥𝑛 展开，而是按三角函数基底展开。 1. 周期为 2𝜋 的傅里叶级数 若 𝑓(𝑥) 是周期为 2𝜋 的函数，或先在 [−𝜋, 𝜋] 上给出并作 2𝜋 周期延拓，则其傅...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 七、傅里叶级数要点 考研数学 · 无穷级数 七、傅里叶级数要点 傅里叶级数通常在考研数学一中更常见。它的核心思想是：把周期函数表示为正弦、余弦函数的无穷叠加。与 幂级数不同，傅里叶级数不是按 𝑥𝑛 展开，而是按三角函数基底展开。 1. 周期为 2𝜋 的傅里叶级数 若 𝑓(𝑥) 是周期为 2𝜋 的函数，或先在 [−𝜋, 𝜋] 上给出并作 2𝜋 周期延拓，则其傅里叶级数形式为 ∞ 𝑎0 𝑓(𝑥) ∼ + ∑(𝑎𝑛 cos(𝑛𝑥) + 𝑏𝑛 sin(𝑛𝑥)) 2 𝑛=1 其中傅里叶系数为 1 𝜋 𝑎0 = ∫ 𝑓(𝑥) 𝑑𝑥 𝜋 −𝜋 1 𝜋 𝑎𝑛 = ∫ 𝑓(𝑥) cos(𝑛𝑥) 𝑑𝑥 𝜋 −𝜋 1 𝜋 𝑏𝑛 = ∫ 𝑓(𝑥) sin(𝑛𝑥) 𝑑𝑥 𝜋 −𝜋 𝑎 这里 20 是常数项，𝑎𝑛 cos(𝑛𝑥) 是余弦项，𝑏𝑛 sin(𝑛𝑥) 是正弦项。 2. 周期为 2𝑙 的傅里叶级数 若函数以 2𝑙 为周期，通常在 [−𝑙, 𝑙] 上展开。此时基本角频率为 𝜋 𝜔0 = 𝑙 傅里叶级数为 ∞ 𝑎0 𝑛𝜋𝑥 𝑛𝜋𝑥 𝑓(𝑥) ∼ + ∑[𝑎𝑛 cos( ) + 𝑏𝑛 sin( )] 2 𝑛=1 𝑙 𝑙 系数公式为 1 𝑙 𝑎0 = ∫ 𝑓(𝑥) 𝑑𝑥 𝑙 −𝑙 1 𝑙 𝑛𝜋𝑥 𝑎𝑛 = ∫ 𝑓(𝑥) cos( ) 𝑑𝑥 𝑙 −𝑙 𝑙 1 𝑙 𝑛𝜋𝑥 𝑏𝑛 = ∫ 𝑓(𝑥) sin( ) 𝑑𝑥 𝑙 −𝑙 𝑙 当 𝑙 = 𝜋 时，就退化为周期 2𝜋 的公式。 3. 三角函数正交性来源 傅里叶系数公式来自三角函数在 [−𝜋, 𝜋] 上的正交性： 𝜋 ∫ cos(𝑚𝑥) cos(𝑛𝑥) 𝑑𝑥 = 0 (𝑚 ≠ 𝑛) −𝜋"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p15",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 15,
+    "heading": "考研数学 · 无穷级数",
+    "snippet": "考研数学 · 无穷级数 𝜋 ∫ sin(𝑚𝑥) sin(𝑛𝑥) 𝑑𝑥 = 0 (𝑚 ≠ 𝑛) −𝜋 𝜋 ∫ sin(𝑚𝑥) cos(𝑛𝑥) 𝑑𝑥 = 0 −𝜋 并且 𝜋 𝜋 ∫ cos2 (𝑛𝑥) 𝑑𝑥 = 𝜋, ∫ sin2 (𝑛𝑥) 𝑑𝑥 = 𝜋 −𝜋 −𝜋 常数项满足 𝜋 ∫ 1 𝑑𝑥 = 2𝜋 −𝜋 𝑎 所以常数项写成 20 ，而...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 考研数学 · 无穷级数 考研数学 · 无穷级数 𝜋 ∫ sin(𝑚𝑥) sin(𝑛𝑥) 𝑑𝑥 = 0 (𝑚 ≠ 𝑛) −𝜋 𝜋 ∫ sin(𝑚𝑥) cos(𝑛𝑥) 𝑑𝑥 = 0 −𝜋 并且 𝜋 𝜋 ∫ cos2 (𝑛𝑥) 𝑑𝑥 = 𝜋, ∫ sin2 (𝑛𝑥) 𝑑𝑥 = 𝜋 −𝜋 −𝜋 常数项满足 𝜋 ∫ 1 𝑑𝑥 = 2𝜋 −𝜋 𝑎 所以常数项写成 20 ，而不是 𝑎0 。这个 12 经常是考试中的小坑。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p16",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 16,
+    "heading": "4. 奇偶性简化",
+    "snippet": "考研数学 · 无穷级数 4. 奇偶性简化 若 𝑓(𝑥) 是偶函数，则 𝑏𝑛 = 0 且 2 𝜋 𝑎𝑛 = ∫ 𝑓(𝑥) cos(𝑛𝑥) 𝑑𝑥 𝜋 0 展开只含余弦项。 若 𝑓(𝑥) 是奇函数，则 𝑎0 = 0, 𝑎𝑛 = 0 且 2 𝜋 𝑏𝑛 = ∫ 𝑓(𝑥) sin(𝑛𝑥) 𝑑𝑥 𝜋 0 展开只含正弦项。 奇偶性判断的理由是： 1. 偶...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 4. 奇偶性简化 考研数学 · 无穷级数 4. 奇偶性简化 若 𝑓(𝑥) 是偶函数，则 𝑏𝑛 = 0 且 2 𝜋 𝑎𝑛 = ∫ 𝑓(𝑥) cos(𝑛𝑥) 𝑑𝑥 𝜋 0 展开只含余弦项。 若 𝑓(𝑥) 是奇函数，则 𝑎0 = 0, 𝑎𝑛 = 0 且 2 𝜋 𝑏𝑛 = ∫ 𝑓(𝑥) sin(𝑛𝑥) 𝑑𝑥 𝜋 0 展开只含正弦项。 奇偶性判断的理由是： 1. 偶函数乘偶函数仍为偶函数，偶函数在对称区间积分一般不为零。 2. 奇函数乘奇函数为偶函数，偶函数在对称区间积分一般不为零。 3. 奇函数在对称区间上的积分为 0。 因此： 函数性质 非零系数 展开名称 偶函数 𝑎0 , 𝑎𝑛 余弦级数 奇函数 𝑏𝑛 正弦级数 一般函数 𝑎0 , 𝑎𝑛 , 𝑏𝑛 完整傅里叶级数 5. 收敛条件与收敛值 常用的 Dirichlet 收敛条件可以表述为：若 𝑓(𝑥) 在一个周期内满足分段连续、分段单调，或等价地分段光滑， 则其傅里叶级数在每一点都收敛。 若 𝑓(𝑥) 在一个周期内分段光滑，则傅里叶级数在点 𝑥 处收敛到 𝑓(𝑥 + 0) + 𝑓(𝑥 − 0) 2 若 𝑓 在 𝑥 处连续，则收敛到 𝑓(𝑥) 在跳跃间断点处，收敛到左右极限的平均值。 特别注意周期端点。例如在 [−𝜋, 𝜋] 上展开时，𝑥 = 𝜋 和 𝑥 = −𝜋 是周期延拓后的同一点，因此端点处收 敛到 𝑓(𝜋 − 0) + 𝑓(−𝜋 + 0) 2"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p17",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 17,
+    "heading": "6. 半区间展开",
+    "snippet": "考研数学 · 无穷级数 而不是简单等于 𝑓(𝜋) 或 𝑓(−𝜋)。 6. 半区间展开 若函数只在 [0, 𝑙] 上给出，题目常要求作正弦级数或余弦级数展开。 余弦级数对应偶延拓： ∞ 𝑎0 𝑛𝜋𝑥 𝑓(𝑥) ∼ + ∑ 𝑎𝑛 cos( ) 2 𝑛=1 𝑙 其中 2 𝑙 𝑎0 = ∫ 𝑓(𝑥) 𝑑𝑥 𝑙 0 2 𝑙 𝑛𝜋𝑥 𝑎𝑛 = ∫ 𝑓...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 6. 半区间展开 考研数学 · 无穷级数 而不是简单等于 𝑓(𝜋) 或 𝑓(−𝜋)。 6. 半区间展开 若函数只在 [0, 𝑙] 上给出，题目常要求作正弦级数或余弦级数展开。 余弦级数对应偶延拓： ∞ 𝑎0 𝑛𝜋𝑥 𝑓(𝑥) ∼ + ∑ 𝑎𝑛 cos( ) 2 𝑛=1 𝑙 其中 2 𝑙 𝑎0 = ∫ 𝑓(𝑥) 𝑑𝑥 𝑙 0 2 𝑙 𝑛𝜋𝑥 𝑎𝑛 = ∫ 𝑓(𝑥) cos( ) 𝑑𝑥 𝑙 0 𝑙 正弦级数对应奇延拓： ∞ 𝑛𝜋𝑥 𝑓(𝑥) ∼ ∑ 𝑏𝑛 sin( ) 𝑛=1 𝑙 其中 2 𝑙 𝑛𝜋𝑥 𝑏𝑛 = ∫ 𝑓(𝑥) sin( ) 𝑑𝑥 𝑙 0 𝑙 选择规则很简单： 1. 题目要求余弦展开，就作偶延拓。 2. 题目要求正弦展开，就作奇延拓。 3. 如果没有指定，通常按完整傅里叶级数处理。 易错点： 半区间展开不是在 [0, 𝑙] 上直接套 [−𝑙, 𝑙] 的公式，而是先决定奇延拓或偶延拓，再得到对应的正 弦级数或余弦级数。 7. Parseval 等式 若 𝑓(𝑥) 满足傅里叶展开条件，则在适当意义下有 Parseval 等式： ∞ 1 𝜋 2 𝑎2 ∫ 𝑓 (𝑥) 𝑑𝑥 = 0 + ∑(𝑎2𝑛 + 𝑏𝑛2 ) 𝜋 −𝜋 2 𝑛=1 它常用于求一些数项级数的和。例如通过 𝑓(𝑥) = 𝑥 或 𝑓(𝑥) = 𝑥2 的傅里叶级数，可以推出与 ∞ ∞ 1 1 ∑ , ∑ 𝑛=1 𝑛2 𝑛=1 𝑛4 有关的经典结果。 8. 例题：展开 𝑓(𝑥) = 𝑥 题目 将 𝑓(𝑥) = 𝑥 在 (−𝜋, 𝜋) 上展开为傅里叶级数。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p18",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 18,
+    "heading": "考研数学 · 无穷级数",
+    "snippet": "考研数学 · 无穷级数 解析：𝑓(𝑥) = 𝑥 是奇函数，因此只含正弦项： 𝑎0 = 0, 𝑎𝑛 = 0 计算 𝑏𝑛 ： 2 𝜋 𝑏𝑛 = ∫ 𝑥 sin(𝑛𝑥) 𝑑𝑥 𝜋 0 分部积分。令 𝑢 = 𝑥，𝑑𝑣 = sin(𝑛𝑥) 𝑑𝑥，则 cos(𝑛𝑥) 𝑑𝑢 = 𝑑𝑥, 𝑣 = − 𝑛 所以 𝜋 𝜋 𝜋 cos(𝑛𝑥) cos(𝑛𝑥) ...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 考研数学 · 无穷级数 考研数学 · 无穷级数 解析：𝑓(𝑥) = 𝑥 是奇函数，因此只含正弦项： 𝑎0 = 0, 𝑎𝑛 = 0 计算 𝑏𝑛 ： 2 𝜋 𝑏𝑛 = ∫ 𝑥 sin(𝑛𝑥) 𝑑𝑥 𝜋 0 分部积分。令 𝑢 = 𝑥，𝑑𝑣 = sin(𝑛𝑥) 𝑑𝑥，则 cos(𝑛𝑥) 𝑑𝑢 = 𝑑𝑥, 𝑣 = − 𝑛 所以 𝜋 𝜋 𝜋 cos(𝑛𝑥) cos(𝑛𝑥) ∫ 𝑥 sin(𝑛𝑥) 𝑑𝑥 = [−𝑥 ] +∫ 𝑑𝑥 0 𝑛 0 0 𝑛 第二项为 𝜋 𝜋 cos(𝑛𝑥) sin(𝑛𝑥) ∫ 𝑑𝑥 = [ ] =0 0 𝑛 𝑛2 0 第一项为 cos(𝑛𝜋) (−1)𝑛 −𝜋 = −𝜋 𝑛 𝑛 因此 2 (−1)𝑛 (−1)𝑛+1 𝑏𝑛 = ⋅ [−𝜋 ]=2 𝜋 𝑛 𝑛 所以 ∞ sin(𝑛𝑥) 𝑥 ∼ 2 ∑ (−1)𝑛+1 , −𝜋 < 𝑥 < 𝜋 𝑛=1 𝑛 在连续点处等号成立；在端点 𝑥 = ±𝜋，周期延拓有跳跃，级数收敛到 0。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p19",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 19,
+    "heading": "9. 例题：展开 𝑓(𝑥) = 𝑥2",
+    "snippet": "考研数学 · 无穷级数 9. 例题：展开 𝑓(𝑥) = 𝑥2 题目 将 𝑓(𝑥) = 𝑥2 在 [−𝜋, 𝜋] 上展开为傅里叶级数。 解析：𝑥2 是偶函数，因此只含余弦项。 先算 𝑎0 ： 2 𝜋 2 2 𝜋3 𝜋2 𝑎0 = ∫ 𝑥 𝑑𝑥 = ⋅ =2 𝜋 0 𝜋 3 3 所以常数项为 𝑎0 𝜋2 = 2 3 再算 𝑎𝑛 ： 2 𝜋 2...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 9. 例题：展开 𝑓(𝑥) = 𝑥2 考研数学 · 无穷级数 9. 例题：展开 𝑓(𝑥) = 𝑥2 题目 将 𝑓(𝑥) = 𝑥2 在 [−𝜋, 𝜋] 上展开为傅里叶级数。 解析：𝑥2 是偶函数，因此只含余弦项。 先算 𝑎0 ： 2 𝜋 2 2 𝜋3 𝜋2 𝑎0 = ∫ 𝑥 𝑑𝑥 = ⋅ =2 𝜋 0 𝜋 3 3 所以常数项为 𝑎0 𝜋2 = 2 3 再算 𝑎𝑛 ： 2 𝜋 2 𝑎𝑛 = ∫ 𝑥 cos(𝑛𝑥) 𝑑𝑥 𝜋 0 两次分部积分可得 𝜋 (−1)𝑛 ∫ 𝑥2 cos(𝑛𝑥) 𝑑𝑥 = 2𝜋 0 𝑛2 因此 2 (−1)𝑛 (−1)𝑛 𝑎𝑛 = ⋅ 2𝜋 = 4 𝜋 𝑛2 𝑛2 所以 ∞ 𝜋2 cos(𝑛𝑥) 𝑥2 = + 4 ∑ (−1)𝑛 , −𝜋 ≤ 𝑥 ≤ 𝜋 3 𝑛=1 𝑛2 令 𝑥 = 𝜋，得到 ∞ 𝜋2 1 𝜋2 = + 4∑ 2 3 𝑛=1 𝑛 从而 ∞ 1 𝜋2 ∑ = 𝑛=1 𝑛2 6 10. 傅里叶级数解题步骤 1. 判断周期：是 2𝜋 还是 2𝑙。 2. 判断区间：是在 [−𝜋, 𝜋]、[−𝑙, 𝑙]，还是只给 [0, 𝑙]。 3. 判断奇偶性：偶函数用余弦项，奇函数用正弦项。 4. 写出 𝑎0 , 𝑎𝑛 , 𝑏𝑛 公式。 5. 计算积分，常用分部积分。 6. 写出级数，并说明在哪些点收敛到函数值，在哪些点收敛到左右极限平均值。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p20",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 20,
+    "heading": "八、典型例题",
+    "snippet": "考研数学 · 无穷级数 八、典型例题 例题 1：通项不趋零 ∞ 𝑛 题目 判断 ∑𝑛=1 𝑛+1 的敛散性。 解析：先看通项极限： 𝑛 lim =1 𝑛→∞ 𝑛 + 1 通项极限不为 0，所以级数发散。 例题 2：极限比较判别 ∞ 题目 判断 ∑𝑛=1 3𝑛+1 𝑛3 +2 的敛散性。 解析：当 𝑛 → ∞ 时， 3𝑛 + 1 3 ∼ 2...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 八、典型例题 考研数学 · 无穷级数 八、典型例题 例题 1：通项不趋零 ∞ 𝑛 题目 判断 ∑𝑛=1 𝑛+1 的敛散性。 解析：先看通项极限： 𝑛 lim =1 𝑛→∞ 𝑛 + 1 通项极限不为 0，所以级数发散。 例题 2：极限比较判别 ∞ 题目 判断 ∑𝑛=1 3𝑛+1 𝑛3 +2 的敛散性。 解析：当 𝑛 → ∞ 时， 3𝑛 + 1 3 ∼ 2 𝑛3 + 2 𝑛 因为 ∞ 1 ∑ 𝑛=1 𝑛2 收敛，所以原级数收敛。 也可严格写： 3𝑛+1 3 lim 𝑛 1+2 = 3 𝑛→∞ 𝑛2 故与 ∑ 𝑛12 同敛散。 例题 3：比值判别 ∞ 题目 判断 ∑𝑛=1 3𝑛!𝑛 的敛散性。 解析：令 𝑛! 𝑢𝑛 = 3𝑛 则 (𝑛+1)! 𝑢𝑛+1 3𝑛+1 𝑛+1 = 𝑛! = 𝑢𝑛 3𝑛 3 因此 𝑢𝑛+1 lim =∞ 𝑛→∞ 𝑢𝑛 所以级数发散。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p21",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 21,
+    "heading": "例题 4：交错级数",
+    "snippet": "考研数学 · 无穷级数 例题 4：交错级数 ∞ (−1)𝑛−1 题目 判断 ∑𝑛=1 √ 𝑛 的敛散性，并说明是否绝对收敛。 解析：令 1 𝑎𝑛 = √ 𝑛 显然 𝑎𝑛 单调递减，且 lim 𝑎𝑛 = 0 𝑛→∞ 所以交错级数收敛。 但绝对值级数为 ∞ 1 ∑√ 𝑛=1 𝑛 这是 𝑝 = 12 的 𝑝 级数，发散。因此原级数条件收敛。 例...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 例题 4：交错级数 考研数学 · 无穷级数 例题 4：交错级数 ∞ (−1)𝑛−1 题目 判断 ∑𝑛=1 √ 𝑛 的敛散性，并说明是否绝对收敛。 解析：令 1 𝑎𝑛 = √ 𝑛 显然 𝑎𝑛 单调递减，且 lim 𝑎𝑛 = 0 𝑛→∞ 所以交错级数收敛。 但绝对值级数为 ∞ 1 ∑√ 𝑛=1 𝑛 这是 𝑝 = 12 的 𝑝 级数，发散。因此原级数条件收敛。 例题 5：求幂级数收敛域 ∞ (𝑥−2)𝑛 题目 求 ∑𝑛=1 𝑛3𝑛 的收敛域。 解析：令 (𝑥 − 2)𝑛 𝑢𝑛 = 𝑛3𝑛 用比值法： 𝑢 |𝑥 − 2| 𝑛 | 𝑛+1 | = ⋅ 𝑢𝑛 3 𝑛+1 所以 𝑢 |𝑥 − 2| lim | 𝑛+1 | = 𝑛→∞ 𝑢𝑛 3 当 |𝑥 − 2| <1 3 即 −1 < 𝑥 < 5 时收敛。 检查端点。 当 𝑥 = −1 时： ∞ ∞ (−3)𝑛 (−1)𝑛 ∑ = ∑ 𝑛=1 𝑛3𝑛 𝑛=1 𝑛"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p22",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 22,
+    "heading": "例题 6：求幂级数和函数",
+    "snippet": "考研数学 · 无穷级数 交错调和级数收敛。 当 𝑥 = 5 时： ∞ 1 ∑ 𝑛=1 𝑛 发散。 所以收敛域为 [−1, 5) 例题 6：求幂级数和函数 ∞ 𝑛 题目 求 ∑𝑛=1 𝑥𝑛 的和函数。 解析：由几何级数 ∞ 1 = ∑ 𝑥𝑛 , |𝑥| < 1 1 − 𝑥 𝑛=0 两边从 0 到 𝑥 积分： 𝑥 ∞ 𝑥 1 ∫ 𝑑𝑡 = ∑...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 例题 6：求幂级数和函数 考研数学 · 无穷级数 交错调和级数收敛。 当 𝑥 = 5 时： ∞ 1 ∑ 𝑛=1 𝑛 发散。 所以收敛域为 [−1, 5) 例题 6：求幂级数和函数 ∞ 𝑛 题目 求 ∑𝑛=1 𝑥𝑛 的和函数。 解析：由几何级数 ∞ 1 = ∑ 𝑥𝑛 , |𝑥| < 1 1 − 𝑥 𝑛=0 两边从 0 到 𝑥 积分： 𝑥 ∞ 𝑥 1 ∫ 𝑑𝑡 = ∑ ∫ 𝑡𝑛 𝑑𝑡 0 1−𝑡 𝑛=0 0 得到 ∞ 𝑥𝑛+1 − ln(1 − 𝑥) = ∑ 𝑛=0 𝑛+1 令 𝑘 = 𝑛 + 1： ∞ 𝑥𝑘 ∑ = − ln(1 − 𝑥), |𝑥| < 1 𝑘=1 𝑘 所以 ∞ 𝑥𝑛 ∑ = − ln(1 − 𝑥), |𝑥| < 1 𝑛=1 𝑛 例题 7：函数展开 题目 将 ln(1 + 𝑥2 ) 展开为 𝑥 的幂级数。 解析：已知 ∞ 𝑡𝑛 ln(1 + 𝑡) = ∑ (−1)𝑛−1 , −1 < 𝑡 ≤ 1 𝑛=1 𝑛 令 𝑡 = 𝑥2 ，得 ∞ 𝑥2𝑛 ln(1 + 𝑥 ) = ∑ (−1)𝑛−1 2 𝑛=1 𝑛 条件为"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p23",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 23,
+    "heading": "考研数学 · 无穷级数",
+    "snippet": "考研数学 · 无穷级数 0 ≤ 𝑥2 ≤ 1 所以 −1 ≤ 𝑥 ≤ 1 由于 𝑡 = 1 时原展开也收敛，故端点 𝑥 = ±1 都可取。",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 考研数学 · 无穷级数 考研数学 · 无穷级数 0 ≤ 𝑥2 ≤ 1 所以 −1 ≤ 𝑥 ≤ 1 由于 𝑡 = 1 时原展开也收敛，故端点 𝑥 = ±1 都可取。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p24",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 24,
+    "heading": "九、判别法选择流程",
+    "snippet": "考研数学 · 无穷级数 九、判别法选择流程 1. 数项级数流程 1. 先看 lim 𝑢𝑛 。若不为 0，直接发散。 2. 若 𝑢𝑛 ≥ 0，优先考虑正项级数判别法。 3. 若含阶乘、指数幂，优先比值判别法。 4. 若含 𝑛 次幂，优先根值判别法。 5. 若能看出等价形式，优先极限比较。 6. 若有 (−1)𝑛 ，先看交错级数，再看绝对收敛...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 九、判别法选择流程 考研数学 · 无穷级数 九、判别法选择流程 1. 数项级数流程 1. 先看 lim 𝑢𝑛 。若不为 0，直接发散。 2. 若 𝑢𝑛 ≥ 0，优先考虑正项级数判别法。 3. 若含阶乘、指数幂，优先比值判别法。 4. 若含 𝑛 次幂，优先根值判别法。 5. 若能看出等价形式，优先极限比较。 6. 若有 (−1)𝑛 ，先看交错级数，再看绝对收敛。 7. 若是函数项或幂级数，先求收敛半径，再查端点。 2. 幂级数流程 1. 找中心 𝑥0 。 2. 用比值或根值法求 𝑅。 3. 写 |𝑥 − 𝑥0 | < 𝑅。 4. 两端点单独代入。 5. 若要求和函数，从几何级数、ln(1 + 𝑥)、𝑒𝑥 、sin 𝑥、cos 𝑥 等基本展开出发。 3. 傅里叶级数流程 1. 先判断周期：2𝜋 用 [−𝜋, 𝜋] 公式，2𝑙 用 [−𝑙, 𝑙] 公式。 2. 若只给 [0, 𝑙]，先判断题目要求正弦展开还是余弦展开。 3. 判断奇偶性：偶函数只算 𝑎0 , 𝑎𝑛 ，奇函数只算 𝑏𝑛 。 4. 计算系数积分，常用分部积分。 5. 写出傅里叶级数。 6. 最后说明收敛值：连续点取 𝑓(𝑥)，跳跃点取左右极限平均值，周期端点按周期延拓判断。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p25",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 25,
+    "heading": "十、易错点汇总",
+    "snippet": "考研数学 · 无穷级数 十、易错点汇总 易错点： 通项趋于 0 只是必要条件，不是充分条件。调和级数 ∑ 𝑛1 就是最典型反例。 易错点： 比值判别法或根值判别法得到极限等于 1 时，不能说明收敛或发散，必须换方法。 易错点： 幂级数端点一定要单独代入。开区间内绝对收敛，区间外发散，端点没有统一结论。 易错点： 交错级数收敛不代表绝对收敛...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 十、易错点汇总 考研数学 · 无穷级数 十、易错点汇总 易错点： 通项趋于 0 只是必要条件，不是充分条件。调和级数 ∑ 𝑛1 就是最典型反例。 易错点： 比值判别法或根值判别法得到极限等于 1 时，不能说明收敛或发散，必须换方法。 易错点： 幂级数端点一定要单独代入。开区间内绝对收敛，区间外发散，端点没有统一结论。 易错点： 交错级数收敛不代表绝对收敛。判断“绝对/条件”时必须再看 ∑|𝑢𝑛 |。 易错点： 逐项求导、逐项积分在收敛区间内部合法；端点处的收敛性可能改变，不能机械保留。"
+  },
+  {
+    "id": "doc-ed23c04b20bf-p26",
+    "docId": "doc-ed23c04b20bf",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 26,
+    "heading": "十一、公式速查表",
+    "snippet": "考研数学 · 无穷级数 十一、公式速查表 内容 公式或结论 𝑛 收敛定义 𝑆𝑛 = ∑𝑘=1 𝑢𝑘 , lim 𝑆𝑛 = 𝑆 必要条件 ∑ 𝑢𝑛 收敛 ⇒ lim 𝑢𝑛 = 0 几何级数 ∑∞ 𝑛=0 1 𝑞 𝑛 = 1−𝑞 , |𝑞| < 1 𝑝 级数 ∑ 𝑛1𝑝 : 𝑝 > 1 收敛, 𝑝 ≤ 1 发散 𝑢 极限比较 lim 𝑣 𝑛 ...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 十一、公式速查表 考研数学 · 无穷级数 十一、公式速查表 内容 公式或结论 𝑛 收敛定义 𝑆𝑛 = ∑𝑘=1 𝑢𝑘 , lim 𝑆𝑛 = 𝑆 必要条件 ∑ 𝑢𝑛 收敛 ⇒ lim 𝑢𝑛 = 0 几何级数 ∑∞ 𝑛=0 1 𝑞 𝑛 = 1−𝑞 , |𝑞| < 1 𝑝 级数 ∑ 𝑛1𝑝 : 𝑝 > 1 收敛, 𝑝 ≤ 1 发散 𝑢 极限比较 lim 𝑣 𝑛 = 𝑙, 0 < 𝑙 < ∞ ⇒ 同敛散 𝑛 𝑢 比值判别 lim 𝑢𝑛+1 = 𝑟 : 𝑟 < 1 收敛, 𝑟 > 1 发散 𝑛 √ 根值判别 lim 𝑛 𝑢𝑛 = 𝑟 : 𝑟 < 1 收敛, 𝑟 > 1 发散 交错级数 𝑎𝑛 单调递减且 𝑎𝑛 → 0 ⇒ ∑ (−1)𝑛−1 𝑎𝑛 收敛 绝对收敛 ∑|𝑢𝑛 | 收敛 ⇒ ∑ 𝑢𝑛 收敛 1 𝑎 幂级数半径 𝑅 = lim | 𝑎𝑛+1 | 𝑛 𝑓 (𝑛) (𝑥0 ) 泰勒展开 𝑓(𝑥) = ∑ 𝑛! (𝑥 − 𝑥0 )𝑛 𝑎 ∞ 2𝜋 傅里叶级数 𝑓(𝑥) ∼ 20 + ∑𝑛=1 (𝑎𝑛 cos(𝑛𝑥) + 𝑏𝑛 sin(𝑛𝑥)) 𝑎 ∞ 2𝑙 傅里叶级数 𝑓(𝑥) ∼ 20 + ∑𝑛=1 [𝑎𝑛 cos( 𝑛𝜋𝑥 𝑛𝜋𝑥 𝑙 ) + 𝑏𝑛 sin( 𝑙 )] 𝜋 𝜋 傅里叶系数 𝑎𝑛 = 𝜋1 ∫ 𝑓(𝑥) cos(𝑛𝑥) 𝑑𝑥, 𝑏𝑛 = 𝜋1 ∫ 𝑓(𝑥) sin(𝑛𝑥) 𝑑𝑥 −𝜋 −𝜋 傅里叶收敛值 𝑆(𝑥) = 𝑓(𝑥+0)+𝑓(𝑥−0) 2 1 𝜋 2 𝑎20 ∞ 2 2 Parseval 等式 𝜋 ∫−𝜋 𝑓 (𝑥) 𝑑𝑥 = 2 + ∑𝑛=1 (𝑎𝑛 + 𝑏𝑛 ) 最终抓手： 无穷级数先问：它是正项、交错、任意项，还是幂级数？正项级数找比较对象，交错级数查单 调趋零，任意项先看绝对收敛，幂级数先求半径再查端点。遇到展开题，优先从几个基本展开式变形。"
+  },
+  {
+    "id": "doc-2999b2188b1e-p1",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 1,
+    "heading": "定义 · 性质 · 展开 · 计算 · 应用",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) Determinants (行列式) 定义 · 性质 · 展开 · 计算 · 应用 考研数学复习资料 · Typst PDF 复习目标： 行列式的核心是把矩阵是否可逆、线性方程组是否有唯一解、向量是否线性相关、几何面积体 积以及特征值和二次型判定等问题转...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 定义 · 性质 · 展开 · 计算 · 应用 考研数学 · Linear Algebra · Determinants (行列式) Determinants (行列式) 定义 · 性质 · 展开 · 计算 · 应用 考研数学复习资料 · Typst PDF 复习目标： 行列式的核心是把矩阵是否可逆、线性方程组是否有唯一解、向量是否线性相关、几何面积体 积以及特征值和二次型判定等问题转化为一个数。复习时先理解有向面积、有向体积和伸缩倍数，再掌握性 质并选择化三角、按行列展开或利用特殊结构计算。 一、行列式的定义 1. 二阶与三阶行列式 二阶行列式为 𝑎 𝑏 det ( ) = 𝑎𝑑 − 𝑏𝑐 𝑐 𝑑 三阶行列式可用对角线法则或按行列展开计算。对角线法只适用于三阶，不能推广到高阶。 2. 𝑛 阶行列式 设 𝐴 = (𝑎𝑖𝑗 ) 为 𝑛 阶方阵，行列式记为 det(𝐴) 或 |𝐴| 它由所有排列对应的乘积按逆序数奇偶加减得到，这就是逆序数法定义。 3. 逆序数法定义 对排列 𝑗1 𝑗2 …𝑗𝑛 若 𝑝 < 𝑞 但 𝑗𝑝 > 𝑗𝑞 ，则称 (𝑗𝑝 , 𝑗𝑞 ) 构成一个逆序。一个排列中逆序的总个数称为该排列的逆序数，记为 𝜏 (𝑗1 𝑗2 …𝑗𝑛 ) 于是 𝑛 阶行列式可定义为 det(𝐴) = ∑ (−1)𝜏(𝑗1 𝑗2 …𝑗𝑛 ) 𝑎1𝑗1 𝑎2𝑗2 …𝑎𝑛𝑗𝑛 (𝑗1 𝑗2 …𝑗𝑛 ) 其中求和遍历 1, 2, …, 𝑛 的所有排列。逆序数为偶数的项取正号，逆序数为奇数的项取负号。 以三阶为例，排列及符号为： 排列 逆序数 符号 对应项 123 0 + 𝑎11 𝑎22 𝑎33 231 2 + 𝑎12 𝑎23 𝑎31 312 2 + 𝑎13 𝑎21 𝑎32 132 1 − 𝑎11 𝑎23 𝑎32"
+  },
+  {
+    "id": "doc-2999b2188b1e-p2",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 2,
+    "heading": "易错点： 行列式只对方阵定义。非方阵可以谈矩阵秩，但不能谈行列式。",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 213 1 − 𝑎12 𝑎21 𝑎33 321 3 − 𝑎13 𝑎22 𝑎31 因此三阶行列式为 det(𝐴) = 𝑎11 𝑎22 𝑎33 + 𝑎12 𝑎23 𝑎31 + 𝑎13 𝑎21 𝑎32 −𝑎11 𝑎23 𝑎32 − 𝑎12 𝑎21 𝑎33 − ...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 易错点： 行列式只对方阵定义。非方阵可以谈矩阵秩，但不能谈行列式。 考研数学 · Linear Algebra · Determinants (行列式) 213 1 − 𝑎12 𝑎21 𝑎33 321 3 − 𝑎13 𝑎22 𝑎31 因此三阶行列式为 det(𝐴) = 𝑎11 𝑎22 𝑎33 + 𝑎12 𝑎23 𝑎31 + 𝑎13 𝑎21 𝑎32 −𝑎11 𝑎23 𝑎32 − 𝑎12 𝑎21 𝑎33 − 𝑎13 𝑎22 𝑎31 考研计算中通常不直接用逆序数法展开高阶行列式，但它解释了每一项为什么有正负号，也是行列式展开定理 的来源之一。 易错点： 行列式只对方阵定义。非方阵可以谈矩阵秩，但不能谈行列式。 二、几何意义与向量关系 1. 二阶行列式：二维有向面积 设二维向量 𝑢 = (𝑎, 𝑏)𝑇 , 𝑣 = (𝑐, 𝑑)𝑇 把它们作为列向量组成矩阵 𝑎 𝑐 𝐴 = (𝑢, 𝑣) = ( ) 𝑏 𝑑 则 det(𝐴) = 𝑎𝑑 − 𝑏𝑐 表示由 𝑢, 𝑣 张成的平行四边形的有向面积。实际面积取绝对值： 𝑆 = |det(𝑢, 𝑣)| 若题目要求由两个向量张成的三角形面积，则 1 𝑆triangle = |det(𝑢, 𝑣)| 2 2. 三阶行列式：三维有向体积 设三维向量 𝑢, 𝑣, 𝑤 作为列向量组成矩阵 𝐴 = (𝑢, 𝑣, 𝑤) 则 det(𝐴) 表示由 𝑢, 𝑣, 𝑤 张成的平行六面体的有向体积。实际体积为 𝑉 = |det(𝑢, 𝑣, 𝑤)| 若题目要求由三个向量张成的四面体体积，则 1 𝑉tetrahedron = |det(𝑢, 𝑣, 𝑤)| 6 三阶行列式还可写成混合积形式："
+  },
+  {
+    "id": "doc-2999b2188b1e-p3",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 3,
+    "heading": "3. 符号、方向与退化",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) det(𝑢, 𝑣, 𝑤) = 𝑢 ⋅ (𝑣 × 𝑤) 其中 𝑣 × 𝑤 的长度表示以 𝑣, 𝑤 为邻边的平行四边形面积，再与 𝑢 在法向方向上的投影相乘得到体积。 3. 符号、方向与退化 行列式的正负表示方向： 1. det(𝐴) > 0：保持方向，面积...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 3. 符号、方向与退化 考研数学 · Linear Algebra · Determinants (行列式) det(𝑢, 𝑣, 𝑤) = 𝑢 ⋅ (𝑣 × 𝑤) 其中 𝑣 × 𝑤 的长度表示以 𝑣, 𝑤 为邻边的平行四边形面积，再与 𝑢 在法向方向上的投影相乘得到体积。 3. 符号、方向与退化 行列式的正负表示方向： 1. det(𝐴) > 0：保持方向，面积或体积为正向。 2. det(𝐴) < 0：方向翻转，面积或体积为负向。 3. det(𝐴) = 0：面积或体积塌缩为零。 当 det(𝑢, 𝑣) = 0 时，两个二维向量共线；当 det(𝑢, 𝑣, 𝑤) = 0 时，三个三维向量共面或线性相关。几何上就是 平行四边形面积或平行六面体体积为零。 4. 线性变换的伸缩倍数 矩阵 𝐴 可以看成线性变换。二维中，|det(𝐴)| 是面积伸缩倍数；三维中，|det(𝐴)| 是体积伸缩倍数。 更一般地，𝑛 阶矩阵 𝐴 的 |det(𝐴)| 表示 𝑛 维体积的伸缩倍数。若 det(𝐴) = 0，说明变换把空间压扁到低 维，因而 𝐴 不可逆。 核心理解： 二阶行列式看面积，三阶行列式看体积，高阶行列式看高维体积伸缩。绝对值给大小，符号给 方向，是否为零给线性相关和可逆性。 三、基本性质 1. 转置不变 det(𝐴𝑇 ) = det(𝐴) 因此行性质和列性质完全对称。 2. 行列交换与倍乘 交换两行或两列，行列式变号： 𝑅𝑖 ↔ 𝑅𝑗 ⟹ det → − det 某一行或某一列乘以数 𝑘，行列式也乘以 𝑘。 3. 倍加不变 把某一行的 𝑘 倍加到另一行，行列式不变： 𝑅𝑖 → 𝑅𝑖 + 𝑘𝑅𝑗 (𝑖 ≠ 𝑗) 列变换同理。这是化三角计算的最重要工具。 4. 两行成比例则为零 若两行相同、两列相同、两行成比例或两列成比例，则行列式为零。更一般地，若行向量组或列向量组线性相 关，则 det(𝐴) = 0 5. 乘法性质 同阶方阵满足 det(𝐴𝐵) = det(𝐴) det(𝐵)"
+  },
+  {
+    "id": "doc-2999b2188b1e-p4",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 4,
+    "heading": "四、展开定理",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 由此可得： 1 det(𝐴−1 ) = (det(𝐴) ≠ 0) det(𝐴) det(𝑘𝐴) = 𝑘𝑛 det(𝐴) 其中 𝐴 是 𝑛 阶方阵。 四、展开定理 1. 代数余子式 删除元素 𝑎𝑖𝑗 所在第 𝑖 行、第 𝑗 列后得到的 𝑛 − 1 阶行列式...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 四、展开定理 考研数学 · Linear Algebra · Determinants (行列式) 由此可得： 1 det(𝐴−1 ) = (det(𝐴) ≠ 0) det(𝐴) det(𝑘𝐴) = 𝑘𝑛 det(𝐴) 其中 𝐴 是 𝑛 阶方阵。 四、展开定理 1. 代数余子式 删除元素 𝑎𝑖𝑗 所在第 𝑖 行、第 𝑗 列后得到的 𝑛 − 1 阶行列式称为余子式，记作 𝑀𝑖𝑗 。代数余子式为 𝐴𝑖𝑗 = (−1)𝑖+𝑗 𝑀𝑖𝑗 2. 按行或列展开 按第 𝑖 行展开： 𝑛 det(𝐴) = ∑ 𝑎𝑖𝑗 𝐴𝑖𝑗 𝑗=1 按第 𝑗 列展开： 𝑛 det(𝐴) = ∑ 𝑎𝑖𝑗 𝐴𝑖𝑗 𝑖=1 计算时优先选择零最多的一行或一列展开。 3. 三阶展开公式的推导 以三阶行列式为例，设 𝑎11 𝑎12 𝑎13 𝐴= 𝑎21 𝑎22 𝑎23 (𝑎31 𝑎32 𝑎33 ) 按三阶行列式的定义，有 det(𝐴) = 𝑎11 𝑎22 𝑎33 + 𝑎12 𝑎23 𝑎31 + 𝑎13 𝑎21 𝑎32 −𝑎13 𝑎22 𝑎31 − 𝑎12 𝑎21 𝑎33 − 𝑎11 𝑎23 𝑎32 把含 𝑎11 , 𝑎12 , 𝑎13 的项分别分组： det(𝐴) = 𝑎11 (𝑎22 𝑎33 − 𝑎23 𝑎32 ) −𝑎12 (𝑎21 𝑎33 − 𝑎23 𝑎31 ) +𝑎13 (𝑎21 𝑎32 − 𝑎22 𝑎31 ) 另一方面，第一行三个元素对应的余子式为 𝑎 𝑎 𝑀11 = det ( 22 23 ) = 𝑎22 𝑎33 − 𝑎23 𝑎32 𝑎32 𝑎33 𝑎 𝑎 𝑀12 = det ( 21 23 ) = 𝑎21 𝑎33 − 𝑎23 𝑎31 𝑎31 𝑎33"
+  },
+  {
+    "id": "doc-2999b2188b1e-p5",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 5,
+    "heading": "推导记忆：展开定理不是额外规定，而是把行列式定义中的所有乘积项按某一行或某一列的元素重新分组。",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 𝑎 𝑎 𝑀13 = det ( 21 22 ) = 𝑎21 𝑎32 − 𝑎22 𝑎31 𝑎31 𝑎32 对应代数余子式为 𝐴11 = 𝑀11 , 𝐴12 = −𝑀12 , 𝐴13 = 𝑀13 因此 det(𝐴) = 𝑎11 𝐴11 + 𝑎12 𝐴12 +...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 推导记忆：展开定理不是额外规定，而是把行列式定义中的所有乘积项按某一行或某一列的元素重新分组。 考研数学 · Linear Algebra · Determinants (行列式) 𝑎 𝑎 𝑀13 = det ( 21 22 ) = 𝑎21 𝑎32 − 𝑎22 𝑎31 𝑎31 𝑎32 对应代数余子式为 𝐴11 = 𝑀11 , 𝐴12 = −𝑀12 , 𝐴13 = 𝑀13 因此 det(𝐴) = 𝑎11 𝐴11 + 𝑎12 𝐴12 + 𝑎13 𝐴13 这就是按第一行展开。按其他行或列展开，本质上也是把定义中的各项按某一行或某一列的元素分组，只是符 号由 (−1)𝑖+𝑗 决定。 推导记忆：展开定理不是额外规定，而是把行列式定义中的所有乘积项按某一行或某一列的元素重新分组。 代数余子式的正负号来自分组后自然出现的加减号。 4. 异行异列关系 同一行元素与另一行对应代数余子式乘积之和为零： 𝑛 ∑ 𝑎𝑖𝑗 𝐴𝑘𝑗 = 0 (𝑖 ≠ 𝑘) 𝑗=1 以三阶行列式为例，第二行元素与第一行代数余子式相乘求和： 𝑎21 𝐴11 + 𝑎22 𝐴12 + 𝑎23 𝐴13 这相当于把原行列式第一行替换为第二行后，再按第一行展开： 𝑎21 𝑎22 𝑎23 det 𝑎21 𝑎22 𝑎23 (𝑎31 𝑎32 𝑎33 ) 由于这个行列式前两行相同，所以它等于 0。因此 𝑎21 𝐴11 + 𝑎22 𝐴12 + 𝑎23 𝐴13 = 0 这就是异行异列关系的三阶推导，也是伴随矩阵恒等式的来源。 五、常用计算方法 方法 适用场景 关键动作 化三角 一般数字型行列式 用倍加不变制造零，最后乘主对角线 按行列展开 某行或某列零较多 选择零最多的位置展开 提取公因子 一行或一列有公共因子 先提出公共因子，再计算剩余行列式 特殊结构 主对角线、副对角线、分块三角 识别零元素位置，直接套结构结论 拉普拉斯展开 分块零较多或某几行列有规律 按若干行列的子式整体展开 范德蒙德 幂次按列或按行排列 识别差积 ∏𝑖<𝑗 (𝑥𝑗 − 𝑥𝑖 ) 1. 主对角线行列式 若行列式只有主对角线上元素非零，即"
+  },
+  {
+    "id": "doc-2999b2188b1e-p6",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 6,
+    "heading": "2. 副对角线行列式",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 𝑎1 0 … 0 0 𝑎2 … 0 𝐷 = det … … … … ( 0 0 … 𝑎𝑛 ) 则按逆序数法看，非零项只能从第 𝑖 行取第 𝑖 列元素。对应排列为 12…𝑛 其逆序数为 0，符号为正。因此 𝐷 = 𝑎1 𝑎2 …𝑎𝑛 上三角或下三角行列式同...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 2. 副对角线行列式 考研数学 · Linear Algebra · Determinants (行列式) 𝑎1 0 … 0 0 𝑎2 … 0 𝐷 = det … … … … ( 0 0 … 𝑎𝑛 ) 则按逆序数法看，非零项只能从第 𝑖 行取第 𝑖 列元素。对应排列为 12…𝑛 其逆序数为 0，符号为正。因此 𝐷 = 𝑎1 𝑎2 …𝑎𝑛 上三角或下三角行列式同理。因为除主对角线排列外，其他排列至少会取到非零区域外的零元素，所以非零项 仍只剩主对角线乘积： det(𝐴) = 𝑎11 𝑎22 …𝑎𝑛𝑛 2 1 3 示例 若 𝐴 = (0 −1 4)，则 𝐴 为上三角矩阵， 0 0 5 det(𝐴) = 2 ⋅ (−1) ⋅ 5 = −10 2. 副对角线行列式 若行列式只有副对角线上元素非零： 0 0 … 𝑏1 0 0 … 0 𝐷 = det … … … … (𝑏𝑛 0 … 0 ) 更清楚地说，第 𝑖 行的非零元素在第 𝑛 + 1 − 𝑖 列。唯一可能非零的排列为 𝑛, 𝑛 − 1, …, 2, 1 这个排列的逆序数为 𝑛(𝑛 − 1) 2 所以副对角线行列式为 𝑛(𝑛−1) 𝐷 = (−1) 2 𝑏1 𝑏2 …𝑏𝑛 其中 𝑏𝑖 = 𝑎𝑖,𝑛+1−𝑖 。 示例 三阶副对角线行列式 0 0 𝑎 det 0 𝑏 0 = (−1)3 𝑎𝑏𝑐 = −𝑎𝑏𝑐 ( 𝑐 0 0) 四阶副对角线行列式符号为 (−1)6 = +。 3. 分块三角行列式 若"
+  },
+  {
+    "id": "doc-2999b2188b1e-p7",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 7,
+    "heading": "推导思路可以从拉普拉斯展开理解：下左块为零，凡是试图从下半部分选择左侧列的项都会含零；非零项只能",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 𝐵 𝐶 𝐴=( ) 0 𝐷 其中 𝐵, 𝐷 是方阵，则 det(𝐴) = det(𝐵) det(𝐷) 推导思路可以从拉普拉斯展开理解：下左块为零，凡是试图从下半部分选择左侧列的项都会含零；非零项只能 在左上块 𝐵 和右下块 𝐷 内部分别选列。因此整体行列...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 推导思路可以从拉普拉斯展开理解：下左块为零，凡是试图从下半部分选择左侧列的项都会含零；非零项只能 考研数学 · Linear Algebra · Determinants (行列式) 𝐵 𝐶 𝐴=( ) 0 𝐷 其中 𝐵, 𝐷 是方阵，则 det(𝐴) = det(𝐵) det(𝐷) 推导思路可以从拉普拉斯展开理解：下左块为零，凡是试图从下半部分选择左侧列的项都会含零；非零项只能 在左上块 𝐵 和右下块 𝐷 内部分别选列。因此整体行列式分解为两个子行列式的乘积。 4. 拉普拉斯展开式 行列式按一行或一列展开是代数余子式展开。拉普拉斯展开式是它的推广：可以按若干行或若干列整体展开。 设在 𝑛 阶行列式中固定第 𝑖1 , 𝑖2 , …, 𝑖𝑘 行，取列指标 1 ≤ 𝑗1 < 𝑗2 < … < 𝑗𝑘 ≤ 𝑛 由这些行列交叉处元素组成的 𝑘 阶子式记为 𝑀 ；删去这些行和列后得到的余子式记为 𝑀 ′ 。则按这 𝑘 行展开时： 𝐷 = ∑ (−1)𝑖1 +…+𝑖𝑘 +𝑗1 +…+𝑗𝑘 𝑀 𝑀 ′ 求和遍历所有 𝑘 个列指标的选择。 当 𝑘 = 1 时，这个公式退化为普通按一行展开。 示例 四阶行列式若前两行后两列全为零： 𝑎 𝑏 0 0 𝑐 𝑑 0 0 𝐷 = det 𝑒 𝑓 𝑔 ℎ (𝑝 𝑞 𝑟 𝑠 ) 按前两行作拉普拉斯展开，只有选第 1、2 列的子式不为零， 𝑎 𝑏 𝑔 ℎ 𝐷 = det ( ) ⋅ det ( ) 𝑐 𝑑 𝑟 𝑠 。 这就是分块下三角行列式结论的一个具体应用。 5. 范德蒙德行列式 典型形式为 1 1 … 1 𝑥1 𝑥2 … 𝑥𝑛 𝑉 = … … … … 𝑛−1 𝑛−1 (𝑥1 𝑥2 … 𝑥𝑛−1 𝑛 ) 则 det(𝑉 ) = ∏ (𝑥𝑗 − 𝑥𝑖 ) 1≤𝑖<𝑗≤𝑛 推导要点如下： 1. 若 𝑥𝑖 = 𝑥𝑗 ，第 𝑖 列与第 𝑗 列相同，行列式为零，所以 det(𝑉 ) 必含因子 (𝑥𝑗 − 𝑥𝑖 )。 2. 所有 1 ≤ 𝑖 < 𝑗 ≤ 𝑛 的差因子都出现，因此 det(𝑉 ) 含有 ∏𝑖<𝑗 (𝑥𝑗 − 𝑥𝑖 )。"
+  },
+  {
+    "id": "doc-2999b2188b1e-p8",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 8,
+    "heading": "3. 范德蒙德行列式总次数为 0 + 1 + … + (𝑛 − 1) =           2   ，与差积次数相同。",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 𝑛(𝑛−1) 3. 范德蒙德行列式总次数为 0 + 1 + … + (𝑛 − 1) = 2 ，与差积次数相同。 4. 比较最高次项系数可知常数因子为 1。 示例 三阶范德蒙德行列式 1 1 1 det 𝑥1 𝑥2 𝑥3 = (𝑥2 − 𝑥1 )(𝑥3 −...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 3. 范德蒙德行列式总次数为 0 + 1 + … + (𝑛 − 1) = 2 ，与差积次数相同。 考研数学 · Linear Algebra · Determinants (行列式) 𝑛(𝑛−1) 3. 范德蒙德行列式总次数为 0 + 1 + … + (𝑛 − 1) = 2 ，与差积次数相同。 4. 比较最高次项系数可知常数因子为 1。 示例 三阶范德蒙德行列式 1 1 1 det 𝑥1 𝑥2 𝑥3 = (𝑥2 − 𝑥1 )(𝑥3 − 𝑥1 )(𝑥3 − 𝑥2 ) 2 2 2 (𝑥1 𝑥2 𝑥3 ) 若 𝑥1 = 1, 𝑥2 = 2, 𝑥3 = 4，则行列式为 (2 − 1)(4 − 1)(4 − 2) = 6。 易错点： 范德蒙德行列式的符号取决于列的排列顺序。若列顺序写成 𝑥𝑛 , …, 𝑥2 , 𝑥1 ，差积符号会随交换列 次数改变。 六、与矩阵和方程组的联系 1. 可逆判定 𝐴 可逆 ⟺ det(𝐴) ≠ 0 若 𝐴 可逆，则齐次方程组 𝐴𝑥 = 0 只有零解，非齐次方程组 𝐴𝑥 = 𝑏 有唯一解。 2. 克拉默法则 若 𝑛 元线性方程组 𝐴𝑥 = 𝑏 满足 𝐷 = det(𝐴) ≠ 0，则唯一解为 𝐷𝑖 𝑥𝑖 = 𝐷 其中 𝐷𝑖 是把 𝐴 的第 𝑖 列换成常数列 𝑏 后得到的行列式。 易错点： 克拉默法则只适用于方程个数和未知数个数相同且系数行列式不为零的情形。若 𝐷 = 0，不能直 接说无解，必须再看秩。 七、典型题型 1. 计算数字型或含参数行列式：优先用倍加变换化三角。 2. 证明行列式恒等式：常用行列式性质、转置、乘法性质或分块结构。 3. 判断矩阵可逆：计算或化简行列式 det(𝐴)，再看它是否为零。 4. 求方程组参数：先看行列式 det(𝐴) 是否为零，再结合秩讨论。 5. 与特征值结合：若 𝜆𝑖 是 𝐴 的特征值，则行列式等于全部特征值之积：det(𝐴) = 𝜆1 𝜆2 …𝜆𝑛 。 6. 与向量几何结合：二阶行列式求平行四边形或三角形面积，三阶行列式求平行六面体或四面体体积。 解题顺序 看到行列式，先观察是否有公共因子、是否有相同或成比例的行列、是否能做倍加化零。若含参 数，通常先化简成因式形式，再讨论参数取值。 八、公式速查表 内容 公式 𝑎 𝑏 二阶行列式 det ( 𝑐 𝑑) = 𝑎𝑑 − 𝑏𝑐"
+  },
+  {
+    "id": "doc-2999b2188b1e-p9",
+    "docId": "doc-2999b2188b1e",
+    "title": "Determinants (行列式)",
+    "category": "线性代数",
+    "page": 9,
+    "heading": "考研数学 · Linear Algebra · Determinants (行列式)",
+    "snippet": "考研数学 · Linear Algebra · Determinants (行列式) 逆序数法 det(𝐴) = ∑ (−1)𝜏 𝑎1𝑗1 𝑎2𝑗2 …𝑎𝑛𝑗𝑛 平行四边形面积 𝑆 = |det(𝑢, 𝑣)| 三角形面积 𝑆triangle = 12 |det(𝑢, 𝑣)| 平行六面体体积 𝑉 = |det(𝑢, 𝑣, 𝑤)| 四面体体积...",
+    "text": "Determinants (行列式) Determinants 行列式 线性代数 考研数学 · Linear Algebra · Determinants (行列式) 考研数学 · Linear Algebra · Determinants (行列式) 逆序数法 det(𝐴) = ∑ (−1)𝜏 𝑎1𝑗1 𝑎2𝑗2 …𝑎𝑛𝑗𝑛 平行四边形面积 𝑆 = |det(𝑢, 𝑣)| 三角形面积 𝑆triangle = 12 |det(𝑢, 𝑣)| 平行六面体体积 𝑉 = |det(𝑢, 𝑣, 𝑤)| 四面体体积 𝑉tetrahedron = 16 |det(𝑢, 𝑣, 𝑤)| 混合积 det(𝑢, 𝑣, 𝑤) = 𝑢 ⋅ (𝑣 × 𝑤) 转置 det(𝐴𝑇 ) = det(𝐴) 乘法 det(𝐴𝐵) = det(𝐴) det(𝐵) 1 逆矩阵 det(𝐴−1 ) = det(𝐴) 数乘矩阵 det(𝑘𝐴) = 𝑘𝑛 det(𝐴) 按行展开 det(𝐴) = ∑𝑛𝑗=1 𝑎𝑖𝑗 𝐴𝑖𝑗 主对角线/三角 det(𝐴) = 𝑎11 𝑎22 …𝑎𝑛𝑛 𝑛(𝑛−1) 副对角线 𝐷 = (−1) 2 𝑏1 𝑏2 …𝑏𝑛 拉普拉斯展开 𝐷 = ∑ (−1)∑ 𝑖+ ∑ 𝑗 𝑀 𝑀 ′ 范德蒙德 𝑉 = ∏1≤𝑖<𝑗≤𝑛 (𝑥𝑗 − 𝑥𝑖 ) 可逆判定 𝐴 可逆 ⟺ det(𝐴) ≠ 0 最终抓手： 行列式计算的主线是“先理解几何含义，再化简结构并套性质”。二阶看有向面积，三阶看有向 体积，高阶看体积伸缩；计算时最常用的是倍加不变、交换变号、提取因子和化三角。"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p1",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 1,
+    "heading": "一、矩阵与基本运算",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) Matrices (矩阵) 运算 · 逆矩阵 · 初等变换 · 秩 · 分块 考研数学复习资料 · Typst PDF 复习目标：矩阵是线性代数的语言。考研中矩阵章节常用于表达线性方程组、向量组、特征值和二次型。复 习重点是矩阵运算规则、可逆判定、初等变换、矩阵秩...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 一、矩阵与基本运算 考研数学 · Linear Algebra · Matrices (矩阵) Matrices (矩阵) 运算 · 逆矩阵 · 初等变换 · 秩 · 分块 考研数学复习资料 · Typst PDF 复习目标：矩阵是线性代数的语言。考研中矩阵章节常用于表达线性方程组、向量组、特征值和二次型。复 习重点是矩阵运算规则、可逆判定、初等变换、矩阵秩、Gram 矩阵和分块矩阵。 一、矩阵与基本运算 1. 矩阵定义 由 𝑚𝑛 个数排成的 𝑚 行 𝑛 列表称为 𝑚 × 𝑛 矩阵，记为 𝐴 = (𝑎𝑖𝑗 ) 𝑚×𝑛 当 𝑚 = 𝑛 时称为方阵。 2. 加法与数乘 同型矩阵才能相加： 𝐴 + 𝐵 = (𝑎𝑖𝑗 + 𝑏𝑖𝑗 ) 数乘为 𝑘𝐴 = (𝑘𝑎𝑖𝑗 ) 3. 矩阵乘法 若 𝐴 是 𝑚 × 𝑛 矩阵，𝐵 是 𝑛 × 𝑠 矩阵，则 𝐴𝐵 是 𝑚 × 𝑠 矩阵，元素为 𝑛 𝑐𝑖𝑗 = ∑ 𝑎𝑖𝑘 𝑏𝑘𝑗 𝑘=1 易错点： 矩阵乘法一般不满足交换律，即通常 𝐴𝐵 ≠ 𝐵𝐴。很多题的错误都来自把矩阵当作普通数来移项 或约分。 4. 转置 𝑇 (𝐴𝑇 ) = 𝐴 (𝐴 + 𝐵)𝑇 = 𝐴𝑇 + 𝐵𝑇 (𝐴𝐵)𝑇 = 𝐵𝑇 𝐴𝑇 二、特殊矩阵 类型 条件 说明 零矩阵 所有元素为零 加法零元"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p2",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 2,
+    "heading": "三、Gram 矩阵",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) 单位矩阵 主对角线为 1，其余为 0 𝐴𝐼 = 𝐼𝐴 = 𝐴 对角矩阵 非主对角线元素为 0 运算和特征值较简单 上三角矩阵 主对角线下方元素为 0 行列式为主对角线乘积 𝑇 对称矩阵 𝐴 =𝐴 二次型和正交对角化常用 正交矩阵 𝐴𝑇 𝐴 = 𝐼 𝐴−1 = 𝐴𝑇...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 三、Gram 矩阵 考研数学 · Linear Algebra · Matrices (矩阵) 单位矩阵 主对角线为 1，其余为 0 𝐴𝐼 = 𝐼𝐴 = 𝐴 对角矩阵 非主对角线元素为 0 运算和特征值较简单 上三角矩阵 主对角线下方元素为 0 行列式为主对角线乘积 𝑇 对称矩阵 𝐴 =𝐴 二次型和正交对角化常用 正交矩阵 𝐴𝑇 𝐴 = 𝐼 𝐴−1 = 𝐴𝑇 三、Gram 矩阵 1. 定义 设有向量组 𝛼1 , 𝛼2 , …, 𝛼𝑠 在实内积空间中，定义矩阵 𝐺 = (𝑔𝑖𝑗 ) , 𝑔𝑖𝑗 = 𝛼𝑇𝑖 𝛼𝑗 𝑠×𝑠 则 𝐺 称为该向量组的 Gram 矩阵，也可写作 𝛼𝑇1 𝛼1 𝛼𝑇1 𝛼2 … 𝛼𝑇1 𝛼𝑠 𝛼𝑇2 𝛼1 𝛼𝑇2 𝛼2 … 𝛼𝑇2 𝛼𝑠 𝐺= … … … … 𝛼 𝑇 𝛼 𝛼𝑇 𝛼 … 𝛼𝑇 𝛼 ( 𝑠 1 𝑠 2 𝑠 𝑠) 如果把这些向量作为列组成矩阵 𝐴 = (𝛼1 , 𝛼2 , …, 𝛼𝑠 ) 则 Gram 矩阵可以简写为 𝐺 = 𝐴𝑇 𝐴 2. 基本性质 Gram 矩阵有以下性质： 1. 𝐺 是对称矩阵，因为 𝑔𝑖𝑗 = 𝛼𝑇 𝑇 𝑖 𝛼𝑗 = 𝛼𝑗 𝛼𝑖 = 𝑔𝑗𝑖 。 2. 对任意向量 𝑥，有 𝑥𝑇 𝐺𝑥 = 𝑥𝑇 𝐴𝑇 𝐴𝑥 = (𝐴𝑥)𝑇 (𝐴𝑥) = |𝐴𝑥|2 ≥ 0 因此 𝐺 半正定。 3. rank(𝐺) = rank(𝐴)，所以 Gram 矩阵的秩等于向量组的秩。 4. 若 𝛼1 , …, 𝛼𝑠 线性无关，则 𝐺 正定，且 det(𝐺) > 0。 5. 若 𝛼1 , …, 𝛼𝑠 线性相关，则 det(𝐺) = 0。 判定关系：Gram 矩阵把“向量组的线性无关性”转化为“矩阵正定性或行列式是否为零”。对有限个实向量， 𝛼1 , …, 𝛼𝑠 线性无关，当且仅当 det(𝐺) > 0。 3. 几何意义 Gram 行列式表示向量组张成的几何量的平方。若 𝛼1 , …, 𝛼𝑠 张成一个 𝑠 维平行体，则 Vol2 = det(𝐺)"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p3",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 3,
+    "heading": "4. 示例",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) 二维时，设向量 𝑢, 𝑣 的 Gram 矩阵为 𝑢⋅𝑢 𝑢⋅𝑣 𝐺=( ) 𝑣⋅𝑢 𝑣⋅𝑣 则 det(𝐺) = |𝑢|2 |𝑣|2 − (𝑢 ⋅ 𝑣)2 它等于由 𝑢, 𝑣 张成的平行四边形面积的平方。 4. 示例 设 𝑢 = (1, 2)𝑇 , 𝑣 = (3,...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 4. 示例 考研数学 · Linear Algebra · Matrices (矩阵) 二维时，设向量 𝑢, 𝑣 的 Gram 矩阵为 𝑢⋅𝑢 𝑢⋅𝑣 𝐺=( ) 𝑣⋅𝑢 𝑣⋅𝑣 则 det(𝐺) = |𝑢|2 |𝑣|2 − (𝑢 ⋅ 𝑣)2 它等于由 𝑢, 𝑣 张成的平行四边形面积的平方。 4. 示例 设 𝑢 = (1, 2)𝑇 , 𝑣 = (3, 1)𝑇 则 𝑢 ⋅ 𝑢 = 5, 𝑢 ⋅ 𝑣 = 5, 𝑣 ⋅ 𝑣 = 10 Gram 矩阵为 5 5 𝐺=( ) 5 10 其行列式为 det(𝐺) = 5 ⋅ 10 − 5 ⋅ 5 = 25 > 0 因此 𝑢, 𝑣 线性无关。它们张成的平行四边形面积为 𝑆 = √det(𝐺) = 5 易错点： Gram 矩阵依赖内积。通常考研默认欧氏内积 𝛼𝑇 𝑖 𝛼𝑗 ；若题目给出其他内积，Gram 矩阵的元素要 按题目给定的内积计算。 四、逆矩阵 1. 定义 若方阵 𝐴 存在方阵 𝐵，使得 𝐴𝐵 = 𝐵𝐴 = 𝐼 则称 𝐴 可逆，𝐵 为 𝐴 的逆矩阵，记为 𝐴−1 。 2. 可逆判定 对 𝑛 阶方阵 𝐴，以下命题等价： 1. 𝐴 可逆。 2. det(𝐴) ≠ 0。 3. rank(𝐴) = 𝑛。 4. 齐次方程组 𝐴𝑥 = 0 只有零解。 5. 对任意 𝑏，非齐次方程组 𝐴𝑥 = 𝑏 有唯一解。 3. 逆矩阵公式 若 𝐴 可逆，则"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p4",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 4,
+    "heading": "易错点： (𝐴 + 𝐵)−1 通常不等于 𝐴−1 + 𝐵−1 。矩阵逆没有普通分式那样的拆分规则。",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) 1 𝐴−1 = 𝐴∗ det(𝐴) 其中 𝐴∗ 是伴随矩阵。 常用运算： (𝐴𝐵)−1 = 𝐵−1 𝐴−1 −1 𝑇 (𝐴𝑇 ) = (𝐴−1 ) 1 −1 (𝑘𝐴)−1 = 𝐴 (𝑘 ≠ 0) 𝑘 易错点： (𝐴 + 𝐵)−1 通常不等于 𝐴−1 + 𝐵−1 。...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 易错点： (𝐴 + 𝐵)−1 通常不等于 𝐴−1 + 𝐵−1 。矩阵逆没有普通分式那样的拆分规则。 考研数学 · Linear Algebra · Matrices (矩阵) 1 𝐴−1 = 𝐴∗ det(𝐴) 其中 𝐴∗ 是伴随矩阵。 常用运算： (𝐴𝐵)−1 = 𝐵−1 𝐴−1 −1 𝑇 (𝐴𝑇 ) = (𝐴−1 ) 1 −1 (𝑘𝐴)−1 = 𝐴 (𝑘 ≠ 0) 𝑘 易错点： (𝐴 + 𝐵)−1 通常不等于 𝐴−1 + 𝐵−1 。矩阵逆没有普通分式那样的拆分规则。 五、初等变换与初等矩阵 1. 三类初等行变换 1. 交换两行。 2. 某一行乘以非零常数。 3. 某一行的倍数加到另一行。 列变换同理。 2. 初等矩阵 对单位矩阵作一次初等变换得到的矩阵称为初等矩阵。对矩阵 𝐴 左乘初等矩阵，相当于对 𝐴 作对应的初等行 变换；右乘初等矩阵，相当于作对应的初等列变换。 3. 用初等变换求逆 若 𝐴 可逆，则 (𝐴, 𝐼) → (𝐼, 𝐴−1 ) 即把增广矩阵左半部分通过行初等变换化为单位矩阵，右半部分即为逆矩阵。 六、矩阵秩 1. 定义 矩阵 𝐴 中最高阶非零子式的阶数称为矩阵的秩，记为 rank(𝐴)。 2. 求秩方法 通过初等行变换把矩阵化为阶梯形矩阵，非零行的行数就是矩阵秩。 3. 秩的常用性质 rank(𝐴) ≤ min(𝑚, 𝑛) rank(𝐴𝑇 ) = rank(𝐴) rank(𝐴𝐵) ≤ min(rank(𝐴), rank(𝐵)) 若 𝑃 , 𝑄 可逆，则 rank(𝑃 𝐴𝑄) = rank(𝐴)"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p5",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 5,
+    "heading": "七、分块矩阵",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) 这说明初等行列变换不改变矩阵秩。 七、分块矩阵 1. 分块运算 当矩阵规模较大或结构明显时，可以把矩阵按行列分块。分块矩阵不是一种新运算，而是把大矩阵看成由若干 小矩阵组成的“矩阵的矩阵”。使用时必须先确认每个分块的行数和列数。 若 𝐴 与 𝐵 采用相同分块方式，...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 七、分块矩阵 考研数学 · Linear Algebra · Matrices (矩阵) 这说明初等行列变换不改变矩阵秩。 七、分块矩阵 1. 分块运算 当矩阵规模较大或结构明显时，可以把矩阵按行列分块。分块矩阵不是一种新运算，而是把大矩阵看成由若干 小矩阵组成的“矩阵的矩阵”。使用时必须先确认每个分块的行数和列数。 若 𝐴 与 𝐵 采用相同分块方式，且对应分块同型，则 𝐴 + 𝐵 = (𝐴𝑖𝑗 + 𝐵𝑖𝑗 ), 𝑘𝐴 = (𝑘𝐴𝑖𝑗 ) 例如 𝐴11 𝐴12 𝐵 𝐵 𝐴 + 𝐵11 𝐴12 + 𝐵12 ( ) + ( 11 12 ) = ( 11 ) 𝐴21 𝐴22 𝐵21 𝐵22 𝐴21 + 𝐵21 𝐴22 + 𝐵22 2. 分块乘法 分块乘法的形式与普通矩阵乘法一致：行分块乘列分块，再对中间分块求和。若 𝐴 = (𝐴𝑖𝑘 )，𝐵 = (𝐵𝑘𝑗 ) 的中 间分块维数相容，则 𝑡 𝐶 = 𝐴𝐵, 𝐶𝑖𝑗 = ∑ 𝐴𝑖𝑘 𝐵𝑘𝑗 𝑘=1 二阶分块的典型形式为 𝐴 𝐵 𝐸 𝐹 𝐴𝐸 + 𝐵𝐺 𝐴𝐹 + 𝐵𝐻 ( )( )=( ) 𝐶 𝐷 𝐺 𝐻 𝐶𝐸 + 𝐷𝐺 𝐶𝐹 + 𝐷𝐻 这里要求 𝐴𝐸 、𝐵𝐺 等每一项都能相乘，并且同一位置相加的分块必须同型。 易错点： 分块乘法可以像普通矩阵一样写，但不能只看“外形”。例如 𝐴𝐸 + 𝐵𝐺 成立的前提是 𝐴𝐸 与 𝐵𝐺 都有意义，且结果维数相同。 3. 转置、逆与单位分块 分块转置要同时转置每个分块，并交换分块位置： 𝑇 𝐴 𝐵 𝐴𝑇 𝐶 𝑇 ( ) = ( 𝑇 𝑇) 𝐶 𝐷 𝐵 𝐷 若 𝐴, 𝐷 都可逆，则分块对角矩阵可逆，且 −1 𝐴 0 𝐴−1 0 ( ) =( ) 0 𝐷 0 𝐷−1 分块单位矩阵常写为 𝐼 0 𝐼 =( 1 ) 0 𝐼2 它与普通单位矩阵的作用相同，但每个 𝐼1 , 𝐼2 的阶数要与对应分块匹配。"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p6",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 6,
+    "heading": "4. 分块对角矩阵与分块三角矩阵",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) 4. 分块对角矩阵与分块三角矩阵 若 𝐴 0 𝑀 =( ) 0 𝐷 则 det(𝑀 ) = det(𝐴) det(𝐷) 分块上三角和分块下三角也有类似结论： 𝐴 𝐵 det ( ) = det(𝐴) det(𝐷) 0 𝐷 𝐴 0 det ( ) = det(𝐴) ...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 4. 分块对角矩阵与分块三角矩阵 考研数学 · Linear Algebra · Matrices (矩阵) 4. 分块对角矩阵与分块三角矩阵 若 𝐴 0 𝑀 =( ) 0 𝐷 则 det(𝑀 ) = det(𝐴) det(𝐷) 分块上三角和分块下三角也有类似结论： 𝐴 𝐵 det ( ) = det(𝐴) det(𝐷) 0 𝐷 𝐴 0 det ( ) = det(𝐴) det(𝐷) 𝐶 𝐷 若 𝐴, 𝐷 都可逆，则 −1 𝐴 𝐵 𝐴−1 −𝐴−1 𝐵𝐷−1 ( ) =( ) 0 𝐷 0 𝐷−1 −1 𝐴 0 𝐴−1 0 ( ) =( ) 𝐶 𝐷 −𝐷 𝐶𝐴−1 𝐷−1 −1 5. 分块消元法则 分块矩阵常用来处理行列式、逆矩阵和线性方程组。若 𝐴 可逆，则 𝐴 𝐵 𝐼 0 𝐴 𝐵 ( )=( )( ) 𝐶 𝐷 𝐶𝐴−1 𝐼 0 𝐷 − 𝐶𝐴−1 𝐵 因此 𝐴 𝐵 det ( ) = det(𝐴) det(𝐷 − 𝐶𝐴−1 𝐵) 𝐶 𝐷 其中 𝐷 − 𝐶𝐴−1 𝐵 称为关于 𝐴 的 Schur 补。 若 𝐷 可逆，也可消去右下角分块： 𝐴 𝐵 det ( ) = det(𝐷) det(𝐴 − 𝐵𝐷−1 𝐶) 𝐶 𝐷 使用原则： 分块的本质是“把结构看清楚”。先确定分块维数，再按普通矩阵规则运算；遇到零分块、单位 分块、对角分块或三角分块时，优先使用分块法简化计算。 八、典型题型 1. 求矩阵乘积或表达式：先检查维数，再按顺序计算。 2. 求逆矩阵：常用伴随矩阵公式或初等行变换。 3. 判断可逆：看行列式、秩或齐次方程组。 4. 求矩阵秩：化阶梯形，数非零行。 5. 判断向量组无关：可构造 Gram 矩阵，看 det(𝐺) 是否大于零。"
+  },
+  {
+    "id": "doc-f8d85d8d3cbe-p7",
+    "docId": "doc-f8d85d8d3cbe",
+    "title": "Matrices (矩阵)",
+    "category": "线性代数",
+    "page": 7,
+    "heading": "6. 证明矩阵恒等式：注意乘法顺序，必要时左乘或右乘逆矩阵。",
+    "snippet": "考研数学 · Linear Algebra · Matrices (矩阵) 6. 证明矩阵恒等式：注意乘法顺序，必要时左乘或右乘逆矩阵。 7. 分块矩阵计算：先确认分块维数，再使用分块运算规则。 解题顺序 矩阵题先看“是否方阵”和“维数是否匹配”。如果涉及可逆，优先联想到行列式、秩和初等变换； 如果涉及方程组，优先把问题转为 𝐴𝑥 = 𝑏...",
+    "text": "Matrices (矩阵) Matrices 矩阵 线性代数 6. 证明矩阵恒等式：注意乘法顺序，必要时左乘或右乘逆矩阵。 考研数学 · Linear Algebra · Matrices (矩阵) 6. 证明矩阵恒等式：注意乘法顺序，必要时左乘或右乘逆矩阵。 7. 分块矩阵计算：先确认分块维数，再使用分块运算规则。 解题顺序 矩阵题先看“是否方阵”和“维数是否匹配”。如果涉及可逆，优先联想到行列式、秩和初等变换； 如果涉及方程组，优先把问题转为 𝐴𝑥 = 𝑏 或 𝐴𝑥 = 0。 九、公式速查表 内容 公式 𝑛 矩阵乘法 𝑐𝑖𝑗 = ∑𝑘=1 𝑎𝑖𝑘 𝑏𝑘𝑗 转置乘法 (𝐴𝐵)𝑇 = 𝐵𝑇 𝐴𝑇 1 逆矩阵 𝐴−1 = det(𝐴) 𝐴∗ 乘积求逆 (𝐴𝐵)−1 = 𝐵−1 𝐴−1 可逆判定 𝐴 可逆 ⟺ det(𝐴) ≠ 0 ⟺ rank(𝐴) = 𝑛 秩不变 rank(𝑃 𝐴𝑄) = rank(𝐴)，其中 𝑃 , 𝑄 可逆 正交矩阵 𝐴𝑇 𝐴 = 𝐼, 𝐴−1 = 𝐴𝑇 Gram 矩阵 𝐺 = 𝐴𝑇 𝐴, 𝑔𝑖𝑗 = 𝛼𝑇𝑖 𝛼𝑗 Gram 判定 𝛼1 , …, 𝛼𝑠 无关 ⟺ det(𝐺) > 0 𝑡 分块乘法 𝐶𝑖𝑗 = ∑𝑘=1 𝐴𝑖𝑘 𝐵𝑘𝑗 𝐴 𝐵 分块三角行列式 det ( 0 𝐷) = det(𝐴)det(𝐷) 最终抓手： 矩阵章节的关键是“顺序”和“秩”。乘法顺序不能乱，初等变换围绕秩和逆矩阵展开；Gram 矩 阵把向量内积信息组织成对称半正定矩阵；分块矩阵要先看维数和零分块结构；一旦题目出现可逆，就同步 想到行列式非零、满秩和齐次方程只有零解。"
+  },
+  {
+    "id": "doc-aedda68a99a2-p1",
+    "docId": "doc-aedda68a99a2",
+    "title": "Vector Groups (向量组)",
+    "category": "线性代数",
+    "page": 1,
+    "heading": "一、向量与线性组合",
+    "snippet": "考研数学 · Linear Algebra · Vector Groups (向量组) Vector Groups (向量组) 线性组合 · 相关无关 · 秩 · 极大无关组 · 等价 考研数学复习资料 · Typst PDF 复习目标： 向量组章节把矩阵秩、方程组解的结构和线性空间思想连接起来。考研常考线性表示、线性相 关性、极大线性无...",
+    "text": "Vector Groups (向量组) Vector Groups 向量组 线性代数 一、向量与线性组合 考研数学 · Linear Algebra · Vector Groups (向量组) Vector Groups (向量组) 线性组合 · 相关无关 · 秩 · 极大无关组 · 等价 考研数学复习资料 · Typst PDF 复习目标： 向量组章节把矩阵秩、方程组解的结构和线性空间思想连接起来。考研常考线性表示、线性相 关性、极大线性无关组、向量组秩与等价。 一、向量与线性组合 1. 向量组 若干同维列向量 𝛼1 , 𝛼2 , …, 𝛼𝑠 组成一个向量组。只有同维向量才能讨论线性组合和线性相关性。 2. 线性组合 若存在数 𝑘1 , 𝑘2 , …, 𝑘𝑠 ，使得 𝛽 = 𝑘1 𝛼1 + 𝑘2 𝛼2 + … + 𝑘𝑠 𝛼𝑠 则称 𝛽 可由向量组 𝛼1 , …, 𝛼𝑠 线性表示。 3. 与方程组的关系 令 𝐴 = (𝛼1 , 𝛼2 , …, 𝛼𝑠 ) 则 𝛽 可由该向量组线性表示等价于方程组 𝐴𝑥 = 𝛽 有解。 二、线性相关与线性无关 1. 定义 若存在不全为零的数 𝑘1 , …, 𝑘𝑠 ，使得 𝑘1 𝛼1 + 𝑘2 𝛼2 + … + 𝑘𝑠 𝛼𝑠 = 0 则称向量组线性相关。 若只有当 𝑘1 = 𝑘2 = … = 𝑘𝑠 = 0 时等式成立，则称向量组线性无关。"
+  },
+  {
+    "id": "doc-aedda68a99a2-p2",
+    "docId": "doc-aedda68a99a2",
+    "title": "Vector Groups (向量组)",
+    "category": "线性代数",
+    "page": 2,
+    "heading": "2. 判定方法",
+    "snippet": "考研数学 · Linear Algebra · Vector Groups (向量组) 2. 判定方法 把向量作为列组成矩阵 𝐴： 1. 若 rank(𝐴) = 𝑠，则 𝑠 个列向量线性无关。 2. 若 rank(𝐴) < 𝑠，则 𝑠 个列向量线性相关。 其中 𝑠 是向量个数。 易错点： 𝑛 维空间中多于 𝑛 个向量一定线性相关；少于或等...",
+    "text": "Vector Groups (向量组) Vector Groups 向量组 线性代数 2. 判定方法 考研数学 · Linear Algebra · Vector Groups (向量组) 2. 判定方法 把向量作为列组成矩阵 𝐴： 1. 若 rank(𝐴) = 𝑠，则 𝑠 个列向量线性无关。 2. 若 rank(𝐴) < 𝑠，则 𝑠 个列向量线性相关。 其中 𝑠 是向量个数。 易错点： 𝑛 维空间中多于 𝑛 个向量一定线性相关；少于或等于 𝑛 个向量不一定无关，必须看秩或解齐次 方程组。 三、向量组的秩 1. 极大线性无关组 向量组中若某个部分组线性无关，并且再加入原向量组中任一其他向量都会线性相关，则称该部分组为极大线 性无关组。 2. 向量组秩 极大线性无关组所含向量个数称为向量组的秩，记为 𝑟(𝛼1 , …, 𝛼𝑠 ) 若把向量组作为矩阵的列，则向量组秩等于该矩阵的列秩，也等于矩阵秩。 3. 求极大无关组 把向量作为列组成矩阵，作初等行变换化为阶梯形矩阵。主元列对应的原向量构成一个极大线性无关组。 注意 行变换会改变行向量，但不会改变列向量之间的线性关系。因此求列向量组极大无关组时，要记录阶 梯形矩阵中的主元列，再回到原矩阵取对应列。 四、向量组等价 1. 等价定义 若向量组 𝐴 中每个向量都可由向量组 𝐵 线性表示，同时 𝐵 中每个向量也可由 𝐴 线性表示，则称两个向量组 等价。 2. 等价判定 两个向量组等价意味着它们张成同一个线性空间，因此它们的秩相同。但“秩相同”本身不一定推出等价，还要 看互相可表示。 3. 矩阵语言 若 𝐵 的列向量都可由 𝐴 的列向量线性表示，则存在矩阵 𝐶 ，使得 𝐵 = 𝐴𝐶 若还存在矩阵 𝐷，使得 𝐴 = 𝐵𝐷 则两个列向量组等价。"
+  },
+  {
+    "id": "doc-aedda68a99a2-p3",
+    "docId": "doc-aedda68a99a2",
+    "title": "Vector Groups (向量组)",
+    "category": "线性代数",
+    "page": 3,
+    "heading": "五、线性表示的判定",
+    "snippet": "考研数学 · Linear Algebra · Vector Groups (向量组) 五、线性表示的判定 1. 秩判定 𝛽 可由 𝛼1 , …, 𝛼𝑠 线性表示，当且仅当 rank(𝛼1 , …, 𝛼𝑠 ) = rank(𝛼1 , …, 𝛼𝑠 , 𝛽) 也就是把 𝛽 加入向量组后，秩不增加。 2. 唯一性 若 𝛽 可由向量组线性表示： ...",
+    "text": "Vector Groups (向量组) Vector Groups 向量组 线性代数 五、线性表示的判定 考研数学 · Linear Algebra · Vector Groups (向量组) 五、线性表示的判定 1. 秩判定 𝛽 可由 𝛼1 , …, 𝛼𝑠 线性表示，当且仅当 rank(𝛼1 , …, 𝛼𝑠 ) = rank(𝛼1 , …, 𝛼𝑠 , 𝛽) 也就是把 𝛽 加入向量组后，秩不增加。 2. 唯一性 若 𝛽 可由向量组线性表示： 1. 当 𝛼1 , …, 𝛼𝑠 线性无关时，表示系数唯一。 2. 当 𝛼1 , …, 𝛼𝑠 线性相关时，表示系数可能不唯一。 六、常见结论 结论 说明 含零向量的向量组相关 取零向量系数为 1，其余为 0 部分组相关则整体相关 相关关系可以扩展到更大的向量组 整体无关则任一部分组无关 无关性向部分组继承 一个向量可由其他向量表示则整体相关 把该向量移到等式一侧得到非零系数关系 向量个数大于维数则相关 矩阵列数大于行数，列满秩不可能 七、典型题型 1. 判断线性相关或无关：列成矩阵求秩，或解齐次方程组。 2. 判断能否线性表示：比较加入目标向量前后的秩。 3. 求表示系数：解非齐次方程组 𝐴𝑥 = 𝛽 。 4. 求极大线性无关组：化阶梯形，取主元列对应的原向量。 5. 判断向量组等价：验证互相线性表示或张成空间相同。 6. 参数讨论：把参数带入秩判定，重点看主元是否消失。 八、公式速查表 内容 公式或判定 𝑠 线性组合 𝛽 = ∑𝑖=1 𝑘𝑖 𝛼𝑖 𝑠 线性相关 ∑𝑖=1 𝑘𝑖 𝛼𝑖 = 0 有不全为零解 线性无关 ∑𝑠𝑖=1 𝑘𝑖 𝛼𝑖 = 0 只有零解 无关判定 rank(𝐴) = 𝑠 相关判定 rank(𝐴) < 𝑠 线性表示 rank(𝐴) = rank(𝐴, 𝛽) 极大无关组 主元列对应的原向量"
+  },
+  {
+    "id": "doc-aedda68a99a2-p4",
+    "docId": "doc-aedda68a99a2",
+    "title": "Vector Groups (向量组)",
+    "category": "线性代数",
+    "page": 4,
+    "heading": "考研数学 · Linear Algebra · Vector Groups (向量组)",
+    "snippet": "考研数学 · Linear Algebra · Vector Groups (向量组) 最终抓手： 向量组题几乎都可以翻译成矩阵秩和方程组。判断相关性看齐次方程，判断线性表示看非齐次 方程，求极大无关组看阶梯形矩阵的主元列。",
+    "text": "Vector Groups (向量组) Vector Groups 向量组 线性代数 考研数学 · Linear Algebra · Vector Groups (向量组) 考研数学 · Linear Algebra · Vector Groups (向量组) 最终抓手： 向量组题几乎都可以翻译成矩阵秩和方程组。判断相关性看齐次方程，判断线性表示看非齐次 方程，求极大无关组看阶梯形矩阵的主元列。"
+  },
+  {
+    "id": "doc-715b679dcb8e-p1",
+    "docId": "doc-715b679dcb8e",
+    "title": "Linear Equations (线性方程组)",
+    "category": "线性代数",
+    "page": 1,
+    "heading": "一、基本形式",
+    "snippet": "考研数学 · Linear Algebra · Linear Equations (线性方程组) Linear Equations (线性方程组) 齐次 · 非齐次 · 秩判定 · 解结构 · 参数讨论 考研数学复习资料 · Typst PDF 复习目标： 线性方程组的核心是“有没有解、解是否唯一、通解怎么写”。所有判断都围绕系数矩阵秩、...",
+    "text": "Linear Equations (线性方程组) Linear Equations 线性方程组 线性代数 一、基本形式 考研数学 · Linear Algebra · Linear Equations (线性方程组) Linear Equations (线性方程组) 齐次 · 非齐次 · 秩判定 · 解结构 · 参数讨论 考研数学复习资料 · Typst PDF 复习目标： 线性方程组的核心是“有没有解、解是否唯一、通解怎么写”。所有判断都围绕系数矩阵秩、增 广矩阵秩和未知数个数展开。 一、基本形式 1. 矩阵表示 线性方程组可写为 𝐴𝑥 = 𝑏 其中 𝐴 是系数矩阵，𝑥 是未知向量，𝑏 是常数向量。 若 𝑏 = 0，称为齐次线性方程组： 𝐴𝑥 = 0 若 𝑏 ≠ 0，称为非齐次线性方程组。 2. 增广矩阵 把常数列 𝑏 拼到系数矩阵后得到增广矩阵，记作 (𝐴, 𝑏) 研究非齐次方程组时必须同时看 𝐴 与 (𝐴, 𝑏) 的秩。 二、齐次线性方程组 1. 解的判定 齐次方程组 𝐴𝑥 = 0 一定有零解。设 𝐴 是 𝑚 × 𝑛 矩阵，则： 1. 若 rank(𝐴) = 𝑛，只有零解。 2. 若 rank(𝐴) < 𝑛，有非零解。 2. 基础解系 当 rank(𝐴) = 𝑟 < 𝑛 时，齐次方程组有 𝑛 − 𝑟 个自由变量，基础解系含有 𝑛 − 𝑟 个线性无关解向量。 通解可写为 𝑥 = 𝑘1 𝜉1 + 𝑘2 𝜉2 + … + 𝑘𝑛−𝑟 𝜉𝑛−𝑟 其中 𝜉1 , …, 𝜉𝑛−𝑟 是基础解系。 3. 解空间维数 齐次方程组的解空间维数为 𝑛 − rank(𝐴)"
+  },
+  {
+    "id": "doc-715b679dcb8e-p2",
+    "docId": "doc-715b679dcb8e",
+    "title": "Linear Equations (线性方程组)",
+    "category": "线性代数",
+    "page": 2,
+    "heading": "三、非齐次线性方程组",
+    "snippet": "考研数学 · Linear Algebra · Linear Equations (线性方程组) 这也是自由变量个数。 三、非齐次线性方程组 1. 有解判定 非齐次方程组 𝐴𝑥 = 𝑏 有解，当且仅当 rank(𝐴) = rank(𝐴, 𝑏) 若 rank(𝐴) < rank(𝐴, 𝑏) 则无解。 2. 解的个数 设 𝐴 有 𝑛 列： 1...",
+    "text": "Linear Equations (线性方程组) Linear Equations 线性方程组 线性代数 三、非齐次线性方程组 考研数学 · Linear Algebra · Linear Equations (线性方程组) 这也是自由变量个数。 三、非齐次线性方程组 1. 有解判定 非齐次方程组 𝐴𝑥 = 𝑏 有解，当且仅当 rank(𝐴) = rank(𝐴, 𝑏) 若 rank(𝐴) < rank(𝐴, 𝑏) 则无解。 2. 解的个数 设 𝐴 有 𝑛 列： 1. 若 rank(𝐴) = rank(𝐴, 𝑏) = 𝑛，有唯一解。 2. 若 rank(𝐴) = rank(𝐴, 𝑏) < 𝑛，有无穷多解。 3. 若 rank(𝐴) < rank(𝐴, 𝑏)，无解。 3. 通解结构 若 𝜂 是非齐次方程组的一个特解，𝜉 是对应齐次方程组 𝐴𝑥 = 0 的通解，则非齐次方程组通解为 𝑥=𝜂+𝜉 即 𝑥 = 𝜂 + 𝑘1 𝜉1 + 𝑘2 𝜉2 + … + 𝑘𝑛−𝑟 𝜉𝑛−𝑟 易错点： 非齐次方程组的解集不是线性空间，因为两个非齐次解相加通常不再是原方程组的解。两个非齐 次解之差才是对应齐次方程组的解。 四、解的性质 1. 齐次方程组 若 𝜉1 , 𝜉2 是 𝐴𝑥 = 0 的解，则 𝑘1 𝜉1 + 𝑘2 𝜉2 仍是 𝐴𝑥 = 0 的解。 2. 非齐次方程组 若 𝜂1 , 𝜂2 是 𝐴𝑥 = 𝑏 的解，则 𝜂1 − 𝜂2 是 𝐴𝑥 = 0 的解。 若 𝜂 是 𝐴𝑥 = 𝑏 的一个解，𝜉 是 𝐴𝑥 = 0 的解，则 𝜂+𝜉 仍是 𝐴𝑥 = 𝑏 的解。"
+  },
+  {
+    "id": "doc-715b679dcb8e-p3",
+    "docId": "doc-715b679dcb8e",
+    "title": "Linear Equations (线性方程组)",
+    "category": "线性代数",
+    "page": 3,
+    "heading": "五、求解步骤",
+    "snippet": "考研数学 · Linear Algebra · Linear Equations (线性方程组) 五、求解步骤 步骤 操作 1 写出系数矩阵 𝐴 和增广矩阵 (𝐴, 𝑏) 2 对增广矩阵作初等行变换化为阶梯形 3 比较 rank(𝐴) 与 rank(𝐴, 𝑏) 4 若有解，确定主元变量和自由变量 5 令自由变量取参数，写出通解 六、参数方...",
+    "text": "Linear Equations (线性方程组) Linear Equations 线性方程组 线性代数 五、求解步骤 考研数学 · Linear Algebra · Linear Equations (线性方程组) 五、求解步骤 步骤 操作 1 写出系数矩阵 𝐴 和增广矩阵 (𝐴, 𝑏) 2 对增广矩阵作初等行变换化为阶梯形 3 比较 rank(𝐴) 与 rank(𝐴, 𝑏) 4 若有解，确定主元变量和自由变量 5 令自由变量取参数，写出通解 六、参数方程组 1. 参数讨论原则 参数方程组常通过行变换或行列式得到关键因子。参数取值通常分为： 1. 使系数矩阵满秩的情况。 2. 使秩下降但仍有解的情况。 3. 使增广矩阵秩大于系数矩阵秩的情况。 2. 方阵情形 若 𝐴 是 𝑛 阶方阵： 1. 当 det(𝐴) ≠ 0，方程组有唯一解。 2. 当 det(𝐴) = 0，需要继续比较 rank(𝐴) 与 rank(𝐴, 𝑏)。 解题顺序 含参数方程组不要看到 det(𝐴) = 0 就写无解。正确做法是先用 det(𝐴) 找出特殊参数，再在特 殊参数下重新求秩。 七、典型题型 1. 判断解的情况：比较系数矩阵和增广矩阵的秩。 2. 求齐次方程组基础解系：化阶梯形，设自由变量。 3. 求非齐次方程组通解：先求一个特解，再加对应齐次通解。 4. 参数讨论：先找使秩变化的参数，再分类讨论。 5. 已知解反求参数：把解代入方程组，结合秩条件。 6. 与向量组结合：线性表示问题等价于方程组有解。 八、公式速查表 内容 判定或公式 齐次只有零解 rank(𝐴) = 𝑛 齐次有非零解 rank(𝐴) < 𝑛 基础解系个数 𝑛 − rank(𝐴) 非齐次有解 rank(𝐴) = rank(𝐴, 𝑏) 非齐次无解 rank(𝐴) < rank(𝐴, 𝑏) 非齐次唯一解 rank(𝐴) = rank(𝐴, 𝑏) = 𝑛 非齐次无穷多解 rank(𝐴) = rank(𝐴, 𝑏) < 𝑛"
+  },
+  {
+    "id": "doc-715b679dcb8e-p4",
+    "docId": "doc-715b679dcb8e",
+    "title": "Linear Equations (线性方程组)",
+    "category": "线性代数",
+    "page": 4,
+    "heading": "考研数学 · Linear Algebra · Linear Equations (线性方程组)",
+    "snippet": "考研数学 · Linear Algebra · Linear Equations (线性方程组) 通解结构 𝑥 = 𝜂 + 𝑘1 𝜉1 + … + 𝑘𝑛−𝑟 𝜉𝑛−𝑟 最终抓手： 线性方程组题先分类：齐次只看 𝐴 的秩，非齐次要比较 𝐴 与 (𝐴, 𝑏) 的秩。通解永远是“非齐 次特解 + 齐次通解”。",
+    "text": "Linear Equations (线性方程组) Linear Equations 线性方程组 线性代数 考研数学 · Linear Algebra · Linear Equations (线性方程组) 考研数学 · Linear Algebra · Linear Equations (线性方程组) 通解结构 𝑥 = 𝜂 + 𝑘1 𝜉1 + … + 𝑘𝑛−𝑟 𝜉𝑛−𝑟 最终抓手： 线性方程组题先分类：齐次只看 𝐴 的秩，非齐次要比较 𝐴 与 (𝐴, 𝑏) 的秩。通解永远是“非齐 次特解 + 齐次通解”。"
+  },
+  {
+    "id": "doc-2dc2609d51d3-p1",
+    "docId": "doc-2dc2609d51d3",
+    "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+    "category": "线性代数",
+    "page": 1,
+    "heading": "一、基本定义",
+    "snippet": "考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) Eigenvalues and Eigenvectors (特征值与特征向量) 特征方程 · 相似 · 对角化 · 实对称矩阵 考研数学复习资料 · Typst PDF 复习目标： 特征值与特征向量描述矩阵在线性...",
+    "text": "Eigenvalues and Eigenvectors (特征值与特征向量) Eigenvalues and Eigenvectors 特征值与特征向量 线性代数 一、基本定义 考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) Eigenvalues and Eigenvectors (特征值与特征向量) 特征方程 · 相似 · 对角化 · 实对称矩阵 考研数学复习资料 · Typst PDF 复习目标： 特征值与特征向量描述矩阵在线性变换下保持方向不变的向量，是相似对角化和二次型正交化 的基础。考研重点是求特征值、求特征向量、判断能否对角化以及实对称矩阵性质。 一、基本定义 1. 特征值与特征向量 设 𝐴 是 𝑛 阶方阵，若存在非零向量 𝑥 和数 𝜆，使得 𝐴𝑥 = 𝜆𝑥 则称 𝜆 是 𝐴 的特征值，𝑥 是对应于 𝜆 的特征向量。 等价地， (𝐴 − 𝜆𝐼)𝑥 = 0 有非零解。 2. 特征方程 特征值满足 det(𝜆𝐼 − 𝐴) = 0 这个方程称为特征方程。也可使用 det(𝐴 − 𝜆𝐼) = 0，二者根相同。 3. 特征子空间 对应特征值 𝜆 的全部特征向量连同零向量构成齐次方程组 (𝐴 − 𝜆𝐼)𝑥 = 0 的解空间，其维数为 𝑛 − rank(𝐴 − 𝜆𝐼) 二、求解步骤 步骤 操作 1 计算特征多项式 det(𝜆𝐼 − 𝐴) 2 解特征方程，得到全部特征值 3 对每个特征值，解 (𝐴 − 𝜆𝐼)𝑥 = 0 4 写出对应特征向量的基础解系 易错点： 特征向量必须是非零向量；零向量是齐次方程组的解，但不是特征向量。"
+  },
+  {
+    "id": "doc-2dc2609d51d3-p2",
+    "docId": "doc-2dc2609d51d3",
+    "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+    "category": "线性代数",
+    "page": 2,
+    "heading": "三、特征值性质",
+    "snippet": "考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) 三、特征值性质 设 𝐴 的特征值为 𝜆1 , …, 𝜆𝑛 ，按重数计算，则 𝜆1 + 𝜆2 + … + 𝜆𝑛 = tr(𝐴) 𝜆1 𝜆2 …𝜆𝑛 = det(𝐴) 若 𝜆 是 𝐴 的特征值，则： 𝜆𝑘 是 𝐴𝑘 ...",
+    "text": "Eigenvalues and Eigenvectors (特征值与特征向量) Eigenvalues and Eigenvectors 特征值与特征向量 线性代数 三、特征值性质 考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) 三、特征值性质 设 𝐴 的特征值为 𝜆1 , …, 𝜆𝑛 ，按重数计算，则 𝜆1 + 𝜆2 + … + 𝜆𝑛 = tr(𝐴) 𝜆1 𝜆2 …𝜆𝑛 = det(𝐴) 若 𝜆 是 𝐴 的特征值，则： 𝜆𝑘 是 𝐴𝑘 的特征值 若 𝐴 可逆，则： 1 是 𝐴−1 的特征值 𝜆 若 𝑓(𝑡) 是多项式，则： 𝑓(𝜆) 是 𝑓(𝐴) 的特征值 四、相似矩阵 1. 定义 若存在可逆矩阵 𝑃 ，使得 𝐵 = 𝑃 −1 𝐴𝑃 则称 𝐴 与 𝐵 相似。 2. 相似不变量 相似矩阵有相同的： 1. 特征多项式。 2. 特征值。 3. 行列式。 4. 迹。 5. 秩。 但相似矩阵的具体元素和特征向量一般不同。 五、矩阵对角化 1. 对角化定义 若存在可逆矩阵 𝑃 ，使得 𝑃 −1 𝐴𝑃 = Λ 其中 Λ 是对角矩阵，则称 𝐴 可对角化。 2. 充要条件 𝑛 阶矩阵 𝐴 可对角化，当且仅当 𝐴 有 𝑛 个线性无关的特征向量。 若 𝐴 有 𝑛 个互异特征值，则 𝐴 一定可对角化。 3. 重根情形 若某个特征值 𝜆 的代数重数为 𝑠，则其对应线性无关特征向量个数为"
+  },
+  {
+    "id": "doc-2dc2609d51d3-p3",
+    "docId": "doc-2dc2609d51d3",
+    "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+    "category": "线性代数",
+    "page": 3,
+    "heading": "易错点： 有重特征值不代表一定不能对角化；关键看对应特征向量个数是否足够。",
+    "snippet": "考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) 𝑛 − rank(𝐴 − 𝜆𝐼) 要可对角化，每个特征值的线性无关特征向量个数都必须等于它的代数重数。 易错点： 有重特征值不代表一定不能对角化；关键看对应特征向量个数是否足够。 六、实对称矩阵 1. 基本性质 ...",
+    "text": "Eigenvalues and Eigenvectors (特征值与特征向量) Eigenvalues and Eigenvectors 特征值与特征向量 线性代数 易错点： 有重特征值不代表一定不能对角化；关键看对应特征向量个数是否足够。 考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) 𝑛 − rank(𝐴 − 𝜆𝐼) 要可对角化，每个特征值的线性无关特征向量个数都必须等于它的代数重数。 易错点： 有重特征值不代表一定不能对角化；关键看对应特征向量个数是否足够。 六、实对称矩阵 1. 基本性质 若 𝐴𝑇 = 𝐴，则 𝐴 是实对称矩阵。它具有： 1. 特征值全为实数。 2. 不同特征值对应的特征向量相互正交。 3. 一定可以正交对角化。 2. 正交对角化 存在正交矩阵 𝑄，使得 𝑄𝑇 𝐴𝑄 = Λ 其中 Λ 是由特征值构成的对角矩阵。 步骤为： 1. 求全部特征值。 2. 求各特征子空间的基础解系。 3. 对同一特征值下的向量必要时正交化、单位化。 4. 把单位正交特征向量作为 𝑄 的列。 七、典型题型 1. 求特征值和特征向量：按特征方程和齐次方程组求。 2. 判断是否可对角化：看线性无关特征向量个数。 3. 求对角化矩阵：用特征向量作 𝑃 的列。 4. 利用特征值求行列式、迹和矩阵幂。 5. 实对称矩阵正交对角化：特征向量必须正交单位化。 6. 与二次型结合：正交变换后的系数就是特征值。 对角化顺序 若 𝑃 = (𝑝1 , 𝑝2 , …, 𝑝𝑛 )，其中 𝑝𝑖 是 𝜆𝑖 对应的特征向量，则 𝑃 −1 𝐴𝑃 = diag(𝜆1 , 𝜆2 , …, 𝜆𝑛 )。 特征值顺序必须与 𝑃 中特征向量顺序一致。 八、公式速查表 内容 公式或判定 特征定义 𝐴𝑥 = 𝜆𝑥, 𝑥 ≠ 0 特征方程 det(𝜆𝐼 − 𝐴) = 0 特征向量 解 (𝐴 − 𝜆𝐼)𝑥 = 0 的非零解 特征值和 ∑ 𝜆𝑖 = tr(𝐴) 特征值积 ∏ 𝜆𝑖 = det(𝐴)"
+  },
+  {
+    "id": "doc-2dc2609d51d3-p4",
+    "docId": "doc-2dc2609d51d3",
+    "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
+    "category": "线性代数",
+    "page": 4,
+    "heading": "相似               𝐵 = 𝑃 −1 𝐴𝑃",
+    "snippet": "考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) 相似 𝐵 = 𝑃 −1 𝐴𝑃 对角化 𝑃 −1 𝐴𝑃 = Λ 可对角化 有 𝑛 个线性无关特征向量 正交对角化 𝑄𝑇 𝐴𝑄 = Λ，其中 𝑄𝑇 𝑄 = 𝐼 最终抓手： 特征值题的路线固定：先解特征方程，再解齐次方...",
+    "text": "Eigenvalues and Eigenvectors (特征值与特征向量) Eigenvalues and Eigenvectors 特征值与特征向量 线性代数 相似 𝐵 = 𝑃 −1 𝐴𝑃 考研数学 · Linear Algebra · Eigenvalues and Eigenvectors (特征值与特征向量) 相似 𝐵 = 𝑃 −1 𝐴𝑃 对角化 𝑃 −1 𝐴𝑃 = Λ 可对角化 有 𝑛 个线性无关特征向量 正交对角化 𝑄𝑇 𝐴𝑄 = Λ，其中 𝑄𝑇 𝑄 = 𝐼 最终抓手： 特征值题的路线固定：先解特征方程，再解齐次方程组。对角化不是看特征值个数，而是看能 否凑够 𝑛 个线性无关特征向量；实对称矩阵天然适合正交对角化。"
+  },
+  {
+    "id": "doc-ccaf3c879ab3-p1",
+    "docId": "doc-ccaf3c879ab3",
+    "title": "Quadratic Forms (二次型)",
+    "category": "线性代数",
+    "page": 1,
+    "heading": "一、二次型与矩阵表示",
+    "snippet": "考研数学 · Linear Algebra · Quadratic Forms (二次型) Quadratic Forms (二次型) 矩阵表示 · 合同变换 · 标准形 · 正定判定 考研数学复习资料 · Typst PDF 复习目标： 二次型是线性代数后半部分的综合章节，主要研究二次齐次多项式如何通过可逆线性变换化为 标准形，以及如何...",
+    "text": "Quadratic Forms (二次型) Quadratic Forms 二次型 线性代数 一、二次型与矩阵表示 考研数学 · Linear Algebra · Quadratic Forms (二次型) Quadratic Forms (二次型) 矩阵表示 · 合同变换 · 标准形 · 正定判定 考研数学复习资料 · Typst PDF 复习目标： 二次型是线性代数后半部分的综合章节，主要研究二次齐次多项式如何通过可逆线性变换化为 标准形，以及如何判断正定、负定和惯性指数。 一、二次型与矩阵表示 1. 定义 含 𝑛 个变量的二次齐次多项式称为二次型： 𝑛 𝑛 𝑓(𝑥1 , 𝑥2 , …, 𝑥𝑛 ) = ∑ ∑ 𝑎𝑖𝑗 𝑥𝑖 𝑥𝑗 𝑖=1 𝑗=1 通常可写成矩阵形式 𝑓 = 𝑥𝑇 𝐴𝑥 其中 𝐴 可取为实对称矩阵。 2. 交叉项系数 若二次型中含有交叉项 2𝑎𝑖𝑗 𝑥𝑖 𝑥𝑗 ，则矩阵中 𝐴𝑖𝑗 = 𝐴𝑗𝑖 = 𝑎𝑖𝑗 例如 𝑓 = 𝑎𝑥2 + 2𝑏𝑥𝑦 + 𝑐𝑦2 对应矩阵为 𝑎 𝑏 𝐴=( ) 𝑏 𝑐 易错点： 写二次型矩阵时，交叉项系数要平均分到对称位置。若题目写的是 6𝑥𝑦，矩阵中对应元素应为 3 和 3。 二、合同变换与标准形 1. 线性变换 令 𝑥 = 𝐶𝑦 则 𝑓 = 𝑥𝑇 𝐴𝑥 = (𝐶𝑦)𝑇 𝐴(𝐶𝑦) = 𝑦𝑇 (𝐶 𝑇 𝐴𝐶)𝑦"
+  },
+  {
+    "id": "doc-ccaf3c879ab3-p2",
+    "docId": "doc-ccaf3c879ab3",
+    "title": "Quadratic Forms (二次型)",
+    "category": "线性代数",
+    "page": 2,
+    "heading": "2. 标准形",
+    "snippet": "考研数学 · Linear Algebra · Quadratic Forms (二次型) 若 𝐶 可逆，则称 𝐴 与 𝐶 𝑇 𝐴𝐶 合同。 2. 标准形 通过可逆线性变换，可以把二次型化为只含平方项的形式： 𝑓 = 𝑑1 𝑦12 + 𝑑2 𝑦22 + … + 𝑑𝑛 𝑦𝑛2 这称为标准形。 3. 规范形 在实数范围内，标准形还可化为 𝑓 ...",
+    "text": "Quadratic Forms (二次型) Quadratic Forms 二次型 线性代数 2. 标准形 考研数学 · Linear Algebra · Quadratic Forms (二次型) 若 𝐶 可逆，则称 𝐴 与 𝐶 𝑇 𝐴𝐶 合同。 2. 标准形 通过可逆线性变换，可以把二次型化为只含平方项的形式： 𝑓 = 𝑑1 𝑦12 + 𝑑2 𝑦22 + … + 𝑑𝑛 𝑦𝑛2 这称为标准形。 3. 规范形 在实数范围内，标准形还可化为 𝑓 = 𝑧12 + … + 𝑧𝑝2 − 𝑧𝑝+1 2 2 − … − 𝑧𝑝+𝑞 其中正平方项个数 𝑝、负平方项个数 𝑞 是不变量。 三、惯性定理 1. 正负惯性指数 二次型标准形中正系数个数称为正惯性指数，负系数个数称为负惯性指数。二者之和等于二次型矩阵的秩。 2. 惯性定理 同一个实二次型经过不同可逆线性变换得到的标准形可能不同，但正惯性指数和负惯性指数不变。 因此，判断二次型类型时关注正负系数个数，而不是某一个具体标准形。 四、化标准形的方法 方法 适用场景 特点 配方法 低维或结构明显 直接、适合手算 初等变换法 一般二次型 对称行列同时变换，保持合同 正交变换法 实对称矩阵 利用特征值，变换矩阵正交 1. 配方法 把含某变量的项配成平方，再逐步消去交叉项。适合二元或三元二次型。 2. 正交变换法 实对称矩阵 𝐴 可正交对角化： 𝑄𝑇 𝐴𝑄 = Λ 令 𝑥 = 𝑄𝑦，则 𝑓 = 𝑦𝑇 Λ𝑦 = 𝜆1 𝑦12 + 𝜆2 𝑦22 + … + 𝜆𝑛 𝑦𝑛2 其中 𝜆𝑖 是 𝐴 的特征值。 五、正定二次型 1. 定义 若对任意非零向量 𝑥，都有 𝑥𝑇 𝐴𝑥 > 0 则称二次型正定，矩阵 𝐴 正定。"
+  },
+  {
+    "id": "doc-ccaf3c879ab3-p3",
+    "docId": "doc-ccaf3c879ab3",
+    "title": "Quadratic Forms (二次型)",
+    "category": "线性代数",
+    "page": 3,
+    "heading": "2. 正定判定",
+    "snippet": "考研数学 · Linear Algebra · Quadratic Forms (二次型) 若对任意非零向量 𝑥，都有 𝑥𝑇 𝐴𝑥 < 0，则称负定。 2. 正定判定 对实对称矩阵 𝐴，以下条件等价： 1. 𝐴 正定。 2. 𝐴 的全部特征值都大于零。 3. 𝐴 的所有顺序主子式都大于零。 4. 二次型的正惯性指数为 𝑛。 其中顺序主子式...",
+    "text": "Quadratic Forms (二次型) Quadratic Forms 二次型 线性代数 2. 正定判定 考研数学 · Linear Algebra · Quadratic Forms (二次型) 若对任意非零向量 𝑥，都有 𝑥𝑇 𝐴𝑥 < 0，则称负定。 2. 正定判定 对实对称矩阵 𝐴，以下条件等价： 1. 𝐴 正定。 2. 𝐴 的全部特征值都大于零。 3. 𝐴 的所有顺序主子式都大于零。 4. 二次型的正惯性指数为 𝑛。 其中顺序主子式为 Δ1 , Δ2 , …, Δ𝑛 正定要求 Δ1 > 0, Δ2 > 0, …, Δ𝑛 > 0 3. 负定判定 对实对称矩阵 𝐴，负定等价于 −𝐴 正定。按顺序主子式可写为： (−1)𝑘 Δ𝑘 > 0 (𝑘 = 1, 2, …, 𝑛) 六、半正定与不定 1. 半正定 若对任意 𝑥 都有 𝑥𝑇 𝐴𝑥 ≥ 0 则称半正定。实对称矩阵半正定等价于全部特征值非负。 2. 不定 若二次型既能取正值又能取负值，则称不定。等价地，实对称矩阵既有正特征值又有负特征值。 易错点： 顺序主子式判定只直接用于正定和负定。半正定不能只看顺序主子式非负，通常要看全部特征值 或全部主子式。 七、典型题型 1. 写二次型矩阵：注意交叉项系数除以 2。 2. 化标准形：低维用配方法，一般题用正交变换或合同变换。 3. 求正负惯性指数：看标准形系数符号或特征值符号。 4. 判断正定：用顺序主子式或特征值。 5. 含参数正定：列出顺序主子式不等式并求参数范围。 6. 与特征值结合：实对称矩阵的特征值就是正交标准形系数。 八、公式速查表 内容 公式或判定 矩阵表示 𝑓 = 𝑥𝑇 𝐴𝑥, 𝐴𝑇 = 𝐴 𝑇 合同变换 𝑥 = 𝐶𝑦, 𝑓 = 𝑦𝑇 (𝐶 𝐴𝐶) 𝑦"
+  },
+  {
+    "id": "doc-ccaf3c879ab3-p4",
+    "docId": "doc-ccaf3c879ab3",
+    "title": "Quadratic Forms (二次型)",
+    "category": "线性代数",
+    "page": 4,
+    "heading": "考研数学 · Linear Algebra · Quadratic Forms (二次型)",
+    "snippet": "考研数学 · Linear Algebra · Quadratic Forms (二次型) 标准形 𝑓 = 𝑑1 𝑦12 + … + 𝑑𝑛 𝑦𝑛2 正交标准形 𝑄𝑇 𝐴𝑄 = Λ 秩 标准形中非零系数个数 正定 𝑥𝑇 𝐴𝑥 > 0 (𝑥 ≠ 0) 正定判定 Δ1 > 0, Δ2 > 0, …, Δ𝑛 > 0 负定判定 (−1)𝑘 Δ𝑘 >...",
+    "text": "Quadratic Forms (二次型) Quadratic Forms 二次型 线性代数 考研数学 · Linear Algebra · Quadratic Forms (二次型) 考研数学 · Linear Algebra · Quadratic Forms (二次型) 标准形 𝑓 = 𝑑1 𝑦12 + … + 𝑑𝑛 𝑦𝑛2 正交标准形 𝑄𝑇 𝐴𝑄 = Λ 秩 标准形中非零系数个数 正定 𝑥𝑇 𝐴𝑥 > 0 (𝑥 ≠ 0) 正定判定 Δ1 > 0, Δ2 > 0, …, Δ𝑛 > 0 负定判定 (−1)𝑘 Δ𝑘 > 0 (𝑘 = 1, …, 𝑛) 最终抓手： 二次型题先写对称矩阵，再决定化标准形方法。正定题优先用顺序主子式或特征值；标准形题 关注正负惯性指数，而不是某一种具体变量替换。"
+  },
+  {
+    "id": "doc-932e58f16185-p1",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 1,
+    "heading": "一、随机事件与概率",
+    "snippet": "概率论与数理统计 · 知识总结 概率论与数理统计 核心知识点、公式与解题框架总结 Generated by Codex · Typst Pipeline 使用说明 本文面向概率论与数理统计课程复习，重点整理概念、公式、典型题型与易错点。阅读顺序建议为：先掌 握事件与随机变量，再理解分布与数字特征，最后进入参数估计、假设检验和回归分析。 核...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 一、随机事件与概率 概率论与数理统计 · 知识总结 概率论与数理统计 核心知识点、公式与解题框架总结 Generated by Codex · Typst Pipeline 使用说明 本文面向概率论与数理统计课程复习，重点整理概念、公式、典型题型与易错点。阅读顺序建议为：先掌 握事件与随机变量，再理解分布与数字特征，最后进入参数估计、假设检验和回归分析。 核心主线： 概率论研究随机现象本身，回答“随机变量如何分布、期望和方差是多少”；数理统计基于 样本推断总体，回答“参数如何估计、假设如何检验、模型是否可靠”。 一、随机事件与概率 事件关系与运算 随机试验的结果集合称为样本空间，记为 Ω；样本空间的子集称为事件。常见事件运算包括并、交、差和补： 𝐴 ∪ 𝐵, 𝐴 ∩ 𝐵, 𝐴 − 𝐵, 𝐴𝑐 若 𝐴 ∩ 𝐵 = ∅，则称 𝐴 与 𝐵 互斥；若 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐴)𝑃 (𝐵)，则称二者相互独立。互斥强调事件不能 同时发生，独立强调一个事件的发生不影响另一个事件的概率。 概率公理与常用公式 概率公理： 对任意事件 𝐴，有 0 ≤ 𝑃 (𝐴) ≤ 1，且 𝑃 (Ω) = 1。若事件列 𝐴1 , 𝐴2 , … 两两互斥，则 𝑃 (∪𝑖 𝐴𝑖 ) = ∑ 𝑃 (𝐴𝑖 ) 𝑖 常用公式： 𝑃 (𝐴𝑐 ) = 1 − 𝑃 (𝐴) 𝑃 (𝐴 ∪ 𝐵) = 𝑃 (𝐴) + 𝑃 (𝐵) − 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 − 𝐵) = 𝑃 (𝐴) − 𝑃 (𝐴 ∩ 𝐵) 对三个事件： 𝑃 (𝐴 ∪ 𝐵 ∪ 𝐶) = 𝑃 (𝐴) + 𝑃 (𝐵) + 𝑃 (𝐶) − 𝑃 (𝐴 ∩ 𝐵) − 𝑃 (𝐴 ∩ 𝐶) − 𝑃 (𝐵 ∩ 𝐶) + 𝑃 (𝐴 ∩ 𝐵 ∩ 𝐶) 条件概率、乘法公式与全概率公式 当 𝑃 (𝐵) > 0 时，条件概率定义为："
+  },
+  {
+    "id": "doc-932e58f16185-p2",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 2,
+    "heading": "二、随机变量与分布函数",
+    "snippet": "概率论与数理统计 · 知识总结 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 | 𝐵) = 𝑃 (𝐵) 乘法公式： 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐵)𝑃 (𝐴 | 𝐵) = 𝑃 (𝐴)𝑃 (𝐵 | 𝐴) 若 𝐵1 , 𝐵2 , …, 𝐵𝑛 构成样本空间的一个划分，且 𝑃 (𝐵𝑖 ) > 0，则： 𝑛 𝑃 (𝐴) = ∑ 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 二、随机变量与分布函数 概率论与数理统计 · 知识总结 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 | 𝐵) = 𝑃 (𝐵) 乘法公式： 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐵)𝑃 (𝐴 | 𝐵) = 𝑃 (𝐴)𝑃 (𝐵 | 𝐴) 若 𝐵1 , 𝐵2 , …, 𝐵𝑛 构成样本空间的一个划分，且 𝑃 (𝐵𝑖 ) > 0，则： 𝑛 𝑃 (𝐴) = ∑ 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ) 𝑖=1 贝叶斯公式： 𝑃 (𝐵𝑘 )𝑃 (𝐴 | 𝐵𝑘 ) 𝑃 (𝐵𝑘 | 𝐴) = 𝑛 ∑𝑖=1 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ) 解题抓手：已知“原因到结果”的概率时用全概率公式求结果概率；已知结果后反推原因概率时用贝叶 斯公式。题目中出现“来自某机器、某盒、某人群、某批次”通常提示划分事件。 二、随机变量与分布函数 随机变量 随机变量是定义在样本空间上的实值函数，用于把随机结果数量化。按取值特点可分为离散型随机变量与 连续型随机变量。 离散型随机变量用分布律描述： 𝑃 (𝑋 = 𝑥𝑖 ) = 𝑝𝑖 , 𝑝𝑖 ≥ 0, ∑ 𝑝𝑖 = 1 𝑖 连续型随机变量用概率密度函数 𝑓(𝑥) 描述： ∞ 𝑓(𝑥) ≥ 0, ∫ 𝑓(𝑥)𝑑𝑥 = 1 −∞ 区间概率为： 𝑏 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = ∫ 𝑓(𝑥)𝑑𝑥 𝑎 分布函数 任意随机变量的分布函数定义为： 𝐹 (𝑥) = 𝑃 (𝑋 ≤ 𝑥) 性质： • 𝐹 (𝑥) 单调不减； • 0 ≤ 𝐹 (𝑥) ≤ 1； • lim𝑥→−∞ 𝐹 (𝑥) = 0，lim𝑥→∞ 𝐹 (𝑥) = 1； • 𝐹 (𝑥) 右连续。"
+  },
+  {
+    "id": "doc-932e58f16185-p3",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 3,
+    "heading": "易错点： 离散型随机变量在单点上可以有正概率；连续型随机变量满足 𝑃 (𝑋 = 𝑎) = 0。因此连续型",
+    "snippet": "概率论与数理统计 · 知识总结 若 𝑋 为连续型随机变量，则 𝐹 ′ (𝑥) = 𝑓(𝑥)，且： 𝑥 𝐹 (𝑥) = ∫ 𝑓(𝑡)𝑑𝑡 −∞ 易错点： 离散型随机变量在单点上可以有正概率；连续型随机变量满足 𝑃 (𝑋 = 𝑎) = 0。因此连续型 变量中 𝑃 (𝑎 < 𝑋 < 𝑏)、𝑃 (𝑎 ≤ 𝑋 < 𝑏)、𝑃 (𝑎 < 𝑋 ≤ 𝑏) ...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 易错点： 离散型随机变量在单点上可以有正概率；连续型随机变量满足 𝑃 (𝑋 = 𝑎) = 0。因此连续型 概率论与数理统计 · 知识总结 若 𝑋 为连续型随机变量，则 𝐹 ′ (𝑥) = 𝑓(𝑥)，且： 𝑥 𝐹 (𝑥) = ∫ 𝑓(𝑡)𝑑𝑡 −∞ 易错点： 离散型随机变量在单点上可以有正概率；连续型随机变量满足 𝑃 (𝑋 = 𝑎) = 0。因此连续型 变量中 𝑃 (𝑎 < 𝑋 < 𝑏)、𝑃 (𝑎 ≤ 𝑋 < 𝑏)、𝑃 (𝑎 < 𝑋 ≤ 𝑏) 通常相同。 三、常见离散分布 分布 适用场景 分布律 期望与方差 两点分布 一次试验成败 𝑃 (𝑋 = 1) = 𝑝, 𝑃 (𝑋 = 0) = 𝐸(𝑋) = 𝑝, Var(𝑋) = 1−𝑝 𝑝(1 − 𝑝) 𝑘 𝑘 𝑛−𝑘 二项分布 𝑛 次独立重复试验成功 𝑃 (𝑋 = 𝑘) = 𝐶𝑛 𝑝 (1 − 𝑝) 𝐸(𝑋) = 𝑛𝑝, Var(𝑋) = 次数 𝑛𝑝(1 − 𝑝) −𝜆 泊松分布 稀有事件计数 𝑃 (𝑋 = 𝑘) = 𝜆𝑘 𝑒𝑘! 𝐸(𝑋) = 𝜆, Var(𝑋) = 𝜆 几何分布 首次成功所需试验次数 𝑃 (𝑋 = 𝑘) = (1 − 𝑝) 𝑘−1 𝑝 𝐸(𝑋) = 𝑝1 , Var(𝑋) = 1−𝑝 𝑝2 二项分布写作 𝑋 ~ 𝐵(𝑛, 𝑝)，泊松分布写作 𝑋 ~ 𝑃 (𝜆)。当 𝑛 很大、𝑝 很小且 𝑛𝑝 = 𝜆 适中时，二项分布可 用泊松分布近似： 𝐵(𝑛, 𝑝) ≈ 𝑃 (𝜆), 𝜆 = 𝑛𝑝 判断口诀： 固定次数看成功个数用二项分布；单位时间或区域内的随机次数用泊松分布；问“第一次 成功在第几次”用几何分布。 四、常见连续分布 均匀分布 若 𝑋 ~ 𝑈 (𝑎, 𝑏)，则： 1 𝑓(𝑥) = , 𝑎≤𝑥≤𝑏 𝑏−𝑎 𝑎+𝑏 (𝑏 − 𝑎)2 𝐸(𝑋) = , Var(𝑋) = 2 12 𝑈 (0, 1) 密度为 1 的理解： 若 𝑋 ~ 𝑈 (0, 1)，则 𝑓(𝑥) = 1 表示单位长度上的概率强度为 1，不是说某 一点的概率等于 1。对任意 0 ≤ 𝑎 < 𝑏 ≤ 1， 𝑏 𝑃 (𝑎 ≤ 𝑋 ≤ 𝑏) = ∫ 1𝑑𝑥 = 𝑏 − 𝑎 𝑎 𝑐 所以区间概率等于区间长度；单点概率仍为 𝑃 (𝑋 = 𝑐) = ∫ 1𝑑𝑥 = 0。 𝑐"
+  },
+  {
+    "id": "doc-932e58f16185-p4",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 4,
+    "heading": "0.2 ≤ 𝑋 ≤ 0.5     0.3                                    可能；区间长度为 0.3",
+    "snippet": "概率论与数理统计 · 知识总结 密度不等于概率： 概率密度可以等于 1，也可以大于 1，但概率不能大于 1。密度必须在区间、区域 或体积上积分，才得到概率。 概率为 0 的事件和不可能事件 在连续型随机变量中，概率为 0 的事件仍然可能发生；“概率为 0”不等于“不可能”。真正的不可能事件， 是样本空间中根本没有对应结果的事件。 设 𝑋 ...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 0.2 ≤ 𝑋 ≤ 0.5 0.3 可能；区间长度为 0.3 概率论与数理统计 · 知识总结 密度不等于概率： 概率密度可以等于 1，也可以大于 1，但概率不能大于 1。密度必须在区间、区域 或体积上积分，才得到概率。 概率为 0 的事件和不可能事件 在连续型随机变量中，概率为 0 的事件仍然可能发生；“概率为 0”不等于“不可能”。真正的不可能事件， 是样本空间中根本没有对应结果的事件。 设 𝑋 ~ 𝑈 (0, 1) 则对任意固定点 𝑐 ∈ [0, 1]，有： 𝑐 𝑃 (𝑋 = 𝑐) = ∫ 1𝑑𝑥 = 0 𝑐 但是一次试验发生后，𝑋 总会取到 [0, 1] 中某一个具体值。也就是说，每一个事先指定的单点概率都是 0， 但最终结果仍然落在某一个点上。 若 𝑋 ~ 𝑈 (0, 1)，则： 事件 概率 是否可能 𝑋 = 0.5 0 可能；但概率为 0 𝑋=2 0 不可能；不在取值范围内 0.2 ≤ 𝑋 ≤ 0.5 0.3 可能；区间长度为 0.3 概率为 1 的事件也不一定是逻辑必然，而是“几乎必然”。例如若 𝑋 ~ 𝑈 (0, 1)，则 𝑃 (𝑋 是无理数) = 1 因为有理数是可数集合，在连续均匀分布下总概率为 0。但这不表示 𝑋 取到有理数在逻辑上绝对不可能， 只表示其概率为 0。 一句话总结： 概率为 0 表示这个事件在概率尺度下“没有长度、没有面积或没有体积”，不等于集合 上不存在；连续型分布中，单点事件通常概率为 0，但它仍可能作为一次试验的具体结果出现。 指数分布 若 𝑋 ~ Exp(𝜆)，通常用于描述等待时间： 𝑓(𝑥) = 𝜆𝑒−𝜆𝑥 , 𝑥≥0 𝐹 (𝑥) = 1 − 𝑒−𝜆𝑥 , 𝑥≥0 1 1 𝐸(𝑋) = , Var(𝑋) = 2 𝜆 𝜆 指数分布具有无记忆性： 𝑃 (𝑋 > 𝑠 + 𝑡 | 𝑋 > 𝑠) = 𝑃 (𝑋 > 𝑡)"
+  },
+  {
+    "id": "doc-932e58f16185-p5",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 5,
+    "heading": "概率论与数理统计 · 知识总结",
+    "snippet": "概率论与数理统计 · 知识总结 正态分布 若 𝑋 ~ 𝑁 (𝜇, 𝜎2 )，其密度为： 1 (𝑥−𝜇)2 𝑓(𝑥) = √ 𝑒− 2𝜎2 2𝜋𝜎 标准化： 𝑋−𝜇 𝑍= ~ 𝑁 (0, 1) 𝜎 概率计算通常转化为标准正态分布函数 Φ(𝑥)： 𝑏−𝜇 𝑎−𝜇 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = Φ( ) − Φ( ) 𝜎 𝜎 正态分布经验法则...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 正态分布 若 𝑋 ~ 𝑁 (𝜇, 𝜎2 )，其密度为： 1 (𝑥−𝜇)2 𝑓(𝑥) = √ 𝑒− 2𝜎2 2𝜋𝜎 标准化： 𝑋−𝜇 𝑍= ~ 𝑁 (0, 1) 𝜎 概率计算通常转化为标准正态分布函数 Φ(𝑥)： 𝑏−𝜇 𝑎−𝜇 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = Φ( ) − Φ( ) 𝜎 𝜎 正态分布经验法则： 约 68% 的数据落在 𝜇 ± 𝜎 内，约 95% 落在 𝜇 ± 2𝜎 内，约 99.7% 落在 𝜇 ± 3𝜎 内。 高斯积分与正态密度归一化 标准正态密度中的系数 √12𝜋 来自高斯积分： +∞ √ 2 ∫ 𝑒−𝑥 𝑑𝑥 = 𝜋 −∞ 令 +∞ 2 𝐼 =∫ 𝑒−𝑥 𝑑𝑥 −∞ 2 因为 𝑒−𝑥 > 0，所以 𝐼 > 0。两边平方： 2 2 𝐼 2 = ∫ ∫ 𝑒−(𝑥 +𝑦 ) 𝑑𝑥𝑑𝑦 ℝ2 改用极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃，有 𝑑𝑥𝑑𝑦 = 𝑟𝑑𝑟𝑑𝜃，整个平面对应 0 ≤ 𝑟 < +∞, 0 ≤ 𝜃 ≤ 2𝜋 于是 2𝜋 +∞ 2 𝐼2 = ∫ ∫ 𝑒−𝑟 𝑟𝑑𝑟𝑑𝜃 0 0 令 𝑢 = 𝑟2 ，则 𝑟𝑑𝑟 = 12 𝑑𝑢，所以 +∞ 2 1 +∞ −𝑢 1 ∫ 𝑒−𝑟 𝑟𝑑𝑟 = ∫ 𝑒 𝑑𝑢 = 0 2 0 2 因此 2𝜋 1 𝐼2 = ∫ 𝑑𝜃 = 𝜋 0 2"
+  },
+  {
+    "id": "doc-932e58f16185-p6",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 6,
+    "heading": "五、多维随机变量",
+    "snippet": "概率论与数理统计 · 知识总结 由于 𝐼 > 0，得到 √ 𝐼= 𝜋 进一步把 𝑡 = √𝑥2 可得 +∞ 𝑥2 √ ∫ 𝑒− 2 𝑑𝑥 = 2𝜋 −∞ 所以标准正态密度 1 𝑥2 𝜑(𝑥) = √ 𝑒− 2 2𝜋 的全实轴积分正好为 1。 五、多维随机变量 联合分布与边缘分布 二维离散型随机变量通过联合分布律 𝑃 (𝑋 = 𝑥𝑖 , 𝑌...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 五、多维随机变量 概率论与数理统计 · 知识总结 由于 𝐼 > 0，得到 √ 𝐼= 𝜋 进一步把 𝑡 = √𝑥2 可得 +∞ 𝑥2 √ ∫ 𝑒− 2 𝑑𝑥 = 2𝜋 −∞ 所以标准正态密度 1 𝑥2 𝜑(𝑥) = √ 𝑒− 2 2𝜋 的全实轴积分正好为 1。 五、多维随机变量 联合分布与边缘分布 二维离散型随机变量通过联合分布律 𝑃 (𝑋 = 𝑥𝑖 , 𝑌 = 𝑦𝑗 ) = 𝑝𝑖𝑗 描述；边缘分布通过求和得到： 𝑃 (𝑋 = 𝑥𝑖 ) = ∑ 𝑝𝑖𝑗 , 𝑃 (𝑌 = 𝑦𝑗 ) = ∑ 𝑝𝑖𝑗 𝑗 𝑖 二维连续型随机变量通过联合密度 𝑓(𝑥, 𝑦) 描述： 𝑃 ((𝑋, 𝑌 ) ∈ 𝐷) = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷 二重积分视角： 可以把二维连续型随机变量理解成把概率铺在平面上。联合密度 𝑓(𝑥, 𝑦) 是概率密度 曲面，事件区域 𝐷 上方的“体积” ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷 就是事件概率。 联合分布函数定义为： 𝐹 (𝑥, 𝑦) = 𝑃 (𝑋 ≤ 𝑥, 𝑌 ≤ 𝑦) 若存在联合密度，则： 𝑥 𝑦 𝐹 (𝑥, 𝑦) = ∫ ∫ 𝑓(𝑢, 𝑣)𝑑𝑣𝑑𝑢 −∞ −∞ 在可偏导且条件满足时： 𝜕 2 𝐹 (𝑥, 𝑦) 𝑓(𝑥, 𝑦) = 𝜕𝑥𝜕𝑦 边缘密度："
+  },
+  {
+    "id": "doc-932e58f16185-p7",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 7,
+    "heading": "概率论与数理统计 · 知识总结",
+    "snippet": "概率论与数理统计 · 知识总结 ∞ 𝑓𝑋(𝑥) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 −∞ ∞ 𝑓𝑌 (𝑦) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 −∞ 独立性 若对所有 𝑥, 𝑦，有： 𝐹 (𝑥, 𝑦) = 𝐹𝑋(𝑥) 𝐹𝑌 (𝑦) 则 𝑋 与 𝑌 相互独立。对连续型变量，常用密度判断： 𝑓(𝑥, 𝑦) = 𝑓𝑋(𝑥) 𝑓𝑌 (𝑦) 判断提醒： 联合密度能...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 ∞ 𝑓𝑋(𝑥) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 −∞ ∞ 𝑓𝑌 (𝑦) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 −∞ 独立性 若对所有 𝑥, 𝑦，有： 𝐹 (𝑥, 𝑦) = 𝐹𝑋(𝑥) 𝐹𝑌 (𝑦) 则 𝑋 与 𝑌 相互独立。对连续型变量，常用密度判断： 𝑓(𝑥, 𝑦) = 𝑓𝑋(𝑥) 𝑓𝑌 (𝑦) 判断提醒： 联合密度能分解成两个单变量函数只是必要线索，还要注意定义域是否也能分解为两个单 变量区间的笛卡尔积。 组合随机变量的密度 设二维随机变量为 (𝑋, 𝑌 )，联合密度为 𝑓𝑋,𝑌 (𝑥, 𝑦)，新随机变量 𝑍 = 𝑔(𝑋, 𝑌 ) 求 𝑍 的密度时，最通用的方法是分布函数法。先求 𝐹𝑍(𝑧) = 𝑃 (𝑍 ≤ 𝑧) = 𝑃 (𝑔(𝑋, 𝑌 ) ≤ 𝑧) 把事件 𝑔(𝑋, 𝑌 ) ≤ 𝑧 翻译成平面区域 𝐷𝑧 ，则 𝐹𝑍(𝑧) = ∫ ∫ 𝑓𝑋,𝑌 (𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷𝑧 最后对 𝑧 求导： 𝑓𝑍(𝑧) = 𝐹𝑍 ′ (𝑧) 常见组合公式如下。 若 𝑍 = 𝑋 + 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, 𝑧 − 𝑥)𝑑𝑥 −∞ 若 𝑋, 𝑌 独立，则卷积公式为： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑧−𝑥) 𝑑𝑥 −∞ 若 𝑍 = 𝑋 − 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, 𝑥 − 𝑧)𝑑𝑥 −∞"
+  },
+  {
+    "id": "doc-932e58f16185-p8",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 8,
+    "heading": "六、数字特征",
+    "snippet": "概率论与数理统计 · 知识总结 若 𝑋, 𝑌 独立，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑥−𝑧) 𝑑𝑥 −∞ 若 𝑍 = 𝑋𝑌 ，则： +∞ 𝑧 1 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, ) 𝑑𝑥 (𝑥 ≠ 0) −∞ 𝑥 |𝑥| 若𝑍=𝑋 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑧𝑦, 𝑦)|𝑦|𝑑𝑦 (𝑦 ≠...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 六、数字特征 概率论与数理统计 · 知识总结 若 𝑋, 𝑌 独立，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑥−𝑧) 𝑑𝑥 −∞ 若 𝑍 = 𝑋𝑌 ，则： +∞ 𝑧 1 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, ) 𝑑𝑥 (𝑥 ≠ 0) −∞ 𝑥 |𝑥| 若𝑍=𝑋 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑧𝑦, 𝑦)|𝑦|𝑑𝑦 (𝑦 ≠ 0) −∞ 取值范围检查： 不要只背公式而忽略定义域。组合变量密度公式中的积分上下限，要和原联合密度的 非零区域联立，否则容易把不可能的点也积分进去。 六、数字特征 期望 离散型： 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 𝑖 连续型： ∞ 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 −∞ 函数的期望： 𝐸(𝑔(𝑋)) = ∑ 𝑔(𝑥𝑖 )𝑝𝑖 𝑖 ∞ 𝐸(𝑔(𝑋)) = ∫ 𝑔(𝑥)𝑓(𝑥)𝑑𝑥 −∞ 线性性质： 𝐸(𝑎𝑋 + 𝑏𝑌 + 𝑐) = 𝑎𝐸(𝑋) + 𝑏𝐸(𝑌 ) + 𝑐 方差、协方差与相关系数 方差： Var(𝑋) = 𝐸[(𝑋 − 𝐸(𝑋))2 ] = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 常数变换： Var(𝑎𝑋 + 𝑏) = 𝑎2 Var(𝑋) 协方差："
+  },
+  {
+    "id": "doc-932e58f16185-p9",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 9,
+    "heading": "七、大数定律与中心极限定理",
+    "snippet": "概率论与数理统计 · 知识总结 Cov(𝑋, 𝑌 ) = 𝐸[(𝑋 − 𝐸(𝑋))(𝑌 − 𝐸(𝑌 ))] = 𝐸(𝑋𝑌 ) − 𝐸(𝑋)𝐸(𝑌 ) 相关系数： Cov(𝑋, 𝑌 ) 𝜌𝑋𝑌 = √Var(𝑋)√Var(𝑌 ) 若 𝑋, 𝑌 独立，则 𝐸(𝑋𝑌 ) = 𝐸(𝑋)𝐸(𝑌 )，且 Cov(𝑋, 𝑌 ) = 0。反过来，协方差为...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 七、大数定律与中心极限定理 概率论与数理统计 · 知识总结 Cov(𝑋, 𝑌 ) = 𝐸[(𝑋 − 𝐸(𝑋))(𝑌 − 𝐸(𝑌 ))] = 𝐸(𝑋𝑌 ) − 𝐸(𝑋)𝐸(𝑌 ) 相关系数： Cov(𝑋, 𝑌 ) 𝜌𝑋𝑌 = √Var(𝑋)√Var(𝑌 ) 若 𝑋, 𝑌 独立，则 𝐸(𝑋𝑌 ) = 𝐸(𝑋)𝐸(𝑌 )，且 Cov(𝑋, 𝑌 ) = 0。反过来，协方差为 0 一般不一定推出独立， 正态分布等特殊情形除外。 计算优先级： 求方差时优先使用 Var(𝑋) = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 ；求线性组合方差时注意协方差项： Var(𝑎𝑋 + 𝑏𝑌 ) = 𝑎2 Var(𝑋) + 𝑏2 Var(𝑌 ) + 2𝑎𝑏 Cov(𝑋, 𝑌 ) 七、大数定律与中心极限定理 大数定律 大数定律说明样本均值会稳定到总体期望附近。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，且 𝐸(𝑋𝑖 ) = 𝜇，则样本均值： 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 在概率意义下趋近于 𝜇： |(𝑋) → 𝜇 中心极限定理 若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，𝐸(𝑋𝑖 ) = 𝜇，Var(𝑋𝑖 ) = 𝜎2 ，则当 𝑛 较大时： ∑𝑛𝑖=1 𝑋𝑖 − 𝑛𝜇 √ ≈ 𝑁 (0, 1) 𝜎 𝑛 或： |(𝑋) − 𝜇 ≈ 𝑁 (0, 1) √𝜎 𝑛 核心意义：即使总体分布不是正态分布，只要样本量足够大，样本均值的分布通常可近似为正态分布。 这是置信区间和大样本检验的基础。 极限定理的计算口径 大数定律说明“样本平均数会稳定到总体均值”。若 𝑋1 + 𝑋2 + … + 𝑋𝑛 𝐴𝑛 = 𝑛 则对任意 𝜀 > 0， 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) → 0 (𝑛 → ∞)"
+  },
+  {
+    "id": "doc-932e58f16185-p10",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 10,
+    "heading": "八、数理统计基础",
+    "snippet": "概率论与数理统计 · 知识总结 若进一步有 Var(𝑋𝑖 ) = 𝜎2 < +∞，则 𝜎2 𝐸(𝐴𝑛 ) = 𝜇, Var(𝐴𝑛 ) = 𝑛 由切比雪夫不等式： 𝜎2 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) ≤ →0 𝑛𝜀2 中心极限定理说明“样本和或样本平均数的随机波动，标准化以后近似服从正态分布”。记 𝑆𝑛 = 𝑋1 + … + 𝑋𝑛 ，则...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 八、数理统计基础 概率论与数理统计 · 知识总结 若进一步有 Var(𝑋𝑖 ) = 𝜎2 < +∞，则 𝜎2 𝐸(𝐴𝑛 ) = 𝜇, Var(𝐴𝑛 ) = 𝑛 由切比雪夫不等式： 𝜎2 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) ≤ →0 𝑛𝜀2 中心极限定理说明“样本和或样本平均数的随机波动，标准化以后近似服从正态分布”。记 𝑆𝑛 = 𝑋1 + … + 𝑋𝑛 ，则 𝑆𝑛 − 𝑛𝜇 𝑍𝑛 = √ ≈ 𝑁 (0, 1) 𝜎 𝑛 若 𝑋𝑖 是伯努利变量，𝑃 (𝑋𝑖 = 1) = 𝑝，则 𝑆𝑛 表示 𝑛 次试验中的成功次数： 𝑆𝑛 − 𝑛𝑝 ≈ 𝑁 (0, 1) √𝑛𝑝(1 − 𝑝) 因此可用标准正态分布近似二项分布： 𝑏 − 𝑛𝑝 𝑎 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(1 − 𝑝) 更精细时可作连续性校正： 𝑏 + 0.5 − 𝑛𝑝 𝑎 − 0.5 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(1 − 𝑝) 对比项 大数定律 中心极限定理 研究对象 样本平均数是否稳定 样本和或样本平均数的波动分布 核心结论 𝐴𝑛 靠近 𝜇 的概率趋于 1 标准化后近似 𝑁 (0, 1) 关键词 稳定、收敛、频率趋于概率 近似正态、标准化、区间概率 常见用途 说明估计量稳定 近似计算大样本概率 概念区分： 大数定律不说样本平均数必然等于总体均值，而是说概率意义下趋近。中心极限定理也不 是说原随机变量服从正态分布，而是说样本和或样本均值标准化后近似正态。 八、数理统计基础 总体、样本与统计量 总体是研究对象的全体，样本是从总体中抽取的观测值。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布且与总体分布相同， 则称为简单随机样本。 不含未知参数的样本函数称为统计量，例如样本均值、样本方差："
+  },
+  {
+    "id": "doc-932e58f16185-p11",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 11,
+    "heading": "九、参数估计",
+    "snippet": "概率论与数理统计 · 知识总结 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 𝑛 1 2 𝑆 = ∑ (𝑋 − |(𝑋))2 𝑛 − 1 𝑖=1 𝑖 其中分母取 𝑛 − 1 是为了让 𝑆 2 成为总体方差 𝜎2 的无偏估计。 三大抽样分布 分布 构造 典型用途 2 𝜒 分布 若 𝑍𝑖 ~ 𝑁 (0, 1) 独立，则 ∑ 𝑍𝑖2 ~ 𝜒2 (...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 九、参数估计 概率论与数理统计 · 知识总结 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 𝑛 1 2 𝑆 = ∑ (𝑋 − |(𝑋))2 𝑛 − 1 𝑖=1 𝑖 其中分母取 𝑛 − 1 是为了让 𝑆 2 成为总体方差 𝜎2 的无偏估计。 三大抽样分布 分布 构造 典型用途 2 𝜒 分布 若 𝑍𝑖 ~ 𝑁 (0, 1) 独立，则 ∑ 𝑍𝑖2 ~ 𝜒2 (𝑛) 总体方差区间估计与检验 𝑍 𝑡 分布 𝑇 = ，其中 𝑍 ~ 𝑁 (0, 1)，𝑌 ~ 𝜒2 (𝑛) 总体方差未知时的均值推断 √𝑌𝑛 独立 𝑌1 𝐹 分布 𝐹 = 𝑛𝑌21 ，其中 𝑌1 , 𝑌2 为独立卡方变量 两个方差比较与方差分析 𝑛2 九、参数估计 点估计 点估计是用样本统计量估计总体未知参数。常见方法包括矩估计法和极大似然估计法。 矩估计法：用样本矩替换总体矩。例如： |(𝑋) ≈ 𝐸(𝑋) 极大似然估计法：选择使样本出现概率最大的参数。若样本联合密度或分布律为 𝐿(𝜃)，则： 𝜃̂ = arg max 𝐿(𝜃) 𝜃 实际计算常取对数似然： 𝑙(𝜃) = ln 𝐿(𝜃) 然后求导令零： 𝑑𝑙(𝜃) =0 𝑑𝜃 估计量评价标准 ̂ = 𝜃； • 无偏性：𝐸(𝜃) • 有效性：在无偏估计中方差更小者更有效； • 一致性：样本量增大时估计量趋近真实参数。 区间估计 置信区间的一般形式为： 估计值 ± 临界值 × 标准误 正态总体、方差已知时，均值 𝜇 的置信区间为："
+  },
+  {
+    "id": "doc-932e58f16185-p12",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 12,
+    "heading": "易错点： 置信度 1 − 𝛼 描述区间构造方法的长期覆盖率，不应解释成“某个已经算出的固定区间含有",
+    "snippet": "概率论与数理统计 · 知识总结 𝜎 |(𝑋) ± 𝑧 𝛼2 √ 𝑛 正态总体、方差未知时： 𝑆 |(𝑋) ± 𝑡 𝛼2 (𝑛 − 1) √ 𝑛 总体比例 𝑝 的大样本置信区间： 𝑝̂(1 − 𝑝̂) 𝑝̂ ± 𝑧 𝛼2 √ 𝑛 易错点： 置信度 1 − 𝛼 描述区间构造方法的长期覆盖率，不应解释成“某个已经算出的固定区间含有 参数的概率为...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 易错点： 置信度 1 − 𝛼 描述区间构造方法的长期覆盖率，不应解释成“某个已经算出的固定区间含有 概率论与数理统计 · 知识总结 𝜎 |(𝑋) ± 𝑧 𝛼2 √ 𝑛 正态总体、方差未知时： 𝑆 |(𝑋) ± 𝑡 𝛼2 (𝑛 − 1) √ 𝑛 总体比例 𝑝 的大样本置信区间： 𝑝̂(1 − 𝑝̂) 𝑝̂ ± 𝑧 𝛼2 √ 𝑛 易错点： 置信度 1 − 𝛼 描述区间构造方法的长期覆盖率，不应解释成“某个已经算出的固定区间含有 参数的概率为 1 − 𝛼”。 十、假设检验 基本思想 假设检验先提出原假设 𝐻0 和备择假设 𝐻1 ，再构造检验统计量，并根据显著性水平 𝛼 判断是否拒绝 𝐻0 。 常见错误： • 第一类错误：𝐻0 为真却拒绝，概率为 𝛼； • 第二类错误：𝐻0 为假却未拒绝，概率为 𝛽 ； • 检验功效：1 − 𝛽 。 均值检验 正态总体、方差已知： |(𝑋) − 𝜇0 𝑍= √𝜎 𝑛 正态总体、方差未知： |(𝑋) − 𝜇0 𝑇 = ~ 𝑡(𝑛 − 1) √𝑆 𝑛 大样本下，即使总体非正态，也常用中心极限定理进行近似 𝑍 检验。 方差检验 正态总体中检验方差 𝜎2 = 𝜎02 ： (𝑛 − 1)𝑆 2 𝜒2 = ~ 𝜒2 (𝑛 − 1) 𝜎02 两个正态总体方差比较： 𝑆12 𝐹 = 𝑆22"
+  },
+  {
+    "id": "doc-932e58f16185-p13",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 13,
+    "heading": "十一、方差分析与回归",
+    "snippet": "概率论与数理统计 · 知识总结 通常令较大样本方差放在分子，便于单侧查表或计算。 𝑃 值 𝑃 值是在原假设成立时，得到当前样本结果及更极端结果的概率。若 𝑃 ≤ 𝛼，则拒绝 𝐻0 ；若 𝑃 > 𝛼，则 不能拒绝 𝐻0 。 检验步骤模板： 写出 𝐻0 , 𝐻1 ；确定显著性水平 𝛼；选择统计量并说明分布；计算统计量或 𝑃 值；作 出拒绝或不...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十一、方差分析与回归 概率论与数理统计 · 知识总结 通常令较大样本方差放在分子，便于单侧查表或计算。 𝑃 值 𝑃 值是在原假设成立时，得到当前样本结果及更极端结果的概率。若 𝑃 ≤ 𝛼，则拒绝 𝐻0 ；若 𝑃 > 𝛼，则 不能拒绝 𝐻0 。 检验步骤模板： 写出 𝐻0 , 𝐻1 ；确定显著性水平 𝛼；选择统计量并说明分布；计算统计量或 𝑃 值；作 出拒绝或不拒绝结论；用题目语言解释结果。 十一、方差分析与回归 方差分析 方差分析用于比较多个总体均值是否相等。核心思想是把总变差分解为组间变差和组内变差： SST = SSA + SSE 检验统计量： SSA 𝐹 = 𝑘−1 SSE 𝑛−𝑘 若 𝐹 足够大，说明组间差异相对于组内波动显著，倾向于拒绝“各组均值相等”的原假设。 一元线性回归 一元线性回归模型： 𝑌 = 𝛽0 + 𝛽1 𝑋 + 𝜀 其中 𝜀 为随机误差，通常假设 𝐸(𝜀) = 0，方差恒定，且不同观测之间相互独立。 最小二乘法选择使残差平方和最小的参数： 𝑛 SSE = ∑ (𝑦𝑖 − 𝑦̂𝑖 )2 𝑖=1 斜率估计： ∑𝑛𝑖=1 (𝑥𝑖 − |(𝑥))(𝑦𝑖 − |(𝑦)) 𝛽̂1 = ∑𝑛𝑖=1 (𝑥𝑖 − |(𝑥))2 截距估计： 𝛽̂0 = |(𝑦) − 𝛽̂1 |(𝑥) 决定系数： SSE 𝑅2 = 1 − SST 𝑅2 表示模型解释的因变量总变差比例，但 𝑅2 高不一定说明因果关系成立。"
+  },
+  {
+    "id": "doc-932e58f16185-p14",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 14,
+    "heading": "十二、常见题型处理策略",
+    "snippet": "概率论与数理统计 · 知识总结 十二、常见题型处理策略 概率计算题 • 先定义事件，避免直接套公式导致事件含义混乱； • 判断是否互斥、独立或条件概率； • 多原因导致同一结果时优先考虑全概率公式； • 结果反推原因时使用贝叶斯公式； • 至少检查最终概率是否落在 [0, 1]。 分布题 • 明确随机变量的取值范围； • 离散型写出所有可...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十二、常见题型处理策略 概率论与数理统计 · 知识总结 十二、常见题型处理策略 概率计算题 • 先定义事件，避免直接套公式导致事件含义混乱； • 判断是否互斥、独立或条件概率； • 多原因导致同一结果时优先考虑全概率公式； • 结果反推原因时使用贝叶斯公式； • 至少检查最终概率是否落在 [0, 1]。 分布题 • 明确随机变量的取值范围； • 离散型写出所有可能取值及概率； • 连续型先确定密度常数，再积分求概率； • 求分布函数时分区间讨论； • 求函数分布时注意单调变换、反函数和取值范围。 统计推断题 • 明确总体分布、样本量、方差是否已知； • 均值推断中方差已知用 𝑍 ，方差未知且正态总体用 𝑡； • 方差推断通常要求总体正态； • 大样本比例推断使用正态近似； • 写结论时必须回到题目背景。 总易错清单： 把互斥误认为独立；连续型随机变量在单点上赋正概率；忘记密度函数定义域；方差计 算漏掉平方系数；把“不拒绝 𝐻0 ”写成“证明 𝐻0 正确”；置信区间和假设检验中的 𝛼2 使用错误。 十三、公式速查 主题 核心公式 条件概率 𝑃 (𝐴|𝐵) = 𝑃𝑃(𝐴∩𝐵) (𝐵) 全概率公式 𝑃 (𝐴) = ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 ) 𝑃 (𝐴|𝐵𝑘 ) 贝叶斯公式 𝑃 (𝐵𝑘 |𝐴) = 𝑃 (𝐵𝑘 ) ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 ) 期望 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 或 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 方差 Var(𝑋) = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 协方差 Cov(𝑋, 𝑌 ) = 𝐸(𝑋𝑌 ) − 𝐸(𝑋)𝐸(𝑌 ) 样本均值 |(𝑋) = 𝑛1 ∑𝑖 𝑋𝑖 样本方差 1 𝑆 2 = 𝑛−1 ∑𝑖 (𝑋𝑖 − |(𝑋))2 均值置信区间 |(𝑋) ± 临界值 × 标准误 线性回归 𝑦̂ = 𝛽̂ + 𝛽̂ 𝑥 0 1"
+  },
+  {
+    "id": "doc-932e58f16185-p15",
+    "docId": "doc-932e58f16185",
+    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "category": "概率论",
+    "page": 15,
+    "heading": "十四、复习建议",
+    "snippet": "概率论与数理统计 · 知识总结 十四、复习建议 概率论部分建议围绕“事件-随机变量-分布-数字特征-极限定理”建立知识链。数理统计部分建议围绕“样 本-统计量-估计-检验-模型”建立推断链。做题时不要先背公式，而要先判断问题类型、变量类型、分布 条件和是否满足近似条件。 最终框架： 概率论负责建模，统计负责推断；分布是桥梁，样本是证据，期...",
+    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十四、复习建议 概率论与数理统计 · 知识总结 十四、复习建议 概率论部分建议围绕“事件-随机变量-分布-数字特征-极限定理”建立知识链。数理统计部分建议围绕“样 本-统计量-估计-检验-模型”建立推断链。做题时不要先背公式，而要先判断问题类型、变量类型、分布 条件和是否满足近似条件。 最终框架： 概率论负责建模，统计负责推断；分布是桥梁，样本是证据，期望和方差是最常用的摘要， 置信区间和假设检验是最核心的推断工具。"
+  }
+];
