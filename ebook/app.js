@@ -68,10 +68,16 @@ function encodePdfPath(webPath, pageNumber) {
   return `${encodeURI(webPath)}#${params.toString()}`;
 }
 
+function getPageAssetVersion() {
+  const stats = manifest.stats || {};
+  return [stats.renderDpi || "dpi", manifest.generatedAt || "local"].join("-");
+}
+
 function encodePageImagePath(documentItem, pageNumber) {
   const pageDigits = documentItem.pageCount >= 10 ? String(documentItem.pageCount).length : 1;
   const imagePageNumber = String(pageNumber).padStart(pageDigits, "0");
-  return `${documentItem.pageImageBase}${imagePageNumber}.png`;
+  const version = new URLSearchParams({ v: getPageAssetVersion() });
+  return `${documentItem.pageImageBase}${imagePageNumber}.png?${version.toString()}`;
 }
 
 function updateHash() {
