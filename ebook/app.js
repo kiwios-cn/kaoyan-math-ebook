@@ -10,7 +10,9 @@ const PAGE_OBSERVER_MARGIN = "900px 0px";
 const BACKGROUND_PRELOAD_START_DELAY_MS = 1800;
 const BACKGROUND_PRELOAD_BATCH_DELAY_MS = 320;
 const BACKGROUND_PRELOAD_BATCH_SIZE = 2;
+const APP_VERSION = "20260804-continuous-book";
 const SERVICE_WORKER_FILE = "./sw.js";
+const BOOK_RENDER_ID = "__full_book__";
 
 const state = {
   activeDocId: null,
@@ -77,6 +79,10 @@ function getPageAssetVersion() {
   ].join("-");
 }
 
+function getAppAssetVersion() {
+  return APP_VERSION;
+}
+
 function encodePageImagePath(documentItem, pageNumber) {
   const pageDigits = documentItem.pageCount >= 10 ? String(documentItem.pageCount).length : 1;
   const imagePageNumber = String(pageNumber).padStart(pageDigits, "0");
@@ -86,7 +92,7 @@ function encodePageImagePath(documentItem, pageNumber) {
 }
 
 function getServiceWorkerUrl() {
-  const version = new URLSearchParams({ v: getPageAssetVersion() });
+  const version = new URLSearchParams({ v: getAppAssetVersion() });
   return `${SERVICE_WORKER_FILE}?${version.toString()}`;
 }
 
@@ -119,6 +125,79 @@ function getBackgroundPreloadPageOrder(pageCount, centerPage, radius = PAGE_PREL
       const secondIsForward = secondPage > safeCenter ? 0 : 1;
       return firstIsForward - secondIsForward || firstPage - secondPage;
     });
+}
+
+function getBookDocuments() {
+  return manifest.documents || [];
+}
+
+function getBookPageEntries() {
+  const entries = [];
+  getBookDocuments().forEach((documentItem) => {
+    for (let pageNumber = 1; pageNumber <= documentItem.pageCount; pageNumber += 1) {
+      entries.push({
+        docId: documentItem.id,
+        page: pageNumber,
+        globalIndex: entries.length + 1,
+        documentItem,
+      });
+    }
+  });
+  return entries;
+}
+
+function getBookPageIndex(docId, pageNumber) {
+  return getBookPageEntries().findIndex((entry) => entry.docId === docId && entry.page === pageNumber);
+}
+
+function getBookPageWindow(docId, pageNumber, radius = PAGE_PRELOAD_RADIUS) {
+  const entries = getBookPageEntries();
+  const centerIndex = getBookPageIndex(docId, pageNumber);
+  if (centerIndex < 0) {
+    return [];
+  }
+  const firstIndex = Math.max(0, centerIndex - radius);
+  const lastIndex = Math.min(entries.length - 1, centerIndex + radius);
+  return entries.slice(firstIndex, lastIndex + 1);
+}
+
+/**
+ * 全书连续预加载顺序：跨章节按当前位置远近排序，并优先加载阅读方向。
+ */
+function getBackgroundBookPreloadPageOrder(docId, pageNumber, radius = PAGE_PRELOAD_RADIUS) {
+  const entries = getBookPageEntries();
+  const centerIndex = getBookPageIndex(docId, pageNumber);
+  if (centerIndex < 0) {
+    return [];
+  }
+  const immediateIndexes = new Set(
+    getBookPageWindow(docId, pageNumber, radius).map((entry) => entry.globalIndex - 1)
+  );
+  return entries
+    .filter((entry) => !immediateIndexes.has(entry.globalIndex - 1))
+    .sort((firstEntry, secondEntry) => {
+      const firstDistance = Math.abs(firstEntry.globalIndex - 1 - centerIndex);
+      const secondDistance = Math.abs(secondEntry.globalIndex - 1 - centerIndex);
+      if (firstDistance !== secondDistance) {
+        return firstDistance - secondDistance;
+      }
+      const firstIsForward = firstEntry.globalIndex - 1 > centerIndex ? 0 : 1;
+      const secondIsForward = secondEntry.globalIndex - 1 > centerIndex ? 0 : 1;
+      return firstIsForward - secondIsForward || firstEntry.globalIndex - secondEntry.globalIndex;
+    });
+}
+
+function getAdjacentBookPage(docId, pageNumber, direction) {
+  const entries = getBookPageEntries();
+  const currentIndex = getBookPageIndex(docId, pageNumber);
+  if (currentIndex < 0) {
+    return null;
+  }
+  return entries[currentIndex + direction] || null;
+}
+
+function getPageImageElement(entry) {
+  return elements.pageStack.querySelector(`[data-global-index="${entry.globalIndex}"] .page-image`);
 }
 
 function getActiveSection(documentItem, pageNumber = state.activePage) {
@@ -188,6 +267,7 @@ function renderToc() {
 function renderTocDocument(documentItem, category) {
   const item = document.createElement("div");
   item.className = "toc-document";
+  item.dataset.docId = documentItem.id;
   item.classList.toggle("is-expanded", documentItem.id === state.activeDocId);
 
   const sections = documentItem.sections || [];
@@ -270,40 +350,40 @@ function openDocument(docId, pageNumber = 1) {
   const previousDocId = state.activeDocId;
   state.activeDocId = documentItem.id;
   state.activePage = Math.min(Math.max(1, pageNumber), documentItem.pageCount);
-  elements.currentCategory.textContent = documentItem.category;
-  elements.currentTitle.textContent = documentItem.chineseTitle || documentItem.title;
-  elements.pageInput.max = String(documentItem.pageCount);
-  elements.pageInput.value = String(state.activePage);
+  updateReaderHeader(documentItem);
   renderPageStack(documentItem);
   warmNearbyPageImages(documentItem, state.activePage);
   scheduleBackgroundPagePreload(documentItem, state.activePage);
   updatePageControls(documentItem);
   renderToc();
   requestAnimationFrame(() => {
-    scrollToPage(state.activePage, previousDocId === documentItem.id ? "smooth" : "auto");
+    scrollToPage(documentItem.id, state.activePage, previousDocId === documentItem.id ? "smooth" : "auto");
   });
   updateTocActiveState(documentItem);
   updateHash();
 }
 
 function renderPageStack(documentItem) {
-  if (state.renderedDocId === documentItem.id) {
+  if (state.renderedDocId === BOOK_RENDER_ID) {
     return;
   }
   cancelBackgroundPagePreload();
   disconnectPageImageObserver();
   const fragment = document.createDocumentFragment();
-  for (let pageNumber = 1; pageNumber <= documentItem.pageCount; pageNumber += 1) {
+  getBookPageEntries().forEach((entry) => {
     const sheet = document.createElement("figure");
     sheet.className = "page-sheet";
-    sheet.dataset.page = String(pageNumber);
+    sheet.dataset.docId = entry.docId;
+    sheet.dataset.page = String(entry.page);
+    sheet.dataset.globalIndex = String(entry.globalIndex);
+    sheet.setAttribute("aria-label", `${entry.documentItem.chineseTitle || entry.documentItem.title} 第 ${entry.page} 页`);
 
     const image = document.createElement("img");
     image.className = "page-image";
     image.loading = "lazy";
     image.decoding = "async";
-    image.dataset.src = encodePageImagePath(documentItem, pageNumber);
-    image.alt = `${documentItem.chineseTitle || documentItem.title} 第 ${pageNumber} 页`;
+    image.dataset.src = encodePageImagePath(entry.documentItem, entry.page);
+    image.alt = `${entry.documentItem.chineseTitle || entry.documentItem.title} 第 ${entry.page} 页`;
 
     const retryButton = document.createElement("button");
     retryButton.type = "button";
@@ -313,9 +393,9 @@ function renderPageStack(documentItem) {
 
     sheet.append(image, retryButton);
     fragment.append(sheet);
-  }
+  });
   elements.pageStack.replaceChildren(fragment);
-  state.renderedDocId = documentItem.id;
+  state.renderedDocId = BOOK_RENDER_ID;
   elements.viewerWrap.scrollTop = 0;
   elements.viewerWrap.scrollLeft = 0;
   observePageImages();
@@ -410,8 +490,8 @@ function retryPageImageLoad(image) {
 }
 
 function warmNearbyPageImages(documentItem, centerPage) {
-  getPrefetchPageRange(documentItem.pageCount, centerPage).forEach((pageNumber) => {
-    const image = elements.pageStack.querySelector(`[data-page="${pageNumber}"] .page-image`);
+  getBookPageWindow(documentItem.id, centerPage).forEach((entry) => {
+    const image = getPageImageElement(entry);
     if (!image) {
       return;
     }
@@ -430,7 +510,7 @@ function cancelBackgroundPagePreload() {
 
 function scheduleBackgroundPagePreload(documentItem, centerPage) {
   cancelBackgroundPagePreload();
-  const pageQueue = getBackgroundPreloadPageOrder(documentItem.pageCount, centerPage);
+  const pageQueue = getBackgroundBookPreloadPageOrder(documentItem.id, centerPage);
   if (!pageQueue.length) {
     return;
   }
@@ -442,8 +522,8 @@ function scheduleBackgroundPagePreload(documentItem, centerPage) {
     }
     let loadedCount = 0;
     while (pageQueue.length && loadedCount < BACKGROUND_PRELOAD_BATCH_SIZE) {
-      const pageNumber = pageQueue.shift();
-      const image = elements.pageStack.querySelector(`[data-page="${pageNumber}"] .page-image`);
+      const entry = pageQueue.shift();
+      const image = getPageImageElement(entry);
       if (!image || image.src) {
         continue;
       }
@@ -469,8 +549,11 @@ function decodePageImage(image) {
   });
 }
 
-function scrollToPage(pageNumber, behavior = "auto") {
-  const targetPage = elements.pageStack.querySelector(`[data-page="${pageNumber}"]`);
+function scrollToPage(docId, pageNumber, behavior = "auto") {
+  const pageEntry = getBookPageWindow(docId, pageNumber, 0)[0];
+  const targetPage = pageEntry
+    ? elements.pageStack.querySelector(`[data-global-index="${pageEntry.globalIndex}"]`)
+    : null;
   if (!targetPage) {
     return;
   }
@@ -487,8 +570,8 @@ function updatePageControls(documentItem = getDocumentById(state.activeDocId)) {
   }
   elements.pageInput.max = String(documentItem.pageCount);
   elements.pageInput.value = String(state.activePage);
-  elements.prevPageButton.disabled = state.activePage <= 1;
-  elements.nextPageButton.disabled = state.activePage >= documentItem.pageCount;
+  elements.prevPageButton.disabled = !getAdjacentBookPage(documentItem.id, state.activePage, -1);
+  elements.nextPageButton.disabled = !getAdjacentBookPage(documentItem.id, state.activePage, 1);
 }
 
 function updateTocActiveState(documentItem = getDocumentById(state.activeDocId)) {
@@ -496,8 +579,18 @@ function updateTocActiveState(documentItem = getDocumentById(state.activeDocId))
     return;
   }
   const activeSection = getActiveSection(documentItem);
+  document.querySelectorAll(".toc-document").forEach((item) => {
+    const isExpanded = item.dataset.docId === documentItem.id;
+    item.classList.toggle("is-expanded", isExpanded);
+    const sublist = item.querySelector(".toc-sublist");
+    if (sublist) {
+      sublist.hidden = !isExpanded;
+    }
+  });
   document.querySelectorAll(".toc-button").forEach((button) => {
     button.classList.toggle("is-active", button.dataset.docId === documentItem.id);
+    const hasSections = button.closest(".toc-document")?.querySelector(".toc-sublist");
+    button.setAttribute("aria-expanded", String(button.dataset.docId === documentItem.id && Boolean(hasSections)));
   });
   document.querySelectorAll(".toc-section-button").forEach((button) => {
     button.classList.toggle(
@@ -507,22 +600,36 @@ function updateTocActiveState(documentItem = getDocumentById(state.activeDocId))
   });
 }
 
+function updateReaderHeader(documentItem) {
+  elements.currentCategory.textContent = documentItem.category;
+  elements.currentTitle.textContent = documentItem.chineseTitle || documentItem.title;
+  elements.pageInput.max = String(documentItem.pageCount);
+  elements.pageInput.value = String(state.activePage);
+}
+
 function syncPageFromScroll() {
-  const documentItem = getDocumentById(state.activeDocId);
-  if (!documentItem || !elements.pageStack.children.length) {
+  if (!elements.pageStack.children.length) {
     return;
   }
   const marker = elements.viewerWrap.scrollTop + elements.viewerWrap.clientHeight * 0.35;
-  let currentPage = 1;
-  for (const sheet of elements.pageStack.children) {
+  let currentDocId = state.activeDocId;
+  let currentPage = state.activePage;
+  for (const sheet of elements.pageStack.querySelectorAll(".page-sheet")) {
     if (sheet.offsetTop <= marker) {
+      currentDocId = sheet.dataset.docId || currentDocId;
       currentPage = Number.parseInt(sheet.dataset.page || "1", 10);
     } else {
       break;
     }
   }
-  if (currentPage !== state.activePage) {
+  if (currentDocId !== state.activeDocId || currentPage !== state.activePage) {
+    const documentItem = getDocumentById(currentDocId);
+    if (!documentItem) {
+      return;
+    }
+    state.activeDocId = currentDocId;
     state.activePage = currentPage;
+    updateReaderHeader(documentItem);
     warmNearbyPageImages(documentItem, currentPage);
     scheduleBackgroundPagePreload(documentItem, currentPage);
     updatePageControls(documentItem);
@@ -697,10 +804,16 @@ function bindEvents() {
   });
   elements.viewerWrap.addEventListener("scroll", scheduleScrollSync, { passive: true });
   elements.prevPageButton.addEventListener("click", () => {
-    openDocument(state.activeDocId, state.activePage - 1);
+    const previousPage = getAdjacentBookPage(state.activeDocId, state.activePage, -1);
+    if (previousPage) {
+      openDocument(previousPage.docId, previousPage.page);
+    }
   });
   elements.nextPageButton.addEventListener("click", () => {
-    openDocument(state.activeDocId, state.activePage + 1);
+    const nextPage = getAdjacentBookPage(state.activeDocId, state.activePage, 1);
+    if (nextPage) {
+      openDocument(nextPage.docId, nextPage.page);
+    }
   });
 }
 

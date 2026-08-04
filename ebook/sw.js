@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260804-sw-cache";
+const CACHE_VERSION = "20260804-continuous-book";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260804-sw-cache",
-  "./data.js?v=20260804-sw-cache",
-  "./app.js?v=20260804-sw-cache",
+  "./style.css?v=20260804-continuous-book",
+  "./data.js?v=20260804-continuous-book",
+  "./app.js?v=20260804-continuous-book",
 ];
 
 self.addEventListener("install", (event) => {
