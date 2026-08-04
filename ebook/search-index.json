@@ -857,77 +857,67 @@
     "page": 4,
     "heading": "无穷级数",
     "snippet": "二、几个基础级数 1. 几何级数 sum n 0 ^infinity q^n 1+q+q^2+dots 当 abs q 1 时收敛，且 sum n 0 ^infinity q^n 1/ 1-q 当 abs q 1 时发散。 若从 n 1 开始： sum n 1 ^infinity q^n q/ 1-q , quad abs q 1 2. ...",
-    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 二、几个基础级数 1. 几何级数 sum n 0 ^infinity q^n 1+q+q^2+dots 当 abs q 1 时收敛，且 sum n 0 ^infinity q^n 1/ 1-q 当 abs q 1 时发散。 若从 n 1 开始： sum n 1 ^infinity q^n q/ 1-q , quad abs q 1 2. p 级数 sum n 1 ^infinity 1/n^p 当 p 1 时收敛；当 p 1 时发散。 特别地，调和级数 sum n 1 ^infinity 1/n 发散。 3. 等比型和望远镜型 若通项可拆成相邻项差： u n a n-a n+1 则 sum n 1 ^N u n a 1-a N+1 若 lim N- infinity a N+1 存在，则级数收敛。 常见拆法： 1/ n n+1 1/n-1/ n+1 因此 sum n 1 ^infinity 1/ n n+1 1 4. Wallis 公式相关结论 Wallis 公式常用于估计含双阶乘或三角积分的项： integral 0^ pi/2 sin^n x d x integral 0^ pi/2 cos^n x d x 记 I n integral 0^ pi/2 sin^n x d x 则 I n n-1 /n I n-2 偶数次： I 2m 2m-1 !! / 2m !! dot pi/2 奇数次： I 2m+1 2m !! / 2m+1 !! 常用等价： 2n-1 !! / 2n !! ~ 1/sqrt pi n 它可以帮助判断含双阶乘项的级数敛散性。 weak: true"
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 二、几个基础级数 1. 几何级数 sum n 0 ^infinity q^n 1+q+q^2+dots 当 abs q 1 时收敛，且 sum n 0 ^infinity q^n 1/ 1-q 当 abs q 1 时发散。 若从 n 1 开始： sum n 1 ^infinity q^n q/ 1-q , quad abs q 1 2. p 级数 sum n 1 ^infinity 1/n^p 当 p 1 时收敛；当 p 1 时发散。 特别地，调和级数 sum n 1 ^infinity 1/n 发散。 3. 等比型和望远镜型 若通项可拆成相邻项差： u n a n-a n+1 则 sum n 1 ^N u n a 1-a N+1 若 lim N- infinity a N+1 存在，则级数收敛。 常见拆法： 1/ n n+1 1/n-1/ n+1 因此 sum n 1 ^infinity 1/ n n+1 1 4. Wallis 公式相关结论 Wallis 公式常用于估计含双阶乘或三角积分的项： integral 0^ pi/2 sin^n x d x integral 0^ pi/2 cos^n x d x Wallis 乘积公式可写为： pi/2 product k 1 ^infinity 4 k^2 / 4 k^2-1 写出前几项就是： pi/2 2/1 dot 2/3 dot 4/3 dot 4/5 dot 6/5 dot 6/7 dot dots 也可合并成： pi/2 2 dot 2 / 1 dot 3 dot 4 dot 4 / 3 dot 5 dot 6 dot 6 / 5 dot 7 dot dots 记 I n integral 0^ pi/2 sin^n x d x 则 I n n-1 /n I n-2 偶数次： I 2m 2m-1 !! / 2m !! dot pi/2 奇数次： I 2m+1 2m !! / 2m+1 !! 前几项帮助快速识别奇偶规律： I 0 pi/2 I 1 1 I 2 pi/4 I 3 2/3 I 4 3 pi /16 I 5 8/15 I 6 5 pi /32 也就是说，偶数次积分保留 pi 因子，奇数次积分为有理数。 若积分区间放大到 0,pi ，先看正负与对称性。因为 sin x 0 在 0,pi 上成立，且关于 pi/2 对称，所以对任意 n 0 ： integral 0^pi sin^n x d x 2 I n 即 integral 0^pi sin^ 2m x d x 2m-1 !! / 2m !! dot pi integral 0^pi sin^ 2m+1 x d x 2 2m !! / 2m+1 !! 对 cos^n x ，区间 0,pi 上的奇次幂关于 pi/2 左右抵消，而偶次幂非负： integral 0^pi cos^ 2m x d x 2m-1 !! / 2m !! dot pi integral 0^pi cos^ 2m+1 x d x 0 若积分区间放大到 0,2 pi ，偶次幂在两个半周相加，奇次幂正负半周抵消： integral 0^ 2 pi sin^ 2m x d x integral 0^ 2 pi cos^ 2m x d x 2 2m-1 !! / 2m !! dot pi integral 0^ 2 pi sin^ 2m+1 x d x integral 0^ 2 pi cos^ 2m+1 x d x 0 不要把 0,pi 与 0,2 pi 的奇次幂混为一谈。 integral 0^pi sin^ 2m+1 x d x 不为零，因为 sin x 在 0,pi 上非负；但 integral 0^ 2 pi sin^ 2m+1 x d x 0 ，因为正负半周抵消。 常用等价： 2n-1 !! / 2n !! ~ 1/sqrt pi n 它可以帮助判断含双阶乘项的级数敛散性。 weak: true"
   },
   {
-    "id": "doc-65b1384b7021-p6",
+    "id": "doc-65b1384b7021-p7",
     "docId": "doc-65b1384b7021",
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
-    "page": 6,
+    "page": 7,
     "heading": "无穷级数",
     "snippet": "三、正项级数及判别法 若 u n 0 ，则 sum u n 称为正项级数。正项级数的部分和 S n 单调递增，因此： sum u n 收敛 S n 有上界 1. 比较判别法 设 0 u n v n 。 若 sum v n 收敛，则 sum u n 收敛。 若 sum u n 发散，则 sum v n 发散。 常用比较对象是几何级数和 p ...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 三、正项级数及判别法 若 u n 0 ，则 sum u n 称为正项级数。正项级数的部分和 S n 单调递增，因此： sum u n 收敛 S n 有上界 1. 比较判别法 设 0 u n v n 。 若 sum v n 收敛，则 sum u n 收敛。 若 sum u n 发散，则 sum v n 发散。 常用比较对象是几何级数和 p 级数。 2. 极限比较判别法 设 u n 0,v n 0 ，若 lim n- infinity u n/v n l 其中 0 l infinity ，则 sum u n 与 sum v n 同敛散。 若 l 0 ，且 sum v n 收敛，则 sum u n 收敛。 若 l infinity ，且 sum v n 发散，则 sum u n 发散。 3. 比值判别法 设 u n 0 ，若 lim n- infinity u n+1 /u n r 则： 1. 当 r 1 时， sum u n 收敛。 2. 当 r 1 或 r infinity 时， sum u n 发散。 3. 当 r 1 时，判别法失效。 比值判别法适合含阶乘、指数幂、连乘积的级数。 4. 根值判别法 设 u n 0 ，若 lim n- infinity root n,u n r 则： 1. 当 r 1 时， sum u n 收敛。 2. 当 r 1 或 r infinity 时， sum u n 发散。 3. 当 r 1 时，判别法失效。 根值判别法适合形如 u n a n ^n 或含 n 次幂的通项。 5. 积分判别法 若 f x 在 1,+infinity 上连续、正值、单调递减，且 u n f n 则 sum n 1 ^infinity u n 与广义积分 integral 1^ +infinity f x d x 同敛散。 典型应用是证明 p 级数： sum n 1 ^infinity 1/n^p 当 p 1 收敛，当 p 1 发散。 6. 常用等价无穷小比较 当 n- infinity 时，若 x n- 0 ，常用等价有 sin x n ~ x n, quad tan x n ~ x n ln 1+x n ~ x n, quad e^ x n -1 ~ x n 1-cos x n ~ x n^2/2 因此判断级数时，可以把复杂通项化为简单等价形式。 例如 ln 1+1/n^2 ~ 1/n^2 所以 sum n 1 ^infinity ln 1+1/n^2 与 sum 1/n^2 同敛散，故收敛。 weak: true"
   },
   {
-    "id": "doc-65b1384b7021-p8",
+    "id": "doc-65b1384b7021-p9",
     "docId": "doc-65b1384b7021",
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
-    "page": 8,
+    "page": 9,
     "heading": "无穷级数",
     "snippet": "四、任意项级数 任意项级数可能有正有负。考研中最重要的是绝对收敛、条件收敛和交错级数。 1. 绝对收敛与条件收敛 若 sum n 1 ^infinity abs u n 收敛，则称 sum u n 绝对收敛。 若 sum u n 收敛，但 sum abs u n 发散，则称 sum u n 条件收敛。 绝对收敛一定推出收敛： sum ab...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 四、任意项级数 任意项级数可能有正有负。考研中最重要的是绝对收敛、条件收敛和交错级数。 1. 绝对收敛与条件收敛 若 sum n 1 ^infinity abs u n 收敛，则称 sum u n 绝对收敛。 若 sum u n 收敛，但 sum abs u n 发散，则称 sum u n 条件收敛。 绝对收敛一定推出收敛： sum abs u n 收敛 sum u n 收敛 但收敛不一定绝对收敛。 2. 交错级数判别法 形如 sum n 1 ^infinity -1 ^ n-1 a n 或 sum n 1 ^infinity -1 ^n a n 的级数称为交错级数，其中 a n 0 。 若满足： 1. a n 单调递减； 2. lim n- infinity a n 0 ； 则交错级数收敛。 此外，余项估计为 abs R n a n+1 其中 R n S-S n 。 典型例子： sum n 1 ^infinity -1 ^ n-1 /n 收敛，但 sum n 1 ^infinity 1/n 发散，所以它是条件收敛。 3. Dirichlet 判别法 若部分和 A n sum k 1 ^n a k 有界，且 b n 单调趋于 0 ，则 sum n 1 ^infinity a n b n 收敛。 交错级数判别法可以看成 Dirichlet 判别法的一个常用特例。 4. Abel 判别法 若 sum a n 收敛， b n 单调且有界，则 sum n 1 ^infinity a n b n 收敛。 Dirichlet 和 Abel 判别法不是每道题都用，但遇到 sin n x 、 cos n x 、单调因子和部分和有界时很有用。 weak: true"
   },
   {
-    "id": "doc-65b1384b7021-p10",
+    "id": "doc-65b1384b7021-p11",
     "docId": "doc-65b1384b7021",
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
-    "page": 10,
+    "page": 11,
     "heading": "无穷级数",
     "snippet": "五、幂级数 1. 幂级数的形式 以 x 0 为中心的幂级数为 sum n 0 ^infinity a n x-x 0 ^n 最常见中心是 x 0 0 ： sum n 0 ^infinity a n x^n 幂级数的核心问题是求收敛半径、收敛区间和收敛域。 2. 收敛半径 对 sum n 0 ^infinity a n x-x 0 ^n 若...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 五、幂级数 1. 幂级数的形式 以 x 0 为中心的幂级数为 sum n 0 ^infinity a n x-x 0 ^n 最常见中心是 x 0 0 ： sum n 0 ^infinity a n x^n 幂级数的核心问题是求收敛半径、收敛区间和收敛域。 2. 收敛半径 对 sum n 0 ^infinity a n x-x 0 ^n 若存在极限 lim n- infinity abs a n+1 /a n L 则收敛半径 R 1/L 其中约定： L 0 时 R infinity ， L infinity 时 R 0 。 也可用根值形式： lim n- infinity root n,abs a n L, quad R 1/L 3. 收敛区间和端点 幂级数有以下性质： 1. 当 abs x-x 0 R 时绝对收敛。 2. 当 abs x-x 0 R 时发散。 3. 当 abs x-x 0 R 时必须单独判断。 因此求收敛域步骤是： 1. 先用比值或根值求 R 。 2. 写出开区间 x 0-R,x 0+R 。 3. 分别代入两个端点，判断数项级数敛散性。 幂级数端点不能靠收敛半径直接判断。端点代入后常变成 p 级数、交错级数或调和级数，必须单独检查。 4. 幂级数的运算性质 在收敛区间内部，幂级数可以逐项求导、逐项积分。 若 f x sum n 0 ^infinity a n x^n, quad abs x R 则 f' x sum n 1 ^infinity n a n x^ n-1 , quad abs x R 并且 integral 0^x f t d t sum n 0 ^infinity a n x^ n+1 / n+1 , quad abs x R 逐项求导和逐项积分后的收敛半径不变，但端点收敛性可能改变。 5. 幂级数求和 常从几何级数出发： 1/ 1-x sum n 0 ^infinity x^n, quad abs x 1 逐项积分得 -ln 1-x sum n 1 ^infinity x^n/n, quad abs x 1 把 x 换成 -x 得 ln 1+x sum n 1 ^infinity -1 ^ n-1 x^n/n, quad abs x 1 逐项求导或积分，是求幂级数和函数的重要方法。 weak: true"
   },
   {
-    "id": "doc-65b1384b7021-p12",
+    "id": "doc-65b1384b7021-p13",
     "docId": "doc-65b1384b7021",
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
-    "page": 12,
+    "page": 13,
     "heading": "无穷级数",
     "snippet": "六、泰勒级数与常用展开 1. 泰勒级数 若函数 f x 在点 x 0 附近可以展开成幂级数，则 f x sum n 0 ^infinity f^ n x 0 / n! x-x 0 ^n 当 x 0 0 时称为麦克劳林级数： f x sum n 0 ^infinity f^ n 0 / n! x^n 2. 常用麦克劳林展开 columns:...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 六、泰勒级数与常用展开 1. 泰勒级数 若函数 f x 在点 x 0 附近可以展开成幂级数，则 f x sum n 0 ^infinity f^ n x 0 / n! x-x 0 ^n 当 x 0 0 时称为麦克劳林级数： f x sum n 0 ^infinity f^ n 0 / n! x^n 2. 常用麦克劳林展开 columns: 1.6fr, 3.6fr , align: left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 展开式及条件 , e^x , sum n 0 ^infinity x^n/ n! , quad -infinity x infinity , sin x , sum n 0 ^infinity -1 ^n x^ 2n+1 / 2n+1 !, quad -infinity x infinity , cos x , sum n 0 ^infinity -1 ^n x^ 2n / 2n !, quad -infinity x infinity , 1/ 1-x , sum n 0 ^infinity x^n, quad abs x 1 , ln 1+x , sum n 1 ^infinity -1 ^ n-1 x^n/n, quad -1 x 1 , 1+x ^alpha , sum n 0 ^infinity alpha alpha-1 dots alpha-n+1 / n! x^n, quad abs x 1 , 3. 常用展开的通项细化 考研极限和级数题中，常见函数展开通常在 x- 0 的麦克劳林语境下使用。若低阶项没有抵消，保留最低非零阶即可；若低阶项发生抵消，必须继续展开到抵消之后的第一项非零项。 幂函数的广义二项式展开： 1+x ^alpha sum n 0 ^infinity C alpha^n x^n, quad abs x 1 其中 C alpha^0 1, quad C alpha^n alpha alpha-1 dots alpha-n+1 / n! quad n 1 常见特例： 1/ 1-x sum n 0 ^infinity x^n, quad abs x 1 1/ 1+x sum n 0 ^infinity -1 ^n x^n, quad abs x 1 sqrt 1+x sum n 0 ^infinity C 1/2 ^n x^n 1/sqrt 1+x sum n 0 ^infinity C -1/2 ^n x^n 指数函数： e^x sum n 0 ^infinity x^n/ n! , quad e^ -x sum n 0 ^infinity -1 ^n x^n/ n! 更一般地，若 a 0 ，则 a^x e^ x ln a sum n 0 ^infinity ln a ^n / n! x^n 对数函数： ln 1+x sum n 1 ^infinity -1 ^ n-1 x^n/n, quad abs x 1 ln 1-x -sum n 1 ^infinity x^n/n, quad abs x 1 三角函数： sin x sum n 0 ^infinity -1 ^n x^ 2 n+1 / 2 n+1 ! cos x sum n 0 ^infinity -1 ^n x^ 2 n / 2 n ! tan x x+x^3/3+ 2 x^5 /15+ 17 x^7 /315+dots 正切函数的完整通项可写为 tan x sum n 1 ^infinity -1 ^ n-1 2^ 2n 2^ 2n -1 B 2n / 2n ! x^ 2n-1 其中 B 2n 表示伯努利数。考研计算中通常只需记住前几项。 三角函数倒数： 本小节补充 sec x 、 csc x 、 cot x 的常用展开；检索时也可使用 secx 、 cscx 、 cotx 作为关键词。 sec x 1+x^2/2+ 5 x^4 /24+ 61 x^6 /720+ 1385 x^8 /40320+dots sec x sum n 0 ^infinity -1 ^n E 2n / 2n ! x^ 2n , quad abs x pi/2 其中 E 2n 表示欧拉数，按 E 0 1,E 2 -1,E 4 5,E 6 -61,dots 取值。 csc x 与 cot x 在 x 0 处无定义，因此它们在 0 附近不是普通泰勒展开，而是含有 1/x 项的洛朗展开。做极限题时要先保留这个奇异主项，再看后续项是否抵消。 csc x 1/x+x/6+ 7 x^3 /360+ 31 x^5 /15120+ 127 x^7 /604800+dots csc x 1/x+sum n 1 ^infinity -1 ^ n-1 2 2^ 2n-1 -1 B 2n / 2n ! x^ 2n-1 , quad 0 abs x pi cot x 1/x-x/3-x^3/45- 2 x^5 /945-x^7/4725+dots cot x 1/x+sum n 1 ^infinity -1 ^n 2^ 2n B 2n / 2n ! x^ 2n-1 , quad 0 abs x pi 反三角函数： arcsin x sum n 0 ^infinity 2 n ! / 4^n n! ^2 2 n+1 x^ 2 n+1 arctan x sum n 0 ^infinity -1 ^n x^ 2 n+1 / 2 n+1 arccos x pi/2-sum n 0 ^infinity 2 n ! / 4^n n! ^2 2 n+1 x^ 2 n+1 columns: 1.4fr, 3.6fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数类型 , 通项形式 , 幂函数 , 1+x ^alpha sum n 0 ^infinity C alpha^n x^n , 指数函数 , e^x sum n 0 ^infinity x^n/ n! , 对数函数 , ln 1+x sum n 1 ^infinity -1 ^ n-1 x^n/n , 正弦函数 , sin x sum n 0 ^infinity -1 ^n x^ 2n+1 / 2n+1 ! , 余弦函数 , cos x sum n 0 ^infinity -1 ^n x^ 2n / 2n ! , 正切函数 , tan x sum n 1 ^infinity -1 ^ n-1 2^ 2n 2^ 2n -1 B 2n / 2n ! x^ 2n-1 , 正割函数 , sec x sum n 0 ^infinity -1 ^n E 2n / 2n ! x^ 2n , 余割函数 , csc x 1/x+sum n 1 ^infinity -1 ^ n-1 2 2^ 2n-1 -1 B 2n / 2n ! x^ 2n-1 , 余切函数 , cot x 1/x+sum n 1 ^infinity -1 ^n 2^ 2n B 2n / 2n ! x^ 2n-1 , 反正弦 , arcsin x sum n 0 ^infinity 2n ! / 4^n n! ^2 2n+1 x^ 2n+1 , 反正切 , arctan x sum n 0 ^infinity -1 ^n x^ 2n+1 / 2n+1 , 只记一阶等价不够。若出现 x-sin x 、 tan x-x 、 ln 1+x -x 这类低阶抵消结构，必须继续展开到第一项非零高阶项。 4. 展开函数的常用方法 1. 直接用泰勒公式求导。 2. 从常用展开式替换变量。 3. 通过逐项求导或逐项积分得到新展开式。 4. 先作代数变形，再展开。 例如 1/ 1+x^2 1/ 1- -x^2 所以 1/ 1+x^2 sum n 0 ^infinity -1 ^n x^ 2n , quad abs x 1 逐项积分： arctan x sum n 0 ^infinity -1 ^n x^ 2n+1 / 2n+1 , quad abs x 1 weak: true"
   },
   {
-    "id": "doc-65b1384b7021-p16",
+    "id": "doc-65b1384b7021-p17",
     "docId": "doc-65b1384b7021",
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
-    "page": 16,
+    "page": 17,
     "heading": "无穷级数",
     "snippet": "七、傅里叶级数要点 傅里叶级数通常在考研数学一中更常见。它的核心思想是：把周期函数表示为正弦、余弦函数的无穷叠加。与幂级数不同，傅里叶级数不是按 x^n 展开，而是按三角函数基底展开。 1. 周期为 2 pi 的傅里叶级数 若 f x 是周期为 2 pi 的函数，或先在 -pi,pi 上给出并作 2 pi 周期延拓，则其傅里叶级数形式为 ...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 七、傅里叶级数要点 傅里叶级数通常在考研数学一中更常见。它的核心思想是：把周期函数表示为正弦、余弦函数的无穷叠加。与幂级数不同，傅里叶级数不是按 x^n 展开，而是按三角函数基底展开。 1. 周期为 2 pi 的傅里叶级数 若 f x 是周期为 2 pi 的函数，或先在 -pi,pi 上给出并作 2 pi 周期延拓，则其傅里叶级数形式为 f x ~ a 0/2+sum n 1 ^infinity a n cos n x +b n sin n x 其中傅里叶系数为 a 0 1/pi integral -pi ^pi f x med d x a n 1/pi integral -pi ^pi f x cos n x med d x b n 1/pi integral -pi ^pi f x sin n x med d x 这里 a 0/2 是常数项， a n cos n x 是余弦项， b n sin n x 是正弦项。 2. 周期为 2 l 的傅里叶级数 若函数以 2 l 为周期，通常在 -l,l 上展开。此时基本角频率为 omega 0 pi/l 傅里叶级数为 f x ~ a 0/2+sum n 1 ^infinity a n cos n pi x /l +b n sin n pi x /l 系数公式为 a 0 1/l integral -l ^l f x med d x a n 1/l integral -l ^l f x cos n pi x /l med d x b n 1/l integral -l ^l f x sin n pi x /l med d x 当 l pi 时，就退化为周期 2 pi 的公式。 3. 三角函数正交性来源 傅里叶系数公式来自三角函数在 -pi,pi 上的正交性： integral -pi ^pi cos m x cos n x med d x 0 quad m ! n integral -pi ^pi sin m x sin n x med d x 0 quad m ! n integral -pi ^pi sin m x cos n x med d x 0 并且 integral -pi ^pi cos^2 n x med d x pi, quad integral -pi ^pi sin^2 n x med d x pi 常数项满足 integral -pi ^pi 1 med d x 2 pi 所以常数项写成 a 0/2 ，而不是 a 0 。这个 1/2 经常是考试中的小坑。 weak: true 4. 奇偶性简化 若 f x 是偶函数，则 b n 0 且 a n 2/pi integral 0^pi f x cos n x med d x 展开只含余弦项。 若 f x 是奇函数，则 a 0 0, quad a n 0 且 b n 2/pi integral 0^pi f x sin n x med d x 展开只含正弦项。 奇偶性判断的理由是： 1. 偶函数乘偶函数仍为偶函数，偶函数在对称区间积分一般不为零。 2. 奇函数乘奇函数为偶函数，偶函数在对称区间积分一般不为零。 3. 奇函数在对称区间上的积分为 0 。 因此： columns: 1.5fr, 2fr, 2fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数性质 , 非零系数 , 展开名称 , 偶函数 , a 0,a n , 余弦级数 , 奇函数 , b n , 正弦级数 , 一般函数 , a 0,a n,b n , 完整傅里叶级数 , 5. 收敛条件与收敛值 常用的 Dirichlet 收敛条件可以表述为：若 f x 在一个周期内满足分段连续、分段单调，或等价地分段光滑，则其傅里叶级数在每一点都收敛。 若 f x 在一个周期内分段光滑，则傅里叶级数在点 x 处收敛到 f x+0 +f x-0 /2 若 f 在 x 处连续，则收敛到 f x 在跳跃间断点处，收敛到左右极限的平均值。 特别注意周期端点。例如在 -pi,pi 上展开时， x pi 和 x -pi 是周期延拓后的同一点，因此端点处收敛到 f pi-0 +f -pi+0 /2 而不是简单等于 f pi 或 f -pi 。 6. 半区间展开 若函数只在 0,l 上给出，题目常要求作正弦级数或余弦级数展开。 余弦级数对应偶延拓： f x ~ a 0/2+sum n 1 ^infinity a n cos n pi x /l 其中 a 0 2/l integral 0^l f x med d x a n 2/l integral 0^l f x cos n pi x /l med d x 正弦级数对应奇延拓： f x ~ sum n 1 ^infinity b n sin n pi x /l 其中 b n 2/l integral 0^l f x sin n pi x /l med d x 选择规则很简单： 1. 题目要求余弦展开，就作偶延拓。 2. 题目要求正弦展开，就作奇延拓。 3. 如果没有指定，通常按完整傅里叶级数处理。 半区间展开不是在 0,l 上直接套 -l,l 的公式，而是先决定奇延拓或偶延拓，再得到对应的正弦级数或余弦级数。 7. Parseval 等式 若 f x 满足傅里叶展开条件，则在适当意义下有 Parseval 等式： 1/pi integral -pi ^pi f^2 x med d x a 0^2/2+sum n 1 ^infinity a n^2+b n^2 它常用于求一些数项级数的和。例如通过 f x x 或 f x x^2 的傅里叶级数，可以推出与 sum n 1 ^infinity 1/n^2, quad sum n 1 ^infinity 1/n^4 有关的经典结果。 8. 例题：展开 f x x 题目 将 f x x 在 -pi,pi 上展开为傅里叶级数。 解析： f x x 是奇函数，因此只含正弦项： a 0 0, quad a n 0 计算 b n ： b n 2/pi integral 0^pi x sin n x med d x 分部积分。令 u x ， d v sin n x med d x ，则 d u d x, quad v -cos n x /n 所以 integral 0^pi x sin n x med d x -x cos n x /n 0^pi+integral 0^pi cos n x /n med d x 第二项为 integral 0^pi cos n x /n med d x sin n x /n^2 0^pi 0 第一项为 -pi cos n pi /n -pi -1 ^n/n 因此 b n 2/pi dot -pi -1 ^n/n 2 -1 ^ n+1 /n 所以 x ~ 2 sum n 1 ^infinity -1 ^ n+1 sin n x /n, quad -pi x pi 在连续点处等号成立；在端点 x plus.minus pi ，周期延拓有跳跃，级数收敛到 0 。 weak: true 9. 例题：展开 f x x^2 题目 将 f x x^2 在 -pi,pi 上展开为傅里叶级数。 解析： x^2 是偶函数，因此只含余弦项。 先算 a 0 ： a 0 2/pi integral 0^pi x^2 med d x 2/pi dot pi^3/3 2 pi^2/3 所以常数项为 a 0/2 pi^2/3 再算 a n ： a n 2/pi integral 0^pi x^2 cos n x med d x 两次分部积分可得 integral 0^pi x^2 cos n x med d x 2 pi -1 ^n/n^2 因此 a n 2/pi dot 2 pi -1 ^n/n^2 4 -1 ^n/n^2 所以 x^2 pi^2/3+4 sum n 1 ^infinity -1 ^n cos n x /n^2, quad -pi x pi 令 x pi ，得到 pi^2 pi^2/3+4 sum n 1 ^infinity 1/n^2 从而 sum n 1 ^infinity 1/n^2 pi^2/6 10. 傅里叶级数解题步骤 1. 判断周期：是 2 pi 还是 2 l 。 2. 判断区间：是在 -pi,pi 、 -l,l ，还是只给 0,l 。 3. 判断奇偶性：偶函数用余弦项，奇函数用正弦项。 4. 写出 a 0,a n,b n 公式。 5. 计算积分，常用分部积分。 6. 写出级数，并说明在哪些点收敛到函数值，在哪些点收敛到左右极限平均值。 weak: true"
   },
   {
-    "id": "doc-65b1384b7021-p22",
+    "id": "doc-65b1384b7021-p23",
     "docId": "doc-65b1384b7021",
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
-    "page": 22,
+    "page": 23,
     "heading": "无穷级数",
     "snippet": "八、典型例题 例题 1：通项不趋零 题目 判断 sum n 1 ^infinity n/ n+1 的敛散性。 解析：先看通项极限： lim n- infinity n/ n+1 1 通项极限不为 0 ，所以级数发散。 例题 2：极限比较判别 题目 判断 sum n 1 ^infinity 3 n+1 / n^3+2 的敛散性。 解析：当 ...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 八、典型例题 例题 1：通项不趋零 题目 判断 sum n 1 ^infinity n/ n+1 的敛散性。 解析：先看通项极限： lim n- infinity n/ n+1 1 通项极限不为 0 ，所以级数发散。 例题 2：极限比较判别 题目 判断 sum n 1 ^infinity 3 n+1 / n^3+2 的敛散性。 解析：当 n- infinity 时， 3 n+1 / n^3+2 ~ 3/n^2 因为 sum n 1 ^infinity 1/n^2 收敛，所以原级数收敛。 也可严格写： lim n- infinity 3 n+1 / n^3+2 / 1/n^2 3 故与 sum 1/n^2 同敛散。 例题 3：比值判别 题目 判断 sum n 1 ^infinity n!/ 3^n 的敛散性。 解析：令 u n n!/ 3^n 则 u n+1 /u n n+1 !/3^ n+1 / n!/3^n n+1 /3 因此 lim n- infinity u n+1 /u n infinity 所以级数发散。 例题 4：交错级数 题目 判断 sum n 1 ^infinity -1 ^ n-1 /sqrt n 的敛散性，并说明是否绝对收敛。 解析：令 a n 1/sqrt n 显然 a n 单调递减，且 lim n- infinity a n 0 所以交错级数收敛。 但绝对值级数为 sum n 1 ^infinity 1/sqrt n 这是 p 1/2 的 p 级数，发散。因此原级数条件收敛。 例题 5：求幂级数收敛域 题目 求 sum n 1 ^infinity x-2 ^n / n 3^n 的收敛域。 解析：令 u n x-2 ^n / n 3^n 用比值法： abs u n+1 /u n abs x-2 /3 dot n/ n+1 所以 lim n- infinity abs u n+1 /u n abs x-2 /3 当 abs x-2 /3 1 即 -1 x 5 时收敛。 检查端点。 当 x -1 时： sum n 1 ^infinity -3 ^n / n 3^n sum n 1 ^infinity -1 ^n/n 交错调和级数收敛。 当 x 5 时： sum n 1 ^infinity 1/n 发散。 所以收敛域为 -1,5 例题 6：求幂级数和函数 题目 求 sum n 1 ^infinity x^n/n 的和函数。 解析：由几何级数 1/ 1-x sum n 0 ^infinity x^n, quad abs x 1 两边从 0 到 x 积分： integral 0^x 1/ 1-t d t sum n 0 ^infinity integral 0^x t^n d t 得到 -ln 1-x sum n 0 ^infinity x^ n+1 / n+1 令 k n+1 ： sum k 1 ^infinity x^k/k -ln 1-x , quad abs x 1 所以 sum n 1 ^infinity x^n/n -ln 1-x , quad abs x 1 例题 7：函数展开 题目 将 ln 1+x^2 展开为 x 的幂级数。 解析：已知 ln 1+t sum n 1 ^infinity -1 ^ n-1 t^n/n, quad -1 t 1 令 t x^2 ，得 ln 1+x^2 sum n 1 ^infinity -1 ^ n-1 x^ 2n /n 条件为 0 x^2 1 所以 -1 x 1 由于 t 1 时原展开也收敛，故端点 x plus.minus 1 都可取。 weak: true"
-  },
-  {
-    "id": "doc-65b1384b7021-p26",
-    "docId": "doc-65b1384b7021",
-    "title": "Infinite Series (无穷级数)",
-    "category": "微积分",
-    "page": 26,
-    "heading": "无穷级数",
-    "snippet": "九、判别法选择流程 1. 数项级数流程 1. 先看 lim u n 。若不为 0 ，直接发散。 2. 若 u n 0 ，优先考虑正项级数判别法。 3. 若含阶乘、指数幂，优先比值判别法。 4. 若含 n 次幂，优先根值判别法。 5. 若能看出等价形式，优先极限比较。 6. 若有 -1 ^n ，先看交错级数，再看绝对收敛。 7. 若是函数项...",
-    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 九、判别法选择流程 1. 数项级数流程 1. 先看 lim u n 。若不为 0 ，直接发散。 2. 若 u n 0 ，优先考虑正项级数判别法。 3. 若含阶乘、指数幂，优先比值判别法。 4. 若含 n 次幂，优先根值判别法。 5. 若能看出等价形式，优先极限比较。 6. 若有 -1 ^n ，先看交错级数，再看绝对收敛。 7. 若是函数项或幂级数，先求收敛半径，再查端点。 2. 幂级数流程 1. 找中心 x 0 。 2. 用比值或根值法求 R 。 3. 写 abs x-x 0 R 。 4. 两端点单独代入。 5. 若要求和函数，从几何级数、 ln 1+x 、 e^x 、 sin x 、 cos x 等基本展开出发。 3. 傅里叶级数流程 1. 先判断周期： 2 pi 用 -pi,pi 公式， 2 l 用 -l,l 公式。 2. 若只给 0,l ，先判断题目要求正弦展开还是余弦展开。 3. 判断奇偶性：偶函数只算 a 0,a n ，奇函数只算 b n 。 4. 计算系数积分，常用分部积分。 5. 写出傅里叶级数。 6. 最后说明收敛值：连续点取 f x ，跳跃点取左右极限平均值，周期端点按周期延拓判断。 weak: true"
   },
   {
     "id": "doc-65b1384b7021-p27",
@@ -936,8 +926,8 @@
     "category": "微积分",
     "page": 27,
     "heading": "无穷级数",
-    "snippet": "十、易错点汇总 通项趋于 0 只是必要条件，不是充分条件。调和级数 sum 1/n 就是最典型反例。 比值判别法或根值判别法得到极限等于 1 时，不能说明收敛或发散，必须换方法。 幂级数端点一定要单独代入。开区间内绝对收敛，区间外发散，端点没有统一结论。 交错级数收敛不代表绝对收敛。判断“绝对/条件”时必须再看 sum abs u n 。...",
-    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 十、易错点汇总 通项趋于 0 只是必要条件，不是充分条件。调和级数 sum 1/n 就是最典型反例。 比值判别法或根值判别法得到极限等于 1 时，不能说明收敛或发散，必须换方法。 幂级数端点一定要单独代入。开区间内绝对收敛，区间外发散，端点没有统一结论。 交错级数收敛不代表绝对收敛。判断“绝对/条件”时必须再看 sum abs u n 。 逐项求导、逐项积分在收敛区间内部合法；端点处的收敛性可能改变，不能机械保留。 weak: true"
+    "snippet": "九、判别法选择流程 1. 数项级数流程 1. 先看 lim u n 。若不为 0 ，直接发散。 2. 若 u n 0 ，优先考虑正项级数判别法。 3. 若含阶乘、指数幂，优先比值判别法。 4. 若含 n 次幂，优先根值判别法。 5. 若能看出等价形式，优先极限比较。 6. 若有 -1 ^n ，先看交错级数，再看绝对收敛。 7. 若是函数项...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 九、判别法选择流程 1. 数项级数流程 1. 先看 lim u n 。若不为 0 ，直接发散。 2. 若 u n 0 ，优先考虑正项级数判别法。 3. 若含阶乘、指数幂，优先比值判别法。 4. 若含 n 次幂，优先根值判别法。 5. 若能看出等价形式，优先极限比较。 6. 若有 -1 ^n ，先看交错级数，再看绝对收敛。 7. 若是函数项或幂级数，先求收敛半径，再查端点。 2. 幂级数流程 1. 找中心 x 0 。 2. 用比值或根值法求 R 。 3. 写 abs x-x 0 R 。 4. 两端点单独代入。 5. 若要求和函数，从几何级数、 ln 1+x 、 e^x 、 sin x 、 cos x 等基本展开出发。 3. 傅里叶级数流程 1. 先判断周期： 2 pi 用 -pi,pi 公式， 2 l 用 -l,l 公式。 2. 若只给 0,l ，先判断题目要求正弦展开还是余弦展开。 3. 判断奇偶性：偶函数只算 a 0,a n ，奇函数只算 b n 。 4. 计算系数积分，常用分部积分。 5. 写出傅里叶级数。 6. 最后说明收敛值：连续点取 f x ，跳跃点取左右极限平均值，周期端点按周期延拓判断。 weak: true"
   },
   {
     "id": "doc-65b1384b7021-p28",
@@ -945,6 +935,16 @@
     "title": "Infinite Series (无穷级数)",
     "category": "微积分",
     "page": 28,
+    "heading": "无穷级数",
+    "snippet": "十、易错点汇总 通项趋于 0 只是必要条件，不是充分条件。调和级数 sum 1/n 就是最典型反例。 比值判别法或根值判别法得到极限等于 1 时，不能说明收敛或发散，必须换方法。 幂级数端点一定要单独代入。开区间内绝对收敛，区间外发散，端点没有统一结论。 交错级数收敛不代表绝对收敛。判断“绝对/条件”时必须再看 sum abs u n 。...",
+    "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 十、易错点汇总 通项趋于 0 只是必要条件，不是充分条件。调和级数 sum 1/n 就是最典型反例。 比值判别法或根值判别法得到极限等于 1 时，不能说明收敛或发散，必须换方法。 幂级数端点一定要单独代入。开区间内绝对收敛，区间外发散，端点没有统一结论。 交错级数收敛不代表绝对收敛。判断“绝对/条件”时必须再看 sum abs u n 。 逐项求导、逐项积分在收敛区间内部合法；端点处的收敛性可能改变，不能机械保留。 weak: true"
+  },
+  {
+    "id": "doc-65b1384b7021-p29",
+    "docId": "doc-65b1384b7021",
+    "title": "Infinite Series (无穷级数)",
+    "category": "微积分",
+    "page": 29,
     "heading": "无穷级数",
     "snippet": "十一、公式速查表 columns: 1.9fr, 3.4fr , align: left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 内容 , 公式或结论 , 收敛定义 , S n sum k 1 ^n u k, qua...",
     "text": "Infinite Series (无穷级数) Infinite Series 无穷级数 微积分 无穷级数 十一、公式速查表 columns: 1.9fr, 3.4fr , align: left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 内容 , 公式或结论 , 收敛定义 , S n sum k 1 ^n u k, quad lim S n S , 必要条件 , sum u n 收敛 lim u n 0 , 几何级数 , sum n 0 ^infinity q^n 1/ 1-q , quad abs q 1 , p 级数 , sum 1/n^p: p 1 收敛 , p 1 发散 , 极限比较 , lim u n/v n l, 0 l infinity 同敛散 , 比值判别 , lim u n+1 /u n r: r 1 收敛 , r 1 发散 , 根值判别 , lim root n,u n r: r 1 收敛 , r 1 发散 , 交错级数 , a n 单调递减且 a n- 0 sum -1 ^ n-1 a n 收敛 , 绝对收敛 , sum abs u n 收敛 sum u n 收敛 , 幂级数半径 , R 1/lim abs a n+1 /a n , 泰勒展开 , f x sum f^ n x 0 / n! x-x 0 ^n , 2 pi 傅里叶级数 , f x ~a 0/2+sum n 1 ^infinity a n cos n x +b n sin n x , 2 l 傅里叶级数 , f x ~a 0/2+sum n 1 ^infinity a n cos n pi x /l +b n sin n pi x /l , 傅里叶系数 , a n 1/pi integral -pi ^pi f x cos n x med d x, quad b n 1/pi integral -pi ^pi f x sin n x med d x , 傅里叶收敛值 , S x f x+0 +f x-0 /2 , Parseval 等式 , 1/pi integral -pi ^pi f^2 x med d x a 0^2/2+sum n 1 ^infinity a n^2+b n^2 , 最终抓手 无穷级数先问：它是正项、交错、任意项，还是幂级数？正项级数找比较对象，交错级数查单调趋零，任意项先看绝对收敛，幂级数先求半径再查端点。遇到展开题，优先从几个基本展开式变形。"

@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T15:34:53+08:00",
+  "generatedAt": "2026-08-04T15:50:53+08:00",
   "stats": {
     "documents": 23,
-    "pages": 257,
+    "pages": 258,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -660,7 +660,7 @@
           "sourcePath": "typst/Infinite Series (无穷级数).typ",
           "pageImageBase": "./rendered-pages/doc-65b1384b7021/page-",
           "pageImageExtension": "webp",
-          "pageCount": 28,
+          "pageCount": 29,
           "sections": [
             {
               "id": "doc-65b1384b7021-s1",
@@ -677,55 +677,55 @@
             {
               "id": "doc-65b1384b7021-s3",
               "title": "三、正项级数及判别法",
-              "page": 6,
+              "page": 7,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s4",
               "title": "四、任意项级数",
-              "page": 8,
+              "page": 9,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s5",
               "title": "五、幂级数",
-              "page": 10,
+              "page": 11,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s6",
               "title": "六、泰勒级数与常用展开",
-              "page": 12,
+              "page": 13,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s7",
               "title": "七、傅里叶级数要点",
-              "page": 16,
+              "page": 17,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s8",
               "title": "八、典型例题",
-              "page": 22,
+              "page": 23,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s9",
               "title": "九、判别法选择流程",
-              "page": 26,
+              "page": 27,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s10",
               "title": "十、易错点汇总",
-              "page": 27,
+              "page": 28,
               "level": 1
             },
             {
               "id": "doc-65b1384b7021-s11",
               "title": "十一、公式速查表",
-              "page": 28,
+              "page": 29,
               "level": 1
             }
           ]
@@ -1937,7 +1937,7 @@
       "sourcePath": "typst/Infinite Series (无穷级数).typ",
       "pageImageBase": "./rendered-pages/doc-65b1384b7021/page-",
       "pageImageExtension": "webp",
-      "pageCount": 28,
+      "pageCount": 29,
       "sections": [
         {
           "id": "doc-65b1384b7021-s1",
@@ -1954,55 +1954,55 @@
         {
           "id": "doc-65b1384b7021-s3",
           "title": "三、正项级数及判别法",
-          "page": 6,
+          "page": 7,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s4",
           "title": "四、任意项级数",
-          "page": 8,
+          "page": 9,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s5",
           "title": "五、幂级数",
-          "page": 10,
+          "page": 11,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s6",
           "title": "六、泰勒级数与常用展开",
-          "page": 12,
+          "page": 13,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s7",
           "title": "七、傅里叶级数要点",
-          "page": 16,
+          "page": 17,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s8",
           "title": "八、典型例题",
-          "page": 22,
+          "page": 23,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s9",
           "title": "九、判别法选择流程",
-          "page": 26,
+          "page": 27,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s10",
           "title": "十、易错点汇总",
-          "page": 27,
+          "page": 28,
           "level": 1
         },
         {
           "id": "doc-65b1384b7021-s11",
           "title": "十一、公式速查表",
-          "page": 28,
+          "page": 29,
           "level": 1
         }
       ]
