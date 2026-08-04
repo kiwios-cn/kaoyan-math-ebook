@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:50:49+08:00",
+  "generatedAt": "2026-08-04T20:04:49+08:00",
   "stats": {
     "documents": 23,
-    "pages": 267,
+    "pages": 269,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -210,7 +210,7 @@
           "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
           "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
           "pageImageExtension": "webp",
-          "pageCount": 8,
+          "pageCount": 10,
           "sections": [
             {
               "id": "doc-7b5eccba034b-s1",
@@ -227,25 +227,25 @@
             {
               "id": "doc-7b5eccba034b-s3",
               "title": "三、定积分性质",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-7b5eccba034b-s4",
               "title": "四、积分计算方法",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-7b5eccba034b-s5",
               "title": "五、反常积分与高斯积分",
-              "page": 6,
+              "page": 7,
               "level": 1
             },
             {
               "id": "doc-7b5eccba034b-s6",
               "title": "六、典型例题",
-              "page": 8,
+              "page": 9,
               "level": 1
             }
           ]
@@ -1487,7 +1487,7 @@
       "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
       "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
       "pageImageExtension": "webp",
-      "pageCount": 8,
+      "pageCount": 10,
       "sections": [
         {
           "id": "doc-7b5eccba034b-s1",
@@ -1504,25 +1504,25 @@
         {
           "id": "doc-7b5eccba034b-s3",
           "title": "三、定积分性质",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-7b5eccba034b-s4",
           "title": "四、积分计算方法",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-7b5eccba034b-s5",
           "title": "五、反常积分与高斯积分",
-          "page": 6,
+          "page": 7,
           "level": 1
         },
         {
           "id": "doc-7b5eccba034b-s6",
           "title": "六、典型例题",
-          "page": 8,
+          "page": 9,
           "level": 1
         }
       ]

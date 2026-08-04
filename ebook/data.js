@@ -2,10 +2,10 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:50:49+08:00",
+  "generatedAt": "2026-08-04T20:04:49+08:00",
   "stats": {
     "documents": 23,
-    "pages": 267,
+    "pages": 269,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -211,7 +211,7 @@ window.BOOK_MANIFEST = {
           "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
           "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
           "pageImageExtension": "webp",
-          "pageCount": 8,
+          "pageCount": 10,
           "sections": [
             {
               "id": "doc-7b5eccba034b-s1",
@@ -228,25 +228,25 @@ window.BOOK_MANIFEST = {
             {
               "id": "doc-7b5eccba034b-s3",
               "title": "三、定积分性质",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-7b5eccba034b-s4",
               "title": "四、积分计算方法",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-7b5eccba034b-s5",
               "title": "五、反常积分与高斯积分",
-              "page": 6,
+              "page": 7,
               "level": 1
             },
             {
               "id": "doc-7b5eccba034b-s6",
               "title": "六、典型例题",
-              "page": 8,
+              "page": 9,
               "level": 1
             }
           ]
@@ -1488,7 +1488,7 @@ window.BOOK_MANIFEST = {
       "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
       "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
       "pageImageExtension": "webp",
-      "pageCount": 8,
+      "pageCount": 10,
       "sections": [
         {
           "id": "doc-7b5eccba034b-s1",
@@ -1505,25 +1505,25 @@ window.BOOK_MANIFEST = {
         {
           "id": "doc-7b5eccba034b-s3",
           "title": "三、定积分性质",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-7b5eccba034b-s4",
           "title": "四、积分计算方法",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-7b5eccba034b-s5",
           "title": "五、反常积分与高斯积分",
-          "page": 6,
+          "page": 7,
           "level": 1
         },
         {
           "id": "doc-7b5eccba034b-s6",
           "title": "六、典型例题",
-          "page": 8,
+          "page": 9,
           "level": 1
         }
       ]
@@ -2795,17 +2795,7 @@ window.SEARCH_INDEX = [
     "page": 3,
     "heading": "一元函数积分学的概念性质和计算",
     "snippet": "二、定积分 1. 定积分定义 定积分 integral a^b f x med d x 表示函数在区间 a,b 上的累积量。若 f x 0 ，它表示曲线 y f x 与 x 轴、直线 x a 、 x b 围成的面积。 当上下限交换时： integral a^b f x med d x -integral b^a f x med d x 若...",
-    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 二、定积分 1. 定积分定义 定积分 integral a^b f x med d x 表示函数在区间 a,b 上的累积量。若 f x 0 ，它表示曲线 y f x 与 x 轴、直线 x a 、 x b 围成的面积。 当上下限交换时： integral a^b f x med d x -integral b^a f x med d x 若上下限相同： integral a^a f x med d x 0 2. 牛顿-莱布尼茨公式 若 F' x f x ，则 integral a^b f x med d x F b -F a 这把定积分计算转化为找原函数。 3. 变上限积分 若 Phi x integral a^x f t med d t 且 f 连续，则 Phi' x f x 若上限是复合函数： Phi x integral a^ g x f t med d t 则 Phi' x f g x g' x 若上下限都含 x ： Phi x integral u x ^ v x f t med d t 则 Phi' x f v x v' x -f u x u' x"
-  },
-  {
-    "id": "doc-7b5eccba034b-p4",
-    "docId": "doc-7b5eccba034b",
-    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
-    "category": "微积分",
-    "page": 4,
-    "heading": "一元函数积分学的概念性质和计算",
-    "snippet": "三、定积分性质 1. 线性与区间可加 integral a^b alpha f x +beta g x med d x alpha integral a^b f x med d x+beta integral a^b g x med d x integral a^b f x med d x integral a^c f x med d x...",
-    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 三、定积分性质 1. 线性与区间可加 integral a^b alpha f x +beta g x med d x alpha integral a^b f x med d x+beta integral a^b g x med d x integral a^b f x med d x integral a^c f x med d x+integral c^b f x med d x 2. 保号性与估值 若 f x 0 ，则 integral a^b f x med d x 0 若 m f x M ，则 m b-a integral a^b f x med d x M b-a 3. 积分中值定理 若 f x 在 a,b 上连续，则存在 xi in a,b ，使 integral a^b f x med d x f xi b-a 这说明连续函数在区间上的积分等于某一点函数值乘以区间长度。 4. 对称性 若 f x 为奇函数，则 integral -a ^a f x med d x 0 若 f x 为偶函数，则 integral -a ^a f x med d x 2 integral 0^a f x med d x 对称区间题先判断奇偶性，往往能大幅简化计算。"
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 二、定积分 1. 定积分定义 定积分 integral a^b f x med d x 表示函数在区间 a,b 上的累积量。若 f x 0 ，它表示曲线 y f x 与 x 轴、直线 x a 、 x b 围成的面积。 当上下限交换时： integral a^b f x med d x -integral b^a f x med d x 若上下限相同： integral a^a f x med d x 0 2. 牛顿-莱布尼茨公式 若 F' x f x ，则 integral a^b f x med d x F b -F a 这把定积分计算转化为找原函数。 3. 变上限积分 若 Phi x integral a^x f t med d t 且 f 连续，则 Phi' x f x 若上限是复合函数： Phi x integral a^ g x f t med d t 则 Phi' x f g x g' x 若上下限都含 x ： Phi x integral u x ^ v x f t med d t 则 Phi' x f v x v' x -f u x u' x 若被积函数和积分上下限同时含 x ： I x integral u x ^ v x f x,t med d t 则需要同时考虑三部分变化： I' x f x,v x v' x -f x,u x u' x +integral u x ^ v x partial f x,t / partial x med d t 其中 u x ,v x 可导，且 f x,t 与 f x x,t 在相关区域内连续时，上式可直接使用。 公式理解 1. f x,v x v' x 是上限移动带来的贡献。\\ 2. -f x,u x u' x 是下限移动带来的贡献，注意负号。\\ 3. integral u^v f x x,t d t 是被积函数本身随 x 改变带来的贡献。\\ 4. 若被积函数不含 x ，第三项为 0 ，公式退化为普通变上下限积分求导。 推导思路可以这样看。令 H x,y integral a^y f x,t med d t 则 I x H x,v x -H x,u x 由变上限积分和含参变量积分求导可得 H y x,y f x,y , quad H x x,y integral a^y partial f x,t / partial x med d t 再对 H x,v x 和 H x,u x 分别用链式法则，相减后就得到通用公式。 最常见错误是只处理上下限，漏掉 integral u^v f x x,t d t ；或者只对被积函数求偏导，漏掉上下限移动产生的边界项。判断时先问自己： x 是出现在上限、下限，还是被积函数里？出现在哪里就必须贡献一项。"
   },
   {
     "id": "doc-7b5eccba034b-p5",
@@ -2814,8 +2804,8 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 5,
     "heading": "一元函数积分学的概念性质和计算",
-    "snippet": "四、积分计算方法 1. 第一类换元法 若被积函数中出现复合结构 f g x g' x ，可令 u g x ： integral f g x g' x med d x integral f u med d u 2. 第二类换元法 定积分中换元 x phi t 时，要同步替换上下限： integral a^b f x med d x inte...",
-    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 四、积分计算方法 1. 第一类换元法 若被积函数中出现复合结构 f g x g' x ，可令 u g x ： integral f g x g' x med d x integral f u med d u 2. 第二类换元法 定积分中换元 x phi t 时，要同步替换上下限： integral a^b f x med d x integral alpha^beta f phi t phi' t med d t 其中 phi alpha a ， phi beta b 。 3. 分部积分法 由乘积求导公式可得： integral u med d v u v-integral v med d u 定积分形式为： integral a^b u v' med d x u v a^b-integral a^b u' v med d x 常用选择顺序可记为：对数、反三角、幂、三角、指数。通常把求导后变简单的函数选作 u 。 4. 有理函数积分 有理函数积分常用思路： 1. 若分子次数不低于分母，先作多项式除法。 2. 分母能因式分解时，做部分分式分解。 3. 二次不可约因子常配方转化为反正切或对数。"
+    "snippet": "三、定积分性质 1. 线性与区间可加 integral a^b alpha f x +beta g x med d x alpha integral a^b f x med d x+beta integral a^b g x med d x integral a^b f x med d x integral a^c f x med d x...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 三、定积分性质 1. 线性与区间可加 integral a^b alpha f x +beta g x med d x alpha integral a^b f x med d x+beta integral a^b g x med d x integral a^b f x med d x integral a^c f x med d x+integral c^b f x med d x 2. 保号性与估值 若 f x 0 ，则 integral a^b f x med d x 0 若 m f x M ，则 m b-a integral a^b f x med d x M b-a 3. 积分中值定理 若 f x 在 a,b 上连续，则存在 xi in a,b ，使 integral a^b f x med d x f xi b-a 这说明连续函数在区间上的积分等于某一点函数值乘以区间长度。 4. 对称性 若 f x 为奇函数，则 integral -a ^a f x med d x 0 若 f x 为偶函数，则 integral -a ^a f x med d x 2 integral 0^a f x med d x 对称区间题先判断奇偶性，往往能大幅简化计算。"
   },
   {
     "id": "doc-7b5eccba034b-p6",
@@ -2824,18 +2814,28 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 6,
     "heading": "一元函数积分学的概念性质和计算",
+    "snippet": "四、积分计算方法 1. 第一类换元法 若被积函数中出现复合结构 f g x g' x ，可令 u g x ： integral f g x g' x med d x integral f u med d u 2. 第二类换元法 定积分中换元 x phi t 时，要同步替换上下限： integral a^b f x med d x inte...",
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 四、积分计算方法 1. 第一类换元法 若被积函数中出现复合结构 f g x g' x ，可令 u g x ： integral f g x g' x med d x integral f u med d u 2. 第二类换元法 定积分中换元 x phi t 时，要同步替换上下限： integral a^b f x med d x integral alpha^beta f phi t phi' t med d t 其中 phi alpha a ， phi beta b 。 3. 分部积分法 由乘积求导公式可得： integral u med d v u v-integral v med d u 定积分形式为： integral a^b u v' med d x u v a^b-integral a^b u' v med d x 常用选择顺序可记为：对数、反三角、幂、三角、指数。通常把求导后变简单的函数选作 u 。 4. 有理函数积分 有理函数积分常用思路： 1. 若分子次数不低于分母，先作多项式除法。 2. 分母能因式分解时，做部分分式分解。 3. 二次不可约因子常配方转化为反正切或对数。"
+  },
+  {
+    "id": "doc-7b5eccba034b-p7",
+    "docId": "doc-7b5eccba034b",
+    "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "一元函数积分学的概念性质和计算",
     "snippet": "五、反常积分与高斯积分 1. 反常积分的基本判断 当积分区间无穷或被积函数在区间内有无界点时，定积分需要按反常积分理解。例如： integral a^ +infinity f x med d x lim b- +infinity integral a^b f x med d x 若极限存在且有限，则称反常积分收敛；否则发散。 weight...",
     "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 五、反常积分与高斯积分 1. 反常积分的基本判断 当积分区间无穷或被积函数在区间内有无界点时，定积分需要按反常积分理解。例如： integral a^ +infinity f x med d x lim b- +infinity integral a^b f x med d x 若极限存在且有限，则称反常积分收敛；否则发散。 weight: bold , fill: rgb 必要直觉： 在无穷区间上，若被积函数不趋于 0 ，反常积分通常不可能收敛。即使趋于 0 ，也仍要继续判断衰减速度。 2. e^ x^2 在全实轴上的积分 考虑： integral -infinity ^ +infinity e^ x^2 med d x 因为对任意实数 x ，都有 e^ x^2 1 所以 integral -infinity ^ +infinity e^ x^2 med d x integral -infinity ^ +infinity 1 med d x +infinity 因此该反常积分发散，且发散到 +infinity 。 weight: bold , fill: rgb 常见混淆： e^ x^2 与 e^ -x^2 完全不同。前者在无穷远处急剧增大，积分发散；后者在无穷远处快速衰减，积分收敛。 3. 高斯积分的计算过程 经典高斯积分为： integral -infinity ^ +infinity e^ -x^2 med d x sqrt pi 令 I integral -infinity ^ +infinity e^ -x^2 med d x 因为 e^ -x^2 0 ，所以 I 0 。两边平方： I^2 integral -infinity ^ +infinity e^ -x^2 med d x integral -infinity ^ +infinity e^ -y^2 med d y 合成整个平面上的二重积分： I^2 integral integral RR^2 e^ - x^2+y^2 med d x med d y 改用极坐标： x r cos theta, quad y r sin theta, quad med d x med d y r med d r med d theta 整个平面对应： 0 r +infinity, quad 0 theta 2 pi 于是 I^2 integral 0^ 2 pi integral 0^ +infinity e^ -r^2 r med d r med d theta 令 u r^2 ，则 r med d r 1/2 med d u ，因此 integral 0^ +infinity e^ -r^2 r med d r 1/2 integral 0^ +infinity e^ -u med d u 1/2 代回： I^2 integral 0^ 2 pi 1/2 med d theta pi 由于 I 0 ，所以 I sqrt pi 记忆路线 高斯积分的核心路线是：设 I ，平方成 I^2 ，合并为 RR^2 上的二重积分，再用极坐标把 x^2+y^2 化为 r^2 ，最后利用雅可比因子 r 完成计算。"
   },
   {
-    "id": "doc-7b5eccba034b-p8",
+    "id": "doc-7b5eccba034b-p9",
     "docId": "doc-7b5eccba034b",
     "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
     "category": "微积分",
-    "page": 8,
+    "page": 9,
     "heading": "一元函数积分学的概念性质和计算",
     "snippet": "六、典型例题 例题 1：分部积分 题目 求 integral x e^x med d x 。 取 u x, quad med d v e^x med d x 则 med d u med d x, quad v e^x 由分部积分公式， integral x e^x med d x x e^x-integral e^x med d x 所以...",
-    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 六、典型例题 例题 1：分部积分 题目 求 integral x e^x med d x 。 取 u x, quad med d v e^x med d x 则 med d u med d x, quad v e^x 由分部积分公式， integral x e^x med d x x e^x-integral e^x med d x 所以 integral x e^x med d x x e^x-e^x+C 例题 2：三角函数定积分 题目 求 integral 0^ pi/2 sin^3 x med d x 。 写成 sin^3 x sin x 1-cos^2 x 令 u cos x ，则 med d u -sin x med d x 。当 x 0 时 u 1 ，当 x pi/2 时 u 0 ： integral 0^ pi/2 sin^3 x med d x integral 1^0 - 1-u^2 med d u integral 0^1 1-u^2 med d u u-u^3/3 0^1 2/3 例题 3：变上限积分求导 题目 设 Phi x integral x^2 ^ sin x e^ t^2 med d t ，求 Phi' x 。 由上下限均含 x 的公式： Phi' x e^ sin x ^2 cos x-e^ x^2 ^2 dot 2 x 即 Phi' x e^ sin^2 x cos x-2 x e^ x^4"
+    "text": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算) Integral Calculus Concepts Properties and Computation 一元函数积分学的概念性质和计算 微积分 一元函数积分学的概念性质和计算 六、典型例题 例题 1：分部积分 题目 求 integral x e^x med d x 。 取 u x, quad med d v e^x med d x 则 med d u med d x, quad v e^x 由分部积分公式， integral x e^x med d x x e^x-integral e^x med d x 所以 integral x e^x med d x x e^x-e^x+C 例题 2：三角函数定积分 题目 求 integral 0^ pi/2 sin^3 x med d x 。 写成 sin^3 x sin x 1-cos^2 x 令 u cos x ，则 med d u -sin x med d x 。当 x 0 时 u 1 ，当 x pi/2 时 u 0 ： integral 0^ pi/2 sin^3 x med d x integral 1^0 - 1-u^2 med d u integral 0^1 1-u^2 med d u u-u^3/3 0^1 2/3 例题 3：变上限积分求导 题目 设 Phi x integral x^2 ^ sin x e^ t^2 med d t ，求 Phi' x 。 由上下限均含 x 的公式： Phi' x e^ sin x ^2 cos x-e^ x^2 ^2 dot 2 x 即 Phi' x e^ sin^2 x cos x-2 x e^ x^4 例题 4：上下限和被积函数都含 x 题目 设 I x integral x^ x^2 e^ x t med d t ，求 I' x 。 这里 u x x, quad v x x^2, quad f x,t e^ x t 先分别求出三部分： f x,v x v' x e^ x dot x^2 dot 2 x 2 x e^ x^3 -f x,u x u' x -e^ x dot x dot 1 -e^ x^2 integral x^ x^2 partial / partial x e^ x t med d t integral x^ x^2 t e^ x t med d t 所以 I' x 2 x e^ x^3 -e^ x^2 +integral x^ x^2 t e^ x t med d t 本题总结 被积函数和上下限都含 x 时，不要试图先把积分算出来。按“上限边界项、下限边界项、被积函数偏导积分项”三步写，通常最快也最稳。"
   },
   {
     "id": "doc-71615c501140-p2",
