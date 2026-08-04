@@ -10,6 +10,7 @@ const PAGE_OBSERVER_MARGIN = "900px 0px";
 const BACKGROUND_PRELOAD_START_DELAY_MS = 1800;
 const BACKGROUND_PRELOAD_BATCH_DELAY_MS = 320;
 const BACKGROUND_PRELOAD_BATCH_SIZE = 2;
+const SERVICE_WORKER_FILE = "./sw.js";
 
 const state = {
   activeDocId: null,
@@ -82,6 +83,15 @@ function encodePageImagePath(documentItem, pageNumber) {
   const imageExtension = documentItem.pageImageExtension || manifest.stats?.pageImageExtension || "webp";
   const version = new URLSearchParams({ v: getPageAssetVersion() });
   return `${documentItem.pageImageBase}${imagePageNumber}.${imageExtension}?${version.toString()}`;
+}
+
+function getServiceWorkerUrl() {
+  const version = new URLSearchParams({ v: getPageAssetVersion() });
+  return `${SERVICE_WORKER_FILE}?${version.toString()}`;
+}
+
+function canRegisterServiceWorker() {
+  return typeof navigator !== "undefined" && "serviceWorker" in navigator && window.isSecureContext;
 }
 
 function getPrefetchPageRange(pageCount, centerPage, radius = PAGE_PRELOAD_RADIUS) {
@@ -295,7 +305,13 @@ function renderPageStack(documentItem) {
     image.dataset.src = encodePageImagePath(documentItem, pageNumber);
     image.alt = `${documentItem.chineseTitle || documentItem.title} 第 ${pageNumber} 页`;
 
-    sheet.append(image);
+    const retryButton = document.createElement("button");
+    retryButton.type = "button";
+    retryButton.className = "page-retry";
+    retryButton.textContent = "重新加载";
+    retryButton.addEventListener("click", () => retryPageImageLoad(image));
+
+    sheet.append(image, retryButton);
     fragment.append(sheet);
   }
   elements.pageStack.replaceChildren(fragment);
@@ -342,7 +358,17 @@ function requestPageImageLoad(image, priority = "auto") {
     return;
   }
   configurePageImageRequest(image, priority);
-  image.addEventListener("load", () => image.classList.add("is-loaded"), { once: true });
+  setPageImageState(image, "loading");
+  image.addEventListener("load", () => setPageImageState(image, "loaded"), { once: true });
+  image.addEventListener(
+    "error",
+    () => {
+      image.removeAttribute("src");
+      image.src = "";
+      setPageImageState(image, "error");
+    },
+    { once: true }
+  );
   image.src = image.dataset.src;
 }
 
@@ -356,6 +382,31 @@ function configurePageImageRequest(image, priority = "auto") {
       image.fetchPriority = priority === "high" ? "high" : "low";
     }
   }
+}
+
+function setPageImageState(image, status) {
+  const sheet = image?.closest?.(".page-sheet") || image?.parentElement || null;
+  const statusClasses = ["is-loading", "is-loaded", "is-error"];
+  if (sheet?.classList) {
+    sheet.classList.remove(...statusClasses);
+    sheet.classList.add(`is-${status}`);
+  }
+  if (image?.classList) {
+    if (status === "loaded") {
+      image.classList.add("is-loaded");
+    } else {
+      image.classList.remove("is-loaded");
+    }
+  }
+}
+
+function retryPageImageLoad(image) {
+  if (!image) {
+    return;
+  }
+  image.removeAttribute("src");
+  image.src = "";
+  requestPageImageLoad(image, "high");
 }
 
 function warmNearbyPageImages(documentItem, centerPage) {
@@ -666,6 +717,16 @@ function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function registerServiceWorker() {
+  if (!canRegisterServiceWorker()) {
+    return Promise.resolve(null);
+  }
+  return navigator.serviceWorker.register(getServiceWorkerUrl(), { scope: "./" }).catch((error) => {
+    console.warn("Service Worker 注册失败，页面仍会按普通模式加载。", error);
+    return null;
+  });
+}
+
 function init() {
   bindElements();
   restoreStateFromHash();
@@ -673,6 +734,7 @@ function init() {
   renderToc();
   renderSubjectTabs();
   bindEvents();
+  registerServiceWorker();
   openDocument(state.activeDocId, state.activePage);
   performSearch();
 }

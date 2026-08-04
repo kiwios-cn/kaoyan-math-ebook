@@ -360,7 +360,39 @@ input:focus {
   overflow: hidden;
 }
 
+.page-sheet::before {
+  content: "正在加载页面";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  background:
+    linear-gradient(105deg, rgba(255, 255, 255, 0) 32%, rgba(37, 99, 235, 0.06) 48%, rgba(255, 255, 255, 0) 64%),
+    repeating-linear-gradient(0deg, #ffffff 0 34px, #f7f4ed 34px 35px);
+  background-size: 220% 100%, 100% 100%;
+  color: rgba(107, 102, 94, 0.82);
+  font-size: 13px;
+  letter-spacing: 0;
+  transition: opacity 140ms ease-out;
+  animation: page-placeholder-sweep 1.8s ease-in-out infinite;
+}
+
+.page-sheet.is-loaded::before {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.page-sheet.is-error::before {
+  content: "页面加载失败";
+  background: #fff5f7;
+  color: var(--red);
+  animation: none;
+}
+
 .page-image {
+  position: relative;
+  z-index: 2;
   display: block;
   width: 100%;
   height: 100%;
@@ -372,6 +404,32 @@ input:focus {
 
 .page-image.is-loaded {
   opacity: 1;
+}
+
+.page-retry {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: calc(50% + 34px);
+  display: none;
+  transform: translateX(-50%);
+  border-color: var(--red);
+  background: var(--red);
+  box-shadow: 0 12px 28px rgba(220, 38, 38, 0.18);
+}
+
+.page-sheet.is-error .page-retry {
+  display: inline-flex;
+  align-items: center;
+}
+
+@keyframes page-placeholder-sweep {
+  0% {
+    background-position: 120% 0, 0 0;
+  }
+  100% {
+    background-position: -120% 0, 0 0;
+  }
 }
 
 .page-nav-button {
