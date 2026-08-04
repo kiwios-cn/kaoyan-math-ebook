@@ -1,13 +1,14 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T14:42:56+08:00",
+  "generatedAt": "2026-08-04T15:01:22+08:00",
   "stats": {
     "documents": 23,
     "pages": 257,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-png",
-    "searchEntries": 257
+    "contentSource": "typst",
+    "searchEntries": 160
   },
   "categories": [
     {
@@ -16,43 +17,41 @@
       "accent": "#2563eb",
       "documents": [
         {
-          "id": "doc-881c0cac3960",
+          "id": "doc-d91cdbd85352",
           "title": "Limits and Continuity (函数的极限与连续)",
           "englishTitle": "Limits and Continuity",
           "chineseTitle": "函数的极限与连续",
           "category": "微积分",
-          "path": "微积分/Limits and Continuity (函数的极限与连续).pdf",
-          "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
-          "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
+          "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
           "pageCount": 12,
           "sections": [
             {
-              "id": "doc-881c0cac3960-s1",
+              "id": "doc-d91cdbd85352-s1",
               "title": "一、函数极限的基本概念",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-881c0cac3960-s2",
+              "id": "doc-d91cdbd85352-s2",
               "title": "二、常用极限与等价无穷小",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-881c0cac3960-s3",
+              "id": "doc-d91cdbd85352-s3",
               "title": "三、极限计算方法",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-881c0cac3960-s4",
+              "id": "doc-d91cdbd85352-s4",
               "title": "四、连续性与间断点",
               "page": 11,
               "level": 1
             },
             {
-              "id": "doc-881c0cac3960-s5",
+              "id": "doc-d91cdbd85352-s5",
               "title": "五、典型例题",
               "page": 12,
               "level": 1
@@ -60,49 +59,47 @@
           ]
         },
         {
-          "id": "doc-d3af775c5a55",
+          "id": "doc-9511fbfdb877",
           "title": "Sequence Limits (数列的极限)",
           "englishTitle": "Sequence Limits",
           "chineseTitle": "数列的极限",
           "category": "微积分",
-          "path": "微积分/Sequence Limits (数列的极限).pdf",
-          "webPath": "../微积分/Sequence Limits (数列的极限).pdf",
           "sourcePath": "typst/Sequence Limits (数列的极限).typ",
-          "pageImageBase": "./rendered-pages/doc-d3af775c5a55/page-",
+          "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
           "pageCount": 8,
           "sections": [
             {
-              "id": "doc-d3af775c5a55-s1",
+              "id": "doc-9511fbfdb877-s1",
               "title": "一、数列极限的定义",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-d3af775c5a55-s2",
+              "id": "doc-9511fbfdb877-s2",
               "title": "二、极限运算法则",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-d3af775c5a55-s3",
+              "id": "doc-9511fbfdb877-s3",
               "title": "三、常用数列极限",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-d3af775c5a55-s4",
+              "id": "doc-9511fbfdb877-s4",
               "title": "四、常用求法",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-d3af775c5a55-s5",
+              "id": "doc-9511fbfdb877-s5",
               "title": "五、递推数列",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-d3af775c5a55-s6",
+              "id": "doc-9511fbfdb877-s6",
               "title": "六、典型例题",
               "page": 7,
               "level": 1
@@ -110,49 +107,47 @@
           ]
         },
         {
-          "id": "doc-f02190ce156c",
+          "id": "doc-31985d1e27f4",
           "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
           "englishTitle": "Differential Calculus Concepts and Computation",
           "chineseTitle": "一元函数微分学的概念和计算",
           "category": "微积分",
-          "path": "微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
-          "webPath": "../微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
-          "pageImageBase": "./rendered-pages/doc-f02190ce156c/page-",
+          "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageCount": 8,
           "sections": [
             {
-              "id": "doc-f02190ce156c-s1",
+              "id": "doc-31985d1e27f4-s1",
               "title": "一、导数的概念",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-f02190ce156c-s2",
+              "id": "doc-31985d1e27f4-s2",
               "title": "二、微分与局部线性化",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-f02190ce156c-s3",
+              "id": "doc-31985d1e27f4-s3",
               "title": "三、基本求导公式",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-f02190ce156c-s4",
+              "id": "doc-31985d1e27f4-s4",
               "title": "四、求导法则",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-f02190ce156c-s5",
+              "id": "doc-31985d1e27f4-s5",
               "title": "五、高阶导数与常见结构",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-f02190ce156c-s6",
+              "id": "doc-31985d1e27f4-s6",
               "title": "六、典型例题",
               "page": 8,
               "level": 1
@@ -160,43 +155,41 @@
           ]
         },
         {
-          "id": "doc-8d9ed00135c3",
+          "id": "doc-70452ebbf4aa",
           "title": "Applications of Differential Calculus (一元函数微分学的应用)",
           "englishTitle": "Applications of Differential Calculus",
           "chineseTitle": "一元函数微分学的应用",
           "category": "微积分",
-          "path": "微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
-          "webPath": "../微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
           "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
-          "pageImageBase": "./rendered-pages/doc-8d9ed00135c3/page-",
+          "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
           "pageCount": 7,
           "sections": [
             {
-              "id": "doc-8d9ed00135c3-s1",
+              "id": "doc-70452ebbf4aa-s1",
               "title": "一、几何应用",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-8d9ed00135c3-s2",
+              "id": "doc-70452ebbf4aa-s2",
               "title": "二、中值定理",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-8d9ed00135c3-s3",
+              "id": "doc-70452ebbf4aa-s3",
               "title": "三、等式与不等式证明",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-8d9ed00135c3-s4",
+              "id": "doc-70452ebbf4aa-s4",
               "title": "四、物理应用",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-8d9ed00135c3-s5",
+              "id": "doc-70452ebbf4aa-s5",
               "title": "五、典型例题",
               "page": 6,
               "level": 1
@@ -204,49 +197,47 @@
           ]
         },
         {
-          "id": "doc-eabf82064524",
+          "id": "doc-7b5eccba034b",
           "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
           "englishTitle": "Integral Calculus Concepts Properties and Computation",
           "chineseTitle": "一元函数积分学的概念性质和计算",
           "category": "微积分",
-          "path": "微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
-          "webPath": "../微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
           "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
-          "pageImageBase": "./rendered-pages/doc-eabf82064524/page-",
+          "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
           "pageCount": 8,
           "sections": [
             {
-              "id": "doc-eabf82064524-s1",
+              "id": "doc-7b5eccba034b-s1",
               "title": "一、不定积分",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-eabf82064524-s2",
+              "id": "doc-7b5eccba034b-s2",
               "title": "二、定积分",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-eabf82064524-s3",
+              "id": "doc-7b5eccba034b-s3",
               "title": "三、定积分性质",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-eabf82064524-s4",
+              "id": "doc-7b5eccba034b-s4",
               "title": "四、积分计算方法",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-eabf82064524-s5",
+              "id": "doc-7b5eccba034b-s5",
               "title": "五、反常积分与高斯积分",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-eabf82064524-s6",
+              "id": "doc-7b5eccba034b-s6",
               "title": "六、典型例题",
               "page": 8,
               "level": 1
@@ -254,37 +245,35 @@
           ]
         },
         {
-          "id": "doc-30e6a86d0f61",
+          "id": "doc-71615c501140",
           "title": "Applications of Integral Calculus (一元函数积分学的应用)",
           "englishTitle": "Applications of Integral Calculus",
           "chineseTitle": "一元函数积分学的应用",
           "category": "微积分",
-          "path": "微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
-          "webPath": "../微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
           "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
-          "pageImageBase": "./rendered-pages/doc-30e6a86d0f61/page-",
+          "pageImageBase": "./rendered-pages/doc-71615c501140/page-",
           "pageCount": 6,
           "sections": [
             {
-              "id": "doc-30e6a86d0f61-s1",
+              "id": "doc-71615c501140-s1",
               "title": "一、几何应用",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-30e6a86d0f61-s2",
+              "id": "doc-71615c501140-s2",
               "title": "二、积分等式与不等式证明",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-30e6a86d0f61-s3",
+              "id": "doc-71615c501140-s3",
               "title": "三、物理应用",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-30e6a86d0f61-s4",
+              "id": "doc-71615c501140-s4",
               "title": "四、典型例题",
               "page": 5,
               "level": 1
@@ -292,55 +281,53 @@
           ]
         },
         {
-          "id": "doc-87b9b66a0f76",
+          "id": "doc-533e017b0a89",
           "title": "Multivariable Differential Calculus (多元函数微分学)",
           "englishTitle": "Multivariable Differential Calculus",
           "chineseTitle": "多元函数微分学",
           "category": "微积分",
-          "path": "微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
-          "webPath": "../微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
           "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
-          "pageImageBase": "./rendered-pages/doc-87b9b66a0f76/page-",
+          "pageImageBase": "./rendered-pages/doc-533e017b0a89/page-",
           "pageCount": 9,
           "sections": [
             {
-              "id": "doc-87b9b66a0f76-s1",
+              "id": "doc-533e017b0a89-s1",
               "title": "一、多元函数与极限连续",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-87b9b66a0f76-s2",
+              "id": "doc-533e017b0a89-s2",
               "title": "二、偏导数与全微分",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-87b9b66a0f76-s3",
+              "id": "doc-533e017b0a89-s3",
               "title": "三、复合函数与隐函数求导",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-87b9b66a0f76-s4",
+              "id": "doc-533e017b0a89-s4",
               "title": "四、方向导数与梯度",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-87b9b66a0f76-s5",
+              "id": "doc-533e017b0a89-s5",
               "title": "五、几何应用",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-87b9b66a0f76-s6",
+              "id": "doc-533e017b0a89-s6",
               "title": "六、多元函数极值",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-87b9b66a0f76-s7",
+              "id": "doc-533e017b0a89-s7",
               "title": "七、典型例题",
               "page": 8,
               "level": 1
@@ -348,85 +335,83 @@
           ]
         },
         {
-          "id": "doc-b907693d8c25",
+          "id": "doc-edb4f436fb9f",
           "title": "Double Integral Methods (二重积分计算方法)",
           "englishTitle": "Double Integral Methods",
           "chineseTitle": "二重积分计算方法",
           "category": "微积分",
-          "path": "微积分/Double Integral Methods (二重积分计算方法).pdf",
-          "webPath": "../微积分/Double Integral Methods (二重积分计算方法).pdf",
           "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
-          "pageImageBase": "./rendered-pages/doc-b907693d8c25/page-",
+          "pageImageBase": "./rendered-pages/doc-edb4f436fb9f/page-",
           "pageCount": 21,
           "sections": [
             {
-              "id": "doc-b907693d8c25-s1",
+              "id": "doc-edb4f436fb9f-s1",
               "title": "一、二重积分的定义与几何意义",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s2",
+              "id": "doc-edb4f436fb9f-s2",
               "title": "二、二重积分的基本性质",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s3",
+              "id": "doc-edb4f436fb9f-s3",
               "title": "三、直角坐标下的计算方法",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s4",
+              "id": "doc-edb4f436fb9f-s4",
               "title": "四、交换积分次序",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s5",
+              "id": "doc-edb4f436fb9f-s5",
               "title": "五、极坐标法",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s6",
+              "id": "doc-edb4f436fb9f-s6",
               "title": "六、一般变量替换与雅可比",
               "page": 10,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s7",
+              "id": "doc-edb4f436fb9f-s7",
               "title": "七、对称性与奇偶性",
               "page": 11,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s8",
+              "id": "doc-edb4f436fb9f-s8",
               "title": "八、二重积分的常见应用",
               "page": 13,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s9",
+              "id": "doc-edb4f436fb9f-s9",
               "title": "九、典型例题讲解",
               "page": 14,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s10",
+              "id": "doc-edb4f436fb9f-s10",
               "title": "十、考研常见题型与解题模板",
               "page": 18,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s11",
+              "id": "doc-edb4f436fb9f-s11",
               "title": "十一、易错点汇总",
               "page": 20,
               "level": 1
             },
             {
-              "id": "doc-b907693d8c25-s12",
+              "id": "doc-edb4f436fb9f-s12",
               "title": "十二、公式速查表",
               "page": 21,
               "level": 1
@@ -434,115 +419,113 @@
           ]
         },
         {
-          "id": "doc-73ec94e14160",
+          "id": "doc-1e5093567925",
           "title": "Multivariable Integral Calculus (多元函数积分学)",
           "englishTitle": "Multivariable Integral Calculus",
           "chineseTitle": "多元函数积分学",
           "category": "微积分",
-          "path": "微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
-          "webPath": "../微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
           "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
-          "pageImageBase": "./rendered-pages/doc-73ec94e14160/page-",
+          "pageImageBase": "./rendered-pages/doc-1e5093567925/page-",
           "pageCount": 37,
           "sections": [
             {
-              "id": "doc-73ec94e14160-s1",
+              "id": "doc-1e5093567925-s1",
               "title": "一、整体框架",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s2",
+              "id": "doc-1e5093567925-s2",
               "title": "二、向量与空间解析几何",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s3",
+              "id": "doc-1e5093567925-s3",
               "title": "三、多元函数微分与场论基础",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s4",
+              "id": "doc-1e5093567925-s4",
               "title": "四、二重积分",
               "page": 9,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s5",
+              "id": "doc-1e5093567925-s5",
               "title": "五、三重积分",
               "page": 12,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s6",
+              "id": "doc-1e5093567925-s6",
               "title": "六、第一型曲线积分",
               "page": 15,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s7",
+              "id": "doc-1e5093567925-s7",
               "title": "七、第二型曲线积分",
               "page": 17,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s8",
+              "id": "doc-1e5093567925-s8",
               "title": "八、格林公式",
               "page": 19,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s9",
+              "id": "doc-1e5093567925-s9",
               "title": "九、第一型曲面积分",
               "page": 22,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s10",
+              "id": "doc-1e5093567925-s10",
               "title": "十、第二型曲面积分",
               "page": 24,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s11",
+              "id": "doc-1e5093567925-s11",
               "title": "十一、高斯公式",
               "page": 25,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s12",
+              "id": "doc-1e5093567925-s12",
               "title": "十二、斯托克斯公式",
               "page": 26,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s13",
+              "id": "doc-1e5093567925-s13",
               "title": "十三、三大公式对比",
               "page": 27,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s14",
+              "id": "doc-1e5093567925-s14",
               "title": "十四、常用计算方法总览",
               "page": 28,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s15",
+              "id": "doc-1e5093567925-s15",
               "title": "十五、典型综合题",
               "page": 29,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s16",
+              "id": "doc-1e5093567925-s16",
               "title": "十六、易错点汇总",
               "page": 36,
               "level": 1
             },
             {
-              "id": "doc-73ec94e14160-s17",
+              "id": "doc-1e5093567925-s17",
               "title": "十七、公式速查表",
               "page": 37,
               "level": 1
@@ -550,109 +533,107 @@
           ]
         },
         {
-          "id": "doc-2e19c43e8eca",
+          "id": "doc-8501fc2c1136",
           "title": "Ordinary Differential Equations (常微分方程)",
           "englishTitle": "Ordinary Differential Equations",
           "chineseTitle": "常微分方程",
           "category": "微积分",
-          "path": "微积分/Ordinary Differential Equations (常微分方程).pdf",
-          "webPath": "../微积分/Ordinary Differential Equations (常微分方程).pdf",
           "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
-          "pageImageBase": "./rendered-pages/doc-2e19c43e8eca/page-",
+          "pageImageBase": "./rendered-pages/doc-8501fc2c1136/page-",
           "pageCount": 25,
           "sections": [
             {
-              "id": "doc-2e19c43e8eca-s1",
+              "id": "doc-8501fc2c1136-s1",
               "title": "一、基本概念",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s2",
+              "id": "doc-8501fc2c1136-s2",
               "title": "二、一阶可分离变量方程",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s3",
+              "id": "doc-8501fc2c1136-s3",
               "title": "三、一阶齐次方程",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s4",
+              "id": "doc-8501fc2c1136-s4",
               "title": "四、一阶线性微分方程",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s5",
+              "id": "doc-8501fc2c1136-s5",
               "title": "五、伯努利方程",
               "page": 10,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s6",
+              "id": "doc-8501fc2c1136-s6",
               "title": "六、全微分方程",
               "page": 11,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s7",
+              "id": "doc-8501fc2c1136-s7",
               "title": "七、可降阶高阶微分方程",
               "page": 13,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s8",
+              "id": "doc-8501fc2c1136-s8",
               "title": "八、线性微分方程总论",
               "page": 14,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s9",
+              "id": "doc-8501fc2c1136-s9",
               "title": "九、二阶线性常系数齐次方程",
               "page": 15,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s10",
+              "id": "doc-8501fc2c1136-s10",
               "title": "十、二阶线性常系数非齐次方程",
               "page": 16,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s11",
+              "id": "doc-8501fc2c1136-s11",
               "title": "十一、常数变易法",
               "page": 18,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s12",
+              "id": "doc-8501fc2c1136-s12",
               "title": "十二、欧拉方程",
               "page": 19,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s13",
+              "id": "doc-8501fc2c1136-s13",
               "title": "十三、齐次与非齐次、特解与通解的关系",
               "page": 20,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s14",
+              "id": "doc-8501fc2c1136-s14",
               "title": "十四、典型综合例题",
               "page": 21,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s15",
+              "id": "doc-8501fc2c1136-s15",
               "title": "十五、考研解题识别表",
               "page": 24,
               "level": 1
             },
             {
-              "id": "doc-2e19c43e8eca-s16",
+              "id": "doc-8501fc2c1136-s16",
               "title": "十六、公式速查表",
               "page": 25,
               "level": 1
@@ -660,79 +641,77 @@
           ]
         },
         {
-          "id": "doc-ed23c04b20bf",
+          "id": "doc-65b1384b7021",
           "title": "Infinite Series (无穷级数)",
           "englishTitle": "Infinite Series",
           "chineseTitle": "无穷级数",
           "category": "微积分",
-          "path": "微积分/Infinite Series (无穷级数).pdf",
-          "webPath": "../微积分/Infinite Series (无穷级数).pdf",
           "sourcePath": "typst/Infinite Series (无穷级数).typ",
-          "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
+          "pageImageBase": "./rendered-pages/doc-65b1384b7021/page-",
           "pageCount": 28,
           "sections": [
             {
-              "id": "doc-ed23c04b20bf-s1",
+              "id": "doc-65b1384b7021-s1",
               "title": "一、无穷级数的基本概念",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s2",
+              "id": "doc-65b1384b7021-s2",
               "title": "二、几个基础级数",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s3",
+              "id": "doc-65b1384b7021-s3",
               "title": "三、正项级数及判别法",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s4",
+              "id": "doc-65b1384b7021-s4",
               "title": "四、任意项级数",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s5",
+              "id": "doc-65b1384b7021-s5",
               "title": "五、幂级数",
               "page": 10,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s6",
+              "id": "doc-65b1384b7021-s6",
               "title": "六、泰勒级数与常用展开",
               "page": 12,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s7",
+              "id": "doc-65b1384b7021-s7",
               "title": "七、傅里叶级数要点",
               "page": 16,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s8",
+              "id": "doc-65b1384b7021-s8",
               "title": "八、典型例题",
               "page": 22,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s9",
+              "id": "doc-65b1384b7021-s9",
               "title": "九、判别法选择流程",
               "page": 26,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s10",
+              "id": "doc-65b1384b7021-s10",
               "title": "十、易错点汇总",
               "page": 27,
               "level": 1
             },
             {
-              "id": "doc-ed23c04b20bf-s11",
+              "id": "doc-65b1384b7021-s11",
               "title": "十一、公式速查表",
               "page": 28,
               "level": 1
@@ -747,61 +726,59 @@
       "accent": "#d97706",
       "documents": [
         {
-          "id": "doc-2999b2188b1e",
+          "id": "doc-e327a0614070",
           "title": "Determinants (行列式)",
           "englishTitle": "Determinants",
           "chineseTitle": "行列式",
           "category": "线性代数",
-          "path": "线性代数/Determinants (行列式).pdf",
-          "webPath": "../线性代数/Determinants (行列式).pdf",
           "sourcePath": "typst/Determinants (行列式).typ",
-          "pageImageBase": "./rendered-pages/doc-2999b2188b1e/page-",
+          "pageImageBase": "./rendered-pages/doc-e327a0614070/page-",
           "pageCount": 13,
           "sections": [
             {
-              "id": "doc-2999b2188b1e-s1",
+              "id": "doc-e327a0614070-s1",
               "title": "一、行列式的定义",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s2",
+              "id": "doc-e327a0614070-s2",
               "title": "二、几何意义与向量关系",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s3",
+              "id": "doc-e327a0614070-s3",
               "title": "三、基本性质",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s4",
+              "id": "doc-e327a0614070-s4",
               "title": "四、展开定理",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s5",
+              "id": "doc-e327a0614070-s5",
               "title": "五、常用计算方法",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s6",
+              "id": "doc-e327a0614070-s6",
               "title": "六、与矩阵和方程组的联系",
               "page": 11,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s7",
+              "id": "doc-e327a0614070-s7",
               "title": "七、典型题型",
               "page": 12,
               "level": 1
             },
             {
-              "id": "doc-2999b2188b1e-s8",
+              "id": "doc-e327a0614070-s8",
               "title": "八、公式速查表",
               "page": 13,
               "level": 1
@@ -809,67 +786,65 @@
           ]
         },
         {
-          "id": "doc-f8d85d8d3cbe",
+          "id": "doc-6f04bd967f27",
           "title": "Matrices (矩阵)",
           "englishTitle": "Matrices",
           "chineseTitle": "矩阵",
           "category": "线性代数",
-          "path": "线性代数/Matrices (矩阵).pdf",
-          "webPath": "../线性代数/Matrices (矩阵).pdf",
           "sourcePath": "typst/Matrices (矩阵).typ",
-          "pageImageBase": "./rendered-pages/doc-f8d85d8d3cbe/page-",
+          "pageImageBase": "./rendered-pages/doc-6f04bd967f27/page-",
           "pageCount": 12,
           "sections": [
             {
-              "id": "doc-f8d85d8d3cbe-s1",
+              "id": "doc-6f04bd967f27-s1",
               "title": "一、矩阵与基本运算",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s2",
+              "id": "doc-6f04bd967f27-s2",
               "title": "二、特殊矩阵",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s3",
+              "id": "doc-6f04bd967f27-s3",
               "title": "三、Gram 矩阵",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s4",
+              "id": "doc-6f04bd967f27-s4",
               "title": "四、逆矩阵",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s5",
+              "id": "doc-6f04bd967f27-s5",
               "title": "五、初等变换与初等矩阵",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s6",
+              "id": "doc-6f04bd967f27-s6",
               "title": "六、矩阵秩",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s7",
+              "id": "doc-6f04bd967f27-s7",
               "title": "七、分块矩阵",
               "page": 9,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s8",
+              "id": "doc-6f04bd967f27-s8",
               "title": "八、典型题型",
               "page": 11,
               "level": 1
             },
             {
-              "id": "doc-f8d85d8d3cbe-s9",
+              "id": "doc-6f04bd967f27-s9",
               "title": "九、公式速查表",
               "page": 12,
               "level": 1
@@ -877,61 +852,59 @@
           ]
         },
         {
-          "id": "doc-aedda68a99a2",
+          "id": "doc-6071de49f089",
           "title": "Vector Groups (向量组)",
           "englishTitle": "Vector Groups",
           "chineseTitle": "向量组",
           "category": "线性代数",
-          "path": "线性代数/Vector Groups (向量组).pdf",
-          "webPath": "../线性代数/Vector Groups (向量组).pdf",
           "sourcePath": "typst/Vector Groups (向量组).typ",
-          "pageImageBase": "./rendered-pages/doc-aedda68a99a2/page-",
+          "pageImageBase": "./rendered-pages/doc-6071de49f089/page-",
           "pageCount": 9,
           "sections": [
             {
-              "id": "doc-aedda68a99a2-s1",
+              "id": "doc-6071de49f089-s1",
               "title": "一、向量与线性组合",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s2",
+              "id": "doc-6071de49f089-s2",
               "title": "二、线性相关与线性无关",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s3",
+              "id": "doc-6071de49f089-s3",
               "title": "三、向量组的秩",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s4",
+              "id": "doc-6071de49f089-s4",
               "title": "四、向量组等价",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s5",
+              "id": "doc-6071de49f089-s5",
               "title": "五、线性表示的判定",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s6",
+              "id": "doc-6071de49f089-s6",
               "title": "六、常见结论",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s7",
+              "id": "doc-6071de49f089-s7",
               "title": "七、典型题型",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-aedda68a99a2-s8",
+              "id": "doc-6071de49f089-s8",
               "title": "八、公式速查表",
               "page": 9,
               "level": 1
@@ -939,61 +912,59 @@
           ]
         },
         {
-          "id": "doc-715b679dcb8e",
+          "id": "doc-ddbc73072965",
           "title": "Linear Equations (线性方程组)",
           "englishTitle": "Linear Equations",
           "chineseTitle": "线性方程组",
           "category": "线性代数",
-          "path": "线性代数/Linear Equations (线性方程组).pdf",
-          "webPath": "../线性代数/Linear Equations (线性方程组).pdf",
           "sourcePath": "typst/Linear Equations (线性方程组).typ",
-          "pageImageBase": "./rendered-pages/doc-715b679dcb8e/page-",
+          "pageImageBase": "./rendered-pages/doc-ddbc73072965/page-",
           "pageCount": 9,
           "sections": [
             {
-              "id": "doc-715b679dcb8e-s1",
+              "id": "doc-ddbc73072965-s1",
               "title": "一、基本形式",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s2",
+              "id": "doc-ddbc73072965-s2",
               "title": "二、齐次线性方程组",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s3",
+              "id": "doc-ddbc73072965-s3",
               "title": "三、非齐次线性方程组",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s4",
+              "id": "doc-ddbc73072965-s4",
               "title": "四、解的性质",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s5",
+              "id": "doc-ddbc73072965-s5",
               "title": "五、求解步骤",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s6",
+              "id": "doc-ddbc73072965-s6",
               "title": "六、参数方程组",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s7",
+              "id": "doc-ddbc73072965-s7",
               "title": "七、典型题型",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-715b679dcb8e-s8",
+              "id": "doc-ddbc73072965-s8",
               "title": "八、公式速查表",
               "page": 9,
               "level": 1
@@ -1001,61 +972,59 @@
           ]
         },
         {
-          "id": "doc-2dc2609d51d3",
+          "id": "doc-26a4cb5a0cac",
           "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
           "englishTitle": "Eigenvalues and Eigenvectors",
           "chineseTitle": "特征值与特征向量",
           "category": "线性代数",
-          "path": "线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
-          "webPath": "../线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
           "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
-          "pageImageBase": "./rendered-pages/doc-2dc2609d51d3/page-",
+          "pageImageBase": "./rendered-pages/doc-26a4cb5a0cac/page-",
           "pageCount": 9,
           "sections": [
             {
-              "id": "doc-2dc2609d51d3-s1",
+              "id": "doc-26a4cb5a0cac-s1",
               "title": "一、基本定义",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s2",
+              "id": "doc-26a4cb5a0cac-s2",
               "title": "二、求解步骤",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s3",
+              "id": "doc-26a4cb5a0cac-s3",
               "title": "三、特征值性质",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s4",
+              "id": "doc-26a4cb5a0cac-s4",
               "title": "四、相似矩阵",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s5",
+              "id": "doc-26a4cb5a0cac-s5",
               "title": "五、矩阵对角化",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s6",
+              "id": "doc-26a4cb5a0cac-s6",
               "title": "六、实对称矩阵",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s7",
+              "id": "doc-26a4cb5a0cac-s7",
               "title": "七、典型题型",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-2dc2609d51d3-s8",
+              "id": "doc-26a4cb5a0cac-s8",
               "title": "八、公式速查表",
               "page": 9,
               "level": 1
@@ -1063,61 +1032,59 @@
           ]
         },
         {
-          "id": "doc-ccaf3c879ab3",
+          "id": "doc-423aee1acbc9",
           "title": "Quadratic Forms (二次型)",
           "englishTitle": "Quadratic Forms",
           "chineseTitle": "二次型",
           "category": "线性代数",
-          "path": "线性代数/Quadratic Forms (二次型).pdf",
-          "webPath": "../线性代数/Quadratic Forms (二次型).pdf",
           "sourcePath": "typst/Quadratic Forms (二次型).typ",
-          "pageImageBase": "./rendered-pages/doc-ccaf3c879ab3/page-",
+          "pageImageBase": "./rendered-pages/doc-423aee1acbc9/page-",
           "pageCount": 9,
           "sections": [
             {
-              "id": "doc-ccaf3c879ab3-s1",
+              "id": "doc-423aee1acbc9-s1",
               "title": "一、二次型与矩阵表示",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s2",
+              "id": "doc-423aee1acbc9-s2",
               "title": "二、合同变换与标准形",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s3",
+              "id": "doc-423aee1acbc9-s3",
               "title": "三、惯性定理",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s4",
+              "id": "doc-423aee1acbc9-s4",
               "title": "四、化标准形的方法",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s5",
+              "id": "doc-423aee1acbc9-s5",
               "title": "五、正定二次型",
               "page": 6,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s6",
+              "id": "doc-423aee1acbc9-s6",
               "title": "六、半正定与不定",
               "page": 7,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s7",
+              "id": "doc-423aee1acbc9-s7",
               "title": "七、典型题型",
               "page": 8,
               "level": 1
             },
             {
-              "id": "doc-ccaf3c879ab3-s8",
+              "id": "doc-423aee1acbc9-s8",
               "title": "八、公式速查表",
               "page": 9,
               "level": 1
@@ -1132,25 +1099,23 @@
       "accent": "#059669",
       "documents": [
         {
-          "id": "doc-157b9a897c2c",
+          "id": "doc-4c85b4ebe57e",
           "title": "Random Events and Probability (随机事件与概率)",
           "englishTitle": "Random Events and Probability",
           "chineseTitle": "随机事件与概率",
           "category": "概率论",
-          "path": "概率论/Random Events and Probability (随机事件与概率).pdf",
-          "webPath": "../概率论/Random Events and Probability (随机事件与概率).pdf",
           "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
-          "pageImageBase": "./rendered-pages/doc-157b9a897c2c/page-",
+          "pageImageBase": "./rendered-pages/doc-4c85b4ebe57e/page-",
           "pageCount": 3,
           "sections": [
             {
-              "id": "doc-157b9a897c2c-s1",
+              "id": "doc-4c85b4ebe57e-s1",
               "title": "一、随机事件与概率",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-157b9a897c2c-s2",
+              "id": "doc-4c85b4ebe57e-s2",
               "title": "二、概率计算题处理策略",
               "page": 3,
               "level": 1
@@ -1158,37 +1123,35 @@
           ]
         },
         {
-          "id": "doc-5913a24c9a32",
+          "id": "doc-cc8436a64b8f",
           "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
           "englishTitle": "One-Dimensional Random Variables and Distributions",
           "chineseTitle": "一维随机变量及其分布",
           "category": "概率论",
-          "path": "概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
-          "webPath": "../概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
           "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
-          "pageImageBase": "./rendered-pages/doc-5913a24c9a32/page-",
+          "pageImageBase": "./rendered-pages/doc-cc8436a64b8f/page-",
           "pageCount": 7,
           "sections": [
             {
-              "id": "doc-5913a24c9a32-s1",
+              "id": "doc-cc8436a64b8f-s1",
               "title": "一、随机变量与分布函数",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-5913a24c9a32-s2",
+              "id": "doc-cc8436a64b8f-s2",
               "title": "二、常见离散分布",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-5913a24c9a32-s3",
+              "id": "doc-cc8436a64b8f-s3",
               "title": "三、常见连续分布",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-5913a24c9a32-s4",
+              "id": "doc-cc8436a64b8f-s4",
               "title": "四、一维分布题处理策略",
               "page": 7,
               "level": 1
@@ -1196,25 +1159,23 @@
           ]
         },
         {
-          "id": "doc-4f2d664a2807",
+          "id": "doc-aaa66842cd9a",
           "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
           "englishTitle": "Multidimensional Random Variables and Distributions",
           "chineseTitle": "多维随机变量及其分布",
           "category": "概率论",
-          "path": "概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
-          "webPath": "../概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
           "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
-          "pageImageBase": "./rendered-pages/doc-4f2d664a2807/page-",
+          "pageImageBase": "./rendered-pages/doc-aaa66842cd9a/page-",
           "pageCount": 5,
           "sections": [
             {
-              "id": "doc-4f2d664a2807-s1",
+              "id": "doc-aaa66842cd9a-s1",
               "title": "一、多维随机变量及其分布",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-4f2d664a2807-s2",
+              "id": "doc-aaa66842cd9a-s2",
               "title": "二、多维分布题处理策略",
               "page": 5,
               "level": 1
@@ -1222,25 +1183,23 @@
           ]
         },
         {
-          "id": "doc-795d51900278",
+          "id": "doc-72d9b199102b",
           "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
           "englishTitle": "Numerical Characteristics of Random Variables",
           "chineseTitle": "随机变量的数字特征",
           "category": "概率论",
-          "path": "概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
-          "webPath": "../概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
           "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
-          "pageImageBase": "./rendered-pages/doc-795d51900278/page-",
+          "pageImageBase": "./rendered-pages/doc-72d9b199102b/page-",
           "pageCount": 3,
           "sections": [
             {
-              "id": "doc-795d51900278-s1",
+              "id": "doc-72d9b199102b-s1",
               "title": "一、随机变量的数字特征",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-795d51900278-s2",
+              "id": "doc-72d9b199102b-s2",
               "title": "二、数字特征题处理策略",
               "page": 3,
               "level": 1
@@ -1248,19 +1207,17 @@
           ]
         },
         {
-          "id": "doc-7afde55fc309",
+          "id": "doc-7380228c6a89",
           "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
           "englishTitle": "Laws of Large Numbers and Central Limit Theorem",
           "chineseTitle": "大数定律和中心极限定理",
           "category": "概率论",
-          "path": "概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
-          "webPath": "../概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
           "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
-          "pageImageBase": "./rendered-pages/doc-7afde55fc309/page-",
+          "pageImageBase": "./rendered-pages/doc-7380228c6a89/page-",
           "pageCount": 3,
           "sections": [
             {
-              "id": "doc-7afde55fc309-s1",
+              "id": "doc-7380228c6a89-s1",
               "title": "一、大数定律与中心极限定理",
               "page": 2,
               "level": 1
@@ -1268,43 +1225,41 @@
           ]
         },
         {
-          "id": "doc-df8d3694236b",
+          "id": "doc-10d0cca247cf",
           "title": "Mathematical Statistics (数理统计)",
           "englishTitle": "Mathematical Statistics",
           "chineseTitle": "数理统计",
           "category": "概率论",
-          "path": "概率论/Mathematical Statistics (数理统计).pdf",
-          "webPath": "../概率论/Mathematical Statistics (数理统计).pdf",
           "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
-          "pageImageBase": "./rendered-pages/doc-df8d3694236b/page-",
+          "pageImageBase": "./rendered-pages/doc-10d0cca247cf/page-",
           "pageCount": 6,
           "sections": [
             {
-              "id": "doc-df8d3694236b-s1",
+              "id": "doc-10d0cca247cf-s1",
               "title": "一、数理统计基础",
               "page": 2,
               "level": 1
             },
             {
-              "id": "doc-df8d3694236b-s2",
+              "id": "doc-10d0cca247cf-s2",
               "title": "二、参数估计",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-df8d3694236b-s3",
+              "id": "doc-10d0cca247cf-s3",
               "title": "三、假设检验",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-df8d3694236b-s4",
+              "id": "doc-10d0cca247cf-s4",
               "title": "四、方差分析与回归",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-df8d3694236b-s5",
+              "id": "doc-10d0cca247cf-s5",
               "title": "五、统计推断题处理策略",
               "page": 6,
               "level": 1
@@ -1316,43 +1271,41 @@
   ],
   "documents": [
     {
-      "id": "doc-881c0cac3960",
+      "id": "doc-d91cdbd85352",
       "title": "Limits and Continuity (函数的极限与连续)",
       "englishTitle": "Limits and Continuity",
       "chineseTitle": "函数的极限与连续",
       "category": "微积分",
-      "path": "微积分/Limits and Continuity (函数的极限与连续).pdf",
-      "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
-      "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
+      "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
       "pageCount": 12,
       "sections": [
         {
-          "id": "doc-881c0cac3960-s1",
+          "id": "doc-d91cdbd85352-s1",
           "title": "一、函数极限的基本概念",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-881c0cac3960-s2",
+          "id": "doc-d91cdbd85352-s2",
           "title": "二、常用极限与等价无穷小",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-881c0cac3960-s3",
+          "id": "doc-d91cdbd85352-s3",
           "title": "三、极限计算方法",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-881c0cac3960-s4",
+          "id": "doc-d91cdbd85352-s4",
           "title": "四、连续性与间断点",
           "page": 11,
           "level": 1
         },
         {
-          "id": "doc-881c0cac3960-s5",
+          "id": "doc-d91cdbd85352-s5",
           "title": "五、典型例题",
           "page": 12,
           "level": 1
@@ -1360,49 +1313,47 @@
       ]
     },
     {
-      "id": "doc-d3af775c5a55",
+      "id": "doc-9511fbfdb877",
       "title": "Sequence Limits (数列的极限)",
       "englishTitle": "Sequence Limits",
       "chineseTitle": "数列的极限",
       "category": "微积分",
-      "path": "微积分/Sequence Limits (数列的极限).pdf",
-      "webPath": "../微积分/Sequence Limits (数列的极限).pdf",
       "sourcePath": "typst/Sequence Limits (数列的极限).typ",
-      "pageImageBase": "./rendered-pages/doc-d3af775c5a55/page-",
+      "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
       "pageCount": 8,
       "sections": [
         {
-          "id": "doc-d3af775c5a55-s1",
+          "id": "doc-9511fbfdb877-s1",
           "title": "一、数列极限的定义",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-d3af775c5a55-s2",
+          "id": "doc-9511fbfdb877-s2",
           "title": "二、极限运算法则",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-d3af775c5a55-s3",
+          "id": "doc-9511fbfdb877-s3",
           "title": "三、常用数列极限",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-d3af775c5a55-s4",
+          "id": "doc-9511fbfdb877-s4",
           "title": "四、常用求法",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-d3af775c5a55-s5",
+          "id": "doc-9511fbfdb877-s5",
           "title": "五、递推数列",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-d3af775c5a55-s6",
+          "id": "doc-9511fbfdb877-s6",
           "title": "六、典型例题",
           "page": 7,
           "level": 1
@@ -1410,49 +1361,47 @@
       ]
     },
     {
-      "id": "doc-f02190ce156c",
+      "id": "doc-31985d1e27f4",
       "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
       "englishTitle": "Differential Calculus Concepts and Computation",
       "chineseTitle": "一元函数微分学的概念和计算",
       "category": "微积分",
-      "path": "微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
-      "webPath": "../微积分/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).pdf",
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
-      "pageImageBase": "./rendered-pages/doc-f02190ce156c/page-",
+      "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageCount": 8,
       "sections": [
         {
-          "id": "doc-f02190ce156c-s1",
+          "id": "doc-31985d1e27f4-s1",
           "title": "一、导数的概念",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-f02190ce156c-s2",
+          "id": "doc-31985d1e27f4-s2",
           "title": "二、微分与局部线性化",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-f02190ce156c-s3",
+          "id": "doc-31985d1e27f4-s3",
           "title": "三、基本求导公式",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-f02190ce156c-s4",
+          "id": "doc-31985d1e27f4-s4",
           "title": "四、求导法则",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-f02190ce156c-s5",
+          "id": "doc-31985d1e27f4-s5",
           "title": "五、高阶导数与常见结构",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-f02190ce156c-s6",
+          "id": "doc-31985d1e27f4-s6",
           "title": "六、典型例题",
           "page": 8,
           "level": 1
@@ -1460,43 +1409,41 @@
       ]
     },
     {
-      "id": "doc-8d9ed00135c3",
+      "id": "doc-70452ebbf4aa",
       "title": "Applications of Differential Calculus (一元函数微分学的应用)",
       "englishTitle": "Applications of Differential Calculus",
       "chineseTitle": "一元函数微分学的应用",
       "category": "微积分",
-      "path": "微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
-      "webPath": "../微积分/Applications of Differential Calculus (一元函数微分学的应用).pdf",
       "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
-      "pageImageBase": "./rendered-pages/doc-8d9ed00135c3/page-",
+      "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
       "pageCount": 7,
       "sections": [
         {
-          "id": "doc-8d9ed00135c3-s1",
+          "id": "doc-70452ebbf4aa-s1",
           "title": "一、几何应用",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-8d9ed00135c3-s2",
+          "id": "doc-70452ebbf4aa-s2",
           "title": "二、中值定理",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-8d9ed00135c3-s3",
+          "id": "doc-70452ebbf4aa-s3",
           "title": "三、等式与不等式证明",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-8d9ed00135c3-s4",
+          "id": "doc-70452ebbf4aa-s4",
           "title": "四、物理应用",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-8d9ed00135c3-s5",
+          "id": "doc-70452ebbf4aa-s5",
           "title": "五、典型例题",
           "page": 6,
           "level": 1
@@ -1504,49 +1451,47 @@
       ]
     },
     {
-      "id": "doc-eabf82064524",
+      "id": "doc-7b5eccba034b",
       "title": "Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算)",
       "englishTitle": "Integral Calculus Concepts Properties and Computation",
       "chineseTitle": "一元函数积分学的概念性质和计算",
       "category": "微积分",
-      "path": "微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
-      "webPath": "../微积分/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).pdf",
       "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
-      "pageImageBase": "./rendered-pages/doc-eabf82064524/page-",
+      "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
       "pageCount": 8,
       "sections": [
         {
-          "id": "doc-eabf82064524-s1",
+          "id": "doc-7b5eccba034b-s1",
           "title": "一、不定积分",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-eabf82064524-s2",
+          "id": "doc-7b5eccba034b-s2",
           "title": "二、定积分",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-eabf82064524-s3",
+          "id": "doc-7b5eccba034b-s3",
           "title": "三、定积分性质",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-eabf82064524-s4",
+          "id": "doc-7b5eccba034b-s4",
           "title": "四、积分计算方法",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-eabf82064524-s5",
+          "id": "doc-7b5eccba034b-s5",
           "title": "五、反常积分与高斯积分",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-eabf82064524-s6",
+          "id": "doc-7b5eccba034b-s6",
           "title": "六、典型例题",
           "page": 8,
           "level": 1
@@ -1554,37 +1499,35 @@
       ]
     },
     {
-      "id": "doc-30e6a86d0f61",
+      "id": "doc-71615c501140",
       "title": "Applications of Integral Calculus (一元函数积分学的应用)",
       "englishTitle": "Applications of Integral Calculus",
       "chineseTitle": "一元函数积分学的应用",
       "category": "微积分",
-      "path": "微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
-      "webPath": "../微积分/Applications of Integral Calculus (一元函数积分学的应用).pdf",
       "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
-      "pageImageBase": "./rendered-pages/doc-30e6a86d0f61/page-",
+      "pageImageBase": "./rendered-pages/doc-71615c501140/page-",
       "pageCount": 6,
       "sections": [
         {
-          "id": "doc-30e6a86d0f61-s1",
+          "id": "doc-71615c501140-s1",
           "title": "一、几何应用",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-30e6a86d0f61-s2",
+          "id": "doc-71615c501140-s2",
           "title": "二、积分等式与不等式证明",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-30e6a86d0f61-s3",
+          "id": "doc-71615c501140-s3",
           "title": "三、物理应用",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-30e6a86d0f61-s4",
+          "id": "doc-71615c501140-s4",
           "title": "四、典型例题",
           "page": 5,
           "level": 1
@@ -1592,55 +1535,53 @@
       ]
     },
     {
-      "id": "doc-87b9b66a0f76",
+      "id": "doc-533e017b0a89",
       "title": "Multivariable Differential Calculus (多元函数微分学)",
       "englishTitle": "Multivariable Differential Calculus",
       "chineseTitle": "多元函数微分学",
       "category": "微积分",
-      "path": "微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
-      "webPath": "../微积分/Multivariable Differential Calculus (多元函数微分学).pdf",
       "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
-      "pageImageBase": "./rendered-pages/doc-87b9b66a0f76/page-",
+      "pageImageBase": "./rendered-pages/doc-533e017b0a89/page-",
       "pageCount": 9,
       "sections": [
         {
-          "id": "doc-87b9b66a0f76-s1",
+          "id": "doc-533e017b0a89-s1",
           "title": "一、多元函数与极限连续",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-87b9b66a0f76-s2",
+          "id": "doc-533e017b0a89-s2",
           "title": "二、偏导数与全微分",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-87b9b66a0f76-s3",
+          "id": "doc-533e017b0a89-s3",
           "title": "三、复合函数与隐函数求导",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-87b9b66a0f76-s4",
+          "id": "doc-533e017b0a89-s4",
           "title": "四、方向导数与梯度",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-87b9b66a0f76-s5",
+          "id": "doc-533e017b0a89-s5",
           "title": "五、几何应用",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-87b9b66a0f76-s6",
+          "id": "doc-533e017b0a89-s6",
           "title": "六、多元函数极值",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-87b9b66a0f76-s7",
+          "id": "doc-533e017b0a89-s7",
           "title": "七、典型例题",
           "page": 8,
           "level": 1
@@ -1648,85 +1589,83 @@
       ]
     },
     {
-      "id": "doc-b907693d8c25",
+      "id": "doc-edb4f436fb9f",
       "title": "Double Integral Methods (二重积分计算方法)",
       "englishTitle": "Double Integral Methods",
       "chineseTitle": "二重积分计算方法",
       "category": "微积分",
-      "path": "微积分/Double Integral Methods (二重积分计算方法).pdf",
-      "webPath": "../微积分/Double Integral Methods (二重积分计算方法).pdf",
       "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
-      "pageImageBase": "./rendered-pages/doc-b907693d8c25/page-",
+      "pageImageBase": "./rendered-pages/doc-edb4f436fb9f/page-",
       "pageCount": 21,
       "sections": [
         {
-          "id": "doc-b907693d8c25-s1",
+          "id": "doc-edb4f436fb9f-s1",
           "title": "一、二重积分的定义与几何意义",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s2",
+          "id": "doc-edb4f436fb9f-s2",
           "title": "二、二重积分的基本性质",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s3",
+          "id": "doc-edb4f436fb9f-s3",
           "title": "三、直角坐标下的计算方法",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s4",
+          "id": "doc-edb4f436fb9f-s4",
           "title": "四、交换积分次序",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s5",
+          "id": "doc-edb4f436fb9f-s5",
           "title": "五、极坐标法",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s6",
+          "id": "doc-edb4f436fb9f-s6",
           "title": "六、一般变量替换与雅可比",
           "page": 10,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s7",
+          "id": "doc-edb4f436fb9f-s7",
           "title": "七、对称性与奇偶性",
           "page": 11,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s8",
+          "id": "doc-edb4f436fb9f-s8",
           "title": "八、二重积分的常见应用",
           "page": 13,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s9",
+          "id": "doc-edb4f436fb9f-s9",
           "title": "九、典型例题讲解",
           "page": 14,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s10",
+          "id": "doc-edb4f436fb9f-s10",
           "title": "十、考研常见题型与解题模板",
           "page": 18,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s11",
+          "id": "doc-edb4f436fb9f-s11",
           "title": "十一、易错点汇总",
           "page": 20,
           "level": 1
         },
         {
-          "id": "doc-b907693d8c25-s12",
+          "id": "doc-edb4f436fb9f-s12",
           "title": "十二、公式速查表",
           "page": 21,
           "level": 1
@@ -1734,115 +1673,113 @@
       ]
     },
     {
-      "id": "doc-73ec94e14160",
+      "id": "doc-1e5093567925",
       "title": "Multivariable Integral Calculus (多元函数积分学)",
       "englishTitle": "Multivariable Integral Calculus",
       "chineseTitle": "多元函数积分学",
       "category": "微积分",
-      "path": "微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
-      "webPath": "../微积分/Multivariable Integral Calculus (多元函数积分学).pdf",
       "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
-      "pageImageBase": "./rendered-pages/doc-73ec94e14160/page-",
+      "pageImageBase": "./rendered-pages/doc-1e5093567925/page-",
       "pageCount": 37,
       "sections": [
         {
-          "id": "doc-73ec94e14160-s1",
+          "id": "doc-1e5093567925-s1",
           "title": "一、整体框架",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s2",
+          "id": "doc-1e5093567925-s2",
           "title": "二、向量与空间解析几何",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s3",
+          "id": "doc-1e5093567925-s3",
           "title": "三、多元函数微分与场论基础",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s4",
+          "id": "doc-1e5093567925-s4",
           "title": "四、二重积分",
           "page": 9,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s5",
+          "id": "doc-1e5093567925-s5",
           "title": "五、三重积分",
           "page": 12,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s6",
+          "id": "doc-1e5093567925-s6",
           "title": "六、第一型曲线积分",
           "page": 15,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s7",
+          "id": "doc-1e5093567925-s7",
           "title": "七、第二型曲线积分",
           "page": 17,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s8",
+          "id": "doc-1e5093567925-s8",
           "title": "八、格林公式",
           "page": 19,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s9",
+          "id": "doc-1e5093567925-s9",
           "title": "九、第一型曲面积分",
           "page": 22,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s10",
+          "id": "doc-1e5093567925-s10",
           "title": "十、第二型曲面积分",
           "page": 24,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s11",
+          "id": "doc-1e5093567925-s11",
           "title": "十一、高斯公式",
           "page": 25,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s12",
+          "id": "doc-1e5093567925-s12",
           "title": "十二、斯托克斯公式",
           "page": 26,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s13",
+          "id": "doc-1e5093567925-s13",
           "title": "十三、三大公式对比",
           "page": 27,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s14",
+          "id": "doc-1e5093567925-s14",
           "title": "十四、常用计算方法总览",
           "page": 28,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s15",
+          "id": "doc-1e5093567925-s15",
           "title": "十五、典型综合题",
           "page": 29,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s16",
+          "id": "doc-1e5093567925-s16",
           "title": "十六、易错点汇总",
           "page": 36,
           "level": 1
         },
         {
-          "id": "doc-73ec94e14160-s17",
+          "id": "doc-1e5093567925-s17",
           "title": "十七、公式速查表",
           "page": 37,
           "level": 1
@@ -1850,109 +1787,107 @@
       ]
     },
     {
-      "id": "doc-2e19c43e8eca",
+      "id": "doc-8501fc2c1136",
       "title": "Ordinary Differential Equations (常微分方程)",
       "englishTitle": "Ordinary Differential Equations",
       "chineseTitle": "常微分方程",
       "category": "微积分",
-      "path": "微积分/Ordinary Differential Equations (常微分方程).pdf",
-      "webPath": "../微积分/Ordinary Differential Equations (常微分方程).pdf",
       "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
-      "pageImageBase": "./rendered-pages/doc-2e19c43e8eca/page-",
+      "pageImageBase": "./rendered-pages/doc-8501fc2c1136/page-",
       "pageCount": 25,
       "sections": [
         {
-          "id": "doc-2e19c43e8eca-s1",
+          "id": "doc-8501fc2c1136-s1",
           "title": "一、基本概念",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s2",
+          "id": "doc-8501fc2c1136-s2",
           "title": "二、一阶可分离变量方程",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s3",
+          "id": "doc-8501fc2c1136-s3",
           "title": "三、一阶齐次方程",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s4",
+          "id": "doc-8501fc2c1136-s4",
           "title": "四、一阶线性微分方程",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s5",
+          "id": "doc-8501fc2c1136-s5",
           "title": "五、伯努利方程",
           "page": 10,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s6",
+          "id": "doc-8501fc2c1136-s6",
           "title": "六、全微分方程",
           "page": 11,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s7",
+          "id": "doc-8501fc2c1136-s7",
           "title": "七、可降阶高阶微分方程",
           "page": 13,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s8",
+          "id": "doc-8501fc2c1136-s8",
           "title": "八、线性微分方程总论",
           "page": 14,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s9",
+          "id": "doc-8501fc2c1136-s9",
           "title": "九、二阶线性常系数齐次方程",
           "page": 15,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s10",
+          "id": "doc-8501fc2c1136-s10",
           "title": "十、二阶线性常系数非齐次方程",
           "page": 16,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s11",
+          "id": "doc-8501fc2c1136-s11",
           "title": "十一、常数变易法",
           "page": 18,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s12",
+          "id": "doc-8501fc2c1136-s12",
           "title": "十二、欧拉方程",
           "page": 19,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s13",
+          "id": "doc-8501fc2c1136-s13",
           "title": "十三、齐次与非齐次、特解与通解的关系",
           "page": 20,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s14",
+          "id": "doc-8501fc2c1136-s14",
           "title": "十四、典型综合例题",
           "page": 21,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s15",
+          "id": "doc-8501fc2c1136-s15",
           "title": "十五、考研解题识别表",
           "page": 24,
           "level": 1
         },
         {
-          "id": "doc-2e19c43e8eca-s16",
+          "id": "doc-8501fc2c1136-s16",
           "title": "十六、公式速查表",
           "page": 25,
           "level": 1
@@ -1960,79 +1895,77 @@
       ]
     },
     {
-      "id": "doc-ed23c04b20bf",
+      "id": "doc-65b1384b7021",
       "title": "Infinite Series (无穷级数)",
       "englishTitle": "Infinite Series",
       "chineseTitle": "无穷级数",
       "category": "微积分",
-      "path": "微积分/Infinite Series (无穷级数).pdf",
-      "webPath": "../微积分/Infinite Series (无穷级数).pdf",
       "sourcePath": "typst/Infinite Series (无穷级数).typ",
-      "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
+      "pageImageBase": "./rendered-pages/doc-65b1384b7021/page-",
       "pageCount": 28,
       "sections": [
         {
-          "id": "doc-ed23c04b20bf-s1",
+          "id": "doc-65b1384b7021-s1",
           "title": "一、无穷级数的基本概念",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s2",
+          "id": "doc-65b1384b7021-s2",
           "title": "二、几个基础级数",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s3",
+          "id": "doc-65b1384b7021-s3",
           "title": "三、正项级数及判别法",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s4",
+          "id": "doc-65b1384b7021-s4",
           "title": "四、任意项级数",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s5",
+          "id": "doc-65b1384b7021-s5",
           "title": "五、幂级数",
           "page": 10,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s6",
+          "id": "doc-65b1384b7021-s6",
           "title": "六、泰勒级数与常用展开",
           "page": 12,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s7",
+          "id": "doc-65b1384b7021-s7",
           "title": "七、傅里叶级数要点",
           "page": 16,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s8",
+          "id": "doc-65b1384b7021-s8",
           "title": "八、典型例题",
           "page": 22,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s9",
+          "id": "doc-65b1384b7021-s9",
           "title": "九、判别法选择流程",
           "page": 26,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s10",
+          "id": "doc-65b1384b7021-s10",
           "title": "十、易错点汇总",
           "page": 27,
           "level": 1
         },
         {
-          "id": "doc-ed23c04b20bf-s11",
+          "id": "doc-65b1384b7021-s11",
           "title": "十一、公式速查表",
           "page": 28,
           "level": 1
@@ -2040,61 +1973,59 @@
       ]
     },
     {
-      "id": "doc-2999b2188b1e",
+      "id": "doc-e327a0614070",
       "title": "Determinants (行列式)",
       "englishTitle": "Determinants",
       "chineseTitle": "行列式",
       "category": "线性代数",
-      "path": "线性代数/Determinants (行列式).pdf",
-      "webPath": "../线性代数/Determinants (行列式).pdf",
       "sourcePath": "typst/Determinants (行列式).typ",
-      "pageImageBase": "./rendered-pages/doc-2999b2188b1e/page-",
+      "pageImageBase": "./rendered-pages/doc-e327a0614070/page-",
       "pageCount": 13,
       "sections": [
         {
-          "id": "doc-2999b2188b1e-s1",
+          "id": "doc-e327a0614070-s1",
           "title": "一、行列式的定义",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s2",
+          "id": "doc-e327a0614070-s2",
           "title": "二、几何意义与向量关系",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s3",
+          "id": "doc-e327a0614070-s3",
           "title": "三、基本性质",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s4",
+          "id": "doc-e327a0614070-s4",
           "title": "四、展开定理",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s5",
+          "id": "doc-e327a0614070-s5",
           "title": "五、常用计算方法",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s6",
+          "id": "doc-e327a0614070-s6",
           "title": "六、与矩阵和方程组的联系",
           "page": 11,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s7",
+          "id": "doc-e327a0614070-s7",
           "title": "七、典型题型",
           "page": 12,
           "level": 1
         },
         {
-          "id": "doc-2999b2188b1e-s8",
+          "id": "doc-e327a0614070-s8",
           "title": "八、公式速查表",
           "page": 13,
           "level": 1
@@ -2102,67 +2033,65 @@
       ]
     },
     {
-      "id": "doc-f8d85d8d3cbe",
+      "id": "doc-6f04bd967f27",
       "title": "Matrices (矩阵)",
       "englishTitle": "Matrices",
       "chineseTitle": "矩阵",
       "category": "线性代数",
-      "path": "线性代数/Matrices (矩阵).pdf",
-      "webPath": "../线性代数/Matrices (矩阵).pdf",
       "sourcePath": "typst/Matrices (矩阵).typ",
-      "pageImageBase": "./rendered-pages/doc-f8d85d8d3cbe/page-",
+      "pageImageBase": "./rendered-pages/doc-6f04bd967f27/page-",
       "pageCount": 12,
       "sections": [
         {
-          "id": "doc-f8d85d8d3cbe-s1",
+          "id": "doc-6f04bd967f27-s1",
           "title": "一、矩阵与基本运算",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s2",
+          "id": "doc-6f04bd967f27-s2",
           "title": "二、特殊矩阵",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s3",
+          "id": "doc-6f04bd967f27-s3",
           "title": "三、Gram 矩阵",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s4",
+          "id": "doc-6f04bd967f27-s4",
           "title": "四、逆矩阵",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s5",
+          "id": "doc-6f04bd967f27-s5",
           "title": "五、初等变换与初等矩阵",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s6",
+          "id": "doc-6f04bd967f27-s6",
           "title": "六、矩阵秩",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s7",
+          "id": "doc-6f04bd967f27-s7",
           "title": "七、分块矩阵",
           "page": 9,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s8",
+          "id": "doc-6f04bd967f27-s8",
           "title": "八、典型题型",
           "page": 11,
           "level": 1
         },
         {
-          "id": "doc-f8d85d8d3cbe-s9",
+          "id": "doc-6f04bd967f27-s9",
           "title": "九、公式速查表",
           "page": 12,
           "level": 1
@@ -2170,61 +2099,59 @@
       ]
     },
     {
-      "id": "doc-aedda68a99a2",
+      "id": "doc-6071de49f089",
       "title": "Vector Groups (向量组)",
       "englishTitle": "Vector Groups",
       "chineseTitle": "向量组",
       "category": "线性代数",
-      "path": "线性代数/Vector Groups (向量组).pdf",
-      "webPath": "../线性代数/Vector Groups (向量组).pdf",
       "sourcePath": "typst/Vector Groups (向量组).typ",
-      "pageImageBase": "./rendered-pages/doc-aedda68a99a2/page-",
+      "pageImageBase": "./rendered-pages/doc-6071de49f089/page-",
       "pageCount": 9,
       "sections": [
         {
-          "id": "doc-aedda68a99a2-s1",
+          "id": "doc-6071de49f089-s1",
           "title": "一、向量与线性组合",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s2",
+          "id": "doc-6071de49f089-s2",
           "title": "二、线性相关与线性无关",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s3",
+          "id": "doc-6071de49f089-s3",
           "title": "三、向量组的秩",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s4",
+          "id": "doc-6071de49f089-s4",
           "title": "四、向量组等价",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s5",
+          "id": "doc-6071de49f089-s5",
           "title": "五、线性表示的判定",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s6",
+          "id": "doc-6071de49f089-s6",
           "title": "六、常见结论",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s7",
+          "id": "doc-6071de49f089-s7",
           "title": "七、典型题型",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-aedda68a99a2-s8",
+          "id": "doc-6071de49f089-s8",
           "title": "八、公式速查表",
           "page": 9,
           "level": 1
@@ -2232,61 +2159,59 @@
       ]
     },
     {
-      "id": "doc-715b679dcb8e",
+      "id": "doc-ddbc73072965",
       "title": "Linear Equations (线性方程组)",
       "englishTitle": "Linear Equations",
       "chineseTitle": "线性方程组",
       "category": "线性代数",
-      "path": "线性代数/Linear Equations (线性方程组).pdf",
-      "webPath": "../线性代数/Linear Equations (线性方程组).pdf",
       "sourcePath": "typst/Linear Equations (线性方程组).typ",
-      "pageImageBase": "./rendered-pages/doc-715b679dcb8e/page-",
+      "pageImageBase": "./rendered-pages/doc-ddbc73072965/page-",
       "pageCount": 9,
       "sections": [
         {
-          "id": "doc-715b679dcb8e-s1",
+          "id": "doc-ddbc73072965-s1",
           "title": "一、基本形式",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s2",
+          "id": "doc-ddbc73072965-s2",
           "title": "二、齐次线性方程组",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s3",
+          "id": "doc-ddbc73072965-s3",
           "title": "三、非齐次线性方程组",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s4",
+          "id": "doc-ddbc73072965-s4",
           "title": "四、解的性质",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s5",
+          "id": "doc-ddbc73072965-s5",
           "title": "五、求解步骤",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s6",
+          "id": "doc-ddbc73072965-s6",
           "title": "六、参数方程组",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s7",
+          "id": "doc-ddbc73072965-s7",
           "title": "七、典型题型",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-715b679dcb8e-s8",
+          "id": "doc-ddbc73072965-s8",
           "title": "八、公式速查表",
           "page": 9,
           "level": 1
@@ -2294,61 +2219,59 @@
       ]
     },
     {
-      "id": "doc-2dc2609d51d3",
+      "id": "doc-26a4cb5a0cac",
       "title": "Eigenvalues and Eigenvectors (特征值与特征向量)",
       "englishTitle": "Eigenvalues and Eigenvectors",
       "chineseTitle": "特征值与特征向量",
       "category": "线性代数",
-      "path": "线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
-      "webPath": "../线性代数/Eigenvalues and Eigenvectors (特征值与特征向量).pdf",
       "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
-      "pageImageBase": "./rendered-pages/doc-2dc2609d51d3/page-",
+      "pageImageBase": "./rendered-pages/doc-26a4cb5a0cac/page-",
       "pageCount": 9,
       "sections": [
         {
-          "id": "doc-2dc2609d51d3-s1",
+          "id": "doc-26a4cb5a0cac-s1",
           "title": "一、基本定义",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s2",
+          "id": "doc-26a4cb5a0cac-s2",
           "title": "二、求解步骤",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s3",
+          "id": "doc-26a4cb5a0cac-s3",
           "title": "三、特征值性质",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s4",
+          "id": "doc-26a4cb5a0cac-s4",
           "title": "四、相似矩阵",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s5",
+          "id": "doc-26a4cb5a0cac-s5",
           "title": "五、矩阵对角化",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s6",
+          "id": "doc-26a4cb5a0cac-s6",
           "title": "六、实对称矩阵",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s7",
+          "id": "doc-26a4cb5a0cac-s7",
           "title": "七、典型题型",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-2dc2609d51d3-s8",
+          "id": "doc-26a4cb5a0cac-s8",
           "title": "八、公式速查表",
           "page": 9,
           "level": 1
@@ -2356,61 +2279,59 @@
       ]
     },
     {
-      "id": "doc-ccaf3c879ab3",
+      "id": "doc-423aee1acbc9",
       "title": "Quadratic Forms (二次型)",
       "englishTitle": "Quadratic Forms",
       "chineseTitle": "二次型",
       "category": "线性代数",
-      "path": "线性代数/Quadratic Forms (二次型).pdf",
-      "webPath": "../线性代数/Quadratic Forms (二次型).pdf",
       "sourcePath": "typst/Quadratic Forms (二次型).typ",
-      "pageImageBase": "./rendered-pages/doc-ccaf3c879ab3/page-",
+      "pageImageBase": "./rendered-pages/doc-423aee1acbc9/page-",
       "pageCount": 9,
       "sections": [
         {
-          "id": "doc-ccaf3c879ab3-s1",
+          "id": "doc-423aee1acbc9-s1",
           "title": "一、二次型与矩阵表示",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s2",
+          "id": "doc-423aee1acbc9-s2",
           "title": "二、合同变换与标准形",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s3",
+          "id": "doc-423aee1acbc9-s3",
           "title": "三、惯性定理",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s4",
+          "id": "doc-423aee1acbc9-s4",
           "title": "四、化标准形的方法",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s5",
+          "id": "doc-423aee1acbc9-s5",
           "title": "五、正定二次型",
           "page": 6,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s6",
+          "id": "doc-423aee1acbc9-s6",
           "title": "六、半正定与不定",
           "page": 7,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s7",
+          "id": "doc-423aee1acbc9-s7",
           "title": "七、典型题型",
           "page": 8,
           "level": 1
         },
         {
-          "id": "doc-ccaf3c879ab3-s8",
+          "id": "doc-423aee1acbc9-s8",
           "title": "八、公式速查表",
           "page": 9,
           "level": 1
@@ -2418,25 +2339,23 @@
       ]
     },
     {
-      "id": "doc-157b9a897c2c",
+      "id": "doc-4c85b4ebe57e",
       "title": "Random Events and Probability (随机事件与概率)",
       "englishTitle": "Random Events and Probability",
       "chineseTitle": "随机事件与概率",
       "category": "概率论",
-      "path": "概率论/Random Events and Probability (随机事件与概率).pdf",
-      "webPath": "../概率论/Random Events and Probability (随机事件与概率).pdf",
       "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
-      "pageImageBase": "./rendered-pages/doc-157b9a897c2c/page-",
+      "pageImageBase": "./rendered-pages/doc-4c85b4ebe57e/page-",
       "pageCount": 3,
       "sections": [
         {
-          "id": "doc-157b9a897c2c-s1",
+          "id": "doc-4c85b4ebe57e-s1",
           "title": "一、随机事件与概率",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-157b9a897c2c-s2",
+          "id": "doc-4c85b4ebe57e-s2",
           "title": "二、概率计算题处理策略",
           "page": 3,
           "level": 1
@@ -2444,37 +2363,35 @@
       ]
     },
     {
-      "id": "doc-5913a24c9a32",
+      "id": "doc-cc8436a64b8f",
       "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
       "englishTitle": "One-Dimensional Random Variables and Distributions",
       "chineseTitle": "一维随机变量及其分布",
       "category": "概率论",
-      "path": "概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
-      "webPath": "../概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
       "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
-      "pageImageBase": "./rendered-pages/doc-5913a24c9a32/page-",
+      "pageImageBase": "./rendered-pages/doc-cc8436a64b8f/page-",
       "pageCount": 7,
       "sections": [
         {
-          "id": "doc-5913a24c9a32-s1",
+          "id": "doc-cc8436a64b8f-s1",
           "title": "一、随机变量与分布函数",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-5913a24c9a32-s2",
+          "id": "doc-cc8436a64b8f-s2",
           "title": "二、常见离散分布",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-5913a24c9a32-s3",
+          "id": "doc-cc8436a64b8f-s3",
           "title": "三、常见连续分布",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-5913a24c9a32-s4",
+          "id": "doc-cc8436a64b8f-s4",
           "title": "四、一维分布题处理策略",
           "page": 7,
           "level": 1
@@ -2482,25 +2399,23 @@
       ]
     },
     {
-      "id": "doc-4f2d664a2807",
+      "id": "doc-aaa66842cd9a",
       "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
       "englishTitle": "Multidimensional Random Variables and Distributions",
       "chineseTitle": "多维随机变量及其分布",
       "category": "概率论",
-      "path": "概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
-      "webPath": "../概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
       "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
-      "pageImageBase": "./rendered-pages/doc-4f2d664a2807/page-",
+      "pageImageBase": "./rendered-pages/doc-aaa66842cd9a/page-",
       "pageCount": 5,
       "sections": [
         {
-          "id": "doc-4f2d664a2807-s1",
+          "id": "doc-aaa66842cd9a-s1",
           "title": "一、多维随机变量及其分布",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-4f2d664a2807-s2",
+          "id": "doc-aaa66842cd9a-s2",
           "title": "二、多维分布题处理策略",
           "page": 5,
           "level": 1
@@ -2508,25 +2423,23 @@
       ]
     },
     {
-      "id": "doc-795d51900278",
+      "id": "doc-72d9b199102b",
       "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
       "englishTitle": "Numerical Characteristics of Random Variables",
       "chineseTitle": "随机变量的数字特征",
       "category": "概率论",
-      "path": "概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
-      "webPath": "../概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
       "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
-      "pageImageBase": "./rendered-pages/doc-795d51900278/page-",
+      "pageImageBase": "./rendered-pages/doc-72d9b199102b/page-",
       "pageCount": 3,
       "sections": [
         {
-          "id": "doc-795d51900278-s1",
+          "id": "doc-72d9b199102b-s1",
           "title": "一、随机变量的数字特征",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-795d51900278-s2",
+          "id": "doc-72d9b199102b-s2",
           "title": "二、数字特征题处理策略",
           "page": 3,
           "level": 1
@@ -2534,19 +2447,17 @@
       ]
     },
     {
-      "id": "doc-7afde55fc309",
+      "id": "doc-7380228c6a89",
       "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
       "englishTitle": "Laws of Large Numbers and Central Limit Theorem",
       "chineseTitle": "大数定律和中心极限定理",
       "category": "概率论",
-      "path": "概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
-      "webPath": "../概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
       "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
-      "pageImageBase": "./rendered-pages/doc-7afde55fc309/page-",
+      "pageImageBase": "./rendered-pages/doc-7380228c6a89/page-",
       "pageCount": 3,
       "sections": [
         {
-          "id": "doc-7afde55fc309-s1",
+          "id": "doc-7380228c6a89-s1",
           "title": "一、大数定律与中心极限定理",
           "page": 2,
           "level": 1
@@ -2554,43 +2465,41 @@
       ]
     },
     {
-      "id": "doc-df8d3694236b",
+      "id": "doc-10d0cca247cf",
       "title": "Mathematical Statistics (数理统计)",
       "englishTitle": "Mathematical Statistics",
       "chineseTitle": "数理统计",
       "category": "概率论",
-      "path": "概率论/Mathematical Statistics (数理统计).pdf",
-      "webPath": "../概率论/Mathematical Statistics (数理统计).pdf",
       "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
-      "pageImageBase": "./rendered-pages/doc-df8d3694236b/page-",
+      "pageImageBase": "./rendered-pages/doc-10d0cca247cf/page-",
       "pageCount": 6,
       "sections": [
         {
-          "id": "doc-df8d3694236b-s1",
+          "id": "doc-10d0cca247cf-s1",
           "title": "一、数理统计基础",
           "page": 2,
           "level": 1
         },
         {
-          "id": "doc-df8d3694236b-s2",
+          "id": "doc-10d0cca247cf-s2",
           "title": "二、参数估计",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-df8d3694236b-s3",
+          "id": "doc-10d0cca247cf-s3",
           "title": "三、假设检验",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-df8d3694236b-s4",
+          "id": "doc-10d0cca247cf-s4",
           "title": "四、方差分析与回归",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-df8d3694236b-s5",
+          "id": "doc-10d0cca247cf-s5",
           "title": "五、统计推断题处理策略",
           "page": 6,
           "level": 1

@@ -28,7 +28,6 @@ function bindElements() {
   elements.currentCategory = document.querySelector("#currentCategory");
   elements.currentTitle = document.querySelector("#currentTitle");
   elements.pageInput = document.querySelector("#pageInput");
-  elements.openPdfButton = document.querySelector("#openPdfButton");
   elements.paperStage = document.querySelector("#paperStage");
   elements.viewerWrap = document.querySelector("#viewerWrap");
   elements.pageStack = document.querySelector("#pageStack");
@@ -60,17 +59,6 @@ function formatDate(value) {
     hour: "2-digit",
     minute: "2-digit",
   }).format(new Date(value));
-}
-
-function encodePdfPath(webPath, pageNumber) {
-  const params = new URLSearchParams({
-    page: String(pageNumber),
-    zoom: "page-width",
-    view: "FitH",
-    pagemode: "none",
-    navpanes: "0",
-  });
-  return `${encodeURI(webPath)}#${params.toString()}`;
 }
 
 function getPageAssetVersion() {
@@ -583,12 +571,6 @@ function bindEvents() {
   });
   elements.nextPageButton.addEventListener("click", () => {
     openDocument(state.activeDocId, state.activePage + 1);
-  });
-  elements.openPdfButton.addEventListener("click", () => {
-    const documentItem = getDocumentById(state.activeDocId);
-    if (documentItem) {
-      window.open(encodePdfPath(documentItem.webPath, state.activePage), "_blank", "noopener");
-    }
   });
 }
 
