@@ -1,12 +1,12 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T09:04:37+08:00",
+  "generatedAt": "2026-08-04T09:27:13+08:00",
   "stats": {
     "documents": 19,
-    "pages": 267,
+    "pages": 268,
     "renderDpi": 260,
-    "searchEntries": 267
+    "searchEntries": 268
   },
   "categories": [
     {
@@ -748,7 +748,7 @@
           "webPath": "../微积分/Infinite Series (无穷级数).pdf",
           "sourcePath": "typst/Infinite Series (无穷级数).typ",
           "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
-          "pageCount": 27,
+          "pageCount": 28,
           "sections": [
             {
               "id": "doc-ed23c04b20bf-s1",
@@ -789,31 +789,31 @@
             {
               "id": "doc-ed23c04b20bf-s7",
               "title": "七、傅里叶级数要点",
-              "page": 15,
+              "page": 16,
               "level": 1
             },
             {
               "id": "doc-ed23c04b20bf-s8",
               "title": "八、典型例题",
-              "page": 21,
+              "page": 22,
               "level": 1
             },
             {
               "id": "doc-ed23c04b20bf-s9",
               "title": "九、判别法选择流程",
-              "page": 25,
+              "page": 26,
               "level": 1
             },
             {
               "id": "doc-ed23c04b20bf-s10",
               "title": "十、易错点汇总",
-              "page": 26,
+              "page": 27,
               "level": 1
             },
             {
               "id": "doc-ed23c04b20bf-s11",
               "title": "十一、公式速查表",
-              "page": 27,
+              "page": 28,
               "level": 1
             }
           ]
@@ -2046,7 +2046,7 @@
       "webPath": "../微积分/Infinite Series (无穷级数).pdf",
       "sourcePath": "typst/Infinite Series (无穷级数).typ",
       "pageImageBase": "./rendered-pages/doc-ed23c04b20bf/page-",
-      "pageCount": 27,
+      "pageCount": 28,
       "sections": [
         {
           "id": "doc-ed23c04b20bf-s1",
@@ -2087,31 +2087,31 @@
         {
           "id": "doc-ed23c04b20bf-s7",
           "title": "七、傅里叶级数要点",
-          "page": 15,
+          "page": 16,
           "level": 1
         },
         {
           "id": "doc-ed23c04b20bf-s8",
           "title": "八、典型例题",
-          "page": 21,
+          "page": 22,
           "level": 1
         },
         {
           "id": "doc-ed23c04b20bf-s9",
           "title": "九、判别法选择流程",
-          "page": 25,
+          "page": 26,
           "level": 1
         },
         {
           "id": "doc-ed23c04b20bf-s10",
           "title": "十、易错点汇总",
-          "page": 26,
+          "page": 27,
           "level": 1
         },
         {
           "id": "doc-ed23c04b20bf-s11",
           "title": "十一、公式速查表",
-          "page": 27,
+          "page": 28,
           "level": 1
         }
       ]
