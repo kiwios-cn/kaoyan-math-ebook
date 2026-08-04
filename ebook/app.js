@@ -132,7 +132,7 @@ function renderMeta() {
   elements.bookSubtitle.textContent = manifest.subtitle || "微积分 · 线性代数 · 概率论";
   const stats = manifest.stats || {};
   const generatedAt = formatDate(manifest.generatedAt);
-  elements.libraryMeta.textContent = `${stats.documents || 0} 份 PDF · ${stats.pages || 0} 页 · ${stats.searchEntries || searchIndex.length} 条索引${generatedAt ? ` · ${generatedAt}` : ""}`;
+  elements.libraryMeta.textContent = `${stats.documents || 0} 个章节 · ${stats.pages || 0} 页 · ${stats.searchEntries || searchIndex.length} 条索引${generatedAt ? ` · ${generatedAt}` : ""}`;
 }
 
 function renderToc() {

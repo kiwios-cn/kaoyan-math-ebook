@@ -2,11 +2,12 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T14:10:00+08:00",
+  "generatedAt": "2026-08-04T14:42:56+08:00",
   "stats": {
     "documents": 23,
     "pages": 257,
     "renderDpi": 260,
+    "pageRenderer": "typst-direct-png",
     "searchEntries": 257
   },
   "categories": [
