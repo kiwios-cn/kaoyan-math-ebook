@@ -2,10 +2,10 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T18:39:14+08:00",
+  "generatedAt": "2026-08-04T18:50:51+08:00",
   "stats": {
     "documents": 23,
-    "pages": 258,
+    "pages": 261,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -70,7 +70,7 @@ window.BOOK_MANIFEST = {
           "sourcePath": "typst/Sequence Limits (数列的极限).typ",
           "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
           "pageImageExtension": "webp",
-          "pageCount": 8,
+          "pageCount": 11,
           "sections": [
             {
               "id": "doc-9511fbfdb877-s1",
@@ -99,13 +99,13 @@ window.BOOK_MANIFEST = {
             {
               "id": "doc-9511fbfdb877-s5",
               "title": "五、递推数列",
-              "page": 6,
+              "page": 8,
               "level": 1
             },
             {
               "id": "doc-9511fbfdb877-s6",
               "title": "六、典型例题",
-              "page": 7,
+              "page": 10,
               "level": 1
             }
           ]
@@ -1347,7 +1347,7 @@ window.BOOK_MANIFEST = {
       "sourcePath": "typst/Sequence Limits (数列的极限).typ",
       "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
       "pageImageExtension": "webp",
-      "pageCount": 8,
+      "pageCount": 11,
       "sections": [
         {
           "id": "doc-9511fbfdb877-s1",
@@ -1376,13 +1376,13 @@ window.BOOK_MANIFEST = {
         {
           "id": "doc-9511fbfdb877-s5",
           "title": "五、递推数列",
-          "page": 6,
+          "page": 8,
           "level": 1
         },
         {
           "id": "doc-9511fbfdb877-s6",
           "title": "六、典型例题",
-          "page": 7,
+          "page": 10,
           "level": 1
         }
       ]
@@ -2645,24 +2645,24 @@ window.SEARCH_INDEX = [
     "page": 5,
     "heading": "数列的极限",
     "snippet": "四、常用求法 1. 代数化简 含根式的数列常通过有理化或提取最高阶项处理。例如： sqrt n^2+n -n n / sqrt n^2+n +n 1/ sqrt 1+1/n +1 所以极限为 1/2 。 2. 夹逼定理 当数列含有振荡因子，如 sin n 、 cos n 、 -1 ^n 时，常利用有界性夹逼。例如： -1/n sin n/...",
-    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 数列的极限 四、常用求法 1. 代数化简 含根式的数列常通过有理化或提取最高阶项处理。例如： sqrt n^2+n -n n / sqrt n^2+n +n 1/ sqrt 1+1/n +1 所以极限为 1/2 。 2. 夹逼定理 当数列含有振荡因子，如 sin n 、 cos n 、 -1 ^n 时，常利用有界性夹逼。例如： -1/n sin n/n 1/n 故 lim n- infinity sin n/n 0 3. 单调有界定理 若数列单调递增且有上界，或单调递减且有下界，则数列收敛。递推数列常用这个定理先证明极限存在，再由递推式求极限。 4. 函数极限转化 若 a n f n ，且 lim x- infinity f x A 则 lim n- infinity a n A 这使洛必达法则、泰勒展开和等价无穷小也能服务数列极限。"
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 数列的极限 四、常用求法 1. 代数化简 含根式的数列常通过有理化或提取最高阶项处理。例如： sqrt n^2+n -n n / sqrt n^2+n +n 1/ sqrt 1+1/n +1 所以极限为 1/2 。 2. 夹逼定理 当数列含有振荡因子，如 sin n 、 cos n 、 -1 ^n 时，常利用有界性夹逼。例如： -1/n sin n/n 1/n 故 lim n- infinity sin n/n 0 3. 单调有界定理 若数列单调递增且有上界，或单调递减且有下界，则数列收敛。递推数列常用这个定理先证明极限存在，再由递推式求极限。 4. 函数极限转化 若 a n f n ，且 lim x- infinity f x A 则 lim n- infinity a n A 这使洛必达法则、泰勒展开和等价无穷小也能服务数列极限。 5. 直接求导或函数化处理 数列本身没有导数。所谓“直接求导”，本质是把 n 看成连续变量 x ，构造函数 f x 使 a n f n 再利用函数极限工具求 lim x- infinity f x 若该函数极限存在，则数列极限相同： lim n- infinity a n lim x- infinity f x 常见可用工具： 1. 若出现 0/0 或 infinity/infinity 型，可考虑洛必达法则。 2. 若出现根式、指数、对数，可考虑泰勒展开或等价无穷小。 3. 若出现 a n^ b n ，通常先取对数： a n^ b n exp b n ln a n 先求 L lim b n ln a n 再得 lim a n^ b n e^L 函数化求极限要求构造出的 f x 在 x- infinity 的极限存在。不能因为 f n 沿整数点趋于某值，就反过来断言整个函数极限也存在；做题时只需要用函数极限推出数列极限，方向不要弄反。 6. 做差与做商 做差主要用于判断单调性、比较两个数列或处理分子分母同阶问题。 若 a n+1 -a n 0 则 a n 单调递增；若 a n+1 -a n 0 则 a n 单调递减。 做商适合正项数列、幂指数型或连乘型数列。若 a n 0 ，则 a n+1 /a n 1 a n+1 a n a n+1 /a n 1 a n+1 a n 若要判断增长速度，可考察 lim n- infinity a n+1 /a n 例如当该极限为 q 且 0 q 1 时，常可推出 a n- 0 。 对于形如 lim n- infinity x n/y n 且 y n 严格递增趋于无穷的数列，可考虑 Stolz 定理： lim n- infinity x n-x n-1 / y n-y n-1 L lim n- infinity x n/y n L 这可以理解为“数列版洛必达”，核心就是把商的极限转化为差的极限。 7. 复合情况下的极限 若 b n- B 且 f 在 B 处连续，则 f b n - f B 这类题的关键是先求内层极限，再判断外层函数是否连续。若外层函数在极限点不连续，则不能直接代入。 常见复合结构： columns: 1.8fr, 2.2fr, 2.2fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 结构 , 处理方式 , 注意点 , f b n , 先求 b n- B ，再用连续性 , 外层不连续不能直接代入 , a n^ b n , 化为 exp b n ln a n , 必须保证 a n 0 , ln 1+u n , 若 u n- 0 ，用 ln 1+u n tilde.eq u n , 加减相消时保留高阶项 , root n,a n , 取对数： ln root n,a n ln a n/n , 先判断 a n 0 , 8. 数列求和与积分之间的关系 数列求和常与积分联系，主要有两类：一类是积分估计，另一类是 Riemann 和。 若 f x 在 1,+infinity 上单调递减且非负，则 integral 1^ n+1 f x d x sum k 1 ^n f k f 1 +integral 1^n f x d x 这常用于判断 sum k 1 ^n 1/k 或 sum k 1 ^n 1/k^p 的增长阶。 若 f 在 0,1 上连续，则 1/n sum k 1 ^n f k/n - integral 0^1 f x d x 更一般地， b-a /n sum k 1 ^n f a+k b-a /n - integral a^b f x d x 这类题要先识别“小宽度乘函数值求和”的结构： Delta x b-a /n sum f x k Delta x - integral a^b f x d x"
   },
   {
-    "id": "doc-9511fbfdb877-p6",
+    "id": "doc-9511fbfdb877-p8",
     "docId": "doc-9511fbfdb877",
     "title": "Sequence Limits (数列的极限)",
     "category": "微积分",
-    "page": 6,
+    "page": 8,
     "heading": "数列的极限",
-    "snippet": "五、递推数列 递推数列通常形如 a n+1 phi a n 常用步骤为： 1. 猜测或求不动点：令 A phi A 。 2. 证明数列有界。 3. 证明数列单调，或证明相邻项差趋于零。 4. 若已知极限存在，则代入递推式求 A 。 不能只把极限代入递推式就结束。必须先说明极限存在，常用方法就是单调有界定理或压缩映射思想。",
-    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 数列的极限 五、递推数列 递推数列通常形如 a n+1 phi a n 常用步骤为： 1. 猜测或求不动点：令 A phi A 。 2. 证明数列有界。 3. 证明数列单调，或证明相邻项差趋于零。 4. 若已知极限存在，则代入递推式求 A 。 不能只把极限代入递推式就结束。必须先说明极限存在，常用方法就是单调有界定理或压缩映射思想。"
+    "snippet": "五、递推数列 递推数列通常形如 a n+1 phi a n 常用步骤为： 1. 猜测或求不动点：令 A phi A 。 2. 证明数列有界。 3. 证明数列单调，或证明相邻项差趋于零。 4. 若已知极限存在，则代入递推式求 A 。 不能只把极限代入递推式就结束。必须先说明极限存在，常用方法就是单调有界定理或压缩映射思想。 2. 初值对敛散...",
+    "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 数列的极限 五、递推数列 递推数列通常形如 a n+1 phi a n 常用步骤为： 1. 猜测或求不动点：令 A phi A 。 2. 证明数列有界。 3. 证明数列单调，或证明相邻项差趋于零。 4. 若已知极限存在，则代入递推式求 A 。 不能只把极限代入递推式就结束。必须先说明极限存在，常用方法就是单调有界定理或压缩映射思想。 2. 初值对敛散性的影响 递推数列的极限不只由递推公式决定，也可能受初值影响。设 a n+1 phi a n 若极限存在，候选极限来自不动点方程 A phi A 但不同初值可能落入不同的不动点吸引区间。常用判断框架是： 1. 找不动点：解 A phi A 。 2. 找不变区间：若 a 1 in I 且 phi I subset I ，则所有 a n 都留在 I 内。 3. 判断稳定性：若在不动点附近 abs phi' A 1 则 A 对附近初值通常是吸引的；若 abs phi' A 1 则 A 通常是不稳定的。 4. 证明收敛性：用单调有界、夹逼或压缩不等式。 同一个递推式可能因初值不同而收敛到不同极限、发散或产生振荡。因此递推题不能只解 A phi A ，还要说明初值所在范围与收敛性。 3. 双通项或耦合递推 双通项问题通常同时给出两个数列，例如 a n+1 F a n,b n , quad b n+1 G a n,b n 若已知二者都收敛，设 a n- A, quad b n- B 则候选极限由方程组确定： A F A,B , quad B G A,B 但仍需先证明极限存在。常见做法： 1. 证明二者有共同夹逼区间，例如 a n b n 且二者有界。 2. 考察差值 d n b n-a n 若能证明 d n- 0 则两个数列极限相同。 3. 若有单调关系，常证明一个递增、一个递减，并且 a n b n 再利用 b n-a n- 0 推出共同极限。 4. 对平均型递推，常同时观察和与差，例如 s n a n+b n, quad d n b n-a n 把双通项问题拆成更容易处理的单通项问题。"
   },
   {
-    "id": "doc-9511fbfdb877-p7",
+    "id": "doc-9511fbfdb877-p10",
     "docId": "doc-9511fbfdb877",
     "title": "Sequence Limits (数列的极限)",
     "category": "微积分",
-    "page": 7,
+    "page": 10,
     "heading": "数列的极限",
     "snippet": "六、典型例题 例题 1：根式数列 题目 求 lim n- infinity sqrt n^2+n -n 。 有理化： sqrt n^2+n -n n/ sqrt n^2+n +n 上下同除以 n ： n/ sqrt n^2+n +n 1/ sqrt 1+1/n +1 所以 lim n- infinity sqrt n^2+n -n 1/2...",
     "text": "Sequence Limits (数列的极限) Sequence Limits 数列的极限 微积分 数列的极限 六、典型例题 例题 1：根式数列 题目 求 lim n- infinity sqrt n^2+n -n 。 有理化： sqrt n^2+n -n n/ sqrt n^2+n +n 上下同除以 n ： n/ sqrt n^2+n +n 1/ sqrt 1+1/n +1 所以 lim n- infinity sqrt n^2+n -n 1/2 例题 2：递推数列 题目 设 a 1 sqrt 2 ， a n+1 sqrt 2+a n ，求 lim a n 。 先猜极限。若极限为 A ，则 A sqrt 2+A 解得 A 2 或 A -1 。因 a n 0 ，只可能为 2 。 再说明极限存在。由 a 1 2 ，若 a n 2 ，则 a n+1 sqrt 2+a n sqrt 4 2 所以 a n 2 。又 a n+1 a n sqrt 2+a n a n 2+a n a n^2 当 0 a n 2 时成立。因此数列单调递增且有上界 2 ，故收敛，极限为 2 例题 3：指数型极限 题目 求 lim n- infinity n 1+a/n ^b-1 。 当 n- infinity 时， a/n- 0 。由 1+x ^b-1 tilde.eq b x 得 1+a/n ^b-1 tilde.eq b a/n 所以 lim n- infinity n 1+a/n ^b-1 a b"

@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T18:39:14+08:00",
+  "generatedAt": "2026-08-04T18:50:51+08:00",
   "stats": {
     "documents": 23,
-    "pages": 258,
+    "pages": 261,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -69,7 +69,7 @@
           "sourcePath": "typst/Sequence Limits (数列的极限).typ",
           "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
           "pageImageExtension": "webp",
-          "pageCount": 8,
+          "pageCount": 11,
           "sections": [
             {
               "id": "doc-9511fbfdb877-s1",
@@ -98,13 +98,13 @@
             {
               "id": "doc-9511fbfdb877-s5",
               "title": "五、递推数列",
-              "page": 6,
+              "page": 8,
               "level": 1
             },
             {
               "id": "doc-9511fbfdb877-s6",
               "title": "六、典型例题",
-              "page": 7,
+              "page": 10,
               "level": 1
             }
           ]
@@ -1346,7 +1346,7 @@
       "sourcePath": "typst/Sequence Limits (数列的极限).typ",
       "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
       "pageImageExtension": "webp",
-      "pageCount": 8,
+      "pageCount": 11,
       "sections": [
         {
           "id": "doc-9511fbfdb877-s1",
@@ -1375,13 +1375,13 @@
         {
           "id": "doc-9511fbfdb877-s5",
           "title": "五、递推数列",
-          "page": 6,
+          "page": 8,
           "level": 1
         },
         {
           "id": "doc-9511fbfdb877-s6",
           "title": "六、典型例题",
-          "page": 7,
+          "page": 10,
           "level": 1
         }
       ]
