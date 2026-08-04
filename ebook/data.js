@@ -2,12 +2,13 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T15:01:22+08:00",
+  "generatedAt": "2026-08-04T15:34:53+08:00",
   "stats": {
     "documents": 23,
     "pages": 257,
     "renderDpi": 260,
-    "pageRenderer": "typst-direct-png",
+    "pageRenderer": "typst-direct-webp",
+    "pageImageExtension": "webp",
     "contentSource": "typst",
     "searchEntries": 160
   },
@@ -25,6 +26,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
           "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
+          "pageImageExtension": "webp",
           "pageCount": 12,
           "sections": [
             {
@@ -67,6 +69,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Sequence Limits (数列的极限).typ",
           "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
+          "pageImageExtension": "webp",
           "pageCount": 8,
           "sections": [
             {
@@ -115,6 +118,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
+          "pageImageExtension": "webp",
           "pageCount": 8,
           "sections": [
             {
@@ -163,6 +167,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
           "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
+          "pageImageExtension": "webp",
           "pageCount": 7,
           "sections": [
             {
@@ -205,6 +210,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
           "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
+          "pageImageExtension": "webp",
           "pageCount": 8,
           "sections": [
             {
@@ -253,6 +259,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
           "pageImageBase": "./rendered-pages/doc-71615c501140/page-",
+          "pageImageExtension": "webp",
           "pageCount": 6,
           "sections": [
             {
@@ -289,6 +296,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
           "pageImageBase": "./rendered-pages/doc-533e017b0a89/page-",
+          "pageImageExtension": "webp",
           "pageCount": 9,
           "sections": [
             {
@@ -343,6 +351,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
           "pageImageBase": "./rendered-pages/doc-edb4f436fb9f/page-",
+          "pageImageExtension": "webp",
           "pageCount": 21,
           "sections": [
             {
@@ -427,6 +436,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
           "pageImageBase": "./rendered-pages/doc-1e5093567925/page-",
+          "pageImageExtension": "webp",
           "pageCount": 37,
           "sections": [
             {
@@ -541,6 +551,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
           "pageImageBase": "./rendered-pages/doc-8501fc2c1136/page-",
+          "pageImageExtension": "webp",
           "pageCount": 25,
           "sections": [
             {
@@ -649,6 +660,7 @@ window.BOOK_MANIFEST = {
           "category": "微积分",
           "sourcePath": "typst/Infinite Series (无穷级数).typ",
           "pageImageBase": "./rendered-pages/doc-65b1384b7021/page-",
+          "pageImageExtension": "webp",
           "pageCount": 28,
           "sections": [
             {
@@ -734,6 +746,7 @@ window.BOOK_MANIFEST = {
           "category": "线性代数",
           "sourcePath": "typst/Determinants (行列式).typ",
           "pageImageBase": "./rendered-pages/doc-e327a0614070/page-",
+          "pageImageExtension": "webp",
           "pageCount": 13,
           "sections": [
             {
@@ -794,6 +807,7 @@ window.BOOK_MANIFEST = {
           "category": "线性代数",
           "sourcePath": "typst/Matrices (矩阵).typ",
           "pageImageBase": "./rendered-pages/doc-6f04bd967f27/page-",
+          "pageImageExtension": "webp",
           "pageCount": 12,
           "sections": [
             {
@@ -860,6 +874,7 @@ window.BOOK_MANIFEST = {
           "category": "线性代数",
           "sourcePath": "typst/Vector Groups (向量组).typ",
           "pageImageBase": "./rendered-pages/doc-6071de49f089/page-",
+          "pageImageExtension": "webp",
           "pageCount": 9,
           "sections": [
             {
@@ -920,6 +935,7 @@ window.BOOK_MANIFEST = {
           "category": "线性代数",
           "sourcePath": "typst/Linear Equations (线性方程组).typ",
           "pageImageBase": "./rendered-pages/doc-ddbc73072965/page-",
+          "pageImageExtension": "webp",
           "pageCount": 9,
           "sections": [
             {
@@ -980,6 +996,7 @@ window.BOOK_MANIFEST = {
           "category": "线性代数",
           "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
           "pageImageBase": "./rendered-pages/doc-26a4cb5a0cac/page-",
+          "pageImageExtension": "webp",
           "pageCount": 9,
           "sections": [
             {
@@ -1040,6 +1057,7 @@ window.BOOK_MANIFEST = {
           "category": "线性代数",
           "sourcePath": "typst/Quadratic Forms (二次型).typ",
           "pageImageBase": "./rendered-pages/doc-423aee1acbc9/page-",
+          "pageImageExtension": "webp",
           "pageCount": 9,
           "sections": [
             {
@@ -1107,6 +1125,7 @@ window.BOOK_MANIFEST = {
           "category": "概率论",
           "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
           "pageImageBase": "./rendered-pages/doc-4c85b4ebe57e/page-",
+          "pageImageExtension": "webp",
           "pageCount": 3,
           "sections": [
             {
@@ -1131,6 +1150,7 @@ window.BOOK_MANIFEST = {
           "category": "概率论",
           "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
           "pageImageBase": "./rendered-pages/doc-cc8436a64b8f/page-",
+          "pageImageExtension": "webp",
           "pageCount": 7,
           "sections": [
             {
@@ -1167,6 +1187,7 @@ window.BOOK_MANIFEST = {
           "category": "概率论",
           "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
           "pageImageBase": "./rendered-pages/doc-aaa66842cd9a/page-",
+          "pageImageExtension": "webp",
           "pageCount": 5,
           "sections": [
             {
@@ -1191,6 +1212,7 @@ window.BOOK_MANIFEST = {
           "category": "概率论",
           "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
           "pageImageBase": "./rendered-pages/doc-72d9b199102b/page-",
+          "pageImageExtension": "webp",
           "pageCount": 3,
           "sections": [
             {
@@ -1215,6 +1237,7 @@ window.BOOK_MANIFEST = {
           "category": "概率论",
           "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
           "pageImageBase": "./rendered-pages/doc-7380228c6a89/page-",
+          "pageImageExtension": "webp",
           "pageCount": 3,
           "sections": [
             {
@@ -1233,6 +1256,7 @@ window.BOOK_MANIFEST = {
           "category": "概率论",
           "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
           "pageImageBase": "./rendered-pages/doc-10d0cca247cf/page-",
+          "pageImageExtension": "webp",
           "pageCount": 6,
           "sections": [
             {
@@ -1279,6 +1303,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
       "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
+      "pageImageExtension": "webp",
       "pageCount": 12,
       "sections": [
         {
@@ -1321,6 +1346,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Sequence Limits (数列的极限).typ",
       "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
+      "pageImageExtension": "webp",
       "pageCount": 8,
       "sections": [
         {
@@ -1369,6 +1395,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
+      "pageImageExtension": "webp",
       "pageCount": 8,
       "sections": [
         {
@@ -1417,6 +1444,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
       "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
+      "pageImageExtension": "webp",
       "pageCount": 7,
       "sections": [
         {
@@ -1459,6 +1487,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Integral Calculus Concepts Properties and Computation (一元函数积分学的概念性质和计算).typ",
       "pageImageBase": "./rendered-pages/doc-7b5eccba034b/page-",
+      "pageImageExtension": "webp",
       "pageCount": 8,
       "sections": [
         {
@@ -1507,6 +1536,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Applications of Integral Calculus (一元函数积分学的应用).typ",
       "pageImageBase": "./rendered-pages/doc-71615c501140/page-",
+      "pageImageExtension": "webp",
       "pageCount": 6,
       "sections": [
         {
@@ -1543,6 +1573,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
       "pageImageBase": "./rendered-pages/doc-533e017b0a89/page-",
+      "pageImageExtension": "webp",
       "pageCount": 9,
       "sections": [
         {
@@ -1597,6 +1628,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Double Integral Methods (二重积分计算方法).typ",
       "pageImageBase": "./rendered-pages/doc-edb4f436fb9f/page-",
+      "pageImageExtension": "webp",
       "pageCount": 21,
       "sections": [
         {
@@ -1681,6 +1713,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Multivariable Integral Calculus (多元函数积分学).typ",
       "pageImageBase": "./rendered-pages/doc-1e5093567925/page-",
+      "pageImageExtension": "webp",
       "pageCount": 37,
       "sections": [
         {
@@ -1795,6 +1828,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Ordinary Differential Equations (常微分方程).typ",
       "pageImageBase": "./rendered-pages/doc-8501fc2c1136/page-",
+      "pageImageExtension": "webp",
       "pageCount": 25,
       "sections": [
         {
@@ -1903,6 +1937,7 @@ window.BOOK_MANIFEST = {
       "category": "微积分",
       "sourcePath": "typst/Infinite Series (无穷级数).typ",
       "pageImageBase": "./rendered-pages/doc-65b1384b7021/page-",
+      "pageImageExtension": "webp",
       "pageCount": 28,
       "sections": [
         {
@@ -1981,6 +2016,7 @@ window.BOOK_MANIFEST = {
       "category": "线性代数",
       "sourcePath": "typst/Determinants (行列式).typ",
       "pageImageBase": "./rendered-pages/doc-e327a0614070/page-",
+      "pageImageExtension": "webp",
       "pageCount": 13,
       "sections": [
         {
@@ -2041,6 +2077,7 @@ window.BOOK_MANIFEST = {
       "category": "线性代数",
       "sourcePath": "typst/Matrices (矩阵).typ",
       "pageImageBase": "./rendered-pages/doc-6f04bd967f27/page-",
+      "pageImageExtension": "webp",
       "pageCount": 12,
       "sections": [
         {
@@ -2107,6 +2144,7 @@ window.BOOK_MANIFEST = {
       "category": "线性代数",
       "sourcePath": "typst/Vector Groups (向量组).typ",
       "pageImageBase": "./rendered-pages/doc-6071de49f089/page-",
+      "pageImageExtension": "webp",
       "pageCount": 9,
       "sections": [
         {
@@ -2167,6 +2205,7 @@ window.BOOK_MANIFEST = {
       "category": "线性代数",
       "sourcePath": "typst/Linear Equations (线性方程组).typ",
       "pageImageBase": "./rendered-pages/doc-ddbc73072965/page-",
+      "pageImageExtension": "webp",
       "pageCount": 9,
       "sections": [
         {
@@ -2227,6 +2266,7 @@ window.BOOK_MANIFEST = {
       "category": "线性代数",
       "sourcePath": "typst/Eigenvalues and Eigenvectors (特征值与特征向量).typ",
       "pageImageBase": "./rendered-pages/doc-26a4cb5a0cac/page-",
+      "pageImageExtension": "webp",
       "pageCount": 9,
       "sections": [
         {
@@ -2287,6 +2327,7 @@ window.BOOK_MANIFEST = {
       "category": "线性代数",
       "sourcePath": "typst/Quadratic Forms (二次型).typ",
       "pageImageBase": "./rendered-pages/doc-423aee1acbc9/page-",
+      "pageImageExtension": "webp",
       "pageCount": 9,
       "sections": [
         {
@@ -2347,6 +2388,7 @@ window.BOOK_MANIFEST = {
       "category": "概率论",
       "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
       "pageImageBase": "./rendered-pages/doc-4c85b4ebe57e/page-",
+      "pageImageExtension": "webp",
       "pageCount": 3,
       "sections": [
         {
@@ -2371,6 +2413,7 @@ window.BOOK_MANIFEST = {
       "category": "概率论",
       "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
       "pageImageBase": "./rendered-pages/doc-cc8436a64b8f/page-",
+      "pageImageExtension": "webp",
       "pageCount": 7,
       "sections": [
         {
@@ -2407,6 +2450,7 @@ window.BOOK_MANIFEST = {
       "category": "概率论",
       "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
       "pageImageBase": "./rendered-pages/doc-aaa66842cd9a/page-",
+      "pageImageExtension": "webp",
       "pageCount": 5,
       "sections": [
         {
@@ -2431,6 +2475,7 @@ window.BOOK_MANIFEST = {
       "category": "概率论",
       "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
       "pageImageBase": "./rendered-pages/doc-72d9b199102b/page-",
+      "pageImageExtension": "webp",
       "pageCount": 3,
       "sections": [
         {
@@ -2455,6 +2500,7 @@ window.BOOK_MANIFEST = {
       "category": "概率论",
       "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
       "pageImageBase": "./rendered-pages/doc-7380228c6a89/page-",
+      "pageImageExtension": "webp",
       "pageCount": 3,
       "sections": [
         {
@@ -2473,6 +2519,7 @@ window.BOOK_MANIFEST = {
       "category": "概率论",
       "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
       "pageImageBase": "./rendered-pages/doc-10d0cca247cf/page-",
+      "pageImageExtension": "webp",
       "pageCount": 6,
       "sections": [
         {

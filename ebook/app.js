@@ -5,8 +5,8 @@ const categoryAccentMap = new Map(
   (manifest.categories || []).map((category) => [category.title, category.accent])
 );
 
-const PAGE_PRELOAD_RADIUS = 2;
-const PAGE_OBSERVER_MARGIN = "1800px 0px";
+const PAGE_PRELOAD_RADIUS = 1;
+const PAGE_OBSERVER_MARGIN = "900px 0px";
 
 const state = {
   activeDocId: null,
@@ -63,14 +63,20 @@ function formatDate(value) {
 
 function getPageAssetVersion() {
   const stats = manifest.stats || {};
-  return [stats.renderDpi || "dpi", manifest.generatedAt || "local"].join("-");
+  return [
+    stats.renderDpi || "dpi",
+    stats.pageRenderer || "renderer",
+    stats.pageImageExtension || "image",
+    manifest.generatedAt || "local",
+  ].join("-");
 }
 
 function encodePageImagePath(documentItem, pageNumber) {
   const pageDigits = documentItem.pageCount >= 10 ? String(documentItem.pageCount).length : 1;
   const imagePageNumber = String(pageNumber).padStart(pageDigits, "0");
+  const imageExtension = documentItem.pageImageExtension || manifest.stats?.pageImageExtension || "webp";
   const version = new URLSearchParams({ v: getPageAssetVersion() });
-  return `${documentItem.pageImageBase}${imagePageNumber}.png?${version.toString()}`;
+  return `${documentItem.pageImageBase}${imagePageNumber}.${imageExtension}?${version.toString()}`;
 }
 
 function getPrefetchPageRange(pageCount, centerPage, radius = PAGE_PRELOAD_RADIUS) {
