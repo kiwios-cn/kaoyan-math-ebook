@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:19:22+08:00",
+  "generatedAt": "2026-08-04T19:39:55+08:00",
   "stats": {
     "documents": 23,
-    "pages": 264,
+    "pages": 266,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -26,7 +26,7 @@
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
           "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
           "pageImageExtension": "webp",
-          "pageCount": 12,
+          "pageCount": 13,
           "sections": [
             {
               "id": "doc-d91cdbd85352-s1",
@@ -55,7 +55,7 @@
             {
               "id": "doc-d91cdbd85352-s5",
               "title": "五、典型例题",
-              "page": 12,
+              "page": 13,
               "level": 1
             }
           ]
@@ -118,7 +118,7 @@
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageImageExtension": "webp",
-          "pageCount": 9,
+          "pageCount": 10,
           "sections": [
             {
               "id": "doc-31985d1e27f4-s1",
@@ -129,31 +129,31 @@
             {
               "id": "doc-31985d1e27f4-s2",
               "title": "二、微分与局部线性化",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s3",
               "title": "三、基本求导公式",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s4",
               "title": "四、求导法则",
-              "page": 6,
+              "page": 7,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s5",
               "title": "五、高阶导数与常见结构",
-              "page": 8,
+              "page": 9,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s6",
               "title": "六、典型例题",
-              "page": 9,
+              "page": 10,
               "level": 1
             }
           ]
@@ -1303,7 +1303,7 @@
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
       "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
       "pageImageExtension": "webp",
-      "pageCount": 12,
+      "pageCount": 13,
       "sections": [
         {
           "id": "doc-d91cdbd85352-s1",
@@ -1332,7 +1332,7 @@
         {
           "id": "doc-d91cdbd85352-s5",
           "title": "五、典型例题",
-          "page": 12,
+          "page": 13,
           "level": 1
         }
       ]
@@ -1395,7 +1395,7 @@
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageImageExtension": "webp",
-      "pageCount": 9,
+      "pageCount": 10,
       "sections": [
         {
           "id": "doc-31985d1e27f4-s1",
@@ -1406,31 +1406,31 @@
         {
           "id": "doc-31985d1e27f4-s2",
           "title": "二、微分与局部线性化",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s3",
           "title": "三、基本求导公式",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s4",
           "title": "四、求导法则",
-          "page": 6,
+          "page": 7,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s5",
           "title": "五、高阶导数与常见结构",
-          "page": 8,
+          "page": 9,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s6",
           "title": "六、典型例题",
-          "page": 9,
+          "page": 10,
           "level": 1
         }
       ]

@@ -2,10 +2,10 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:19:22+08:00",
+  "generatedAt": "2026-08-04T19:39:55+08:00",
   "stats": {
     "documents": 23,
-    "pages": 264,
+    "pages": 266,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -27,7 +27,7 @@ window.BOOK_MANIFEST = {
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
           "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
           "pageImageExtension": "webp",
-          "pageCount": 12,
+          "pageCount": 13,
           "sections": [
             {
               "id": "doc-d91cdbd85352-s1",
@@ -56,7 +56,7 @@ window.BOOK_MANIFEST = {
             {
               "id": "doc-d91cdbd85352-s5",
               "title": "五、典型例题",
-              "page": 12,
+              "page": 13,
               "level": 1
             }
           ]
@@ -119,7 +119,7 @@ window.BOOK_MANIFEST = {
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageImageExtension": "webp",
-          "pageCount": 9,
+          "pageCount": 10,
           "sections": [
             {
               "id": "doc-31985d1e27f4-s1",
@@ -130,31 +130,31 @@ window.BOOK_MANIFEST = {
             {
               "id": "doc-31985d1e27f4-s2",
               "title": "二、微分与局部线性化",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s3",
               "title": "三、基本求导公式",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s4",
               "title": "四、求导法则",
-              "page": 6,
+              "page": 7,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s5",
               "title": "五、高阶导数与常见结构",
-              "page": 8,
+              "page": 9,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s6",
               "title": "六、典型例题",
-              "page": 9,
+              "page": 10,
               "level": 1
             }
           ]
@@ -1304,7 +1304,7 @@ window.BOOK_MANIFEST = {
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
       "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
       "pageImageExtension": "webp",
-      "pageCount": 12,
+      "pageCount": 13,
       "sections": [
         {
           "id": "doc-d91cdbd85352-s1",
@@ -1333,7 +1333,7 @@ window.BOOK_MANIFEST = {
         {
           "id": "doc-d91cdbd85352-s5",
           "title": "五、典型例题",
-          "page": 12,
+          "page": 13,
           "level": 1
         }
       ]
@@ -1396,7 +1396,7 @@ window.BOOK_MANIFEST = {
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageImageExtension": "webp",
-      "pageCount": 9,
+      "pageCount": 10,
       "sections": [
         {
           "id": "doc-31985d1e27f4-s1",
@@ -1407,31 +1407,31 @@ window.BOOK_MANIFEST = {
         {
           "id": "doc-31985d1e27f4-s2",
           "title": "二、微分与局部线性化",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s3",
           "title": "三、基本求导公式",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s4",
           "title": "四、求导法则",
-          "page": 6,
+          "page": 7,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s5",
           "title": "五、高阶导数与常见结构",
-          "page": 8,
+          "page": 9,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s6",
           "title": "六、典型例题",
-          "page": 9,
+          "page": 10,
           "level": 1
         }
       ]
@@ -2594,15 +2594,15 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 11,
     "heading": "函数的极限与连续",
-    "snippet": "四、连续性与间断点 1. 连续的定义 函数 f x 在 x 0 连续，等价于 lim x- x 0 f x f x 0 也等价于： 1. f x 0 有定义。 2. lim x- x 0 f x 存在。 3. 极限值等于函数值。 2. 间断点分类 判断间断点时，先看 x 0 处是否连续；若不连续，再分别考察左极限和右极限： A lim x...",
-    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 函数的极限与连续 四、连续性与间断点 1. 连续的定义 函数 f x 在 x 0 连续，等价于 lim x- x 0 f x f x 0 也等价于： 1. f x 0 有定义。 2. lim x- x 0 f x 存在。 3. 极限值等于函数值。 2. 间断点分类 判断间断点时，先看 x 0 处是否连续；若不连续，再分别考察左极限和右极限： A lim x- x 0^- f x , quad B lim x- x 0^+ f x 核心分类 若左右极限 A,B 都存在且都是有限数，则称为第一类间断点；若左右极限中至少有一个不存在或为无穷大，则称为第二类间断点。 columns: 1.1fr, 1.35fr, 2.35fr, 2.3fr , align: center, center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 大类 , 具体类型 , 判断 , 处理重点 , 第一类 , 可去间断点 , 左右极限存在且相等，但函数值不存在或不等于该极限 , 可通过补定义或改定义使函数连续 , 第一类 , 跳跃间断点 , 左右极限都存在且有限，但二者不相等 , 分段函数最常见，重点分别算左右极限 , 第二类 , 无穷间断点 , 至少一侧极限为无穷大 , 常见于分母趋零、分子不趋零的结构 , 第二类 , 振荡间断点 , 至少一侧极限振荡不存在 , 常见于 sin 1/x 、 cos 1/x 类结构 , 判定流程 1. 先判断 f x 0 是否有定义，以及左右极限是否存在。\\ 2. 左右极限都存在且有限，归入第一类；再看相等与否，区分可去和跳跃。\\ 3. 只要有一侧极限不存在或发散为无穷大，归入第二类；再区分无穷间断和振荡间断。\\ 4. 题目问“第几类间断点”时，不能只答可去、跳跃、无穷或振荡，还要写明第一类或第二类。 3. 闭区间连续函数性质 若 f x 在闭区间 a,b 上连续，则： 1. 有界性： f x 在 a,b 上有界。 2. 最值定理：存在最大值和最小值。 3. 介值定理：函数能取到最大值与最小值之间的一切值。 4. 零点定理：若 f a f b 0 ，则存在 xi in a,b 使 f xi 0 。"
+    "snippet": "四、连续性与间断点 1. 连续的定义 函数 f x 在 x 0 连续，等价于 lim x- x 0 f x f x 0 也等价于： 1. f x 0 有定义。 2. lim x- x 0 f x 存在。 3. 极限值等于函数值。 2. 做题经验：证明连续需要哪些条件 证明连续不要只写“代入即可”，而要说明为什么可以代入。核心是先确认函数在...",
+    "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 函数的极限与连续 四、连续性与间断点 1. 连续的定义 函数 f x 在 x 0 连续，等价于 lim x- x 0 f x f x 0 也等价于： 1. f x 0 有定义。 2. lim x- x 0 f x 存在。 3. 极限值等于函数值。 2. 做题经验：证明连续需要哪些条件 证明连续不要只写“代入即可”，而要说明为什么可以代入。核心是先确认函数在该点有定义，再确认极限存在并等于函数值。 证明连续的三件套 f 在 x 0 连续 f x 0 有定义， lim x- x 0 f x 存在，且 lim x- x 0 f x f x 0 columns: 1.6fr, 2.7fr, 2.7fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 题型 , 需要核对的条件 , 常见失误 , 一般点连续 , 函数值存在；左右极限存在且相等；极限等于函数值 , 只算极限，不看 f x 0 是否定义 , 分段函数拼接点 , 分别算左极限、右极限和点值 , 只用某一段公式代入，漏掉另一侧 , 区间端点连续 , 左端点看右连续，右端点看左连续 , 把端点也按双侧极限处理 , 复合函数连续 , 内层在点处连续，外层在对应函数值处连续 , 没有检查对数真数、偶次根号、分母等定义域 , 四则运算连续 , 参与运算的函数都连续；商的分母在该点不为 0 , 分母趋零时仍直接套连续运算法则 , 含绝对值 , 先看内部函数是否连续； abs u 本身连续 , 误以为绝对值会破坏连续性 , 证明连续的常用路线 1. 初等函数在定义域内部连续，可直接说明“由初等函数连续性”。\\ 2. 分段函数只需要重点处理分界点；非分界点按对应表达式判断。\\ 3. 含参数连续题，通常令左极限、右极限、函数值三者相等来解参数。\\ 4. 若题目只给极限存在，不等于函数连续；还必须比较该点函数值。\\ 5. 多元函数连续也要回到 lim x,y - x 0,y 0 f x,y f x 0,y 0 ，不能只看沿直线的极限。 证明连续时最常见的错误是把“极限存在”等同于“连续”。连续比极限多一个要求：函数在该点必须有定义，而且函数值必须等于极限值。 3. 间断点分类 判断间断点时，先看 x 0 处是否连续；若不连续，再分别考察左极限和右极限： A lim x- x 0^- f x , quad B lim x- x 0^+ f x 核心分类 若左右极限 A,B 都存在且都是有限数，则称为第一类间断点；若左右极限中至少有一个不存在或为无穷大，则称为第二类间断点。 columns: 1.1fr, 1.35fr, 2.35fr, 2.3fr , align: center, center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 大类 , 具体类型 , 判断 , 处理重点 , 第一类 , 可去间断点 , 左右极限存在且相等，但函数值不存在或不等于该极限 , 可通过补定义或改定义使函数连续 , 第一类 , 跳跃间断点 , 左右极限都存在且有限，但二者不相等 , 分段函数最常见，重点分别算左右极限 , 第二类 , 无穷间断点 , 至少一侧极限为无穷大 , 常见于分母趋零、分子不趋零的结构 , 第二类 , 振荡间断点 , 至少一侧极限振荡不存在 , 常见于 sin 1/x 、 cos 1/x 类结构 , 判定流程 1. 先判断 f x 0 是否有定义，以及左右极限是否存在。\\ 2. 左右极限都存在且有限，归入第一类；再看相等与否，区分可去和跳跃。\\ 3. 只要有一侧极限不存在或发散为无穷大，归入第二类；再区分无穷间断和振荡间断。\\ 4. 题目问“第几类间断点”时，不能只答可去、跳跃、无穷或振荡，还要写明第一类或第二类。 4. 闭区间连续函数性质 若 f x 在闭区间 a,b 上连续，则： 1. 有界性： f x 在 a,b 上有界。 2. 最值定理：存在最大值和最小值。 3. 介值定理：函数能取到最大值与最小值之间的一切值。 4. 零点定理：若 f a f b 0 ，则存在 xi in a,b 使 f xi 0 。"
   },
   {
-    "id": "doc-d91cdbd85352-p12",
+    "id": "doc-d91cdbd85352-p13",
     "docId": "doc-d91cdbd85352",
     "title": "Limits and Continuity (函数的极限与连续)",
     "category": "微积分",
-    "page": 12,
+    "page": 13,
     "heading": "函数的极限与连续",
     "snippet": "五、典型例题 例题 1：有理化求极限 题目 求 lim x- 0 sqrt 1+x -sqrt 1-x /x 。 有理化： sqrt 1+x -sqrt 1-x /x 1+x - 1-x / x sqrt 1+x +sqrt 1-x 2/ sqrt 1+x +sqrt 1-x 所以 lim x- 0 sqrt 1+x -sqrt 1-x ...",
     "text": "Limits and Continuity (函数的极限与连续) Limits and Continuity 函数的极限与连续 微积分 函数的极限与连续 五、典型例题 例题 1：有理化求极限 题目 求 lim x- 0 sqrt 1+x -sqrt 1-x /x 。 有理化： sqrt 1+x -sqrt 1-x /x 1+x - 1-x / x sqrt 1+x +sqrt 1-x 2/ sqrt 1+x +sqrt 1-x 所以 lim x- 0 sqrt 1+x -sqrt 1-x /x 2/ 1+1 1 例题 2：连续性确定参数 题目 设 f x cases e^ a x -1 /x, x ! 0 , 2, x 0 求使 f x 在 x 0 连续的 a 。 连续要求 lim x- 0 e^ a x -1 /x 2 由 e^ a x -1 tilde.eq a x ，得极限为 a 。因此 a 2 例题 3：零点定理 题目 证明方程 x^3+x-1 0 在 0,1 内至少有一个实根。 令 f x x^3+x-1 ，则 f x 在 0,1 上连续，且 f 0 -1 0, quad f 1 1 0 由零点定理，存在 xi in 0,1 ，使 f xi 0 故方程在 0,1 内至少有一个实根。"
@@ -2675,17 +2675,7 @@ window.SEARCH_INDEX = [
     "page": 2,
     "heading": "一元函数微分学的概念和计算",
     "snippet": "一、导数的概念 1. 导数定义 函数 y f x 在点 x 0 的导数定义为 f' x 0 lim Delta x- 0 f x 0+Delta x -f x 0 / Delta x 若该极限存在，则称 f x 在 x 0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时变化率。 也可写成 f' x 0 lim x- ...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 一、导数的概念 1. 导数定义 函数 y f x 在点 x 0 的导数定义为 f' x 0 lim Delta x- 0 f x 0+Delta x -f x 0 / Delta x 若该极限存在，则称 f x 在 x 0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时变化率。 也可写成 f' x 0 lim x- x 0 f x -f x 0 / x-x 0 2. 左导数与右导数 函数在 x 0 可导，当且仅当左导数和右导数都存在且相等： f' - x 0 f' + x 0 分段函数、绝对值函数和端点处的导数问题，必须分别考察左右导数。 可导一定连续，连续不一定可导。例如 f x abs x 在 x 0 连续但不可导，因为左右导数分别为 -1 与 1 。 3. 连续、可导、可微的关系 一元函数中，“可导”和“可微”本质等价。若 f' x 0 存在，则函数增量可以写成 Delta y f x 0+h -f x 0 f' x 0 h+o h 因此 f 在 x 0 可微，且微分为 d y f' x 0 d x 反过来，若存在常数 A ，使 Delta y A h+o h 则 f x 0+h -f x 0 /h A+o h /h - A 所以 f' x 0 A ，函数在 x 0 可导。 一元关系链 可导 可微 连续 反向一般不成立：连续不能推出可导；不可导也可能仍连续。 columns: 1.8fr, 2.3fr, 2.7fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 已知条件 , 能推出什么 , 不能推出什么或反例 , f 在 x 0 可导 , f 在 x 0 连续且可微 , 不能推出 f' 在 x 0 连续 , f 在 x 0 可微 , f 在 x 0 可导且连续 , 一元情况下与可导等价 , f 在 x 0 连续 , 函数值与极限一致 , 不能推出可导，如 f x abs x 在 0 处 , f 在 x 0 不连续 , 一定不可导、不可微 , 因为可导必连续 , 做题推导顺序 若题目要求证明可导，优先回到导数定义或左右导数；若题目要求证明可微，一元题可直接证明可导；若要否定可导，常找左右导数不等、差商极限不存在或尖点；若已知不连续，可直接否定可导和可微。 4. 绝对值对连续性与可导性的影响 绝对值函数 abs u 本身连续，所以若 f 在 x 0 连续，则 abs f 在 x 0 一定连续： f x - f x 0 abs f x - abs f x 0 但绝对值可能制造尖点，关键看 f x 0 是否为零。 columns: 2fr, 2.6fr, 2.8fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 条件 , abs f 的结论 , 原因 , f 连续 , abs f 连续 , 连续函数复合连续函数仍连续 , f 可导 , f x 0 0 , abs f ' x 0 f' x 0 , x 0 附近 abs f f , f 可导 , f x 0 0 , abs f ' x 0 -f' x 0 , x 0 附近 abs f -f , f 可导 , f x 0 0, f' x 0 ! 0 , abs f 不可导 , 左右差商符号相反，形成尖点 , f 可导 , f x 0 0, f' x 0 0 , abs f 可导且导数为 0 , 因为 f x 0+h o h , 合并写成常用公式： abs f x ' f' x quad f x 0 abs f x ' -f' x quad f x 0 在 f x 0 0 的点不能直接套公式，应单独用定义： abs f ' x 0 lim h- 0 abs f x 0+h -abs f x 0 /h 看到绝对值题，先分三步：第一看绝对值内部在该点是否为 0 ；第二若不为 0 ，可按正负号去绝对值；第三若为 0 ，必须查左右导数或差商极限。最常见错误是把 abs f 直接当作 f 求导，漏掉零点处的不可导判断。"
-  },
-  {
-    "id": "doc-31985d1e27f4-p4",
-    "docId": "doc-31985d1e27f4",
-    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
-    "category": "微积分",
-    "page": 4,
-    "heading": "一元函数微分学的概念和计算",
-    "snippet": "二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f x +f' x Delta x 这就是用切线近似曲线。常用于根式、指数和对数的近似估算。"
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 一、导数的概念 1. 导数定义 函数 y f x 在点 x 0 的导数定义为 f' x 0 lim Delta x- 0 f x 0+Delta x -f x 0 / Delta x 若该极限存在，则称 f x 在 x 0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时变化率。 也可写成 f' x 0 lim x- x 0 f x -f x 0 / x-x 0 2. 左导数与右导数 函数在 x 0 可导，当且仅当左导数和右导数都存在且相等： f' - x 0 f' + x 0 分段函数、绝对值函数和端点处的导数问题，必须分别考察左右导数。 可导一定连续，连续不一定可导。例如 f x abs x 在 x 0 连续但不可导，因为左右导数分别为 -1 与 1 。 3. 连续、可导、可微的关系 一元函数中，“可导”和“可微”本质等价。若 f' x 0 存在，则函数增量可以写成 Delta y f x 0+h -f x 0 f' x 0 h+o h 因此 f 在 x 0 可微，且微分为 d y f' x 0 d x 反过来，若存在常数 A ，使 Delta y A h+o h 则 f x 0+h -f x 0 /h A+o h /h - A 所以 f' x 0 A ，函数在 x 0 可导。 一元关系链 可导 可微 连续 反向一般不成立：连续不能推出可导；不可导也可能仍连续。 columns: 1.8fr, 2.3fr, 2.7fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 已知条件 , 能推出什么 , 不能推出什么或反例 , f 在 x 0 可导 , f 在 x 0 连续且可微 , 不能推出 f' 在 x 0 连续 , f 在 x 0 可微 , f 在 x 0 可导且连续 , 一元情况下与可导等价 , f 在 x 0 连续 , 函数值与极限一致 , 不能推出可导，如 f x abs x 在 0 处 , f 在 x 0 不连续 , 一定不可导、不可微 , 因为可导必连续 , 做题推导顺序 若题目要求证明可导，优先回到导数定义或左右导数；若题目要求证明可微，一元题可直接证明可导；若要否定可导，常找左右导数不等、差商极限不存在或尖点；若已知不连续，可直接否定可导和可微。 4. 做题经验：证明可导需要哪些条件 证明可导的本质是证明差商极限存在。做题时通常先用连续性排除明显不可导，再根据函数结构选择导数定义、左右导数或求导法则。 证明可导的核心条件 f 在 x 0 可导 lim h- 0 f x 0+h -f x 0 /h 存在且为有限值 等价地： f' - x 0 f' + x 0 且二者有限 columns: 1.65fr, 2.75fr, 2.6fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 题型 , 证明可导要核对的条件 , 常见失误 , 一般点可导 , 差商极限存在且有限 , 只会套公式，忘记特殊点要用定义 , 分段函数拼接点 , 先连续；再算左导数和右导数，并令二者相等 , 只令左右极限相等，漏掉导数相等 , 含绝对值或尖点 , 先看绝对值内部在该点是否为 0 ；再查左右差商 , 直接去绝对值或直接套链式法则 , 复合函数 , 内层在点处可导；外层在内层函数值处可导 , 外层在对应点不可导仍套链式法则 , 四则运算 , 参与运算的函数都可导；商的分母在该点不为 0 , 分母为 0 时仍套商法则 , 反函数求导 , 原函数单调、可导，且 f' x 0 ! 0 , 忽略导数不能为 0 的条件 , 证明可导的实战顺序 1. 先看函数在 x 0 是否连续；若不连续，立即判定不可导。\\ 2. 若是普通初等函数且在定义域内部，可直接用求导公式。\\ 3. 若是分段点、绝对值零点、端点或根号分母等特殊点，回到导数定义。\\ 4. 分段拼接点常先由连续性求参数，再由左导数等于右导数继续求参数。\\ 5. 端点通常只能谈单侧导数；若题目问普通可导，默认需要双侧邻域。 连续是可导的必要条件，不是充分条件。证明可导时，“函数连续”只能作为第一关；真正决定可导的是差商极限是否存在，尤其是左右导数是否相等。 5. 绝对值对连续性与可导性的影响 绝对值函数 abs u 本身连续，所以若 f 在 x 0 连续，则 abs f 在 x 0 一定连续： f x - f x 0 abs f x - abs f x 0 但绝对值可能制造尖点，关键看 f x 0 是否为零。 columns: 2fr, 2.6fr, 2.8fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 条件 , abs f 的结论 , 原因 , f 连续 , abs f 连续 , 连续函数复合连续函数仍连续 , f 可导 , f x 0 0 , abs f ' x 0 f' x 0 , x 0 附近 abs f f , f 可导 , f x 0 0 , abs f ' x 0 -f' x 0 , x 0 附近 abs f -f , f 可导 , f x 0 0, f' x 0 ! 0 , abs f 不可导 , 左右差商符号相反，形成尖点 , f 可导 , f x 0 0, f' x 0 0 , abs f 可导且导数为 0 , 因为 f x 0+h o h , 合并写成常用公式： abs f x ' f' x quad f x 0 abs f x ' -f' x quad f x 0 在 f x 0 0 的点不能直接套公式，应单独用定义： abs f ' x 0 lim h- 0 abs f x 0+h -abs f x 0 /h 看到绝对值题，先分三步：第一看绝对值内部在该点是否为 0 ；第二若不为 0 ，可按正负号去绝对值；第三若为 0 ，必须查左右导数或差商极限。最常见错误是把 abs f 直接当作 f 求导，漏掉零点处的不可导判断。"
   },
   {
     "id": "doc-31985d1e27f4-p5",
@@ -2694,8 +2684,8 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 5,
     "heading": "一元函数微分学的概念和计算",
-    "snippet": "三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导数为零 , x^alpha , alpha x^ alpha-1 , 幂函数公式 , e^x , e^x , 自然指数函数 , a^x , a^x ln a , a 0, a ! 1 , ln x , 1/x , x 0 , sin x , cos x , 三角函数 , cos x , -sin x , 注意负号 , tan x , sec^2 x , 也可写 1/cos^2 x , arctan x , 1/ 1+x^2 , 反三角函数常用 ,"
+    "snippet": "二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f x +f' x Delta x 这就是用切线近似曲线。常用于根式、指数和对数的近似估算。"
   },
   {
     "id": "doc-31985d1e27f4-p6",
@@ -2704,18 +2694,18 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 6,
     "heading": "一元函数微分学的概念和计算",
-    "snippet": "四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法则的关键是从外到内逐层求导，每层都不能漏。 3. 反函数求导 若 y f x 单调可导，且 f' x ! 0 ，其反函数 x phi y 满足 d x / d y 1/ d y / d x 常用于反三角函数和由方程确定的反函数。 4. 隐函数求导 若 F x,y 0 确定 y y x ，则两边对 x 求导，把 y 看成 x 的函数： F x+F y y' 0 若 F y ! 0 ，则 y' -F x/F y 5. 参数方程求导 若 x x t , quad y y t 且 x' t ! 0 ，则 d y / d x d y / d t / d x / d t y' t /x' t 二阶导数为 d^2 y / d x^2 d / d t d y / d x / d x/d t 6. 对数求导法 当函数含有乘积、商、幂指函数时，常先取对数再求导。例如 y u x ^ v x 两边取对数： ln y v ln u 再求导： y'/y v' ln u+v u'/u"
+    "snippet": "三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导数为零 , x^alpha , alpha x^ alpha-1 , 幂函数公式 , e^x , e^x , 自然指数函数 , a^x , a^x ln a , a 0, a ! 1 , ln x , 1/x , x 0 , sin x , cos x , 三角函数 , cos x , -sin x , 注意负号 , tan x , sec^2 x , 也可写 1/cos^2 x , arctan x , 1/ 1+x^2 , 反三角函数常用 ,"
   },
   {
-    "id": "doc-31985d1e27f4-p8",
+    "id": "doc-31985d1e27f4-p7",
     "docId": "doc-31985d1e27f4",
     "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
     "category": "微积分",
-    "page": 8,
+    "page": 7,
     "heading": "一元函数微分学的概念和计算",
-    "snippet": "五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , n 阶导数 , e^ a x , a^n e^ a x , sin x , 按 sin x, cos x, -sin x, -cos x 循环 , ln 1+x , -1 ^ n-1 n-1 !/ 1+x ^n , 1/ 1-x , n!/ 1-x ^ n+1 ,"
+    "snippet": "四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法则的关键是从外到内逐层求导，每层都不能漏。 3. 反函数求导 若 y f x 单调可导，且 f' x ! 0 ，其反函数 x phi y 满足 d x / d y 1/ d y / d x 常用于反三角函数和由方程确定的反函数。 4. 隐函数求导 若 F x,y 0 确定 y y x ，则两边对 x 求导，把 y 看成 x 的函数： F x+F y y' 0 若 F y ! 0 ，则 y' -F x/F y 5. 参数方程求导 若 x x t , quad y y t 且 x' t ! 0 ，则 d y / d x d y / d t / d x / d t y' t /x' t 二阶导数为 d^2 y / d x^2 d / d t d y / d x / d x/d t 6. 对数求导法 当函数含有乘积、商、幂指函数时，常先取对数再求导。例如 y u x ^ v x 两边取对数： ln y v ln u 再求导： y'/y v' ln u+v u'/u"
   },
   {
     "id": "doc-31985d1e27f4-p9",
@@ -2723,6 +2713,16 @@ window.SEARCH_INDEX = [
     "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
     "category": "微积分",
     "page": 9,
+    "heading": "一元函数微分学的概念和计算",
+    "snippet": "五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , n 阶导数 , e^ a x , a^n e^ a x , sin x , 按 sin x, cos x, -sin x, -cos x 循环 , ln 1+x , -1 ^ n-1 n-1 !/ 1+x ^n , 1/ 1-x , n!/ 1-x ^ n+1 ,"
+  },
+  {
+    "id": "doc-31985d1e27f4-p10",
+    "docId": "doc-31985d1e27f4",
+    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+    "category": "微积分",
+    "page": 10,
     "heading": "一元函数微分学的概念和计算",
     "snippet": "六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 ...",
     "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 x 0+Delta x 2 x 0 例题 2：隐函数求导 题目 由方程 x^2+x y+y^2 1 确定 y y x ，求 y' 。 两边对 x 求导： 2 x+ x y '+2 y y' 0 其中 x y ' y+x y' 所以 2 x+y+x y'+2 y y' 0 整理得 x+2 y y' - 2 x+y 因此 y' - 2 x+y / x+2 y 例题 3：参数方程求导 题目 设 x t^2+1 ， y t^3-t ，求 d y/d x 。 有 d x/d t 2 t, quad d y/d t 3 t^2-1 当 t ! 0 时， d y/d x 3 t^2-1 / 2 t"
