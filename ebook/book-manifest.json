@@ -1,12 +1,12 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T10:13:58+08:00",
+  "generatedAt": "2026-08-04T11:17:35+08:00",
   "stats": {
     "documents": 19,
-    "pages": 268,
+    "pages": 270,
     "renderDpi": 260,
-    "searchEntries": 268
+    "searchEntries": 270
   },
   "categories": [
     {
@@ -24,7 +24,7 @@
           "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
           "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
-          "pageCount": 10,
+          "pageCount": 12,
           "sections": [
             {
               "id": "doc-881c0cac3960-s1",
@@ -47,13 +47,13 @@
             {
               "id": "doc-881c0cac3960-s4",
               "title": "四、连续性与间断点",
-              "page": 9,
+              "page": 11,
               "level": 1
             },
             {
               "id": "doc-881c0cac3960-s5",
               "title": "五、典型例题",
-              "page": 10,
+              "page": 12,
               "level": 1
             }
           ]
@@ -1322,7 +1322,7 @@
       "webPath": "../微积分/Limits and Continuity (函数的极限与连续).pdf",
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
       "pageImageBase": "./rendered-pages/doc-881c0cac3960/page-",
-      "pageCount": 10,
+      "pageCount": 12,
       "sections": [
         {
           "id": "doc-881c0cac3960-s1",
@@ -1345,13 +1345,13 @@
         {
           "id": "doc-881c0cac3960-s4",
           "title": "四、连续性与间断点",
-          "page": 9,
+          "page": 11,
           "level": 1
         },
         {
           "id": "doc-881c0cac3960-s5",
           "title": "五、典型例题",
-          "page": 10,
+          "page": 12,
           "level": 1
         }
       ]
