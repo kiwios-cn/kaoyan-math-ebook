@@ -92,6 +92,17 @@ function getPrefetchPageRange(pageCount, centerPage, radius = PAGE_PRELOAD_RADIU
   return Array.from({ length: lastPage - firstPage + 1 }, (_, index) => firstPage + index);
 }
 
+function getActiveSection(documentItem, pageNumber = state.activePage) {
+  const sections = [...(documentItem?.sections || [])].sort((first, second) => first.page - second.page);
+  let activeSection = null;
+  sections.forEach((section) => {
+    if (section.page <= pageNumber) {
+      activeSection = section;
+    }
+  });
+  return activeSection;
+}
+
 function updateHash() {
   const params = new URLSearchParams();
   if (state.activeDocId) {
@@ -139,20 +150,64 @@ function renderToc() {
     block.append(title);
 
     category.documents.forEach((documentItem) => {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "toc-button";
-      button.style.setProperty("--active-accent", category.accent);
-      button.dataset.docId = documentItem.id;
-      button.innerHTML = `
-        <span class="toc-title">${escapeHtml(documentItem.chineseTitle || documentItem.title)}</span>
-        <span class="toc-pages">${escapeHtml(documentItem.englishTitle)} · ${documentItem.pageCount} 页</span>
-      `;
-      button.addEventListener("click", () => openDocument(documentItem.id, 1));
-      block.append(button);
+      block.append(renderTocDocument(documentItem, category));
     });
     elements.toc.append(block);
   });
+}
+
+function renderTocDocument(documentItem, category) {
+  const item = document.createElement("div");
+  item.className = "toc-document";
+  item.classList.toggle("is-expanded", documentItem.id === state.activeDocId);
+
+  const sections = documentItem.sections || [];
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "toc-button";
+  button.style.setProperty("--active-accent", category.accent);
+  button.dataset.docId = documentItem.id;
+  button.setAttribute("aria-expanded", String(documentItem.id === state.activeDocId && sections.length > 0));
+  button.innerHTML = `
+    <span class="toc-main-row">
+      <span class="toc-chevron" aria-hidden="true">${sections.length ? "▸" : ""}</span>
+      <span class="toc-title">${escapeHtml(documentItem.chineseTitle || documentItem.title)}</span>
+    </span>
+    <span class="toc-pages">${escapeHtml(documentItem.englishTitle)} · ${documentItem.pageCount} 页 · ${sections.length} 个大点</span>
+  `;
+  button.addEventListener("click", () => openDocument(documentItem.id, 1));
+  item.append(button);
+
+  if (sections.length > 0) {
+    item.append(renderTocSections(documentItem, category));
+  }
+  return item;
+}
+
+function renderTocSections(documentItem, category) {
+  const sublist = document.createElement("div");
+  sublist.className = "toc-sublist";
+  sublist.hidden = documentItem.id !== state.activeDocId;
+  const activeSection = getActiveSection(documentItem);
+  (documentItem.sections || []).forEach((section) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "toc-section-button";
+    button.style.setProperty("--active-accent", category.accent);
+    button.dataset.docId = documentItem.id;
+    button.dataset.sectionId = section.id;
+    button.classList.toggle("is-active", documentItem.id === state.activeDocId && section.id === activeSection?.id);
+    button.innerHTML = `
+      <span class="toc-section-page">P${section.page}</span>
+      <span class="toc-section-title">${escapeHtml(section.title)}</span>
+    `;
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      openDocument(documentItem.id, section.page);
+    });
+    sublist.append(button);
+  });
+  return sublist;
 }
 
 function renderSubjectTabs() {
@@ -193,12 +248,11 @@ function openDocument(docId, pageNumber = 1) {
   renderPageStack(documentItem);
   warmNearbyPageImages(documentItem, state.activePage);
   updatePageControls(documentItem);
+  renderToc();
   requestAnimationFrame(() => {
     scrollToPage(state.activePage, previousDocId === documentItem.id ? "smooth" : "auto");
   });
-  document.querySelectorAll(".toc-button").forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.docId === documentItem.id);
-  });
+  updateTocActiveState(documentItem);
   updateHash();
 }
 
@@ -320,6 +374,22 @@ function updatePageControls(documentItem = getDocumentById(state.activeDocId)) {
   elements.nextPageButton.disabled = state.activePage >= documentItem.pageCount;
 }
 
+function updateTocActiveState(documentItem = getDocumentById(state.activeDocId)) {
+  if (!documentItem) {
+    return;
+  }
+  const activeSection = getActiveSection(documentItem);
+  document.querySelectorAll(".toc-button").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.docId === documentItem.id);
+  });
+  document.querySelectorAll(".toc-section-button").forEach((button) => {
+    button.classList.toggle(
+      "is-active",
+      button.dataset.docId === documentItem.id && button.dataset.sectionId === activeSection?.id
+    );
+  });
+}
+
 function syncPageFromScroll() {
   const documentItem = getDocumentById(state.activeDocId);
   if (!documentItem || !elements.pageStack.children.length) {
@@ -338,6 +408,7 @@ function syncPageFromScroll() {
     state.activePage = currentPage;
     warmNearbyPageImages(documentItem, currentPage);
     updatePageControls(documentItem);
+    updateTocActiveState(documentItem);
     updateHash();
   }
 }
