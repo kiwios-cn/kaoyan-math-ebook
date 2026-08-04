@@ -341,14 +341,21 @@ function requestPageImageLoad(image, priority = "auto") {
   if (!image || image.src) {
     return;
   }
-  if (priority === "high") {
-    image.loading = "eager";
-    if ("fetchPriority" in image) {
-      image.fetchPriority = "high";
-    }
-  }
+  configurePageImageRequest(image, priority);
   image.addEventListener("load", () => image.classList.add("is-loaded"), { once: true });
   image.src = image.dataset.src;
+}
+
+/**
+ * 配置页图请求优先级：后台预加载必须关闭 lazy，否则远离视口时浏览器可能不下载。
+ */
+function configurePageImageRequest(image, priority = "auto") {
+  if (priority === "high" || priority === "background") {
+    image.loading = "eager";
+    if ("fetchPriority" in image) {
+      image.fetchPriority = priority === "high" ? "high" : "low";
+    }
+  }
 }
 
 function warmNearbyPageImages(documentItem, centerPage) {
@@ -389,7 +396,7 @@ function scheduleBackgroundPagePreload(documentItem, centerPage) {
       if (!image || image.src) {
         continue;
       }
-      requestPageImageLoad(image);
+      requestPageImageLoad(image, "background");
       loadedCount += 1;
     }
     state.backgroundPreloadTimer = pageQueue.length
