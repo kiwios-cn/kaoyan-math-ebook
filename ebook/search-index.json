@@ -117,17 +117,7 @@
     "page": 2,
     "heading": "一元函数微分学的概念和计算",
     "snippet": "一、导数的概念 1. 导数定义 函数 y f x 在点 x 0 的导数定义为 f' x 0 lim Delta x- 0 f x 0+Delta x -f x 0 / Delta x 若该极限存在，则称 f x 在 x 0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时变化率。 也可写成 f' x 0 lim x- ...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 一、导数的概念 1. 导数定义 函数 y f x 在点 x 0 的导数定义为 f' x 0 lim Delta x- 0 f x 0+Delta x -f x 0 / Delta x 若该极限存在，则称 f x 在 x 0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时变化率。 也可写成 f' x 0 lim x- x 0 f x -f x 0 / x-x 0 2. 左导数与右导数 函数在 x 0 可导，当且仅当左导数和右导数都存在且相等： f' - x 0 f' + x 0 分段函数、绝对值函数和端点处的导数问题，必须分别考察左右导数。 可导一定连续，连续不一定可导。例如 f x abs x 在 x 0 连续但不可导，因为左右导数分别为 -1 与 1 。"
-  },
-  {
-    "id": "doc-31985d1e27f4-p3",
-    "docId": "doc-31985d1e27f4",
-    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
-    "category": "微积分",
-    "page": 3,
-    "heading": "一元函数微分学的概念和计算",
-    "snippet": "二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f x +f' x Delta x 这就是用切线近似曲线。常用于根式、指数和对数的近似估算。"
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 一、导数的概念 1. 导数定义 函数 y f x 在点 x 0 的导数定义为 f' x 0 lim Delta x- 0 f x 0+Delta x -f x 0 / Delta x 若该极限存在，则称 f x 在 x 0 可导。导数表示函数图像在该点切线斜率，也表示函数值相对于自变量的瞬时变化率。 也可写成 f' x 0 lim x- x 0 f x -f x 0 / x-x 0 2. 左导数与右导数 函数在 x 0 可导，当且仅当左导数和右导数都存在且相等： f' - x 0 f' + x 0 分段函数、绝对值函数和端点处的导数问题，必须分别考察左右导数。 可导一定连续，连续不一定可导。例如 f x abs x 在 x 0 连续但不可导，因为左右导数分别为 -1 与 1 。 3. 连续、可导、可微的关系 一元函数中，“可导”和“可微”本质等价。若 f' x 0 存在，则函数增量可以写成 Delta y f x 0+h -f x 0 f' x 0 h+o h 因此 f 在 x 0 可微，且微分为 d y f' x 0 d x 反过来，若存在常数 A ，使 Delta y A h+o h 则 f x 0+h -f x 0 /h A+o h /h - A 所以 f' x 0 A ，函数在 x 0 可导。 一元关系链 可导 可微 连续 反向一般不成立：连续不能推出可导；不可导也可能仍连续。 columns: 1.8fr, 2.3fr, 2.7fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 已知条件 , 能推出什么 , 不能推出什么或反例 , f 在 x 0 可导 , f 在 x 0 连续且可微 , 不能推出 f' 在 x 0 连续 , f 在 x 0 可微 , f 在 x 0 可导且连续 , 一元情况下与可导等价 , f 在 x 0 连续 , 函数值与极限一致 , 不能推出可导，如 f x abs x 在 0 处 , f 在 x 0 不连续 , 一定不可导、不可微 , 因为可导必连续 , 做题推导顺序 若题目要求证明可导，优先回到导数定义或左右导数；若题目要求证明可微，一元题可直接证明可导；若要否定可导，常找左右导数不等、差商极限不存在或尖点；若已知不连续，可直接否定可导和可微。 4. 绝对值对连续性与可导性的影响 绝对值函数 abs u 本身连续，所以若 f 在 x 0 连续，则 abs f 在 x 0 一定连续： f x - f x 0 abs f x - abs f x 0 但绝对值可能制造尖点，关键看 f x 0 是否为零。 columns: 2fr, 2.6fr, 2.8fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 条件 , abs f 的结论 , 原因 , f 连续 , abs f 连续 , 连续函数复合连续函数仍连续 , f 可导 , f x 0 0 , abs f ' x 0 f' x 0 , x 0 附近 abs f f , f 可导 , f x 0 0 , abs f ' x 0 -f' x 0 , x 0 附近 abs f -f , f 可导 , f x 0 0, f' x 0 ! 0 , abs f 不可导 , 左右差商符号相反，形成尖点 , f 可导 , f x 0 0, f' x 0 0 , abs f 可导且导数为 0 , 因为 f x 0+h o h , 合并写成常用公式： abs f x ' f' x quad f x 0 abs f x ' -f' x quad f x 0 在 f x 0 0 的点不能直接套公式，应单独用定义： abs f ' x 0 lim h- 0 abs f x 0+h -abs f x 0 /h 看到绝对值题，先分三步：第一看绝对值内部在该点是否为 0 ；第二若不为 0 ，可按正负号去绝对值；第三若为 0 ，必须查左右导数或差商极限。最常见错误是把 abs f 直接当作 f 求导，漏掉零点处的不可导判断。"
   },
   {
     "id": "doc-31985d1e27f4-p4",
@@ -136,8 +126,8 @@
     "category": "微积分",
     "page": 4,
     "heading": "一元函数微分学的概念和计算",
-    "snippet": "三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导数为零 , x^alpha , alpha x^ alpha-1 , 幂函数公式 , e^x , e^x , 自然指数函数 , a^x , a^x ln a , a 0, a ! 1 , ln x , 1/x , x 0 , sin x , cos x , 三角函数 , cos x , -sin x , 注意负号 , tan x , sec^2 x , 也可写 1/cos^2 x , arctan x , 1/ 1+x^2 , 反三角函数常用 ,"
+    "snippet": "二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 二、微分与局部线性化 1. 微分定义 若函数在 x 处可导，则 d y f' x med d x 称为函数的微分。它是函数增量 Delta y f x+Delta x -f x 的线性主部： Delta y f' x Delta x+o Delta x 2. 近似计算 当 Delta x 很小时， f x+Delta x approx f x +f' x Delta x 这就是用切线近似曲线。常用于根式、指数和对数的近似估算。"
   },
   {
     "id": "doc-31985d1e27f4-p5",
@@ -146,18 +136,18 @@
     "category": "微积分",
     "page": 5,
     "heading": "一元函数微分学的概念和计算",
-    "snippet": "四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法则的关键是从外到内逐层求导，每层都不能漏。 3. 反函数求导 若 y f x 单调可导，且 f' x ! 0 ，其反函数 x phi y 满足 d x / d y 1/ d y / d x 常用于反三角函数和由方程确定的反函数。 4. 隐函数求导 若 F x,y 0 确定 y y x ，则两边对 x 求导，把 y 看成 x 的函数： F x+F y y' 0 若 F y ! 0 ，则 y' -F x/F y 5. 参数方程求导 若 x x t , quad y y t 且 x' t ! 0 ，则 d y / d x d y / d t / d x / d t y' t /x' t 二阶导数为 d^2 y / d x^2 d / d t d y / d x / d x/d t 6. 对数求导法 当函数含有乘积、商、幂指函数时，常先取对数再求导。例如 y u x ^ v x 两边取对数： ln y v ln u 再求导： y'/y v' ln u+v u'/u"
+    "snippet": "三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 三、基本求导公式 columns: 1.7fr, 1.9fr, 2.6fr , align: center, center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , 导数 , 说明 , C , 0 , 常数导数为零 , x^alpha , alpha x^ alpha-1 , 幂函数公式 , e^x , e^x , 自然指数函数 , a^x , a^x ln a , a 0, a ! 1 , ln x , 1/x , x 0 , sin x , cos x , 三角函数 , cos x , -sin x , 注意负号 , tan x , sec^2 x , 也可写 1/cos^2 x , arctan x , 1/ 1+x^2 , 反三角函数常用 ,"
   },
   {
-    "id": "doc-31985d1e27f4-p7",
+    "id": "doc-31985d1e27f4-p6",
     "docId": "doc-31985d1e27f4",
     "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
     "category": "微积分",
-    "page": 7,
+    "page": 6,
     "heading": "一元函数微分学的概念和计算",
-    "snippet": "五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , n 阶导数 , e^ a x , a^n e^ a x , sin x , 按 sin x, cos x, -sin x, -cos x 循环 , ln 1+x , -1 ^ n-1 n-1 !/ 1+x ^n , 1/ 1-x , n!/ 1-x ^ n+1 ,"
+    "snippet": "四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 四、求导法则 1. 四则运算 若 u u x ， v v x 可导，则 u+v ' u'+v' u v ' u'v+u v' u/v ' u'v-u v' /v^2 quad v ! 0 2. 复合函数求导 若 y f u ， u g x ，则 d y/d x d y / d u dot d u / d x f' g x g' x 链式法则的关键是从外到内逐层求导，每层都不能漏。 3. 反函数求导 若 y f x 单调可导，且 f' x ! 0 ，其反函数 x phi y 满足 d x / d y 1/ d y / d x 常用于反三角函数和由方程确定的反函数。 4. 隐函数求导 若 F x,y 0 确定 y y x ，则两边对 x 求导，把 y 看成 x 的函数： F x+F y y' 0 若 F y ! 0 ，则 y' -F x/F y 5. 参数方程求导 若 x x t , quad y y t 且 x' t ! 0 ，则 d y / d x d y / d t / d x / d t y' t /x' t 二阶导数为 d^2 y / d x^2 d / d t d y / d x / d x/d t 6. 对数求导法 当函数含有乘积、商、幂指函数时，常先取对数再求导。例如 y u x ^ v x 两边取对数： ln y v ln u 再求导： y'/y v' ln u+v u'/u"
   },
   {
     "id": "doc-31985d1e27f4-p8",
@@ -165,6 +155,16 @@
     "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
     "category": "微积分",
     "page": 8,
+    "heading": "一元函数微分学的概念和计算",
+    "snippet": "五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0...",
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , n 阶导数 , e^ a x , a^n e^ a x , sin x , 按 sin x, cos x, -sin x, -cos x 循环 , ln 1+x , -1 ^ n-1 n-1 !/ 1+x ^n , 1/ 1-x , n!/ 1-x ^ n+1 ,"
+  },
+  {
+    "id": "doc-31985d1e27f4-p9",
+    "docId": "doc-31985d1e27f4",
+    "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
+    "category": "微积分",
+    "page": 9,
     "heading": "一元函数微分学的概念和计算",
     "snippet": "六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 ...",
     "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 x 0+Delta x 2 x 0 例题 2：隐函数求导 题目 由方程 x^2+x y+y^2 1 确定 y y x ，求 y' 。 两边对 x 求导： 2 x+ x y '+2 y y' 0 其中 x y ' y+x y' 所以 2 x+y+x y'+2 y y' 0 整理得 x+2 y y' - 2 x+y 因此 y' - 2 x+y / x+2 y 例题 3：参数方程求导 题目 设 x t^2+1 ， y t^3-t ，求 d y/d x 。 有 d x/d t 2 t, quad d y/d t 3 t^2-1 当 t ! 0 时， d y/d x 3 t^2-1 / 2 t"
@@ -337,17 +337,7 @@
     "page": 3,
     "heading": "多元函数微分学",
     "snippet": "二、偏导数与全微分 1. 偏导数 对 x 的偏导数定义为 f x x 0,y 0 lim Delta x- 0 f x 0+Delta x,y 0 -f x 0,y 0 / Delta x 对 y 的偏导数定义为 f y x 0,y 0 lim Delta y- 0 f x 0,y 0+Delta y -f x 0,y 0 / Delta...",
-    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 二、偏导数与全微分 1. 偏导数 对 x 的偏导数定义为 f x x 0,y 0 lim Delta x- 0 f x 0+Delta x,y 0 -f x 0,y 0 / Delta x 对 y 的偏导数定义为 f y x 0,y 0 lim Delta y- 0 f x 0,y 0+Delta y -f x 0,y 0 / Delta y 计算偏导时，对哪个变量求导，就把其他变量看作常数。 2. 全微分 若 z f x,y 在点 x,y 可微，则 d z f x med d x+f y med d y 函数增量满足 Delta z f x Delta x+f y Delta y+o r 其中 r sqrt Delta x ^2+ Delta y ^2 3. 可微、偏导和连续的关系 若函数可微，则函数连续，且偏导数存在。反过来，偏导数存在不一定连续，也不一定可微。 若 f x,f y 在某邻域内存在并在该点连续，则 f 在该点可微。 判断可微 常规题中，先求偏导，再看偏导是否连续。若偏导在点附近连续，可直接判定可微；若偏导不连续，需要回到全微分定义或用反例判断。"
-  },
-  {
-    "id": "doc-533e017b0a89-p4",
-    "docId": "doc-533e017b0a89",
-    "title": "Multivariable Differential Calculus (多元函数微分学)",
-    "category": "微积分",
-    "page": 4,
-    "heading": "多元函数微分学",
-    "snippet": "三、复合函数与隐函数求导 1. 复合函数求导 若 z f u,v , quad u u x,y , quad v v x,y 则 partial z / partial x f u partial u / partial x +f v partial v / partial x partial z / partial y f u part...",
-    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 三、复合函数与隐函数求导 1. 复合函数求导 若 z f u,v , quad u u x,y , quad v v x,y 则 partial z / partial x f u partial u / partial x +f v partial v / partial x partial z / partial y f u partial u / partial y +f v partial v / partial y 链式法则的本质是沿每一条变量依赖路径求导后相加。 2. 一元参数复合 若 z f x,y , quad x x t , quad y y t 则 d z / d t f x d x / d t +f y d y / d t 3. 隐函数求导 若 F x,y 0 确定 y y x ，则 y' -F x/F y quad F y ! 0 若 F x,y,z 0 确定 z z x,y ，则 z x -F x/F z, quad z y -F y/F z quad F z ! 0"
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 二、偏导数与全微分 1. 偏导数 对 x 的偏导数定义为 f x x 0,y 0 lim Delta x- 0 f x 0+Delta x,y 0 -f x 0,y 0 / Delta x 对 y 的偏导数定义为 f y x 0,y 0 lim Delta y- 0 f x 0,y 0+Delta y -f x 0,y 0 / Delta y 计算偏导时，对哪个变量求导，就把其他变量看作常数。 2. 全微分 若 z f x,y 在点 x,y 可微，则 d z f x med d x+f y med d y 函数增量满足 Delta z f x Delta x+f y Delta y+o r 其中 r sqrt Delta x ^2+ Delta y ^2 3. 可微、偏导和连续的关系 若函数可微，则函数连续，且偏导数存在。反过来，偏导数存在不一定连续，也不一定可微。 若 f x,f y 在某邻域内存在并在该点连续，则 f 在该点可微。 多元关系链 f x, f y 在点附近存在且在该点连续 可微 连续且偏导存在 反向一般不成立：连续不能推出偏导存在；偏导存在不能推出连续；偏导存在也不能推出可微。 columns: 2fr, 2.5fr, 2.8fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 已知条件 , 能推出什么 , 不能推出什么 , f 可微 , f 连续，且 f x,f y 存在 , 不一定能反推出偏导在邻域连续 , f x,f y 连续 , f 可微 , 这是常用充分条件，不是可微的必要条件 , f x,f y 存在 , 只说明坐标轴方向变化率存在 , 不能推出连续，也不能推出可微 , f 连续 , 函数值随点连续变化 , 不能推出偏导存在，例如尖点型函数 , f 不连续 , 一定不可微 , 但偏导仍可能在该点存在 , 判断可微 常规题中，先求偏导，再看偏导是否连续。若偏导在点附近连续，可直接判定可微；若偏导不连续，需要回到全微分定义或用反例判断。 多元题中“可导”容易产生歧义：有时只是说偏导数存在，有时指函数可微。做题时应看题目语境；若只给出“偏导存在”，不能直接写全微分，也不能直接使用切平面公式。 要用定义判定可微，应考察余项： R f x 0+Delta x,y 0+Delta y -f x 0,y 0 -f x Delta x-f y Delta y 若 R/r - 0, quad r sqrt Delta x ^2+ Delta y ^2 则函数在该点可微。 4. 绝对值对多元连续性与可微性的影响 与一元相同，绝对值不会破坏连续性：若 f x,y 在 P 0 连续，则 abs f x,y 在 P 0 连续。 对可微性而言，关键仍然是绝对值内部在该点是否为 0 。 columns: 2.1fr, 2.5fr, 2.8fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 条件 , abs f 的结论 , 说明 , f 连续 , abs f 连续 , 连续复合保持连续 , f 可微 , f P 0 0 , abs f 可微 , d abs f d f , 局部可去绝对值 , f 可微 , f P 0 0 , abs f 可微 , d abs f -d f , 局部等于 -f , f 可微 , f P 0 0, nabla f P 0 ! 0 , abs f 不可微 , 沿相反方向差商符号冲突 , f 可微 , f P 0 0, nabla f P 0 0 , abs f 可微，且全微分为 0 , 因为 f P 0+ Delta x,Delta y o r , 含 abs f x,y 的多元题，先判断 f P 0 。若 f P 0 ! 0 ，可在点附近按正负去绝对值；若 f P 0 0 ，应检查梯度或用可微定义。不能只因为 f 可微，就默认 abs f 也可微。"
   },
   {
     "id": "doc-533e017b0a89-p5",
@@ -356,8 +346,8 @@
     "category": "微积分",
     "page": 5,
     "heading": "多元函数微分学",
-    "snippet": "四、方向导数与梯度 1. 方向导数 设单位方向向量为 e cos alpha, cos beta 函数 f x,y 在点 P 沿方向 e 的方向导数为 partial f / partial e f x cos alpha+f y cos beta 也可写成 partial f / partial e grad f dot e 2. 梯度...",
-    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 四、方向导数与梯度 1. 方向导数 设单位方向向量为 e cos alpha, cos beta 函数 f x,y 在点 P 沿方向 e 的方向导数为 partial f / partial e f x cos alpha+f y cos beta 也可写成 partial f / partial e grad f dot e 2. 梯度 梯度为 grad f f x,f y 它的方向是函数增长最快的方向，模长为最大方向导数： max partial f / partial e abs grad f 若方向与梯度垂直，则方向导数为零。"
+    "snippet": "三、复合函数与隐函数求导 1. 复合函数求导 若 z f u,v , quad u u x,y , quad v v x,y 则 partial z / partial x f u partial u / partial x +f v partial v / partial x partial z / partial y f u part...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 三、复合函数与隐函数求导 1. 复合函数求导 若 z f u,v , quad u u x,y , quad v v x,y 则 partial z / partial x f u partial u / partial x +f v partial v / partial x partial z / partial y f u partial u / partial y +f v partial v / partial y 链式法则的本质是沿每一条变量依赖路径求导后相加。 2. 一元参数复合 若 z f x,y , quad x x t , quad y y t 则 d z / d t f x d x / d t +f y d y / d t 3. 隐函数求导 若 F x,y 0 确定 y y x ，则 y' -F x/F y quad F y ! 0 若 F x,y,z 0 确定 z z x,y ，则 z x -F x/F z, quad z y -F y/F z quad F z ! 0"
   },
   {
     "id": "doc-533e017b0a89-p6",
@@ -366,8 +356,8 @@
     "category": "微积分",
     "page": 6,
     "heading": "多元函数微分学",
-    "snippet": "五、几何应用 1. 曲面的切平面 若曲面为 z f x,y 在点 x 0,y 0,z 0 处的切平面为 z-z 0 f x x 0,y 0 x-x 0 +f y x 0,y 0 y-y 0 2. 隐式曲面的切平面 若曲面为 F x,y,z 0 则法向量为 n F x,F y,F z 在点 P 0 x 0,y 0,z 0 处的切平面为 F ...",
-    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 五、几何应用 1. 曲面的切平面 若曲面为 z f x,y 在点 x 0,y 0,z 0 处的切平面为 z-z 0 f x x 0,y 0 x-x 0 +f y x 0,y 0 y-y 0 2. 隐式曲面的切平面 若曲面为 F x,y,z 0 则法向量为 n F x,F y,F z 在点 P 0 x 0,y 0,z 0 处的切平面为 F x P 0 x-x 0 +F y P 0 y-y 0 +F z P 0 z-z 0 0"
+    "snippet": "四、方向导数与梯度 1. 方向导数 设单位方向向量为 e cos alpha, cos beta 函数 f x,y 在点 P 沿方向 e 的方向导数为 partial f / partial e f x cos alpha+f y cos beta 也可写成 partial f / partial e grad f dot e 2. 梯度...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 四、方向导数与梯度 1. 方向导数 设单位方向向量为 e cos alpha, cos beta 函数 f x,y 在点 P 沿方向 e 的方向导数为 partial f / partial e f x cos alpha+f y cos beta 也可写成 partial f / partial e grad f dot e 2. 梯度 梯度为 grad f f x,f y 它的方向是函数增长最快的方向，模长为最大方向导数： max partial f / partial e abs grad f 若方向与梯度垂直，则方向导数为零。"
   },
   {
     "id": "doc-533e017b0a89-p7",
@@ -376,8 +366,8 @@
     "category": "微积分",
     "page": 7,
     "heading": "多元函数微分学",
-    "snippet": "六、多元函数极值 1. 无条件极值 若 z f x,y 在内部点取得极值，且偏导存在，则必要条件为 f x 0, quad f y 0 求出驻点后，用二阶偏导判别。设 A f x x , quad B f x y , quad C f y y , quad Delta A C-B^2 则： columns: 1.6fr, 2.4fr , ...",
-    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 六、多元函数极值 1. 无条件极值 若 z f x,y 在内部点取得极值，且偏导存在，则必要条件为 f x 0, quad f y 0 求出驻点后，用二阶偏导判别。设 A f x x , quad B f x y , quad C f y y , quad Delta A C-B^2 则： columns: 1.6fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 条件 , 结论 , Delta 0, A 0 , 极小值 , Delta 0, A 0 , 极大值 , Delta 0 , 不是极值，是鞍点 , Delta 0 , 判别法失效，需要另行讨论 , 2. 条件极值 在约束 phi x,y 0 下求 f x,y 的极值，常用拉格朗日乘数法： L x,y,lambda f x,y +lambda phi x,y 解方程组 L x 0, quad L y 0, quad phi x,y 0 即可得到候选点，再比较函数值。 拉格朗日乘数法给出的是候选点。若题目区域有边界或约束曲线有端点，还需要比较边界、端点或不可导点。"
+    "snippet": "五、几何应用 1. 曲面的切平面 若曲面为 z f x,y 在点 x 0,y 0,z 0 处的切平面为 z-z 0 f x x 0,y 0 x-x 0 +f y x 0,y 0 y-y 0 2. 隐式曲面的切平面 若曲面为 F x,y,z 0 则法向量为 n F x,F y,F z 在点 P 0 x 0,y 0,z 0 处的切平面为 F ...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 五、几何应用 1. 曲面的切平面 若曲面为 z f x,y 在点 x 0,y 0,z 0 处的切平面为 z-z 0 f x x 0,y 0 x-x 0 +f y x 0,y 0 y-y 0 2. 隐式曲面的切平面 若曲面为 F x,y,z 0 则法向量为 n F x,F y,F z 在点 P 0 x 0,y 0,z 0 处的切平面为 F x P 0 x-x 0 +F y P 0 y-y 0 +F z P 0 z-z 0 0"
   },
   {
     "id": "doc-533e017b0a89-p8",
@@ -385,6 +375,16 @@
     "title": "Multivariable Differential Calculus (多元函数微分学)",
     "category": "微积分",
     "page": 8,
+    "heading": "多元函数微分学",
+    "snippet": "六、多元函数极值 1. 无条件极值 若 z f x,y 在内部点取得极值，且偏导存在，则必要条件为 f x 0, quad f y 0 求出驻点后，用二阶偏导判别。设 A f x x , quad B f x y , quad C f y y , quad Delta A C-B^2 则： columns: 1.6fr, 2.4fr , ...",
+    "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 六、多元函数极值 1. 无条件极值 若 z f x,y 在内部点取得极值，且偏导存在，则必要条件为 f x 0, quad f y 0 求出驻点后，用二阶偏导判别。设 A f x x , quad B f x y , quad C f y y , quad Delta A C-B^2 则： columns: 1.6fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 条件 , 结论 , Delta 0, A 0 , 极小值 , Delta 0, A 0 , 极大值 , Delta 0 , 不是极值，是鞍点 , Delta 0 , 判别法失效，需要另行讨论 , 2. 条件极值 在约束 phi x,y 0 下求 f x,y 的极值，常用拉格朗日乘数法： L x,y,lambda f x,y +lambda phi x,y 解方程组 L x 0, quad L y 0, quad phi x,y 0 即可得到候选点，再比较函数值。 拉格朗日乘数法给出的是候选点。若题目区域有边界或约束曲线有端点，还需要比较边界、端点或不可导点。"
+  },
+  {
+    "id": "doc-533e017b0a89-p9",
+    "docId": "doc-533e017b0a89",
+    "title": "Multivariable Differential Calculus (多元函数微分学)",
+    "category": "微积分",
+    "page": 9,
     "heading": "多元函数微分学",
     "snippet": "七、典型例题 例题 1：二元极限不存在 题目 判断 lim x,y - 0,0 x y / x^2+y^2 是否存在。 沿路径 y x ，有 x y / x^2+y^2 x^2/ 2 x^2 1/2 沿路径 y 0 ，有 x y / x^2+y^2 0 两条路径极限不同，所以原极限不存在。 例题 2：全微分 题目 设 z x^2 y+e^...",
     "text": "Multivariable Differential Calculus (多元函数微分学) Multivariable Differential Calculus 多元函数微分学 微积分 多元函数微分学 七、典型例题 例题 1：二元极限不存在 题目 判断 lim x,y - 0,0 x y / x^2+y^2 是否存在。 沿路径 y x ，有 x y / x^2+y^2 x^2/ 2 x^2 1/2 沿路径 y 0 ，有 x y / x^2+y^2 0 两条路径极限不同，所以原极限不存在。 例题 2：全微分 题目 设 z x^2 y+e^ x y ，求 d z 。 先求偏导： z x 2 x y+y e^ x y z y x^2+x e^ x y 所以 d z 2 x y+y e^ x y med d x+ x^2+x e^ x y med d y 例题 3：切平面 题目 求曲面 z x^2+y^2 在点 1,2,5 处的切平面。 有 f x 2 x, quad f y 2 y 在 1,2 处： f x 2, quad f y 4 切平面为 z-5 2 x-1 +4 y-2 即 z 2 x+4 y-5 例题 4：拉格朗日乘数法 题目 在约束 x^2+y^2 1 下，求 f x,y x+y 的最大值和最小值。 构造 L x+y+lambda x^2+y^2-1 方程组为 L x 1+2 lambda x 0 L y 1+2 lambda y 0 x^2+y^2 1 由前两式得 x y 。代入约束： 2 x^2 1 所以 x y 1/sqrt 2 quad 或 quad x y -1/sqrt 2 对应函数值为 sqrt 2 quad 和 quad -sqrt 2 因此最大值为 sqrt 2 ，最小值为 -sqrt 2 。"

@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:06:31+08:00",
+  "generatedAt": "2026-08-04T19:19:22+08:00",
   "stats": {
     "documents": 23,
-    "pages": 262,
+    "pages": 264,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -118,7 +118,7 @@
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageImageExtension": "webp",
-          "pageCount": 8,
+          "pageCount": 9,
           "sections": [
             {
               "id": "doc-31985d1e27f4-s1",
@@ -129,31 +129,31 @@
             {
               "id": "doc-31985d1e27f4-s2",
               "title": "二、微分与局部线性化",
-              "page": 3,
+              "page": 4,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s3",
               "title": "三、基本求导公式",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s4",
               "title": "四、求导法则",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s5",
               "title": "五、高阶导数与常见结构",
-              "page": 7,
+              "page": 8,
               "level": 1
             },
             {
               "id": "doc-31985d1e27f4-s6",
               "title": "六、典型例题",
-              "page": 8,
+              "page": 9,
               "level": 1
             }
           ]
@@ -296,7 +296,7 @@
           "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
           "pageImageBase": "./rendered-pages/doc-533e017b0a89/page-",
           "pageImageExtension": "webp",
-          "pageCount": 9,
+          "pageCount": 10,
           "sections": [
             {
               "id": "doc-533e017b0a89-s1",
@@ -313,31 +313,31 @@
             {
               "id": "doc-533e017b0a89-s3",
               "title": "三、复合函数与隐函数求导",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-533e017b0a89-s4",
               "title": "四、方向导数与梯度",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-533e017b0a89-s5",
               "title": "五、几何应用",
-              "page": 6,
+              "page": 7,
               "level": 1
             },
             {
               "id": "doc-533e017b0a89-s6",
               "title": "六、多元函数极值",
-              "page": 7,
+              "page": 8,
               "level": 1
             },
             {
               "id": "doc-533e017b0a89-s7",
               "title": "七、典型例题",
-              "page": 8,
+              "page": 9,
               "level": 1
             }
           ]
@@ -1395,7 +1395,7 @@
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageImageExtension": "webp",
-      "pageCount": 8,
+      "pageCount": 9,
       "sections": [
         {
           "id": "doc-31985d1e27f4-s1",
@@ -1406,31 +1406,31 @@
         {
           "id": "doc-31985d1e27f4-s2",
           "title": "二、微分与局部线性化",
-          "page": 3,
+          "page": 4,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s3",
           "title": "三、基本求导公式",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s4",
           "title": "四、求导法则",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s5",
           "title": "五、高阶导数与常见结构",
-          "page": 7,
+          "page": 8,
           "level": 1
         },
         {
           "id": "doc-31985d1e27f4-s6",
           "title": "六、典型例题",
-          "page": 8,
+          "page": 9,
           "level": 1
         }
       ]
@@ -1573,7 +1573,7 @@
       "sourcePath": "typst/Multivariable Differential Calculus (多元函数微分学).typ",
       "pageImageBase": "./rendered-pages/doc-533e017b0a89/page-",
       "pageImageExtension": "webp",
-      "pageCount": 9,
+      "pageCount": 10,
       "sections": [
         {
           "id": "doc-533e017b0a89-s1",
@@ -1590,31 +1590,31 @@
         {
           "id": "doc-533e017b0a89-s3",
           "title": "三、复合函数与隐函数求导",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-533e017b0a89-s4",
           "title": "四、方向导数与梯度",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-533e017b0a89-s5",
           "title": "五、几何应用",
-          "page": 6,
+          "page": 7,
           "level": 1
         },
         {
           "id": "doc-533e017b0a89-s6",
           "title": "六、多元函数极值",
-          "page": 7,
+          "page": 8,
           "level": 1
         },
         {
           "id": "doc-533e017b0a89-s7",
           "title": "七、典型例题",
-          "page": 8,
+          "page": 9,
           "level": 1
         }
       ]
