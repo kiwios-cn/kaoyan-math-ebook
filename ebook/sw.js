@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260804-proof-continuity-differentiability";
+const CACHE_VERSION = "20260804-asymptote-rules";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260804-proof-continuity-differentiability",
-  "./data.js?v=20260804-proof-continuity-differentiability",
-  "./app.js?v=20260804-proof-continuity-differentiability",
+  "./style.css?v=20260804-asymptote-rules",
+  "./data.js?v=20260804-asymptote-rules",
+  "./app.js?v=20260804-asymptote-rules",
 ];
 
 self.addEventListener("install", (event) => {

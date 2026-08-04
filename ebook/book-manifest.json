@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:39:55+08:00",
+  "generatedAt": "2026-08-04T19:50:49+08:00",
   "stats": {
     "documents": 23,
-    "pages": 266,
+    "pages": 267,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -167,7 +167,7 @@
           "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
           "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
           "pageImageExtension": "webp",
-          "pageCount": 7,
+          "pageCount": 8,
           "sections": [
             {
               "id": "doc-70452ebbf4aa-s1",
@@ -178,25 +178,25 @@
             {
               "id": "doc-70452ebbf4aa-s2",
               "title": "二、中值定理",
-              "page": 3,
+              "page": 4,
               "level": 1
             },
             {
               "id": "doc-70452ebbf4aa-s3",
               "title": "三、等式与不等式证明",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-70452ebbf4aa-s4",
               "title": "四、物理应用",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-70452ebbf4aa-s5",
               "title": "五、典型例题",
-              "page": 6,
+              "page": 7,
               "level": 1
             }
           ]
@@ -1444,7 +1444,7 @@
       "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
       "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
       "pageImageExtension": "webp",
-      "pageCount": 7,
+      "pageCount": 8,
       "sections": [
         {
           "id": "doc-70452ebbf4aa-s1",
@@ -1455,25 +1455,25 @@
         {
           "id": "doc-70452ebbf4aa-s2",
           "title": "二、中值定理",
-          "page": 3,
+          "page": 4,
           "level": 1
         },
         {
           "id": "doc-70452ebbf4aa-s3",
           "title": "三、等式与不等式证明",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-70452ebbf4aa-s4",
           "title": "四、物理应用",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-70452ebbf4aa-s5",
           "title": "五、典型例题",
-          "page": 6,
+          "page": 7,
           "level": 1
         }
       ]

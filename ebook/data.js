@@ -2,10 +2,10 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T19:39:55+08:00",
+  "generatedAt": "2026-08-04T19:50:49+08:00",
   "stats": {
     "documents": 23,
-    "pages": 266,
+    "pages": 267,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -168,7 +168,7 @@ window.BOOK_MANIFEST = {
           "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
           "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
           "pageImageExtension": "webp",
-          "pageCount": 7,
+          "pageCount": 8,
           "sections": [
             {
               "id": "doc-70452ebbf4aa-s1",
@@ -179,25 +179,25 @@ window.BOOK_MANIFEST = {
             {
               "id": "doc-70452ebbf4aa-s2",
               "title": "二、中值定理",
-              "page": 3,
+              "page": 4,
               "level": 1
             },
             {
               "id": "doc-70452ebbf4aa-s3",
               "title": "三、等式与不等式证明",
-              "page": 4,
+              "page": 5,
               "level": 1
             },
             {
               "id": "doc-70452ebbf4aa-s4",
               "title": "四、物理应用",
-              "page": 5,
+              "page": 6,
               "level": 1
             },
             {
               "id": "doc-70452ebbf4aa-s5",
               "title": "五、典型例题",
-              "page": 6,
+              "page": 7,
               "level": 1
             }
           ]
@@ -1445,7 +1445,7 @@ window.BOOK_MANIFEST = {
       "sourcePath": "typst/Applications of Differential Calculus (一元函数微分学的应用).typ",
       "pageImageBase": "./rendered-pages/doc-70452ebbf4aa/page-",
       "pageImageExtension": "webp",
-      "pageCount": 7,
+      "pageCount": 8,
       "sections": [
         {
           "id": "doc-70452ebbf4aa-s1",
@@ -1456,25 +1456,25 @@ window.BOOK_MANIFEST = {
         {
           "id": "doc-70452ebbf4aa-s2",
           "title": "二、中值定理",
-          "page": 3,
+          "page": 4,
           "level": 1
         },
         {
           "id": "doc-70452ebbf4aa-s3",
           "title": "三、等式与不等式证明",
-          "page": 4,
+          "page": 5,
           "level": 1
         },
         {
           "id": "doc-70452ebbf4aa-s4",
           "title": "四、物理应用",
-          "page": 5,
+          "page": 6,
           "level": 1
         },
         {
           "id": "doc-70452ebbf4aa-s5",
           "title": "五、典型例题",
-          "page": 6,
+          "page": 7,
           "level": 1
         }
       ]
@@ -2735,17 +2735,7 @@ window.SEARCH_INDEX = [
     "page": 2,
     "heading": "一元函数微分学的应用",
     "snippet": "一、几何应用 1. 切线与法线 曲线 y f x 在点 x 0 处的切线斜率为 k f' x 0 切线方程为 y-f x 0 f' x 0 x-x 0 若 f' x 0 ! 0 ，法线斜率为 k n -1/f' x 0 法线方程为 y-f x 0 -1/ f' x 0 x-x 0 2. 单调性与极值 若在区间内 f' x 0 ，则 f x...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 一、几何应用 1. 切线与法线 曲线 y f x 在点 x 0 处的切线斜率为 k f' x 0 切线方程为 y-f x 0 f' x 0 x-x 0 若 f' x 0 ! 0 ，法线斜率为 k n -1/f' x 0 法线方程为 y-f x 0 -1/ f' x 0 x-x 0 2. 单调性与极值 若在区间内 f' x 0 ，则 f x 单调递增；若 f' x 0 ，则单调递减。 极值常在以下点出现： 1. f' x 0 的驻点。 2. 导数不存在但函数连续的点。 3. 闭区间端点。 3. 凹凸性与拐点 若 f'' x 0 ，曲线凹向上；若 f'' x 0 ，曲线凹向下。若 f'' x 在某点两侧变号，则该点可能为拐点。"
-  },
-  {
-    "id": "doc-70452ebbf4aa-p3",
-    "docId": "doc-70452ebbf4aa",
-    "title": "Applications of Differential Calculus (一元函数微分学的应用)",
-    "category": "微积分",
-    "page": 3,
-    "heading": "一元函数微分学的应用",
-    "snippet": "二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-a 它把函数增量转化为某点导数乘以区间长度。 3. 柯西中值定理 若 f x ,g x 在 a,b 连续，在 a,b 可导，且 g' x ! 0 ，则存在 xi in a,b ，使 f b -f a / g b -g a f' xi /g' xi 洛必达法则可以看作柯西中值定理的应用。 4. 泰勒公式 在 x 0 附近， f x f x 0 +f' x 0 x-x 0 + f'' x 0 /2 x-x 0 ^2+... 泰勒公式常用于极限、近似计算、不等式证明和极值判定。 中值定理选用 出现“至少存在一点使某导数为零”常想罗尔定理；出现函数值差和区间长度常想拉格朗日中值定理；出现两个函数增量之比常想柯西中值定理；出现高阶估计常想泰勒公式。"
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 一、几何应用 1. 切线与法线 曲线 y f x 在点 x 0 处的切线斜率为 k f' x 0 切线方程为 y-f x 0 f' x 0 x-x 0 若 f' x 0 ! 0 ，法线斜率为 k n -1/f' x 0 法线方程为 y-f x 0 -1/ f' x 0 x-x 0 2. 单调性与极值 若在区间内 f' x 0 ，则 f x 单调递增；若 f' x 0 ，则单调递减。 极值常在以下点出现： 1. f' x 0 的驻点。 2. 导数不存在但函数连续的点。 3. 闭区间端点。 3. 凹凸性与拐点 若 f'' x 0 ，曲线凹向上；若 f'' x 0 ，曲线凹向下。若 f'' x 在某点两侧变号，则该点可能为拐点。 4. 渐近线的考察 渐近线描述的是曲线在某个趋近过程中的长期靠近关系，而不是曲线不能相交的“边界线”。考研中主要考察三类：竖直渐近线、水平渐近线、斜渐近线。 三类渐近线 - 竖直渐近线 ：若 lim x- a^+ f x infinity 、 lim x- a^- f x infinity 、 lim x- a^+ f x -infinity 或 lim x- a^- f x -infinity 中至少一个成立，则 x a 为竖直渐近线。 - 水平渐近线 ：若 lim x- +infinity f x A ，则 y A 为右侧水平渐近线；若 lim x- -infinity f x B ，则 y B 为左侧水平渐近线。 - 斜渐近线 ：若 lim x- infinity f x - k x+b 0 ，其中 k! 0 ，则 y k x+b 为斜渐近线。 求斜渐近线时常用： k lim x- infinity f x /x b lim x- infinity f x -k x 若 k 、 b 都是有限数，且 k! 0 ，则得到斜渐近线 y k x+b 。若 k 0 ，退化为水平渐近线；若 k 或 b 不存在，则没有该方向的线性渐近线。 columns: 1.35fr, 2.8fr, 2.7fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 类型 , 优先检查位置 , 做题抓手 , 竖直渐近线 , 函数无定义点、分母为 0 的点、对数或根式边界 , 看一侧极限是否为无穷；一侧无穷即可成立 , 水平渐近线 , x- +infinity 和 x- -infinity , 分别求左右无穷远处的函数极限，可能得到两条不同水平渐近线 , 斜渐近线 , x- +infinity 和 x- -infinity , 先求 k lim f x /x ，再求 b lim f-k x , 渐近线题的实战顺序 1. 先找函数定义域边界：分母为 0 、对数真数为 0 、偶次根号边界等，检查竖直渐近线。\\ 2. 再看 x- +infinity 和 x- -infinity ，分别求水平渐近线。\\ 3. 若水平极限不存在或为无穷，再尝试斜渐近线。\\ 4. 有理函数先约分再判断：被约掉的零点可能是可去间断点，不一定是竖直渐近线。\\ 5. 多项式除法很常用：若 f x k x+b+o 1 ，则 y k x+b 就是斜渐近线。 常见错误有三类：把分母为 0 的点直接判为竖直渐近线；只看 x- +infinity ，漏掉 x- -infinity ；求斜渐近线时只算 k ，忘记继续算截距 b 。"
   },
   {
     "id": "doc-70452ebbf4aa-p4",
@@ -2754,8 +2744,8 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 4,
     "heading": "一元函数微分学的应用",
-    "snippet": "三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 ...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 f x 为凸函数，常有切线不等式： f x f x 0 +f' x 0 x-x 0 例如由 f x ln x 的凹性可得 ln x x-1 quad x 0"
+    "snippet": "二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-a 它把函数增量转化为某点导数乘以区间长度。 3. 柯西中值定理 若 f x ,g x 在 a,b 连续，在 a,b 可导，且 g' x ! 0 ，则存在 xi in a,b ，使 f b -f a / g b -g a f' xi /g' xi 洛必达法则可以看作柯西中值定理的应用。 4. 泰勒公式 在 x 0 附近， f x f x 0 +f' x 0 x-x 0 + f'' x 0 /2 x-x 0 ^2+... 泰勒公式常用于极限、近似计算、不等式证明和极值判定。 中值定理选用 出现“至少存在一点使某导数为零”常想罗尔定理；出现函数值差和区间长度常想拉格朗日中值定理；出现两个函数增量之比常想柯西中值定理；出现高阶估计常想泰勒公式。"
   },
   {
     "id": "doc-70452ebbf4aa-p5",
@@ -2764,8 +2754,8 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 5,
     "heading": "一元函数微分学的应用",
-    "snippet": "四、物理应用 1. 速度与加速度 若质点位置为 s s t ，则速度和加速度分别为 v t s' t , quad a t v' t s'' t 速度描述位置变化率，加速度描述速度变化率。 2. 相关变化率 若多个变量之间满足约束关系，先对时间 t 求导，再代入已知瞬时量。典型题包括水位变化、影长变化、圆半径变化等。 3. 最大最小值应用...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 四、物理应用 1. 速度与加速度 若质点位置为 s s t ，则速度和加速度分别为 v t s' t , quad a t v' t s'' t 速度描述位置变化率，加速度描述速度变化率。 2. 相关变化率 若多个变量之间满足约束关系，先对时间 t 求导，再代入已知瞬时量。典型题包括水位变化、影长变化、圆半径变化等。 3. 最大最小值应用 实际最值题步骤： 1. 选变量，写目标函数。 2. 用条件消元，得到单变量函数。 3. 确定变量范围。 4. 求导并比较驻点与端点。"
+    "snippet": "三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 ...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 f x 为凸函数，常有切线不等式： f x f x 0 +f' x 0 x-x 0 例如由 f x ln x 的凹性可得 ln x x-1 quad x 0"
   },
   {
     "id": "doc-70452ebbf4aa-p6",
@@ -2774,8 +2764,18 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 6,
     "heading": "一元函数微分学的应用",
-    "snippet": "五、典型例题 例题 1：切线方程 题目 求曲线 y x^3-x 在 x 1 处的切线方程。 先求导： y' 3 x^2-1 所以 y' 1 2, quad y 1 0 切线方程为 y-0 2 x-1 即 y 2 x-2 例题 2：用单调性证明不等式 题目 证明 ln x x-1 quad x 0 。 令 F x x-1-ln x 则 F'...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 五、典型例题 例题 1：切线方程 题目 求曲线 y x^3-x 在 x 1 处的切线方程。 先求导： y' 3 x^2-1 所以 y' 1 2, quad y 1 0 切线方程为 y-0 2 x-1 即 y 2 x-2 例题 2：用单调性证明不等式 题目 证明 ln x x-1 quad x 0 。 令 F x x-1-ln x 则 F' x 1-1/x x-1 /x 当 0 x 1 时， F' x 0 ；当 x 1 时， F' x 0 。所以 F x 在 x 1 处取最小值： F 1 0 因此 F x 0 即 ln x x-1 例题 3：拉格朗日中值定理 题目 证明对 a,b 0 ，存在 xi 介于 a,b 之间，使 ln b-ln a b-a /xi 。 令 f x ln x 。由拉格朗日中值定理，存在 xi 介于 a,b 之间，使 f b -f a f' xi b-a 而 f' xi 1/xi 所以 ln b-ln a b-a /xi 例题 4：物理变化率 题目 质点运动规律为 s t^3-6t^2+9t ，求速度为零的时刻。 速度为 v s' 3 t^2-12 t+9 3 t-1 t-3 令 v 0 ，得 t 1 quad 或 quad t 3 这两个时刻质点瞬时速度为零。"
+    "snippet": "四、物理应用 1. 速度与加速度 若质点位置为 s s t ，则速度和加速度分别为 v t s' t , quad a t v' t s'' t 速度描述位置变化率，加速度描述速度变化率。 2. 相关变化率 若多个变量之间满足约束关系，先对时间 t 求导，再代入已知瞬时量。典型题包括水位变化、影长变化、圆半径变化等。 3. 最大最小值应用...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 四、物理应用 1. 速度与加速度 若质点位置为 s s t ，则速度和加速度分别为 v t s' t , quad a t v' t s'' t 速度描述位置变化率，加速度描述速度变化率。 2. 相关变化率 若多个变量之间满足约束关系，先对时间 t 求导，再代入已知瞬时量。典型题包括水位变化、影长变化、圆半径变化等。 3. 最大最小值应用 实际最值题步骤： 1. 选变量，写目标函数。 2. 用条件消元，得到单变量函数。 3. 确定变量范围。 4. 求导并比较驻点与端点。"
+  },
+  {
+    "id": "doc-70452ebbf4aa-p7",
+    "docId": "doc-70452ebbf4aa",
+    "title": "Applications of Differential Calculus (一元函数微分学的应用)",
+    "category": "微积分",
+    "page": 7,
+    "heading": "一元函数微分学的应用",
+    "snippet": "五、典型例题 例题 1：切线方程 题目 求曲线 y x^3-x 在 x 1 处的切线方程。 先求导： y' 3 x^2-1 所以 y' 1 2, quad y 1 0 切线方程为 y-0 2 x-1 即 y 2 x-2 例题 2：求函数的渐近线 题目 求函数 f x x^2+1 / x-1 的渐近线。 先看定义域， x 1 处分母为 0 ...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 五、典型例题 例题 1：切线方程 题目 求曲线 y x^3-x 在 x 1 处的切线方程。 先求导： y' 3 x^2-1 所以 y' 1 2, quad y 1 0 切线方程为 y-0 2 x-1 即 y 2 x-2 例题 2：求函数的渐近线 题目 求函数 f x x^2+1 / x-1 的渐近线。 先看定义域， x 1 处分母为 0 ，且分子 x^2+1 在 x 1 处不为 0 。因此 lim x- 1^+ x^2+1 / x-1 +infinity lim x- 1^- x^2+1 / x-1 -infinity 所以 x 1 是竖直渐近线。 再看无穷远处。作多项式除法： x^2+1 / x-1 x+1+2/ x-1 因为 lim x- infinity x^2+1 / x-1 - x+1 lim x- infinity 2/ x-1 0 所以 y x+1 是斜渐近线。由于 f x 在无穷远处趋于无穷大，不存在水平渐近线。 本题总结 有理函数先找分母为 0 的点判断竖直渐近线，再用多项式除法观察无穷远处的主部。若除法后余项趋于 0 ，商式的一次部分就是斜渐近线。 例题 3：用单调性证明不等式 题目 证明 ln x x-1 quad x 0 。 令 F x x-1-ln x 则 F' x 1-1/x x-1 /x 当 0 x 1 时， F' x 0 ；当 x 1 时， F' x 0 。所以 F x 在 x 1 处取最小值： F 1 0 因此 F x 0 即 ln x x-1 例题 4：拉格朗日中值定理 题目 证明对 a,b 0 ，存在 xi 介于 a,b 之间，使 ln b-ln a b-a /xi 。 令 f x ln x 。由拉格朗日中值定理，存在 xi 介于 a,b 之间，使 f b -f a f' xi b-a 而 f' xi 1/xi 所以 ln b-ln a b-a /xi 例题 5：物理变化率 题目 质点运动规律为 s t^3-6t^2+9t ，求速度为零的时刻。 速度为 v s' 3 t^2-12 t+9 3 t-1 t-3 令 v 0 ，得 t 1 quad 或 quad t 3 这两个时刻质点瞬时速度为零。"
   },
   {
     "id": "doc-7b5eccba034b-p2",
