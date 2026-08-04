@@ -2,12 +2,12 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T13:25:17+08:00",
+  "generatedAt": "2026-08-04T14:10:00+08:00",
   "stats": {
-    "documents": 19,
-    "pages": 270,
+    "documents": 23,
+    "pages": 257,
     "renderDpi": 260,
-    "searchEntries": 270
+    "searchEntries": 257
   },
   "categories": [
     {
@@ -429,86 +429,6 @@ window.BOOK_MANIFEST = {
               "id": "doc-b907693d8c25-s12",
               "title": "十二、公式速查表",
               "page": 21,
-              "level": 1
-            }
-          ]
-        },
-        {
-          "id": "doc-e798419636b7",
-          "title": "Triple Integral Methods (三重积分计算方法)",
-          "englishTitle": "Triple Integral Methods",
-          "chineseTitle": "三重积分计算方法",
-          "category": "微积分",
-          "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
-          "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
-          "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
-          "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
-          "pageCount": 19,
-          "sections": [
-            {
-              "id": "doc-e798419636b7-s1",
-              "title": "一、三重积分的定义与几何意义",
-              "page": 2,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s2",
-              "title": "二、直角坐标下的投影法",
-              "page": 3,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s3",
-              "title": "三、柱坐标法",
-              "page": 4,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s4",
-              "title": "四、球坐标法",
-              "page": 5,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s5",
-              "title": "五、一般变量替换与雅可比",
-              "page": 6,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s6",
-              "title": "六、对称性方法",
-              "page": 7,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s7",
-              "title": "七、计算步骤总结",
-              "page": 8,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s8",
-              "title": "八、典型例题",
-              "page": 9,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s9",
-              "title": "九、格林公式、高斯公式与斯托克斯公式",
-              "page": 13,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s10",
-              "title": "十、考研常见设限模板",
-              "page": 17,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s11",
-              "title": "十一、最后检查清单",
-              "page": 19,
               "level": 1
             }
           ]
@@ -1212,99 +1132,181 @@ window.BOOK_MANIFEST = {
       "accent": "#059669",
       "documents": [
         {
-          "id": "doc-932e58f16185",
-          "title": "Probability and Mathematical Statistics (概率论与数理统计)",
-          "englishTitle": "Probability and Mathematical Statistics",
-          "chineseTitle": "概率论与数理统计",
+          "id": "doc-157b9a897c2c",
+          "title": "Random Events and Probability (随机事件与概率)",
+          "englishTitle": "Random Events and Probability",
+          "chineseTitle": "随机事件与概率",
           "category": "概率论",
-          "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-          "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-          "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
-          "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
-          "pageCount": 21,
+          "path": "概率论/Random Events and Probability (随机事件与概率).pdf",
+          "webPath": "../概率论/Random Events and Probability (随机事件与概率).pdf",
+          "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
+          "pageImageBase": "./rendered-pages/doc-157b9a897c2c/page-",
+          "pageCount": 3,
           "sections": [
             {
-              "id": "doc-932e58f16185-s1",
+              "id": "doc-157b9a897c2c-s1",
               "title": "一、随机事件与概率",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-157b9a897c2c-s2",
+              "title": "二、概率计算题处理策略",
+              "page": 3,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-5913a24c9a32",
+          "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+          "englishTitle": "One-Dimensional Random Variables and Distributions",
+          "chineseTitle": "一维随机变量及其分布",
+          "category": "概率论",
+          "path": "概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+          "webPath": "../概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+          "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
+          "pageImageBase": "./rendered-pages/doc-5913a24c9a32/page-",
+          "pageCount": 7,
+          "sections": [
+            {
+              "id": "doc-5913a24c9a32-s1",
+              "title": "一、随机变量与分布函数",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-5913a24c9a32-s2",
+              "title": "二、常见离散分布",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-932e58f16185-s2",
-              "title": "二、随机变量与分布函数",
+              "id": "doc-5913a24c9a32-s3",
+              "title": "三、常见连续分布",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-932e58f16185-s3",
-              "title": "三、常见离散分布",
+              "id": "doc-5913a24c9a32-s4",
+              "title": "四、一维分布题处理策略",
+              "page": 7,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-4f2d664a2807",
+          "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
+          "englishTitle": "Multidimensional Random Variables and Distributions",
+          "chineseTitle": "多维随机变量及其分布",
+          "category": "概率论",
+          "path": "概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+          "webPath": "../概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+          "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
+          "pageImageBase": "./rendered-pages/doc-4f2d664a2807/page-",
+          "pageCount": 5,
+          "sections": [
+            {
+              "id": "doc-4f2d664a2807-s1",
+              "title": "一、多维随机变量及其分布",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-4f2d664a2807-s2",
+              "title": "二、多维分布题处理策略",
+              "page": 5,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-795d51900278",
+          "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
+          "englishTitle": "Numerical Characteristics of Random Variables",
+          "chineseTitle": "随机变量的数字特征",
+          "category": "概率论",
+          "path": "概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+          "webPath": "../概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+          "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
+          "pageImageBase": "./rendered-pages/doc-795d51900278/page-",
+          "pageCount": 3,
+          "sections": [
+            {
+              "id": "doc-795d51900278-s1",
+              "title": "一、随机变量的数字特征",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-795d51900278-s2",
+              "title": "二、数字特征题处理策略",
+              "page": 3,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-7afde55fc309",
+          "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
+          "englishTitle": "Laws of Large Numbers and Central Limit Theorem",
+          "chineseTitle": "大数定律和中心极限定理",
+          "category": "概率论",
+          "path": "概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+          "webPath": "../概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+          "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
+          "pageImageBase": "./rendered-pages/doc-7afde55fc309/page-",
+          "pageCount": 3,
+          "sections": [
+            {
+              "id": "doc-7afde55fc309-s1",
+              "title": "一、大数定律与中心极限定理",
+              "page": 2,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-df8d3694236b",
+          "title": "Mathematical Statistics (数理统计)",
+          "englishTitle": "Mathematical Statistics",
+          "chineseTitle": "数理统计",
+          "category": "概率论",
+          "path": "概率论/Mathematical Statistics (数理统计).pdf",
+          "webPath": "../概率论/Mathematical Statistics (数理统计).pdf",
+          "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
+          "pageImageBase": "./rendered-pages/doc-df8d3694236b/page-",
+          "pageCount": 6,
+          "sections": [
+            {
+              "id": "doc-df8d3694236b-s1",
+              "title": "一、数理统计基础",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-df8d3694236b-s2",
+              "title": "二、参数估计",
+              "page": 3,
+              "level": 1
+            },
+            {
+              "id": "doc-df8d3694236b-s3",
+              "title": "三、假设检验",
+              "page": 4,
+              "level": 1
+            },
+            {
+              "id": "doc-df8d3694236b-s4",
+              "title": "四、方差分析与回归",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-932e58f16185-s4",
-              "title": "四、常见连续分布",
+              "id": "doc-df8d3694236b-s5",
+              "title": "五、统计推断题处理策略",
               "page": 6,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s5",
-              "title": "五、多维随机变量",
-              "page": 9,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s6",
-              "title": "六、数字特征",
-              "page": 12,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s7",
-              "title": "七、大数定律与中心极限定理",
-              "page": 13,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s8",
-              "title": "八、数理统计基础",
-              "page": 15,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s9",
-              "title": "九、参数估计",
-              "page": 16,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s10",
-              "title": "十、假设检验",
-              "page": 17,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s11",
-              "title": "十一、方差分析与回归",
-              "page": 18,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s12",
-              "title": "十二、常见题型处理策略",
-              "page": 19,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s13",
-              "title": "十三、公式速查",
-              "page": 20,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s14",
-              "title": "十四、复习建议",
-              "page": 21,
               "level": 1
             }
           ]
@@ -1727,86 +1729,6 @@ window.BOOK_MANIFEST = {
           "id": "doc-b907693d8c25-s12",
           "title": "十二、公式速查表",
           "page": 21,
-          "level": 1
-        }
-      ]
-    },
-    {
-      "id": "doc-e798419636b7",
-      "title": "Triple Integral Methods (三重积分计算方法)",
-      "englishTitle": "Triple Integral Methods",
-      "chineseTitle": "三重积分计算方法",
-      "category": "微积分",
-      "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
-      "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
-      "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
-      "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
-      "pageCount": 19,
-      "sections": [
-        {
-          "id": "doc-e798419636b7-s1",
-          "title": "一、三重积分的定义与几何意义",
-          "page": 2,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s2",
-          "title": "二、直角坐标下的投影法",
-          "page": 3,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s3",
-          "title": "三、柱坐标法",
-          "page": 4,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s4",
-          "title": "四、球坐标法",
-          "page": 5,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s5",
-          "title": "五、一般变量替换与雅可比",
-          "page": 6,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s6",
-          "title": "六、对称性方法",
-          "page": 7,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s7",
-          "title": "七、计算步骤总结",
-          "page": 8,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s8",
-          "title": "八、典型例题",
-          "page": 9,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s9",
-          "title": "九、格林公式、高斯公式与斯托克斯公式",
-          "page": 13,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s10",
-          "title": "十、考研常见设限模板",
-          "page": 17,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s11",
-          "title": "十一、最后检查清单",
-          "page": 19,
           "level": 1
         }
       ]
@@ -2496,99 +2418,181 @@ window.BOOK_MANIFEST = {
       ]
     },
     {
-      "id": "doc-932e58f16185",
-      "title": "Probability and Mathematical Statistics (概率论与数理统计)",
-      "englishTitle": "Probability and Mathematical Statistics",
-      "chineseTitle": "概率论与数理统计",
+      "id": "doc-157b9a897c2c",
+      "title": "Random Events and Probability (随机事件与概率)",
+      "englishTitle": "Random Events and Probability",
+      "chineseTitle": "随机事件与概率",
       "category": "概率论",
-      "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-      "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-      "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
-      "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
-      "pageCount": 21,
+      "path": "概率论/Random Events and Probability (随机事件与概率).pdf",
+      "webPath": "../概率论/Random Events and Probability (随机事件与概率).pdf",
+      "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
+      "pageImageBase": "./rendered-pages/doc-157b9a897c2c/page-",
+      "pageCount": 3,
       "sections": [
         {
-          "id": "doc-932e58f16185-s1",
+          "id": "doc-157b9a897c2c-s1",
           "title": "一、随机事件与概率",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-157b9a897c2c-s2",
+          "title": "二、概率计算题处理策略",
+          "page": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-5913a24c9a32",
+      "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+      "englishTitle": "One-Dimensional Random Variables and Distributions",
+      "chineseTitle": "一维随机变量及其分布",
+      "category": "概率论",
+      "path": "概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+      "webPath": "../概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+      "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
+      "pageImageBase": "./rendered-pages/doc-5913a24c9a32/page-",
+      "pageCount": 7,
+      "sections": [
+        {
+          "id": "doc-5913a24c9a32-s1",
+          "title": "一、随机变量与分布函数",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-5913a24c9a32-s2",
+          "title": "二、常见离散分布",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-932e58f16185-s2",
-          "title": "二、随机变量与分布函数",
+          "id": "doc-5913a24c9a32-s3",
+          "title": "三、常见连续分布",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-932e58f16185-s3",
-          "title": "三、常见离散分布",
+          "id": "doc-5913a24c9a32-s4",
+          "title": "四、一维分布题处理策略",
+          "page": 7,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-4f2d664a2807",
+      "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
+      "englishTitle": "Multidimensional Random Variables and Distributions",
+      "chineseTitle": "多维随机变量及其分布",
+      "category": "概率论",
+      "path": "概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+      "webPath": "../概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+      "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
+      "pageImageBase": "./rendered-pages/doc-4f2d664a2807/page-",
+      "pageCount": 5,
+      "sections": [
+        {
+          "id": "doc-4f2d664a2807-s1",
+          "title": "一、多维随机变量及其分布",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-4f2d664a2807-s2",
+          "title": "二、多维分布题处理策略",
+          "page": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-795d51900278",
+      "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
+      "englishTitle": "Numerical Characteristics of Random Variables",
+      "chineseTitle": "随机变量的数字特征",
+      "category": "概率论",
+      "path": "概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+      "webPath": "../概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+      "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
+      "pageImageBase": "./rendered-pages/doc-795d51900278/page-",
+      "pageCount": 3,
+      "sections": [
+        {
+          "id": "doc-795d51900278-s1",
+          "title": "一、随机变量的数字特征",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-795d51900278-s2",
+          "title": "二、数字特征题处理策略",
+          "page": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-7afde55fc309",
+      "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
+      "englishTitle": "Laws of Large Numbers and Central Limit Theorem",
+      "chineseTitle": "大数定律和中心极限定理",
+      "category": "概率论",
+      "path": "概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+      "webPath": "../概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+      "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
+      "pageImageBase": "./rendered-pages/doc-7afde55fc309/page-",
+      "pageCount": 3,
+      "sections": [
+        {
+          "id": "doc-7afde55fc309-s1",
+          "title": "一、大数定律与中心极限定理",
+          "page": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-df8d3694236b",
+      "title": "Mathematical Statistics (数理统计)",
+      "englishTitle": "Mathematical Statistics",
+      "chineseTitle": "数理统计",
+      "category": "概率论",
+      "path": "概率论/Mathematical Statistics (数理统计).pdf",
+      "webPath": "../概率论/Mathematical Statistics (数理统计).pdf",
+      "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
+      "pageImageBase": "./rendered-pages/doc-df8d3694236b/page-",
+      "pageCount": 6,
+      "sections": [
+        {
+          "id": "doc-df8d3694236b-s1",
+          "title": "一、数理统计基础",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-df8d3694236b-s2",
+          "title": "二、参数估计",
+          "page": 3,
+          "level": 1
+        },
+        {
+          "id": "doc-df8d3694236b-s3",
+          "title": "三、假设检验",
+          "page": 4,
+          "level": 1
+        },
+        {
+          "id": "doc-df8d3694236b-s4",
+          "title": "四、方差分析与回归",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-932e58f16185-s4",
-          "title": "四、常见连续分布",
+          "id": "doc-df8d3694236b-s5",
+          "title": "五、统计推断题处理策略",
           "page": 6,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s5",
-          "title": "五、多维随机变量",
-          "page": 9,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s6",
-          "title": "六、数字特征",
-          "page": 12,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s7",
-          "title": "七、大数定律与中心极限定理",
-          "page": 13,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s8",
-          "title": "八、数理统计基础",
-          "page": 15,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s9",
-          "title": "九、参数估计",
-          "page": 16,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s10",
-          "title": "十、假设检验",
-          "page": 17,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s11",
-          "title": "十一、方差分析与回归",
-          "page": 18,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s12",
-          "title": "十二、常见题型处理策略",
-          "page": 19,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s13",
-          "title": "十三、公式速查",
-          "page": 20,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s14",
-          "title": "十四、复习建议",
-          "page": 21,
           "level": 1
         }
       ]
@@ -3387,204 +3391,14 @@ window.SEARCH_INDEX = [
     "text": "Double Integral Methods (二重积分计算方法) Double Integral Methods 二重积分计算方法 微积分 十二、公式速查表 考研数学 · 二重积分 十二、公式速查表 内容 公式 定义 ∬ 𝑓𝑑𝜎 = lim𝜆→0 ∑ 𝑓(𝜉𝑖 , 𝜂𝑖 )Δ𝜎𝑖 𝐷 面积 𝑆𝐷 = ∬ 1𝑑𝜎 𝐷 曲顶柱体体积 𝑉 = ∬ 𝑓(𝑥, 𝑦)𝑑𝜎 𝐷 两曲面之间体积 𝑉 = ∬ (𝑧2 − 𝑧1 )𝑑𝜎 𝐷 𝑏 𝜑 (𝑥) 𝑥 型区域 ∬ 𝑓𝑑𝜎 = ∫ ∫ 2 𝑓𝑑𝑦 𝑑𝑥 𝐷 𝑎 𝜑1 (𝑥) 𝑑 𝜓2 (𝑦) 𝑦 型区域 ∬ 𝑓𝑑𝜎 = ∫ ∫ 𝑓𝑑𝑥 𝑑𝑦 𝐷 𝑐 𝜓1 (𝑦) 极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑑𝜎 = 𝑟 𝑑𝑟 𝑑𝜃 𝜕(𝑥,𝑦) 一般换元 𝑑𝑥 𝑑𝑦 = | 𝜕(𝑢,𝑣) |𝑑𝑢 𝑑𝑣 平均值 |(𝑓) = 𝑆1 ∬ 𝑓𝑑𝜎 𝐷 𝐷 质量 𝑚 = ∬ 𝜌𝑑𝜎 𝐷 ∬ 𝑥𝜌𝑑𝜎 ∬ 𝑦𝜌𝑑𝜎 质心 |(𝑥) = 𝐷𝑚 , |(𝑦) = 𝐷𝑚 最终抓手： 做二重积分题时，先问三个问题：区域 𝐷 怎么画？用直角坐标还是极坐标？内层变量从哪里到 哪里？只要这三步清楚，后面的计算就是普通定积分。"
   },
   {
-    "id": "doc-e798419636b7-p1",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 1,
-    "heading": "定义 · 公式 · 坐标选择 · 典型例题",
-    "snippet": "考研数学 · 三重积分 三重积分计算方法总结 定义 · 公式 · 坐标选择 · 典型例题 考研数学复习资料 · Typst PDF 首页速览 • 核心公式：柱坐标 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 ；球坐标 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃。 • 关键定理：空间对称区域上，关于某变量为奇的被积函数积分为 0；常密度形心用坐标积分除以体积。 ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 定义 · 公式 · 坐标选择 · 典型例题 考研数学 · 三重积分 三重积分计算方法总结 定义 · 公式 · 坐标选择 · 典型例题 考研数学复习资料 · Typst PDF 首页速览 • 核心公式：柱坐标 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 ；球坐标 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃。 • 关键定理：空间对称区域上，关于某变量为奇的被积函数积分为 0；常密度形心用坐标积分除以体积。 • 方法抓手：柱面/旋转体优先柱坐标，球面/锥面组合优先球坐标，复杂区域先找投影再写上下限。 复习目标： 三重积分的本质是“在空间区域上累加”。考研题通常不难在积分本身，而难在三件事：看清空 间区域、选对坐标系、写对积分限。"
-  },
-  {
-    "id": "doc-e798419636b7-p2",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 2,
-    "heading": "一、三重积分的定义与几何意义",
-    "snippet": "考研数学 · 三重积分 一、三重积分的定义与几何意义 1. 定义 设函数 𝑓(𝑥, 𝑦, 𝑧) 在空间闭区域 Ω 上有界。把 Ω 分成许多小体积块 Δ𝑉𝑖 ，在每个小块中任取一点 (𝜉𝑖 , 𝜂𝑖 , 𝜁𝑖 )， 若极限存在，则定义 𝑛 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = lim ∑ 𝑓(𝜉𝑖 , 𝜂𝑖 , 𝜁𝑖 )Δ𝑉𝑖 𝜆→0 Ω 𝑖=...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 一、三重积分的定义与几何意义 考研数学 · 三重积分 一、三重积分的定义与几何意义 1. 定义 设函数 𝑓(𝑥, 𝑦, 𝑧) 在空间闭区域 Ω 上有界。把 Ω 分成许多小体积块 Δ𝑉𝑖 ，在每个小块中任取一点 (𝜉𝑖 , 𝜂𝑖 , 𝜁𝑖 )， 若极限存在，则定义 𝑛 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = lim ∑ 𝑓(𝜉𝑖 , 𝜂𝑖 , 𝜁𝑖 )Δ𝑉𝑖 𝜆→0 Ω 𝑖=1 其中 𝜆 表示分割中最大子区域直径。 2. 几何与物理意义 若 𝑓(𝑥, 𝑦, 𝑧) = 1，则三重积分表示区域体积： 𝑉 = ∭ 1𝑑𝑉 Ω 若 𝑓(𝑥, 𝑦, 𝑧) 表示密度，则 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧)𝑑𝑉 Ω 表示物体质量。 若 𝑓 是一般函数，则三重积分可以理解为函数值在空间区域上的总体累积。 3. 基本性质 线性性质： ∭ (𝑎𝑓 + 𝑏𝑔)𝑑𝑉 = 𝑎 ∭ 𝑓𝑑𝑉 + 𝑏 ∭ 𝑔𝑑𝑉 Ω Ω Ω 区域可加性： ∭ 𝑓𝑑𝑉 = ∭ 𝑓𝑑𝑉 + ∭ 𝑓𝑑𝑉 Ω1 ∪Ω2 Ω1 Ω2 若 𝑓(𝑥, 𝑦, 𝑧) ≥ 0，则 ∭ 𝑓𝑑𝑉 ≥ 0 Ω"
-  },
-  {
-    "id": "doc-e798419636b7-p3",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 3,
-    "heading": "二、直角坐标下的投影法",
-    "snippet": "考研数学 · 三重积分 二、直角坐标下的投影法 直角坐标适合边界由平面、简单曲面或“上下界清楚”的区域。 1. 先一后二：先对一个变量积分 若区域可写成 Ω = {(𝑥, 𝑦, 𝑧) | (𝑥, 𝑦) ∈ 𝐷𝑥𝑦 , 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦)} 则 𝑧2 (𝑥,𝑦) ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∬ [∫ 𝑓...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 二、直角坐标下的投影法 考研数学 · 三重积分 二、直角坐标下的投影法 直角坐标适合边界由平面、简单曲面或“上下界清楚”的区域。 1. 先一后二：先对一个变量积分 若区域可写成 Ω = {(𝑥, 𝑦, 𝑧) | (𝑥, 𝑦) ∈ 𝐷𝑥𝑦 , 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦)} 则 𝑧2 (𝑥,𝑦) ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∬ [∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑧]𝑑𝑥𝑑𝑦 Ω 𝐷𝑥𝑦 𝑧1 (𝑥,𝑦) 若 𝐷𝑥𝑦 又可写成 𝑎 ≤ 𝑥 ≤ 𝑏, 𝑦1 (𝑥) ≤ 𝑦 ≤ 𝑦2 (𝑥) 则 𝑏 𝑦2 (𝑥) 𝑧2 (𝑥,𝑦) ∫ ∫ ∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑧𝑑𝑦𝑑𝑥 𝑎 𝑦1 (𝑥) 𝑧1 (𝑥,𝑦) 这类做法最常见：先把空间区域投影到 𝑥𝑦 平面，再确定上下曲面。 2. 也可以投影到其他平面 若区域适合投影到 𝑦𝑧 平面： 𝑥2 (𝑦,𝑧) ∭ 𝑓𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑥𝑑𝑦𝑑𝑧 Ω 𝐷𝑦𝑧 𝑥1 (𝑦,𝑧) 若区域适合投影到 𝑥𝑧 平面： 𝑦2 (𝑥,𝑧) ∭ 𝑓𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑦𝑑𝑥𝑑𝑧 Ω 𝐷𝑥𝑧 𝑦1 (𝑥,𝑧) 易错点： 积分次序没有固定答案。哪一个变量的上下限最容易写，就优先把它放在最内层。 3. 截面法 若空间区域按某个变量切片后截面积容易表示，可以用截面法。若垂直于 𝑧 轴的截面积为 𝐴(𝑧)，则体积 𝑏 𝑉 = ∫ 𝐴(𝑧)𝑑𝑧 𝑎 更一般地，若每个截面上还要积分函数： 𝑏 ∭ 𝑓𝑑𝑉 = ∫ [∬ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝐴]𝑑𝑧 Ω 𝑎 𝐷𝑧 其中 𝐷𝑧 是固定 𝑧 后得到的平面截面。"
-  },
-  {
-    "id": "doc-e798419636b7-p4",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 4,
-    "heading": "三、柱坐标法",
-    "snippet": "考研数学 · 三重积分 三、柱坐标法 柱坐标适合圆柱、圆锥、旋转抛物面、圆盘投影等问题。 1. 坐标变换 柱坐标定义为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑧=𝑧 其中 𝑟 ≥ 0, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 因此 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∭ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃,...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 三、柱坐标法 考研数学 · 三重积分 三、柱坐标法 柱坐标适合圆柱、圆锥、旋转抛物面、圆盘投影等问题。 1. 坐标变换 柱坐标定义为 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃, 𝑧=𝑧 其中 𝑟 ≥ 0, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 因此 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = ∭ 𝑓(𝑟 cos 𝜃, 𝑟 sin 𝜃, 𝑧)𝑟𝑑𝑟𝑑𝜃𝑑𝑧 Ω Ω′ 2. 常见使用场景 若区域含有 𝑥2 + 𝑦 2 = 𝑟 2 或边界为圆柱面、圆锥面、旋转抛物面，例如 𝑧 = 𝑥2 + 𝑦2 , 𝑧 = √𝑥2 + 𝑦2 , 𝑥2 + 𝑦2 = 𝑎2 通常优先考虑柱坐标。 3. 常用边界翻译 直角坐标边界 柱坐标形式 说明 𝑥2 + 𝑦2 = 𝑎2 𝑟=𝑎 圆柱面或圆盘边界 𝑧 = 𝑥2 + 𝑦 2 𝑧 = 𝑟2 旋转抛物面 𝑧 = √𝑥2 + 𝑦2 𝑧=𝑟 圆锥面 2 2 2 2 2 2 2 𝑥 +𝑦 +𝑧 =𝑎 𝑟 +𝑧 =𝑎 球面，也可用球坐标"
-  },
-  {
-    "id": "doc-e798419636b7-p5",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 5,
-    "heading": "四、球坐标法",
-    "snippet": "考研数学 · 三重积分 四、球坐标法 球坐标适合球、球冠、球锥组合、与原点距离有关的积分。 1. 坐标变换 本资料采用数学中常见约定： 𝑥 = 𝜌 sin 𝜑 cos 𝜃 𝑦 = 𝜌 sin 𝜑 sin 𝜃 𝑧 = 𝜌 cos 𝜑 其中 𝜌 是点到原点的距离，𝜑 是与正 𝑧 轴的夹角，𝜃 是在 𝑥𝑦 平面内的极角。 范围通常为 𝜌 ≥ 0...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 四、球坐标法 考研数学 · 三重积分 四、球坐标法 球坐标适合球、球冠、球锥组合、与原点距离有关的积分。 1. 坐标变换 本资料采用数学中常见约定： 𝑥 = 𝜌 sin 𝜑 cos 𝜃 𝑦 = 𝜌 sin 𝜑 sin 𝜃 𝑧 = 𝜌 cos 𝜑 其中 𝜌 是点到原点的距离，𝜑 是与正 𝑧 轴的夹角，𝜃 是在 𝑥𝑦 平面内的极角。 范围通常为 𝜌 ≥ 0, 0 ≤ 𝜑 ≤ 𝜋, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 ∭ 𝑓𝑑𝑉 = ∭ 𝑓(𝜌 sin 𝜑 cos 𝜃, 𝜌 sin 𝜑 sin 𝜃, 𝜌 cos 𝜑)𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 Ω Ω′ 2. 常见边界翻译 直角坐标边界 球坐标形式 说明 𝑥2 + 𝑦2 + 𝑧2 = 𝑎2 𝜌=𝑎 球面 𝑧 = √𝑥2 + 𝑦2 𝜑 = 𝜋4 圆锥面 𝑧=0 𝜑 = 𝜋2 𝑥𝑦 平面 𝑥2 + 𝑦2 + 𝑧 2 𝜌2 径向函数会大幅简化 易错点： 球坐标最容易错的是角度 𝜑 的含义。本资料中 𝜑 从正 𝑧 轴量起，不是从 𝑥𝑦 平面量起。"
-  },
-  {
-    "id": "doc-e798419636b7-p6",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 6,
-    "heading": "五、一般变量替换与雅可比",
-    "snippet": "考研数学 · 三重积分 五、一般变量替换与雅可比 若作变量替换 𝑥 = 𝑥(𝑢, 𝑣, 𝑤), 𝑦 = 𝑦(𝑢, 𝑣, 𝑤), 𝑧 = 𝑧(𝑢, 𝑣, 𝑤) 则 𝑑𝑉 = |𝐽 |𝑑𝑢𝑑𝑣𝑑𝑤 其中 𝜕 𝜕𝑥 𝑢 𝜕 𝜕𝑥 𝑣 𝜕 𝜕𝑥 𝑤 𝑦 𝑦 𝑦 𝐽 = det 𝜕 𝜕 𝑢 𝜕 𝜕 𝑣 𝜕 𝜕 𝑤 𝜕 𝑢 𝜕 𝜕 𝑣 𝜕 𝜕𝑧 𝑤 ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 五、一般变量替换与雅可比 考研数学 · 三重积分 五、一般变量替换与雅可比 若作变量替换 𝑥 = 𝑥(𝑢, 𝑣, 𝑤), 𝑦 = 𝑦(𝑢, 𝑣, 𝑤), 𝑧 = 𝑧(𝑢, 𝑣, 𝑤) 则 𝑑𝑉 = |𝐽 |𝑑𝑢𝑑𝑣𝑑𝑤 其中 𝜕 𝜕𝑥 𝑢 𝜕 𝜕𝑥 𝑣 𝜕 𝜕𝑥 𝑤 𝑦 𝑦 𝑦 𝐽 = det 𝜕 𝜕 𝑢 𝜕 𝜕 𝑣 𝜕 𝜕 𝑤 𝜕 𝑢 𝜕 𝜕 𝑣 𝜕 𝜕𝑧 𝑤 𝑧 𝑧 ( 𝜕 ) 于是 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑥𝑑𝑦𝑑𝑧 = ∭ 𝑓(𝑥(𝑢, 𝑣, 𝑤), 𝑦(𝑢, 𝑣, 𝑤), 𝑧(𝑢, 𝑣, 𝑤))|𝐽 |𝑑𝑢𝑑𝑣𝑑𝑤 Ω Ω′ 柱坐标和球坐标都是这个公式的特殊情况： 𝐽柱 = 𝑟 𝐽球 = 𝜌2 sin 𝜑"
-  },
-  {
-    "id": "doc-e798419636b7-p7",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 7,
-    "heading": "六、对称性方法",
-    "snippet": "考研数学 · 三重积分 六、对称性方法 对称性常用于快速判断积分为零，或把区域缩小后乘倍数。 1. 奇函数积分为零 若区域 Ω 关于平面 𝑥 = 0 对称，而函数关于 𝑥 为奇函数，即 𝑓(−𝑥, 𝑦, 𝑧) = −𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = 0 Ω 类似地，关于 𝑦 = 0 或 𝑧 = 0 对称也可使用。...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 六、对称性方法 考研数学 · 三重积分 六、对称性方法 对称性常用于快速判断积分为零，或把区域缩小后乘倍数。 1. 奇函数积分为零 若区域 Ω 关于平面 𝑥 = 0 对称，而函数关于 𝑥 为奇函数，即 𝑓(−𝑥, 𝑦, 𝑧) = −𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓(𝑥, 𝑦, 𝑧)𝑑𝑉 = 0 Ω 类似地，关于 𝑦 = 0 或 𝑧 = 0 对称也可使用。 2. 偶函数可缩小区域 若 Ω 关于 𝑥 = 0 对称，且 𝑓(−𝑥, 𝑦, 𝑧) = 𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓𝑑𝑉 = 2 ∭ 𝑓𝑑𝑉 Ω Ω+ 其中 Ω+ 表示 Ω 中满足 𝑥 ≥ 0 的一半区域。 3. 球体中的常用对称结论 在以原点为中心的球体 𝐵 中： ∭ 𝑥𝑑𝑉 = ∭ 𝑦𝑑𝑉 = ∭ 𝑧𝑑𝑉 = 0 𝐵 𝐵 𝐵 并且由对称性 ∭ 𝑥2 𝑑𝑉 = ∭ 𝑦2 𝑑𝑉 = ∭ 𝑧 2 𝑑𝑉 𝐵 𝐵 𝐵 又因为 𝑥2 + 𝑦 2 + 𝑧 2 = 𝜌 2 所以 1 ∭ 𝑥2 𝑑𝑉 = ∭ 𝜌2 𝑑𝑉 𝐵 3 𝐵"
-  },
-  {
-    "id": "doc-e798419636b7-p8",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 8,
-    "heading": "七、计算步骤总结",
-    "snippet": "考研数学 · 三重积分 七、计算步骤总结 通用流程： 第一步：画出或想清楚空间区域。第二步：判断适合直角坐标、柱坐标还是球坐标。第三步：确 定积分次序和上下限。第四步：写出体积元。第五步：计算积分并检查量纲和正负。 区域特点 优先方法 关键体积元 长方体或上下 直角坐标投影法 𝑑𝑥𝑑𝑦𝑑𝑧 界清楚 含 𝑥2 + 𝑦2 ，绕 柱坐标 𝑟𝑑𝑟...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 七、计算步骤总结 考研数学 · 三重积分 七、计算步骤总结 通用流程： 第一步：画出或想清楚空间区域。第二步：判断适合直角坐标、柱坐标还是球坐标。第三步：确 定积分次序和上下限。第四步：写出体积元。第五步：计算积分并检查量纲和正负。 区域特点 优先方法 关键体积元 长方体或上下 直角坐标投影法 𝑑𝑥𝑑𝑦𝑑𝑧 界清楚 含 𝑥2 + 𝑦2 ，绕 柱坐标 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 𝑧 轴旋转 球面、圆锥、与 球坐标 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 原点距离有关 截面积容易写 截面法 𝑉 = ∫ 𝐴(𝑧)𝑑𝑧 区域和函数有 对称性 先判断是否为 0 奇偶性"
-  },
-  {
-    "id": "doc-e798419636b7-p9",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 9,
-    "heading": "八、典型例题",
-    "snippet": "考研数学 · 三重积分 八、典型例题 例题 1：长方体区域上的三重积分 题目 计算 1 2 3 𝐼 = ∫ ∫ ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧𝑑𝑦𝑑𝑥 0 0 0 先对 𝑧 积分： 3 9 ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧 = 3𝑥 + 3𝑦 + 0 2 再对 𝑦 积分： 2 9 ∫ (3𝑥 + 3𝑦 + )𝑑𝑦 = 6𝑥 + 6 + 9 ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 八、典型例题 考研数学 · 三重积分 八、典型例题 例题 1：长方体区域上的三重积分 题目 计算 1 2 3 𝐼 = ∫ ∫ ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧𝑑𝑦𝑑𝑥 0 0 0 先对 𝑧 积分： 3 9 ∫ (𝑥 + 𝑦 + 𝑧)𝑑𝑧 = 3𝑥 + 3𝑦 + 0 2 再对 𝑦 积分： 2 9 ∫ (3𝑥 + 3𝑦 + )𝑑𝑦 = 6𝑥 + 6 + 9 = 6𝑥 + 15 0 2 最后对 𝑥 积分： 1 𝐼 = ∫ (6𝑥 + 15)𝑑𝑥 = 3 + 15 = 18 0 结论： 长方体区域最适合直接按题目给定次序积分。若积分区域是常数上下限，计算难度通常只在被积函 数。 例题 2：投影法求抛物面下方体积 题目 求由 𝑧 = 4 − 𝑥2 − 𝑦2 与 𝑧 = 0 围成的立体体积。 区域满足 0 ≤ 𝑧 ≤ 4 − 𝑥2 − 𝑦2 且需要 4 − 𝑥2 − 𝑦2 ≥ 0 所以投影区域为 𝐷𝑥𝑦 : 𝑥2 + 𝑦2 ≤ 4 由于投影是圆盘，改用柱坐标： 𝑥2 + 𝑦2 = 𝑟2 , 𝑑𝑉 = 𝑟𝑑𝑧𝑑𝑟𝑑𝜃 积分限为 0 ≤ 𝜃 ≤ 2𝜋, 0 ≤ 𝑟 ≤ 2, 0 ≤ 𝑧 ≤ 4 − 𝑟2 因此 2𝜋 2 4−𝑟2 𝑉 =∫ ∫ ∫ 𝑟𝑑𝑧𝑑𝑟𝑑𝜃 0 0 0"
-  },
-  {
-    "id": "doc-e798419636b7-p10",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 10,
-    "heading": "结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。",
-    "snippet": "考研数学 · 三重积分 2𝜋 2 𝑉 =∫ ∫ (4 − 𝑟2 )𝑟𝑑𝑟𝑑𝜃 0 0 2 𝑉 = 2𝜋 ∫ (4𝑟 − 𝑟3 )𝑑𝑟 0 𝑉 = 2𝜋(8 − 4) = 8𝜋 结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。 例题 3：球体体积 题目 求球体 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 的体积。 球坐...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。 考研数学 · 三重积分 2𝜋 2 𝑉 =∫ ∫ (4 − 𝑟2 )𝑟𝑑𝑟𝑑𝜃 0 0 2 𝑉 = 2𝜋 ∫ (4𝑟 − 𝑟3 )𝑑𝑟 0 𝑉 = 2𝜋(8 − 4) = 8𝜋 结论： 看到 𝑥2 + 𝑦2 和圆盘投影，优先考虑柱坐标。本题答案为 8𝜋。 例题 3：球体体积 题目 求球体 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 的体积。 球坐标下区域为 0 ≤ 𝜌 ≤ 𝑎, 0 ≤ 𝜑 ≤ 𝜋, 0 ≤ 𝜃 ≤ 2𝜋 体积元为 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 2𝜋 𝜋 𝑎 𝑉 =∫ ∫ ∫ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0 𝑎3 𝑎3 𝑉 = (2𝜋)(2)( ) = 4𝜋 3 3 结论： 球面边界 𝑥2 + 𝑦2 + 𝑧 2 = 𝑎2 在球坐标下变成 𝜌 = 𝑎，这是球坐标最典型的优势。 例题 4：球与圆锥围成区域 题目 求球 𝜌 ≤ 2 内、圆锥 𝜑 = 𝜋3 上方靠近正 𝑧 轴一侧区域的体积。 靠近正 𝑧 轴一侧表示 𝜋 0≤𝜑≤ 3 球内表示 0≤𝜌≤2 整周旋转表示 0 ≤ 𝜃 ≤ 2𝜋 于是 𝜋 2𝜋 3 2 𝑉 =∫ ∫ ∫ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0"
-  },
-  {
-    "id": "doc-e798419636b7-p11",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 11,
-    "heading": "结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。",
-    "snippet": "考研数学 · 三重积分 8 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ (1 − cos( )) 3 3 8 1 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ = 8 3 2 3 结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。 例题 5：换序与空间区域理解 题目 计算 1 𝑥 𝑥+𝑦 𝐼 =∫ ∫ ∫ 1𝑑𝑧𝑑𝑦𝑑𝑥 0 0...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。 考研数学 · 三重积分 8 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ (1 − cos( )) 3 3 8 1 𝜋 𝑉 = 2𝜋 ⋅ ( ) ⋅ = 8 3 2 3 结论： 圆锥在球坐标中往往对应固定角 𝜑 = 𝛼。球和圆锥组合时，球坐标通常最简。 例题 5：换序与空间区域理解 题目 计算 1 𝑥 𝑥+𝑦 𝐼 =∫ ∫ ∫ 1𝑑𝑧𝑑𝑦𝑑𝑥 0 0 0 该积分表示区域体积。先按给定顺序计算： 1 𝑥 𝐼 = ∫ ∫ (𝑥 + 𝑦)𝑑𝑦𝑑𝑥 0 0 1 𝑥2 𝐼 = ∫ (𝑥2 + )𝑑𝑥 0 2 3 1 2 1 𝐼= ∫ 𝑥 𝑑𝑥 = 2 0 2 该区域也可以理解为 0 ≤ 𝑦 ≤ 𝑥 ≤ 1, 0 ≤ 𝑧 ≤ 𝑥 + 𝑦 在 𝑥𝑦 平面上的投影是三角形 0≤𝑦≤𝑥≤1 结论：当题目给出三重积分让你判断区域或换序时，先读最外层变量范围，再读中间变量，最后读内层变量。 例题 6：利用对称性快速计算 题目 设 𝐵 : 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 ，计算 ∭ 𝑥𝑦𝑑𝑉 𝐵 区域 𝐵 关于平面 𝑥 = 0 对称。被积函数 𝑥𝑦 关于 𝑥 是奇函数： (−𝑥)𝑦 = −𝑥𝑦 所以正负部分相互抵消： ∭ 𝑥𝑦𝑑𝑉 = 0 𝐵"
-  },
-  {
-    "id": "doc-e798419636b7-p12",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 12,
-    "heading": "结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。",
-    "snippet": "考研数学 · 三重积分 结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。 例题 7：球体上径向函数积分 题目 设 𝐵 : 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 ，计算 ∭ (𝑥2 + 𝑦2 + 𝑧2 )𝑑𝑉 𝐵 球坐标下 𝑥2 + 𝑦 2 + 𝑧 2 = 𝜌 2 且 𝑑𝑉 = 𝜌2 sin ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。 考研数学 · 三重积分 结论： 对称性题不一定要积分。先判断区域是否对称，再判断被积函数关于某个变量是奇函数还是偶函数。 例题 7：球体上径向函数积分 题目 设 𝐵 : 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 ，计算 ∭ (𝑥2 + 𝑦2 + 𝑧2 )𝑑𝑉 𝐵 球坐标下 𝑥2 + 𝑦 2 + 𝑧 2 = 𝜌 2 且 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 所以 2𝜋 𝜋 𝑎 𝐼 =∫ ∫ ∫ 𝜌2 ⋅ 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃 0 0 0 𝑎 𝐼 = 2𝜋 ⋅ 2 ⋅ ∫ 𝜌4 𝑑𝜌 0 𝑎5 𝐼 = 4𝜋 5 结论： 当被积函数是 𝑥2 + 𝑦2 + 𝑧 2 或只与到原点距离有关时，球坐标通常最直接。"
-  },
-  {
-    "id": "doc-e798419636b7-p13",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 13,
-    "heading": "九、格林公式、高斯公式与斯托克斯公式",
-    "snippet": "考研数学 · 三重积分 九、格林公式、高斯公式与斯托克斯公式 这三类公式本质上都是“边界积分”和“区域内部积分”的互化。考研中常用于把难算的曲线积分、曲面积分转化 为容易计算的二重积分或三重积分。 1. 格林公式 设平面闭区域 𝐷 由分段光滑正向边界曲线 𝐿 围成，正向指沿 𝐿 行走时区域 𝐷 始终在左侧。若 𝑃 (𝑥, 𝑦)、𝑄(𝑥, ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 九、格林公式、高斯公式与斯托克斯公式 考研数学 · 三重积分 九、格林公式、高斯公式与斯托克斯公式 这三类公式本质上都是“边界积分”和“区域内部积分”的互化。考研中常用于把难算的曲线积分、曲面积分转化 为容易计算的二重积分或三重积分。 1. 格林公式 设平面闭区域 𝐷 由分段光滑正向边界曲线 𝐿 围成，正向指沿 𝐿 行走时区域 𝐷 始终在左侧。若 𝑃 (𝑥, 𝑦)、𝑄(𝑥, 𝑦) 在 𝐷 上具有一阶连续偏导数，则 𝑄 𝑃 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 = ∬ (𝜕 𝑥 − 𝜕 𝑦)𝑑𝑥𝑑𝑦 𝐿 𝐷 𝜕 𝜕 使用条件： 1. 曲线 𝐿 必须是平面内的闭曲线。 2. 方向通常要求为正向，即逆时针方向。 3. 𝑃 , 𝑄 在区域 𝐷 及其边界上连续，并且一阶偏导连续。 4. 若区域有洞，外边界取逆时针，内边界取顺时针。 应用场景：格林公式常用于平面第二型曲线积分 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 𝐿 当沿曲线直接参数化很麻烦，而区域 𝐷 简单时，优先用格林公式。它也常用于面积计算： 1 𝑆= ∮ 𝑥𝑑𝑦 − 𝑦𝑑𝑥 2 𝐿 选用判断： 看到“平面闭曲线上的 𝑃 𝑑𝑥 + 𝑄𝑑𝑦”，优先想格林公式。若曲线不闭，先看能否补线闭合，再 用格林公式减去补线积分。 易错点： 格林公式最常错方向。若题目给的是顺时针方向，则结果要在正向公式基础上取负号。 2. 高斯公式 设空间闭区域 Ω 的边界曲面为 Σ，取外侧法向。若 𝑃 , 𝑄, 𝑅 在 Ω 上具有一阶连续偏导数，则 𝑃 𝑄 𝑅 ∯ 𝑃 𝑑𝑦𝑑𝑧 + 𝑄𝑑𝑧𝑑𝑥 + 𝑅𝑑𝑥𝑑𝑦 = ∭ (𝜕 𝑥 + 𝜕 𝑦 + 𝜕 𝑧)𝑑𝑉 Σ Ω 𝜕 𝜕 𝜕 向量形式为 ∯ 𝑭 ⋅ 𝒏𝑑𝑆 = ∭ div 𝑭 𝑑𝑉 Σ Ω 其中 𝑭 = (𝑃 , 𝑄, 𝑅) 𝑃 𝑄 𝑅 div 𝑭 = 𝜕 𝑥+𝜕 𝑦+𝜕 𝑧 𝜕 𝜕 𝜕 使用条件："
-  },
-  {
-    "id": "doc-e798419636b7-p14",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 14,
-    "heading": "1. Σ 必须是闭曲面，或者可以补成闭曲面。",
-    "snippet": "考研数学 · 三重积分 1. Σ 必须是闭曲面，或者可以补成闭曲面。 2. 法向必须取外法向。 3. 向量场 𝑭 在闭区域 Ω 内有连续一阶偏导数。 4. 若曲面不是闭曲面，不能直接套高斯公式，必须补上缺失曲面，再减去补面通量。 应用场景：高斯公式常用于第二型曲面积分，也就是通量积分： ∯ 𝑃 𝑑𝑦𝑑𝑧 + 𝑄𝑑𝑧𝑑𝑥 + 𝑅𝑑𝑥𝑑𝑦 Σ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 1. Σ 必须是闭曲面，或者可以补成闭曲面。 考研数学 · 三重积分 1. Σ 必须是闭曲面，或者可以补成闭曲面。 2. 法向必须取外法向。 3. 向量场 𝑭 在闭区域 Ω 内有连续一阶偏导数。 4. 若曲面不是闭曲面，不能直接套高斯公式，必须补上缺失曲面，再减去补面通量。 应用场景：高斯公式常用于第二型曲面积分，也就是通量积分： ∯ 𝑃 𝑑𝑦𝑑𝑧 + 𝑄𝑑𝑧𝑑𝑥 + 𝑅𝑑𝑥𝑑𝑦 Σ 或 ∯ 𝑭 ⋅ 𝒏𝑑𝑆 Σ 选用判断： 看到“闭曲面通量”“外侧”“封闭曲面”，优先想高斯公式。若曲面不闭，先补成闭曲面。 易错点： 高斯公式只适用于闭曲面，且默认外法向。若题目给内法向，结果要取负号。 3. 斯托克斯公式 设曲面 Σ 的边界为分段光滑闭曲线 Γ，方向满足右手法则。若向量场 𝑭 = (𝑃 , 𝑄, 𝑅) 在曲面附近具有一阶连 续偏导数，则 ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 = ∯ rot 𝑭 ⋅ 𝒏𝑑𝑆 Γ Σ 其中旋度为 𝑅 𝑄 𝑃 𝑅 𝑄 𝑃 rot 𝑭 = (𝜕 𝑦 − 𝜕 𝑧)𝒊 + (𝜕 𝑧 − 𝜕 𝑥)𝒋 + (𝜕 𝑥 − 𝜕 𝑦)𝒌 𝜕 𝜕 𝜕 𝜕 𝜕 𝜕 使用条件： 1. Γ 是空间闭曲线，是曲面 Σ 的边界。 2. 曲面 Σ 分片光滑，并且可定向。 3. 曲线方向与曲面法向满足右手法则。 4. 𝑃 , 𝑄, 𝑅 在曲面附近有连续一阶偏导数。 应用场景：斯托克斯公式常用于空间闭曲线上的第二型曲线积分： ∮ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 Γ 如果空间曲线参数化复杂，但它能作为某个简单曲面的边界，就可以用斯托克斯公式把曲线积分转化为曲面积 分。同一个边界曲线可以选择不同曲面，通常选最简单的曲面，例如平面片、圆盘或投影容易的曲面。 选用判断： 看到“空间闭曲线上的 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 + 𝑅𝑑𝑧 ”，优先想斯托克斯公式。若曲线在平面内，也可能 退化为格林公式。"
-  },
-  {
-    "id": "doc-e798419636b7-p15",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 15,
-    "heading": "易错点： 斯托克斯公式最常错的是方向。曲线方向和曲面法向必须满足右手法则；如果方向相反，结果取",
-    "snippet": "考研数学 · 三重积分 易错点： 斯托克斯公式最常错的是方向。曲线方向和曲面法向必须满足右手法则；如果方向相反，结果取 负号。 4. 三个公式的对比 公式 处理对象 转换结果 关键词 格林公式 平面闭曲线积分 二重积分 平面、闭曲线、逆时针、𝑃 𝑑𝑥 + 𝑄𝑑𝑦 高斯公式 闭曲面通量积分 三重积分 闭曲面、外法向、通量、散度 斯托克斯公 ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 易错点： 斯托克斯公式最常错的是方向。曲线方向和曲面法向必须满足右手法则；如果方向相反，结果取 考研数学 · 三重积分 易错点： 斯托克斯公式最常错的是方向。曲线方向和曲面法向必须满足右手法则；如果方向相反，结果取 负号。 4. 三个公式的对比 公式 处理对象 转换结果 关键词 格林公式 平面闭曲线积分 二重积分 平面、闭曲线、逆时针、𝑃 𝑑𝑥 + 𝑄𝑑𝑦 高斯公式 闭曲面通量积分 三重积分 闭曲面、外法向、通量、散度 斯托克斯公 空间闭曲线积分 曲面积分 空间闭曲线、旋度、右手法则 式 5. 典型例题：格林公式 题目 计算 𝐿 为圆 𝑥2 + 𝑦2 = 𝑎2 的逆时针方向时 𝐼 = ∮ −𝑦𝑑𝑥 + 𝑥𝑑𝑦 𝐿 这里 𝑃 = −𝑦, 𝑄 = 𝑥。由格林公式： 𝑄 𝑃 𝐼 = ∬ (𝜕 𝑥 − 𝜕 𝑦)𝑑𝑥𝑑𝑦 𝐷 𝜕 𝜕 而 𝑄 𝑃 𝜕 𝑥 = 1, 𝜕 𝑦 = −1 𝜕 𝜕 所以 𝐼 = ∬ 2𝑑𝑥𝑑𝑦 = 2𝜋𝑎2 𝐷 6. 典型例题：高斯公式 题目 设 Σ 为球面 𝑥2 + 𝑦2 + 𝑧 2 = 𝑎2 的外侧，求 𝐼 = ∯ 𝑥𝑑𝑦𝑑𝑧 + 𝑦𝑑𝑧𝑑𝑥 + 𝑧𝑑𝑥𝑑𝑦 Σ 令 𝑃 = 𝑥, 𝑄 = 𝑦, 𝑅 = 𝑧 ，则 𝑃 𝑄 𝑅 𝜕 𝑥+𝜕 𝑦+𝜕 𝑧 =3 𝜕 𝜕 𝜕 由高斯公式： 𝑎3 𝐼 = ∭ 3𝑑𝑉 = 3 ⋅ 4𝜋 = 4𝜋𝑎3 Ω 3"
-  },
-  {
-    "id": "doc-e798419636b7-p16",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 16,
-    "heading": "7. 典型例题：斯托克斯公式",
-    "snippet": "考研数学 · 三重积分 7. 典型例题：斯托克斯公式 题目 设 Γ 是平面 𝑧 = 1 上圆周 𝑥2 + 𝑦2 = 1，从 𝑧 轴正向看为逆时针方向，求 𝐼 = ∮ −𝑦𝑑𝑥 + 𝑥𝑑𝑦 + 𝑧𝑑𝑧 Γ 取 𝑭 = (−𝑦, 𝑥, 𝑧)，则 rot 𝑭 = (0, 0, 2) 选取平面圆盘 Σ : 𝑧 = 1, 𝑥2 + 𝑦2 ≤ 1 曲...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 7. 典型例题：斯托克斯公式 考研数学 · 三重积分 7. 典型例题：斯托克斯公式 题目 设 Γ 是平面 𝑧 = 1 上圆周 𝑥2 + 𝑦2 = 1，从 𝑧 轴正向看为逆时针方向，求 𝐼 = ∮ −𝑦𝑑𝑥 + 𝑥𝑑𝑦 + 𝑧𝑑𝑧 Γ 取 𝑭 = (−𝑦, 𝑥, 𝑧)，则 rot 𝑭 = (0, 0, 2) 选取平面圆盘 Σ : 𝑧 = 1, 𝑥2 + 𝑦2 ≤ 1 曲线从 𝑧 轴正向看为逆时针，因此法向取 𝒏 = (0, 0, 1)。于是 𝐼 = ∯ rot 𝑭 ⋅ 𝒏𝑑𝑆 = ∯ 2𝑑𝑆 = 2𝜋 Σ Σ"
-  },
-  {
-    "id": "doc-e798419636b7-p17",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 17,
-    "heading": "十、考研常见设限模板",
-    "snippet": "考研数学 · 三重积分 十、考研常见设限模板 1. 上下曲面夹区域 若区域夹在 𝑧 = 𝑧1 (𝑥, 𝑦) 和 𝑧 = 𝑧2 (𝑥, 𝑦) 之间，则 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦) 投影区域由两曲面交线投影得到。 2. 柱面内外区域 若出现 𝑥2 + 𝑦2 ≤ 𝑎2 则柱坐标中常写成 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 十、考研常见设限模板 考研数学 · 三重积分 十、考研常见设限模板 1. 上下曲面夹区域 若区域夹在 𝑧 = 𝑧1 (𝑥, 𝑦) 和 𝑧 = 𝑧2 (𝑥, 𝑦) 之间，则 𝑧1 (𝑥, 𝑦) ≤ 𝑧 ≤ 𝑧2 (𝑥, 𝑦) 投影区域由两曲面交线投影得到。 2. 柱面内外区域 若出现 𝑥2 + 𝑦2 ≤ 𝑎2 则柱坐标中常写成 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2𝜋 如果是第一象限圆盘，则 𝜋 0 ≤ 𝑟 ≤ 𝑎, 0 ≤ 𝜃 ≤ 2 3. 球面与平面 上半球 𝑥2 + 𝑦2 + 𝑧 2 ≤ 𝑎2 , 𝑧 ≥ 0 在球坐标中为 𝜋 0 ≤ 𝜌 ≤ 𝑎, 0 ≤ 𝜑 ≤ , 0 ≤ 𝜃 ≤ 2𝜋 2 下半球则为 𝜋 ≤𝜑≤𝜋 2 4. 球面与圆锥 圆锥 𝑧 = √𝑥2 + 𝑦2 对应 𝜋 𝜑= 4 靠近正 𝑧 轴一侧为 𝜋 0≤𝜑≤ 4"
-  },
-  {
-    "id": "doc-e798419636b7-p18",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 18,
-    "heading": "考研数学 · 三重积分",
-    "snippet": "考研数学 · 三重积分 远离正 𝑧 轴、靠近 𝑥𝑦 平面一侧为 𝜋 𝜋 ≤𝜑≤ 4 2",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 考研数学 · 三重积分 考研数学 · 三重积分 远离正 𝑧 轴、靠近 𝑥𝑦 平面一侧为 𝜋 𝜋 ≤𝜑≤ 4 2"
-  },
-  {
-    "id": "doc-e798419636b7-p19",
-    "docId": "doc-e798419636b7",
-    "title": "Triple Integral Methods (三重积分计算方法)",
-    "category": "微积分",
-    "page": 19,
-    "heading": "十一、最后检查清单",
-    "snippet": "考研数学 · 三重积分 十一、最后检查清单 易错点： 1. 是否忘记柱坐标的 𝑟？是否忘记球坐标的 𝜌2 sin 𝜑？ 2. 积分限是否覆盖了区域且没有重复覆盖？ 3. 内层变量上下限是否不能含有已经积分掉的变量？ 4. 球坐标中 𝜑 的角度范围是否判断正确？ 5. 对称性为零时，区域必须对称，函数也必须对对应变量为奇函数。 6. 使用格...",
-    "text": "Triple Integral Methods (三重积分计算方法) Triple Integral Methods 三重积分计算方法 微积分 十一、最后检查清单 考研数学 · 三重积分 十一、最后检查清单 易错点： 1. 是否忘记柱坐标的 𝑟？是否忘记球坐标的 𝜌2 sin 𝜑？ 2. 积分限是否覆盖了区域且没有重复覆盖？ 3. 内层变量上下限是否不能含有已经积分掉的变量？ 4. 球坐标中 𝜑 的角度范围是否判断正确？ 5. 对称性为零时，区域必须对称，函数也必须对对应变量为奇函数。 6. 使用格林公式时，曲线是否闭合？方向是否为正向？ 7. 使用高斯公式时，曲面是否闭合？法向是否为外法向？ 8. 使用斯托克斯公式时，曲线方向和曲面法向是否满足右手法则？"
-  },
-  {
     "id": "doc-73ec94e14160-p1",
     "docId": "doc-73ec94e14160",
     "title": "Multivariable Integral Calculus (多元函数积分学)",
     "category": "微积分",
     "page": 1,
     "heading": "考研数学 · 多元函数积分学",
-    "snippet": "考研数学 · 多元函数积分学 多元函数积分学总结 重积分 · 曲线积分 · 曲面积分 · 格林高斯斯托克斯 考研数学复习资料 · Typst PDF 首页速览 𝑄 • 核心公式：Green 公式 ∫ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 = ∬ (𝜕 𝜕 𝑥 − 𝜕 𝑃 𝜕 𝑦)𝑑𝑥𝑑𝑦 。 𝐿 𝐷 • 关键定理：曲线闭合且内部无奇点可直接用 Green...",
-    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 考研数学 · 多元函数积分学 考研数学 · 多元函数积分学 多元函数积分学总结 重积分 · 曲线积分 · 曲面积分 · 格林高斯斯托克斯 考研数学复习资料 · Typst PDF 首页速览 𝑄 • 核心公式：Green 公式 ∫ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 = ∬ (𝜕 𝜕 𝑥 − 𝜕 𝑃 𝜕 𝑦)𝑑𝑥𝑑𝑦 。 𝐿 𝐷 • 关键定理：曲线闭合且内部无奇点可直接用 Green；不闭合先补线；闭合但有奇点要挖洞或改用参数法。 • 方法抓手：先判断积分对象和方向，再利用对称性、估值定理、中值定理、形心质心公式降低计算量。 复习目标： 多元函数积分学的主线是“在几何对象上累加”：二重积分在平面区域上累加，三重积分在空间 区域上累加，曲线积分在曲线上累加，曲面积分在曲面上累加。三大公式把边界积分与区域积分联系起来， 是考研中最容易综合考察的部分。"
+    "snippet": "考研数学 · 多元函数积分学 多元函数积分学总结 重积分 · 曲线积分 · 曲面积分 · 格林高斯斯托克斯 考研数学复习资料 · Typst PDF 首页速览 • 核 心 公 式 ： 柱 坐 标 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 ， 球 坐 标 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃； Green 公 式 ∫ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 = 𝐿 ∬ (...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 考研数学 · 多元函数积分学 考研数学 · 多元函数积分学 多元函数积分学总结 重积分 · 曲线积分 · 曲面积分 · 格林高斯斯托克斯 考研数学复习资料 · Typst PDF 首页速览 • 核 心 公 式 ： 柱 坐 标 𝑑𝑉 = 𝑟𝑑𝑟𝑑𝜃𝑑𝑧 ， 球 坐 标 𝑑𝑉 = 𝜌2 sin 𝜑𝑑𝜌𝑑𝜑𝑑𝜃； Green 公 式 ∫ 𝑃 𝑑𝑥 + 𝑄𝑑𝑦 = 𝐿 ∬ (𝜕 𝑄 𝑃 𝜕 𝑥 − 𝜕 𝜕 𝑦)𝑑𝑥𝑑𝑦 。 𝐷 • 关键定理：曲线闭合且内部无奇点可直接用 Green；不闭合先补线；闭合但有奇点要挖洞或改用参数法。 • 方法抓手：先判断积分对象和方向，再利用对称性、估值定理、中值定理、形心质心公式降低计算量。 复习目标： 多元函数积分学的主线是“在几何对象上累加”：二重积分在平面区域上累加，三重积分在空间 区域上累加，曲线积分在曲线上累加，曲面积分在曲面上累加。三大公式把边界积分与区域积分联系起来， 是考研中最容易综合考察的部分。"
   },
   {
     "id": "doc-73ec94e14160-p2",
@@ -3704,7 +3518,7 @@ window.SEARCH_INDEX = [
     "page": 13,
     "heading": "5. 坐标选择",
     "snippet": "考研数学 · 多元函数积分学 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 适合球、球壳、球锥组合等区域。 5. 坐标选择 坐标系 典型区域 核心面积/体积元 直角坐标 平面、简单曲面围成区域 𝑑𝑉 = 𝑑𝑥 𝑑𝑦 𝑑𝑧 柱坐标 圆柱、圆锥、旋转抛物面 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 球坐标 球、球壳、球冠 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑...",
-    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 5. 坐标选择 考研数学 · 多元函数积分学 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 适合球、球壳、球锥组合等区域。 5. 坐标选择 坐标系 典型区域 核心面积/体积元 直角坐标 平面、简单曲面围成区域 𝑑𝑉 = 𝑑𝑥 𝑑𝑦 𝑑𝑧 柱坐标 圆柱、圆锥、旋转抛物面 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 球坐标 球、球壳、球冠 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 6. 基本性质、对称性与估值 三重积分同样满足线性、区域可加性和保号性。若 Ω = Ω1 ∪ Ω2 ，且两部分内部不重叠，则 ∭ 𝑓 𝑑𝑉 = ∭ 𝑓 𝑑𝑉 + ∭ 𝑓 𝑑𝑉 Ω Ω1 Ω2 若 𝑚 ≤ 𝑓(𝑥, 𝑦, 𝑧) ≤ 𝑀 ，且区域体积为 𝑉Ω = ∭ 1 𝑑𝑉 Ω 则 𝑚𝑉Ω ≤ ∭ 𝑓 𝑑𝑉 ≤ 𝑀 𝑉Ω Ω 若 𝑓 在闭区域 Ω 上连续，则存在 (𝜉, 𝜂, 𝜁) ∈ Ω，使 ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 = 𝑓(𝜉, 𝜂, 𝜁)𝑉Ω Ω 对称性是三重积分的重要简化方法。例如 Ω 关于 𝑦𝑧 平面对称，且 𝑓(−𝑥, 𝑦, 𝑧) = −𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓 𝑑𝑉 = 0 Ω 若 𝑓(−𝑥, 𝑦, 𝑧) = 𝑓(𝑥, 𝑦, 𝑧)，则可取半个区域 Ω+ ： ∭ 𝑓 𝑑𝑉 = 2 ∭ 𝑓 𝑑𝑉 Ω Ω+ 其他关于 𝑥𝑧 平面、𝑥𝑦 平面和原点的对称性同理。 7. 空间区域形心与质心 若 Ω 是均匀空间体，体积为 𝑉Ω ，则形心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧 𝑑𝑉 𝑉Ω Ω 𝑉Ω Ω 𝑉Ω Ω 若空间体密度为 𝜌(𝑥, 𝑦, 𝑧)，则质量为"
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 5. 坐标选择 考研数学 · 多元函数积分学 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 适合球、球壳、球锥组合等区域。 5. 坐标选择 坐标系 典型区域 核心面积/体积元 直角坐标 平面、简单曲面围成区域 𝑑𝑉 = 𝑑𝑥 𝑑𝑦 𝑑𝑧 柱坐标 圆柱、圆锥、旋转抛物面 𝑑𝑉 = 𝑟 𝑑𝑟 𝑑𝜃 𝑑𝑧 球坐标 球、球壳、球冠 𝑑𝑉 = 𝜌2 sin 𝜑 𝑑𝜌 𝑑𝜑 𝑑𝜃 6. 投影、截面与设限模板 三重积分设限的本质是描述空间区域。常见有三种口径： 1. 先一后二：先固定平面投影，再写另一个变量上下界。 2. 投影到其他平面：当 𝑥 或 𝑦 更容易由曲面夹出时，不必总投影到 𝑥𝑦 平面。 3. 截面法：把某个变量固定成常数，先算截面上的二重积分。 若投影到 𝑦𝑧 平面： 𝑥2 (𝑦,𝑧) ∭ 𝑓𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑥 𝑑𝑦 𝑑𝑧 Ω 𝐷𝑦𝑧 𝑥1 (𝑦,𝑧) 若投影到 𝑥𝑧 平面： 𝑦2 (𝑥,𝑧) ∭ 𝑓𝑑𝑉 = ∬ ∫ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑦 𝑑𝑥 𝑑𝑧 Ω 𝐷𝑥𝑧 𝑦1 (𝑥,𝑧) 若采用截面法，固定 𝑧 后截面为 𝐷𝑧 ，则 𝑏 ∭ 𝑓𝑑𝑉 = ∫ [∬ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝐴] 𝑑𝑧 Ω 𝑎 𝐷𝑧 区域类型 设限思路 优先坐标 上下曲面夹区域 先找投影 𝐷，再写下曲面到上曲面 直角坐标或柱坐标 柱面内外区域 先写平面投影，再加 𝑧 的上下界 柱坐标 球面与平面 先判断球冠、球缺或对称区间 球坐标或柱坐标 球面与圆锥 圆锥通常给出固定 𝜑 球坐标 设限检查： 写完积分限后，必须反向读一遍：最内层变量应在固定外层变量后有明确上下界；中间层变量 应落在投影区域内；最外层变量通常是常数区间。若反向读不出原空间区域，积分限大概率有误。 7. 基本性质、对称性与估值 三重积分同样满足线性、区域可加性和保号性。若 Ω = Ω1 ∪ Ω2 ，且两部分内部不重叠，则 ∭ 𝑓 𝑑𝑉 = ∭ 𝑓 𝑑𝑉 + ∭ 𝑓 𝑑𝑉 Ω Ω1 Ω2"
   },
   {
     "id": "doc-73ec94e14160-p14",
@@ -3712,9 +3526,9 @@ window.SEARCH_INDEX = [
     "title": "Multivariable Integral Calculus (多元函数积分学)",
     "category": "微积分",
     "page": 14,
-    "heading": "易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密",
-    "snippet": "考研数学 · 多元函数积分学 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 质心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥𝜌 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦𝜌 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧𝜌 𝑑𝑉 𝑚 Ω 𝑚 Ω 𝑚 Ω 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 度函数，必须使用带 𝜌 的质心公式。",
-    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 考研数学 · 多元函数积分学 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 质心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥𝜌 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦𝜌 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧𝜌 𝑑𝑉 𝑚 Ω 𝑚 Ω 𝑚 Ω 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 度函数，必须使用带 𝜌 的质心公式。"
+    "heading": "8. 空间区域形心与质心",
+    "snippet": "考研数学 · 多元函数积分学 若 𝑚 ≤ 𝑓(𝑥, 𝑦, 𝑧) ≤ 𝑀 ，且区域体积为 𝑉Ω = ∭ 1 𝑑𝑉 Ω 则 𝑚𝑉Ω ≤ ∭ 𝑓 𝑑𝑉 ≤ 𝑀 𝑉Ω Ω 若 𝑓 在闭区域 Ω 上连续，则存在 (𝜉, 𝜂, 𝜁) ∈ Ω，使 ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 = 𝑓(𝜉, 𝜂, 𝜁)𝑉Ω Ω 对称性是三重积分的重要简化方法。例如 Ω...",
+    "text": "Multivariable Integral Calculus (多元函数积分学) Multivariable Integral Calculus 多元函数积分学 微积分 8. 空间区域形心与质心 考研数学 · 多元函数积分学 若 𝑚 ≤ 𝑓(𝑥, 𝑦, 𝑧) ≤ 𝑀 ，且区域体积为 𝑉Ω = ∭ 1 𝑑𝑉 Ω 则 𝑚𝑉Ω ≤ ∭ 𝑓 𝑑𝑉 ≤ 𝑀 𝑉Ω Ω 若 𝑓 在闭区域 Ω 上连续，则存在 (𝜉, 𝜂, 𝜁) ∈ Ω，使 ∭ 𝑓(𝑥, 𝑦, 𝑧) 𝑑𝑉 = 𝑓(𝜉, 𝜂, 𝜁)𝑉Ω Ω 对称性是三重积分的重要简化方法。例如 Ω 关于 𝑦𝑧 平面对称，且 𝑓(−𝑥, 𝑦, 𝑧) = −𝑓(𝑥, 𝑦, 𝑧) 则 ∭ 𝑓 𝑑𝑉 = 0 Ω 若 𝑓(−𝑥, 𝑦, 𝑧) = 𝑓(𝑥, 𝑦, 𝑧)，则可取半个区域 Ω+ ： ∭ 𝑓 𝑑𝑉 = 2 ∭ 𝑓 𝑑𝑉 Ω Ω+ 其他关于 𝑥𝑧 平面、𝑥𝑦 平面和原点的对称性同理。 8. 空间区域形心与质心 若 Ω 是均匀空间体，体积为 𝑉Ω ，则形心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧 𝑑𝑉 𝑉Ω Ω 𝑉Ω Ω 𝑉Ω Ω 若空间体密度为 𝜌(𝑥, 𝑦, 𝑧)，则质量为 𝑚 = ∭ 𝜌(𝑥, 𝑦, 𝑧) 𝑑𝑉 Ω 质心坐标为 1 1 1 𝑥𝑐 = ∭ 𝑥𝜌 𝑑𝑉 , 𝑦𝑐 = ∭ 𝑦𝜌 𝑑𝑉 , 𝑧𝑐 = ∭ 𝑧𝜌 𝑑𝑉 𝑚 Ω 𝑚 Ω 𝑚 Ω 易错点： 形心是均匀密度下的几何中心，质心要考虑密度。若题目没有给密度，通常默认均匀；若给出密 度函数，必须使用带 𝜌 的质心公式。"
   },
   {
     "id": "doc-73ec94e14160-p15",
@@ -5087,213 +4901,273 @@ window.SEARCH_INDEX = [
     "text": "Quadratic Forms (二次型) Quadratic Forms 二次型 线性代数 八、公式速查表 考研数学 · Linear Algebra · Quadratic Forms (二次型) 八、公式速查表 内容 公式或判定 矩阵表示 𝑓 = 𝑥𝑇 𝐴𝑥, 𝐴𝑇 = 𝐴 𝑇 合同变换 𝑥 = 𝐶𝑦, 𝑓 = 𝑦𝑇 (𝐶 𝐴𝐶) 𝑦 标准形 𝑓 = 𝑑1 𝑦12 + … + 𝑑𝑛 𝑦𝑛2 正交标准形 𝑄𝑇 𝐴𝑄 = Λ 秩 标准形中非零系数个数 正定 𝑥𝑇 𝐴𝑥 > 0 (𝑥 ≠ 0) 正定判定 Δ1 > 0, Δ2 > 0, …, Δ𝑛 > 0 负定判定 (−1)𝑘 Δ𝑘 > 0 (𝑘 = 1, …, 𝑛) 最终抓手： 二次型题先写对称矩阵，再决定化标准形方法。正定题优先用顺序主子式或特征值；标准形题 关注正负惯性指数，而不是某一种具体变量替换。"
   },
   {
-    "id": "doc-932e58f16185-p1",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-157b9a897c2c-p1",
+    "docId": "doc-157b9a897c2c",
+    "title": "Random Events and Probability (随机事件与概率)",
     "category": "概率论",
     "page": 1,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 概率论与数理统计 核心知识点、公式与解题框架总结 Generated by Codex · Typst Pipeline 首页速览 𝑃 (𝐴𝐵) • 核心公式：𝑃 (𝐴|𝐵) = 𝑃 (𝐵) ，𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥，𝐷(𝑋) = 𝐸(𝑋 2 ) − 𝐸 2 (𝑋)。 • 关键定理：全概率公式、B...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 概率论与数理统计 核心知识点、公式与解题框架总结 Generated by Codex · Typst Pipeline 首页速览 𝑃 (𝐴𝐵) • 核心公式：𝑃 (𝐴|𝐵) = 𝑃 (𝐵) ，𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥，𝐷(𝑋) = 𝐸(𝑋 2 ) − 𝐸 2 (𝑋)。 • 关键定理：全概率公式、Bayes 公式、独立性判定、大数定律和中心极限定理构成概率题主线。 • 方法抓手：分布题先写清样本空间和区域；二维随机变量用二重积分算概率；函数分布用分布函数法或变量变换法。"
+    "heading": "考研数学 · 概率论 · 随机事件与概率",
+    "snippet": "考研数学 · 概率论 · 随机事件与概率 Random Events and Probability (随机事件与概率) 事件关系 · 条件概率 · 全概率公式 · Bayes 公式 考研数学复习资料 · Typst PDF 首页速览 𝑃 (𝐴∩𝐵) • 核心公式：𝑃 (𝐴|𝐵) = 𝑃 (𝐵) ，𝑃 (𝐴) = ∑𝑖 𝑃 (𝐵𝑖 )𝑃 ...",
+    "text": "Random Events and Probability (随机事件与概率) Random Events and Probability 随机事件与概率 概率论 考研数学 · 概率论 · 随机事件与概率 考研数学 · 概率论 · 随机事件与概率 Random Events and Probability (随机事件与概率) 事件关系 · 条件概率 · 全概率公式 · Bayes 公式 考研数学复习资料 · Typst PDF 首页速览 𝑃 (𝐴∩𝐵) • 核心公式：𝑃 (𝐴|𝐵) = 𝑃 (𝐵) ，𝑃 (𝐴) = ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 )。 • 关键定理：概率公理、加法公式、乘法公式、全概率公式和 Bayes 公式。 • 方法抓手：先定义事件和划分，再判断互斥、独立、条件概率或逆向归因。 复习主线： 事件关系 · 条件概率 · 全概率公式 · Bayes 公式。做题时先识别随机对象、分布条件和 题目目标，再选择概率公式、积分区域、数字特征或统计推断方法。"
   },
   {
-    "id": "doc-932e58f16185-p2",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-157b9a897c2c-p2",
+    "docId": "doc-157b9a897c2c",
+    "title": "Random Events and Probability (随机事件与概率)",
     "category": "概率论",
     "page": 2,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 使用说明 本文面向概率论与数理统计课程复习，重点整理概念、公式、典型题型与易错点。阅读顺序建议为：先掌 握事件与随机变量，再理解分布与数字特征，最后进入参数估计、假设检验和回归分析。 核心主线： 概率论研究随机现象本身，回答“随机变量如何分布、期望和方差是多少”；数理统计基于 样本推断总体，回答“参数如何估...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 使用说明 本文面向概率论与数理统计课程复习，重点整理概念、公式、典型题型与易错点。阅读顺序建议为：先掌 握事件与随机变量，再理解分布与数字特征，最后进入参数估计、假设检验和回归分析。 核心主线： 概率论研究随机现象本身，回答“随机变量如何分布、期望和方差是多少”；数理统计基于 样本推断总体，回答“参数如何估计、假设如何检验、模型是否可靠”。"
+    "heading": "一、随机事件与概率",
+    "snippet": "考研数学 · 概率论 · 随机事件与概率 一、随机事件与概率 事件关系与运算 随机试验的结果集合称为样本空间，记为 Ω；样本空间的子集称为事件。常见事件运算包括并、交、差和补： 𝐴 ∪ 𝐵, 𝐴 ∩ 𝐵, 𝐴 − 𝐵, 𝐴𝑐 若 𝐴 ∩ 𝐵 = ∅，则称 𝐴 与 𝐵 互斥；若 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐴)𝑃 (𝐵)，则称二者相互独立...",
+    "text": "Random Events and Probability (随机事件与概率) Random Events and Probability 随机事件与概率 概率论 一、随机事件与概率 考研数学 · 概率论 · 随机事件与概率 一、随机事件与概率 事件关系与运算 随机试验的结果集合称为样本空间，记为 Ω；样本空间的子集称为事件。常见事件运算包括并、交、差和补： 𝐴 ∪ 𝐵, 𝐴 ∩ 𝐵, 𝐴 − 𝐵, 𝐴𝑐 若 𝐴 ∩ 𝐵 = ∅，则称 𝐴 与 𝐵 互斥；若 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐴)𝑃 (𝐵)，则称二者相互独立。互斥强调事件不能 同时发生，独立强调一个事件的发生不影响另一个事件的概率。 概率公理与常用公式 概率公理： 对任意事件 𝐴，有 0 ≤ 𝑃 (𝐴) ≤ 1，且 𝑃 (Ω) = 1。若事件列 𝐴1 , 𝐴2 , … 两两互斥，则 𝑃 (∪𝑖 𝐴𝑖 ) = ∑ 𝑃 (𝐴𝑖 ) 𝑖 常用公式： 𝑃 (𝐴𝑐 ) = 1 − 𝑃 (𝐴) 𝑃 (𝐴 ∪ 𝐵) = 𝑃 (𝐴) + 𝑃 (𝐵) − 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 − 𝐵) = 𝑃 (𝐴) − 𝑃 (𝐴 ∩ 𝐵) 对三个事件： 𝑃 (𝐴 ∪ 𝐵 ∪ 𝐶) = 𝑃 (𝐴) + 𝑃 (𝐵) + 𝑃 (𝐶) − 𝑃 (𝐴 ∩ 𝐵) − 𝑃 (𝐴 ∩ 𝐶) − 𝑃 (𝐵 ∩ 𝐶) + 𝑃 (𝐴 ∩ 𝐵 ∩ 𝐶) 条件概率、乘法公式与全概率公式 当 𝑃 (𝐵) > 0 时，条件概率定义为： 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 | 𝐵) = 𝑃 (𝐵) 乘法公式： 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐵)𝑃 (𝐴 | 𝐵) = 𝑃 (𝐴)𝑃 (𝐵 | 𝐴) 若 𝐵1 , 𝐵2 , …, 𝐵𝑛 构成样本空间的一个划分，且 𝑃 (𝐵𝑖 ) > 0，则： 𝑛 𝑃 (𝐴) = ∑ 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ) 𝑖=1 贝叶斯公式： 𝑃 (𝐵𝑘 )𝑃 (𝐴 | 𝐵𝑘 ) 𝑃 (𝐵𝑘 | 𝐴) = 𝑛 ∑𝑖=1 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ) 解题抓手：已知“原因到结果”的概率时用全概率公式求结果概率；已知结果后反推原因概率时用贝叶 斯公式。题目中出现“来自某机器、某盒、某人群、某批次”通常提示划分事件。"
   },
   {
-    "id": "doc-932e58f16185-p3",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-157b9a897c2c-p3",
+    "docId": "doc-157b9a897c2c",
+    "title": "Random Events and Probability (随机事件与概率)",
     "category": "概率论",
     "page": 3,
-    "heading": "一、随机事件与概率",
-    "snippet": "概率论与数理统计 · 知识总结 一、随机事件与概率 事件关系与运算 随机试验的结果集合称为样本空间，记为 Ω；样本空间的子集称为事件。常见事件运算包括并、交、差和补： 𝐴 ∪ 𝐵, 𝐴 ∩ 𝐵, 𝐴 − 𝐵, 𝐴𝑐 若 𝐴 ∩ 𝐵 = ∅，则称 𝐴 与 𝐵 互斥；若 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐴)𝑃 (𝐵)，则称二者相互独立。互斥强调...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 一、随机事件与概率 概率论与数理统计 · 知识总结 一、随机事件与概率 事件关系与运算 随机试验的结果集合称为样本空间，记为 Ω；样本空间的子集称为事件。常见事件运算包括并、交、差和补： 𝐴 ∪ 𝐵, 𝐴 ∩ 𝐵, 𝐴 − 𝐵, 𝐴𝑐 若 𝐴 ∩ 𝐵 = ∅，则称 𝐴 与 𝐵 互斥；若 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐴)𝑃 (𝐵)，则称二者相互独立。互斥强调事件不能 同时发生，独立强调一个事件的发生不影响另一个事件的概率。 概率公理与常用公式 概率公理： 对任意事件 𝐴，有 0 ≤ 𝑃 (𝐴) ≤ 1，且 𝑃 (Ω) = 1。若事件列 𝐴1 , 𝐴2 , … 两两互斥，则 𝑃 (∪𝑖 𝐴𝑖 ) = ∑ 𝑃 (𝐴𝑖 ) 𝑖 常用公式： 𝑃 (𝐴𝑐 ) = 1 − 𝑃 (𝐴) 𝑃 (𝐴 ∪ 𝐵) = 𝑃 (𝐴) + 𝑃 (𝐵) − 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 − 𝐵) = 𝑃 (𝐴) − 𝑃 (𝐴 ∩ 𝐵) 对三个事件： 𝑃 (𝐴 ∪ 𝐵 ∪ 𝐶) = 𝑃 (𝐴) + 𝑃 (𝐵) + 𝑃 (𝐶) − 𝑃 (𝐴 ∩ 𝐵) − 𝑃 (𝐴 ∩ 𝐶) − 𝑃 (𝐵 ∩ 𝐶) + 𝑃 (𝐴 ∩ 𝐵 ∩ 𝐶) 条件概率、乘法公式与全概率公式 当 𝑃 (𝐵) > 0 时，条件概率定义为： 𝑃 (𝐴 ∩ 𝐵) 𝑃 (𝐴 | 𝐵) = 𝑃 (𝐵) 乘法公式： 𝑃 (𝐴 ∩ 𝐵) = 𝑃 (𝐵)𝑃 (𝐴 | 𝐵) = 𝑃 (𝐴)𝑃 (𝐵 | 𝐴) 若 𝐵1 , 𝐵2 , …, 𝐵𝑛 构成样本空间的一个划分，且 𝑃 (𝐵𝑖 ) > 0，则： 𝑛 𝑃 (𝐴) = ∑ 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ) 𝑖=1 贝叶斯公式： 𝑃 (𝐵𝑘 )𝑃 (𝐴 | 𝐵𝑘 ) 𝑃 (𝐵𝑘 | 𝐴) = 𝑛 ∑𝑖=1 𝑃 (𝐵𝑖 )𝑃 (𝐴 | 𝐵𝑖 ) 解题抓手：已知“原因到结果”的概率时用全概率公式求结果概率；已知结果后反推原因概率时用贝叶 斯公式。题目中出现“来自某机器、某盒、某人群、某批次”通常提示划分事件。"
+    "heading": "二、概率计算题处理策略",
+    "snippet": "考研数学 · 概率论 · 随机事件与概率 二、概率计算题处理策略 • 先定义事件，避免直接套公式导致事件含义混乱； • 判断是否互斥、独立或条件概率； • 多原因导致同一结果时优先考虑全概率公式； • 结果反推原因时使用贝叶斯公式； • 至少检查最终概率是否落在 [0, 1]。",
+    "text": "Random Events and Probability (随机事件与概率) Random Events and Probability 随机事件与概率 概率论 二、概率计算题处理策略 考研数学 · 概率论 · 随机事件与概率 二、概率计算题处理策略 • 先定义事件，避免直接套公式导致事件含义混乱； • 判断是否互斥、独立或条件概率； • 多原因导致同一结果时优先考虑全概率公式； • 结果反推原因时使用贝叶斯公式； • 至少检查最终概率是否落在 [0, 1]。"
   },
   {
-    "id": "doc-932e58f16185-p4",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-5913a24c9a32-p1",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+    "category": "概率论",
+    "page": 1,
+    "heading": "考研数学 · 概率论 · 一维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 One-Dimensional Random Variables and Distributions (一维随机变量及其分布) 分布函数 · 离散分布 · 连续分布 · 常见分布模型 考研数学复习资料 · Typst PDF 首页速览 𝑏 • 核心公式：𝐹 (𝑥) = 𝑃 (𝑋 ≤ 𝑥)，𝑃...",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 考研数学 · 概率论 · 一维随机变量及其分布 考研数学 · 概率论 · 一维随机变量及其分布 One-Dimensional Random Variables and Distributions (一维随机变量及其分布) 分布函数 · 离散分布 · 连续分布 · 常见分布模型 考研数学复习资料 · Typst PDF 首页速览 𝑏 • 核心公式：𝐹 (𝑥) = 𝑃 (𝑋 ≤ 𝑥)，𝑃 (𝑎 < 𝑋 ≤ 𝑏) = ∫ 𝑓(𝑥)𝑑𝑥。 𝑎 • 关键定理：分布函数右连续；连续型有 𝐹 ′ (𝑥) = 𝑓(𝑥)；连续型单点概率通常为 0。 • 方法抓手：离散型列分布律，连续型先定密度常数，再分区间求分布函数。 复习主线： 分布函数 · 离散分布 · 连续分布 · 常见分布模型。做题时先识别随机对象、分布条件和 题目目标，再选择概率公式、积分区域、数字特征或统计推断方法。"
+  },
+  {
+    "id": "doc-5913a24c9a32-p2",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+    "category": "概率论",
+    "page": 2,
+    "heading": "一、随机变量与分布函数",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 一、随机变量与分布函数 随机变量 随机变量是定义在样本空间上的实值函数，用于把随机结果数量化。按取值特点可分为离散型随机变量与 连续型随机变量。 离散型随机变量用分布律描述： 𝑃 (𝑋 = 𝑥𝑖 ) = 𝑝𝑖 , 𝑝𝑖 ≥ 0, ∑ 𝑝𝑖 = 1 𝑖 连续型随机变量用概率密度函数 𝑓(𝑥) ...",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 一、随机变量与分布函数 考研数学 · 概率论 · 一维随机变量及其分布 一、随机变量与分布函数 随机变量 随机变量是定义在样本空间上的实值函数，用于把随机结果数量化。按取值特点可分为离散型随机变量与 连续型随机变量。 离散型随机变量用分布律描述： 𝑃 (𝑋 = 𝑥𝑖 ) = 𝑝𝑖 , 𝑝𝑖 ≥ 0, ∑ 𝑝𝑖 = 1 𝑖 连续型随机变量用概率密度函数 𝑓(𝑥) 描述： ∞ 𝑓(𝑥) ≥ 0, ∫ 𝑓(𝑥)𝑑𝑥 = 1 −∞ 区间概率为： 𝑏 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = ∫ 𝑓(𝑥)𝑑𝑥 𝑎 分布函数 任意随机变量的分布函数定义为： 𝐹 (𝑥) = 𝑃 (𝑋 ≤ 𝑥) 性质： • 𝐹 (𝑥) 单调不减； • 0 ≤ 𝐹 (𝑥) ≤ 1； • lim𝑥→−∞ 𝐹 (𝑥) = 0，lim𝑥→∞ 𝐹 (𝑥) = 1； • 𝐹 (𝑥) 右连续。 若 𝑋 为连续型随机变量，则 𝐹 ′ (𝑥) = 𝑓(𝑥)，且： 𝑥 𝐹 (𝑥) = ∫ 𝑓(𝑡)𝑑𝑡 −∞ 易错点： 离散型随机变量在单点上可以有正概率；连续型随机变量满足 𝑃 (𝑋 = 𝑎) = 0。因此连续型 变量中 𝑃 (𝑎 < 𝑋 < 𝑏)、𝑃 (𝑎 ≤ 𝑋 < 𝑏)、𝑃 (𝑎 < 𝑋 ≤ 𝑏) 通常相同。"
+  },
+  {
+    "id": "doc-5913a24c9a32-p3",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+    "category": "概率论",
+    "page": 3,
+    "heading": "二、常见离散分布",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 二、常见离散分布 分布 适用场景 分布律 期望与方差 两点分布 一次试验成败 𝑃 (𝑋 = 1) = 𝑝, 𝑃 (𝑋 = 0) = 𝐸(𝑋) = 𝑝, Var(𝑋) = 1−𝑝 𝑝(1 − 𝑝) 二项分布 𝑛 次独立重复试验成功 𝑃 (𝑋 = 𝐸(𝑋) = 𝑛𝑝, Var(𝑋) = 次数 𝑘...",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 二、常见离散分布 考研数学 · 概率论 · 一维随机变量及其分布 二、常见离散分布 分布 适用场景 分布律 期望与方差 两点分布 一次试验成败 𝑃 (𝑋 = 1) = 𝑝, 𝑃 (𝑋 = 0) = 𝐸(𝑋) = 𝑝, Var(𝑋) = 1−𝑝 𝑝(1 − 𝑝) 二项分布 𝑛 次独立重复试验成功 𝑃 (𝑋 = 𝐸(𝑋) = 𝑛𝑝, Var(𝑋) = 次数 𝑘) = 𝐶𝑛𝑘 𝑝𝑘 (1 − 𝑝)𝑛−𝑘 𝑛𝑝(1 − 𝑝) −𝜆 泊松分布 稀有事件计数 𝑃 (𝑋 = 𝑘) = 𝜆𝑘 𝑒𝑘! 𝐸(𝑋) = 𝜆, Var(𝑋) = 𝜆 几何分布 首次成功所需试验次数 𝑃 (𝑋 = 𝑘) = (1 − 𝑝)𝑘−1 𝑝 𝐸(𝑋) = 𝑝1 , Var(𝑋) = 1−𝑝 𝑝2 二项分布写作 𝑋 ~ 𝐵(𝑛, 𝑝)，泊松分布写作 𝑋 ~ 𝑃 (𝜆)。当 𝑛 很大、𝑝 很小且 𝑛𝑝 = 𝜆 适中时，二项分布可 用泊松分布近似： 𝐵(𝑛, 𝑝) ≈ 𝑃 (𝜆), 𝜆 = 𝑛𝑝 判断口诀： 固定次数看成功个数用二项分布；单位时间或区域内的随机次数用泊松分布；问“第一次 成功在第几次”用几何分布。"
+  },
+  {
+    "id": "doc-5913a24c9a32-p4",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
     "category": "概率论",
     "page": 4,
-    "heading": "二、随机变量与分布函数",
-    "snippet": "概率论与数理统计 · 知识总结 二、随机变量与分布函数 随机变量 随机变量是定义在样本空间上的实值函数，用于把随机结果数量化。按取值特点可分为离散型随机变量与 连续型随机变量。 离散型随机变量用分布律描述： 𝑃 (𝑋 = 𝑥𝑖 ) = 𝑝𝑖 , 𝑝𝑖 ≥ 0, ∑ 𝑝𝑖 = 1 𝑖 连续型随机变量用概率密度函数 𝑓(𝑥) 描述： ∞ 𝑓(...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 二、随机变量与分布函数 概率论与数理统计 · 知识总结 二、随机变量与分布函数 随机变量 随机变量是定义在样本空间上的实值函数，用于把随机结果数量化。按取值特点可分为离散型随机变量与 连续型随机变量。 离散型随机变量用分布律描述： 𝑃 (𝑋 = 𝑥𝑖 ) = 𝑝𝑖 , 𝑝𝑖 ≥ 0, ∑ 𝑝𝑖 = 1 𝑖 连续型随机变量用概率密度函数 𝑓(𝑥) 描述： ∞ 𝑓(𝑥) ≥ 0, ∫ 𝑓(𝑥)𝑑𝑥 = 1 −∞ 区间概率为： 𝑏 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = ∫ 𝑓(𝑥)𝑑𝑥 𝑎 分布函数 任意随机变量的分布函数定义为： 𝐹 (𝑥) = 𝑃 (𝑋 ≤ 𝑥) 性质： • 𝐹 (𝑥) 单调不减； • 0 ≤ 𝐹 (𝑥) ≤ 1； • lim𝑥→−∞ 𝐹 (𝑥) = 0，lim𝑥→∞ 𝐹 (𝑥) = 1； • 𝐹 (𝑥) 右连续。 若 𝑋 为连续型随机变量，则 𝐹 ′ (𝑥) = 𝑓(𝑥)，且： 𝑥 𝐹 (𝑥) = ∫ 𝑓(𝑡)𝑑𝑡 −∞ 易错点： 离散型随机变量在单点上可以有正概率；连续型随机变量满足 𝑃 (𝑋 = 𝑎) = 0。因此连续型 变量中 𝑃 (𝑎 < 𝑋 < 𝑏)、𝑃 (𝑎 ≤ 𝑋 < 𝑏)、𝑃 (𝑎 < 𝑋 ≤ 𝑏) 通常相同。"
+    "heading": "三、常见连续分布",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 三、常见连续分布 均匀分布 若 𝑋 ~ 𝑈 (𝑎, 𝑏)，则： 1 𝑓(𝑥) = , 𝑎≤𝑥≤𝑏 𝑏−𝑎 𝑎+𝑏 (𝑏 − 𝑎)2 𝐸(𝑋) = , Var(𝑋) = 2 12 𝑈 (0, 1) 密度为 1 的理解： 若 𝑋 ~ 𝑈 (0, 1)，则 𝑓(𝑥) = 1 表示单位长度上的概率强...",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 三、常见连续分布 考研数学 · 概率论 · 一维随机变量及其分布 三、常见连续分布 均匀分布 若 𝑋 ~ 𝑈 (𝑎, 𝑏)，则： 1 𝑓(𝑥) = , 𝑎≤𝑥≤𝑏 𝑏−𝑎 𝑎+𝑏 (𝑏 − 𝑎)2 𝐸(𝑋) = , Var(𝑋) = 2 12 𝑈 (0, 1) 密度为 1 的理解： 若 𝑋 ~ 𝑈 (0, 1)，则 𝑓(𝑥) = 1 表示单位长度上的概率强度为 1，不是说某 一点的概率等于 1。对任意 0 ≤ 𝑎 < 𝑏 ≤ 1， 𝑏 𝑃 (𝑎 ≤ 𝑋 ≤ 𝑏) = ∫ 1𝑑𝑥 = 𝑏 − 𝑎 𝑎 𝑐 所以区间概率等于区间长度；单点概率仍为 𝑃 (𝑋 = 𝑐) = ∫ 1𝑑𝑥 = 0。 𝑐 密度不等于概率： 概率密度可以等于 1，也可以大于 1，但概率不能大于 1。密度必须在区间、区域 或体积上积分，才得到概率。 概率为 0 的事件和不可能事件 在连续型随机变量中，概率为 0 的事件仍然可能发生；“概率为 0”不等于“不可能”。真正的不可能事件， 是样本空间中根本没有对应结果的事件。 设 𝑋 ~ 𝑈 (0, 1) 则对任意固定点 𝑐 ∈ [0, 1]，有： 𝑐 𝑃 (𝑋 = 𝑐) = ∫ 1𝑑𝑥 = 0 𝑐 但是一次试验发生后，𝑋 总会取到 [0, 1] 中某一个具体值。也就是说，每一个事先指定的单点概率都是 0， 但最终结果仍然落在某一个点上。 若 𝑋 ~ 𝑈 (0, 1)，则： 事件 概率 是否可能 𝑋 = 0.5 0 可能；但概率为 0 𝑋=2 0 不可能；不在取值范围内 0.2 ≤ 𝑋 ≤ 0.5 0.3 可能；区间长度为 0.3 概率为 1 的事件也不一定是逻辑必然，而是“几乎必然”。例如若 𝑋 ~ 𝑈 (0, 1)，则 𝑃 (𝑋 是无理数) = 1"
   },
   {
-    "id": "doc-932e58f16185-p5",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-5913a24c9a32-p5",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
     "category": "概率论",
     "page": 5,
-    "heading": "三、常见离散分布",
-    "snippet": "概率论与数理统计 · 知识总结 三、常见离散分布 分布 适用场景 分布律 期望与方差 两点分布 一次试验成败 𝑃 (𝑋 = 1) = 𝑝, 𝑃 (𝑋 = 0) = 𝐸(𝑋) = 𝑝, Var(𝑋) = 1−𝑝 𝑝(1 − 𝑝) 二项分布 𝑛 次独立重复试验成功 𝑃 (𝑋 = 𝐸(𝑋) = 𝑛𝑝, Var(𝑋) = 次数 𝑘) = 𝐶𝑛𝑘 ...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 三、常见离散分布 概率论与数理统计 · 知识总结 三、常见离散分布 分布 适用场景 分布律 期望与方差 两点分布 一次试验成败 𝑃 (𝑋 = 1) = 𝑝, 𝑃 (𝑋 = 0) = 𝐸(𝑋) = 𝑝, Var(𝑋) = 1−𝑝 𝑝(1 − 𝑝) 二项分布 𝑛 次独立重复试验成功 𝑃 (𝑋 = 𝐸(𝑋) = 𝑛𝑝, Var(𝑋) = 次数 𝑘) = 𝐶𝑛𝑘 𝑝𝑘 (1 − 𝑝)𝑛−𝑘 𝑛𝑝(1 − 𝑝) −𝜆 泊松分布 稀有事件计数 𝑃 (𝑋 = 𝑘) = 𝜆𝑘 𝑒𝑘! 𝐸(𝑋) = 𝜆, Var(𝑋) = 𝜆 几何分布 首次成功所需试验次数 𝑃 (𝑋 = 𝑘) = (1 − 𝑝)𝑘−1 𝑝 𝐸(𝑋) = 𝑝1 , Var(𝑋) = 1−𝑝 𝑝2 二项分布写作 𝑋 ~ 𝐵(𝑛, 𝑝)，泊松分布写作 𝑋 ~ 𝑃 (𝜆)。当 𝑛 很大、𝑝 很小且 𝑛𝑝 = 𝜆 适中时，二项分布可 用泊松分布近似： 𝐵(𝑛, 𝑝) ≈ 𝑃 (𝜆), 𝜆 = 𝑛𝑝 判断口诀： 固定次数看成功个数用二项分布；单位时间或区域内的随机次数用泊松分布；问“第一次 成功在第几次”用几何分布。"
+    "heading": "考研数学 · 概率论 · 一维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 因为有理数是可数集合，在连续均匀分布下总概率为 0。但这不表示 𝑋 取到有理数在逻辑上绝对不可能， 只表示其概率为 0。 一句话总结： 概率为 0 表示这个事件在概率尺度下“没有长度、没有面积或没有体积”，不等于集合 上不存在；连续型分布中，单点事件通常概率为 0，但它仍可能作为一次试验的具...",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 考研数学 · 概率论 · 一维随机变量及其分布 考研数学 · 概率论 · 一维随机变量及其分布 因为有理数是可数集合，在连续均匀分布下总概率为 0。但这不表示 𝑋 取到有理数在逻辑上绝对不可能， 只表示其概率为 0。 一句话总结： 概率为 0 表示这个事件在概率尺度下“没有长度、没有面积或没有体积”，不等于集合 上不存在；连续型分布中，单点事件通常概率为 0，但它仍可能作为一次试验的具体结果出现。 指数分布 若 𝑋 ~ Exp(𝜆)，通常用于描述等待时间： 𝑓(𝑥) = 𝜆𝑒−𝜆𝑥 , 𝑥≥0 𝐹 (𝑥) = 1 − 𝑒−𝜆𝑥 , 𝑥≥0 1 1 𝐸(𝑋) = , Var(𝑋) = 2 𝜆 𝜆 指数分布具有无记忆性： 𝑃 (𝑋 > 𝑠 + 𝑡 | 𝑋 > 𝑠) = 𝑃 (𝑋 > 𝑡) 正态分布 若 𝑋 ~ 𝑁 (𝜇, 𝜎2 )，其密度为： 1 (𝑥−𝜇)2 𝑓(𝑥) = √ 𝑒− 2𝜎2 2𝜋𝜎 标准化： 𝑋−𝜇 𝑍= ~ 𝑁 (0, 1) 𝜎 概率计算通常转化为标准正态分布函数 Φ(𝑥)： 𝑏−𝜇 𝑎−𝜇 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = Φ( ) − Φ( ) 𝜎 𝜎 正态分布经验法则： 约 68% 的数据落在 𝜇 ± 𝜎 内，约 95% 落在 𝜇 ± 2𝜎 内，约 99.7% 落在 𝜇 ± 3𝜎 内。 高斯积分与正态密度归一化 标准正态密度中的系数 √12𝜋 来自高斯积分： +∞ √ 2 ∫ 𝑒−𝑥 𝑑𝑥 = 𝜋 −∞ 令 +∞ 2 𝐼 =∫ 𝑒−𝑥 𝑑𝑥 −∞ 2 因为 𝑒−𝑥 > 0，所以 𝐼 > 0。两边平方："
   },
   {
-    "id": "doc-932e58f16185-p6",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-5913a24c9a32-p6",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
     "category": "概率论",
     "page": 6,
-    "heading": "四、常见连续分布",
-    "snippet": "概率论与数理统计 · 知识总结 四、常见连续分布 均匀分布 若 𝑋 ~ 𝑈 (𝑎, 𝑏)，则： 1 𝑓(𝑥) = , 𝑎≤𝑥≤𝑏 𝑏−𝑎 𝑎+𝑏 (𝑏 − 𝑎)2 𝐸(𝑋) = , Var(𝑋) = 2 12 𝑈 (0, 1) 密度为 1 的理解： 若 𝑋 ~ 𝑈 (0, 1)，则 𝑓(𝑥) = 1 表示单位长度上的概率强度为 1，不是说...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 四、常见连续分布 概率论与数理统计 · 知识总结 四、常见连续分布 均匀分布 若 𝑋 ~ 𝑈 (𝑎, 𝑏)，则： 1 𝑓(𝑥) = , 𝑎≤𝑥≤𝑏 𝑏−𝑎 𝑎+𝑏 (𝑏 − 𝑎)2 𝐸(𝑋) = , Var(𝑋) = 2 12 𝑈 (0, 1) 密度为 1 的理解： 若 𝑋 ~ 𝑈 (0, 1)，则 𝑓(𝑥) = 1 表示单位长度上的概率强度为 1，不是说某 一点的概率等于 1。对任意 0 ≤ 𝑎 < 𝑏 ≤ 1， 𝑏 𝑃 (𝑎 ≤ 𝑋 ≤ 𝑏) = ∫ 1𝑑𝑥 = 𝑏 − 𝑎 𝑎 𝑐 所以区间概率等于区间长度；单点概率仍为 𝑃 (𝑋 = 𝑐) = ∫ 1𝑑𝑥 = 0。 𝑐 密度不等于概率： 概率密度可以等于 1，也可以大于 1，但概率不能大于 1。密度必须在区间、区域 或体积上积分，才得到概率。 概率为 0 的事件和不可能事件 在连续型随机变量中，概率为 0 的事件仍然可能发生；“概率为 0”不等于“不可能”。真正的不可能事件， 是样本空间中根本没有对应结果的事件。 设 𝑋 ~ 𝑈 (0, 1) 则对任意固定点 𝑐 ∈ [0, 1]，有： 𝑐 𝑃 (𝑋 = 𝑐) = ∫ 1𝑑𝑥 = 0 𝑐 但是一次试验发生后，𝑋 总会取到 [0, 1] 中某一个具体值。也就是说，每一个事先指定的单点概率都是 0， 但最终结果仍然落在某一个点上。 若 𝑋 ~ 𝑈 (0, 1)，则： 事件 概率 是否可能 𝑋 = 0.5 0 可能；但概率为 0 𝑋=2 0 不可能；不在取值范围内 0.2 ≤ 𝑋 ≤ 0.5 0.3 可能；区间长度为 0.3 概率为 1 的事件也不一定是逻辑必然，而是“几乎必然”。例如若 𝑋 ~ 𝑈 (0, 1)，则 𝑃 (𝑋 是无理数) = 1"
+    "heading": "考研数学 · 概率论 · 一维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 2 2 𝐼 2 = ∫ ∫ 𝑒−(𝑥 +𝑦 ) 𝑑𝑥𝑑𝑦 ℝ2 改用极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃，有 𝑑𝑥𝑑𝑦 = 𝑟𝑑𝑟𝑑𝜃，整个平面对应 0 ≤ 𝑟 < +∞, 0 ≤ 𝜃 ≤ 2𝜋 于是 2𝜋 +∞ 2 𝐼2 = ∫ ∫ 𝑒−𝑟 𝑟𝑑𝑟𝑑𝜃 0 0 令 𝑢 ...",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 考研数学 · 概率论 · 一维随机变量及其分布 考研数学 · 概率论 · 一维随机变量及其分布 2 2 𝐼 2 = ∫ ∫ 𝑒−(𝑥 +𝑦 ) 𝑑𝑥𝑑𝑦 ℝ2 改用极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃，有 𝑑𝑥𝑑𝑦 = 𝑟𝑑𝑟𝑑𝜃，整个平面对应 0 ≤ 𝑟 < +∞, 0 ≤ 𝜃 ≤ 2𝜋 于是 2𝜋 +∞ 2 𝐼2 = ∫ ∫ 𝑒−𝑟 𝑟𝑑𝑟𝑑𝜃 0 0 令 𝑢 = 𝑟2 ，则 𝑟𝑑𝑟 = 12 𝑑𝑢，所以 +∞ 2 1 +∞ −𝑢 1 ∫ 𝑒−𝑟 𝑟𝑑𝑟 = ∫ 𝑒 𝑑𝑢 = 0 2 0 2 因此 2𝜋 2 1 𝐼 =∫ 𝑑𝜃 = 𝜋 0 2 由于 𝐼 > 0，得到 √ 𝐼= 𝜋 进一步把 𝑡 = √𝑥2 可得 +∞ 𝑥2 √ ∫ 𝑒− 2 𝑑𝑥 = 2𝜋 −∞ 所以标准正态密度 1 𝑥2 𝜑(𝑥) = √ 𝑒− 2 2𝜋 的全实轴积分正好为 1。"
   },
   {
-    "id": "doc-932e58f16185-p7",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-5913a24c9a32-p7",
+    "docId": "doc-5913a24c9a32",
+    "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
     "category": "概率论",
     "page": 7,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 因为有理数是可数集合，在连续均匀分布下总概率为 0。但这不表示 𝑋 取到有理数在逻辑上绝对不可能， 只表示其概率为 0。 一句话总结： 概率为 0 表示这个事件在概率尺度下“没有长度、没有面积或没有体积”，不等于集合 上不存在；连续型分布中，单点事件通常概率为 0，但它仍可能作为一次试验的具体结果出现。 指...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 因为有理数是可数集合，在连续均匀分布下总概率为 0。但这不表示 𝑋 取到有理数在逻辑上绝对不可能， 只表示其概率为 0。 一句话总结： 概率为 0 表示这个事件在概率尺度下“没有长度、没有面积或没有体积”，不等于集合 上不存在；连续型分布中，单点事件通常概率为 0，但它仍可能作为一次试验的具体结果出现。 指数分布 若 𝑋 ~ Exp(𝜆)，通常用于描述等待时间： 𝑓(𝑥) = 𝜆𝑒−𝜆𝑥 , 𝑥≥0 𝐹 (𝑥) = 1 − 𝑒−𝜆𝑥 , 𝑥≥0 1 1 𝐸(𝑋) = , Var(𝑋) = 2 𝜆 𝜆 指数分布具有无记忆性： 𝑃 (𝑋 > 𝑠 + 𝑡 | 𝑋 > 𝑠) = 𝑃 (𝑋 > 𝑡) 正态分布 若 𝑋 ~ 𝑁 (𝜇, 𝜎2 )，其密度为： 1 (𝑥−𝜇)2 𝑓(𝑥) = √ 𝑒− 2𝜎2 2𝜋𝜎 标准化： 𝑋−𝜇 𝑍= ~ 𝑁 (0, 1) 𝜎 概率计算通常转化为标准正态分布函数 Φ(𝑥)： 𝑏−𝜇 𝑎−𝜇 𝑃 (𝑎 < 𝑋 ≤ 𝑏) = Φ( ) − Φ( ) 𝜎 𝜎 正态分布经验法则： 约 68% 的数据落在 𝜇 ± 𝜎 内，约 95% 落在 𝜇 ± 2𝜎 内，约 99.7% 落在 𝜇 ± 3𝜎 内。 高斯积分与正态密度归一化 标准正态密度中的系数 √12𝜋 来自高斯积分： +∞ √ 2 ∫ 𝑒−𝑥 𝑑𝑥 = 𝜋 −∞ 令 +∞ 2 𝐼 =∫ 𝑒−𝑥 𝑑𝑥 −∞ 2 因为 𝑒−𝑥 > 0，所以 𝐼 > 0。两边平方："
+    "heading": "四、一维分布题处理策略",
+    "snippet": "考研数学 · 概率论 · 一维随机变量及其分布 四、一维分布题处理策略 • 明确随机变量的取值范围； • 离散型写出所有可能取值及概率； • 连续型先确定密度常数，再积分求概率； • 求分布函数时分区间讨论； • 求函数分布时注意单调变换、反函数和取值范围。",
+    "text": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布) One-Dimensional Random Variables and Distributions 一维随机变量及其分布 概率论 四、一维分布题处理策略 考研数学 · 概率论 · 一维随机变量及其分布 四、一维分布题处理策略 • 明确随机变量的取值范围； • 离散型写出所有可能取值及概率； • 连续型先确定密度常数，再积分求概率； • 求分布函数时分区间讨论； • 求函数分布时注意单调变换、反函数和取值范围。"
   },
   {
-    "id": "doc-932e58f16185-p8",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-4f2d664a2807-p1",
+    "docId": "doc-4f2d664a2807",
+    "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
     "category": "概率论",
-    "page": 8,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 2 2 𝐼 2 = ∫ ∫ 𝑒−(𝑥 +𝑦 ) 𝑑𝑥𝑑𝑦 ℝ2 改用极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃，有 𝑑𝑥𝑑𝑦 = 𝑟𝑑𝑟𝑑𝜃，整个平面对应 0 ≤ 𝑟 < +∞, 0 ≤ 𝜃 ≤ 2𝜋 于是 2𝜋 +∞ 2 𝐼2 = ∫ ∫ 𝑒−𝑟 𝑟𝑑𝑟𝑑𝜃 0 0 令 𝑢 = 𝑟2 ，则 ...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 2 2 𝐼 2 = ∫ ∫ 𝑒−(𝑥 +𝑦 ) 𝑑𝑥𝑑𝑦 ℝ2 改用极坐标 𝑥 = 𝑟 cos 𝜃, 𝑦 = 𝑟 sin 𝜃，有 𝑑𝑥𝑑𝑦 = 𝑟𝑑𝑟𝑑𝜃，整个平面对应 0 ≤ 𝑟 < +∞, 0 ≤ 𝜃 ≤ 2𝜋 于是 2𝜋 +∞ 2 𝐼2 = ∫ ∫ 𝑒−𝑟 𝑟𝑑𝑟𝑑𝜃 0 0 令 𝑢 = 𝑟2 ，则 𝑟𝑑𝑟 = 12 𝑑𝑢，所以 +∞ 2 1 +∞ −𝑢 1 ∫ 𝑒−𝑟 𝑟𝑑𝑟 = ∫ 𝑒 𝑑𝑢 = 0 2 0 2 因此 2𝜋 2 1 𝐼 =∫ 𝑑𝜃 = 𝜋 0 2 由于 𝐼 > 0，得到 √ 𝐼= 𝜋 进一步把 𝑡 = √𝑥2 可得 +∞ 𝑥2 √ ∫ 𝑒− 2 𝑑𝑥 = 2𝜋 −∞ 所以标准正态密度 1 𝑥2 𝜑(𝑥) = √ 𝑒− 2 2𝜋 的全实轴积分正好为 1。"
+    "page": 1,
+    "heading": "考研数学 · 概率论 · 多维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 多维随机变量及其分布 Multidimensional Random Variables and Distributions (多维随机变量及其分布) 联合分布 · 边缘分布 · 独立性 · 组合随机变量 考研数学复习资料 · Typst PDF 首页速览 • 核心公式：𝑃 ((𝑋, 𝑌 ) ∈ 𝐷) = ∫ ∫...",
+    "text": "Multidimensional Random Variables and Distributions (多维随机变量及其分布) Multidimensional Random Variables and Distributions 多维随机变量及其分布 概率论 考研数学 · 概率论 · 多维随机变量及其分布 考研数学 · 概率论 · 多维随机变量及其分布 Multidimensional Random Variables and Distributions (多维随机变量及其分布) 联合分布 · 边缘分布 · 独立性 · 组合随机变量 考研数学复习资料 · Typst PDF 首页速览 • 核心公式：𝑃 ((𝑋, 𝑌 ) ∈ 𝐷) = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 ，𝑓𝑋(𝑥) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 。 𝐷 • 关键定理：独立性要求 𝐹 (𝑥, 𝑦) = 𝐹𝑋(𝑥) 𝐹𝑌 (𝑦) ；连续型常用联合密度乘积分解判定。 • 方法抓手：把条件翻译成区域；组合变量优先用分布函数法，卷积公式只在条件适合时使用。 复习主线： 联合分布 · 边缘分布 · 独立性 · 组合随机变量。做题时先识别随机对象、分布条件和题 目目标，再选择概率公式、积分区域、数字特征或统计推断方法。"
   },
   {
-    "id": "doc-932e58f16185-p9",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-4f2d664a2807-p2",
+    "docId": "doc-4f2d664a2807",
+    "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
     "category": "概率论",
-    "page": 9,
-    "heading": "五、多维随机变量",
-    "snippet": "概率论与数理统计 · 知识总结 五、多维随机变量 联合分布与边缘分布 二维离散型随机变量通过联合分布律 𝑃 (𝑋 = 𝑥𝑖 , 𝑌 = 𝑦𝑗 ) = 𝑝𝑖𝑗 描述；边缘分布通过求和得到： 𝑃 (𝑋 = 𝑥𝑖 ) = ∑ 𝑝𝑖𝑗 , 𝑃 (𝑌 = 𝑦𝑗 ) = ∑ 𝑝𝑖𝑗 𝑗 𝑖 二维连续型随机变量通过联合密度 𝑓(𝑥, 𝑦) 描述： 𝑃 ...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 五、多维随机变量 概率论与数理统计 · 知识总结 五、多维随机变量 联合分布与边缘分布 二维离散型随机变量通过联合分布律 𝑃 (𝑋 = 𝑥𝑖 , 𝑌 = 𝑦𝑗 ) = 𝑝𝑖𝑗 描述；边缘分布通过求和得到： 𝑃 (𝑋 = 𝑥𝑖 ) = ∑ 𝑝𝑖𝑗 , 𝑃 (𝑌 = 𝑦𝑗 ) = ∑ 𝑝𝑖𝑗 𝑗 𝑖 二维连续型随机变量通过联合密度 𝑓(𝑥, 𝑦) 描述： 𝑃 ((𝑋, 𝑌 ) ∈ 𝐷) = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷 二重积分视角： 可以把二维连续型随机变量理解成把概率铺在平面上。联合密度 𝑓(𝑥, 𝑦) 是概率密度 曲面，事件区域 𝐷 上方的“体积” ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷 就是事件概率。 联合分布函数定义为： 𝐹 (𝑥, 𝑦) = 𝑃 (𝑋 ≤ 𝑥, 𝑌 ≤ 𝑦) 若存在联合密度，则： 𝑥 𝑦 𝐹 (𝑥, 𝑦) = ∫ ∫ 𝑓(𝑢, 𝑣)𝑑𝑣𝑑𝑢 −∞ −∞ 在可偏导且条件满足时： 𝜕 2 𝐹 (𝑥, 𝑦) 𝑓(𝑥, 𝑦) = 𝜕𝑥𝜕𝑦 边缘密度： ∞ 𝑓𝑋(𝑥) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 −∞ ∞ 𝑓𝑌 (𝑦) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 −∞ 独立性 若对所有 𝑥, 𝑦，有： 𝐹 (𝑥, 𝑦) = 𝐹𝑋(𝑥) 𝐹𝑌 (𝑦) 则 𝑋 与 𝑌 相互独立。对连续型变量，常用密度判断： 𝑓(𝑥, 𝑦) = 𝑓𝑋(𝑥) 𝑓𝑌 (𝑦)"
+    "page": 2,
+    "heading": "一、多维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 多维随机变量及其分布 一、多维随机变量及其分布 联合分布与边缘分布 二维离散型随机变量通过联合分布律 𝑃 (𝑋 = 𝑥𝑖 , 𝑌 = 𝑦𝑗 ) = 𝑝𝑖𝑗 描述；边缘分布通过求和得到： 𝑃 (𝑋 = 𝑥𝑖 ) = ∑ 𝑝𝑖𝑗 , 𝑃 (𝑌 = 𝑦𝑗 ) = ∑ 𝑝𝑖𝑗 𝑗 𝑖 二维连续型随机变量通过联合密度 𝑓(...",
+    "text": "Multidimensional Random Variables and Distributions (多维随机变量及其分布) Multidimensional Random Variables and Distributions 多维随机变量及其分布 概率论 一、多维随机变量及其分布 考研数学 · 概率论 · 多维随机变量及其分布 一、多维随机变量及其分布 联合分布与边缘分布 二维离散型随机变量通过联合分布律 𝑃 (𝑋 = 𝑥𝑖 , 𝑌 = 𝑦𝑗 ) = 𝑝𝑖𝑗 描述；边缘分布通过求和得到： 𝑃 (𝑋 = 𝑥𝑖 ) = ∑ 𝑝𝑖𝑗 , 𝑃 (𝑌 = 𝑦𝑗 ) = ∑ 𝑝𝑖𝑗 𝑗 𝑖 二维连续型随机变量通过联合密度 𝑓(𝑥, 𝑦) 描述： 𝑃 ((𝑋, 𝑌 ) ∈ 𝐷) = ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷 二重积分视角： 可以把二维连续型随机变量理解成把概率铺在平面上。联合密度 𝑓(𝑥, 𝑦) 是概率密度 曲面，事件区域 𝐷 上方的“体积” ∫ ∫ 𝑓(𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷 就是事件概率。 联合分布函数定义为： 𝐹 (𝑥, 𝑦) = 𝑃 (𝑋 ≤ 𝑥, 𝑌 ≤ 𝑦) 若存在联合密度，则： 𝑥 𝑦 𝐹 (𝑥, 𝑦) = ∫ ∫ 𝑓(𝑢, 𝑣)𝑑𝑣𝑑𝑢 −∞ −∞ 在可偏导且条件满足时： 𝜕 2 𝐹 (𝑥, 𝑦) 𝑓(𝑥, 𝑦) = 𝜕𝑥𝜕𝑦 边缘密度： ∞ 𝑓𝑋(𝑥) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑦 −∞ ∞ 𝑓𝑌 (𝑦) = ∫ 𝑓(𝑥, 𝑦)𝑑𝑥 −∞ 独立性 若对所有 𝑥, 𝑦，有： 𝐹 (𝑥, 𝑦) = 𝐹𝑋(𝑥) 𝐹𝑌 (𝑦) 则 𝑋 与 𝑌 相互独立。对连续型变量，常用密度判断： 𝑓(𝑥, 𝑦) = 𝑓𝑋(𝑥) 𝑓𝑌 (𝑦)"
   },
   {
-    "id": "doc-932e58f16185-p10",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-4f2d664a2807-p3",
+    "docId": "doc-4f2d664a2807",
+    "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
     "category": "概率论",
-    "page": 10,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 判断提醒： 联合密度能分解成两个单变量函数只是必要线索，还要注意定义域是否也能分解为两个单 变量区间的笛卡尔积。 组合随机变量的密度 设二维随机变量为 (𝑋, 𝑌 )，联合密度为 𝑓𝑋,𝑌 (𝑥, 𝑦)，新随机变量 𝑍 = 𝑔(𝑋, 𝑌 ) 求 𝑍 的密度时，最通用的方法是分布函数法。先求 𝐹𝑍(𝑧) = ...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 判断提醒： 联合密度能分解成两个单变量函数只是必要线索，还要注意定义域是否也能分解为两个单 变量区间的笛卡尔积。 组合随机变量的密度 设二维随机变量为 (𝑋, 𝑌 )，联合密度为 𝑓𝑋,𝑌 (𝑥, 𝑦)，新随机变量 𝑍 = 𝑔(𝑋, 𝑌 ) 求 𝑍 的密度时，最通用的方法是分布函数法。先求 𝐹𝑍(𝑧) = 𝑃 (𝑍 ≤ 𝑧) = 𝑃 (𝑔(𝑋, 𝑌 ) ≤ 𝑧) 把事件 𝑔(𝑋, 𝑌 ) ≤ 𝑧 翻译成平面区域 𝐷𝑧 ，则 𝐹𝑍(𝑧) = ∫ ∫ 𝑓𝑋,𝑌 (𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷𝑧 最后对 𝑧 求导： 𝑓𝑍(𝑧) = 𝐹𝑍 ′ (𝑧) 常见组合公式如下。 若 𝑍 = 𝑋 + 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, 𝑧 − 𝑥)𝑑𝑥 −∞ 若 𝑋, 𝑌 独立，则卷积公式为： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑧−𝑥) 𝑑𝑥 −∞ 若 𝑍 = 𝑋 − 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, 𝑥 − 𝑧)𝑑𝑥 −∞ 若 𝑋, 𝑌 独立，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑥−𝑧) 𝑑𝑥 −∞ 若 𝑍 = 𝑋𝑌 ，则： +∞ 𝑧 1 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, ) 𝑑𝑥 (𝑥 ≠ 0) −∞ 𝑥 |𝑥| 若𝑍=𝑋 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑧𝑦, 𝑦)|𝑦|𝑑𝑦 (𝑦 ≠ 0) −∞"
+    "page": 3,
+    "heading": "考研数学 · 概率论 · 多维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 多维随机变量及其分布 判断提醒： 联合密度能分解成两个单变量函数只是必要线索，还要注意定义域是否也能分解为两个单 变量区间的笛卡尔积。 组合随机变量的密度 设二维随机变量为 (𝑋, 𝑌 )，联合密度为 𝑓𝑋,𝑌 (𝑥, 𝑦)，新随机变量 𝑍 = 𝑔(𝑋, 𝑌 ) 求 𝑍 的密度时，最通用的方法是分布函数法。先求 ...",
+    "text": "Multidimensional Random Variables and Distributions (多维随机变量及其分布) Multidimensional Random Variables and Distributions 多维随机变量及其分布 概率论 考研数学 · 概率论 · 多维随机变量及其分布 考研数学 · 概率论 · 多维随机变量及其分布 判断提醒： 联合密度能分解成两个单变量函数只是必要线索，还要注意定义域是否也能分解为两个单 变量区间的笛卡尔积。 组合随机变量的密度 设二维随机变量为 (𝑋, 𝑌 )，联合密度为 𝑓𝑋,𝑌 (𝑥, 𝑦)，新随机变量 𝑍 = 𝑔(𝑋, 𝑌 ) 求 𝑍 的密度时，最通用的方法是分布函数法。先求 𝐹𝑍(𝑧) = 𝑃 (𝑍 ≤ 𝑧) = 𝑃 (𝑔(𝑋, 𝑌 ) ≤ 𝑧) 把事件 𝑔(𝑋, 𝑌 ) ≤ 𝑧 翻译成平面区域 𝐷𝑧 ，则 𝐹𝑍(𝑧) = ∫ ∫ 𝑓𝑋,𝑌 (𝑥, 𝑦)𝑑𝑥𝑑𝑦 𝐷𝑧 最后对 𝑧 求导： 𝑓𝑍(𝑧) = 𝐹𝑍 ′ (𝑧) 常见组合公式如下。 若 𝑍 = 𝑋 + 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, 𝑧 − 𝑥)𝑑𝑥 −∞ 若 𝑋, 𝑌 独立，则卷积公式为： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑧−𝑥) 𝑑𝑥 −∞ 若 𝑍 = 𝑋 − 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, 𝑥 − 𝑧)𝑑𝑥 −∞ 若 𝑋, 𝑌 独立，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋(𝑥) 𝑓𝑌 (𝑥−𝑧) 𝑑𝑥 −∞ 若 𝑍 = 𝑋𝑌 ，则： +∞ 𝑧 1 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑥, ) 𝑑𝑥 (𝑥 ≠ 0) −∞ 𝑥 |𝑥| 若𝑍=𝑋 𝑌 ，则： +∞ 𝑓𝑍(𝑧) = ∫ 𝑓𝑋,𝑌 (𝑧𝑦, 𝑦)|𝑦|𝑑𝑦 (𝑦 ≠ 0) −∞"
   },
   {
-    "id": "doc-932e58f16185-p11",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-4f2d664a2807-p4",
+    "docId": "doc-4f2d664a2807",
+    "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
     "category": "概率论",
-    "page": 11,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 取值范围检查： 不要只背公式而忽略定义域。组合变量密度公式中的积分上下限，要和原联合密度的 非零区域联立，否则容易把不可能的点也积分进去。",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 取值范围检查： 不要只背公式而忽略定义域。组合变量密度公式中的积分上下限，要和原联合密度的 非零区域联立，否则容易把不可能的点也积分进去。"
+    "page": 4,
+    "heading": "考研数学 · 概率论 · 多维随机变量及其分布",
+    "snippet": "考研数学 · 概率论 · 多维随机变量及其分布 取值范围检查： 不要只背公式而忽略定义域。组合变量密度公式中的积分上下限，要和原联合密度的 非零区域联立，否则容易把不可能的点也积分进去。",
+    "text": "Multidimensional Random Variables and Distributions (多维随机变量及其分布) Multidimensional Random Variables and Distributions 多维随机变量及其分布 概率论 考研数学 · 概率论 · 多维随机变量及其分布 考研数学 · 概率论 · 多维随机变量及其分布 取值范围检查： 不要只背公式而忽略定义域。组合变量密度公式中的积分上下限，要和原联合密度的 非零区域联立，否则容易把不可能的点也积分进去。"
   },
   {
-    "id": "doc-932e58f16185-p12",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-4f2d664a2807-p5",
+    "docId": "doc-4f2d664a2807",
+    "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
     "category": "概率论",
-    "page": 12,
-    "heading": "六、数字特征",
-    "snippet": "概率论与数理统计 · 知识总结 六、数字特征 期望 离散型： 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 𝑖 连续型： ∞ 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 −∞ 函数的期望： 𝐸(𝑔(𝑋)) = ∑ 𝑔(𝑥𝑖 )𝑝𝑖 𝑖 ∞ 𝐸(𝑔(𝑋)) = ∫ 𝑔(𝑥)𝑓(𝑥)𝑑𝑥 −∞ 线性性质： 𝐸(𝑎𝑋 + 𝑏𝑌 + 𝑐) = 𝑎𝐸(𝑋) + 𝑏𝐸(𝑌 )...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 六、数字特征 概率论与数理统计 · 知识总结 六、数字特征 期望 离散型： 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 𝑖 连续型： ∞ 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 −∞ 函数的期望： 𝐸(𝑔(𝑋)) = ∑ 𝑔(𝑥𝑖 )𝑝𝑖 𝑖 ∞ 𝐸(𝑔(𝑋)) = ∫ 𝑔(𝑥)𝑓(𝑥)𝑑𝑥 −∞ 线性性质： 𝐸(𝑎𝑋 + 𝑏𝑌 + 𝑐) = 𝑎𝐸(𝑋) + 𝑏𝐸(𝑌 ) + 𝑐 方差、协方差与相关系数 方差： Var(𝑋) = 𝐸[(𝑋 − 𝐸(𝑋))2 ] = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 常数变换： Var(𝑎𝑋 + 𝑏) = 𝑎2 Var(𝑋) 协方差： Cov(𝑋, 𝑌 ) = 𝐸[(𝑋 − 𝐸(𝑋))(𝑌 − 𝐸(𝑌 ))] = 𝐸(𝑋𝑌 ) − 𝐸(𝑋)𝐸(𝑌 ) 相关系数： Cov(𝑋, 𝑌 ) 𝜌𝑋𝑌 = √Var(𝑋)√Var(𝑌 ) 若 𝑋, 𝑌 独立，则 𝐸(𝑋𝑌 ) = 𝐸(𝑋)𝐸(𝑌 )，且 Cov(𝑋, 𝑌 ) = 0。反过来，协方差为 0 一般不一定推出独立， 正态分布等特殊情形除外。 计算优先级： 求方差时优先使用 Var(𝑋) = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 ；求线性组合方差时注意协方差项： Var(𝑎𝑋 + 𝑏𝑌 ) = 𝑎2 Var(𝑋) + 𝑏2 Var(𝑌 ) + 2𝑎𝑏 Cov(𝑋, 𝑌 )"
+    "page": 5,
+    "heading": "二、多维分布题处理策略",
+    "snippet": "考研数学 · 概率论 · 多维随机变量及其分布 二、多维分布题处理策略 • 先把事件条件翻译成平面区域或空间区域； • 连续型二维分布先确认联合密度的非零定义域； • 求边缘密度时只对另一个变量积分，并同步更新积分限； • 判断独立性时同时检查密度分解和定义域是否能分解； • 求组合变量密度时优先用分布函数法，再根据单调性或卷积公式化简。",
+    "text": "Multidimensional Random Variables and Distributions (多维随机变量及其分布) Multidimensional Random Variables and Distributions 多维随机变量及其分布 概率论 二、多维分布题处理策略 考研数学 · 概率论 · 多维随机变量及其分布 二、多维分布题处理策略 • 先把事件条件翻译成平面区域或空间区域； • 连续型二维分布先确认联合密度的非零定义域； • 求边缘密度时只对另一个变量积分，并同步更新积分限； • 判断独立性时同时检查密度分解和定义域是否能分解； • 求组合变量密度时优先用分布函数法，再根据单调性或卷积公式化简。"
   },
   {
-    "id": "doc-932e58f16185-p13",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-795d51900278-p1",
+    "docId": "doc-795d51900278",
+    "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
     "category": "概率论",
-    "page": 13,
-    "heading": "七、大数定律与中心极限定理",
-    "snippet": "概率论与数理统计 · 知识总结 七、大数定律与中心极限定理 大数定律 大数定律说明样本均值会稳定到总体期望附近。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，且 𝐸(𝑋𝑖 ) = 𝜇，则样本均值： 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 在概率意义下趋近于 𝜇： |(𝑋) → 𝜇 中心极限定理 若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 七、大数定律与中心极限定理 概率论与数理统计 · 知识总结 七、大数定律与中心极限定理 大数定律 大数定律说明样本均值会稳定到总体期望附近。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，且 𝐸(𝑋𝑖 ) = 𝜇，则样本均值： 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 在概率意义下趋近于 𝜇： |(𝑋) → 𝜇 中心极限定理 若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，𝐸(𝑋𝑖 ) = 𝜇，Var(𝑋𝑖 ) = 𝜎2 ，则当 𝑛 较大时： ∑𝑛𝑖=1 𝑋𝑖 − 𝑛𝜇 √ ≈ 𝑁 (0, 1) 𝜎 𝑛 或： |(𝑋) − 𝜇 ≈ 𝑁 (0, 1) √𝜎 𝑛 核心意义：即使总体分布不是正态分布，只要样本量足够大，样本均值的分布通常可近似为正态分布。 这是置信区间和大样本检验的基础。 极限定理的计算口径 大数定律说明“样本平均数会稳定到总体均值”。若 𝑋1 + 𝑋2 + … + 𝑋𝑛 𝐴𝑛 = 𝑛 则对任意 𝜀 > 0， 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) → 0 (𝑛 → ∞) 若进一步有 Var(𝑋𝑖 ) = 𝜎2 < +∞，则 𝜎2 𝐸(𝐴𝑛 ) = 𝜇, Var(𝐴𝑛 ) = 𝑛 由切比雪夫不等式： 𝜎2 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) ≤ →0 𝑛𝜀2 中心极限定理说明“样本和或样本平均数的随机波动，标准化以后近似服从正态分布”。记 𝑆𝑛 = 𝑋1 + … + 𝑋𝑛 ，则 𝑆𝑛 − 𝑛𝜇 𝑍𝑛 = √ ≈ 𝑁 (0, 1) 𝜎 𝑛"
+    "page": 1,
+    "heading": "考研数学 · 概率论 · 随机变量的数字特征",
+    "snippet": "考研数学 · 概率论 · 随机变量的数字特征 Numerical Characteristics of Random Variables (随机变量的数字特征) 期望 · 方差 · 协方差 · 相关系数 考研数学复习资料 · Typst PDF 首页速览 • 核心公式：𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 或 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥，𝐷...",
+    "text": "Numerical Characteristics of Random Variables (随机变量的数字特征) Numerical Characteristics of Random Variables 随机变量的数字特征 概率论 考研数学 · 概率论 · 随机变量的数字特征 考研数学 · 概率论 · 随机变量的数字特征 Numerical Characteristics of Random Variables (随机变量的数字特征) 期望 · 方差 · 协方差 · 相关系数 考研数学复习资料 · Typst PDF 首页速览 • 核心公式：𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 或 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥，𝐷(𝑋) = 𝐸(𝑋 2 ) − 𝐸 2 (𝑋)。 𝑖 • 关键定理：期望线性；独立时 𝐸(𝑋𝑌 ) = 𝐸(𝑋)𝐸(𝑌 )；独立推出协方差为 0。 • 方法抓手：先算期望和二阶矩，再算方差；线性组合方差不要漏掉协方差项。 复习主线： 期望 · 方差 · 协方差 · 相关系数。做题时先识别随机对象、分布条件和题目目标，再选 择概率公式、积分区域、数字特征或统计推断方法。"
   },
   {
-    "id": "doc-932e58f16185-p14",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-795d51900278-p2",
+    "docId": "doc-795d51900278",
+    "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
     "category": "概率论",
-    "page": 14,
-    "heading": "概率论与数理统计 · 知识总结",
-    "snippet": "概率论与数理统计 · 知识总结 若 𝑋𝑖 是伯努利变量，𝑃 (𝑋𝑖 = 1) = 𝑝，则 𝑆𝑛 表示 𝑛 次试验中的成功次数： 𝑆𝑛 − 𝑛𝑝 ≈ 𝑁 (0, 1) √𝑛𝑝(1 − 𝑝) 因此可用标准正态分布近似二项分布： 𝑏 − 𝑛𝑝 𝑎 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 概率论与数理统计 · 知识总结 概率论与数理统计 · 知识总结 若 𝑋𝑖 是伯努利变量，𝑃 (𝑋𝑖 = 1) = 𝑝，则 𝑆𝑛 表示 𝑛 次试验中的成功次数： 𝑆𝑛 − 𝑛𝑝 ≈ 𝑁 (0, 1) √𝑛𝑝(1 − 𝑝) 因此可用标准正态分布近似二项分布： 𝑏 − 𝑛𝑝 𝑎 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(1 − 𝑝) 更精细时可作连续性校正： 𝑏 + 0.5 − 𝑛𝑝 𝑎 − 0.5 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(1 − 𝑝) 对比项 大数定律 中心极限定理 研究对象 样本平均数是否稳定 样本和或样本平均数的波动分布 核心结论 𝐴𝑛 靠近 𝜇 的概率趋于 1 标准化后近似 𝑁 (0, 1) 关键词 稳定、收敛、频率趋于概率 近似正态、标准化、区间概率 常见用途 说明估计量稳定 近似计算大样本概率 概念区分： 大数定律不说样本平均数必然等于总体均值，而是说概率意义下趋近。中心极限定理也不 是说原随机变量服从正态分布，而是说样本和或样本均值标准化后近似正态。"
+    "page": 2,
+    "heading": "一、随机变量的数字特征",
+    "snippet": "考研数学 · 概率论 · 随机变量的数字特征 一、随机变量的数字特征 期望 离散型： 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 𝑖 连续型： ∞ 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 −∞ 函数的期望： 𝐸(𝑔(𝑋)) = ∑ 𝑔(𝑥𝑖 )𝑝𝑖 𝑖 ∞ 𝐸(𝑔(𝑋)) = ∫ 𝑔(𝑥)𝑓(𝑥)𝑑𝑥 −∞ 线性性质： 𝐸(𝑎𝑋 + 𝑏𝑌 + 𝑐) = 𝑎𝐸...",
+    "text": "Numerical Characteristics of Random Variables (随机变量的数字特征) Numerical Characteristics of Random Variables 随机变量的数字特征 概率论 一、随机变量的数字特征 考研数学 · 概率论 · 随机变量的数字特征 一、随机变量的数字特征 期望 离散型： 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 𝑖 连续型： ∞ 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 −∞ 函数的期望： 𝐸(𝑔(𝑋)) = ∑ 𝑔(𝑥𝑖 )𝑝𝑖 𝑖 ∞ 𝐸(𝑔(𝑋)) = ∫ 𝑔(𝑥)𝑓(𝑥)𝑑𝑥 −∞ 线性性质： 𝐸(𝑎𝑋 + 𝑏𝑌 + 𝑐) = 𝑎𝐸(𝑋) + 𝑏𝐸(𝑌 ) + 𝑐 方差、协方差与相关系数 方差： Var(𝑋) = 𝐸[(𝑋 − 𝐸(𝑋))2 ] = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 常数变换： Var(𝑎𝑋 + 𝑏) = 𝑎2 Var(𝑋) 协方差： Cov(𝑋, 𝑌 ) = 𝐸[(𝑋 − 𝐸(𝑋))(𝑌 − 𝐸(𝑌 ))] = 𝐸(𝑋𝑌 ) − 𝐸(𝑋)𝐸(𝑌 ) 相关系数： Cov(𝑋, 𝑌 ) 𝜌𝑋𝑌 = √Var(𝑋)√Var(𝑌 ) 若 𝑋, 𝑌 独立，则 𝐸(𝑋𝑌 ) = 𝐸(𝑋)𝐸(𝑌 )，且 Cov(𝑋, 𝑌 ) = 0。反过来，协方差为 0 一般不一定推出独立， 正态分布等特殊情形除外。 计算优先级： 求方差时优先使用 Var(𝑋) = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 ；求线性组合方差时注意协方差项： Var(𝑎𝑋 + 𝑏𝑌 ) = 𝑎2 Var(𝑋) + 𝑏2 Var(𝑌 ) + 2𝑎𝑏 Cov(𝑋, 𝑌 )"
   },
   {
-    "id": "doc-932e58f16185-p15",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-795d51900278-p3",
+    "docId": "doc-795d51900278",
+    "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
     "category": "概率论",
-    "page": 15,
-    "heading": "八、数理统计基础",
-    "snippet": "概率论与数理统计 · 知识总结 八、数理统计基础 总体、样本与统计量 总体是研究对象的全体，样本是从总体中抽取的观测值。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布且与总体分布相同， 则称为简单随机样本。 不含未知参数的样本函数称为统计量，例如样本均值、样本方差： 1 𝑛 |(𝑋) = ∑ 𝑋𝑖 𝑛 𝑖=1 𝑛 1 𝑆2 = ∑ (𝑋𝑖...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 八、数理统计基础 概率论与数理统计 · 知识总结 八、数理统计基础 总体、样本与统计量 总体是研究对象的全体，样本是从总体中抽取的观测值。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布且与总体分布相同， 则称为简单随机样本。 不含未知参数的样本函数称为统计量，例如样本均值、样本方差： 1 𝑛 |(𝑋) = ∑ 𝑋𝑖 𝑛 𝑖=1 𝑛 1 𝑆2 = ∑ (𝑋𝑖 − |(𝑋))2 𝑛 − 1 𝑖=1 其中分母取 𝑛 − 1 是为了让 𝑆 2 成为总体方差 𝜎2 的无偏估计。 三大抽样分布 分布 构造 典型用途 𝜒2 分布 若 𝑍𝑖 ~ 𝑁 (0, 1) 独 立 ， 则 总体方差区间估计与检验 ∑ 𝑍𝑖2 ~ 𝜒2 (𝑛) 𝑍 𝑡 分布 𝑇 = ， 其 中 𝑍 ~ 𝑁 (0, 1)， 总体方差未知时的均值推断 √𝑌𝑛 2 𝑌 ~ 𝜒 (𝑛) 独立 𝑌1 𝐹 分布 𝐹 = 𝑛𝑌21 ，其中 𝑌1 , 𝑌2 为独立卡方变量 两个方差比较与方差分析 𝑛2"
+    "page": 3,
+    "heading": "二、数字特征题处理策略",
+    "snippet": "考研数学 · 概率论 · 随机变量的数字特征 二、数字特征题处理策略 • 求期望先判断离散型求和还是连续型积分； • 求方差优先算 𝐸(𝑋 2 ) − 𝐸 2 (𝑋)； • 线性组合方差必须检查协方差项是否为零； • 独立可以推出不相关，但不相关一般不能推出独立； • 遇到二维函数 𝑔(𝑋, 𝑌 )，先用联合分布写 𝐸(𝑔(𝑋, 𝑌 ))...",
+    "text": "Numerical Characteristics of Random Variables (随机变量的数字特征) Numerical Characteristics of Random Variables 随机变量的数字特征 概率论 二、数字特征题处理策略 考研数学 · 概率论 · 随机变量的数字特征 二、数字特征题处理策略 • 求期望先判断离散型求和还是连续型积分； • 求方差优先算 𝐸(𝑋 2 ) − 𝐸 2 (𝑋)； • 线性组合方差必须检查协方差项是否为零； • 独立可以推出不相关，但不相关一般不能推出独立； • 遇到二维函数 𝑔(𝑋, 𝑌 )，先用联合分布写 𝐸(𝑔(𝑋, 𝑌 ))。"
   },
   {
-    "id": "doc-932e58f16185-p16",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-7afde55fc309-p1",
+    "docId": "doc-7afde55fc309",
+    "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
     "category": "概率论",
-    "page": 16,
-    "heading": "九、参数估计",
-    "snippet": "概率论与数理统计 · 知识总结 九、参数估计 点估计 点估计是用样本统计量估计总体未知参数。常见方法包括矩估计法和极大似然估计法。 矩估计法：用样本矩替换总体矩。例如： |(𝑋) ≈ 𝐸(𝑋) 极大似然估计法：选择使样本出现概率最大的参数。若样本联合密度或分布律为 𝐿(𝜃)，则： 𝜃̂ = arg max 𝐿(𝜃) 𝜃 实际计算常取对数似...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 九、参数估计 概率论与数理统计 · 知识总结 九、参数估计 点估计 点估计是用样本统计量估计总体未知参数。常见方法包括矩估计法和极大似然估计法。 矩估计法：用样本矩替换总体矩。例如： |(𝑋) ≈ 𝐸(𝑋) 极大似然估计法：选择使样本出现概率最大的参数。若样本联合密度或分布律为 𝐿(𝜃)，则： 𝜃̂ = arg max 𝐿(𝜃) 𝜃 实际计算常取对数似然： 𝑙(𝜃) = ln 𝐿(𝜃) 然后求导令零： 𝑑𝑙(𝜃) =0 𝑑𝜃 估计量评价标准 ̂ = 𝜃； • 无偏性：𝐸(𝜃) • 有效性：在无偏估计中方差更小者更有效； • 一致性：样本量增大时估计量趋近真实参数。 区间估计 置信区间的一般形式为： 估计值 ± 临界值 × 标准误 正态总体、方差已知时，均值 𝜇 的置信区间为： 𝜎 |(𝑋) ± 𝑧 𝛼2 √ 𝑛 正态总体、方差未知时： 𝑆 |(𝑋) ± 𝑡 𝛼2 (𝑛 − 1) √ 𝑛 总体比例 𝑝 的大样本置信区间： 𝑝̂(1 − 𝑝̂) 𝑝̂ ± 𝑧 𝛼2 √ 𝑛 易错点： 置信度 1 − 𝛼 描述区间构造方法的长期覆盖率，不应解释成“某个已经算出的固定区间含有 参数的概率为 1 − 𝛼”。"
+    "page": 1,
+    "heading": "考研数学 · 概率论 · 大数定律和中心极限定理",
+    "snippet": "考研数学 · 概率论 · 大数定律和中心极限定理 Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理) 样本均值稳定性 · 标准化 · 正态近似 · 连续性校正 考研数学复习资料 · Typst PDF 首页速览 𝑆 −𝑛𝜇 • 核心公式：|(𝑋) → 𝜇， 𝜎 𝑛√ ...",
+    "text": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理) Laws of Large Numbers and Central Limit Theorem 大数定律和中心极限定理 概率论 考研数学 · 概率论 · 大数定律和中心极限定理 考研数学 · 概率论 · 大数定律和中心极限定理 Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理) 样本均值稳定性 · 标准化 · 正态近似 · 连续性校正 考研数学复习资料 · Typst PDF 首页速览 𝑆 −𝑛𝜇 • 核心公式：|(𝑋) → 𝜇， 𝜎 𝑛√ 𝑛 ≈ 𝑁 (0, 1)。 • 关键定理：大数定律说明样本均值稳定；中心极限定理说明标准化波动近似正态。 • 方法抓手：看题目问“稳定到哪里”还是“近似概率多少”；二项分布大样本可用正态近似并考虑连续性校正。 复习主线： 样本均值稳定性 · 标准化 · 正态近似 · 连续性校正。做题时先识别随机对象、分布条件 和题目目标，再选择概率公式、积分区域、数字特征或统计推断方法。"
   },
   {
-    "id": "doc-932e58f16185-p17",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-7afde55fc309-p2",
+    "docId": "doc-7afde55fc309",
+    "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
     "category": "概率论",
-    "page": 17,
-    "heading": "十、假设检验",
-    "snippet": "概率论与数理统计 · 知识总结 十、假设检验 基本思想 假设检验先提出原假设 𝐻0 和备择假设 𝐻1 ，再构造检验统计量，并根据显著性水平 𝛼 判断是否拒绝 𝐻0 。 常见错误： • 第一类错误：𝐻0 为真却拒绝，概率为 𝛼； • 第二类错误：𝐻0 为假却未拒绝，概率为 𝛽 ； • 检验功效：1 − 𝛽 。 均值检验 正态总体、方差已知：...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十、假设检验 概率论与数理统计 · 知识总结 十、假设检验 基本思想 假设检验先提出原假设 𝐻0 和备择假设 𝐻1 ，再构造检验统计量，并根据显著性水平 𝛼 判断是否拒绝 𝐻0 。 常见错误： • 第一类错误：𝐻0 为真却拒绝，概率为 𝛼； • 第二类错误：𝐻0 为假却未拒绝，概率为 𝛽 ； • 检验功效：1 − 𝛽 。 均值检验 正态总体、方差已知： |(𝑋) − 𝜇0 𝑍= √𝜎 𝑛 正态总体、方差未知： |(𝑋) − 𝜇0 𝑇 = ~ 𝑡(𝑛 − 1) √𝑆 𝑛 大样本下，即使总体非正态，也常用中心极限定理进行近似 𝑍 检验。 方差检验 正态总体中检验方差 𝜎2 = 𝜎02 ： (𝑛 − 1)𝑆 2 𝜒2 = ~ 𝜒2 (𝑛 − 1) 𝜎02 两个正态总体方差比较： 𝑆12 𝐹 = 𝑆22 通常令较大样本方差放在分子，便于单侧查表或计算。 𝑃 值 𝑃 值是在原假设成立时，得到当前样本结果及更极端结果的概率。若 𝑃 ≤ 𝛼，则拒绝 𝐻0 ；若 𝑃 > 𝛼，则 不能拒绝 𝐻0 。 检验步骤模板： 写出 𝐻0 , 𝐻1 ；确定显著性水平 𝛼；选择统计量并说明分布；计算统计量或 𝑃 值；作 出拒绝或不拒绝结论；用题目语言解释结果。"
+    "page": 2,
+    "heading": "一、大数定律与中心极限定理",
+    "snippet": "考研数学 · 概率论 · 大数定律和中心极限定理 一、大数定律与中心极限定理 大数定律 大数定律说明样本均值会稳定到总体期望附近。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，且 𝐸(𝑋𝑖 ) = 𝜇，则样本均值： 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 在概率意义下趋近于 𝜇： |(𝑋) → 𝜇 中心极限定理 若 𝑋1 , 𝑋2 ...",
+    "text": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理) Laws of Large Numbers and Central Limit Theorem 大数定律和中心极限定理 概率论 一、大数定律与中心极限定理 考研数学 · 概率论 · 大数定律和中心极限定理 一、大数定律与中心极限定理 大数定律 大数定律说明样本均值会稳定到总体期望附近。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，且 𝐸(𝑋𝑖 ) = 𝜇，则样本均值： 1 𝑛 |(𝑋) = ∑𝑋 𝑛 𝑖=1 𝑖 在概率意义下趋近于 𝜇： |(𝑋) → 𝜇 中心极限定理 若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布，𝐸(𝑋𝑖 ) = 𝜇，Var(𝑋𝑖 ) = 𝜎2 ，则当 𝑛 较大时： ∑𝑛𝑖=1 𝑋𝑖 − 𝑛𝜇 √ ≈ 𝑁 (0, 1) 𝜎 𝑛 或： |(𝑋) − 𝜇 ≈ 𝑁 (0, 1) √𝜎 𝑛 核心意义：即使总体分布不是正态分布，只要样本量足够大，样本均值的分布通常可近似为正态分布。 这是置信区间和大样本检验的基础。 极限定理的计算口径 大数定律说明“样本平均数会稳定到总体均值”。若 𝑋1 + 𝑋2 + … + 𝑋𝑛 𝐴𝑛 = 𝑛 则对任意 𝜀 > 0， 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) → 0 (𝑛 → ∞) 若进一步有 Var(𝑋𝑖 ) = 𝜎2 < +∞，则 𝜎2 𝐸(𝐴𝑛 ) = 𝜇, Var(𝐴𝑛 ) = 𝑛 由切比雪夫不等式： 𝜎2 𝑃 (|𝐴𝑛 − 𝜇| ≥ 𝜀) ≤ →0 𝑛𝜀2 中心极限定理说明“样本和或样本平均数的随机波动，标准化以后近似服从正态分布”。记 𝑆𝑛 = 𝑋1 + … + 𝑋𝑛 ，则 𝑆𝑛 − 𝑛𝜇 𝑍𝑛 = √ ≈ 𝑁 (0, 1) 𝜎 𝑛"
   },
   {
-    "id": "doc-932e58f16185-p18",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-7afde55fc309-p3",
+    "docId": "doc-7afde55fc309",
+    "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
     "category": "概率论",
-    "page": 18,
-    "heading": "十一、方差分析与回归",
-    "snippet": "概率论与数理统计 · 知识总结 十一、方差分析与回归 方差分析 方差分析用于比较多个总体均值是否相等。核心思想是把总变差分解为组间变差和组内变差： SST = SSA + SSE 检验统计量： SSA 𝑘−1 𝐹 = SSE 𝑛−𝑘 若 𝐹 足够大，说明组间差异相对于组内波动显著，倾向于拒绝“各组均值相等”的原假设。 一元线性回归 一元线...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十一、方差分析与回归 概率论与数理统计 · 知识总结 十一、方差分析与回归 方差分析 方差分析用于比较多个总体均值是否相等。核心思想是把总变差分解为组间变差和组内变差： SST = SSA + SSE 检验统计量： SSA 𝑘−1 𝐹 = SSE 𝑛−𝑘 若 𝐹 足够大，说明组间差异相对于组内波动显著，倾向于拒绝“各组均值相等”的原假设。 一元线性回归 一元线性回归模型： 𝑌 = 𝛽0 + 𝛽1 𝑋 + 𝜀 其中 𝜀 为随机误差，通常假设 𝐸(𝜀) = 0，方差恒定，且不同观测之间相互独立。 最小二乘法选择使残差平方和最小的参数： 𝑛 SSE = ∑ (𝑦𝑖 − 𝑦̂𝑖 )2 𝑖=1 斜率估计： ∑𝑛𝑖=1 (𝑥𝑖 − |(𝑥))(𝑦𝑖 − |(𝑦)) 𝛽̂1 = ∑𝑛𝑖=1 (𝑥𝑖 − |(𝑥))2 截距估计： 𝛽̂0 = |(𝑦) − 𝛽̂1 |(𝑥) 决定系数： SSE 𝑅2 = 1 − SST 𝑅2 表示模型解释的因变量总变差比例，但 𝑅2 高不一定说明因果关系成立。"
+    "page": 3,
+    "heading": "考研数学 · 概率论 · 大数定律和中心极限定理",
+    "snippet": "考研数学 · 概率论 · 大数定律和中心极限定理 若 𝑋𝑖 是伯努利变量，𝑃 (𝑋𝑖 = 1) = 𝑝，则 𝑆𝑛 表示 𝑛 次试验中的成功次数： 𝑆𝑛 − 𝑛𝑝 ≈ 𝑁 (0, 1) √𝑛𝑝(1 − 𝑝) 因此可用标准正态分布近似二项分布： 𝑏 − 𝑛𝑝 𝑎 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 ...",
+    "text": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理) Laws of Large Numbers and Central Limit Theorem 大数定律和中心极限定理 概率论 考研数学 · 概率论 · 大数定律和中心极限定理 考研数学 · 概率论 · 大数定律和中心极限定理 若 𝑋𝑖 是伯努利变量，𝑃 (𝑋𝑖 = 1) = 𝑝，则 𝑆𝑛 表示 𝑛 次试验中的成功次数： 𝑆𝑛 − 𝑛𝑝 ≈ 𝑁 (0, 1) √𝑛𝑝(1 − 𝑝) 因此可用标准正态分布近似二项分布： 𝑏 − 𝑛𝑝 𝑎 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(1 − 𝑝) 更精细时可作连续性校正： 𝑏 + 0.5 − 𝑛𝑝 𝑎 − 0.5 − 𝑛𝑝 𝑃 (𝑎 ≤ 𝑆𝑛 ≤ 𝑏) ≈ Φ( ) − Φ( ) √𝑛𝑝(1 − 𝑝) √𝑛𝑝(1 − 𝑝) 对比项 大数定律 中心极限定理 研究对象 样本平均数是否稳定 样本和或样本平均数的波动分布 核心结论 𝐴𝑛 靠近 𝜇 的概率趋于 1 标准化后近似 𝑁 (0, 1) 关键词 稳定、收敛、频率趋于概率 近似正态、标准化、区间概率 常见用途 说明估计量稳定 近似计算大样本概率 概念区分： 大数定律不说样本平均数必然等于总体均值，而是说概率意义下趋近。中心极限定理也不 是说原随机变量服从正态分布，而是说样本和或样本均值标准化后近似正态。"
   },
   {
-    "id": "doc-932e58f16185-p19",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-df8d3694236b-p1",
+    "docId": "doc-df8d3694236b",
+    "title": "Mathematical Statistics (数理统计)",
     "category": "概率论",
-    "page": 19,
-    "heading": "十二、常见题型处理策略",
-    "snippet": "概率论与数理统计 · 知识总结 十二、常见题型处理策略 概率计算题 • 先定义事件，避免直接套公式导致事件含义混乱； • 判断是否互斥、独立或条件概率； • 多原因导致同一结果时优先考虑全概率公式； • 结果反推原因时使用贝叶斯公式； • 至少检查最终概率是否落在 [0, 1]。 分布题 • 明确随机变量的取值范围； • 离散型写出所有可...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十二、常见题型处理策略 概率论与数理统计 · 知识总结 十二、常见题型处理策略 概率计算题 • 先定义事件，避免直接套公式导致事件含义混乱； • 判断是否互斥、独立或条件概率； • 多原因导致同一结果时优先考虑全概率公式； • 结果反推原因时使用贝叶斯公式； • 至少检查最终概率是否落在 [0, 1]。 分布题 • 明确随机变量的取值范围； • 离散型写出所有可能取值及概率； • 连续型先确定密度常数，再积分求概率； • 求分布函数时分区间讨论； • 求函数分布时注意单调变换、反函数和取值范围。 统计推断题 • 明确总体分布、样本量、方差是否已知； • 均值推断中方差已知用 𝑍 ，方差未知且正态总体用 𝑡； • 方差推断通常要求总体正态； • 大样本比例推断使用正态近似； • 写结论时必须回到题目背景。 总易错清单： 把互斥误认为独立；连续型随机变量在单点上赋正概率；忘记密度函数定义域；方差计 算漏掉平方系数；把“不拒绝 𝐻0 ”写成“证明 𝐻0 正确”；置信区间和假设检验中的 𝛼2 使用错误。"
+    "page": 1,
+    "heading": "考研数学 · 概率论 · 数理统计",
+    "snippet": "考研数学 · 概率论 · 数理统计 Mathematical Statistics (数理统计) 样本统计量 · 参数估计 · 假设检验 · 回归分析 考研数学复习资料 · Typst PDF 首页速览 1 1 2 • 核心公式：|(𝑋) = 𝑛 ∑𝑖 𝑋𝑖 ，𝑆 2 = 𝑛−1 ∑𝑖 (𝑋𝑖 − |(𝑋)) 。 • 关键定理：三大抽样分...",
+    "text": "Mathematical Statistics (数理统计) Mathematical Statistics 数理统计 概率论 考研数学 · 概率论 · 数理统计 考研数学 · 概率论 · 数理统计 Mathematical Statistics (数理统计) 样本统计量 · 参数估计 · 假设检验 · 回归分析 考研数学复习资料 · Typst PDF 首页速览 1 1 2 • 核心公式：|(𝑋) = 𝑛 ∑𝑖 𝑋𝑖 ，𝑆 2 = 𝑛−1 ∑𝑖 (𝑋𝑖 − |(𝑋)) 。 • 关键定理：三大抽样分布、无偏性、置信区间、显著性检验和最小二乘法。 • 方法抓手：先看总体分布、方差是否已知和样本量，再选择 𝑍 、𝑡、𝜒2 或 𝐹 统计量。 复习主线： 样本统计量 · 参数估计 · 假设检验 · 回归分析。做题时先识别随机对象、分布条件和题 目目标，再选择概率公式、积分区域、数字特征或统计推断方法。"
   },
   {
-    "id": "doc-932e58f16185-p20",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-df8d3694236b-p2",
+    "docId": "doc-df8d3694236b",
+    "title": "Mathematical Statistics (数理统计)",
     "category": "概率论",
-    "page": 20,
-    "heading": "十三、公式速查",
-    "snippet": "概率论与数理统计 · 知识总结 十三、公式速查 主题 核心公式 条件概率 𝑃 (𝐴|𝐵) = 𝑃𝑃(𝐴∩𝐵) (𝐵) 全概率公式 𝑃 (𝐴) = ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 ) 𝑃 (𝐴|𝐵𝑘 ) 贝叶斯公式 𝑃 (𝐵𝑘 |𝐴) = 𝑃 (𝐵𝑘 ) ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 ) 期望 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 或 𝐸...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十三、公式速查 概率论与数理统计 · 知识总结 十三、公式速查 主题 核心公式 条件概率 𝑃 (𝐴|𝐵) = 𝑃𝑃(𝐴∩𝐵) (𝐵) 全概率公式 𝑃 (𝐴) = ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 ) 𝑃 (𝐴|𝐵𝑘 ) 贝叶斯公式 𝑃 (𝐵𝑘 |𝐴) = 𝑃 (𝐵𝑘 ) ∑𝑖 𝑃 (𝐵𝑖 )𝑃 (𝐴|𝐵𝑖 ) 期望 𝐸(𝑋) = ∑ 𝑥𝑖 𝑝𝑖 或 𝐸(𝑋) = ∫ 𝑥𝑓(𝑥)𝑑𝑥 方差 Var(𝑋) = 𝐸(𝑋 2 ) − [𝐸(𝑋)]2 协方差 Cov(𝑋, 𝑌 ) = 𝐸(𝑋𝑌 ) − 𝐸(𝑋)𝐸(𝑌 ) 样本均值 |(𝑋) = 𝑛1 ∑𝑖 𝑋𝑖 样本方差 1 𝑆 2 = 𝑛−1 ∑𝑖 (𝑋𝑖 − |(𝑋))2 均值置信区间 |(𝑋) ± 临界值 × 标准误 线性回归 𝑦̂ = 𝛽̂0 + 𝛽̂1 𝑥"
+    "page": 2,
+    "heading": "一、数理统计基础",
+    "snippet": "考研数学 · 概率论 · 数理统计 一、数理统计基础 总体、样本与统计量 总体是研究对象的全体，样本是从总体中抽取的观测值。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布且与总体分布相同， 则称为简单随机样本。 不含未知参数的样本函数称为统计量，例如样本均值、样本方差： 1 𝑛 |(𝑋) = ∑ 𝑋𝑖 𝑛 𝑖=1 𝑛 1 𝑆2 = ∑ (...",
+    "text": "Mathematical Statistics (数理统计) Mathematical Statistics 数理统计 概率论 一、数理统计基础 考研数学 · 概率论 · 数理统计 一、数理统计基础 总体、样本与统计量 总体是研究对象的全体，样本是从总体中抽取的观测值。若 𝑋1 , 𝑋2 , …, 𝑋𝑛 独立同分布且与总体分布相同， 则称为简单随机样本。 不含未知参数的样本函数称为统计量，例如样本均值、样本方差： 1 𝑛 |(𝑋) = ∑ 𝑋𝑖 𝑛 𝑖=1 𝑛 1 𝑆2 = ∑ (𝑋𝑖 − |(𝑋))2 𝑛 − 1 𝑖=1 其中分母取 𝑛 − 1 是为了让 𝑆 2 成为总体方差 𝜎2 的无偏估计。 三大抽样分布 分布 构造 典型用途 𝜒2 分布 若 𝑍𝑖 ~ 𝑁 (0, 1) 独 立 ， 则 总体方差区间估计与检验 ∑ 𝑍𝑖2 ~ 𝜒2 (𝑛) 𝑍 𝑡 分布 𝑇 = ， 其 中 𝑍 ~ 𝑁 (0, 1)， 总体方差未知时的均值推断 √𝑌𝑛 2 𝑌 ~ 𝜒 (𝑛) 独立 𝑌1 𝐹 分布 𝐹 = 𝑛𝑌21 ，其中 𝑌1 , 𝑌2 为独立卡方变量 两个方差比较与方差分析 𝑛2"
   },
   {
-    "id": "doc-932e58f16185-p21",
-    "docId": "doc-932e58f16185",
-    "title": "Probability and Mathematical Statistics (概率论与数理统计)",
+    "id": "doc-df8d3694236b-p3",
+    "docId": "doc-df8d3694236b",
+    "title": "Mathematical Statistics (数理统计)",
     "category": "概率论",
-    "page": 21,
-    "heading": "十四、复习建议",
-    "snippet": "概率论与数理统计 · 知识总结 十四、复习建议 概率论部分建议围绕“事件-随机变量-分布-数字特征-极限定理”建立知识链。数理统计部分建议围绕“样 本-统计量-估计-检验-模型”建立推断链。做题时不要先背公式，而要先判断问题类型、变量类型、分布 条件和是否满足近似条件。 最终框架： 概率论负责建模，统计负责推断；分布是桥梁，样本是证据，期...",
-    "text": "Probability and Mathematical Statistics (概率论与数理统计) Probability and Mathematical Statistics 概率论与数理统计 概率论 十四、复习建议 概率论与数理统计 · 知识总结 十四、复习建议 概率论部分建议围绕“事件-随机变量-分布-数字特征-极限定理”建立知识链。数理统计部分建议围绕“样 本-统计量-估计-检验-模型”建立推断链。做题时不要先背公式，而要先判断问题类型、变量类型、分布 条件和是否满足近似条件。 最终框架： 概率论负责建模，统计负责推断；分布是桥梁，样本是证据，期望和方差是最常用的摘要， 置信区间和假设检验是最核心的推断工具。"
+    "page": 3,
+    "heading": "二、参数估计",
+    "snippet": "考研数学 · 概率论 · 数理统计 二、参数估计 点估计 点估计是用样本统计量估计总体未知参数。常见方法包括矩估计法和极大似然估计法。 矩估计法：用样本矩替换总体矩。例如： |(𝑋) ≈ 𝐸(𝑋) 极大似然估计法：选择使样本出现概率最大的参数。若样本联合密度或分布律为 𝐿(𝜃)，则： 𝜃̂ = arg max 𝐿(𝜃) 𝜃 实际计算常取对...",
+    "text": "Mathematical Statistics (数理统计) Mathematical Statistics 数理统计 概率论 二、参数估计 考研数学 · 概率论 · 数理统计 二、参数估计 点估计 点估计是用样本统计量估计总体未知参数。常见方法包括矩估计法和极大似然估计法。 矩估计法：用样本矩替换总体矩。例如： |(𝑋) ≈ 𝐸(𝑋) 极大似然估计法：选择使样本出现概率最大的参数。若样本联合密度或分布律为 𝐿(𝜃)，则： 𝜃̂ = arg max 𝐿(𝜃) 𝜃 实际计算常取对数似然： 𝑙(𝜃) = ln 𝐿(𝜃) 然后求导令零： 𝑑𝑙(𝜃) =0 𝑑𝜃 估计量评价标准 ̂ = 𝜃； • 无偏性：𝐸(𝜃) • 有效性：在无偏估计中方差更小者更有效； • 一致性：样本量增大时估计量趋近真实参数。 区间估计 置信区间的一般形式为： 估计值 ± 临界值 × 标准误 正态总体、方差已知时，均值 𝜇 的置信区间为： 𝜎 |(𝑋) ± 𝑧 𝛼2 √ 𝑛 正态总体、方差未知时： 𝑆 |(𝑋) ± 𝑡 𝛼2 (𝑛 − 1) √ 𝑛 总体比例 𝑝 的大样本置信区间： 𝑝̂(1 − 𝑝̂) 𝑝̂ ± 𝑧 𝛼2 √ 𝑛 易错点： 置信度 1 − 𝛼 描述区间构造方法的长期覆盖率，不应解释成“某个已经算出的固定区间含有 参数的概率为 1 − 𝛼”。"
+  },
+  {
+    "id": "doc-df8d3694236b-p4",
+    "docId": "doc-df8d3694236b",
+    "title": "Mathematical Statistics (数理统计)",
+    "category": "概率论",
+    "page": 4,
+    "heading": "三、假设检验",
+    "snippet": "考研数学 · 概率论 · 数理统计 三、假设检验 基本思想 假设检验先提出原假设 𝐻0 和备择假设 𝐻1 ，再构造检验统计量，并根据显著性水平 𝛼 判断是否拒绝 𝐻0 。 常见错误： • 第一类错误：𝐻0 为真却拒绝，概率为 𝛼； • 第二类错误：𝐻0 为假却未拒绝，概率为 𝛽 ； • 检验功效：1 − 𝛽 。 均值检验 正态总体、方差已...",
+    "text": "Mathematical Statistics (数理统计) Mathematical Statistics 数理统计 概率论 三、假设检验 考研数学 · 概率论 · 数理统计 三、假设检验 基本思想 假设检验先提出原假设 𝐻0 和备择假设 𝐻1 ，再构造检验统计量，并根据显著性水平 𝛼 判断是否拒绝 𝐻0 。 常见错误： • 第一类错误：𝐻0 为真却拒绝，概率为 𝛼； • 第二类错误：𝐻0 为假却未拒绝，概率为 𝛽 ； • 检验功效：1 − 𝛽 。 均值检验 正态总体、方差已知： |(𝑋) − 𝜇0 𝑍= √𝜎 𝑛 正态总体、方差未知： |(𝑋) − 𝜇0 𝑇 = ~ 𝑡(𝑛 − 1) √𝑆 𝑛 大样本下，即使总体非正态，也常用中心极限定理进行近似 𝑍 检验。 方差检验 正态总体中检验方差 𝜎2 = 𝜎02 ： (𝑛 − 1)𝑆 2 𝜒2 = ~ 𝜒2 (𝑛 − 1) 𝜎02 两个正态总体方差比较： 𝑆12 𝐹 = 𝑆22 通常令较大样本方差放在分子，便于单侧查表或计算。 𝑃 值 𝑃 值是在原假设成立时，得到当前样本结果及更极端结果的概率。若 𝑃 ≤ 𝛼，则拒绝 𝐻0 ；若 𝑃 > 𝛼，则 不能拒绝 𝐻0 。 检验步骤模板： 写出 𝐻0 , 𝐻1 ；确定显著性水平 𝛼；选择统计量并说明分布；计算统计量或 𝑃 值；作 出拒绝或不拒绝结论；用题目语言解释结果。"
+  },
+  {
+    "id": "doc-df8d3694236b-p5",
+    "docId": "doc-df8d3694236b",
+    "title": "Mathematical Statistics (数理统计)",
+    "category": "概率论",
+    "page": 5,
+    "heading": "四、方差分析与回归",
+    "snippet": "考研数学 · 概率论 · 数理统计 四、方差分析与回归 方差分析 方差分析用于比较多个总体均值是否相等。核心思想是把总变差分解为组间变差和组内变差： SST = SSA + SSE 检验统计量： SSA 𝑘−1 𝐹 = SSE 𝑛−𝑘 若 𝐹 足够大，说明组间差异相对于组内波动显著，倾向于拒绝“各组均值相等”的原假设。 一元线性回归 一元...",
+    "text": "Mathematical Statistics (数理统计) Mathematical Statistics 数理统计 概率论 四、方差分析与回归 考研数学 · 概率论 · 数理统计 四、方差分析与回归 方差分析 方差分析用于比较多个总体均值是否相等。核心思想是把总变差分解为组间变差和组内变差： SST = SSA + SSE 检验统计量： SSA 𝑘−1 𝐹 = SSE 𝑛−𝑘 若 𝐹 足够大，说明组间差异相对于组内波动显著，倾向于拒绝“各组均值相等”的原假设。 一元线性回归 一元线性回归模型： 𝑌 = 𝛽0 + 𝛽1 𝑋 + 𝜀 其中 𝜀 为随机误差，通常假设 𝐸(𝜀) = 0，方差恒定，且不同观测之间相互独立。 最小二乘法选择使残差平方和最小的参数： 𝑛 SSE = ∑ (𝑦𝑖 − 𝑦̂𝑖 )2 𝑖=1 斜率估计： ∑𝑛𝑖=1 (𝑥𝑖 − |(𝑥))(𝑦𝑖 − |(𝑦)) 𝛽̂1 = ∑𝑛𝑖=1 (𝑥𝑖 − |(𝑥))2 截距估计： 𝛽̂0 = |(𝑦) − 𝛽̂1 |(𝑥) 决定系数： SSE 𝑅2 = 1 − SST 𝑅2 表示模型解释的因变量总变差比例，但 𝑅2 高不一定说明因果关系成立。"
+  },
+  {
+    "id": "doc-df8d3694236b-p6",
+    "docId": "doc-df8d3694236b",
+    "title": "Mathematical Statistics (数理统计)",
+    "category": "概率论",
+    "page": 6,
+    "heading": "五、统计推断题处理策略",
+    "snippet": "考研数学 · 概率论 · 数理统计 五、统计推断题处理策略 • 明确总体分布、样本量、方差是否已知； • 均值推断中方差已知用 𝑍 ，方差未知且正态总体用 𝑡； • 方差推断通常要求总体正态； • 大样本比例推断使用正态近似； • 写结论时必须回到题目背景。 统计易错清单： 把“不拒绝 𝐻0 ”写成“证明 𝐻0 正确”；置信度解释为单个固...",
+    "text": "Mathematical Statistics (数理统计) Mathematical Statistics 数理统计 概率论 五、统计推断题处理策略 考研数学 · 概率论 · 数理统计 五、统计推断题处理策略 • 明确总体分布、样本量、方差是否已知； • 均值推断中方差已知用 𝑍 ，方差未知且正态总体用 𝑡； • 方差推断通常要求总体正态； • 大样本比例推断使用正态近似； • 写结论时必须回到题目背景。 统计易错清单： 把“不拒绝 𝐻0 ”写成“证明 𝐻0 正确”；置信度解释为单个固定区间含参概率；方差未 知却仍使用已知方差的 𝑍 检验；没有检查总体正态条件就直接套小样本方差检验。"
   }
 ];

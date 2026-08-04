@@ -1,12 +1,12 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T13:25:17+08:00",
+  "generatedAt": "2026-08-04T14:10:00+08:00",
   "stats": {
-    "documents": 19,
-    "pages": 270,
+    "documents": 23,
+    "pages": 257,
     "renderDpi": 260,
-    "searchEntries": 270
+    "searchEntries": 257
   },
   "categories": [
     {
@@ -428,86 +428,6 @@
               "id": "doc-b907693d8c25-s12",
               "title": "十二、公式速查表",
               "page": 21,
-              "level": 1
-            }
-          ]
-        },
-        {
-          "id": "doc-e798419636b7",
-          "title": "Triple Integral Methods (三重积分计算方法)",
-          "englishTitle": "Triple Integral Methods",
-          "chineseTitle": "三重积分计算方法",
-          "category": "微积分",
-          "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
-          "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
-          "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
-          "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
-          "pageCount": 19,
-          "sections": [
-            {
-              "id": "doc-e798419636b7-s1",
-              "title": "一、三重积分的定义与几何意义",
-              "page": 2,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s2",
-              "title": "二、直角坐标下的投影法",
-              "page": 3,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s3",
-              "title": "三、柱坐标法",
-              "page": 4,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s4",
-              "title": "四、球坐标法",
-              "page": 5,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s5",
-              "title": "五、一般变量替换与雅可比",
-              "page": 6,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s6",
-              "title": "六、对称性方法",
-              "page": 7,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s7",
-              "title": "七、计算步骤总结",
-              "page": 8,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s8",
-              "title": "八、典型例题",
-              "page": 9,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s9",
-              "title": "九、格林公式、高斯公式与斯托克斯公式",
-              "page": 13,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s10",
-              "title": "十、考研常见设限模板",
-              "page": 17,
-              "level": 1
-            },
-            {
-              "id": "doc-e798419636b7-s11",
-              "title": "十一、最后检查清单",
-              "page": 19,
               "level": 1
             }
           ]
@@ -1211,99 +1131,181 @@
       "accent": "#059669",
       "documents": [
         {
-          "id": "doc-932e58f16185",
-          "title": "Probability and Mathematical Statistics (概率论与数理统计)",
-          "englishTitle": "Probability and Mathematical Statistics",
-          "chineseTitle": "概率论与数理统计",
+          "id": "doc-157b9a897c2c",
+          "title": "Random Events and Probability (随机事件与概率)",
+          "englishTitle": "Random Events and Probability",
+          "chineseTitle": "随机事件与概率",
           "category": "概率论",
-          "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-          "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-          "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
-          "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
-          "pageCount": 21,
+          "path": "概率论/Random Events and Probability (随机事件与概率).pdf",
+          "webPath": "../概率论/Random Events and Probability (随机事件与概率).pdf",
+          "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
+          "pageImageBase": "./rendered-pages/doc-157b9a897c2c/page-",
+          "pageCount": 3,
           "sections": [
             {
-              "id": "doc-932e58f16185-s1",
+              "id": "doc-157b9a897c2c-s1",
               "title": "一、随机事件与概率",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-157b9a897c2c-s2",
+              "title": "二、概率计算题处理策略",
+              "page": 3,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-5913a24c9a32",
+          "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+          "englishTitle": "One-Dimensional Random Variables and Distributions",
+          "chineseTitle": "一维随机变量及其分布",
+          "category": "概率论",
+          "path": "概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+          "webPath": "../概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+          "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
+          "pageImageBase": "./rendered-pages/doc-5913a24c9a32/page-",
+          "pageCount": 7,
+          "sections": [
+            {
+              "id": "doc-5913a24c9a32-s1",
+              "title": "一、随机变量与分布函数",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-5913a24c9a32-s2",
+              "title": "二、常见离散分布",
               "page": 3,
               "level": 1
             },
             {
-              "id": "doc-932e58f16185-s2",
-              "title": "二、随机变量与分布函数",
+              "id": "doc-5913a24c9a32-s3",
+              "title": "三、常见连续分布",
               "page": 4,
               "level": 1
             },
             {
-              "id": "doc-932e58f16185-s3",
-              "title": "三、常见离散分布",
+              "id": "doc-5913a24c9a32-s4",
+              "title": "四、一维分布题处理策略",
+              "page": 7,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-4f2d664a2807",
+          "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
+          "englishTitle": "Multidimensional Random Variables and Distributions",
+          "chineseTitle": "多维随机变量及其分布",
+          "category": "概率论",
+          "path": "概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+          "webPath": "../概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+          "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
+          "pageImageBase": "./rendered-pages/doc-4f2d664a2807/page-",
+          "pageCount": 5,
+          "sections": [
+            {
+              "id": "doc-4f2d664a2807-s1",
+              "title": "一、多维随机变量及其分布",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-4f2d664a2807-s2",
+              "title": "二、多维分布题处理策略",
+              "page": 5,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-795d51900278",
+          "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
+          "englishTitle": "Numerical Characteristics of Random Variables",
+          "chineseTitle": "随机变量的数字特征",
+          "category": "概率论",
+          "path": "概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+          "webPath": "../概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+          "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
+          "pageImageBase": "./rendered-pages/doc-795d51900278/page-",
+          "pageCount": 3,
+          "sections": [
+            {
+              "id": "doc-795d51900278-s1",
+              "title": "一、随机变量的数字特征",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-795d51900278-s2",
+              "title": "二、数字特征题处理策略",
+              "page": 3,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-7afde55fc309",
+          "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
+          "englishTitle": "Laws of Large Numbers and Central Limit Theorem",
+          "chineseTitle": "大数定律和中心极限定理",
+          "category": "概率论",
+          "path": "概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+          "webPath": "../概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+          "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
+          "pageImageBase": "./rendered-pages/doc-7afde55fc309/page-",
+          "pageCount": 3,
+          "sections": [
+            {
+              "id": "doc-7afde55fc309-s1",
+              "title": "一、大数定律与中心极限定理",
+              "page": 2,
+              "level": 1
+            }
+          ]
+        },
+        {
+          "id": "doc-df8d3694236b",
+          "title": "Mathematical Statistics (数理统计)",
+          "englishTitle": "Mathematical Statistics",
+          "chineseTitle": "数理统计",
+          "category": "概率论",
+          "path": "概率论/Mathematical Statistics (数理统计).pdf",
+          "webPath": "../概率论/Mathematical Statistics (数理统计).pdf",
+          "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
+          "pageImageBase": "./rendered-pages/doc-df8d3694236b/page-",
+          "pageCount": 6,
+          "sections": [
+            {
+              "id": "doc-df8d3694236b-s1",
+              "title": "一、数理统计基础",
+              "page": 2,
+              "level": 1
+            },
+            {
+              "id": "doc-df8d3694236b-s2",
+              "title": "二、参数估计",
+              "page": 3,
+              "level": 1
+            },
+            {
+              "id": "doc-df8d3694236b-s3",
+              "title": "三、假设检验",
+              "page": 4,
+              "level": 1
+            },
+            {
+              "id": "doc-df8d3694236b-s4",
+              "title": "四、方差分析与回归",
               "page": 5,
               "level": 1
             },
             {
-              "id": "doc-932e58f16185-s4",
-              "title": "四、常见连续分布",
+              "id": "doc-df8d3694236b-s5",
+              "title": "五、统计推断题处理策略",
               "page": 6,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s5",
-              "title": "五、多维随机变量",
-              "page": 9,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s6",
-              "title": "六、数字特征",
-              "page": 12,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s7",
-              "title": "七、大数定律与中心极限定理",
-              "page": 13,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s8",
-              "title": "八、数理统计基础",
-              "page": 15,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s9",
-              "title": "九、参数估计",
-              "page": 16,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s10",
-              "title": "十、假设检验",
-              "page": 17,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s11",
-              "title": "十一、方差分析与回归",
-              "page": 18,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s12",
-              "title": "十二、常见题型处理策略",
-              "page": 19,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s13",
-              "title": "十三、公式速查",
-              "page": 20,
-              "level": 1
-            },
-            {
-              "id": "doc-932e58f16185-s14",
-              "title": "十四、复习建议",
-              "page": 21,
               "level": 1
             }
           ]
@@ -1726,86 +1728,6 @@
           "id": "doc-b907693d8c25-s12",
           "title": "十二、公式速查表",
           "page": 21,
-          "level": 1
-        }
-      ]
-    },
-    {
-      "id": "doc-e798419636b7",
-      "title": "Triple Integral Methods (三重积分计算方法)",
-      "englishTitle": "Triple Integral Methods",
-      "chineseTitle": "三重积分计算方法",
-      "category": "微积分",
-      "path": "微积分/Triple Integral Methods (三重积分计算方法).pdf",
-      "webPath": "../微积分/Triple Integral Methods (三重积分计算方法).pdf",
-      "sourcePath": "typst/Triple Integral Methods (三重积分计算方法).typ",
-      "pageImageBase": "./rendered-pages/doc-e798419636b7/page-",
-      "pageCount": 19,
-      "sections": [
-        {
-          "id": "doc-e798419636b7-s1",
-          "title": "一、三重积分的定义与几何意义",
-          "page": 2,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s2",
-          "title": "二、直角坐标下的投影法",
-          "page": 3,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s3",
-          "title": "三、柱坐标法",
-          "page": 4,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s4",
-          "title": "四、球坐标法",
-          "page": 5,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s5",
-          "title": "五、一般变量替换与雅可比",
-          "page": 6,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s6",
-          "title": "六、对称性方法",
-          "page": 7,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s7",
-          "title": "七、计算步骤总结",
-          "page": 8,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s8",
-          "title": "八、典型例题",
-          "page": 9,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s9",
-          "title": "九、格林公式、高斯公式与斯托克斯公式",
-          "page": 13,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s10",
-          "title": "十、考研常见设限模板",
-          "page": 17,
-          "level": 1
-        },
-        {
-          "id": "doc-e798419636b7-s11",
-          "title": "十一、最后检查清单",
-          "page": 19,
           "level": 1
         }
       ]
@@ -2495,99 +2417,181 @@
       ]
     },
     {
-      "id": "doc-932e58f16185",
-      "title": "Probability and Mathematical Statistics (概率论与数理统计)",
-      "englishTitle": "Probability and Mathematical Statistics",
-      "chineseTitle": "概率论与数理统计",
+      "id": "doc-157b9a897c2c",
+      "title": "Random Events and Probability (随机事件与概率)",
+      "englishTitle": "Random Events and Probability",
+      "chineseTitle": "随机事件与概率",
       "category": "概率论",
-      "path": "概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-      "webPath": "../概率论/Probability and Mathematical Statistics (概率论与数理统计).pdf",
-      "sourcePath": "typst/Probability and Mathematical Statistics (概率论与数理统计).typ",
-      "pageImageBase": "./rendered-pages/doc-932e58f16185/page-",
-      "pageCount": 21,
+      "path": "概率论/Random Events and Probability (随机事件与概率).pdf",
+      "webPath": "../概率论/Random Events and Probability (随机事件与概率).pdf",
+      "sourcePath": "typst/Random Events and Probability (随机事件与概率).typ",
+      "pageImageBase": "./rendered-pages/doc-157b9a897c2c/page-",
+      "pageCount": 3,
       "sections": [
         {
-          "id": "doc-932e58f16185-s1",
+          "id": "doc-157b9a897c2c-s1",
           "title": "一、随机事件与概率",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-157b9a897c2c-s2",
+          "title": "二、概率计算题处理策略",
+          "page": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-5913a24c9a32",
+      "title": "One-Dimensional Random Variables and Distributions (一维随机变量及其分布)",
+      "englishTitle": "One-Dimensional Random Variables and Distributions",
+      "chineseTitle": "一维随机变量及其分布",
+      "category": "概率论",
+      "path": "概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+      "webPath": "../概率论/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).pdf",
+      "sourcePath": "typst/One-Dimensional Random Variables and Distributions (一维随机变量及其分布).typ",
+      "pageImageBase": "./rendered-pages/doc-5913a24c9a32/page-",
+      "pageCount": 7,
+      "sections": [
+        {
+          "id": "doc-5913a24c9a32-s1",
+          "title": "一、随机变量与分布函数",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-5913a24c9a32-s2",
+          "title": "二、常见离散分布",
           "page": 3,
           "level": 1
         },
         {
-          "id": "doc-932e58f16185-s2",
-          "title": "二、随机变量与分布函数",
+          "id": "doc-5913a24c9a32-s3",
+          "title": "三、常见连续分布",
           "page": 4,
           "level": 1
         },
         {
-          "id": "doc-932e58f16185-s3",
-          "title": "三、常见离散分布",
+          "id": "doc-5913a24c9a32-s4",
+          "title": "四、一维分布题处理策略",
+          "page": 7,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-4f2d664a2807",
+      "title": "Multidimensional Random Variables and Distributions (多维随机变量及其分布)",
+      "englishTitle": "Multidimensional Random Variables and Distributions",
+      "chineseTitle": "多维随机变量及其分布",
+      "category": "概率论",
+      "path": "概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+      "webPath": "../概率论/Multidimensional Random Variables and Distributions (多维随机变量及其分布).pdf",
+      "sourcePath": "typst/Multidimensional Random Variables and Distributions (多维随机变量及其分布).typ",
+      "pageImageBase": "./rendered-pages/doc-4f2d664a2807/page-",
+      "pageCount": 5,
+      "sections": [
+        {
+          "id": "doc-4f2d664a2807-s1",
+          "title": "一、多维随机变量及其分布",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-4f2d664a2807-s2",
+          "title": "二、多维分布题处理策略",
+          "page": 5,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-795d51900278",
+      "title": "Numerical Characteristics of Random Variables (随机变量的数字特征)",
+      "englishTitle": "Numerical Characteristics of Random Variables",
+      "chineseTitle": "随机变量的数字特征",
+      "category": "概率论",
+      "path": "概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+      "webPath": "../概率论/Numerical Characteristics of Random Variables (随机变量的数字特征).pdf",
+      "sourcePath": "typst/Numerical Characteristics of Random Variables (随机变量的数字特征).typ",
+      "pageImageBase": "./rendered-pages/doc-795d51900278/page-",
+      "pageCount": 3,
+      "sections": [
+        {
+          "id": "doc-795d51900278-s1",
+          "title": "一、随机变量的数字特征",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-795d51900278-s2",
+          "title": "二、数字特征题处理策略",
+          "page": 3,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-7afde55fc309",
+      "title": "Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理)",
+      "englishTitle": "Laws of Large Numbers and Central Limit Theorem",
+      "chineseTitle": "大数定律和中心极限定理",
+      "category": "概率论",
+      "path": "概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+      "webPath": "../概率论/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).pdf",
+      "sourcePath": "typst/Laws of Large Numbers and Central Limit Theorem (大数定律和中心极限定理).typ",
+      "pageImageBase": "./rendered-pages/doc-7afde55fc309/page-",
+      "pageCount": 3,
+      "sections": [
+        {
+          "id": "doc-7afde55fc309-s1",
+          "title": "一、大数定律与中心极限定理",
+          "page": 2,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "doc-df8d3694236b",
+      "title": "Mathematical Statistics (数理统计)",
+      "englishTitle": "Mathematical Statistics",
+      "chineseTitle": "数理统计",
+      "category": "概率论",
+      "path": "概率论/Mathematical Statistics (数理统计).pdf",
+      "webPath": "../概率论/Mathematical Statistics (数理统计).pdf",
+      "sourcePath": "typst/Mathematical Statistics (数理统计).typ",
+      "pageImageBase": "./rendered-pages/doc-df8d3694236b/page-",
+      "pageCount": 6,
+      "sections": [
+        {
+          "id": "doc-df8d3694236b-s1",
+          "title": "一、数理统计基础",
+          "page": 2,
+          "level": 1
+        },
+        {
+          "id": "doc-df8d3694236b-s2",
+          "title": "二、参数估计",
+          "page": 3,
+          "level": 1
+        },
+        {
+          "id": "doc-df8d3694236b-s3",
+          "title": "三、假设检验",
+          "page": 4,
+          "level": 1
+        },
+        {
+          "id": "doc-df8d3694236b-s4",
+          "title": "四、方差分析与回归",
           "page": 5,
           "level": 1
         },
         {
-          "id": "doc-932e58f16185-s4",
-          "title": "四、常见连续分布",
+          "id": "doc-df8d3694236b-s5",
+          "title": "五、统计推断题处理策略",
           "page": 6,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s5",
-          "title": "五、多维随机变量",
-          "page": 9,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s6",
-          "title": "六、数字特征",
-          "page": 12,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s7",
-          "title": "七、大数定律与中心极限定理",
-          "page": 13,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s8",
-          "title": "八、数理统计基础",
-          "page": 15,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s9",
-          "title": "九、参数估计",
-          "page": 16,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s10",
-          "title": "十、假设检验",
-          "page": 17,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s11",
-          "title": "十一、方差分析与回归",
-          "page": 18,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s12",
-          "title": "十二、常见题型处理策略",
-          "page": 19,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s13",
-          "title": "十三、公式速查",
-          "page": 20,
-          "level": 1
-        },
-        {
-          "id": "doc-932e58f16185-s14",
-          "title": "十四、复习建议",
-          "page": 21,
           "level": 1
         }
       ]
