@@ -7,6 +7,9 @@ const categoryAccentMap = new Map(
 
 const PAGE_PRELOAD_RADIUS = 1;
 const PAGE_OBSERVER_MARGIN = "900px 0px";
+const BACKGROUND_PRELOAD_START_DELAY_MS = 1800;
+const BACKGROUND_PRELOAD_BATCH_DELAY_MS = 320;
+const BACKGROUND_PRELOAD_BATCH_SIZE = 2;
 
 const state = {
   activeDocId: null,
@@ -17,6 +20,8 @@ const state = {
   pageImageObserver: null,
   warmedImageUrls: new Set(),
   scrollSyncTimer: null,
+  backgroundPreloadTimer: null,
+  backgroundPreloadDocId: null,
 };
 
 const elements = {};
@@ -84,6 +89,26 @@ function getPrefetchPageRange(pageCount, centerPage, radius = PAGE_PRELOAD_RADIU
   const firstPage = Math.max(1, safeCenter - radius);
   const lastPage = Math.min(pageCount, safeCenter + radius);
   return Array.from({ length: lastPage - firstPage + 1 }, (_, index) => firstPage + index);
+}
+
+/**
+ * 生成后台预加载顺序：跳过当前页附近，优先加载阅读方向上的近邻页面。
+ */
+function getBackgroundPreloadPageOrder(pageCount, centerPage, radius = PAGE_PRELOAD_RADIUS) {
+  const safeCenter = Math.min(Math.max(1, centerPage), pageCount);
+  const immediatePages = new Set(getPrefetchPageRange(pageCount, safeCenter, radius));
+  return Array.from({ length: pageCount }, (_, index) => index + 1)
+    .filter((pageNumber) => !immediatePages.has(pageNumber))
+    .sort((firstPage, secondPage) => {
+      const firstDistance = Math.abs(firstPage - safeCenter);
+      const secondDistance = Math.abs(secondPage - safeCenter);
+      if (firstDistance !== secondDistance) {
+        return firstDistance - secondDistance;
+      }
+      const firstIsForward = firstPage > safeCenter ? 0 : 1;
+      const secondIsForward = secondPage > safeCenter ? 0 : 1;
+      return firstIsForward - secondIsForward || firstPage - secondPage;
+    });
 }
 
 function getActiveSection(documentItem, pageNumber = state.activePage) {
@@ -241,6 +266,7 @@ function openDocument(docId, pageNumber = 1) {
   elements.pageInput.value = String(state.activePage);
   renderPageStack(documentItem);
   warmNearbyPageImages(documentItem, state.activePage);
+  scheduleBackgroundPagePreload(documentItem, state.activePage);
   updatePageControls(documentItem);
   renderToc();
   requestAnimationFrame(() => {
@@ -254,6 +280,7 @@ function renderPageStack(documentItem) {
   if (state.renderedDocId === documentItem.id) {
     return;
   }
+  cancelBackgroundPagePreload();
   disconnectPageImageObserver();
   const fragment = document.createDocumentFragment();
   for (let pageNumber = 1; pageNumber <= documentItem.pageCount; pageNumber += 1) {
@@ -335,6 +362,44 @@ function warmNearbyPageImages(documentItem, centerPage) {
   });
 }
 
+function cancelBackgroundPagePreload() {
+  if (state.backgroundPreloadTimer) {
+    window.clearTimeout(state.backgroundPreloadTimer);
+  }
+  state.backgroundPreloadTimer = null;
+  state.backgroundPreloadDocId = null;
+}
+
+function scheduleBackgroundPagePreload(documentItem, centerPage) {
+  cancelBackgroundPagePreload();
+  const pageQueue = getBackgroundPreloadPageOrder(documentItem.pageCount, centerPage);
+  if (!pageQueue.length) {
+    return;
+  }
+  state.backgroundPreloadDocId = documentItem.id;
+
+  const loadNextBatch = () => {
+    if (state.activeDocId !== documentItem.id || state.backgroundPreloadDocId !== documentItem.id) {
+      return;
+    }
+    let loadedCount = 0;
+    while (pageQueue.length && loadedCount < BACKGROUND_PRELOAD_BATCH_SIZE) {
+      const pageNumber = pageQueue.shift();
+      const image = elements.pageStack.querySelector(`[data-page="${pageNumber}"] .page-image`);
+      if (!image || image.src) {
+        continue;
+      }
+      requestPageImageLoad(image);
+      loadedCount += 1;
+    }
+    state.backgroundPreloadTimer = pageQueue.length
+      ? window.setTimeout(loadNextBatch, BACKGROUND_PRELOAD_BATCH_DELAY_MS)
+      : null;
+  };
+
+  state.backgroundPreloadTimer = window.setTimeout(loadNextBatch, BACKGROUND_PRELOAD_START_DELAY_MS);
+}
+
 function decodePageImage(image) {
   const imageUrl = image.currentSrc || image.src || image.dataset.src;
   if (!imageUrl || state.warmedImageUrls.has(imageUrl) || typeof image.decode !== "function") {
@@ -401,6 +466,7 @@ function syncPageFromScroll() {
   if (currentPage !== state.activePage) {
     state.activePage = currentPage;
     warmNearbyPageImages(documentItem, currentPage);
+    scheduleBackgroundPagePreload(documentItem, currentPage);
     updatePageControls(documentItem);
     updateTocActiveState(documentItem);
     updateHash();
