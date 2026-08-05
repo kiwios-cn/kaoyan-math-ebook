@@ -2,7 +2,7 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-05T19:53:40+08:00",
+  "generatedAt": "2026-08-05T20:04:39+08:00",
   "stats": {
     "documents": 23,
     "pages": 289,
@@ -2754,8 +2754,8 @@ window.SEARCH_INDEX = [
     "category": "微积分",
     "page": 5,
     "heading": "一元函数微分学的应用",
-    "snippet": "三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 ...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 f x 为凸函数，常有切线不等式： f x f x 0 +f' x 0 x-x 0 例如由 f x ln x 的凹性可得 ln x x-1 quad x 0"
+    "snippet": "三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 逆向找原函数 微分证明题的常见核心是：先把待证等式化成 A x 0 ，再逆向寻找一个函数 Phi x ，使 Phi' x A x 。这样“证明存在一点使 A...",
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 三、等式与不等式证明 1. 辅助函数法 证明等式或存在性结论时，常把目标式移到一边，构造辅助函数 F x 。若能得到端点值相等，就用罗尔定理；若要比较函数值差，就用拉格朗日中值定理。 逆向找原函数 微分证明题的常见核心是：先把待证等式化成 A x 0 ，再逆向寻找一个函数 Phi x ，使 Phi' x A x 。这样“证明存在一点使 A x 0 ”就转化为“证明存在一点使 Phi' x 0 ”，通常再用 Rolle 定理；若目标是比较函数值差，则用 Lagrange 中值定理或 Cauchy 中值定理。 实战流程：移项整理 - 识别待证式是否像某个导数 - 反向凑出原函数 Phi - 检查连续、可导、端点值或区间条件 - 套 Rolle / Lagrange / Cauchy 定理。 columns: 1.55fr, 2.75fr, 2.7fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 待证结构 , 原函数构造抓手 , 常用定理 , 存在 xi 使 A xi 0 , 找 Phi' x A x ，再设法证明 Phi a Phi b , Rolle 定理 , 证明 f' xi k , 构造 Phi x f x -k x ，使 Phi' xi f' xi -k , Rolle 或 Lagrange 定理 , 出现增量比 , 先交叉相乘，把目标改写成两个函数增量之比 , Lagrange 或 Cauchy 定理 , 含积分上限 , 利用 integral a^x h t d t ' h x 把积分还原为导数 , Rolle 定理、单调性 , 含参数待定 , 先用端点、连续性或目标式确定参数，再构造 Phi , Rolle 定理、零点定理 , 最重要的判断是：待证式不要只盯着当前形式，而要问“它是谁的导数”。例如看到 f' x -k ，常想到原函数 f x -k x ；看到 x f' x -f x ，常想到 f x /x ' x f' x -f x /x^2 ；看到 f' x g x -f x g' x ，常想到 f x /g x ' 或 Wronskian 型结构。 2. 单调性法 证明 f x g x ，可令 F x f x -g x 再通过导数判断 F x 的单调性和最小值。 3. 凸性法 若 f'' x 0 ，则 f x 为凸函数，常有切线不等式： f x f x 0 +f' x 0 x-x 0 例如由 f x ln x 的凹性可得 ln x x-1 quad x 0"
   },
   {
     "id": "doc-70452ebbf4aa-p6",
