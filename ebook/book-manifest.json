@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-04T20:04:49+08:00",
+  "generatedAt": "2026-08-05T10:03:15+08:00",
   "stats": {
     "documents": 23,
-    "pages": 269,
+    "pages": 272,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -118,7 +118,7 @@
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageImageExtension": "webp",
-          "pageCount": 10,
+          "pageCount": 13,
           "sections": [
             {
               "id": "doc-31985d1e27f4-s1",
@@ -153,7 +153,7 @@
             {
               "id": "doc-31985d1e27f4-s6",
               "title": "六、典型例题",
-              "page": 10,
+              "page": 11,
               "level": 1
             }
           ]
@@ -1395,7 +1395,7 @@
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageImageExtension": "webp",
-      "pageCount": 10,
+      "pageCount": 13,
       "sections": [
         {
           "id": "doc-31985d1e27f4-s1",
@@ -1430,7 +1430,7 @@
         {
           "id": "doc-31985d1e27f4-s6",
           "title": "六、典型例题",
-          "page": 10,
+          "page": 11,
           "level": 1
         }
       ]
