@@ -2,7 +2,7 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-05T19:26:39+08:00",
+  "generatedAt": "2026-08-05T19:53:40+08:00",
   "stats": {
     "documents": 23,
     "pages": 289,
@@ -2745,7 +2745,7 @@ window.SEARCH_INDEX = [
     "page": 4,
     "heading": "一元函数微分学的应用",
     "snippet": "二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-...",
-    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-a 它把函数增量转化为某点导数乘以区间长度。 3. 柯西中值定理 若 f x ,g x 在 a,b 连续，在 a,b 可导，且 g' x ! 0 ，则存在 xi in a,b ，使 f b -f a / g b -g a f' xi / g' xi 洛必达法则可以看作柯西中值定理的应用。 4. 泰勒公式 在 x 0 附近， f x f x 0 +f' x 0 x-x 0 + f'' x 0 / 2! x-x 0 ^2+...+ f^ n x 0 / n! x-x 0 ^n+R n x 其中第 k 阶通项为 f^ k x 0 / k! x-x 0 ^k quad k 0,1,2,...,n 泰勒公式常用于极限、近似计算、不等式证明和极值判定。 中值定理选用 出现“至少存在一点使某导数为零”常想罗尔定理；出现函数值差和区间长度常想拉格朗日中值定理；出现两个函数增量之比常想柯西中值定理；出现高阶估计常想泰勒公式。"
+    "text": "Applications of Differential Calculus (一元函数微分学的应用) Applications of Differential Calculus 一元函数微分学的应用 微积分 一元函数微分学的应用 二、中值定理 1. 罗尔定理 若 f x 在 a,b 连续，在 a,b 可导，且 f a f b ，则存在 xi in a,b ，使 f' xi 0 2. 拉格朗日中值定理 若 f x 在 a,b 连续，在 a,b 可导，则存在 xi in a,b ，使 f' xi f b -f a / b-a 等价于 f b -f a f' xi b-a 它把函数增量转化为某点导数乘以区间长度。 3. 柯西中值定理 若 f x ,g x 在 a,b 连续，在 a,b 可导，且 g' x ! 0 ，则存在 xi in a,b ，使 f b -f a / g b -g a f' xi / g' xi 洛必达法则可以看作柯西中值定理的应用。 4. 泰勒公式 在 x 0 附近，Taylor 多项式的第 k 阶通项为 f^ k x 0 / k! x-x 0 ^k quad k 0,1,2,...,n 因此 n 阶 Taylor 多项式写作 T n x sum k 0 ^n f^ k x 0 / k! x-x 0 ^k 两种常用余项形式 - Peano 余项 ：若只关心 x- x 0 时的局部等价和极限计算，常写作 f x sum k 0 ^n f^ k x 0 / k! x-x 0 ^k+o x-x 0 ^n quad x- x 0 - Lagrange 余项 ：若需要估计误差、证明不等式或控制近似精度，常写作 f x sum k 0 ^n f^ k x 0 / k! x-x 0 ^k+ f^ n+1 xi / n+1 ! x-x 0 ^ n+1 其中 xi 位于 x 与 x 0 之间。 做极限题时优先使用 Peano 余项，因为它直接给出高阶无穷小；做误差估计、近似计算和不等式证明时优先使用 Lagrange 余项，因为它能把余项大小与某个高阶导数联系起来。"
   },
   {
     "id": "doc-70452ebbf4aa-p5",

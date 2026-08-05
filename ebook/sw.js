@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260805-cauchy-taylor-fix";
+const CACHE_VERSION = "20260805-taylor-remainders";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260805-cauchy-taylor-fix",
-  "./data.js?v=20260805-cauchy-taylor-fix",
-  "./app.js?v=20260805-cauchy-taylor-fix",
+  "./style.css?v=20260805-taylor-remainders",
+  "./data.js?v=20260805-taylor-remainders",
+  "./app.js?v=20260805-taylor-remainders",
 ];
 
 self.addEventListener("install", (event) => {
