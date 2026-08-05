@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260805-higher-order-derivatives";
+const CACHE_VERSION = "20260805-parity-periodicity-derivatives";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260805-higher-order-derivatives",
-  "./data.js?v=20260805-higher-order-derivatives",
-  "./app.js?v=20260805-higher-order-derivatives",
+  "./style.css?v=20260805-parity-periodicity-derivatives",
+  "./data.js?v=20260805-parity-periodicity-derivatives",
+  "./app.js?v=20260805-parity-periodicity-derivatives",
 ];
 
 self.addEventListener("install", (event) => {

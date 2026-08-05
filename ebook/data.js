@@ -2,10 +2,10 @@
 window.BOOK_MANIFEST = {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-05T10:03:15+08:00",
+  "generatedAt": "2026-08-05T10:15:49+08:00",
   "stats": {
     "documents": 23,
-    "pages": 272,
+    "pages": 273,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -119,7 +119,7 @@ window.BOOK_MANIFEST = {
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageImageExtension": "webp",
-          "pageCount": 13,
+          "pageCount": 14,
           "sections": [
             {
               "id": "doc-31985d1e27f4-s1",
@@ -154,7 +154,7 @@ window.BOOK_MANIFEST = {
             {
               "id": "doc-31985d1e27f4-s6",
               "title": "六、典型例题",
-              "page": 11,
+              "page": 12,
               "level": 1
             }
           ]
@@ -1396,7 +1396,7 @@ window.BOOK_MANIFEST = {
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageImageExtension": "webp",
-      "pageCount": 13,
+      "pageCount": 14,
       "sections": [
         {
           "id": "doc-31985d1e27f4-s1",
@@ -1431,7 +1431,7 @@ window.BOOK_MANIFEST = {
         {
           "id": "doc-31985d1e27f4-s6",
           "title": "六、典型例题",
-          "page": 11,
+          "page": 12,
           "level": 1
         }
       ]
@@ -2715,17 +2715,17 @@ window.SEARCH_INDEX = [
     "page": 9,
     "heading": "一元函数微分学的概念和计算",
     "snippet": "五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , n 阶导数 , e^ a x , a^n e^ a x , sin x , 按 sin x, cos x, -sin x, -cos x 循环 , ln 1+x , -1 ^ n-1 n-1 !/ 1+x ^n , 1/ 1-x , n!/ 1-x ^ n+1 , 3. 高阶导数计算的常见处理方法 高阶导数题先判断目标：是求一般的 f^ n x ，还是只求某点处的 f^ n x 0 。前者通常需要找规律或套公式，后者常用泰勒系数最快。 columns: 1.45fr, 2.75fr, 2.75fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 方法 , 适用结构 , 核心做法 , 直接求导找规律 , 指数、三角、简单幂函数 , 先求前几阶，观察系数、符号和周期 , 循环规律法 , sin x, cos x, e^ a x sin b x 等 , 三角函数按四阶循环；指数三角可转化为幅角循环 , 拆项与部分分式 , 有理函数、分式函数 , 先化成若干简单项，再分别求 n 阶导 , Leibniz 公式 , 两个函数乘积的 n 阶导数 , 用组合数展开，尤其适合多项式乘指数或三角 , 泰勒系数法 , 只求 x 0 点处高阶导数 , 展开 f x sum a n x-x 0 ^n ，则 f^ n x 0 n! a n , 递推关系法 , 函数满足方程、隐式关系或导数能回到自身 , 由低阶导数推出高阶导数通式 , Leibniz 公式 若 u x ,v x 有足够高阶导数，则 u v ^ n sum k 0 ^n binom n,k u^ k v^ n-k 特别地，若 u x 是 m 次多项式，则 u^ k 0 当 k m ，所以求和只保留有限几项。这个特点使 x^m e^ a x 、 x^m sin x 、 x^m cos x 的高阶导数计算明显简化。 泰勒系数法 若在 x 0 附近 f x sum n 0 ^infinity a n x-x 0 ^n 则 f^ n x 0 n! a n 这个方法适合只问某点高阶导数，例如 f^ 20 0 、 f^ n 0 。不用真的求二十次导数，只要找出对应次幂的系数。 实战选择顺序 1. 若要求 f^ n x ，先求前几阶，看是否有周期、符号或系数规律。\\ 2. 若函数是乘积，尤其是一项多项式乘一个容易求高阶导的函数，优先用 Leibniz 公式。\\ 3. 若函数是有理式，先做多项式除法、拆项或部分分式，再套基本高阶导公式。\\ 4. 若只求 f^ n 0 或 f^ n x 0 ，优先考虑泰勒展开或幂级数。\\ 5. 若题目给出方程关系，例如 y' a y+b 、 F x,y 0 ，可通过递推逐阶求导。 高阶导数最常见的错误是机械反复求导而不找结构。看到 n 阶导数，第一反应应是“找通式”：能循环就循环，能拆项就拆项，能用泰勒系数就不要硬求导。"
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 五、高阶导数与常见结构 1. 高阶导数 若 f' x 仍可导，则称其导数为二阶导数： f'' x f' x ' 依次可定义 n 阶导数 f^ n x 。 2. 常见高阶导数 columns: 2fr, 2.4fr , align: center, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 函数 , n 阶导数 , e^ a x , a^n e^ a x , sin x , 按 sin x, cos x, -sin x, -cos x 循环 , ln 1+x , -1 ^ n-1 n-1 !/ 1+x ^n , 1/ 1-x , n!/ 1-x ^ n+1 , 3. 高阶导数计算的常见处理方法 高阶导数题先判断目标：是求一般的 f^ n x ，还是只求某点处的 f^ n x 0 。前者通常需要找规律或套公式，后者常用泰勒系数最快。 columns: 1.45fr, 2.75fr, 2.75fr , align: center, left, left , stroke: 0.5pt + rgb , fill: x, y if y 0 rgb else if calc.rem y, 2 0 rgb , 方法 , 适用结构 , 核心做法 , 直接求导找规律 , 指数、三角、简单幂函数 , 先求前几阶，观察系数、符号和周期 , 循环规律法 , sin x, cos x, e^ a x sin b x 等 , 三角函数按四阶循环；指数三角可转化为幅角循环 , 奇偶周期法 , 只求 0 点高阶导或三角周期结构 , 由奇偶性先判零；由周期性把阶数按循环节取模 , 拆项与部分分式 , 有理函数、分式函数 , 先化成若干简单项，再分别求 n 阶导 , Leibniz 公式 , 两个函数乘积的 n 阶导数 , 用组合数展开，尤其适合多项式乘指数或三角 , 泰勒系数法 , 只求 x 0 点处高阶导数 , 展开 f x sum a n x-x 0 ^n ，则 f^ n x 0 n! a n , 递推关系法 , 函数满足方程、隐式关系或导数能回到自身 , 由低阶导数推出高阶导数通式 , Leibniz 公式 若 u x ,v x 有足够高阶导数，则 u v ^ n sum k 0 ^n binom n,k u^ k v^ n-k 特别地，若 u x 是 m 次多项式，则 u^ k 0 当 k m ，所以求和只保留有限几项。这个特点使 x^m e^ a x 、 x^m sin x 、 x^m cos x 的高阶导数计算明显简化。 泰勒系数法 若在 x 0 附近 f x sum n 0 ^infinity a n x-x 0 ^n 则 f^ n x 0 n! a n 这个方法适合只问某点高阶导数，例如 f^ 20 0 、 f^ n 0 。不用真的求二十次导数，只要找出对应次幂的系数。 4. 奇偶性、周期性在高阶导数中的应用 奇偶性和周期性本质上不是新的求导公式，而是“先判断结构，再减少计算量”的工具。它们常用于两类问题：一类是求 x 0 处的高阶导数，另一类是三角函数或周期函数的高阶导数。 奇偶性与高阶导数 若 f x 有足够高阶导数，则： f 为偶函数 f^ n -x -1 ^n f^ n x f 为奇函数 f^ n -x -1 ^ n+1 f^ n x 因此： - 偶函数求奇数阶导数时， f^ 2 k+1 x 是奇函数，若在 0 点有定义，则 f^ 2 k+1 0 0 。 - 奇函数求偶数阶导数时， f^ 2 k x 是奇函数，若在 0 点有定义，则 f^ 2 k 0 0 。 - 用泰勒展开理解更直接：偶函数在 0 附近只含偶次幂，奇函数只含奇次幂，所以不匹配的阶数对应系数为 0 。 周期性与高阶导数 若 f x 的周期为 T ，且 f 有足够高阶导数，则 f x+T f x f^ n x+T f^ n x 特别地， sin x ^ n sin x+ n pi /2 , quad cos x ^ n cos x+ n pi /2 使用周期性时有两个“取模”： - 对自变量取模：若 f^ n 仍以 T 为周期，则可把 x 化到熟悉区间内。 - 对阶数取模：若高阶导数按若干项循环，例如 sin x 、 cos x 每 4 阶循环，则先看 n 除以 4 的余数。 做题判断流程 1. 先看函数整体奇偶性。若只求 f^ n 0 ，优先判断该阶导数在 0 点是否必为 0 。\\ 2. 再看函数是否有周期或导数循环。三角函数通常按 4 阶循环，先把阶数对 4 取余。\\ 3. 若函数是“多项式乘三角函数”，奇偶性只能辅助判零，通式仍常用 Leibniz 公式。\\ 4. 若函数不是周期函数，例如 e^ a x sin b x 且 a ! 0 ，不能说函数周期，但可用复数或幅角形式处理导数结构。 实战选择顺序 1. 若要求 f^ n x ，先求前几阶，看是否有周期、符号或系数规律。\\ 2. 若只求 x 0 处的高阶导数，先用奇偶性判断是否为 0 ，再用泰勒系数法求非零项。\\ 3. 若函数是乘积，尤其是一项多项式乘一个容易求高阶导的函数，优先用 Leibniz 公式。\\ 4. 若函数是有理式，先做多项式除法、拆项或部分分式，再套基本高阶导公式。\\ 5. 若只求 f^ n 0 或 f^ n x 0 ，优先考虑泰勒展开或幂级数。\\ 6. 若题目给出方程关系，例如 y' a y+b 、 F x,y 0 ，可通过递推逐阶求导。 高阶导数最常见的错误是机械反复求导而不找结构。看到 n 阶导数，第一反应应是“找通式”：能循环就循环，能拆项就拆项，能用泰勒系数就不要硬求导。"
   },
   {
-    "id": "doc-31985d1e27f4-p11",
+    "id": "doc-31985d1e27f4-p12",
     "docId": "doc-31985d1e27f4",
     "title": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算)",
     "category": "微积分",
-    "page": 11,
+    "page": 12,
     "heading": "一元函数微分学的概念和计算",
     "snippet": "六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 ...",
-    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 x 0+Delta x 2 x 0 例题 2：隐函数求导 题目 由方程 x^2+x y+y^2 1 确定 y y x ，求 y' 。 两边对 x 求导： 2 x+ x y '+2 y y' 0 其中 x y ' y+x y' 所以 2 x+y+x y'+2 y y' 0 整理得 x+2 y y' - 2 x+y 因此 y' - 2 x+y / x+2 y 例题 3：参数方程求导 题目 设 x t^2+1 ， y t^3-t ，求 dif y / dif x 。 有 dif x / dif t 2 t, quad dif y / dif t 3 t^2-1 当 t ! 0 时， dif y / dif x 3 t^2-1 / 2 t 例题 4：Leibniz 公式求高阶导 题目 求 y x^2 e^x 的 n 阶导数。 令 u x^2, quad v e^x 则 u' 2 x, quad u'' 2, quad u^ k 0 quad k 3 且 v^ m e^x 由 Leibniz 公式 y^ n sum k 0 ^n binom n,k u^ k v^ n-k 只需要保留 k 0,1,2 三项： y^ n x^2 e^x+n dot 2 x e^x+ n n-1 /2 dot 2 e^x 整理得 y^ n e^x x^2+2 n x+n n-1 本题总结 多项式乘指数函数时，不要反复求导。多项式高阶导会很快变成 0 ，用 Leibniz 公式只保留有限项即可。 例题 5：泰勒系数法求某点高阶导 题目 求 f x ln 1+x 在 x 0 处的 n 阶导数 f^ n 0 。 已知 ln 1+x sum m 1 ^infinity -1 ^ m-1 x^m/m quad abs x 1 因此 x^n 的系数为 a n -1 ^ n-1 /n 由泰勒系数关系 f^ n 0 n! a n 得到 f^ n 0 -1 ^ n-1 n-1 ! 本题总结 只求某一点的高阶导数时，优先看能否展开为幂级数。找到 x^n 的系数后乘以 n! ，通常比逐次求导快得多。"
+    "text": "Differential Calculus Concepts and Computation (一元函数微分学的概念和计算) Differential Calculus Concepts and Computation 一元函数微分学的概念和计算 微积分 一元函数微分学的概念和计算 六、典型例题 例题 1：导数定义 题目 设 f x x^2 ，用定义求 f' x 0 。 由定义 f' x 0 lim Delta x- 0 x 0+Delta x ^2-x 0^2 / Delta x lim Delta x- 0 2 x 0 Delta x+ Delta x ^2 / Delta x lim Delta x- 0 2 x 0+Delta x 2 x 0 例题 2：隐函数求导 题目 由方程 x^2+x y+y^2 1 确定 y y x ，求 y' 。 两边对 x 求导： 2 x+ x y '+2 y y' 0 其中 x y ' y+x y' 所以 2 x+y+x y'+2 y y' 0 整理得 x+2 y y' - 2 x+y 因此 y' - 2 x+y / x+2 y 例题 3：参数方程求导 题目 设 x t^2+1 ， y t^3-t ，求 dif y / dif x 。 有 dif x / dif t 2 t, quad dif y / dif t 3 t^2-1 当 t ! 0 时， dif y / dif x 3 t^2-1 / 2 t 例题 4：Leibniz 公式求高阶导 题目 求 y x^2 e^x 的 n 阶导数。 令 u x^2, quad v e^x 则 u' 2 x, quad u'' 2, quad u^ k 0 quad k 3 且 v^ m e^x 由 Leibniz 公式 y^ n sum k 0 ^n binom n,k u^ k v^ n-k 只需要保留 k 0,1,2 三项： y^ n x^2 e^x+n dot 2 x e^x+ n n-1 /2 dot 2 e^x 整理得 y^ n e^x x^2+2 n x+n n-1 本题总结 多项式乘指数函数时，不要反复求导。多项式高阶导会很快变成 0 ，用 Leibniz 公式只保留有限项即可。 例题 5：泰勒系数法求某点高阶导 题目 求 f x ln 1+x 在 x 0 处的 n 阶导数 f^ n 0 。 已知 ln 1+x sum m 1 ^infinity -1 ^ m-1 x^m/m quad abs x 1 因此 x^n 的系数为 a n -1 ^ n-1 /n 由泰勒系数关系 f^ n 0 n! a n 得到 f^ n 0 -1 ^ n-1 n-1 ! 本题总结 只求某一点的高阶导数时，优先看能否展开为幂级数。找到 x^n 的系数后乘以 n! ，通常比逐次求导快得多。 例题 6：奇偶性辅助判断高阶导 题目 设 f x x sin x ，求 f^ 2025 0 与 f^ 2024 0 。 因为 x 与 sin x 都是奇函数，所以 f x x sin x 是偶函数。偶函数的奇数阶导数在 0 点为 0 ，故 f^ 2025 0 0 再用泰勒展开求偶数阶： x sin x x sum k 0 ^infinity -1 ^k x^ 2 k+1 / 2 k+1 ! sum k 0 ^infinity -1 ^k x^ 2 k+2 / 2 k+1 ! 令 2 k+2 2024 ，得 k 1011 ，所以 x^2024 的系数为 -1/2023! 。由泰勒系数法 f^ 2024 0 2024! dot -1 / 2023! -2024 本题总结 奇偶性先负责“判零”，泰勒系数法再负责“求非零值”。这比直接求 2024 阶导数更稳定。 例题 7：周期性辅助判断高阶导 题目 求 y sin x 的 2026 阶导数。 sin x 的高阶导数按四阶循环： sin x - cos x - -sin x - -cos x - sin x 因为 2026 4 dot 506+2 所以第 2026 阶对应循环中的第二个余数位置： y^ 2026 -sin x 本题总结 三角函数高阶导数不要逐阶求。先把阶数对 4 取余，再确定符号与函数类型。"
   },
   {
     "id": "doc-70452ebbf4aa-p2",
