@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-05T14:53:24+08:00",
+  "generatedAt": "2026-08-05T15:00:57+08:00",
   "stats": {
     "documents": 23,
-    "pages": 290,
+    "pages": 289,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -69,7 +69,7 @@
           "sourcePath": "typst/Sequence Limits (数列的极限).typ",
           "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
           "pageImageExtension": "webp",
-          "pageCount": 14,
+          "pageCount": 13,
           "sections": [
             {
               "id": "doc-9511fbfdb877-s1",
@@ -1346,7 +1346,7 @@
       "sourcePath": "typst/Sequence Limits (数列的极限).typ",
       "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
       "pageImageExtension": "webp",
-      "pageCount": 14,
+      "pageCount": 13,
       "sections": [
         {
           "id": "doc-9511fbfdb877-s1",
