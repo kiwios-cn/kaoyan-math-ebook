@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260805-special-second-derivatives";
+const CACHE_VERSION = "20260805-circle-limit-examples";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260805-special-second-derivatives",
-  "./data.js?v=20260805-special-second-derivatives",
-  "./app.js?v=20260805-special-second-derivatives",
+  "./style.css?v=20260805-circle-limit-examples",
+  "./data.js?v=20260805-circle-limit-examples",
+  "./app.js?v=20260805-circle-limit-examples",
 ];
 
 self.addEventListener("install", (event) => {
