@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260805-circle-limit-examples";
+const CACHE_VERSION = "20260805-image-problem-batch";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260805-circle-limit-examples",
-  "./data.js?v=20260805-circle-limit-examples",
-  "./app.js?v=20260805-circle-limit-examples",
+  "./style.css?v=20260805-image-problem-batch",
+  "./data.js?v=20260805-image-problem-batch",
+  "./app.js?v=20260805-image-problem-batch",
 ];
 
 self.addEventListener("install", (event) => {

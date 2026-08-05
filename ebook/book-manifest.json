@@ -1,10 +1,10 @@
 {
   "title": "考研数学电子书",
   "subtitle": "微积分 · 线性代数 · 概率论",
-  "generatedAt": "2026-08-05T12:56:13+08:00",
+  "generatedAt": "2026-08-05T14:53:24+08:00",
   "stats": {
     "documents": 23,
-    "pages": 280,
+    "pages": 290,
     "renderDpi": 260,
     "pageRenderer": "typst-direct-webp",
     "pageImageExtension": "webp",
@@ -26,7 +26,7 @@
           "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
           "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
           "pageImageExtension": "webp",
-          "pageCount": 19,
+          "pageCount": 23,
           "sections": [
             {
               "id": "doc-d91cdbd85352-s1",
@@ -69,7 +69,7 @@
           "sourcePath": "typst/Sequence Limits (数列的极限).typ",
           "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
           "pageImageExtension": "webp",
-          "pageCount": 12,
+          "pageCount": 14,
           "sections": [
             {
               "id": "doc-9511fbfdb877-s1",
@@ -118,7 +118,7 @@
           "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
           "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
           "pageImageExtension": "webp",
-          "pageCount": 15,
+          "pageCount": 19,
           "sections": [
             {
               "id": "doc-31985d1e27f4-s1",
@@ -1303,7 +1303,7 @@
       "sourcePath": "typst/Limits and Continuity (函数的极限与连续).typ",
       "pageImageBase": "./rendered-pages/doc-d91cdbd85352/page-",
       "pageImageExtension": "webp",
-      "pageCount": 19,
+      "pageCount": 23,
       "sections": [
         {
           "id": "doc-d91cdbd85352-s1",
@@ -1346,7 +1346,7 @@
       "sourcePath": "typst/Sequence Limits (数列的极限).typ",
       "pageImageBase": "./rendered-pages/doc-9511fbfdb877/page-",
       "pageImageExtension": "webp",
-      "pageCount": 12,
+      "pageCount": 14,
       "sections": [
         {
           "id": "doc-9511fbfdb877-s1",
@@ -1395,7 +1395,7 @@
       "sourcePath": "typst/Differential Calculus Concepts and Computation (一元函数微分学的概念和计算).typ",
       "pageImageBase": "./rendered-pages/doc-31985d1e27f4/page-",
       "pageImageExtension": "webp",
-      "pageCount": 15,
+      "pageCount": 19,
       "sections": [
         {
           "id": "doc-31985d1e27f4-s1",
