@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260805-sequence-page-fix";
+const CACHE_VERSION = "20260805-stationary-point";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260805-sequence-page-fix",
-  "./data.js?v=20260805-sequence-page-fix",
-  "./app.js?v=20260805-sequence-page-fix",
+  "./style.css?v=20260805-stationary-point",
+  "./data.js?v=20260805-stationary-point",
+  "./app.js?v=20260805-stationary-point",
 ];
 
 self.addEventListener("install", (event) => {
