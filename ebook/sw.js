@@ -1,4 +1,4 @@
-const CACHE_VERSION = "20260805-proof-antiderivative";
+const CACHE_VERSION = "20260808-second-derivative-bridge";
 const SHELL_CACHE = `kaoyan-math-ebook-shell-${CACHE_VERSION}`;
 const PAGE_CACHE = `kaoyan-math-ebook-pages-${CACHE_VERSION}`;
 const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
@@ -6,9 +6,9 @@ const ACTIVE_CACHES = new Set([SHELL_CACHE, PAGE_CACHE]);
 const SHELL_ASSETS = [
   "./",
   "./index.html",
-  "./style.css?v=20260805-proof-antiderivative",
-  "./data.js?v=20260805-proof-antiderivative",
-  "./app.js?v=20260805-proof-antiderivative",
+  "./style.css?v=20260808-second-derivative-bridge",
+  "./data.js?v=20260808-second-derivative-bridge",
+  "./app.js?v=20260808-second-derivative-bridge",
 ];
 
 self.addEventListener("install", (event) => {
